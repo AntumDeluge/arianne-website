@@ -12,6 +12,11 @@ function game_startElement($parser, $name, $attrs)
     echo "&copy; 2004 (See Authors list). Released under GNU/GPL license.\n";
     echo "<p/><h2>What is ".$attrs["NAME"]."?</h2>\n";
     }
+  else if($name=="MANUAL")
+    {
+    echo "<p/><h2>Manual</h2>\n";
+    echo "You can read the ".$content["GAME"]["NAME"]."'s manual <a href=\"?arianne_url=".$attrs["URL"]."\">here</a>";
+    }
   else if($name=="SCREENSHOTS")
     {
     echo "<p/><h2>Screenshots</h2>\n";
@@ -123,7 +128,10 @@ function server_startElement($parser, $name, $attrs)
     {
     echo "<h1>".ucfirst($attrs["NAME"])."</h1>\n";
     echo "&copy; 2004 (See Authors list). Released under GNU/GPL license.\n";
-    echo "<p/><h2>What is ".$attrs["NAME"]."?</h2>\n";
+    }
+  else if($name=="DESCRIPTION")
+    {
+    echo "<p/><h2>What is ".$content["SERVER"]["NAME"]."?</h2>\n";
     }
   else if($name=="FILES")
     {
@@ -172,6 +180,14 @@ function server_charData($parser, $data)
   global $depth, $content;
 
   if(in_array("SERVER",$depth) and in_array("DESCRIPTION",$depth))
+    {
+    if(strlen($data)>1)
+      {
+      echo $data."\n";    
+      }
+    }      
+
+  if(in_array("SERVER",$depth) and in_array("EXTENDED",$depth))
     {
     if(strlen($data)>1)
       {
