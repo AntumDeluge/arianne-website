@@ -70,7 +70,14 @@ function WriteGameBriefingHTML($game,$long_briefing)
   if($long_briefing)
     {
     echo '<table>';
-    echo '<tr><td><a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'" class="naviLight"><b>'.ucfirst($game['game']['0 attr']['name']).'</b></a>: '.$game['game']['0 attr']['shortdescription'].'</td></tr>';
+    echo '<tr><td>';
+    $time=explode("/",GameUpdateTime($game,"game"));
+    if(time()-mktime(0,0,0,$time[2],$time[1],$time[0])<15*24*60*60)
+      {
+      echo '<img src="images/updated.gif">&nbsp;&nbsp;';
+      }
+      
+    echo '<a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'" class="naviLight"><b>'.ucfirst($game['game']['0 attr']['name']).'</b></a>: '.$game['game']['0 attr']['shortdescription'].'</td></tr>';
     echo '<tr><td width="100%" valign="top">'.$game['game'][0]['description'][0].'</td>';
     echo '<td>';
     if(isset($game['game'][0]['screenshots']))
@@ -93,7 +100,14 @@ function WriteGameBriefingHTML($game,$long_briefing)
   else
     {
     echo '<table>';
-    echo '<tr><td><a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'" class="naviLight"><b>'.ucfirst($game['game']['0 attr']['name']).'</b></a></td></tr>';
+    echo '<tr><td>';
+    echo '<a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'" class="naviLight"><b>'.ucfirst($game['game']['0 attr']['name']).'</b></a>';
+    $time=explode("/",GameUpdateTime($game,"game"));
+    if(time()-mktime(0,0,0,$time[2],$time[1],$time[0])<15*24*60*60)
+      {
+      echo '&nbsp;&nbsp;<img src="images/updated.gif">';
+      }
+    echo '</td></tr>';
     echo '<tr><td>';
     if(isset($game['game'][0]['screenshots']))
       {
