@@ -2,15 +2,18 @@
 $COUNT_FILE="counter.data";
 
 $fp = fopen("$COUNT_FILE", "r+");
+if($fp==false)
+  {
+  die();
+  }
 
 $found=false;
 $copyContent=array();
 
-while(feof($fp)==false)
-  {
-  flock($fp, LOCK_EX);
-  $line = fgets($fp, 4096);
+flock($fp, LOCK_EX);
 
+while(($line = fgets($fp, 4096)))
+  {
   $content=explode("\t",$line);
   if(count($content)>1)
     {
@@ -28,7 +31,6 @@ fseek($fp,0);
 
 foreach($copyContent as $line)
   {
-  print $line.'<br>';
   fputs($fp, $line);
   }
 
