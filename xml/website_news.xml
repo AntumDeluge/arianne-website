@@ -13,6 +13,32 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.01 released</title>
+    <date>Thu, 5 Mar 2005 20:12:01</date>
+      <images> 
+        <image url="screens/stendhal/THM_20050405_stendhal.jpg"/>
+      </images>
+    <content>
+      <![CDATA[Our second release of Stendhal, and again it is not intended to be playable (<b>NO PLAYABLE</b>). You can walk, chat, collide, move from one zone to another, talk to NPC, attack other players and our dummy, but it lacks of the quality to consider it playable.<p>
+         This release also features a new map editor using <a href="http://tiled.rpgdx.net/index.html">Tiled</a> with a write only plugin to create Stendhal maps, on CVS you can access our actual maps and the tileset used to create them... help is appreciated to build bigger and better maps :) We also added a GUI to Stendhal that makes simpler to login to server, and there is a Java Webstart feature.<p>
+	 We are working 110% on creating new GFX: samoa is creating a sheep and a wolf ( you can see it at Forums ).<br>
+         Next steps are towards completing the RP system, and increasing the NPC interaction, and also fixing a strange bug that make game to work only sometimes ( most of them ).
+         On the meanwhile you would like to help us close some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalDesign">design document</a>.<p>
+         There is still no public server for Stendhal...
+         ]]>
+    </content>
+  </item>
+  <item>
+    <title>Marauroa 0.92 released</title>
+    <date>Wed, 3 Mar 2005 20:31:01</date>
+    <content>
+      <![CDATA[This release changes some interfaces to suit in a better way the game development.<br>
+         If you plan to use Marauroa, you should update to this release in order to get it working. Soon I will update the API guides to show these changes.<p>
+         You have a complete step by step guide at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa</a>
+         ]]>
+    </content>
+  </item>
+  <item>
     <title>Stendhal gets a GUI</title>
     <date>Mon, 7 Mar 2005 15:04:36</date>
       <images> 
