@@ -13,6 +13,23 @@
   </item>
   -->
   <item>
+    <title>mapacman 0.90 released: final release of mapacman</title>
+    <date>Tue, 13 Jul 2004 00:45:12 GMT</date>
+    <content>
+      <images> 
+        <image url="screens/mapacman/THM_20040712_mapacman.jpg"/>
+      </images>
+      <![CDATA[mapacman, our multiplayer online pacman clone, reaches its 0.90 version.
+      <br/>This is the last release of mapacman because as you know our goal is to 
+      create a real online multiplayer RPG and not a pacman game :)<p/>
+      Now I will start working again on gladiators to make it a real game much like a
+      simple Zelda clone. About if it is 2D or 3D is still to be decided, but it is prone
+      that i finally goes after 2D because it is simpler to implement.<p/>
+      This release features also a new ariannexp version that adds out of sync logic 
+      support at the pyarianne side.]]>
+      </content>
+  </item>
+  <item>
     <title>Marauroa 0.41 released</title>
     <date>Tue, 13 Jul 2004 00:45:12 GMT</date>
     <content>
