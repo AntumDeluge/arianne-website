@@ -50,7 +50,7 @@ game. </p>
       </td>
       <td style="vertical-align: top;">
       <p>This game's server is <b>public</b> and located at
-      <a href="http://gladiators.game-server.cc/">http://gladiators.game-server.cc</a></p>
+      <a href="http://marauroa.ath.cx/">http://marauroa.ath.cx</a></p>
 Before you can login you <b>MUST create an account</b>. <br>
       <br>
 Each account is specified by a username &amp; password. <br>
