@@ -66,11 +66,6 @@ else
   echo "<p><a href=\"index.php?arianne_url=screens/screenshots&archived=1\">Click here to see all the old images!</a>";
   }
   
-  echo '<p>';
-  foreach($_REQUEST as $i)
-    {
-    echo $i.'<br>';
-    }
 
 //******************************************************
 // This functions was named list_dir by whoever 
