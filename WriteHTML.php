@@ -1,5 +1,14 @@
 <?php
 
+function WriteMenuHTML($website)
+  {
+  foreach($website->menu->children() as $item)
+    {
+    $len=strlen($item['name']);
+    echo '<td width="'.($len>6?$len:6).'%" align="center"><a href="'.$item['url'].'" class="navi"><b>'.$item['name'].'</b></a></td><td width="10"/>';
+    }
+  }
+
 function WriteNewsHTML($website,$all)
   {
   $maxNewsItems=5;

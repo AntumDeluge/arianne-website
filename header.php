@@ -16,8 +16,11 @@
         <tr height="30">
           <td width="5"><img src="images/menubar_left.png" height="30"></td>
           <?php 
-            include('renderXML.php');
-            renderMenuXML();     
+            include_once('WriteHTML.php');
+            
+            $content=implode("",file('xml/website_menu.xml'));
+            $xml = simplexml_load_string($content);
+            WriteMenuHTML($xml);     
           ?>
           <td width="5" align="right"><img src="images/menubar_right.png"></td>
         </tr>
