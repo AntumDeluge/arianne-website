@@ -22,7 +22,6 @@
   <screenshots>
     <image name="20050218_stendhal.jpg"/>
   </screenshots>
-  <!-- 
   <files>
     <file type="source" name="stendhal-XXX.tar.gz">
       <os>
@@ -34,20 +33,21 @@
         <entry name="marauroa" url="http://arianne.sourceforge.net/?arianne_url=content/download#server"/>
       </dependencies>
     </file>
-    <file type="binary" name="stendhal-XXX.jar">
+    <file type="binary" name="stendhal-XXX.zip">
       <os>
         <entry name="win32" status="100"/>
         <entry name="linux" status="100"/>
         <entry name="macosx" status="100"/>
       </os>
     </file>
-    <file type="binary" name="stendhal-XXX_installer.exe">
+    <file type="binary" name="stendhal-server-XXX.zip">
       <os>
         <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+        <entry name="macosx" status="100"/>
       </os>
     </file>
   </files>
-  -->
   <servers>
     <server name="Public Developers Server" url="http://stendhal.game-server.cc"/>
   </servers>
