@@ -1,1 +1,1 @@
-<?php ; ?>
+<?php header("Location: http://arianne.sourceforge.net/wiki/index.php/HowToWriteGamesUsingArianne"); exit; ?>
