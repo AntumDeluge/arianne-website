@@ -15,6 +15,7 @@
     <image name="20040220_Gladiators.jpg"/>
   </screenshots>
   <files>
+    <!--
     <file type="source" name="gladiators-XXX-src.zip">
       <os>
         <entry name="win32" status="100"/>
@@ -24,6 +25,7 @@
         <entry name="ariannexp" url="http://arianne.sourceforge.net"/>
       </dependencies>
     </file>
+    -->
     <file type="binary" name="gladiators-XXX_installer.exe">
       <os>
         <entry name="win32" status="100"/>
