@@ -1,6 +1,7 @@
 <?xml version='1.0'?>
 <game name="gladiators" shortdescription="A multiplayer online gladiators combat game">
   <updated date="2004/07/06"/>
+  <broken/>
   <version id="0.08.5.3"/>  
   <description><![CDATA[ 
     You are the player, and you OWN several characters, each characters is a gladiator. 
