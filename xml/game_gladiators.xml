@@ -15,6 +15,7 @@
   </screenshots>
   <files>
     <file type="binary" name="gladiators-XXX_installer.exe">
+      <description>This file contains the gladiators Windows client. Download this to play online.</description>
       <os>
         <entry name="win32" status="100"/>
       </os>

@@ -12,6 +12,7 @@
   </description>
   <files>
     <file type="source" name="ariannexp-XXX-src.tar.gz">
+      <description>This file contains the source code to build ariannexp.</description>
       <os>
         <entry name="win32" status="100"/>
         <entry name="linux" status="100"/>
@@ -24,6 +25,7 @@
       </dependencies>
     </file>
     <file type="binary" name="pyarianne-XXX.zip">
+      <description>This file contains the compiled pyarianne library to develop new clients using python.</description>
       <os>
         <entry name="win32" status="100"/>
         <entry name="linux" status="100"/>

@@ -133,6 +133,7 @@ function WriteDownloadHTML($game, $base)
     $filename=str_replace("XXX",$game[$base][0]['version']['0 attr']['id'],$file['name']);
     echo '<b><a href="http://prdownloads.sourceforge.net/arianne/'.$filename.'?download">'.$filename.'</a></b>';
     echo '<font size="-1">('.$file['type'].') released on '.$game[$base][0]['updated']['0 attr']['date'].'</font><br>';
+    echo '<b>Description</b>: '.$file['description'][0].'<p>';
     echo 'This file is known to work on the following operating systems:<br>';
     foreach($file['os'][0]['entry'] as $key=>$worksOnOS)
       {
@@ -238,6 +239,7 @@ function WriteGameHTML($game,$base)
     $filename=str_replace("XXX",$game[$base][0]['version']['0 attr']['id'],$file['name']);
     echo '<b><a href="http://prdownloads.sourceforge.net/arianne/'.$filename.'?download">'.$filename.'</a></b>';
     echo '<font size="-1">('.$file['type'].') released on '.$game[$base][0]['updated']['0 attr']['date'].'</font><br>';
+    echo '<b>Description</b>: '.$file['description'][0].'<p>';
     echo 'This file is known to work on the following operating systems:<br>';
     foreach($file['os'][0]['entry'] as $key=>$worksOnOS)
       {

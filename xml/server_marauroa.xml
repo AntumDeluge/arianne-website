@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <server name="marauroa">
-  <updated date="2005/02/19"/>
+  <updated date="2005/03/03"/>
   <version id="0.91"/>  
   <description><![CDATA[ 
 	Marauroa is arianne's content server.
@@ -58,6 +58,7 @@
   </extended>
   <files>
     <file type="source" name="marauroa-XXX-src.tar.gz">
+      <description>This file contains the source code to build marauroa.</description>
       <os>
         <entry name="java" status="100"/>
       </os>
@@ -68,6 +69,7 @@
       </dependencies>
     </file>
     <file type="binary" name="marauroa-XXX.zip">
+      <description>This file contains the compiled version of marauroa plus all the dependencies buy MySQL.</description>
       <os>
         <entry name="java" status="100"/>
       </os>

@@ -31,6 +31,7 @@
   </screenshots>
   <files>
     <file type="source" name="stendhal-XXX-src.tar.gz">
+      <description>This file contains the source code to build stendhal.</description>
       <os>
         <entry name="win32" status="100"/>
         <entry name="linux" status="100"/>
@@ -41,6 +42,7 @@
       </dependencies>
     </file>
     <file type="binary" name="stendhal-XXX.zip">
+      <description>This file contains the stendhal client. Download this to play online.</description>
       <os>
         <entry name="win32" status="100"/>
         <entry name="linux" status="100"/>
@@ -48,6 +50,7 @@
       </os>
     </file>
     <file type="binary" name="stendhal-server-XXX.zip">
+      <description>This file contains the stendhal server plugin. You need marauroa in order to play correctly.</description>
       <os>
         <entry name="win32" status="100"/>
         <entry name="linux" status="100"/>
