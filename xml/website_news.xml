@@ -4,10 +4,10 @@
   <item>
     <title></title>
     <date></date>
+    <images> 
+      <image url=""/>
+    </images>
     <content>
-      <images> 
-        <image url=""/>
-      </images>
       <![CDATA[]]>
       </content>
   </item>
@@ -33,10 +33,10 @@
   <item>
     <title>Stendhal development shows first results</title>
     <date>Sat, 29 Jan 2005 13:41:51</date>
-    <content>
       <images> 
         <image url="images/articles/THM_stendhal_003.jpg"/>
       </images>
+    <content>
       <![CDATA[Stendhal is our next game to test the new exciting features in Arianne: multizones and content transfer. <p>The idea behind Stendhal is a small multiplayer action game very similar to Nintendo's Zelda.<br/> There is going to be no argument at all on it for a while, but it is a start to show that it works and works correctly.<p>Once the development is stabilized we are going to need new GFX, music and some people to write something like a plot for the game, but that time is still a bit far. <p> I will show more info when we have it working.]]>
     </content>
   </item>
@@ -72,10 +72,10 @@ of Stendhal, which has already been started.<p/> Soon I will write more about it
   <item>
     <title>mapacman 1.00 released</title>
     <date>Wed, 28 Jul 2004 18:34:48</date>
-    <content>
       <images> 
         <image url="images/articles/mapacman_gui.jpg"/>
       </images>
+    <content>
       <![CDATA[Thanks to the HUGE amount of bugs report about mapacman I have been able to do this release. Mainly I have fixed the issue that many of you pointed about GUI and I have recoded the GUI from scratch to meet the requirements.<br>
 Also Many of you had problems with timeouts, so now mapacman 
 doesn't handle timeouts, when you feel something is not working
@@ -87,10 +87,10 @@ that may be added on the next release of marauroa: no promises.]]>
   <item>
     <title>mapacman 0.90 released: final release of mapacman</title>
     <date>Tue, 13 Jul 2004 17:23:25 GMT</date>
-    <content>
       <images> 
         <image url="screens/mapacman/THM_20040712_mapacman.jpg"/>
       </images>
+    <content>
       <![CDATA[mapacman, our multiplayer online pacman clone, reaches its 0.90 version.
       <br/>This is the last release of mapacman because as you know our goal is to 
       create a real online multiplayer RPG and not a pacman game :)<p/>
@@ -127,10 +127,10 @@ that may be added on the next release of marauroa: no promises.]]>
   <item>
     <title>mapacman 0.10 released</title>
     <date>Tue, 06 Jul 2004 12:56:53 GMT</date>
-    <content>
       <images>
         <image url="screens/mapacman/THM_20040705_mapacman.jpg"/>
       </images>
+    <content>
       <![CDATA[This version of mapacman features the new walls done by 
       zzorn and adds correct scrolling. You still need to create an account at 
       <a href="http://mapacman.game-server.cc">mapacman server</a>.<p>I still 
@@ -169,10 +169,10 @@ that may be added on the next release of marauroa: no promises.]]>
   <item>
     <title>mapacman 0.02 released</title>
     <date>Tue, 8 Jun 2004 20:11:02 GMT</date>
-    <content>
       <images> 
         <image url="screens/mapacman/THM_20040608_mapacman.jpg"/>
       </images>
+    <content>
       <![CDATA[The bug about background clearing and the bug about TAB on the
       main screen were fixed. The player is now different than the rest of the pacmans,
       and they now have animations. You can see your score at the bottom of the screen.
@@ -206,10 +206,10 @@ that may be added on the next release of marauroa: no promises.]]>
   <item>
     <title>mapacman is running on linux</title>
     <date>Tue, 3 Jun 2004 16:03:24 GMT</date>
-    <content>
       <images> 
         <image url="screens/mapacman/THM_20040603_mapacman.jpg"/>
       </images>
+    <content>
       <![CDATA[
 		Although I were sure that it runs on Linux it is fun to see that it really does.<br>
 		Here you can see the screenshot as taken by keiner. In a few days I hope to be able to 
@@ -223,10 +223,10 @@ that may be added on the next release of marauroa: no promises.]]>
   <item>
     <title>mapacman is near 0.01</title>
     <date>Tue, 1 Jun 2004 01:05:41 GMT</date>
-    <content>
       <images> 
         <image url="screens/mapacman/THM_20040601_mapacman.jpg"/>
       </images>
+    <content>
       <![CDATA[mapacman continues evolving.<br>Now it is able to render the original
         pacman map, but with the extra thing that each object in screen is an Arianne RPObject,
         so everything is handled by Python code on the server using real Arianne RPObjects. 
@@ -253,10 +253,10 @@ that may be added on the next release of marauroa: no promises.]]>
   <item>
     <title>mapacman is progressing</title>
     <date>Tue, 18 May 2004 17:53:54 GMT</date>
-    <content>
       <images> 
         <image url="screens/mapacman/THM_20040517_mapacman.jpg"/>
       </images>
+    <content>
       <![CDATA[
 		No, mapacman is not vaporware. Simply that I don't have enough free time lately to work 
 		on it as much as I would need, anyway you can see here a preview of it.<br>
@@ -279,10 +279,10 @@ that may be added on the next release of marauroa: no promises.]]>
   <item>
     <title>Marauroa speeded up</title>
     <date>Tue, 14 May 2004 21:19:54 GMT</date>
-    <content>
       <images> 
         <image url="images/articles/THM_Marauroa_100Clients.png"/>
       </images>
+    <content>
       <![CDATA[
 		Today I have improved the speed of Marauroa for around 10 times faster than 
 		before by adding a cache of the static part of the perception that is send to each player.<br>
@@ -397,10 +397,10 @@ Backtracking detected --> Rotating
   <item>
     <title>MrPacman to come into Arianne :)</title>
     <date>Tue, 20 Apr 2004 20:56:02 GMT</date>
-    <content>
       <images> 
         <image url="images/articles/real_pacman.jpg"/>
       </images>
+    <content>
       <![CDATA[
 		As you know we are reaching the begining of another iteration in the Marauroa 
 		server ( you know... this is an XP development ). This new iterations add several
@@ -492,10 +492,10 @@ Backtracking detected --> Rotating
   <item>
     <title>Gladiators 0.05 released</title>
     <date>Thu, 26 Feb 2004 19:40:26 GMT</date>
-    <content>
       <images> 
         <image url="screens/gladiators/THM_20040226_Gladiators.jpg"/>
       </images>
+    <content>
       <![CDATA[
 		Again, a new version of Gladiators ( and again for windows only ).<br>This one
 		doesn't crash. I have stressed it for 4 hours and I have not been able to crash
@@ -509,10 +509,10 @@ Backtracking detected --> Rotating
   <item>
     <title>Gladiators 0.04 released</title>
     <date>Sun, 22 Feb 2004 20:28:32 GMT</date>
-    <content>
       <images> 
         <image url="screens/gladiators/THM_20040220_Gladiators.jpg"/>
       </images>
+    <content>
       <![CDATA[
 		It has been a long time since the last release but finally I have been able to 
 		add Chat and the client is stabler than ever. My new goals are to add a shop to
@@ -532,10 +532,10 @@ Backtracking detected --> Rotating
   <item>
     <title>Gladiators 0.03 released</title>
     <date>Wed, 11 Feb 2004 18:12:48 GMT</date>
-    <content>
       <images> 
         <image url="screens/gladiators/THM_20040210_2_Gladiators.jpg"/>
       </images>
+    <content>
       <![CDATA[
       	A new week, a new release! :)<br> This version of Gladiators works for sure 
       	( I have tested it several times). Please give it a try and report problems 
@@ -546,10 +546,10 @@ Backtracking detected --> Rotating
   <item>
     <title>Gladiators 0.02 and ariannexp 0.02: Arianne 0.4.2 released</title>
     <date>Fri, 06 Feb 2004 20:18:48 GMT</date>
-    <content>
       <images> 
         <image url="screens/gladiators/THM_20040206_Gladiators.jpg"/>
       </images>
+    <content>
       <![CDATA[
       	This release features better error handling, a music, a nicer mouse pointer 
       	and traces to be able to debug the application remotely. ]]>
@@ -558,10 +558,10 @@ Backtracking detected --> Rotating
   <item>
     <title>Gladiators 0.01 released</title>
     <date>Sun, 01 Feb 2004 01:53:29 GMT</date>
-    <content>
       <images> 
         <image url="screens/gladiators/THM_20040126_Gladiators.jpg"/>
       </images>
+    <content>
       <![CDATA[
 		Gladiators is a game where you are the player, and you OWN several characters,
 		each characters is a gladiator. As a gladiator your task is to fight and survive

@@ -19,7 +19,7 @@
             include_once('WriteHTML.php');
             
             $content=implode("",file('xml/website_menu.xml'));
-            $xml = simplexml_load_string($content);
+            $xml = XML_unserialize($content);
             WriteMenuHTML($xml);     
           ?>
           <td width="5" align="right"><img src="images/menubar_right.png"></td>

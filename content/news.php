@@ -67,7 +67,7 @@
         $all=isset($HTTP_GET_VARS['all']);
 
         $content=implode("",file('xml/website_news.xml'));
-        $xml = simplexml_load_string($content);
+        $xml = XML_unserialize($content);
         WriteNewsHTML($xml,$all);
        ?>
       <div align="center"><a href="?arianne_url=content/news&all=100">Read all the news items</a>

@@ -9,19 +9,19 @@ Arianne has several games available, download all them and enjoy!.<br>
 <b>NOTE:</b>To play an arianne game you need to create an account for it. Get more info at each game page.
 <?php
   include_once("renderContent.php");
-  renderDownloads("game_");
+  renderDownloads("game");
 ?>
 
 <a name="server"></a><p><h1>Server</h1>
 If you want to run your own Arianne server you need to download Marauroa.
 <?php
-  renderDownloads("server_");
+  renderDownloads("server");
 ?>
 
 <a name="engine"></a><p><h1>Client engine</h1>
 If you are developing you own game, or if you want to compile Arianne, grab the following files.
 <?php
-  renderDownloads("client_");
+  renderDownloads("client");
 ?>
 
 <a name="CVS"></a><p><h1>CVS</h1>

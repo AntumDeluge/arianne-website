@@ -14,7 +14,7 @@ function renderDownloads($type)
     if($file=='.'||$file=='..') continue;
     if(!is_dir("xml/".$file))
       {
-      if(strpos($file,$type)!==false)
+      if(strpos($file,$type.'_')!==false)
         {
         $gameList[]=$file;
         }
@@ -25,8 +25,8 @@ function renderDownloads($type)
   foreach($gameList as $file)
     {
     $content=implode("",file("xml/".$file));
-    $xml = simplexml_load_string($content);
-    WriteDownloadHTML($xml);
+    $xml = XML_unserialize($content);
+    WriteDownloadHTML($xml,$type);
     }  
   }
 
@@ -51,7 +51,7 @@ function renderGameBriefing($long_briefing=TRUE)
   foreach($gameList as $file)
     {
     $content=implode("",file("xml/".$file));
-    $xml = simplexml_load_string($content);
+    $xml = XML_unserialize($content);
     WriteGameBriefingHTML($xml,$long_briefing);
     }  
   }
