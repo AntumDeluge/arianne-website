@@ -9,6 +9,7 @@
     <entry name="Games" url="?arianne_url=content/games"/>
     <entry name="Tutorial" url="?arianne_url=docs/tutorial/HowToWriteGamesUsingArianne"/>
     <entry name="Documentation" url="?arianne_url=content/documentation"/>
+    <entry name="Wiki" url="/wiki"/>
     <entry name="Forums" url="http://sourceforge.net/forum/forum.php?forum_id=3190"/>
   </menu>
 </website>
