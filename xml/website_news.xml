@@ -13,6 +13,21 @@
   </item>
   -->
   <item>
+    <title>mapacman 1.00 released</title>
+    <date>Wed, 28 Jul 2004 18:34:48</date>
+    <content>
+      <images> 
+        <image url="images/articles/mapacman_gui.jpg"/>
+      </images>
+      <![CDATA[Thanks to the HUGE amount of bugs report about mapacman I have been able to do this release. Mainly I have fixed the issue that many of you pointed about GUI and I have recoded the GUI from scratch to meet the requirements.<br>
+Also Many of you had problems with timeouts, so now mapacman 
+doesn't handle timeouts, when you feel something is not working
+press ESC and you will be returned to the previous screen.<p>
+This released still miss the Create account from game feature
+that may be added on the next release of marauroa: no promises.]]>
+      </content>
+  </item>
+  <item>
     <title>mapacman 0.90 released: final release of mapacman</title>
     <date>Tue, 13 Jul 2004 17:23:25 GMT</date>
     <content>

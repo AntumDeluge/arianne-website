@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="mapacman">
   <updated date="2004/07/13"/>
-  <version id="0.90"/>
+  <version id="1.00"/>
   <rated>
     <entry>
       <![CDATA[
@@ -32,7 +32,7 @@
         <entry name="pyarianne" url="http://arianne.sourceforge.net"/>
       </dependencies>
     </file>
-    <file type="binary" name="mapacman-XXX.zip">
+    <file type="binary" name="mapacman-XXX_installer.exe">
       <os>
         <entry name="win32" status="100"/>
       </os>
