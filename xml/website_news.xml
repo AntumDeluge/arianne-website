@@ -13,6 +13,17 @@
   </item>
   -->
   <item>
+    <title>Marauroa 0.90 released</title>
+    <date>Wed, 19 Feb 2005 14:09:34</date>
+    <content>
+      <![CDATA[After more than six months we have at last another release of Marauroa.<br>
+         This release sucessfully implements multizone features into Marauroa and has been splitted in several different packages: client, common and server.<br>
+         Also this release features the new content streaming system that is being used in Stendhal.<p>
+         This release is <font color=red>incompatible</font> with mapacman and gladiator. We are working to recover them as soon as possible.
+        ]]>
+    </content>
+  </item>
+  <item>
     <title>Stendhal: Player can move and collide with world</title>
     <date>Wed, 16 Feb 2005 10:10:13</date>
     <content>
