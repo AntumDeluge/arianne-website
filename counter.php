@@ -5,7 +5,7 @@ $fp = fopen("$COUNT_FILE", "r+");
 if($fp==false)
   {
   die();
-  
+  }  
 
 $found=false;
 $copyContent=array();
