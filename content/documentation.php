@@ -1,14 +1,14 @@
 <h1>Documentation</h1>
 Documentation in Arianne is mainly on projects packages as text docs and 
 javadocs comments and also we keep other online live documentation on our 
-WikiWiki page at <a href="wiki" class="navi"><b>ArianneWiki</b></a>.<p/>
+WikiWiki page at <a href="wiki" class="navi"><b>ArianneWiki</b></a>. Note that a known problem with WikiWiki may require you to hit refresh multiple times before the page will load.<p/>
 
 To avoid making you lose your time I write a briefing here.<p>
 <h2>Contact information</h2>
 You can contact me, the project leader, at my email: arianne_rpg <i>at</i> users <i>tod</i> sourceforge <i>tod</i> net<br/>
 You can also contact we all at the mailing list. There are several mailing lists available:<ul>
-<li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-announce">arianne-general</a> general subjects mailing list</li>
-<li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-announce">arianne-devel</a> development talk mailing list</li>
+<li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-general">arianne-general</a> general subjects mailing list</li>
+<li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-devel">arianne-devel</a> development talk mailing list</li>
 <li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-announce">arianne-announce</a> read-only release announces mailing list</li>
 </ul>
 Alternatively you can reach us too at IRC at irc.freenode.net #arianne<br/>
