@@ -45,7 +45,7 @@ function game_startElement($parser, $name, $attrs)
     $filename=str_replace("XXX",$content["VERSION"]["ID"],$attrs["NAME"]);
     echo "<b><a href=\"http://prdownloads.sourceforge.net/arianne/".$filename."?download\">".
          $filename.
-         "</a></b> <font size=\"-1\">(".$attrs["TYPE"].")</font><br>\n";
+         "</a></b> <font size=\"-1\">(".$attrs["TYPE"].") released on ".$content["UPDATED"]["DATE"]."</font><br>\n";
     }
   else if(in_array("FILES",$depth) and in_array("FILE",$depth) and $name=="DEPENDENCIES")
     {
@@ -161,7 +161,7 @@ function server_startElement($parser, $name, $attrs)
     $filename=str_replace("XXX",$content["VERSION"]["ID"],$attrs["NAME"]);
     echo "<b><a href=\"http://prdownloads.sourceforge.net/arianne/".$filename."?download\">".
          $filename.
-         "</a></b> <font size=\"-1\">(".$attrs["TYPE"].")</font><br>\n";
+         "</a></b> <font size=\"-1\">(".$attrs["TYPE"].") released on ".$content["UPDATED"]["DATE"]."</font><br>\n";
     }
   else if(in_array("FILES",$depth) and in_array("FILE",$depth) and $name=="DEPENDENCIES")
     {
@@ -377,7 +377,7 @@ function gameDownload_startElement($parser, $name, $attrs)
     $filename=str_replace("XXX",$content["VERSION"]["ID"],$attrs["NAME"]);
     echo "<b><a href=\"http://prdownloads.sourceforge.net/arianne/".$filename."?download\">".
          $filename.
-         "</a></b> <font size=\"-1\">(".$attrs["TYPE"].")</font><br>\n";
+         "</a></b> <font size=\"-1\">(".$attrs["TYPE"].") released on ".$content["UPDATED"]["DATE"]."</font><br>\n";
     }
   else if(in_array("FILES",$depth) and in_array("FILE",$depth) and $name=="DEPENDENCIES")
     {
@@ -460,7 +460,7 @@ function serverDownload_startElement($parser, $name, $attrs)
     $filename=str_replace("XXX",$content["VERSION"]["ID"],$attrs["NAME"]);
     echo "<b><a href=\"http://prdownloads.sourceforge.net/arianne/".$filename."?download\">".
          $filename.
-         "</a></b> <font size=\"-1\">(".$attrs["TYPE"].")</font><br>\n";
+         "</a></b> <font size=\"-1\">(".$attrs["TYPE"].") released on ".$content["UPDATED"]["DATE"]."</font><br>\n";
     }
   else if(in_array("FILES",$depth) and in_array("FILE",$depth) and $name=="DEPENDENCIES")
     {

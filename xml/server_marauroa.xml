@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <server name="marauroa">
-  <updated date="2004/07/06"/>
+  <updated date="2005/02/19"/>
   <version id="0.90"/>  
   <description><![CDATA[ 
 	Marauroa is arianne's content server.
