@@ -22,7 +22,7 @@
       </os>
       <dependencies>
         <entry name="Blitz" url="http://www.blitzbasic.com/"/>
-        <entry name="ariannexp" url="http://arianne.sourceforge.net"/>
+        <entry name="ariannexp" url="http://arianne.sourceforge.net/?arianne_url=content/download#engine"/>
       </dependencies>
     </file>
     -->

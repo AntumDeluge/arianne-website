@@ -29,7 +29,7 @@
       <dependencies>
         <entry name="python" url="http://python.org"/>
         <entry name="pygame" url="http://pygame.org"/>
-        <entry name="pyarianne" url="http://arianne.sourceforge.net"/>
+        <entry name="pyarianne" url="http://arianne.sourceforge.net/?arianne_url=content/download#engine"/>
       </dependencies>
     </file>
     <file type="binary" name="mapacman-XXX_installer.exe">
