@@ -1,6 +1,31 @@
 <?php 
 include_once('WriteHTML.php');
 
+function cmp($a,$b)
+  {
+  if ($a == $b) 
+    {
+    return 0;
+    }
+  return ($a > $b) ? -1 : 1;
+  }
+ 
+function sortByDate($files)
+  {
+  $result=array();
+  
+  foreach($files as $file)
+    {
+    $content=implode("",file($file));
+    $xml = XML_unserialize($content);
+    $base=(explode("_",substr($file,strlen('xml_'))));
+    $result[GameUpdateTime($xml,$base[0])]=$file;
+    }
+    
+  usort($result,"cmp");
+  return array_values($result);
+  }
+
 /** This function renders the Download section related to games
     $type should be "game_","server_" or "client_"
     */
@@ -16,15 +41,17 @@ function renderDownloads($type)
       {
       if(strpos($file,$type.'_')!==false)
         {
-        $gameList[]=$file;
+        $gameList[]="xml/".$file;
         }
       }
     }
   closedir($handle);
+  
+  $gameList=sortByDate($gameList);
 
   foreach($gameList as $file)
     {
-    $content=implode("",file("xml/".$file));
+    $content=implode("",file($file));
     $xml = XML_unserialize($content);
     WriteDownloadHTML($xml,$type);
     }  
@@ -42,15 +69,17 @@ function renderGameBriefing($long_briefing=TRUE)
       {
       if(strpos($file,'game_')!==false)
         {
-        $gameList[]=$file;
+        $gameList[]="xml/".$file;
         }
       }
     }
   closedir($handle);
 
+  $gameList=sortByDate($gameList);
+
   foreach($gameList as $file)
     {
-    $content=implode("",file("xml/".$file));
+    $content=implode("",file($file));
     $xml = XML_unserialize($content);
     WriteGameBriefingHTML($xml,$long_briefing);
     }  

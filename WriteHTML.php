@@ -1,6 +1,11 @@
 <?php
 include_once('xml.php');
 
+function GameUpdateTime($game, $base)
+  {
+  return $game[$base][0]['updated']['0 attr']['date'];
+  }
+
 function WriteMenuHTML($website)
   {  
   foreach($website['website'][0]['menu'][0]['entry'] as $key=>$item)
@@ -161,7 +166,7 @@ function WriteDownloadHTML($game, $base)
       }
     }
   echo '</td>';
-  echo '<td>';
+  echo '<td valign=top>';
   if(isset($game[$base][0]['screenshots']))
     {
     foreach($game[$base][0]['screenshots'][0]['image'] as $image) 
