@@ -19,9 +19,10 @@
         <image url="images/articles/stendhal_gui.jpg"/>
       </images>
     <content>
-      <![CDATA[After a few weekend of work, I have added a GUI to Stendhal. It is a bit basic but useful enough to make the game playable.<p>
-         Next step is about adding attack and heal actions and make multizone works in a more intuitive way.<p>
-         BTW I keep begging for help to close these <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> :)
+      <![CDATA[After a full weekend of work, I have added a GUI to Stendhal. It is a bit basic but useful enough to make the game playable.<p>
+         Next step is about adding attack and heal actions and make multizone works in a more intuitive way.<br>The point is to add <i>*slowly*</i> new features to build a complete game as soon as possible. You can read the complete plan at our Wiki in <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalObjetive">StendhalObjetive</a><br>
+         BTW I keep begging for help to close these <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> :)<p>
+         The most important task to complete now it 100% related to GFX; we do need new GFX as explained in the Stendhal tasks.
          ]]>
     </content>
   </item>
