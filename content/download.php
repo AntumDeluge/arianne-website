@@ -23,3 +23,7 @@ If you are developing you own game, or if you want to compile Arianne, grab the 
   include_once("renderXML.php");
   renderClientDownloadsXML();
 ?>
+
+<a name="CVS"></a><p><h1>CVS</h1>
+If you need to grab the latest copy of Arianne and you can't wait for a release use CVS.<p>
+<a href="http://sourceforge.net/tracker/index.php?group_id=1111&atid=101111">http://sourceforge.net/tracker/index.php?group_id=1111&atid=101111</a>

@@ -13,10 +13,20 @@
   </item>
   -->
   <item>
+    <title>Stendhal development shows first results</title>
+    <date>Sat, 29 Jan 2005 13:41:51</date>
+    <content>
+      <images> 
+        <image url="images/articles/THM_stendhal_003.jpg"/>
+      </images>
+      <![CDATA[Stendhal is our next game to test the new exciting features in Arianne: multizones and content transfer. The idea behind Stendhal is a small multiplayer action game very similar to Nintendo's Zelda. There is going to be no argument at all on it for a while, but it is a start to show that it works and works correctly.<br/>Once the development is stabilized we are going to need new GFX, music and some people to write something like a plot for the game, but that time is still a bit far. <br/> I will show more info when we have it working.]]>
+    </content>
+  </item>
+  <item>
     <title>Big change coming in Marauroa</title>
     <date>Fri, 14 Jan 2005 14:27:16</date>
     <content>
-      <![CDATA[Again, a few months without news of the development. Again, sorry. Development keeps moving and marauroa advances at a slow but constant speed. <br/>Waldermar ported all the code to Java 5.0 and I finally completed the change to multizone code. We both have changed the package structure of marauroa so that now it is clearer how to port it to J2ME or another language, as the server, client and commons parts are now independient packages.<p>On the client side, I will begin to write a new Java2D client for our new game, Stendhal, so I will not update ariannexp for a while.<br/> I will try also to post more news if I have spare time.]]>
+      <![CDATA[Again, a few months without news of the development. Again, sorry. Development keeps moving and marauroa advances at a slow but constant speed. <br/>Waldemar ported all the code to Java 5.0 and I finally completed the change to multizone code. We both have changed the package structure of marauroa so that now it is clearer how to port it to J2ME or another language, as the server, client and commons parts are now independient packages.<p>On the client side, I will begin to write a new Java2D client for our new game, Stendhal, so I will not update ariannexp for a while.<br/> I will try also to post more news if I have spare time.]]>
       </content>
   </item>
   <item>
