@@ -617,6 +617,17 @@ function news_endElement($parser, $name)
   unset($content[$name]);
   }
 
+
+
+
+
+
+
+
+
+
+
+/** *private* function to parse a XML file using SAX method. */
 function parseXMLFile($file, $startElementFunc, $endElementFunc, $charDataFunc)
   {
   global $depth, $content;
@@ -647,17 +658,19 @@ function parseXMLFile($file, $startElementFunc, $endElementFunc, $charDataFunc)
   xml_parser_free($xml_parser);
   }
 
-
+/** This function will render the XML game file into a Game webpage as http://arianne.sourceforge.net/?arianne_url=games/game_stendhal */
 function renderGameXML($file)
   {
   parseXMLFile($file,"game_startElement","game_endElement","game_charData");
   }
 
+/** This function will render the XML server file into a Server webpage as http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa */
 function renderServerXML()
   {
   parseXMLFile("xml/server_marauroa.xml","server_startElement","server_endElement","server_charData");
   }
 
+/** This function will render the Games box at main page */
 function renderGamesListXML()
   {
   $gameList=array();
@@ -682,6 +695,7 @@ function renderGamesListXML()
     }  
   }
 
+/** This function will render a Games webpage like http://arianne.sourceforge.net/?arianne_url=content/games */
 function renderGamesDefinitionListXML()
   {
   $gameList=array();
@@ -706,6 +720,7 @@ function renderGamesDefinitionListXML()
     }  
   }
 
+/** This function renders the Download section related to games */
 function renderGameDownloadsXML()
   {
   $gameList=array();
@@ -730,6 +745,7 @@ function renderGameDownloadsXML()
     }  
   }
 
+/** This function renders the Download section related to games */
 function renderServerDownloadsXML()
   {
   $gameList=array();
@@ -754,6 +770,7 @@ function renderServerDownloadsXML()
     }  
   }
   
+/** This function renders the Download section related to client */
 function renderClientDownloadsXML()
   {
   $gameList=array();
@@ -778,6 +795,7 @@ function renderClientDownloadsXML()
     }  
   }
 
+/** This function renders the Menu on the upper side that appears on all the webpages. */
 function renderMenuXML()
   {
   parseXMLFile("xml/website_menu.xml","menu_startElement","menu_endElement","menu_charData");
@@ -786,6 +804,7 @@ function renderMenuXML()
 $renderAllNews=false;
 $renderNewsRemaining=5;
   
+/** This function renders the News main page */
 function renderNewsXML($render_all)
   {
   global $renderAllNews, $renderNewsRemaining;
