@@ -1,1 +1,1 @@
-<?php header("Location: http://arianne.sourceforge.net/wiki/index.php/HowToWriteGamesUsingArianne"); exit; ?>
+This webpage has been moved to <a href="http://arianne.sourceforge.net/wiki/index.php/HowToWriteGamesUsingArianne">http://arianne.sourceforge.net/wiki/index.php/HowToWriteGamesUsingArianne</a>
