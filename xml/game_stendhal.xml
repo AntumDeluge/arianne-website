@@ -12,13 +12,19 @@
     </entry>
   </rated>
   <description><![CDATA[ 
-    stendhal is a <b>multiplayer</b> online adventures game like Zelda.<br/>
+    stendhal is a <b>multiplayer</b> online adventures game inspired in Acorn with the 90's Zelda look.<br/>
     Your task is to talk with other people in the village and find jobs to do that will drive to 
     interesting quests that will reveal the hidden plot behind the <i>world of stendhal</i><p>
-    In Stendhal, you can just walk around, chat with people, buy and sell items and kill some of them :)
+    In stendhal, you can <i>also</i> just walk around, chat with people, buy and sell items and kill some of them :)<br>
     Some of these people are NPC, they will give you tasks to accomplish and hints to solve your quest.<p>
-    Stendhal wants to be a reference to investigate Marauroa 1.00 features.]]>
+    stendhal is totally developed using Java and Java2D, so it is portable to anything running Java 5.0.]]>
   </description>
+  <extended><![CDATA[
+  stendhal wants to be a reference to investigate Marauroa 1.00 features.<br/>
+  The game is right now <b>NOT PLAYABLE</b> as we are working hard to implement the mentioned features.<p>
+  We would really love to get your help to complete some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">open tasks</a>.
+  ]]>
+  </extended>
   <screenshots>
     <image name="20050303_stendhal.jpg"/>
   </screenshots>

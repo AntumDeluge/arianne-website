@@ -25,6 +25,9 @@
   <item>
     <title>Stendhal 0.00 released</title>
     <date>Wed, 1 Mar 2005 20:52:47</date>
+      <images> 
+        <image url="screens/stendhal/THM_20050303_stendhal.jpg"/>
+      </images>
     <content>
       <![CDATA[This is the first relese of Stendhal. It is not intended to be playable (<b>NO PLAYABLE</b>), it is just a tech demo of where you can walk, collide and change of zone.<p>
          As you know we drive our development by the guideline:<i>release small, release often</i>. Now we will start the development of the GUI ( anyone wanna help? ) and the rest of actions to make it playable. In around 1 month the game could be really playable.<p>
