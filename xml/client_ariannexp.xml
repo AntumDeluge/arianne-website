@@ -3,10 +3,11 @@
   <updated date="2004/07/06"/>
   <version id="0.40"/>  
   <description><![CDATA[ 
-	ariannexp is arianne's framework for client developing. You will also need 
-	ariannexp in case you download games in source form to compile them on your
-	box.<br> ariannexp is coded in C++ and provides also a wrapper for Python.<p>
-	<b>NOTE:</b>You will need a good C++ compiler to build ariannexp, either GCC 3.x
+	ariannexp is arianne's framework for client developing.
+	<p/> You will also need ariannexp in case you download games in source 
+	form to compile them on your box.
+	<p/> ariannexp is coded in C++ and provides also a wrapper for Python.
+	<br/><b>NOTE:</b>You will need a good C++ compiler to build ariannexp, either GCC 3.x
 	or Visual C++ .NET. Unfortunatelly it won't compile with Visual C++ 6.0]]>
   </description>
   <files>

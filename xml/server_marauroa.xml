@@ -3,15 +3,17 @@
   <updated date="2004/07/06"/>
   <version id="0.40"/>  
   <description><![CDATA[ 
-	Marauroa is arianne's content server.<br/> It is completely written in Java 
-	using a multithreaded server architecture with a UDP oriented network 
-	protocol, a MySQL based persistence engine and a flexible game system. 
-	The game system is totally expandable and modifiable by game developers 
-	and is able to run Python scripts defining the game's rules. Marauroa 
-	is based on a design philosophy we called Action/Perception. Each turn 
-	a perception is send to the clients explaining what they currently perceive. 
+	Marauroa is arianne's content server.
+	<p/> It is completely written in Java using a multithreaded server architecture
+	with a UDP oriented network protocol, a MySQL based persistence engine and a 
+	flexible game system. 
+	<p/>The game system is totally expandable and modifiable by game developers 
+	and is able to run Python scripts defining the game's rules.
+	<p/> Marauroa is based on a design philosophy we called Action/Perception. 
+	Each turn a perception is send to the clients explaining what they currently perceive. 
 	Clients can ask the server to perform any action in their name using
-	actions. Marauroa is totally game agnostic and makes very little 
+	actions. 
+	<p/>Marauroa is totally game agnostic and makes very little 
 	assumptions about what are you trying to do, allowing a great freedom
 	to create any game type.]]>
   </description>

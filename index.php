@@ -18,6 +18,7 @@ $starttime = $starttime[1] + $starttime[0];
   <table width="100%">
   <tr><td width="100%"><?php include("header.php"); ?></td></tr>
   <tr><td width="100%"><?php include("body.php"); ?></td></tr>
+  <tr height="20"><td>&nbsp;</td></tr>
   <tr><td width="100%"><?php include("footer.php"); ?></td></tr>
   </table>
 </body>

@@ -7,7 +7,7 @@
     <content>
       <images> 
         <image url=""/>
-      </images>
+      <images>
       <![CDATA[]]>
       </content>
   </item>
@@ -30,7 +30,7 @@
     <content>
       <images>
         <image url="/screens/mapacman/THM_20040705_mapacman.jpg"/>
-      </images>
+      <images>
       <![CDATA[This version of mapacman features the new walls done by 
       zzorn and adds correct scrolling. You still need to create an account at 
       <a href="http://mapacman.game-server.cc">mapacman server</a>.<p>I still 
@@ -72,7 +72,7 @@
     <content>
       <images> 
         <image url="screens/mapacman/THM_20040608_mapacman.jpg"/>
-      </images>
+      <images>
       <![CDATA[The bug about background clearing and the bug about TAB on the
       main screen were fixed. The player is now different than the rest of the pacmans,
       and they now have animations. You can see your score at the bottom of the screen.
@@ -109,7 +109,7 @@
     <content>
       <images> 
         <image url="screens/mapacman/THM_20040603_mapacman.jpg"/>
-      </images>
+      <images>
       <![CDATA[
 		Although I were sure that it runs on Linux it is fun to see that it really does.<br>
 		Here you can see the screenshot as taken by keiner. In a few days I hope to be able to 
@@ -126,7 +126,7 @@
     <content>
       <images> 
         <image url="screens/mapacman/THM_20040601_mapacman.jpg"/>
-      </images>
+      <images>
       <![CDATA[mapacman continues evolving.<br>Now it is able to render the original
         pacman map, but with the extra thing that each object in screen is an Arianne RPObject,
         so everything is handled by Python code on the server using real Arianne RPObjects. 
@@ -156,7 +156,7 @@
     <content>
       <images> 
         <image url="screens/mapacman/THM_20040517_mapacman.jpg"/>
-      </images>
+      <images>
       <![CDATA[
 		No, mapacman is not vaporware. Simply that I don't have enough free time lately to work 
 		on it as much as I would need, anyway you can see here a preview of it.<br>
@@ -182,7 +182,7 @@
     <content>
       <images> 
         <image url="images/articles/THM_Marauroa_100Clients.png"/>
-      </images>
+      <images>
       <![CDATA[
 		Today I have improved the speed of Marauroa for around 10 times faster than 
 		before by adding a cache of the static part of the perception that is send to each player.<br>
@@ -299,8 +299,8 @@ Backtracking detected --> Rotating
     <date>Tue, 20 Apr 2004 20:56:02 GMT</date>
     <content>
       <images> 
-        <image url="/images/articles/real_pacman.jpg"/>
-      </images>
+        <image url="images/articles/real_pacman.jpg"/>
+      <images>
       <![CDATA[
 		As you know we are reaching the begining of another iteration in the Marauroa 
 		server ( you know... this is an XP development ). This new iterations add several
@@ -395,7 +395,7 @@ Backtracking detected --> Rotating
     <content>
       <images> 
         <image url="screens/gladiators/THM_20040226_Gladiators.jpg"/>
-      </images>
+      <images>
       <![CDATA[
 		Again, a new version of Gladiators ( and again for windows only ).<br>This one
 		doesn't crash. I have stressed it for 4 hours and I have not been able to crash
@@ -412,7 +412,7 @@ Backtracking detected --> Rotating
     <content>
       <images> 
         <image url="screens/gladiators/THM_20040220_Gladiators.jpg"/>
-      </images>
+      <images>
       <![CDATA[
 		It has been a long time since the last release but finally I have been able to 
 		add Chat and the client is stabler than ever. My new goals are to add a shop to
@@ -435,7 +435,7 @@ Backtracking detected --> Rotating
     <content>
       <images> 
         <image url="screens/gladiators/THM_20040210_2_Gladiators.jpg"/>
-      </images>
+      <images>
       <![CDATA[
       	A new week, a new release! :)<br> This version of Gladiators works for sure 
       	( I have tested it several times). Please give it a try and report problems 
@@ -449,7 +449,7 @@ Backtracking detected --> Rotating
     <content>
       <images> 
         <image url="screens/gladiators/THM_20040206_Gladiators.jpg"/>
-      </images>
+      <images>
       <![CDATA[
       	This release features better error handling, a music, a nicer mouse pointer 
       	and traces to be able to debug the application remotely. ]]>
@@ -461,7 +461,7 @@ Backtracking detected --> Rotating
     <content>
       <images> 
         <image url="screens/gladiators/THM_20040126_Gladiators.jpg"/>
-      </images>
+      <images>
       <![CDATA[
 		Gladiators is a game where you are the player, and you OWN several characters,
 		each characters is a gladiator. As a gladiator your task is to fight and survive

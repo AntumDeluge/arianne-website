@@ -1,7 +1,7 @@
 <h2>Documentation</h2>
 Documentation in Arianne is mainly on projects packages as text docs and 
 javadocs comments and also we keep other online live documentation on our 
-WikiWiki page at <a href="/wiki" class="navi"><b>ArianneWiki</b></a>.<p/>
+WikiWiki page at <a href="wiki" class="navi"><b>ArianneWiki</b></a>.<p/>
 
 To avoid making you lose your time I write a briefing here.<p>
 <h3>Contact information</h3>

@@ -1,7 +1,6 @@
-<p><h2>Screenshots</h2>
+<h1>Screenshots</h1>
 Here are several screenshots of our projects.<br>
 Most of them are taken from the developers version accessible through CVS.
-<p>
 
 <?php
 $scan  = array();
@@ -13,15 +12,16 @@ $scan = scan_dir("screens/");
 $dirs = $scan['directories'];
 foreach($dirs as $key => $val)
   {
-  if((isset($HTTP_GET_VARS['archived']) and $val=="screens/archived") or
-     (!isset($HTTP_GET_VARS['archived']) and $val!="screens/archived"))
+  if(((isset($HTTP_GET_VARS['archived']) and $val=="screens/archived") or
+     (!isset($HTTP_GET_VARS['archived']) and $val!="screens/archived")) and
+     ($val!="screens/CVS"))
     {
     $scan = scan_dir($val);
     $files = $scan['files'];
 
     $ab = 0;
     $dirname = substr($val,strlen("screens/"),strlen($val));
-	echo '<p><h3>'.ucfirst($dirname).'</h3><table border="0" width="100%">';
+	echo '<p><h2>'.ucfirst($dirname).'</h2><table border="0" width="100%">';
 	
 	$i=0;
 
@@ -65,27 +65,6 @@ else
   {
   echo "<p><a href=\"index.php?arianne_url=screens/screenshots&archived\">Click here to see all the old images!</a>";
   }
-
-function imageResize($width, $height, $target) { 
-
-//takes the larger size of the width and height and applies the formula accordingly...this is so this script will work dynamically with any size image 
-
-if ($width > $height) { 
-$percentage = ($target / $width); 
-} else { 
-$percentage = ($target / $height); 
-} 
-
-//gets the new value and applies the percentage, then rounds the value 
-$width = round($width * $percentage); 
-$height = round($height * $percentage); 
-
-//returns the new sizes in html image tag format...this is so you can plug this function inside an image tag and just get the 
-
-return "width=\"$width\" height=\"$height\""; 
-
-} 
-
 
 //******************************************************
 // This functions was named list_dir by whoever 
