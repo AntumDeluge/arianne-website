@@ -262,7 +262,7 @@ function gameBrief_startElement($parser, $name, $attrs)
   
   if($name=="GAME")
     {
-    echo "<table width=\"100%\"><tr><td><a href=\"?arianne_url=games/game_".$attrs["NAME"]."\" class=\"naviLight\"><b>".$attrs["NAME"]."</b></a></td></tr>\n";
+    echo "<table width=\"100%\"><tr><td><a href=\"?arianne_url=games/game_".$attrs["NAME"]."\" class=\"naviLight\"><b>".$attrs["NAME"]."</b></a>: ".$attrs["SHORTDESCRIPTION"]."</td></tr>\n";
     }
   else if(in_array("SCREENSHOTS",$depth) and $name=="IMAGE")
     {

@@ -32,6 +32,8 @@ Relevant modules are:<ul>
 <li>marauroa</li>
 <li>gladiators</li>
 <li>mapacman</li>
+<li>stendhal</li>
+<li>website</li>
 </ul>
 
 <h2>Reporting bugs</h2>

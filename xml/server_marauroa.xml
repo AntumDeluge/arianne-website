@@ -38,14 +38,23 @@
 	<li>Java 1.4 compatible</li>
 	<li>Persistent objects</li>
 	<li>Transactional relational database support</li>
-	<li>Delta and Delta-Delta Perceptions to reduce bandwidth usage</li>
-	<li>Fully test case covered using Junit</li>
+	<li>Delta and Delta<sup>2</sup> Perceptions to reduce bandwidth usage</li>
+    <li>Multiple independent zones of gameplay</li>
+    <li>Server content streaming</li>
 	<li>Turn based gameplay</li>
 	<li>Nicely documented: Design and specifications available</li>
 	<li>Based on a XP development model</li>
 	<li>Follows KISS principle: <i>Keep it simply stupid</i></li>
 	<li>True Open Source Software: GNU/GPL</li>
-	</ul> ]]>
+	</ul>
+    
+    <p><h2>Instructions</h2>
+    You should read <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">HOWTO build Marauroa</a> and
+    <a href="http://arianne.sourceforge.net/wiki/index.php/InitialStepsWithMarauroa">Initial steps with Marauroa</a> for detailed,
+    simple instructions about how to build and use marauroa.
+    
+    Remember that Marauroa is just a server middleware and so you need a game to do anything with Marauroa.
+    ]]>
   </extended>
   <files>
     <file type="source" name="marauroa-XXX.tar.gz">
@@ -63,8 +72,6 @@
         <entry name="java" status="100"/>
       </os>
       <dependencies>
-        <entry name="jython" url="http://www.jython.org"/>
-        <entry name="junit" url="http://junit.org"/>
         <entry name="MySQL" url="http://mysql.com"/>
       </dependencies>
     </file>

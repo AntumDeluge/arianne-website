@@ -7,7 +7,7 @@
     <entry name="Server" url="?arianne_url=servers/server_marauroa"/>
     <entry name="Screenshots" url="?arianne_url=screens/screenshots"/>
     <entry name="Games" url="?arianne_url=content/games"/>
-    <entry name="Tutorial" url="?arianne_url=docs/tutorial/HowToWriteGamesUsingArianne"/>
+    <entry name="Tutorial" url="http://arianne.sourceforge.net/wiki/index.php/HowToWriteGamesUsingArianne"/>
     <entry name="Documentation" url="?arianne_url=content/documentation"/>
     <entry name="Wiki" url="/wiki"/>
     <entry name="Forums" url="http://sourceforge.net/forum/forum.php?forum_id=3190"/>

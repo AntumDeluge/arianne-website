@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<game name="mapacman">
+<game name="mapacman" shortdescription="A multiplayer online Pacman game">
   <updated date="2004/07/13"/>
   <version id="1.00"/>
   <rated>
@@ -10,7 +10,7 @@
       </a>
       ]]>    
     </entry>
-  </rated>
+  </rated>  
   <description><![CDATA[ 
     mapacman is a <b>multiplayer</b> online clone of pacman.
     The goal of mapacman is to score as high as possible by eating the pills around the map.
