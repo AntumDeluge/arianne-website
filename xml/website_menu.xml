@@ -5,7 +5,7 @@
     <entry name="About" url="?arianne_url=content/about"/>
     <entry name="Screenshots" url="?arianne_url=screens/screenshots"/>
     <entry name="Downloads" url="?arianne_url=content/download"/>
-    <entry name="Server" url="?arianne_url=content/server"/>
+    <entry name="Server" url="?arianne_url=servers/server_marauroa"/>
     <entry name="Games" url="?arianne_url=content/games"/>
     <entry name="Tutorial" url="?arianne_url=docs/tutorial/HowToWriteGamesUsingArianne"/>
     <entry name="Documentation" url="?arianne_url=content/documentation"/>
