@@ -23,7 +23,7 @@ while(($line = fgets($fp, 4096)))
       $content[1]=$content[1]+1;
       }
 
-    $copyContent[]=$content[0]."\t".$content[1]."\n";
+    $copyContent[]=$content[0]."\t".$content[1];
     }
   }
 
