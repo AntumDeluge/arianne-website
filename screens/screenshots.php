@@ -12,8 +12,8 @@ $scan = scan_dir("screens/");
 $dirs = $scan['directories'];
 foreach($dirs as $key => $val)
   {
-  if(((isset($HTTP_GET_VARS['archived']) and $val=="screens/archived") or
-     (!isset($HTTP_GET_VARS['archived']) and $val!="screens/archived")) and
+  if(((isset($_REQUEST['archived']) and $val=="screens/archived") or
+     (!isset($_REQUEST['archived']) and $val!="screens/archived")) and
      ($val!="screens/CVS"))
     {
     $scan = scan_dir($val);
@@ -57,7 +57,7 @@ foreach($dirs as $key => $val)
     }
   }
 
-if(isset($HTTP_GET_VARS['archived']))
+if(isset($_REQUEST['archived']))
   {
   echo "<p><a href=\"index.php?arianne_url=screens/screenshots\">Click here to see all the news images!</a>";
   }
