@@ -46,7 +46,7 @@ foreach($dirs as $key => $val)
         $html_size = imageResize($image_size[0], $image_size[1], 150);
 
         echo "<td width=\"20%\"><a href=\"$filename1$filename2\"><img src=\"$THMfilename\" border=\"1\" ".$html_size.">";
-        echo "<br>$day/$month/$year<br></a></td>";
+        echo "<br/>$day/$month/$year</a></td>";
         $ab++;
         $i++;
         }

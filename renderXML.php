@@ -324,7 +324,7 @@ function gameDownload_startElement($parser, $name, $attrs)
   
   if($name=="GAME")
     {
-    echo "<h2>".ucfirst($attrs["NAME"])."</h2><table width=\"100%\"><tr>\n";
+    echo "<a href=\"?arianne_url=games/game_".$attrs["NAME"]."\" class=\"navi\"><h2>".ucfirst($attrs["NAME"])."</h2></a><table width=\"100%\"><tr>\n";
     }
   else if(in_array("SCREENSHOTS",$depth) and $name=="IMAGE")
     {
@@ -410,15 +410,15 @@ function serverDownload_startElement($parser, $name, $attrs)
   
   if($name=="SERVER")
     {
-    echo "<h2>".ucfirst($attrs["NAME"])."</h2><table width=\"100%\"><tr>\n";
+    echo "<h2>".ucfirst($attrs["NAME"])."</h2><table width=\"100%\"><tr valign=\"top\">\n";
     }
   if($name=="DESCRIPTION")  
     {
-    echo "<td width=\"250\">";
+    echo "<td width=\"100%\">";
     }
   else if($name=="FILES")
     {
-    echo "<td><h3>Downloads</h3>\n";
+    echo "<td><p/><h3>Downloads</h3>\n";
     echo "Please make sure to choose the file that matchs your operating system<br>\n";
     }
   else if(in_array("FILES",$depth) and $name=="FILE")
@@ -472,8 +472,8 @@ function serverDownload_endElement($parser, $name)
     }
   else if($name=="DESCRIPTION")  
     {
-    echo "</td>";
-    echo "<td width=\"20\"/>";
+    echo "</td></tr><tr>";
+    echo "";
     }
   else if($name=="FILES")  
     {
