@@ -12,10 +12,8 @@
           <td/>
           <td align="center">
             <?php
-              $all=isset($HTTP_GET_VARS['all']);
-
-              include_once('renderXML.php');
-              renderGamesListXML($all);
+            include_once("renderContent.php");
+            renderGameBriefing(false);     
             ?>
             <p class="footer"><i>(Add your game here!)</i>
           </td>
@@ -67,8 +65,10 @@
       <h1>Latest news</h1>
       <?php
         $all=isset($HTTP_GET_VARS['all']);
-        include_once('renderXML.php');
-        renderNewsXML($all);
+
+        $content=implode("",file('xml/website_news.xml'));
+        $xml = simplexml_load_string($content);
+        WriteNewsHTML($xml,$all);
        ?>
       <div align="center"><a href="?arianne_url=content/news&all=100">Read all the news items</a>
     </td>

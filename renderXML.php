@@ -2,142 +2,6 @@
 $depth=array();
 $content=array();
 
-function game_startElement($parser, $name, $attrs) 
-  {
-  global $depth, $content;
-  
-  if($name=="GAME")
-    {
-    echo "<table width=\"100%\"><tr><td><h1>".ucfirst($attrs["NAME"])."</h1>\n";
-    echo "&copy; 2004 (See Authors list). Released under GNU/GPL license.\n</td>";
-    }
-  else if($name=="RATED")
-    {
-    echo "<td align=\"right\"> Rate us at <br/>";
-    }
-  else if(in_array("GAME",$depth) and $name=="DESCRIPTION")
-    {
-    echo "<p/><h2>What is ".$content["GAME"]["NAME"]."?</h2>\n";
-    }
-  else if($name=="MANUAL")
-    {
-    echo "<p/><h2>Manual</h2>\n";
-    echo "You can read the ".$content["GAME"]["NAME"]."'s manual <a href=\"?arianne_url=".$attrs["URL"]."\">here</a>";
-    }
-  else if($name=="SCREENSHOTS")
-    {
-    echo "<p/><h2>Screenshots</h2>\n";
-    }
-  else if(in_array("SCREENSHOTS",$depth) and $name=="IMAGE")
-    {
-    echo "<a href=\"screens/".$content["GAME"]["NAME"]."/".$attrs["NAME"]."\">".
-         "<img src=\"screens/".$content["GAME"]["NAME"]."/THM_".$attrs["NAME"].
-         "\" alt=\"Screenshot of the game\" border=\"1\">".
-         "</a>\n";
-    }
-  else if($name=="FILES")
-    {
-    echo "<p/><h2>Downloads</h2>\n";
-    echo "Please make sure to choose the file that matchs your operating system<br>\n";
-    }
-  else if(in_array("FILES",$depth) and $name=="FILE")
-    {
-    $filename=str_replace("XXX",$content["VERSION"]["ID"],$attrs["NAME"]);
-    echo "<b><a href=\"http://prdownloads.sourceforge.net/arianne/".$filename."?download\">".
-         $filename.
-         "</a></b> <font size=\"-1\">(".$attrs["TYPE"].") released on ".$content["UPDATED"]["DATE"]."</font><br>\n";
-    }
-  else if(in_array("FILES",$depth) and in_array("FILE",$depth) and $name=="DEPENDENCIES")
-    {
-    echo "This file depends on:<ul>\n";
-    }
-  else if(in_array("FILES",$depth) and in_array("FILE",$depth) and in_array("DEPENDENCIES",$depth) and $name=="ENTRY")
-    {
-    echo "<li><a href=\"".$attrs["URL"]."\">".$attrs["NAME"]."</a></li>\n";
-    }
-  else if(in_array("FILES",$depth) and in_array("FILE",$depth) and $name=="OS")
-    {
-    echo "This file is known to work on the following operating systems:<br>\n";
-    }
-  else if(in_array("FILES",$depth) and in_array("FILE",$depth) and in_array("OS",$depth) and $name=="ENTRY")
-    {
-    echo "<img src=\"images/platforms/".$attrs["NAME"].".png\" border=\"1\">&nbsp;\n";
-    }
-  else if($name=="SERVERS")
-    {
-    echo "<p><h2>Online servers</h2>\n".
-    	 $content["GAME"]["NAME"]." is a online game, so you need to connect to a server.<br/>\n".
-    	 "Choose any of the followings and read the instructions there about how to get an account and connect:<ul>";
-    }
-  else if(in_array("SERVERS",$depth) and $name=="SERVER")
-    {
-    echo "<li><a href=\"".$attrs["URL"]."\">".
-         $attrs["NAME"].
-         "</a></li>\n";
-    }
-  else if($name=="AUTHORS")
-    {
-    echo "<p/><h2>Authors</h2>";
-    echo $content["GAME"]["NAME"]." has been developed by: <ul>\n";    
-    }
-  else if(in_array("AUTHORS",$depth) and $name=="ENTRY")
-    {
-    echo "<li><a href=\"".$attrs["URL"]."\">".$attrs["NAME"]."</a></li>\n";
-    }
-    
-  array_push($depth, $name);
-  $content[$name]=$attrs;
-  }
-
-function game_charData($parser, $data)
-  {
-  global $depth, $content;
-
-  if(in_array("GAME",$depth) and in_array("DESCRIPTION",$depth))
-    {
-    if(strlen($data)>1)
-      {
-      echo $data."\n";    
-      }
-    }      
-  else if(in_array("RATED",$depth) and in_array("ENTRY",$depth))
-    {
-    if(strlen($data)>1)
-      {
-      echo $data."\n";    
-      }
-    }      
-  }
-
-function game_endElement($parser, $name) 
-  {
-  global $depth, $content;
-
-  if($name=="RATED")
-    {
-    echo "</td></tr></table>";
-    }
-  else if($name=="AUTHORS")
-    {
-    echo "</ul>\n";
-    }
-  else if(in_array("FILES",$depth) and in_array("FILE",$depth) and $name=="DEPENDENCIES")
-    {
-    echo "</ul>\n";
-    }
-  else if(in_array("FILES",$depth) and in_array("FILE",$depth) and $name=="OS")
-    {
-    echo "<br/>\n";
-    }
-  else if($name=="SERVERS")
-    {
-    echo "</ul>\n";
-    }
-    
-  array_pop($depth);
-  }
-
-
 function server_startElement($parser, $name, $attrs) 
   {
   global $depth, $content;
@@ -235,25 +99,6 @@ function server_endElement($parser, $name)
   }
 
 
-function imageResize($width, $height, $target) { 
-
-//takes the larger size of the width and height and applies the formula accordingly...this is so this script will work dynamically with any size image 
-
-if ($width > $height) { 
-$percentage = ($target / $width); 
-} else { 
-$percentage = ($target / $height); 
-} 
-
-//gets the new value and applies the percentage, then rounds the value 
-$width = round($width * $percentage); 
-$height = round($height * $percentage); 
-
-//returns the new sizes in html image tag format...this is so you can plug this function inside an image tag and just get the 
-
-return "width=\"$width\" height=\"$height\""; 
-
-} 
 
 
 function gameBrief_startElement($parser, $name, $attrs) 
@@ -656,12 +501,6 @@ function parseXMLFile($file, $startElementFunc, $endElementFunc, $charDataFunc)
     }
 
   xml_parser_free($xml_parser);
-  }
-
-/** This function will render the XML game file into a Game webpage as http://arianne.sourceforge.net/?arianne_url=games/game_stendhal */
-function renderGameXML($file)
-  {
-  parseXMLFile($file,"game_startElement","game_endElement","game_charData");
   }
 
 /** This function will render the XML server file into a Server webpage as http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa */

@@ -26,11 +26,11 @@ has been <i>KISS</i>: Keep it simple, stupid!
 </ul>
 
 <p/><i>Arianne games screenshots</i>:<br>
-<table align="center"><tr><td>
-<img src="screens/gladiators/example.jpg" border="1">
-</td><td>
-<img src="screens/mapacman/example.jpg" border="1">
-</td></table>
+<table align="center"><tr>
+<td><img src="screens/gladiators/example.jpg" border="1"></td>
+<td><img src="screens/mapacman/example.jpg" border="1"></td>
+<td><img src="screens/stendhal/example.jpg" border="1"></td>
+</tr></table>
 
 <h2>How is it licensed?</h2>
 Arianne has always been an <b>Open source</b> project, written and released

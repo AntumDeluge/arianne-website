@@ -2,9 +2,6 @@
 <game name="gladiators" shortdescription="A multiplayer online gladiators combat game">
   <updated date="2004/07/06"/>
   <version id="0.08.5.3"/>  
-  <rated>
-    <entry/>
-  </rated>  
   <description><![CDATA[ 
     You are the player, and you OWN several characters, each characters is a gladiator. 
     As a gladiator your task is to fight and survive in the Arena. You can also play as a spectator,
@@ -17,17 +14,6 @@
     <image name="20040220_Gladiators.jpg"/>
   </screenshots>
   <files>
-    <!--
-    <file type="source" name="gladiators-XXX-src.zip">
-      <os>
-        <entry name="win32" status="100"/>
-      </os>
-      <dependencies>
-        <entry name="Blitz" url="http://www.blitzbasic.com/"/>
-        <entry name="ariannexp" url="http://arianne.sourceforge.net/?arianne_url=content/download#engine"/>
-      </dependencies>
-    </file>
-    -->
     <file type="binary" name="gladiators-XXX_installer.exe">
       <os>
         <entry name="win32" status="100"/>
@@ -38,7 +24,7 @@
     <server name="Public Developers Server" url="http://gladiators.game-server.cc"/>
   </servers>
   <authors>
-    <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/MiguelAngelBlanchLardin"/>
+    <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>
     <entry name="Qortra" url=""/>    
   </authors>
 </game>

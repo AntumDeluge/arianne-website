@@ -1,4 +1,8 @@
 <?php 
-include_once('renderXML.php'); 
+include_once('writeHTML.php'); 
 $name='xml/game_'.substr(strstr($_REQUEST["arianne_url"],"game_"),5).'.xml';
-renderGameXML($name); ?>
+$content=implode("",file($name));
+$xml = simplexml_load_string($content);
+
+WriteGameHTML($xml);
+?>
