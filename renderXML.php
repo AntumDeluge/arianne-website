@@ -498,8 +498,9 @@ function menu_startElement($parser, $name, $attrs)
   
   if(in_array("WEBSITE",$depth) and in_array("MENU",$depth) and $name=="ENTRY")
     {
-    $len=strlen($attrs["NAME"])*10;
-    echo "<td><a href=\"".$attrs["URL"]."\" class=\"navi\"><b>".$attrs["NAME"]."</b></a></td>\n";
+    $len=strlen($attrs["NAME"]);
+    $len=$len>6?$len:6;
+    echo "<td width=\"".$len."%\" align=\"center\"><a href=\"".$attrs["URL"]."\" class=\"navi\"><b>".$attrs["NAME"]."</b></a></td><td width=\"10\"/>\n";
     }
     
   array_push($depth, $name);

@@ -19,7 +19,7 @@
             include('renderXML.php');
             renderMenuXML();     
           ?>
-          <td width="5"><img src="images/menubar_right.png"></td>
+          <td width="5" align="right"><img src="images/menubar_right.png"></td>
         </tr>
       </table>        
     </td>
