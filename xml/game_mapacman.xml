@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<game name="mapacman">
+  <updated date="2004/07/06"/>
+  <version id="0.10"/>
+  
+  <description><![CDATA[ 
+    mapacman is a <b>multiplayer</b> online clone of pacman.
+    The goal of mapacman is to score as high as possible by eating the pills around the map.
+    You should avoid ghost because they will divide by two your score.]]>
+  </description>
+  <screenshots>
+    <image name="20040705_mapacman.jpg"/>
+  </screenshots>
+  <files>
+    <file type="source" name="mapacman-XXX.tar.gz">
+      <os>
+        <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+      </os>
+      <dependencies>
+        <entry name="python" url="http://python.org"/>
+        <entry name="pygame" url="http://pygame.org"/>
+        <entry name="pyarianne" url="http://arianne.sourceforge.net"/>
+      </dependencies>
+    </file>
+    <file type="binary" name="mapacman-XXX.zip">
+      <os>
+        <entry name="win32" status="100"/>
+      </os>
+    </file>
+  </files>
+  <servers>
+    <server name="Public Developers Server" url="http://mapacman.game-server.cc"/>
+  </servers>
+  <authors>
+    <entry name="Miguel Angel Blanch Lardin" url=""/>
+  </authors>
+</game>

@@ -1,0 +1,479 @@
+<?xml version='1.0'?>
+<website>
+  <!--
+  <item>
+    <title></title>
+    <date></date>
+    <content>
+      <images> 
+        <image url=""/>
+      </images>
+      <![CDATA[]]>
+      </content>
+  </item>
+  -->
+  <item>
+    <title>Our new website is up and running</title>
+    <date>Fri, 09 Jul 2004 12:56:53 GMT</date>
+    <content>
+      <![CDATA[It has been around 6 months and our website got outdated again.<br/>
+        So after hiring an artist for website creation guidelines we have come with 
+        this design, that reuses mostly the previous website code<p/>
+        Our goal has been to make the website clear, informative and easy to read, so 
+        please share with us your opinion at the Forum so we can all together build a 
+        better website for Arianne.]]>
+      </content>
+  </item>
+  <item>
+    <title>mapacman 0.10 released</title>
+    <date>Tue, 06 Jul 2004 12:56:53 GMT</date>
+    <content>
+      <images>
+        <image url="/screens/mapacman/THM_20040705_mapacman.jpg"/>
+      </images>
+      <![CDATA[This version of mapacman features the new walls done by 
+      zzorn and adds correct scrolling. You still need to create an account at 
+      <a href="http://mapacman.game-server.cc">mapacman server</a>.<p>I still 
+      need your bugs reports, as it is the only way of improving the game.]]>
+    </content>
+  </item>
+  <item>
+    <title>Marauroa 0.40 released</title>
+    <date>Mon, 5 Jul 2004 13:09:37 GMT</date>
+    <content><![CDATA[Marauroa is the arianne game server coded using Java and 
+      Python.<br>This release is very important for us as it consolidate all 
+      the development of the last 9 months on a very stable and advanced release
+      that adds per player synchronization, correct delta^2 perception system, 
+      classes of ingame objects and better python scripts.<p>I also remind that 
+      the tutorial is now available at 
+      <a href="http://arianne.sourceforge.net/wiki/HowToWriteGamesUsingArianne">
+      Wiki</a>]]></content>
+  </item>
+  <item>
+    <title>mapacman server will be down 24-48 hours</title>
+    <date>Thu, 1 Jul 2004 12:56:13 GMT</date>
+    <content><![CDATA[I will shutdown server to develop the next versions of both 
+      marauroa and mapacman. They should be out before Monday.<p>Sorry for the 
+      inconvenience.]]></content>
+  </item>
+  <item>
+    <title>mapacman 0.03 released</title>
+    <date>Tue, 18 Jun 2004 16:14:02 GMT</date>
+    <content><![CDATA[This new version of mapacman features a bigger map, that is 
+      around 8 times bigger than the 0.02 map, a scrollable view and new animations
+       and graphics for mapacman done by zzorn. On server side there are some changes 
+       on the way that will be released perhaps over July, 1. The most important 
+       are RPClass is finally working as expected and mapacman code has been 
+       optimized.]]></content>
+  </item>
+  <item>
+    <title>mapacman 0.02 released</title>
+    <date>Tue, 8 Jun 2004 20:11:02 GMT</date>
+    <content>
+      <images> 
+        <image url="screens/mapacman/THM_20040608_mapacman.jpg"/>
+      </images>
+      <![CDATA[The bug about background clearing and the bug about TAB on the
+      main screen were fixed. The player is now different than the rest of the pacmans,
+      and they now have animations. You can see your score at the bottom of the screen.
+      <br>By the way, take extra care with ghost it is too dangerous.<p>Next version of
+      mapacman will feature a 10 times bigger map, more ghosts and a 
+      ssssurprissssse]]></content>
+  </item>
+  <item>
+    <title>Macro release!: Marauroa, ariannexp, gladiators and mapacman</title>
+    <date>Fri, 4 Jun 2004 20:53:37 GMT</date>
+    <content>
+      <![CDATA[
+        It has been a lot of work, but finally everything is up and running:<ul>
+		<li><i>Marauroa 0.36</i> Real pacman support, improved the way password are 
+		  stored in database, speeded up marauroa to make clients see their actions 
+		  result sooner and added command line support for nullClient</li>
+		<li><i>ariannexp 0.10.1 and pyarianne 0.10.1</i> Added compressed RPMap 
+		  message support, improved autoconf and automake files and released a 
+		  compiled version of pyarianne so you can develop your own games easily.</li>
+		<li><i>Gladiators 0.08.5.3</i> Enjoy this one because it is the last version 
+		  of Gladiators released. We are actually working hard to replace it with a 
+		  python version of it that will work in a different way.</li>
+		<li><i>mapacman 0.01</i> The first mapacman release. Please give it a try 
+		  but don't eat the ghost :-)</li></ul>
+		Also I have added a Tutorial about how to create games using Arianne, please 
+		  post your questions about it on the Forum, so that working together we can 
+		  make a great document.
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>mapacman is running on linux</title>
+    <date>Tue, 3 Jun 2004 16:03:24 GMT</date>
+    <content>
+      <images> 
+        <image url="screens/mapacman/THM_20040603_mapacman.jpg"/>
+      </images>
+      <![CDATA[
+		Although I were sure that it runs on Linux it is fun to see that it really does.<br>
+		Here you can see the screenshot as taken by keiner. In a few days I hope to be able to 
+		release a first version, that is, when I complete the GUI.<p>
+		The HOWTO continue evolving into a great document at 
+		<a href="http://arianne.sourceforge.net/wiki/HowToWriteGamesUsingArianne">
+		http://arianne.sourceforge.net/wiki/HowToWriteGamesUsingArianne</a>
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>mapacman is near 0.01</title>
+    <date>Tue, 1 Jun 2004 01:05:41 GMT</date>
+    <content>
+      <images> 
+        <image url="screens/mapacman/THM_20040601_mapacman.jpg"/>
+      </images>
+      <![CDATA[mapacman continues evolving.<br>Now it is able to render the original
+        pacman map, but with the extra thing that each object in screen is an Arianne RPObject,
+        so everything is handled by Python code on the server using real Arianne RPObjects. 
+        We are using right now around 300 dots and 600 blocks representing walls. Turn times 
+        continue scaling perfectly with around 50 ms used of a turn time of 600 ms.]]>
+      </content>
+  </item>
+  <item>
+    <title>Marauroa 0.35 and ariannexp 0.10.0 released</title>
+    <date>Tue, 25 May 2004 21:48:32 GMT</date>
+    <content>
+      <![CDATA[
+		Today a major step has been taken on the Arianne development. <br>
+		ariannexp has reach it second iteration and finally pyarianne is also working on Linux.
+ 		So developing new clients and games is easier than ever, you can check it at Wiki at 
+ 		<a href="http://arianne.sourceforge.net/wiki/index.php/HowToWriteGamesUsingArianne">here</a>.<p>
+		marauroa has also being released with this version featuring support for an initial mapacman 
+		server side game and in a few days a version of mapacman client will be released.<p>
+		I am very insterested on problems with ariannexp at linux side, and would be extremly 
+		thanked if those problems are fixed as well.
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>mapacman is progressing</title>
+    <date>Tue, 18 May 2004 17:53:54 GMT</date>
+    <content>
+      <images> 
+        <image url="screens/mapacman/THM_20040517_mapacman.jpg"/>
+      </images>
+      <![CDATA[
+		No, mapacman is not vaporware. Simply that I don't have enough free time lately to work 
+		on it as much as I would need, anyway you can see here a preview of it.<br>
+		On the mean time I have documented on the <a href="/wiki">Wiki</a> the tiny API used 
+		to connect to Arianne and a example of how to use the API.<p>
+		Also remind you all that we are looking for developers for Arianne. More info 
+		<a href="http://sourceforge.net/people/?group_id=1111">here</a>
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>Marauroa 0.34 released</title>
+    <date>Tue, 18 May 2004 17:15:32 GMT</date>
+    <content>
+      <![CDATA[server now execute turns on a soft timelimit of 64-100 ms almost with around
+         128 players inside, and we have added an out of sync message so that players can 
+         request synchronization with server in case of network problems.]]>
+      </content>
+  </item>
+  <item>
+    <title>Marauroa speeded up</title>
+    <date>Tue, 14 May 2004 21:19:54 GMT</date>
+    <content>
+      <images> 
+        <image url="images/articles/THM_Marauroa_100Clients.png"/>
+      </images>
+      <![CDATA[
+		Today I have improved the speed of Marauroa for around 10 times faster than 
+		before by adding a cache of the static part of the perception that is send to each player.<br>
+		This improvement allows Marauroa to be able to handle now hundred of players on a dedicated system.<br>
+		We only need now to optimize the database subsystem to handle the amount of data.<p>
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>pyarianne, wiki and some minor things</title>
+    <date>Wed, 12 May 2004 14:59:24 GMT</date>
+    <content>
+      <![CDATA[
+		There are several things moving on arianne right now:<br>
+		pyarianne is a python wrapper module for arianne clients, so you can now develop 
+		arianne clients using Python and surely pygame :)<p>
+		We have setup a wiki to write several docs, if you think you can help us, please 
+		do it. <a href="/wiki">Wiki link</a><p>
+		Marauroa is moving also in a secure strong way, we are improving the speed of the 
+		core game and fixing several things to make it run using as less CPU as possible, 
+		so we can increase the player limit actually works correctly with around 64 players.<p>
+		On the coming weekend we perhaps do release something. Keep reading.
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>Marauroa 0.33 and Gladiators 0.08.4 released</title>
+    <date>Sat, 1 May 2004 17:37:12 GMT</date>
+    <content>
+      <![CDATA[
+		A little big step have been taken with Marauroa, this release integrate so many hot fixes 
+		and features that the list is long:<ul>
+		<li>Static part of the perception, that one that doesn't change depending of the player is
+		 precomputed, saving so many CPU cycles</li>
+		<li>Added Python RP rules system, allowing to create a simple endless system</li>
+		<li>Added mapacman game, our next milestone development</li>
+		</ul>
+		On the client side, I have been able to remove the nasty memory leak, and now client leaks 
+		nothing on the main loop<p>
+		The next release of Marauroa, will have a completly explained HOWTO write an online game 
+		using the arianne engine
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>IRC meeting</title>
+    <date>Fri, 30 Apr 2004 20:26:16 GMT</date>
+    <content>
+      <![CDATA[
+		At May, 1 - <a href="http://www.timeanddate.com/worldclock/">18:00 UTC</a> we will have 
+		an IRC meeting to talk about Arianne, Marauroa, Gladiators and mapacman state, and future 
+		path. The meeting is expected to last one hour. See you tomorrow at 
+		<a href="irc://irc.freenode.net#arianne">irc.freenode.net #arianne</a>
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>First progresses with mapacman</title>
+    <date>Tue, 28 Apr 2004 16:36:47 GMT</date>
+    <content>
+      <![CDATA[
+		On a very experimental framework, I got a pacman to run the laberinth in a more or less 
+		''inteligent'' way.<br> Now that I see that is working, I will start to port our designated 
+		existing game to use Arianne technology, and the winner is ... Njam. Njam is a a full-featured
+		cross-platform pacman-like game written in C++ using SDL library that can be found at 
+		<a href="http://njam.sourceforge.net">http://njam.sourceforge.net</a>.
+		To have a snack until a playable version arrives I send the output of actual java AI pacman client
+<pre>
+*************
+*+...***...+*
+*.**.***.**.*
+*.* ......*.*
+*.. ***** ..*
+***   *.. ***
+*   * ..*   *
+* *** *.*** *
+*+    *....C*
+*************
+Collision at S --> Goes E
+Collision at E --> Goes N
+Backtracking detected --> Rotating
+</pre>
+      ]]>
+    </content>
+  </item>
+  <item>
+    <title>Gladiators manual written</title>
+    <date>Tue, 27 Apr 2004 18:07:03 GMT</date>
+    <content>
+      <![CDATA[
+		Thanks to Steve I. , we all now have a manual for Gladiators. Please check it 
+		and as usual report any kind of problems that you may find.<p>
+		Manual is at Documentation: 
+		<a href="index.php?arianne_url=games/gladiators/gladiators_manual">manual</a>
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>Marauroa 0.32 and Gladiators 0.08.3 released</title>
+    <date>Wed, 21 Apr 2004 15:25:46 GMT</date>
+    <content>
+      <![CDATA[
+		This version of marauroa, the arianne's server, fix the bug that happens when an object 
+		is added and deleted on the same turn from a slot, adds modification of the network 
+		protocol to send our RPObject only when changed, fixed a path related problem with the 
+		create account application and finally fixed an issue that rejects the creation of 
+		database on the first run.<p>This version of gladiators, our actual client for gladiators 
+		game, updates to follow the changes on the server.
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>MrPacman to come into Arianne :)</title>
+    <date>Tue, 20 Apr 2004 20:56:02 GMT</date>
+    <content>
+      <images> 
+        <image url="/images/articles/real_pacman.jpg"/>
+      </images>
+      <![CDATA[
+		As you know we are reaching the begining of another iteration in the Marauroa 
+		server ( you know... this is an XP development ). This new iterations add several
+ 		great things as:<ul>
+		<li>a python based rules engine</li>
+		<li>a map for storing the enviroment</li>
+		<li>the new delta-delta perception system</li>
+		<li>persistent accounts world and players</li>
+		</ul>This new game will feature a total OS portability and will be based on a 
+		existing open source project, so that we show how easy is to modify an existing
+ 		game to use the Marauroa system to provide game content.
+		<p>The progress achieved with Pacman will be applied back into our Gladiators game.
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>Marauroa 0.31, Gladiators 0.08.2 and ariannexp 0.08.2 released</title>
+    <date>Wed, 14 Apr 2004 12:23:02 GMT</date>
+    <content>
+      <![CDATA[
+	 	 On my way of "release often, release big" I have released a new version of 
+	 	 Marauroa that adds the infamous delta-delta algorithm that allows to send only 
+	 	 the differences of the objects that have changed, improving so the bandwidth usage.
+	 	I also have released a working <i>( I tried them )</i> version of Gladiators 
+	 	that is self contained, although you may need to install over 0.07 to get more 
+	 	models and a new version of ariannexp that is the text test client that should 
+	 	compile and run perfectly on linux too.<p>
+	 	Why in the hell there are no progress on gameplay? Nice question, I work alone
+	 	( or better: I am working alone ) so I can't develop all by myself. 
+	 	<i>root777</i> is doing a nice job at the Java side, but the client is only handled
+	 	by me and I can't spend more time ( of what I spend now ) on it. Also our RP game
+	 	designer is MIA <i>(miss in accion)</i>, but anyway the progress should come soon.<br>
+	 	I do really need help with someone that could take care of a SDL-based graphical
+	 	client. I have to keep developing the server side of the game and I am not going 
+	 	to be able to keep in sync the client.<p>
+	 	Just step on the IRC channel or arianne-devel mailing and I will give you more info.
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>Gladiators 0.08 and ariannexp 0.08 released</title>
+    <date>Mon, 05 Apr 2004 19:34:52 GMT</date>
+    <content>
+      <![CDATA[
+		I have released a new version of Gladiators and ariannexp that keep in sync with 
+		changes on Marauroa. There aren't any gameplay improvements, but I am setting the 
+		base for a improved game that should happen soon. BTW now ariannexp is totally compilable and 
+ 		runable in Linux using autoconf. You need GCC 3.x in order to compile it.<br>
+		If you feel nice enough I would be looking for help to write a simple SDL client, 
+		I would create all the GFX for you. Just step on the IRC channel or arianne-devel 
+		mailing and I will give you more info.
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>Marauroa joined Arianne!</title>
+    <date>Sat, 27 Mar 2004 16:24:39 GMT</date>
+    <content>
+      <![CDATA[
+		Today Marauroa and Arianne have joined on the task for creating a high quality 
+		free and open source multiplayer online game. From this union we can all expect a 
+		increment in productivity that will result in more ambitious, and faster achieved ç
+		milestones.<br> Our first task is to implement the new combat system.
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>Gladiators 0.07 released</title>
+    <date>Fri, 26 Mar 2004 20:25:41 GMT</date>
+    <content>
+      <![CDATA[
+		This is also an update version of Gladiators 0.06 that add support for Marauroa's 
+		updated version of the network protocol and that fix the bug related to text output.
+		I also have changed per request the location of the text at login time so now it is
+		readable. Please test and report problems.
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>Gladiators 0.06 released</title>
+    <date>Sat, 06 Mar 2004 13:59:12 GMT</date>
+    <content>
+      <![CDATA[
+      	This is an update version of Gladiators 0.05 that add compression to the network 
+      	layer so that the bandwidth usage is smaller. Also it is the only version that 
+      	will connect to the actual server. Please test and report.]]>
+      </content>
+  </item>
+  <item>
+    <title>Gladiators 0.05 released</title>
+    <date>Thu, 26 Feb 2004 19:40:26 GMT</date>
+    <content>
+      <images> 
+        <image url="screens/gladiators/THM_20040226_Gladiators.jpg"/>
+      </images>
+      <![CDATA[
+		Again, a new version of Gladiators ( and again for windows only ).<br>This one
+		doesn't crash. I have stressed it for 4 hours and I have not been able to crash
+		it.<br>So I am really interesting on anyone's story about gladiators  problem.<p>
+		Text has been reworked so that it is more "usable" now. You may still have the
+		server unreachable problems, I promise to fix it on 0.06. Now error messages are 
+		more useful :) and finally fame has been reworked to be more fair and scalable.
+      ]]>
+      </content>
+  </item>
+  <item>
+    <title>Gladiators 0.04 released</title>
+    <date>Sun, 22 Feb 2004 20:28:32 GMT</date>
+    <content>
+      <images> 
+        <image url="screens/gladiators/THM_20040220_Gladiators.jpg"/>
+      </images>
+      <![CDATA[
+		It has been a long time since the last release but finally I have been able to 
+		add Chat and the client is stabler than ever. My new goals are to add a shop to
+		buy/sell items so that combat can be less random and more interesting.<br>
+		I have also added an update version for those of you that already has Gladiators 0.03 ]]>
+      </content>
+  </item>
+  <item>
+    <title>New website online</title>
+    <date>Sat, 20 Feb 2004 13:31:48 GMT</date>
+    <content>
+      <![CDATA[
+      I have written a new website with in invaluable of Steve. We would really love to listen
+      to comments and friendly hands to help improve even more the webpage]]>
+      </content>
+  </item>
+  <item>
+    <title>Gladiators 0.03 released</title>
+    <date>Wed, 11 Feb 2004 18:12:48 GMT</date>
+    <content>
+      <images> 
+        <image url="screens/gladiators/THM_20040210_2_Gladiators.jpg"/>
+      </images>
+      <![CDATA[
+      	A new week, a new release! :)<br> This version of Gladiators works for sure 
+      	( I have tested it several times). Please give it a try and report problems 
+      	you have and mainly features you want. <i>Yes, chat, I know. Chat is complex 
+      	so I will add in 0.04</i>]]>
+      </content>
+  </item>
+  <item>
+    <title>Gladiators 0.02 and ariannexp 0.02: Arianne 0.4.2 released</title>
+    <date>Fri, 06 Feb 2004 20:18:48 GMT</date>
+    <content>
+      <images> 
+        <image url="screens/gladiators/THM_20040206_Gladiators.jpg"/>
+      </images>
+      <![CDATA[
+      	This release features better error handling, a music, a nicer mouse pointer 
+      	and traces to be able to debug the application remotely. ]]>
+      </content>
+  </item>
+  <item>
+    <title>Gladiators 0.01 released</title>
+    <date>Sun, 01 Feb 2004 01:53:29 GMT</date>
+    <content>
+      <images> 
+        <image url="screens/gladiators/THM_20040126_Gladiators.jpg"/>
+      </images>
+      <![CDATA[
+		Gladiators is a game where you are the player, and you OWN several characters,
+		each characters is a gladiator. As a gladiator your task is to fight and survive
+		in the Arena.<br>
+		You can also play as a spectator, and join the arena to see the combat and 
+		decide the luck of the fighters, as spectator you can decide if the looser die
+		or not and the amount of fame that is assigned to each of the fighters.
+		Your main goal is to get fame so that you can buy better equipment, and better 
+		gladiators.
+		This release features better error handling, a music, a nicer mouse pointer and 
+		traces to be able to debug the application remotely.
+      ]]>
+      </content>
+  </item>
+</website>

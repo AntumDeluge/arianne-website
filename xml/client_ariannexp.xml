@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<server name="ariannexp">
+  <updated date="2004/07/06"/>
+  <version id="0.40"/>  
+  <description><![CDATA[ 
+	ariannexp is arianne's framework for client developing. You will also need 
+	ariannexp in case you download games in source form to compile them on your
+	box.<br> ariannexp is coded in C++ and provides also a wrapper for Python.<p>
+	<b>NOTE:</b>You will need a good C++ compiler to build ariannexp, either GCC 3.x
+	or Visual C++ .NET. Unfortunatelly it won't compile with Visual C++ 6.0]]>
+  </description>
+  <files>
+    <file type="source" name="ariannexp-XXX-src.tar.gz">
+      <os>
+        <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+      </os>
+      <dependencies>
+        <entry name="SDL" url="http://libsdl.org"/>
+        <entry name="SDL_net" url="http://www.libsdl.org/projects/SDL_net/"/>
+        <entry name="SWIG" url="http://www.swig.org/"/>
+        <entry name="Python" url="http://python.org"/>
+      </dependencies>
+    </file>
+    <file type="binary" name="pyarianne-XXX.zip">
+      <os>
+        <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+      </os>
+      <dependencies>
+        <entry name="SDL" url="http://libsdl.org"/>
+        <entry name="SDL_net" url="http://www.libsdl.org/projects/SDL_net/"/>
+        <entry name="Python" url="http://python.org"/>
+      </dependencies>
+    </file>
+  </files>
+  <authors>
+    <entry name="Miguel Angel Blanch Lardin" url=""/>
+    <entry name="Andre Bubel" url=""/>
+  </authors>
+</server>
