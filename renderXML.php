@@ -8,9 +8,16 @@ function game_startElement($parser, $name, $attrs)
   
   if($name=="GAME")
     {
-    echo "<h1>".ucfirst($attrs["NAME"])."</h1>\n";
-    echo "&copy; 2004 (See Authors list). Released under GNU/GPL license.\n";
-    echo "<p/><h2>What is ".$attrs["NAME"]."?</h2>\n";
+    echo "<table width=\"100%\"><tr><td><h1>".ucfirst($attrs["NAME"])."</h1>\n";
+    echo "&copy; 2004 (See Authors list). Released under GNU/GPL license.\n</td>";
+    }
+  else if($name=="RATED")
+    {
+    echo "<td align=\"right\"> Rate us at <br/>";
+    }
+  else if(in_array("GAME",$depth) and $name=="DESCRIPTION")
+    {
+    echo "<p/><h2>What is ".$content["GAME"]["NAME"]."?</h2>\n";
     }
   else if($name=="MANUAL")
     {
@@ -93,13 +100,24 @@ function game_charData($parser, $data)
       echo $data."\n";    
       }
     }      
+  else if(in_array("RATED",$depth) and in_array("ENTRY",$depth))
+    {
+    if(strlen($data)>1)
+      {
+      echo $data."\n";    
+      }
+    }      
   }
 
 function game_endElement($parser, $name) 
   {
   global $depth, $content;
 
-  if($name=="AUTHORS")
+  if($name=="RATED")
+    {
+    echo "</td></tr></table>";
+    }
+  else if($name=="AUTHORS")
     {
     echo "</ul>\n";
     }

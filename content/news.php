@@ -22,6 +22,7 @@
           <td/>
         </tr>
       </table><p>
+
       <table width="100%" bgcolor="#1B2193" STYLE="border: 2px dotted #000000;">
         <tr height="40"><td/><td align="center"/><img src="images/poweredByLogo.gif"/><td/></tr>
         <tr height="40"><td/><td align="center">
@@ -43,6 +44,16 @@
             <a href="http://www.python.org"><IMG SRC="images/partners/PythonPoweredSmall.gif" ALT="Python Logo" BORDER=0></a>
         </td><td/></tr>
         </tr>
+      </table>
+
+      <p>
+      <table width="100%" bgcolor="#1B2193" STYLE="border: 2px dotted #000000;">
+        <tr height="40"><td/><td align="center"/><img src="images/ratedAtLogo.gif"/><td/></tr>
+        <tr height="40"><td/><td align="center">
+          <a href="http://happypenguin.org/show?Arianne+RPG">
+          <img src="http://happypenguin.org/rateomatic?Arianne+RPG">
+          </a>
+        </td><td/></tr>
       </table>
       </font>
     </td>
