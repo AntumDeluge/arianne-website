@@ -13,6 +13,13 @@
   </item>
   -->
   <item>
+    <title>Big change comming in Marauroa</title>
+    <date>Fri, 14 Jan 2005 14:27:16</date>
+    <content>
+      <![CDATA[Again, a few months without news of the development. Again, sorry. Development keeps moving and marauroa advances at a slow but constant speed. <br/>Waldermar ported all the code to Java 5.0 and I finally completed the change to multizone code. We both have changed the package structure of marauroa so that now it is clearer how to port it to J2ME or another language, as the server, client and commons parts are now independient packages.<p>On the client side, I will begin to write a new Java2D client for our new game, Stendhal, so I will not update ariannexp for a while.<br/> I will try also to post more news if I have spare time.]]>
+      </content>
+  </item>
+  <item>
     <title>I am still here</title>
     <date>Wed, 11 Nov 2004 17:23:42</date>
     <content>
