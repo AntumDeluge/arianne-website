@@ -41,6 +41,7 @@
     <server name="Public Developers Server" url="http://mapacman.game-server.cc"/>
   </servers>
   <authors>
-    <entry name="Miguel Angel Blanch Lardin" url=""/>
+    <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/MiguelAngelBlanchLardin"/>
+    <entry name="Hans Häggström" url="http://www.iki.fi/zzorn/"/>
   </authors>
 </game>
