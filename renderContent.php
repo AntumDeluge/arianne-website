@@ -57,6 +57,38 @@ function renderDownloads($type)
     }  
   }
 
+function renderGameList()
+  {
+  $gameList=array();
+  $handle=opendir("xml/");
+  while (false !== ($file = readdir($handle)))
+    {
+    if($file=='.'||$file=='..') continue;
+    if(!is_dir("xml/".$file))
+      {
+      if(strpos($file,'game_')!==false)
+        {
+        $gameList[]="xml/".$file;
+        }
+      }
+    }
+  closedir($handle);
+
+  $gameList=sortByDate($gameList);
+ 
+  echo '<div id="gamelist"><ul class="menubar">';
+  
+  foreach($gameList as $file)
+    {
+    $content=implode("",file($file));
+    $xml = XML_unserialize($content);  
+    WriteGamePageListHTML( $xml ); 
+  }  
+    
+  echo '</ul></div>';    
+      
+  }
+  
 function renderGameBriefing($long_briefing=TRUE)
   {
   $gameList=array();
@@ -76,7 +108,7 @@ function renderGameBriefing($long_briefing=TRUE)
   closedir($handle);
 
   $gameList=sortByDate($gameList);
-
+  
   foreach($gameList as $file)
     {
     $content=implode("",file($file));
@@ -85,4 +117,36 @@ function renderGameBriefing($long_briefing=TRUE)
     }  
   }
   
+  
+function renderScreenshots($type, $archived=FALSE)
+{
+  $gameList=array();
+  $handle=opendir("xml/");
+  
+  while (false !== ($file = readdir($handle)))
+    {
+    if($file=='.'||$file=='..') continue;
+    if(!is_dir("xml/".$file))
+      {
+      if(strpos($file,$type.'_')!==false)
+        {
+        $gameList[]="xml/".$file;
+        }
+      }
+    }
+  closedir($handle);
+  
+  $gameList=sortByDate($gameList);
+
+  if( !$archived ) {
+  foreach($gameList as $file)
+    {
+    $content=implode("",file($file));
+    $xml = XML_unserialize($content);
+    WriteScreenshotsHTML($xml,$type, $archived);
+    }  
+  } else {
+    WriteScreenshotsHTML(0,$type, $archived);    
+  }
+}
 ?>

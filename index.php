@@ -9,17 +9,15 @@
     <link rel="stylesheet" type="text/css" href="cssdef.css">
 </head>
 
-<body bgcolor="#D3CEEC">
+<body>
 <?php
 $starttime = explode(' ', microtime());
 $starttime = $starttime[1] + $starttime[0];
 ?>
-
-  <table width="100%">
-  <tr><td width="100%"><?php include("header.php"); ?></td></tr>
-  <tr><td width="100%"><?php include("body.php"); ?></td></tr>
-  <tr height="20"><td>&nbsp;</td></tr>
-  <tr><td width="100%"><?php include("footer.php"); ?></td></tr>
-  </table>
+  
+  <div id="pageheader"><?php include("header.php"); ?></div>
+  <div id="pagemain"><?php include("body.php"); ?></div>
+  <div id="pagefooter"><?php include("footer.php"); ?></div>
+  
 </body>
 </html>

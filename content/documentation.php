@@ -1,33 +1,37 @@
-<h1>Documentation</h1>
-Documentation in Arianne is mainly on projects packages as text docs and 
+<div class="section"><h1>Documentation</h1>
+<p>Documentation in Arianne is mainly on projects packages as text docs and 
 javadocs comments and also we keep other online live documentation on our 
-WikiWiki page at <a href="wiki" class="navi"><b>ArianneWiki</b></a>. Note that a known problem with WikiWiki may require you to hit refresh multiple times before the page will load.<p/>
+WikiWiki page at <a href="wiki" class="navi"><b>ArianneWiki</b></a>. 
+Note that a known problem with WikiWiki may require you to hit refresh multiple times before the page will load.
+</p>
 
-To avoid making you lose your time I write a briefing here.<p>
+<p>To avoid making you lose your time I write a briefing here.</p>
 <h2>Contact information</h2>
-You can contact me, the project leader, at my email: arianne_rpg <i>at</i> users <i>tod</i> sourceforge <i>tod</i> net<br/>
-You can also contact we all at the mailing list. There are several mailing lists available:<ul>
+<p>You can contact me, the project leader, at my email: arianne_rpg <i>at</i> users <i>tod</i> sourceforge <i>tod</i> net<br/>
+You can also contact we all at the mailing list. There are several mailing lists available:</p>
+<ul>
 <li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-general">arianne-general</a> general subjects mailing list</li>
 <li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-devel">arianne-devel</a> development talk mailing list</li>
 <li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-announce">arianne-announce</a> read-only release announces mailing list</li>
 </ul>
-Alternatively you can reach us too at IRC at irc.freenode.net #arianne<br/>
+<p>Alternatively you can reach us too at IRC at <b>irc.freenode.net #arianne</b></p>
 
 <h2>Join/Help Arianne</h2>
-Yep, Arianne is open source and we welcome everyone willing to fight side 
-by side on our brave effort :-)<br/>
-Take a look to Sourceforge Bugs Trackers, create a new exciting game, help 
+<p>Yep, Arianne is open source and we welcome everyone willing to fight side 
+by side on our brave effort :-)</p>
+<p>Take a look to Sourceforge Bugs Trackers, create a new exciting game, help 
 fixing this website or promote Arianne all around the world are really nice
-things. Please remember to contact us if you do <i>(want to do)</i> any of them.
+things. Please remember to contact us if you do <i>(want to do)</i> any of them.</p>
 
 <h2>CVS</h2>
-We do extensive usage of CVS:<br>
+<p>We do extensive usage of CVS:</p>
 <pre>
   cvs -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/arianne login
   cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/arianne co modulename
 </pre>
-Browse online the repository <a href="http://cvs.sourceforge.net/viewcvs.py/arianne">here</a><p>
-Relevant modules are:<ul>
+<p>Browse online the repository <a href="http://cvs.sourceforge.net/viewcvs.py/arianne">here</a>
+Relevant modules are:</p>
+<ul>
 <li>ariannexp</li>
 <li>marauroa</li>
 <li>gladiators</li>
@@ -37,12 +41,12 @@ Relevant modules are:<ul>
 </ul>
 
 <h2>Reporting bugs</h2>
-Bugs are a fact of life and are always lurking somewhere in programs. To help 
+<p>Bugs are a fact of life and are always lurking somewhere in programs. To help 
 us eliminate them please report any erroneous execution by submitting Bug 
-Reports on our Sourceforge pages.
+Reports on our Sourceforge pages.</p>
 
 <h3>Before you submit:</h3>
-When creating the report please include the following information:
+<p>When creating the report please include the following information:</p>
 <ul>
   <li>The version of the package you are using, or the date you updated your CVS</li>
   <li>A detailed explanation of the problem and when it occurs</li>
@@ -50,5 +54,7 @@ When creating the report please include the following information:
   <li>The basic spec of your PC (processor, RAM, Graphics Card, Operating 
   System)</li>
 </ul>
-<a href="http://sourceforge.net/tracker/?group_id=1111&atid=101111">Click 
-here to submit a Bug</a><br>
+<p><a href="http://sourceforge.net/tracker/?group_id=1111&amp;atid=101111">Click 
+here to submit a Bug</a></p>
+
+</div>

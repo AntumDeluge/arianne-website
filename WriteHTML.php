@@ -13,7 +13,7 @@ function WriteMenuHTML($website)
     if(is_array($item))
       {
       $len=strlen($item['name']);
-      echo '<td width="'.($len>6?$len:6).'%" align="center"><a href="'.$item['url'].'" class="navi"><b>'.$item['name'].'</b></a></td><td width="10"/>';
+      echo '<li><a href="'.$item['url'].'">'.$item['name'].'</a></li>';
       }
     }
   }
@@ -22,26 +22,36 @@ function WriteNewsHTML($website,$all)
   {
   $maxNewsItems=5;
   
+  echo '<ul class="newslist">';
+  
   foreach($website['website'][0]['item'] as $key=>$item)
     {
-    if($maxNewsItems==0) return;
+    if($maxNewsItems==0) break;
     if(!$all) $maxNewsItems--;
 
-    echo '<table width="100%">';
-    echo '<tr><td><b>'.$item['title'][0].'</b></td><td align="right"><font color="#000066">'.$item['date'][0].'</font></td></tr>';
-    echo '<tr><td colspan=2>';
+
+    echo '<li><div class="newsitem"><h3>'.$item['title'][0].'</h3><p class="itemdate">'.$item['date'][0].'</p>';
+
     if(isset($item['images']))
       {
       foreach($item['images'] as $key=>$image) 
         {
         if(is_array($image))
           {
-          echo '<img src="'.$image['image']['0 attr']['url'].'" alt="Game screenshot" border="1" align="right">';
+          echo '<img src="'.$image['image']['0 attr']['url'].'" alt="Game screenshot">';
           }
         }
+        echo '<div class="newscontent_image">'.$item['content'][0].'</div><div class="clearright">&nbsp;</div></div>';
       }
-    echo $item['content'][0].'</td></tr></table><p>';
+      else
+      {
+        echo '<div class="newscontent_noimage">'.$item['content'][0].'</div><div class="clearright">&nbsp;</div></div>';
+
+      }
+      echo '</li>';
     }
+
+  echo '</ul>';  
   }
   
 function imageResize($width, $height, $target) 
@@ -65,50 +75,59 @@ function imageResize($width, $height, $target)
   return "width=\"$width\" height=\"$height\""; 
   } 
 
+  // Create the list of games on the Games page
+function WriteGamePageListHTML($game )
+  {
+    echo '<li><a href="#'.$game['game']['0 attr']['name'].'">'.ucfirst($game['game']['0 attr']['name']).'</a></li>';
+  }
+  
 function WriteGameBriefingHTML($game,$long_briefing)
   {
   if($long_briefing)
     {
-    echo '<table>';
-    echo '<tr><td>';
+    
+    echo '<div class="game_entry">';
+     
+    echo '<div class="link_title"><a name="'.$game['game']['0 attr']['name'].'"></a><h1><a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'">'.ucfirst($game['game']['0 attr']['name']).'</a></h1><p><a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'">Click here to see information about this package</a></p></div>';
+    echo '<h2>'.$game['game']['0 attr']['shortdescription'].'</h2>';
+
     $time=explode("/",GameUpdateTime($game,"game"));
     if(time()-mktime(0,0,0,$time[2],$time[1],$time[0])<15*24*60*60)
       {
-      echo '<img src="images/updated.gif">&nbsp;&nbsp;';
+      echo '<img src="images/updated.gif" class="update_image" alt="Recently Updated!">';
       }
       
-    echo '<a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'" class="naviLight"><b>'.ucfirst($game['game']['0 attr']['name']).'</b></a>: '.$game['game']['0 attr']['shortdescription'].'</td></tr>';
-    echo '<tr><td width="100%" valign="top">'.$game['game'][0]['description'][0].'</td>';
-    echo '<td>';
+    echo '<p>'.$game['game'][0]['description'][0].'</p>';
+    echo '<p><a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'">'.ucfirst($game['game']['0 attr']['name']).' - Click here to see information about this package</a></p>';
+    
     if(isset($game['game'][0]['screenshots']))
       {
       foreach($game['game'][0]['screenshots'] as $key=>$image) 
         {
         if(is_array($image))
           {
-          echo '<a href="screens/'.$game['game']['0 attr']['name'].'/'.$image['image']['0 attr']['name'].'"><img src="screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Game screenshot" border="1"></a>';
+          echo '<a href="screens/'.$game['game']['0 attr']['name'].'/'.$image['image']['0 attr']['name'].'"><img src="screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Game screenshot"></a>';
           }
         }
       }
     else
       {
       echo '&nbsp;';
-      }
-    echo '</td>';
-    echo '</tr></table>';
+      }    
+    echo '<hr></div>';
+    
     }
   else
     {
-    echo '<table>';
-    echo '<tr><td>';
-    echo '<a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'" class="naviLight"><b>'.ucfirst($game['game']['0 attr']['name']).'</b></a>';
+    echo '<li class="text">';
+    echo '<a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'" class="naviLight">'.ucfirst($game['game']['0 attr']['name']).'</a>';
     $time=explode("/",GameUpdateTime($game,"game"));
     if(time()-mktime(0,0,0,$time[2],$time[1],$time[0])<15*24*60*60)
       {
-      echo '&nbsp;&nbsp;<img src="images/updated.gif">';
+      echo '<img src="images/updated.gif" class="update_image" alt="Recently Updated">';
       }
-    echo '</td></tr>';
-    echo '<tr><td>';
+    echo '</li>';
+    echo '<li>';
     if(isset($game['game'][0]['screenshots']))
       {
       foreach($game['game'][0]['screenshots'] as $key=>$image) 
@@ -118,7 +137,7 @@ function WriteGameBriefingHTML($game,$long_briefing)
           $image_size = getimagesize('screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
           $html_size = imageResize($image_size[0], $image_size[1], 130);
         
-          echo '<a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'"><img src="screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Game screenshot" border="1" '.$html_size.'></a>';
+          echo '<a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'"><img src="screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Game screenshot" '.$html_size.'></a>';
           }
         }
       }
@@ -126,16 +145,37 @@ function WriteGameBriefingHTML($game,$long_briefing)
       {
       echo '&nbsp;';
       }
-    echo '</td></tr></table>';
+    echo '</li>';
     }
   }
 
-function WriteDownloadHTML($game, $base)
+function WriteDownloadHTML($game, $base, $section=false)
   {
-  echo '<a href="?arianne_url=games/game_'.$game[$base]['0 attr']['name'].'" class="navi"><h2>'.ucfirst($game[$base]['0 attr']['name']).'&nbsp;&nbsp;<img src="images/horizontalrule.png" width="100%" height=9></h2></a>';
-  echo '<table width="100%"><tr><td width="100%" colspan="2">'.$game[$base][0]['description'][0].'</td></tr>';
-  echo '<tr>';
-  echo '<td><h3>Downloads</h3>Please make sure to choose the file that matchs your operating system<br>';
+      
+  // section specifies if this is being called from download page or from games page
+  if( $section === false )
+  {
+    echo '<div class="download"><div class="link_title"><h2><a href="?arianne_url=games/game_'.$game[$base]['0 attr']['name'].'">'.ucfirst($game[$base]['0 attr']['name']).'</a></h2><p><a href="?arianne_url=games/game_'.$game[$base]['0 attr']['name'].'">Click here to see information about this package</a></p></div>';
+  } else {
+     echo '<h2>Download</h2><div class="download">';
+  }
+  /*if(isset($game[$base][0]['screenshots']))
+    {
+    foreach($game[$base][0]['screenshots'][0]['image'] as $image) 
+      {
+      if(is_array($image))
+        {
+        echo '<a href="screens/'.$game[$base]['0 attr']['name'].'/'.$image['name'].'"><img src="screens/'.$game[$base]['0 attr']['name'].'/THM_'.$image['name'].'" alt="Game screenshot" class="download_screenshot"></a>';
+        }
+      }
+    }
+  else
+    {
+    echo ' ';
+    }
+  */
+    
+  echo '<ul>';
   foreach(array_keys($game[$base][0]['files'][0]['file']) as $key)
     {
     if(strpos($key,"attr")!=FALSE)
@@ -150,62 +190,59 @@ function WriteDownloadHTML($game, $base)
       }
     
     $filename=str_replace("XXX",$game[$base][0]['version']['0 attr']['id'],$file['name']);
-    echo '<b><a href="http://prdownloads.sourceforge.net/arianne/'.$filename.'?download">'.$filename.'</a></b>';
-    echo '<font size="-1">('.$file['type'].') released on '.$game[$base][0]['updated']['0 attr']['date'].'</font><br>';
-    echo '<b>Description</b>: '.$file['description'][0].'<p>';
-    echo 'This file is known to work on the following operating systems:<br>';
+    if( $section === false )
+      {
+        echo '<li>';
+      } else {
+         echo '<li class="gamepage">';
+      }
+    
+    echo '<a href="http://prdownloads.sourceforge.net/arianne/'.$filename.'?download" class="download_file">'.$filename.'</a><br>';
+    echo '('.$file['type'].') released on '.$game[$base][0]['updated']['0 attr']['date'];
+    echo '<div class="filedesc"><b>Description</b>: '.$file['description'][0];
+    echo '<ul class="OS_images">';
+
     foreach($file['os'][0]['entry'] as $key=>$worksOnOS)
       {
       if(is_array($worksOnOS))
         {
-        echo '<img src="images/platforms/'.$worksOnOS['name'].'.png" border="1">&nbsp;';
+        echo '<li class="inline"><img src="images/platforms/'.$worksOnOS['name'].'.png" alt="Operating System Logo"></li>';
         }
       }
-  
+    echo '</ul>';
     if(isset($file['dependencies']))
       {
-      echo '<br>This file depends on:<ul>';
+      echo '<b>Dependancies</b>: (This file depends on)<ul class="dependancy">';
       foreach($file['dependencies'][0]['entry'] as $key=>$dependsOn)
         {
         if(is_array($dependsOn))
           {
-          echo '<li><a href="'.$dependsOn['url'].'">'.$dependsOn['name'].'</a></li>';
+          echo '<li class="inline"><a href="'.$dependsOn['url'].'">'.$dependsOn['name'].'</a></li>';
           }
         }
       echo '</ul>';
       }
     else
       {
-      echo '<p>';
+      echo ' ';
       }
-    }
-  echo '</td>';
-  echo '<td valign=top>';
-  if(isset($game[$base][0]['screenshots']))
-    {
-    foreach($game[$base][0]['screenshots'][0]['image'] as $image) 
-      {
-      if(is_array($image))
-        {
-        echo '<a href="screens/'.$game[$base]['0 attr']['name'].'/'.$image['name'].'"><img src="screens/'.$game[$base]['0 attr']['name'].'/THM_'.$image['name'].'" alt="Game screenshot" border="1"></a>';
-        }
-      }
-    }
-  else
-    {
-    echo '&nbsp;';
-    }
-  echo '</td>';
-  echo '</tr></table>';
+     
+      echo '</div></li>'; 
+   }
+  echo '</ul>';
+ 
+
+  //echo '</div>';
+  echo '<div class="clearright">&nbsp;</div></div>';
   }
 
 function WriteGameHTML($game,$base)
   {
-  echo '<table width="100%"><tr><td><h1>'.ucfirst($game[$base]['0 attr']['name']).'</h1>';
+  echo '<h1>'.ucfirst($game[$base]['0 attr']['name']).'</h1>';
   echo '&copy; 2005 (See Authors list). Released under GNU/GPL license.';
   if(isset($game[$base][0]['rated']))
     {
-    echo '</td><td align="right"> Rate us at<br> ';
+    echo ' Rate us at<br> ';
     foreach($game[$base][0]['rated'][0]['entry'] as $tag=>$rated) 
       {
       echo $rated;
@@ -216,81 +253,42 @@ function WriteGameHTML($game,$base)
     echo '&nbsp;';
     }
   
-  echo '</td></tr></table>';
   
-  echo '<p/><h2>What is '.$game[$base]['0 attr']['name'].'?</h2>'.$game[$base][0]['description'][0];
+  echo '<div class="section"><h2>What is '.$game[$base]['0 attr']['name'].'?</h2>'.$game[$base][0]['description'][0];
   if(isset($game[$base][0]['extended']))
     {
     echo $game[$base][0]['extended'][0];
     }
+    
+    echo '</div>';
   
   if(isset($game[$base][0]['manual']))
     {
-    echo '<p><h2>Manual</h2>You can read '.$game[$base]['0 attr']['name'].'\'s manual <a href="'.$game[$base][0]['manual']['0 attr']['url'].'">here</a>';
+    echo '<div class="section"><h2>Manual</h2>You can read '.$game[$base]['0 attr']['name'].'\'s manual <a href="'.$game[$base][0]['manual']['0 attr']['url'].'">here</a>';
+    echo '</div>';
     }
   
   if(isset($game[$base][0]['screenshots']))
     {
-    echo '<p><h2>Screenshots</h2>';  
+    echo '<div class="section"><h2>Screenshots</h2><ul class="screenshots">';  
+    $i = 0;
     foreach($game[$base][0]['screenshots'][0]['image'] as $key=>$image) 
       {
       if(is_array($image))
         {
-        echo '<a href="screens/'.$game[$base]['0 attr']['name'].'/'.$image['name'].'"><img src="screens/'.$game[$base]['0 attr']['name'].'/THM_'.$image['name'].'" alt="Game screenshot" border="1"></a>';
+        echo '<li><a href="screens/'.$game[$base]['0 attr']['name'].'/'.$image['name'].'"><img src="screens/'.$game[$base]['0 attr']['name'].'/THM_'.$image['name'].'" alt="Game screenshot"></a></li>';
+        $i++;
         }
+      if( $i > 4) break;
       }
-    }
-
-  echo '<p><h2>Downloads</h2>Please make sure to choose the file that matchs your operating system:<br>'; 
-  foreach(array_keys($game[$base][0]['files'][0]['file']) as $key)
-    {
-    if(strpos($key,"attr")!=FALSE)
-      {
-      continue;
-      }
-      
-    $file=$game[$base][0]['files'][0]['file'][$key];
-    foreach($game[$base][0]['files'][0]['file'][$key.' attr'] as $akey=>$avalue)
-      {
-      $file[$akey]=$avalue;
-      }
-    
-    $filename=str_replace("XXX",$game[$base][0]['version']['0 attr']['id'],$file['name']);
-    echo '<b><a href="http://prdownloads.sourceforge.net/arianne/'.$filename.'?download">'.$filename.'</a></b>';
-    echo '<font size="-1">('.$file['type'].') released on '.$game[$base][0]['updated']['0 attr']['date'].'</font><br>';
-    echo '<b>Description</b>: '.$file['description'][0].'<p>';
-    echo 'This file is known to work on the following operating systems:<br>';
-    foreach($file['os'][0]['entry'] as $key=>$worksOnOS)
-      {
-      if(is_array($worksOnOS))
-        {
-        echo '<img src="images/platforms/'.$worksOnOS['name'].'.png" border="1">&nbsp;';
-        }
-      }
-  
-    if(isset($file['dependencies']))
-      {
-      echo '<br>This file depends on:<ul>';
-      foreach($file['dependencies'][0]['entry'] as $key=>$dependsOn)
-        {
-        if(is_array($dependsOn))
-          {
-          echo '<li><a href="'.$dependsOn['url'].'">'.$dependsOn['name'].'</a></li>';
-          }
-        }
-      echo '</ul>';
-      }
-    else
-      {
-      echo '<p>';
-      }
+      echo '</ul></div>';
     }
 
   if(isset($game[$base][0]['servers']))
     {
-    echo '<p><h2>Online servers</h2>';
-    echo $game[$base]['0 attr']['name'].' is a online game, so you need to connect to a server in order to be able to play.<br/>';
-    echo 'Choose any of the followings and read the instructions there about how to get an account and connect:<ul>';
+    echo '<div class="section"><h2>Online servers</h2>';
+    echo $game[$base]['0 attr']['name'].' is a online game, so you need to connect to a server in order to be able to play.</p>';
+    echo '<p>Choose any of the followings and read the instructions there about how to get an account and connect:<ul>';
     foreach($game[$base][0]['servers'][0]['server'] as $key=>$server)
       {
       if(is_array($server))
@@ -298,10 +296,15 @@ function WriteGameHTML($game,$base)
         echo '<li><a href="'.$server['url'].'">'.$server['name'].'</a></li>';
         }
       }
-    echo '</ul>';
+    echo '</ul></div>';
     }
+
+  echo '<div class="section">';
+  WriteDownloadHTML($game, $base, true);
+  echo '</div>';
+
   
-  echo '<p><h2>Authors</h2>'.$game[$base]['0 attr']['name'].' has been developed by: <ul>';
+  echo '<div class="section"><h2>Authors</h2><p>'.$game[$base]['0 attr']['name'].' has been developed by:</p><ul>';
   foreach($game[$base][0]['authors'][0]['entry'] as $author)
     {
     if(is_array($author))
@@ -309,7 +312,137 @@ function WriteGameHTML($game,$base)
       echo '<li><a href="'.$author['url'].'">'.$author['name'].'</a></li>';
       }
     }
-  echo '</ul>';
+  echo '</ul></div>';
   }
 
+  
+function WriteScreenshotsHTML( $game, $base, $archived=false )
+  {
+      // load shots from dir by name 
+      // line up thumbnails
+      
+      if( !$archived ) {
+        echo '<div class="screenshots_entry"><div class="link_title"><h2><a href="?arianne_url=games/game_'.$game[$base]['0 attr']['name'].'">'.ucfirst($game[$base]['0 attr']['name']).'</a></h2><p><a href="?arianne_url=games/game_'.$game[$base]['0 attr']['name'].'">Click here to see information about this package</a></p></div>';
+        $val = "screens/".$game[$base]['0 attr']['name'];
+      } else {
+        echo '<div class="screenshots_entry"><div class="link_title"><h2>Archived</h2></div>';      
+        $val = "screens/archived";
+      }
+      $scan  = array();
+      $files = array();
+
+
+  if((($archived==TRUE) and $val=="screens/archived") or
+     (($archived==FALSE) and $val!="screens/archived") and
+     ($val!="screens/CVS"))
+    {
+    $scan = scan_dir($val);
+    $files = $scan['files'];
+
+    $ab = 0;
+
+	$i=0;
+    echo '<ul>';
+	foreach($files as $key => $THMfilename)
+      {
+      if( !$archived ) 
+        if( $i > 3 ) break;
+      
+      $pos = strpos($THMfilename,"THM_");
+      if($pos===false)
+        {
+        //$ab = 0;
+        }
+      else 
+        {
+        $filename1 = substr($THMfilename, 0, $pos);
+        $filename2 = substr($THMfilename, $pos+4, strlen($THMfilename));
+        $year = substr($THMfilename, $pos+4 , 4);
+        $month = substr($THMfilename, $pos+8, 2);
+        $day = substr($THMfilename, $pos+10, 2);
+        
+        // TODO: Scale correctly to don't deform the image 
+        $image_size = getimagesize("$THMfilename");
+        $html_size = imageResize($image_size[0], $image_size[1], 150);
+
+        echo "<li class=\"thumbnail\"><a href=\"$filename1$filename2\"><img src=\"$THMfilename\"  alt=\"Screenshot\">";
+        echo "</a></li>";
+        $ab++;
+        $i++;
+        }
+      }
+
+    echo "</ul>";
+
+
+    if($archived)
+      {
+      echo "<p class=\"archive\"><a href=\"index.php?arianne_url=content/screenshots\">Click here to see all the new images!</a></p>";
+      }
+    else
+      {
+      echo "<p class=\"archive\"><a href=\"index.php?arianne_url=content/screenshots&amp;archived=1\">Click here to see all the old images!</a></p>";
+      }
+  }
+  
+  echo '<div class="clearright">&nbsp;</div></div>';
+}  
+
+//******************************************************
+// This functions was named list_dir by whoever 
+// originally wrote it.
+// if this is your code. Thanks for the start.
+//*******************************************************
+
+function scan_dir($dirname,$recurse=FALSE,$sort_flag=SORT_REGULAR)
+  {
+  if($dirname[strlen($dirname)-1]!='/') $dirname.='/';
+
+  $file_array=array();
+  $dir_array=array();
+  $ret_array=array();
+
+  $handle=opendir($dirname);
+  while (false !== ($file = readdir($handle)))
+    {
+    if($file=='.'||$file=='..') continue;
+    if(is_dir($dirname.$file))
+      {
+      $dir_array[]=$dirname.$file;
+      if($recurse)
+        {
+        scan_dir($dirname.$file.'/',$recurse);
+        }
+      }
+    else
+      {
+      $file_array[]=$dirname.$file;
+      }
+    }
+  closedir($handle);
+
+  sort($file_array,$sort_flag);
+  $file_array=array_reverse($file_array);
+  
+  for($i=0;$i<count($file_array);$i++)
+    {
+    for($j=$i;$j<count($file_array);$j++)
+      {
+      if(filemtime($file_array[$j])>filemtime($file_array[$i]))
+        {
+        $tmp=$file_array[$j];
+        $file_array[$j]=$file_array[$i];
+        $file_array[$i]=$tmp;
+        }
+      }
+    }
+  sort($dir_array,$sort_flag);
+  reset($file_array);
+  reset($dir_array);
+
+  $ret_array['files']=$file_array;
+  $ret_array['directories']=$dir_array;
+
+  return $ret_array;
+  }
 ?>
