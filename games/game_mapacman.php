@@ -1,1 +1,1 @@
-<?php include_once('generic.php'); ?>
+<?php include_once('games/generic.php'); ?>
