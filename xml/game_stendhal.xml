@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<game name="stendhal">
+  <updated date="2005/02/20"/>
+  <version id="0.00"/>
+  <rated>
+    <entry>
+      <![CDATA[
+      <a href="http://happypenguin.org/show?stendhal">
+      <img src="http://happypenguin.org/rateomatic?stendhal">
+      </a>
+      ]]>    
+    </entry>
+  </rated>
+  <description><![CDATA[ 
+    stendhal is a <b>multiplayer</b> online adventures game like Zelda.<br/>
+    Your task is to talk with other people in the village and find jobs to do that will drive to 
+    interesting quests that will reveal the hidden plot behind the <i>world of stendhal</i><p>
+    In Stendhal, you can just walk around, chat with people, buy and sell items and kill some of them :)
+    Some of these people are NPC, they will give you tasks to accomplish and hints to solve your quest.<p>
+    Stendhal wants to be a reference to investigate Marauroa 1.00 features.]]>
+  </description>
+  <screenshots>
+    <image name="20050218_stendhal.jpg"/>
+  </screenshots>
+  <!-- 
+  <files>
+    <file type="source" name="stendhal-XXX.tar.gz">
+      <os>
+        <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+        <entry name="macosx" status="100"/>
+      </os>
+      <dependencies>
+        <entry name="marauroa" url="http://arianne.sourceforge.net/?arianne_url=content/download#server"/>
+      </dependencies>
+    </file>
+    <file type="binary" name="stendhal-XXX.jar">
+      <os>
+        <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+        <entry name="macosx" status="100"/>
+      </os>
+    </file>
+    <file type="binary" name="stendhal-XXX_installer.exe">
+      <os>
+        <entry name="win32" status="100"/>
+      </os>
+    </file>
+  </files>
+  -->
+  <servers>
+    <server name="Public Developers Server" url="http://stendhal.game-server.cc"/>
+  </servers>
+  <authors>
+    <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/MiguelAngelBlanchLardin"/>
+    <entry name="Hans Halggstrom" url="http://www.iki.fi/zzorn/"/>
+  </authors>
+</game>
