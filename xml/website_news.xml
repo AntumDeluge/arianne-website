@@ -13,6 +13,13 @@
   </item>
   -->
   <item>
+    <title>Stendhal: Player can move and collide with world</title>
+    <date>Wed, 16 Feb 2005 10:10:13</date>
+    <content>
+      <![CDATA[As I said, development is showing some interesting results in a short period of time. The actual <i>client</i> allows the player to move and collide with objects that exists on world. Problem is that the client is a development work thing, and need to be refactored in order to be released, but I think that around 2 weeks could be something available.<p>AS preview, just a video: <a href="http://stendhal.game-server.cc/Stendhal_0.00_Video.avi">Stendhal 0.00 video</a> (24") 266KB]]>
+    </content>
+  </item>
+  <item>
     <title>Stendhal development shows first results</title>
     <date>Sat, 29 Jan 2005 13:41:51</date>
     <content>
