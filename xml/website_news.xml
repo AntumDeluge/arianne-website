@@ -13,6 +13,26 @@
   </item>
   -->
   <item>
+    <title>Marauroa 0.91 released: critical bug fixes</title>
+    <date>Wed, 3 Mar 2005 20:31:01</date>
+    <content>
+      <![CDATA[This release of Marauroa closes a few bug fixes that make server work abnormally: a bug at RPServerManager, a bug at PlayerEntryContainer and a important bug at RPWorld.<br>
+         If you plan to use Marauroa, you should update to this release in order to get it working.<p>
+         You have a complete step by step guide at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa</a>
+         ]]>
+    </content>
+  </item>
+    <title>Stendhal 0.00 released</title>
+    <date>Wed, 1 Mar 2005 20:52:47</date>
+    <content>
+      <![CDATA[This is the first relese of Stendhal. It is not intended to be playable (<b>NO PLAYABLE</b>), it is just a tech demo of where you can walk, collide and change of zone.<p>
+         As you know we drive our development by the guideline:<i>release small, release often</i>. Now we will start the development of the GUI ( anyone wanna help? ) and the rest of actions to make it playable. In around 1 month the game could be really playable.<p>
+         On the meanwhile you would like to help us close some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalDesign">design document</a>.<br>
+         I can't really handle all by myself :)
+         ]]>
+    </content>
+  </item>
+  <item>
     <title>Marauroa 0.90 released</title>
     <date>Wed, 19 Feb 2005 14:09:34</date>
     <content>
