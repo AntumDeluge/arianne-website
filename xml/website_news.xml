@@ -13,6 +13,17 @@
   </item>
   -->
   <item>
+    <title>Marauroa 0.41 released</title>
+    <date>Tue, 13 Jul 2004 00:45:12 GMT</date>
+    <content>
+      <![CDATA[This version of Marauroa is a bug fixes release over 0.40 version, that
+       consolidate our work on RPClasses and per player synchronization. Also I have
+       fixed a few bugs on the mapacman script so game will be better.<p/>This release
+       creates base work for multizone system that will move us to Marauroa 1.0<br>As
+       usual your bugs reports are appreciated. ]]>
+      </content>
+  </item>
+  <item>
     <title>Our new website is up and running</title>
     <date>Fri, 09 Jul 2004 12:56:53 GMT</date>
     <content>
