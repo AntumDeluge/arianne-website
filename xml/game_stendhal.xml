@@ -30,7 +30,7 @@
     <image name="20050303_stendhal.jpg"/>
   </screenshots>
   <files>
-    <file type="source" name="stendhal-XXX.tar.gz">
+    <file type="source" name="stendhal-XXX-src.tar.gz">
       <os>
         <entry name="win32" status="100"/>
         <entry name="linux" status="100"/>
