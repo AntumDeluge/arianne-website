@@ -22,3 +22,5 @@ printf(' (Page loaded in %.3f seconds.)', $totaltime);
 		</font>
 
 <a href="http://sourceforge.net/projects/arianne"><IMG SRC="http://sourceforge.net/sflogo.php?group_id=1111&type=1" ALT="SourceForge Logo" BORDER=0></a></p>
+
+<?php include('counter.php'); ?>
