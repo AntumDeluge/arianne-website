@@ -50,7 +50,7 @@ game. </p>
       </td>
       <td style="vertical-align: top;">
       <p>This game's server is <b>public</b> and located at
-      <a href="http://marauroa.ath.cx/">http://marauroa.ath.cx</a></p>
+      <a href="http://gladiators.game-server.cc/">http://gladiators.game-server.cc</a></p>
 Before you can login you <b>MUST create an account</b>. <br>
       <br>
 Each account is specified by a username &amp; password. <br>
@@ -70,7 +70,7 @@ an account under your user name [see login section].<br>
       <td style="vertical-align: top;">
       <p><b>Steps To Creating an Account:</b></p>
       <ul>
-        <li>Open <a href="http://marauroa.ath.cx/">http://marauroa.ath.cx</a>
+        <li>Open <a href="http://gladiators.game-server.cc/">http://gladiators.game-server.cc</a>
 in any browser.</li>
         <li>Select <b>Account Creation</b> from the menu on the right.</li>
         <li>Enter your details. NOTE: You must provide a valid e-mail
@@ -89,7 +89,7 @@ simply for verification! </li>
 <span style="font-weight: bold;"></span><br>
 <h3><a name="serversite"></a>Server Website </h3>
 <p>The web address constantly being refered too is
-<a href="http://marauroa.ath.cx">http://marauroa.ath.cx</a></p>
+<a href="http://gladiators.game-server.cc">http://gladiators.game-server.cc</a></p>
 <p>This site is actually a web front end to the server. It not only
 provides the account creation form but also a plethora of interesting
 stats and info from the game server. Check it out!</p>
@@ -137,7 +137,7 @@ The default menu provides 3 opti</p>
     <tr>
       <td style="vertical-align: top;"><b>Create account</b> option
 will point your current internet browser to <a
- href="http://marauroa.ath.cx/">http://marauroa.ath.cx</a> so that you
+ href="http://gladiators.game-server.cc/">http://gladiators.game-server.cc</a> so that you
 may create an account.<b>&nbsp;
       </b>
       </td>
