@@ -20,7 +20,7 @@ if(isset($_REQUEST["arianne_url"]))
       
    
       <ul>
-        <li><img src="images/gameLogo.gif" alt="Our Games"></li>
+        <li><img src="images/gameLogo.gif" alt="Our Games" class="menu_title"></li>
             <?php
             include_once("renderContent.php");
             renderGameBriefing(false);     
@@ -29,7 +29,7 @@ if(isset($_REQUEST["arianne_url"]))
       </ul>
 
       <ul>
-        <li><img src="images/poweredByLogo.gif" alt="Powered By...">
+        <li><img src="images/poweredByLogo.gif" alt="Powered By..."  class="menu_title">
         </li>
         <li><a href="http://sourceforge.net/projects/arianne"><IMG SRC="http://sourceforge.net/sflogo.php?group_id=1111&amp;type=1" ALT="SourceForge Logo"></a>
         </li>
@@ -44,7 +44,7 @@ if(isset($_REQUEST["arianne_url"]))
         <li><a href="http://www.python.org"><IMG SRC="images/partners/PythonPoweredSmall.gif" ALT="Python Logo"></a>
       </ul>
       <ul>      
-        <li><img src="images/ratedAtLogo.gif" alt="Rate Us">
+        <li><img src="images/ratedAtLogo.gif" alt="Rate Us" class="menu_title">
         </li>
             
         <li><a href="http://happypenguin.org/show?Arianne+RPG"><img src="http://happypenguin.org/rateomatic?Arianne+RPG" alt="Happy Penguin Rate"></a>
