@@ -58,7 +58,7 @@ table {
     
 img { 
     border-width:1px; 
-    border-color: black; 
+    border-color: #000000;
     }
 
 strong{ font-weight: bold;}
