@@ -57,7 +57,7 @@
     ]]>
   </extended>
   <files>
-    <file type="source" name="marauroa-XXX.tar.gz">
+    <file type="source" name="marauroa-XXX-src.tar.gz">
       <os>
         <entry name="java" status="100"/>
       </os>
