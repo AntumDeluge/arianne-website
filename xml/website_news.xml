@@ -13,6 +13,19 @@
   </item>
   -->
   <item>
+    <title>Stendhal gest GUI</title>
+    <date>Mon, 7 Mar 2005 20:31:01</date>
+      <images> 
+        <image url="images/articles/stendhal_gui.jpg"/>
+      </images>
+    <content>
+      <![CDATA[After a few weekend of work, I have added a GUI to Stendhal. It is a bit basic but useful enough to make the game playable.<p>
+         Next step is about adding attack and heal actions and make multizone works in a more intuitive way.<p>
+         BTW I keep begging for help to close these <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> :)
+         ]]>
+    </content>
+  </item>
+  <item>
     <title>Marauroa 0.91 released: critical bug fixes</title>
     <date>Wed, 3 Mar 2005 20:31:01</date>
     <content>
@@ -24,7 +37,7 @@
   </item>
   <item>
     <title>Stendhal 0.00 released</title>
-    <date>Wed, 1 Mar 2005 20:52:47</date>
+    <date>Mon, 1 Mar 2005 20:52:47</date>
       <images> 
         <image url="screens/stendhal/THM_20050303_stendhal.jpg"/>
       </images>
@@ -49,7 +62,7 @@
   </item>
   <item>
     <title>Stendhal: Player can move and collide with world</title>
-    <date>Wed, 16 Feb 2005 10:10:13</date>
+    <date>Mon, 16 Feb 2005 10:10:13</date>
     <content>
       <![CDATA[As I said, development is showing some interesting results in a short period of time. The actual <i>client</i> allows the player to move and collide with objects that exists on world. Problem is that the client is a development work thing, and need to be refactored in order to be released, but I think that around 2 weeks could be something available.<p>AS preview, just a video: <a href="http://stendhal.game-server.cc/Stendhal_0.00_Video.avi">Stendhal 0.00 video</a> (24") 266KB]]>
     </content>
