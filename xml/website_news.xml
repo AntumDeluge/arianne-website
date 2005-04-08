@@ -13,6 +13,15 @@
   </item>
   -->
   <item>
+    <title>Marauroa 0.93 bug fixes release</title>
+    <date>Wed, 8 Mar 2005 20:31:01</date>
+    <content>
+      <![CDATA[A new emergency release of Marauroa that fix several important bugs, the main one is the 100% CPU usage due to multithread send feature.<p> 
+         You have a complete step by step guide at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa</a>
+         ]]>
+    </content>
+  </item>
+  <item>
     <title>Stendhal 0.01 released</title>
     <date>Thu, 5 Mar 2005 20:12:01</date>
       <images> 
