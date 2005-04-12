@@ -14,7 +14,7 @@
   -->
   <item>
     <title>Marauroa 0.93 bug fixes release</title>
-    <date>Wed, 8 Mar 2005 20:31:01</date>
+    <date>Wed, 8 Apr 2005 20:31:01</date>
     <content>
       <![CDATA[A new emergency release of Marauroa that fix several important bugs, the main one is the 100% CPU usage due to multithread send feature.<p> 
          You have a complete step by step guide at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa</a>
@@ -23,7 +23,7 @@
   </item>
   <item>
     <title>Stendhal 0.01 released</title>
-    <date>Thu, 5 Mar 2005 20:12:01</date>
+    <date>Thu, 5 Apr 2005 20:12:01</date>
       <images> 
         <image url="screens/stendhal/THM_20050405_stendhal.jpg"/>
       </images>
@@ -39,7 +39,7 @@
   </item>
   <item>
     <title>Marauroa 0.92 released</title>
-    <date>Wed, 3 Mar 2005 20:31:01</date>
+    <date>Wed, 3 Apr 2005 20:31:01</date>
     <content>
       <![CDATA[This release changes some interfaces to suit in a better way the game development.<br>
          If you plan to use Marauroa, you should update to this release in order to get it working. Soon I will update the API guides to show these changes.<p>
