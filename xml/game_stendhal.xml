@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2005/04/05"/>
-  <version id="0.01"/>
+  <updated date="2005/04/17"/>
+  <version id="0.02"/>
   <rated>
     <entry>
       <![CDATA[
@@ -22,25 +22,14 @@
   <extended><![CDATA[
   <p><h2>Want to help us?</h2>
   stendhal wants to be a reference to investigate Marauroa 1.00 features.<br/>
-  The game is right now <b>NOT PLAYABLE</b> as we are working hard to implement the mentioned features.<p>
+  The game is right now <b>PLAYABLE</b> but lacks of several of the above features as we are working hard to implement the mentioned features.<p>
   We would really love to get your help to complete some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">open tasks</a>.
   ]]>
   </extended>
   <screenshots>
-    <image name="20050405_stendhal.jpg"/>
+    <image name="20050417_stendhal.jpg"/>
   </screenshots>
   <files>
-    <file type="source" name="stendhal-XXX-src.tar.gz">
-      <description>This file contains the source code to build stendhal.</description>
-      <os>
-        <entry name="win32" status="100"/>
-        <entry name="linux" status="100"/>
-        <entry name="macosx" status="100"/>
-      </os>
-      <dependencies>
-        <entry name="marauroa" url="http://arianne.sourceforge.net/?arianne_url=content/download#server"/>
-      </dependencies>
-    </file>
     <file type="binary" name="stendhal-XXX.zip">
       <description>This file contains the stendhal client. Download this to play online.</description>
       <os>
@@ -56,6 +45,17 @@
         <entry name="linux" status="100"/>
         <entry name="macosx" status="100"/>
       </os>
+    </file>
+    <file type="source" name="stendhal-XXX-src.tar.gz">
+      <description>This file contains the source code to build stendhal.</description>
+      <os>
+        <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+        <entry name="macosx" status="100"/>
+      </os>
+      <dependencies>
+        <entry name="marauroa" url="http://arianne.sourceforge.net/?arianne_url=content/download#server"/>
+      </dependencies>
     </file>
   </files>
   <servers>
