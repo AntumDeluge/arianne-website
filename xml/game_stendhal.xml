@@ -24,10 +24,16 @@
   stendhal wants to be a reference to investigate Marauroa 1.00 features.<br/>
   The game is right now <b>PLAYABLE</b> but lacks of several of the above features as we are working hard to implement the mentioned features.<p>
   We would really love to get your help to complete some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">open tasks</a>.
+
+  <p><h2>Play now!</h2>
+  Stendhal uses Java Webstart technology that enables you to use always the latest version available without having to worry about updates.<br>
+  Just click on the button to play.
+  <p><a href="http://arianne.sourceforge.net/jws/stendhal.jnlp"><img src="images/webstart.png" alt="Click here to play"></a>
   ]]>
   </extended>
   <screenshots>
     <image name="20050417_stendhal.jpg"/>
+    <image name="20050405_stendhal.jpg"/>
   </screenshots>
   <files>
     <file type="binary" name="stendhal-XXX.zip">
