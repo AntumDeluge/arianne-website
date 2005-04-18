@@ -65,7 +65,7 @@
     </file>
   </files>
   <servers>
-    <server name="Public Developers Server" url="http://stendhal.game-server.cc"/>
+    <server name="Public Server" url="http://stendhal.ombres.ambre.net/"/>
   </servers>
   <authors>
     <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>
