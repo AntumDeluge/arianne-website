@@ -13,6 +13,23 @@
   </item>
   -->
   <item>
+    <title>Marauroa 0.95 and Stendhal 0.03 bug fixes release</title>
+    <date>Thu, 28 Apr 2005 16:33:54</date>
+    <content>
+      <![CDATA[These are two small releases but very important in the development of Arianne.<p>
+        On Marauroa we have fix a bug that has been there since 0.30 release and that was related to the way MySQL managed transactions, also we added a method to request synchronization from a unsynced client so you should expect now a better gameplay.<p>
+        On Stendhal we have added A*, fixed a bug with Sheep weight due to signed/unsigned, improved Sheep movement, added Patrol and  follow path action, fixed collision detection area, changed Game Chat dialog so that it opens with Ctrl+L, NPC counts sheeps sold and bought, client reconnect on out of sync, a single text line is visible now, now combat icon is centered on the bottom right corner and finally optional collision detection boxes.<p>
+        Out next steps are:
+        <br><b>-</b> Add wolf entity
+        <br><b>-</b> Make combat real
+        <br><b>-</b> Add currency to game
+        <br><b>-</b> Add new Sheep GFX
+        <br><b>-</b> Initial character customization
+        <p>Finally the tasks written on the previous news item are still open and needing attention.
+         ]]>
+    </content>
+  </item>
+  <item>
     <title>Stendhal 0.02 released: Sheeps and food</title>
     <date>Thu, 17 Apr 2005 13:21:01</date>
       <images> 
