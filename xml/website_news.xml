@@ -13,6 +13,23 @@
   </item>
   -->
   <item>
+    <title>Major changes on Stendhal: combat implemented</title>
+    <date>Sat, 07 Apr 2005 20:03:55</date>
+      <images> 
+        <image url="screens/stendhal/THM_20050507_stendhal.jpg"/>
+      </images>
+    <content>
+      <![CDATA[A new week, almost a new release :)<br>I have added combat to Stendhal and HP bars, and in game GUI keeps moving on.<br>Release should happen soon at the moment I assign <i>coherent</i> RP values to entities.<p>
+         Also the CVS code has been cleaned and refactored, so Client is not clearer than ever. If you plan to create a game using Arianne, Stendhal would be a great base for your client. :)<p>
+         On the near future <i>(1 month or so)</i> I will stabilize Stendhal development and start again all the documentation process that means:
+        <br><b>-</b> Document all the code.
+        <br><b>-</b> Fix, update and improve Wiki Documents.
+        <br><b>-</b> Complete <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalDesign">Stendhal Design</a> document
+        <br><b>-</b> Complete and release our new Stendhal book.
+         ]]>
+    </content>
+  </item>
+  <item>
     <title>Marauroa 0.95 and Stendhal 0.03 bug fixes release</title>
     <date>Thu, 28 Apr 2005 16:33:54</date>
     <content>
