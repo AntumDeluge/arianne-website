@@ -19,8 +19,8 @@
         <image url="screens/stendhal/THM_20050507_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[A new week, almost a new release :)<br>I have added combat to Stendhal and HP bars, and in game GUI keeps moving on.<br>Release should happen soon at the moment I assign <i>coherent</i> RP values to entities.<p>
-         Also the CVS code has been cleaned and refactored, so Client is not clearer than ever. If you plan to create a game using Arianne, Stendhal would be a great base for your client. :)<p>
+      <![CDATA[A new week, almost a new release :)<br>I have added combat to Stendhal and HP bars, and a basic in game GUI.<br>Release should happen soon, exactly at the same moment I assign <i>coherent</i> RP values to entities.<p>
+         Also the CVS code has been cleaned and refactored, so Client is now clearer than ever. If you plan to create a game using Arianne, Stendhal would be a great base for your client. :)<p>
          On the near future <i>(1 month or so)</i> I will stabilize Stendhal development and start again all the documentation process that means:
         <br><b>-</b> Document all the code.
         <br><b>-</b> Fix, update and improve Wiki Documents.
