@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2005/04/17"/>
-  <version id="0.03"/>
+  <updated date="2005/05/12"/>
+  <version id="0.10"/>
   <rated>
     <entry>
       <![CDATA[
@@ -33,6 +33,7 @@
   </extended>
   <screenshots>
     <image name="20050417_stendhal.jpg"/>
+    <image name="20050512_stendhal.jpg"/>
     <image name="20050405_stendhal.jpg"/>
   </screenshots>
   <files>
@@ -69,6 +70,8 @@
   </servers>
   <authors>
     <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>
+    <entry name="Kim Purnell Samoa" url=""/>
+    <entry name="Laurent Soubrevilla" url=""/>
     <entry name="Hans Halggstrom" url="http://www.iki.fi/zzorn/"/>
   </authors>
 </game>

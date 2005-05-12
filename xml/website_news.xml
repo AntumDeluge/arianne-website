@@ -13,8 +13,26 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.10 release</title>
+    <date>Thu, 12 May 2005 13:56:23</date>
+      <images> 
+        <image url="screens/stendhal/THM_20050512_stendhal.jpg"/>
+      </images>
+    <content>
+      <![CDATA[This new release of Stendhal adds very important features like:
+        <br><b>-</b> Add wolf entity
+        <br><b>-</b> Make real combat system
+        <br><b>-</b> Creatures can die
+        <br><b>-</b> Add new Sheep GFX
+        <br><b>-</b> Better Sheep AI
+        <p>Finally the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> written on the previous news item are still open and needing attention.<br>
+        Also if you can write properly English we would really love help to write a game manual at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.
+         ]]>
+    </content>
+  </item>
+  <item>
     <title>Major changes on Stendhal: combat implemented</title>
-    <date>Sat, 07 Apr 2005 20:03:55</date>
+    <date>Sat, 07 May 2005 20:03:55</date>
       <images> 
         <image url="screens/stendhal/THM_20050507_stendhal.jpg"/>
       </images>
