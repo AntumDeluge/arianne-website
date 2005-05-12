@@ -45,7 +45,15 @@
         <entry name="macosx" status="100"/>
       </os>
     </file>
-    <file type="binary" name="stendhal-server-XXX.zip">
+    <file type="map editor binary" name="stendhal-mapeditor-0.00.zip">
+      <description>This file contains the stendhal map editor. Download this to create new maps. Send them to us if you want them to appear on next releases. Use the tmx file format.</description>
+      <os>
+        <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+        <entry name="macosx" status="100"/>
+      </os>
+    </file>
+    <file type="server script binary" name="stendhal-server-XXX.zip">
       <description>This file contains the stendhal server plugin. You need marauroa in order to play correctly.</description>
       <os>
         <entry name="win32" status="100"/>
