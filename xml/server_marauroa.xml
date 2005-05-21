@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <server name="marauroa">
-  <updated date="2005/05/12"/>
-  <version id="0.96"/>  
+  <updated date="2005/05/20"/>
+  <version id="0.97"/>  
   <description><![CDATA[ 
 	Marauroa is arianne's content server.
 	<p/> It is completely written in Java using a multithreaded server architecture

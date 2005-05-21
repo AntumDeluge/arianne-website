@@ -34,14 +34,15 @@ function WriteNewsHTML($website,$all)
 
     if(isset($item['images']))
       {
-      foreach($item['images'] as $key=>$image) 
+      foreach($item['images'][0]['image'] as $key=>$image) 
         {
         if(is_array($image))
           {
-          echo '<img src="'.$image['image']['0 attr']['url'].'" alt="Game screenshot">';
+          echo '<img src="'.$image['url'].'" alt="Game screenshot">';
           }
         }
-        echo '<div class="newscontent_image">'.$item['content'][0].'</div><div class="clearright">&nbsp;</div></div>';
+      
+      echo '<div class="newscontent_image">'.$item['content'][0].'</div><div class="clearright">&nbsp;</div></div>';
       }
       else
       {

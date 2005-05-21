@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2005/05/12"/>
-  <version id="0.10"/>
+  <updated date="2005/05/20"/>
+  <version id="0.11"/>
   <rated>
     <entry>
       <![CDATA[
@@ -12,16 +12,16 @@
     </entry>
   </rated>
   <description><![CDATA[ 
-    stendhal is a <b>multiplayer</b> online adventures game inspired in <a href="http://www.worldforge.org/dev/systems/acorn">Acorn</a> with the 90's Zelda look.<br/>
+    Stendhal is a <b>multiplayer</b> online adventures game inspired in <a href="http://www.worldforge.org/dev/systems/acorn">Acorn</a> with the 90's Zelda look.<br/>
     Your task is to talk with other people in the village and find jobs to do that will drive to 
     interesting quests that will reveal the hidden plot behind the <i>world of stendhal</i><p>
     In stendhal, you can <i>also</i> just walk around, chat with people, buy and sell items and kill some of them :)<br>
     Some of these people are NPC, they will give you tasks to accomplish and hints to solve your quest.<p>
-    stendhal is totally developed using Java and Java2D, so it is portable to anything running Java 5.0.]]>
+    stendhal is totally developed using Java and Java2D, so it is portable to anything running Java 1.5.]]>
   </description>
   <extended><![CDATA[
   <p><h2>Want to help us?</h2>
-  stendhal wants to be a reference to investigate Marauroa 1.00 features.<br/>
+  Stendhal wants to be a reference to investigate Marauroa 1.00 features.<br/>
   The game is right now <b>PLAYABLE</b> but lacks of several of the above features as we are working hard to implement the mentioned features.<p>
   We would really love to get your help to complete some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">open tasks</a>.
 
@@ -32,6 +32,9 @@
   ]]>
   </extended>
   <screenshots>
+    <image name="20050520_2_stendhal.jpg"/>
+    <image name="20050520_3_stendhal.jpg"/>
+    <image name="20050520_1_stendhal.jpg"/>
     <image name="20050417_stendhal.jpg"/>
     <image name="20050512_stendhal.jpg"/>
     <image name="20050405_stendhal.jpg"/>
@@ -45,7 +48,7 @@
         <entry name="macosx" status="100"/>
       </os>
     </file>
-    <file type="map editor binary" name="stendhal-mapeditor-0.00.zip">
+    <file type="map editor binary" name="stendhal-mapeditor-0.01.zip">
       <description>This file contains the stendhal map editor. Download this to create new maps. Send them to us if you want them to appear on next releases. Use the tmx file format.</description>
       <os>
         <entry name="win32" status="100"/>

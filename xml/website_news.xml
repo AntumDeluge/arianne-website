@@ -13,6 +13,29 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.11 release: Monsters, dungeons and eXPerience</title>
+    <date>Thu, 12 May 2005 13:56:23</date>
+      <images> 
+        <image url="screens/stendhal/THM_20050520_3_stendhal.jpg"/>
+      </images>
+    <content>
+      <![CDATA[Another great release of Stendhal!. Don't get it wrong! This release is playable and fun. We just need to make the world bigger and add new monsters and here your collaboration is a MUST. Help us to create new levels and add new monsters and quests.<p>
+        This release implements a better path finding, add more NPCs and a new level: dungeon.
+        <br><b>-</b> Add Rat and Cave Rat entity
+        <br><b>-</b> Added a balanced RP values
+        <br>&nbsp;&nbsp;<b>*</b> ATK, DEF and HP values at <a href="http://stendhal.game-server.cc/StendhalCombatSimulation.xls">http://stendhal.game-server.cc/StendhalCombatSimulation.xls</a>
+        <br>&nbsp;&nbsp;<b>*</b> Level values at <a href="http://stendhal.game-server.cc/StendhalLevelSimulation.xls">http://stendhal.game-server.cc/StendhalLevelSimulation.xls</a>
+        <br><b>-</b> You gain XP by killing creatures and completing quests.
+        <br><b>-</b> Add new Sheep GFX
+        <br><b>-</b> Better Sheep AI and Creature AI
+        <br><b>-</b> A map editor <a href="http://prdownloads.sourceforge.net/arianne/stendhal-mapeditor-0.01.zip?download">here</a>. Please help us create maps for stendhal ( maps shouldn't be bigger than 128x128 ). Use the existing maps or template as a way to learn. Your help makes Stendhal better!.
+
+        <p>Finally the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> written on the previous news item are still open and needing attention.<br>
+        Also if you can write properly English we would really love help to write a game manual at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.
+         ]]>
+    </content>
+  </item>
+  <item>
     <title>Stendhal 0.10 release</title>
     <date>Thu, 12 May 2005 13:56:23</date>
       <images> 
