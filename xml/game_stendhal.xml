@@ -12,17 +12,25 @@
     </entry>
   </rated>
   <description><![CDATA[ 
-    Stendhal is a <b>multiplayer</b> online adventures game inspired in <a href="http://www.worldforge.org/dev/systems/acorn">Acorn</a> with the 90's Zelda look.<br/>
-    Your task is to talk with other people in the village and find jobs to do that will drive to 
-    interesting quests that will reveal the hidden plot behind the <i>world of stendhal</i><p>
-    In stendhal, you can <i>also</i> just walk around, chat with people, buy and sell items and kill some of them :)<br>
-    Some of these people are NPC, they will give you tasks to accomplish and hints to solve your quest.<p>
-    stendhal is totally developed using Java and Java2D, so it is portable to anything running Java 1.5.]]>
+Are you looking for adventure? Want to fight for riches?<br>
+Develop yourself and your social standing? Meet new people?<br>
+Do you want to be part of a brave new world?
+<p>
+Stendhal is a full fledged <b>multiplayer</b> online adventures game (MMORPG) developed using the Arianne game development system.
+<p>
+Stendhal features a new, rich and expanding world in which you can explore towns, buildings, plains, caves and dungeons. <br>
+You will meet NPCs and acquire tasks and quests for valuable experience and cold hard cash.<br>
+Your character will develop and grow and with each new level up become stronger and better. With the money you acquire you can buy new items and improve your armour and weapons.<br>
+And for the blood thirsty of your; satisfy your killing desires by roaming the world in search of evil monsters!
+<p>
+Stendhal is totally platform independent, written using Java 1.5 and the Java2D environment.
+<p>
+So what are you waiting for?! A whole new world awaits...]]>
   </description>
   <extended><![CDATA[
   <p><h2>Want to help us?</h2>
   Stendhal wants to be a reference to investigate Marauroa 1.00 features.<br/>
-  The game is right now <b>PLAYABLE</b> but lacks of several of the above features as we are working hard to implement the mentioned features.<p>
+  The game is right now <b>PLAYABLE</b> and <b>FUN</b>.<p>
   We would really love to get your help to complete some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">open tasks</a>.
 
   <p><h2>Play now!</h2>
@@ -48,7 +56,7 @@
         <entry name="macosx" status="100"/>
       </os>
     </file>
-    <file type="map editor binary" name="stendhal-mapeditor-0.01.zip">
+    <file type="map editor binary" name="stendhal_mapeditor-0.01.zip">
       <description>This file contains the stendhal map editor. Download this to create new maps. Send them to us if you want them to appear on next releases. Use the tmx file format.</description>
       <os>
         <entry name="win32" status="100"/>
