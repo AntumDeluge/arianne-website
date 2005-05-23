@@ -13,6 +13,24 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.12 bug fixes release</title>
+    <date>Wed, 23 Apr 2005 16:10:01</date>
+    <content>
+      <![CDATA[Thanks everyone for the extensive bug reports. I have done a release that fix most of your complains:
+      <br><b>-</b> Fixed a severe bug that happens when a creature respawn over a player.
+      <br><b>-</b> Disabled the attack yourself feature
+      <br><b>-</b> Added reward for player killing
+      <br><b>-</b> Correctly assign XP for sheep
+      <br><b>-</b> NPC don't repeat text on zone change any more
+      <br><b>-</b> Better rendering order
+      <br><b>-</b> Corpses are now under everything
+      <br><b>-</b> Improved client speed
+      <p>
+      Please keep the bug report, help us make Stendhal better. The map editor is <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-0.01.zip?download">here</a>. Please help us create maps for stendhal ( maps shouldn't be bigger than 256x256 ). We need dungeons and open plains areas where to place new things like villages, cities, etc...
+]]>
+    </content>
+  </item>
+  <item>
     <title>Stendhal 0.11 release: Monsters, dungeons and eXPerience</title>
     <date>Thu, 20 May 2005 14:28:23</date>
       <images> 
