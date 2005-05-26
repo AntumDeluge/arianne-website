@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="mapacman" shortdescription="A multiplayer online Pacman game">
   <updated date="2004/07/13"/>
-  <broken/>
+  <status value="broken"/>
   <version id="1.00"/>
   <rated>
     <entry>

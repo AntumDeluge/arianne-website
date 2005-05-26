@@ -2,6 +2,7 @@
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
   <updated date="2005/05/23"/>
   <version id="0.12"/>
+  <status value="beta"/>
   <rated>
     <entry>
       <![CDATA[

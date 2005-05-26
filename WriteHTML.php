@@ -153,14 +153,42 @@ function WriteGameBriefingHTML($game,$long_briefing)
   
 function WriteGameStatusTag($game,$length=false)
   {
-  if( $game['game'][0]['broken'] )
+  if( $game['game'][0]['status'] )
     {
     echo '<div class="statustag">';
     if( $length )
       {
-      echo '<p>This game is marked as BROKEN. This implies it does not work with the current server version and is therefore unsupported. We are working towards restoring the broken games. Sorry for any inconvenience.</p>';
+	  switch( $game['game'][0]['status']['0 attr']['value'])
+	  {
+		  case "broken":
+      		echo '<p>This game is marked as BROKEN. This implies it does not work with the current server version and is therefore unsupported. We are working towards restoring the broken games. Sorry for any inconvenience.</p>';
+      		break;
+      	  case "beta":
+      		echo '<p>This game is marked as BETA. This implies it is still under construction and may contain bugs or be feature incomplete, <b>however</b> it may still be playable so please have a go!</p>';
+			break; 
+		  case "alpha":     
+      		echo '<p>This game is marked as ALPHA. This implies it is still in early days of construction and will possibly not be playable. Please join us and help complete it!</p>';
+			break; 
+		  case "complete":	 
+      		echo '<p>This game is marked as COMPLETE. Have Fun! :)</p>';
+			break; 
+      }
       } else {
-	  echo '<p>This game is marked as BROKEN. This implies it does not work with the current server version.</p>';
+	  switch( $game['game'][0]['status']['0 attr']['value'])
+	  {
+		  case "broken":
+      		echo '<p>This game is marked as BROKEN. This implies it does not work with the current server version.</p>';
+      		break;
+      	  case "beta":
+      		echo '<p>This game is marked as BETA.</p>';
+			break; 
+		  case "alpha":     
+      		echo '<p>This game is marked as ALPHA.!</p>';
+			break; 
+		  case "complete":	 
+      		echo '<p>This game is marked as COMPLETE. Have Fun! :)</p>';
+			break; 
+      }
       }
     echo '</div>';
     }
