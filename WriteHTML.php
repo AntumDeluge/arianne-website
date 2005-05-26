@@ -97,6 +97,7 @@ function WriteGameBriefingHTML($game,$long_briefing)
       {
       echo '<img src="images/updated.gif" class="update_image" alt="Recently Updated!">';
       }
+    WriteGameStatusTag($game);
       
     echo '<p>'.$game['game'][0]['description'][0].'</p>';
     echo '<p><a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'">'.ucfirst($game['game']['0 attr']['name']).' - Click here to see information about this package</a></p>';
@@ -147,6 +148,21 @@ function WriteGameBriefingHTML($game,$long_briefing)
       echo '&nbsp;';
       }
     echo '</li>';
+    }
+  }
+  
+function WriteGameStatusTag($game,$length=false)
+  {
+  if( $game['game'][0]['broken'] )
+    {
+    echo '<div class="statustag">';
+    if( $length )
+      {
+      echo '<p>This game is marked as BROKEN. This implies it does not work with the current server version and is therefore unsupported. We are working towards restoring the broken games. Sorry for any inconvenience.</p>';
+      } else {
+	  echo '<p>This game is marked as BROKEN. This implies it does not work with the current server version.</p>';
+      }
+    echo '</div>';
     }
   }
 
@@ -253,7 +269,8 @@ function WriteGameHTML($game,$base)
     {
     echo '&nbsp;';
     }
-  
+    
+  WriteGameStatusTag($game,true);
   
   echo '<div class="section"><h2>What is '.$game[$base]['0 attr']['name'].'?</h2>'.$game[$base][0]['description'][0];
   if(isset($game[$base][0]['extended']))
