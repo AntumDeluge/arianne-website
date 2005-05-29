@@ -10,6 +10,11 @@
     decide if the looser die or not and the amount of fame that is assigned to each of the fighters.
     Your main goal is to get fame so that you can buy better equipment, and better gladiators.<p/>]]>
   </description>
+  <changelog><![CDATA[ 
+      <b>Gladiators ChangeLog</b>
+      <ul><li>stuff</li></ul>
+      ]]>
+  </changelog>
   <manual url="docs/gladiators/gladiators_manual"/>  
   <screenshots>
     <image name="20040220_Gladiators.jpg"/>

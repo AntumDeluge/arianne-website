@@ -40,6 +40,11 @@ So what are you waiting for?! A whole new world awaits...]]>
   <p><a href="http://arianne.sourceforge.net/jws/stendhal.jnlp"><img src="images/webstart.png" alt="Click here to play"></a>
   ]]>
   </extended>
+  <changelog><![CDATA[ 
+      <b>Stendhal ChangeLog</b>
+      <ul><li>stuff</li></ul>
+      ]]>
+  </changelog>
   <screenshots>
     <image name="20050520_2_stendhal.jpg"/>
     <image name="20050520_3_stendhal.jpg"/>

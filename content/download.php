@@ -7,10 +7,10 @@
 </ul>
 <p>Make sure you have the required dependencies before downloading files.</p>
 <p>In order to play you only need the games binary package and an Internet connection!</p>
+<b>For Change Logs please visits each package's home page by clicking on the section title.</p>
 <hr>
 
 <a name="games"></a><h1>Games</h1>
-Arianne has several games available, download all them and enjoy!.<br>
 <b>NOTE:</b>To play an arianne game you need to create an account for it. Get more info at each game page.
 <?php
   include_once("renderContent.php");

@@ -56,6 +56,11 @@
     Remember that Marauroa is just a server middleware and so you need a game to do anything with Marauroa.
     ]]>
   </extended>
+  <changelog><![CDATA[ 
+      <b>Marauroa ChangeLog</b>
+      <ul><li>stuff</li></ul>
+      ]]>
+  </changelog>
   <files>
     <file type="source" name="marauroa-XXX-src.tar.gz">
       <description>This file contains the source code to build marauroa.</description>

@@ -281,6 +281,17 @@ function WriteDownloadHTML($game, $base, $section=false)
   echo '<div class="clearright">&nbsp;</div></div>';
   }
 
+function WriteChangeLogHTML($game,$base)
+  {
+	 if(isset($game[$base][0]['changelog']))
+      {
+		echo '<div class="section"><h2>Change Log</h2>';
+        echo $game[$base][0]['changelog'][0];
+        echo '</div>';
+      }  
+	
+  }
+
 function WriteGameHTML($game,$base)
   {
   echo '<h1>'.ucfirst($game[$base]['0 attr']['name']).'</h1>';
@@ -349,6 +360,7 @@ function WriteGameHTML($game,$base)
   WriteDownloadHTML($game, $base, true);
   echo '</div>';
 
+  WriteChangeLogHTML($game,$base);
   
   echo '<div class="section"><h2>Authors</h2><p>'.$game[$base]['0 attr']['name'].' has been developed by:</p><ul>';
   foreach($game[$base][0]['authors'][0]['entry'] as $author)
