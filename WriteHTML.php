@@ -97,7 +97,7 @@ function WriteGameBriefingHTML($game,$long_briefing)
       {
       echo '<img src="images/updated.gif" class="update_image" alt="Recently Updated!">';
       }
-    WriteGameStatusTag($game);
+    WriteGameStatusTag($game,'game');
       
     echo '<p>'.$game['game'][0]['description'][0].'</p>';
     echo '<p><a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'">'.ucfirst($game['game']['0 attr']['name']).' - Click here to see information about this package</a></p>';
@@ -151,42 +151,42 @@ function WriteGameBriefingHTML($game,$long_briefing)
     }
   }
   
-function WriteGameStatusTag($game,$length=false)
+function WriteGameStatusTag($game,$base,$length=false)
   {
-  if( $game['game'][0]['status'] )
+  if( $game[$base][0]['status'] )
     {
     echo '<div class="statustag">';
     if( $length )
       {
-	  switch( $game['game'][0]['status']['0 attr']['value'])
+	  switch( $game[$base][0]['status']['0 attr']['value'])
 	  {
 		  case "broken":
-      		echo '<p>This game is marked as BROKEN. This implies it does not work with the current server version and is therefore unsupported. We are working towards restoring the broken games. Sorry for any inconvenience.</p>';
+      		echo '<p>This '.$base.' is marked as BROKEN. This implies it does not work with the current server version and is therefore unsupported. We are working towards restoring the broken games. Sorry for any inconvenience.</p>';
       		break;
       	  case "beta":
-      		echo '<p>This game is marked as BETA. This implies it is still under construction and may contain bugs or be feature incomplete, <b>however</b> it may still be playable so please have a go!</p>';
+      		echo '<p>This '.$base.' is marked as BETA. This implies it is still under construction and may contain bugs or be feature incomplete, <b>however</b> it may still be playable so please have a go!</p>';
 			break; 
 		  case "alpha":     
-      		echo '<p>This game is marked as ALPHA. This implies it is still in early days of construction and will possibly not be playable. Please join us and help complete it!</p>';
+      		echo '<p>This '.$base.' is marked as ALPHA. This implies it is still in early days of construction and will possibly not be playable. Please join us and help complete it!</p>';
 			break; 
 		  case "complete":	 
-      		echo '<p>This game is marked as COMPLETE. Have Fun! :)</p>';
+      		echo '<p>This '.$base.' is marked as COMPLETE. Have Fun! :)</p>';
 			break; 
       }
       } else {
-	  switch( $game['game'][0]['status']['0 attr']['value'])
+	  switch( $game[$base][0]['status']['0 attr']['value'])
 	  {
 		  case "broken":
-      		echo '<p>This game is marked as BROKEN. This implies it does not work with the current server version.</p>';
+      		echo '<p>This '.$base.' is marked as BROKEN. This implies it does not work with the current server version.</p>';
       		break;
       	  case "beta":
-      		echo '<p>This game is marked as BETA.</p>';
+      		echo '<p>This '.$base.' is marked as BETA.</p>';
 			break; 
 		  case "alpha":     
-      		echo '<p>This game is marked as ALPHA.!</p>';
+      		echo '<p>This '.$base.' is marked as ALPHA.!</p>';
 			break; 
 		  case "complete":	 
-      		echo '<p>This game is marked as COMPLETE. Have Fun! :)</p>';
+      		echo '<p>This '.$base.' is marked as COMPLETE. Have Fun! :)</p>';
 			break; 
       }
       }
@@ -296,20 +296,8 @@ function WriteGameHTML($game,$base)
   {
   echo '<h1>'.ucfirst($game[$base]['0 attr']['name']).'</h1>';
   echo '&copy; 2005 (See Authors list). Released under GNU/GPL license.';
-  if(isset($game[$base][0]['rated']))
-    {
-    echo ' Rate us at<br> ';
-    foreach($game[$base][0]['rated'][0]['entry'] as $tag=>$rated) 
-      {
-      echo $rated;
-      }
-    }
-  else
-    {
-    echo '&nbsp;';
-    }
-    
-  WriteGameStatusTag($game,true);
+
+WriteGameStatusTag($game,$base,true);
   
   echo '<div class="section"><h2>What is '.$game[$base]['0 attr']['name'].'?</h2>'.$game[$base][0]['description'][0];
   if(isset($game[$base][0]['extended']))
@@ -341,6 +329,16 @@ function WriteGameHTML($game,$base)
       echo '</ul></div>';
     }
 
+if(isset($game[$base][0]['rated']))
+    {
+    echo '<div class="section"><h2>Rate '.$game[$base]['0 attr']['name'].'</h2><ul class="rating">';  
+    foreach($game[$base][0]['rated'][0]['entry'] as $tag=>$rated) 
+      {
+      echo '<li>'.$rated.'</li>';
+      }
+      echo '</ul></div>';
+    }
+
   if(isset($game[$base][0]['servers']))
     {
     echo '<div class="section"><h2>Online servers</h2>';
@@ -356,12 +354,12 @@ function WriteGameHTML($game,$base)
     echo '</ul></div>';
     }
 
+  WriteChangeLogHTML($game,$base);
+  
   echo '<div class="section">';
   WriteDownloadHTML($game, $base, true);
   echo '</div>';
 
-  WriteChangeLogHTML($game,$base);
-  
   echo '<div class="section"><h2>Authors</h2><p>'.$game[$base]['0 attr']['name'].' has been developed by:</p><ul>';
   foreach($game[$base][0]['authors'][0]['entry'] as $author)
     {

@@ -13,6 +13,35 @@
   </item>
   -->
   <item>
+    <title>Marauroa 1.00: First major milestone released</title>
+    <date>Mon, 30 Apr 2005 17:59:34</date>
+      <images> 
+        <image url="images/articles/eventrelease.jpg"/>
+      </images>
+    <content>
+      <![CDATA[This release is a very important milestone in the development of Arianne goals: creating a flexible open source multiplayer games middleware.<p/>
+We have managed to build a system that is able to run several types of games: turn based and adventures games with a awesome performance. Send state of the game to players with a minimum bandwidth usage, storing players on database with a easy to query SQL tables.
+The actual system is able to manage thousands of zones and so create an almost limitless world.<p/>
+Now ariannexp will be ported to this 1.00 technology and soon Gladiators and mapacman will be ported and online again.<p/>
+All the documentation is updated to this new branch, and we are in process of completing our 2nd book: <a href="http://arianne.sourceforge.net/wiki/index.php/HowToWriteAdventureGamesUsingArianne">How to write adventure games using Arianne</a>.<p/>
+This milestone completes inmediate Marauroa goals, so now we will now center all our efforts on clients: stendhal, mapacman and gladiators. By developing more these new needs will appear that will be done on next releases. Let's know what you need of Marauroa!.]]>
+    </content>
+  </item>
+  <item>
+    <title>Stendhal 0.13 release: Better RP than before</title>
+    <date>Mon, 30 Apr 2005 17:56:01</date>
+    <content>
+      <![CDATA[This release is another bug fixes over 0.11 release. But we have also some things you have been asking for:
+      <br><b>-</b> A game manual at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>      
+      <br><b>-</b> A small GUI</a>      
+      <br><b>-</b> Three new zones: forest, tavern and afterlive</a>      
+      <br><b>-</b> Changed RP values for Rat, Cave Rat and Wolf to make game more fun</a>      
+      <br><b>-</b> Several other minor improvements.</a>      
+      <p/>Please keep reporting bugs , help us make Stendhal better.
+      <p/>Next release will feature a new tileset and character customization. So please stop creating new maps. I will release an updated map editor in less than a week.]]>
+    </content>
+  </item>
+  <item>
     <title>Stendhal 0.12 bug fixes release</title>
     <date>Wed, 23 Apr 2005 16:10:01</date>
     <content>
@@ -25,7 +54,7 @@
       <br><b>-</b> Better rendering order
       <br><b>-</b> Corpses are now under everything
       <br><b>-</b> Improved client speed
-      <p>
+      <p/>
       Please keep the bug report, help us make Stendhal better. The map editor is <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-0.01.zip?download">here</a>. Please help us create maps for stendhal ( maps shouldn't be bigger than 256x256 ). We need dungeons and open plains areas where to place new things like villages, cities, etc...
 ]]>
     </content>
@@ -37,7 +66,7 @@
         <image url="screens/stendhal/THM_20050520_3_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[Another great release of Stendhal!. Don't get it wrong! This release is playable and fun. We just need to make the world bigger and add new monsters and here your collaboration is a MUST. Help us to create new levels and add new monsters and quests.<p>
+      <![CDATA[Another great release of Stendhal!. Don't get it wrong! This release is playable and fun. We just need to make the world bigger and add new monsters and here your collaboration is a MUST. Help us to create new levels and add new monsters and quests.<p/>
         This release implements a better path finding, add more NPCs and a new level: dungeon.
         <br><b>-</b> Add Rat and Cave Rat entity
         <br><b>-</b> Added a balanced RP values
@@ -48,7 +77,7 @@
         <br><b>-</b> Better Sheep AI and Creature AI
         <br><b>-</b> A map editor <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-0.01.zip?download">here</a>. Please help us create maps for stendhal ( maps shouldn't be bigger than 128x128 ). Use the existing maps or template as a way to learn. Your help makes Stendhal better!.
 
-        <p>Finally the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> written on the previous news item are still open and needing attention.<br>
+        <p/>Finally the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> written on the previous news item are still open and needing attention.<br>
         Also if you can write properly English we would really love help to write a game manual at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.
          ]]>
     </content>
@@ -68,7 +97,7 @@
         <br><b>-</b> Better Sheep AI
         <br><b>-</b> Compiled map editor <a href="http://prdownloads.sourceforge.net/arianne/stendhal-mapeditor-0.00.zip?download">here</a>. Please help us create maps for stendhal ( maps shouldn't be bigger than 128x128 ). Use the existing maps as a way to learn. Your help makes Stendhal better!.
 
-        <p>Finally the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> written on the previous news item are still open and needing attention.<br>
+        <p/>Finally the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> written on the previous news item are still open and needing attention.<br>
         Also if you can write properly English we would really love help to write a game manual at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.
          ]]>
     </content>
@@ -80,8 +109,8 @@
         <image url="screens/stendhal/THM_20050507_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[A new week, almost a new release :)<br>I have added combat to Stendhal and HP bars, and a basic in game GUI.<br>Release should happen soon, exactly at the same moment I assign <i>coherent</i> RP values to entities.<p>
-         Also the CVS code has been cleaned and refactored, so Client is now clearer than ever. If you plan to create a game using Arianne, Stendhal would be a great base for your client. :)<p>
+      <![CDATA[A new week, almost a new release :)<br>I have added combat to Stendhal and HP bars, and a basic in game GUI.<br>Release should happen soon, exactly at the same moment I assign <i>coherent</i> RP values to entities.<p/>
+         Also the CVS code has been cleaned and refactored, so Client is now clearer than ever. If you plan to create a game using Arianne, Stendhal would be a great base for your client. :)<p/>
          On the near future <i>(1 month or so)</i> I will stabilize Stendhal development and start again all the documentation process that means:
         <br><b>-</b> Document all the code.
         <br><b>-</b> Fix, update and improve Wiki Documents.
@@ -94,16 +123,16 @@
     <title>Marauroa 0.95 and Stendhal 0.03 bug fixes release</title>
     <date>Thu, 28 Apr 2005 16:33:54</date>
     <content>
-      <![CDATA[These are two small releases but very important in the development of Arianne.<p>
-        On Marauroa we have fix a bug that has been there since 0.30 release and that was related to the way MySQL managed transactions, also we added a method to request synchronization from a unsynced client so you should expect now a better gameplay.<p>
-        On Stendhal we have added A*, fixed a bug with Sheep weight due to signed/unsigned, improved Sheep movement, added Patrol and  follow path action, fixed collision detection area, changed Game Chat dialog so that it opens with Ctrl+L, NPC counts sheeps sold and bought, client reconnect on out of sync, a single text line is visible now, now combat icon is centered on the bottom right corner and finally optional collision detection boxes.<p>
+      <![CDATA[These are two small releases but very important in the development of Arianne.<p/>
+        On Marauroa we have fix a bug that has been there since 0.30 release and that was related to the way MySQL managed transactions, also we added a method to request synchronization from a unsynced client so you should expect now a better gameplay.<p/>
+        On Stendhal we have added A*, fixed a bug with Sheep weight due to signed/unsigned, improved Sheep movement, added Patrol and  follow path action, fixed collision detection area, changed Game Chat dialog so that it opens with Ctrl+L, NPC counts sheeps sold and bought, client reconnect on out of sync, a single text line is visible now, now combat icon is centered on the bottom right corner and finally optional collision detection boxes.<p/>
         Out next steps are:
         <br><b>-</b> Add wolf entity
         <br><b>-</b> Make combat real
         <br><b>-</b> Add currency to game
         <br><b>-</b> Add new Sheep GFX
         <br><b>-</b> Initial character customization
-        <p>Finally the tasks written on the previous news item are still open and needing attention.
+        <p/>Finally the tasks written on the previous news item are still open and needing attention.
          ]]>
     </content>
   </item>
@@ -114,13 +143,13 @@
         <image url="screens/stendhal/THM_20050417_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[This is the first release of Stendhal that has the tag playable (PLAYABLE).<br> You can walk, chat, attack, buy and sell sheeps, change zones, request help, etc...<p>
-         I am actually in need of someone with RP gaming experience that wants to help me to create a simple game system based on S6S and give correct values to entities values.<p>
+      <![CDATA[This is the first release of Stendhal that has the tag playable (PLAYABLE).<br> You can walk, chat, attack, buy and sell sheeps, change zones, request help, etc...<p/>
+         I am actually in need of someone with RP gaming experience that wants to help me to create a simple game system based on S6S and give correct values to entities values.<p/>
          There are three open tasks that are of vital importance for Stendhal:
          <br><b>-</b> Create a game manual at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>
          <br><b>-</b> Define the entities RP values and the RP general guidelines, like how to attack, how fast, how fast to move, how is allowed to attack to, etc...</a>
          <br><b>-</b> Complete the manual about how to use Tiled to create maps for stendhal and add screenshots to it.</a>
-         <p>Perhaps you would like to help us close some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalDesign">design document</a>.<p>
+         <p/>Perhaps you would like to help us close some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalDesign">design document</a>.<p/>
          ]]>
     </content>
   </item>
@@ -128,7 +157,7 @@
     <title>Marauroa 0.94 bug fixes release</title>
     <date>Wed, 17 Apr 2005 13:21:01</date>
     <content>
-      <![CDATA[This release adds secure login feature as well as fixs a bug at JDBC Database class that didn't allowed a RPObject to be correctly stored.<p> 
+      <![CDATA[This release adds secure login feature as well as fixs a bug at JDBC Database class that didn't allowed a RPObject to be correctly stored.<p/> 
          You have a complete step by step guide at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa</a>
          ]]>
     </content>
@@ -137,7 +166,7 @@
     <title>Marauroa 0.93 bug fixes release</title>
     <date>Wed, 8 Apr 2005 20:31:01</date>
     <content>
-      <![CDATA[A new emergency release of Marauroa that fix several important bugs, the main one is the 100% CPU usage due to multithread send feature.<p> 
+      <![CDATA[A new emergency release of Marauroa that fix several important bugs, the main one is the 100% CPU usage due to multithread send feature.<p/> 
          You have a complete step by step guide at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa</a>
          ]]>
     </content>
@@ -149,11 +178,11 @@
         <image url="screens/stendhal/THM_20050405_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[Our second release of Stendhal, and again it is not intended to be playable (<b>NO PLAYABLE</b>). You can walk, chat, collide, move from one zone to another, talk to NPC, attack other players and our dummy, but it lacks of the quality to consider it playable.<p>
-         This release also features a new map editor using <a href="http://tiled.rpgdx.net/index.html">Tiled</a> with a write only plugin to create Stendhal maps, on CVS you can access our actual maps and the tileset used to create them... help is appreciated to build bigger and better maps :) We also added a GUI to Stendhal that makes simpler to login to server, and there is a Java Webstart feature.<p>
+      <![CDATA[Our second release of Stendhal, and again it is not intended to be playable (<b>NO PLAYABLE</b>). You can walk, chat, collide, move from one zone to another, talk to NPC, attack other players and our dummy, but it lacks of the quality to consider it playable.<p/>
+         This release also features a new map editor using <a href="http://tiled.rpgdx.net/index.html">Tiled</a> with a write only plugin to create Stendhal maps, on CVS you can access our actual maps and the tileset used to create them... help is appreciated to build bigger and better maps :) We also added a GUI to Stendhal that makes simpler to login to server, and there is a Java Webstart feature.<p/>
 	 We are working 110% on creating new GFX: samoa is creating a sheep and a wolf ( you can see it at Forums ).<br>
          Next steps are towards completing the RP system, and increasing the NPC interaction, and also fixing a strange bug that make game to work only sometimes ( most of them ).
-         On the meanwhile you would like to help us close some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalDesign">design document</a>.<p>
+         On the meanwhile you would like to help us close some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalDesign">design document</a>.<p/>
          There is still no public server for Stendhal...
          ]]>
     </content>
@@ -163,7 +192,7 @@
     <date>Wed, 3 Apr 2005 20:31:01</date>
     <content>
       <![CDATA[This release changes some interfaces to suit in a better way the game development.<br>
-         If you plan to use Marauroa, you should update to this release in order to get it working. Soon I will update the API guides to show these changes.<p>
+         If you plan to use Marauroa, you should update to this release in order to get it working. Soon I will update the API guides to show these changes.<p/>
          You have a complete step by step guide at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa</a>
          ]]>
     </content>
@@ -175,9 +204,9 @@
         <image url="images/articles/stendhal_gui.jpg"/>
       </images>
     <content>
-      <![CDATA[After a full weekend of work, I have added a GUI to Stendhal. It is a bit basic but useful enough to make the game playable.<p>
+      <![CDATA[After a full weekend of work, I have added a GUI to Stendhal. It is a bit basic but useful enough to make the game playable.<p/>
          Next step is about adding attack and heal actions and make multizone works in a more intuitive way.<br>The point is to add <i>*slowly*</i> new features to build a complete game as soon as possible. You can read the complete plan at our Wiki in <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalObjectives">StendhalObjectives</a><br>
-         BTW I keep begging for help to close these <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> :)<p>
+         BTW I keep begging for help to close these <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> :)<p/>
          The most important task to complete now it 100% related to GFX; we do need new GFX as explained in the Stendhal tasks.
          ]]>
     </content>
@@ -187,7 +216,7 @@
     <date>Wed, 3 Mar 2005 20:31:01</date>
     <content>
       <![CDATA[This release of Marauroa closes a few bug fixes that make server work abnormally: a bug at RPServerManager, a bug at PlayerEntryContainer and a important bug at RPWorld.<br>
-         If you plan to use Marauroa, you should update to this release in order to get it working.<p>
+         If you plan to use Marauroa, you should update to this release in order to get it working.<p/>
          You have a complete step by step guide at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa</a>
          ]]>
     </content>
@@ -199,8 +228,8 @@
         <image url="screens/stendhal/THM_20050303_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[This is the first relese of Stendhal. It is not intended to be playable (<b>NO PLAYABLE</b>), it is just a tech demo of where you can walk, collide and change of zone.<p>
-         As you know we drive our development by the guideline:<i>release small, release often</i>. Now we will start the development of the GUI ( anyone wanna help? ) and the rest of actions to make it playable. In around 1 month the game could be really playable.<p>
+      <![CDATA[This is the first relese of Stendhal. It is not intended to be playable (<b>NO PLAYABLE</b>), it is just a tech demo of where you can walk, collide and change of zone.<p/>
+         As you know we drive our development by the guideline:<i>release small, release often</i>. Now we will start the development of the GUI ( anyone wanna help? ) and the rest of actions to make it playable. In around 1 month the game could be really playable.<p/>
          On the meanwhile you would like to help us close some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalDesign">design document</a>.<br>
          I can't really handle all by myself :)
          ]]>
@@ -212,7 +241,7 @@
     <content>
       <![CDATA[After more than six months we have at last another release of Marauroa.<br>
          This release sucessfully implements multizone features into Marauroa and has been splitted in several different packages: client, common and server.<br>
-         Also this release features the new content streaming system that is being used in Stendhal.<p>
+         Also this release features the new content streaming system that is being used in Stendhal.<p/>
          This release is <font color=red>incompatible</font> with mapacman and gladiator. We are working to recover them as soon as possible.
         ]]>
     </content>
@@ -221,7 +250,7 @@
     <title>Stendhal: Player can move and collide with world</title>
     <date>Mon, 16 Feb 2005 10:10:13</date>
     <content>
-      <![CDATA[As I said, development is showing some interesting results in a short period of time. The actual <i>client</i> allows the player to move and collide with objects that exists on world. Problem is that the client is a development work thing, and need to be refactored in order to be released, but I think that around 2 weeks could be something available.<p>AS preview, just a video: <a href="http://stendhal.game-server.cc/Stendhal_0.00_Video.avi">Stendhal 0.00 video</a> (24") 266KB]]>
+      <![CDATA[As I said, development is showing some interesting results in a short period of time. The actual <i>client</i> allows the player to move and collide with objects that exists on world. Problem is that the client is a development work thing, and need to be refactored in order to be released, but I think that around 2 weeks could be something available.<p/>AS preview, just a video: <a href="http://stendhal.game-server.cc/Stendhal_0.00_Video.avi">Stendhal 0.00 video</a> (24") 266KB]]>
     </content>
   </item>
   <item>
@@ -231,14 +260,14 @@
         <image url="images/articles/THM_stendhal_003.jpg"/>
       </images>
     <content>
-      <![CDATA[Stendhal is our next game to test the new exciting features in Arianne: multizones and content transfer. <p>The idea behind Stendhal is a small multiplayer action game very similar to Nintendo's Zelda.<br/> There is going to be no argument at all on it for a while, but it is a start to show that it works and works correctly.<p>Once the development is stabilized we are going to need new GFX, music and some people to write something like a plot for the game, but that time is still a bit far. <p> I will show more info when we have it working.]]>
+      <![CDATA[Stendhal is our next game to test the new exciting features in Arianne: multizones and content transfer. <p/>The idea behind Stendhal is a small multiplayer action game very similar to Nintendo's Zelda.<br/> There is going to be no argument at all on it for a while, but it is a start to show that it works and works correctly.<p/>Once the development is stabilized we are going to need new GFX, music and some people to write something like a plot for the game, but that time is still a bit far. <p/> I will show more info when we have it working.]]>
     </content>
   </item>
   <item>
     <title>Big change coming in Marauroa</title>
     <date>Fri, 14 Jan 2005 14:27:16</date>
     <content>
-      <![CDATA[Again, a few months without news of the development. Again, sorry. Development keeps moving and marauroa advances at a slow but constant speed. <br/>Waldemar ported all the code to Java 5.0 and I finally completed the change to multizone code. We both have changed the package structure of marauroa so that now it is clearer how to port it to J2ME or another language, as the server, client and commons parts are now independient packages.<p>On the client side, I will begin to write a new Java2D client for our new game, Stendhal, so I will not update ariannexp for a while.<br/> I will try also to post more news if I have spare time.]]>
+      <![CDATA[Again, a few months without news of the development. Again, sorry. Development keeps moving and marauroa advances at a slow but constant speed. <br/>Waldemar ported all the code to Java 5.0 and I finally completed the change to multizone code. We both have changed the package structure of marauroa so that now it is clearer how to port it to J2ME or another language, as the server, client and commons parts are now independient packages.<p/>On the client side, I will begin to write a new Java2D client for our new game, Stendhal, so I will not update ariannexp for a while.<br/> I will try also to post more news if I have spare time.]]>
       </content>
   </item>
   <item>
@@ -260,7 +289,7 @@ of Stendhal, which has already been started.<p/> Soon I will write more about it
     <title>game servers are going to be down up to Aug, 15</title>
     <date>Thu, 03 Aug 2004 16:41:16</date>
     <content>
-      <![CDATA[Hehehe, you know, holidays!, I will shutdown the computer that run that arianne's server up to Aug, 15.<br> We are still looking for a 24/7 hoster of our servers so we can avoid this situations.<p>As a follow up, our next game is going to be called Stendhal, surely around Aug, 15 you will be able to read more about it.]]>
+      <![CDATA[Hehehe, you know, holidays!, I will shutdown the computer that run that arianne's server up to Aug, 15.<br> We are still looking for a 24/7 hoster of our servers so we can avoid this situations.<p/>As a follow up, our next game is going to be called Stendhal, surely around Aug, 15 you will be able to read more about it.]]>
       </content>
   </item>
   <item>
@@ -273,7 +302,7 @@ of Stendhal, which has already been started.<p/> Soon I will write more about it
       <![CDATA[Thanks to the HUGE amount of bugs report about mapacman I have been able to do this release. Mainly I have fixed the issue that many of you pointed about GUI and I have recoded the GUI from scratch to meet the requirements.<br>
 Also Many of you had problems with timeouts, so now mapacman 
 doesn't handle timeouts, when you feel something is not working
-press ESC and you will be returned to the previous screen.<p>
+press ESC and you will be returned to the previous screen.<p/>
 This released still miss the Create account from game feature
 that may be added on the next release of marauroa: no promises.]]>
       </content>
@@ -327,7 +356,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <content>
       <![CDATA[This version of mapacman features the new walls done by 
       zzorn and adds correct scrolling. You still need to create an account at 
-      <a href="http://mapacman.game-server.cc">mapacman server</a>.<p>I still 
+      <a href="http://mapacman.game-server.cc">mapacman server</a>.<p/>I still 
       need your bugs reports, as it is the only way of improving the game.]]>
     </content>
   </item>
@@ -338,7 +367,7 @@ that may be added on the next release of marauroa: no promises.]]>
       Python.<br>This release is very important for us as it consolidate all 
       the development of the last 9 months on a very stable and advanced release
       that adds per player synchronization, correct delta^2 perception system, 
-      classes of ingame objects and better python scripts.<p>I also remind that 
+      classes of ingame objects and better python scripts.<p/>I also remind that 
       the tutorial is now available at 
       <a href="http://arianne.sourceforge.net/wiki/HowToWriteGamesUsingArianne">
       Wiki</a>]]></content>
@@ -347,7 +376,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>mapacman server will be down 24-48 hours</title>
     <date>Thu, 1 Jul 2004 12:56:13 GMT</date>
     <content><![CDATA[I will shutdown server to develop the next versions of both 
-      marauroa and mapacman. They should be out before Monday.<p>Sorry for the 
+      marauroa and mapacman. They should be out before Monday.<p/>Sorry for the 
       inconvenience.]]></content>
   </item>
   <item>
@@ -370,7 +399,7 @@ that may be added on the next release of marauroa: no promises.]]>
       <![CDATA[The bug about background clearing and the bug about TAB on the
       main screen were fixed. The player is now different than the rest of the pacmans,
       and they now have animations. You can see your score at the bottom of the screen.
-      <br>By the way, take extra care with ghost it is too dangerous.<p>Next version of
+      <br>By the way, take extra care with ghost it is too dangerous.<p/>Next version of
       mapacman will feature a 10 times bigger map, more ghosts and a 
       ssssurprissssse]]></content>
   </item>
@@ -407,7 +436,7 @@ that may be added on the next release of marauroa: no promises.]]>
       <![CDATA[
 		Although I were sure that it runs on Linux it is fun to see that it really does.<br>
 		Here you can see the screenshot as taken by keiner. In a few days I hope to be able to 
-		release a first version, that is, when I complete the GUI.<p>
+		release a first version, that is, when I complete the GUI.<p/>
 		The HOWTO continue evolving into a great document at 
 		<a href="http://arianne.sourceforge.net/wiki/HowToWriteGamesUsingArianne">
 		http://arianne.sourceforge.net/wiki/HowToWriteGamesUsingArianne</a>
@@ -436,9 +465,9 @@ that may be added on the next release of marauroa: no promises.]]>
 		Today a major step has been taken on the Arianne development. <br>
 		ariannexp has reach it second iteration and finally pyarianne is also working on Linux.
  		So developing new clients and games is easier than ever, you can check it at Wiki at 
- 		<a href="http://arianne.sourceforge.net/wiki/index.php/HowToWriteGamesUsingArianne">here</a>.<p>
+ 		<a href="http://arianne.sourceforge.net/wiki/index.php/HowToWriteGamesUsingArianne">here</a>.<p/>
 		marauroa has also being released with this version featuring support for an initial mapacman 
-		server side game and in a few days a version of mapacman client will be released.<p>
+		server side game and in a few days a version of mapacman client will be released.<p/>
 		I am very insterested on problems with ariannexp at linux side, and would be extremly 
 		thanked if those problems are fixed as well.
       ]]>
@@ -455,7 +484,7 @@ that may be added on the next release of marauroa: no promises.]]>
 		No, mapacman is not vaporware. Simply that I don't have enough free time lately to work 
 		on it as much as I would need, anyway you can see here a preview of it.<br>
 		On the mean time I have documented on the <a href="/wiki">Wiki</a> the tiny API used 
-		to connect to Arianne and a example of how to use the API.<p>
+		to connect to Arianne and a example of how to use the API.<p/>
 		Also remind you all that we are looking for developers for Arianne. More info 
 		<a href="http://sourceforge.net/people/?group_id=1111">here</a>
       ]]>
@@ -481,7 +510,7 @@ that may be added on the next release of marauroa: no promises.]]>
 		Today I have improved the speed of Marauroa for around 10 times faster than 
 		before by adding a cache of the static part of the perception that is send to each player.<br>
 		This improvement allows Marauroa to be able to handle now hundred of players on a dedicated system.<br>
-		We only need now to optimize the database subsystem to handle the amount of data.<p>
+		We only need now to optimize the database subsystem to handle the amount of data.<p/>
       ]]>
       </content>
   </item>
@@ -492,12 +521,12 @@ that may be added on the next release of marauroa: no promises.]]>
       <![CDATA[
 		There are several things moving on arianne right now:<br>
 		pyarianne is a python wrapper module for arianne clients, so you can now develop 
-		arianne clients using Python and surely pygame :)<p>
+		arianne clients using Python and surely pygame :)<p/>
 		We have setup a wiki to write several docs, if you think you can help us, please 
-		do it. <a href="/wiki">Wiki link</a><p>
+		do it. <a href="/wiki">Wiki link</a><p/>
 		Marauroa is moving also in a secure strong way, we are improving the speed of the 
 		core game and fixing several things to make it run using as less CPU as possible, 
-		so we can increase the player limit actually works correctly with around 64 players.<p>
+		so we can increase the player limit actually works correctly with around 64 players.<p/>
 		On the coming weekend we perhaps do release something. Keep reading.
       ]]>
       </content>
@@ -515,7 +544,7 @@ that may be added on the next release of marauroa: no promises.]]>
 		<li>Added mapacman game, our next milestone development</li>
 		</ul>
 		On the client side, I have been able to remove the nasty memory leak, and now client leaks 
-		nothing on the main loop<p>
+		nothing on the main loop<p/>
 		The next release of Marauroa, will have a completly explained HOWTO write an online game 
 		using the arianne engine
       ]]>
@@ -568,7 +597,7 @@ Backtracking detected --> Rotating
     <content>
       <![CDATA[
 		Thanks to Steve I. , we all now have a manual for Gladiators. Please check it 
-		and as usual report any kind of problems that you may find.<p>
+		and as usual report any kind of problems that you may find.<p/>
 		Manual is at Documentation: 
 		<a href="index.php?arianne_url=games/gladiators/gladiators_manual">manual</a>
       ]]>
@@ -583,7 +612,7 @@ Backtracking detected --> Rotating
 		is added and deleted on the same turn from a slot, adds modification of the network 
 		protocol to send our RPObject only when changed, fixed a path related problem with the 
 		create account application and finally fixed an issue that rejects the creation of 
-		database on the first run.<p>This version of gladiators, our actual client for gladiators 
+		database on the first run.<p/>This version of gladiators, our actual client for gladiators 
 		game, updates to follow the changes on the server.
       ]]>
       </content>
@@ -606,7 +635,7 @@ Backtracking detected --> Rotating
 		</ul>This new game will feature a total OS portability and will be based on a 
 		existing open source project, so that we show how easy is to modify an existing
  		game to use the Marauroa system to provide game content.
-		<p>The progress achieved with Pacman will be applied back into our Gladiators game.
+		<p/>The progress achieved with Pacman will be applied back into our Gladiators game.
       ]]>
       </content>
   </item>
@@ -621,7 +650,7 @@ Backtracking detected --> Rotating
 	 	I also have released a working <i>( I tried them )</i> version of Gladiators 
 	 	that is self contained, although you may need to install over 0.07 to get more 
 	 	models and a new version of ariannexp that is the text test client that should 
-	 	compile and run perfectly on linux too.<p>
+	 	compile and run perfectly on linux too.<p/>
 	 	Why in the hell there are no progress on gameplay? Nice question, I work alone
 	 	( or better: I am working alone ) so I can't develop all by myself. 
 	 	<i>root777</i> is doing a nice job at the Java side, but the client is only handled
@@ -629,7 +658,7 @@ Backtracking detected --> Rotating
 	 	designer is MIA <i>(miss in accion)</i>, but anyway the progress should come soon.<br>
 	 	I do really need help with someone that could take care of a SDL-based graphical
 	 	client. I have to keep developing the server side of the game and I am not going 
-	 	to be able to keep in sync the client.<p>
+	 	to be able to keep in sync the client.<p/>
 	 	Just step on the IRC channel or arianne-devel mailing and I will give you more info.
       ]]>
       </content>
@@ -693,7 +722,7 @@ Backtracking detected --> Rotating
       <![CDATA[
 		Again, a new version of Gladiators ( and again for windows only ).<br>This one
 		doesn't crash. I have stressed it for 4 hours and I have not been able to crash
-		it.<br>So I am really interesting on anyone's story about gladiators  problem.<p>
+		it.<br>So I am really interesting on anyone's story about gladiators  problem.<p/>
 		Text has been reworked so that it is more "usable" now. You may still have the
 		server unreachable problems, I promise to fix it on 0.06. Now error messages are 
 		more useful :) and finally fame has been reworked to be more fair and scalable.
