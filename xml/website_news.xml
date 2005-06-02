@@ -13,8 +13,18 @@
   </item>
   -->
   <item>
+    <title>Stendhal Mapeditor 1.00 available</title>
+    <date>Thu, 2 Jun 2005 16:01:52</date>
+      <images> 
+        <image url="wiki_images/tiled_35.jpg"/>
+      </images>
+    <content>
+      <![CDATA[I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.00.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps">http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
+      </content>
+  </item>
+  <item>
     <title>Marauroa 1.00: First major milestone released</title>
-    <date>Mon, 30 Apr 2005 17:59:34</date>
+    <date>Mon, 30 May 2005 17:59:34</date>
       <images> 
         <image url="images/articles/eventrelease.jpg"/>
       </images>
@@ -29,7 +39,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Stendhal 0.13 release: Better RP than before</title>
-    <date>Mon, 30 Apr 2005 17:56:01</date>
+    <date>Mon, 30 May 2005 17:56:01</date>
     <content>
       <![CDATA[This release is another bug fixes over 0.11 release. But we have also some things you have been asking for:
       <br><b>-</b> A game manual at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>      
@@ -43,7 +53,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Stendhal 0.12 bug fixes release</title>
-    <date>Wed, 23 Apr 2005 16:10:01</date>
+    <date>Wed, 23 May 2005 16:10:01</date>
     <content>
       <![CDATA[Thanks everyone for the extensive bug reports. I have done a release that fix most of your complains:
       <br><b>-</b> Fixed a severe bug that happens when a creature respawn over a player.
