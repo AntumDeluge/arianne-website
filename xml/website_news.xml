@@ -13,13 +13,25 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.20 release: new Monsters, more dungeons and better eXPerience</title>
+    <date>Sun, 05 Jun 2005 00:57:35</date>
+      <images> 
+        <image url="screens/stendhal/THM_20050605_stendhal.jpg"/>
+      </images>
+    <content>
+      <![CDATA[Yes! We are back!. This release adds the set outfit feature, so that you can personalize your character. On next releases we are going to change the graphics, so please wait for content submitions. Some of you have been complaining about wolves are easy, so we have added boars, trolls, cobras, orcs, kobolds, goblins and ogres. We have added also added a new dungeon, four times bigger than the actual one, where lives a NPC what will give you 2000 XP points for your full grow sheep.<p/>
+This release also fix a nasty bug on linux that makes the gameplay awful, now it works perfect.<br>We need now players, dozens of players to test the server stability and limits. We know game <i>"works"</i> and we know it is fun, but we need to know how many players can we handle ( actually there is a soft limit of 64 ).<p/>
+A complete game manual exists at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.<p/>
+<i>PS:</i> Don't forget to dress yourself. <br/>We are talking about replacing RP system with D20. We would love to listen to your opinion at Forums.]]>
+    </content>
+  </item>  <item>
     <title>Stendhal Mapeditor 1.00 available</title>
     <date>Thu, 2 Jun 2005 16:01:52</date>
       <images> 
         <image url="wiki_images/tiled_35.jpg"/>
       </images>
     <content>
-      <![CDATA[I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.00.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps">http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
+      <![CDATA[I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps">http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
       </content>
   </item>
   <item>

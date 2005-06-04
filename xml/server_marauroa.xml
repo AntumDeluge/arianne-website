@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <server name="marauroa">
-  <updated date="2005/05/30"/>
-  <version id="1.00"/>  
+  <updated date="2005/06/05"/>
+  <version id="1.01"/>  
   <status value="complete"/>
   <description><![CDATA[ 
 Marauroa is Arianne's Multiplayer Online Engine Server, that you can use to build 
@@ -60,12 +60,7 @@ you want.<p/>
     ]]>
   </extended>
   <changelog><![CDATA[ 
-<b>-</b> Fixed a bug at Perception system that shows objects of other zones.
-<br><b>-</b> Reduced Perception size.
-<br><b>-</b> Send only hidden attributes on player
-<br><b>-</b> Fix a bug on a disconnected player that login again
-<br><b>-</b> Store connected players on server shutdown
-<br><b>-</b> Updated Python wrapper
+<b>-</b> Added storable/volatile attributes.
       ]]>
   </changelog>
   <files>
