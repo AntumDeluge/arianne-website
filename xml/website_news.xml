@@ -27,11 +27,8 @@ A complete game manual exists at <a href="http://arianne.sourceforge.net/wiki/in
   </item>  <item>
     <title>Stendhal Mapeditor 1.00 available</title>
     <date>Thu, 2 Jun 2005 16:01:52</date>
-      <images> 
-        <image url="wiki_images/tiled_35.jpg"/>
-      </images>
     <content>
-      <![CDATA[I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps">http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
+      <![CDATA[I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps">http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p/>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
       </content>
   </item>
   <item>
