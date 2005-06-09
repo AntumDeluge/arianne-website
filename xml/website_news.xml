@@ -13,6 +13,25 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.25 release: bugs fixes and initial support for items</title>
+    <date>Sun, 05 Jun 2005 00:57:35</date>
+      <images> 
+        <image url="screens/stendhal/THM_20050604_stendhal.jpg"/>
+      </images>
+    <content>
+      <![CDATA[Hello Barrapunteros!. We have been <i>forced</i> to release a bug fixes version of Stendhal due the amount of players that are going to try it.<br> This release fixs the corpses problem and other majot problems like Creatures AI.<br>
+       Also this release adds a initial support for items: a shield ( that you can't wear ) and corpses that can be moved.<p>
+A complete game manual exists at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.]]>
+    </content>
+  </item>  
+  <item>
+    <title>Stendhal Mapeditor 1.00 available</title>
+    <date>Thu, 2 Jun 2005 16:01:52</date>
+    <content>
+      <![CDATA[I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps">http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p/>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
+      </content>
+  </item>
+  <item>
     <title>Stendhal 0.20 release: new Monsters, more dungeons and better eXPerience</title>
     <date>Sun, 05 Jun 2005 00:57:35</date>
       <images> 
