@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<game name="jmapacman" shortdescription="A multiplayer online Pacman game">
+  <updated date="2005/06/22"/>
+  <version id="0.02"/>
+  <status value="beta"/>
+  <rated>
+    <entry>
+      <![CDATA[<a href="http://freshmeat.net/projects/jmapacman/"><img src="http://images.freshmeat.net/img/logo.gif"></a>]]>    
+    </entry>
+  </rated>
+  <description><![CDATA[ 
+<br>
+JMaPacman is a clone of the old Arcade Game Pacman with new features and news design.<br>
+Now you can play Pacman with many of your friends together in one Game. You have many levels to explore and many dots to eat ;)<br>
+Who will reach the Top Score ?
+<p/>
+JMaPacman is totally platform independent, written using Java 1.5 and the Java2D environment.
+  ]]></description>
+  <extended><![CDATA[
+
+  ]]>
+  </extended>
+  <manual url="http://arianne.sourceforge.net/wiki/index.php/JMaPacmanManual"/>  
+  <changelog><![CDATA[ 
+
+<br/>0.20 Jun 22, 2005
+<br/>- added Zones (4 different Maps to play)
+<br/>- added GhostBlock. An invisible items to block Ghosts only
+<br/>- added SuperDots
+<br/>- added Wrapper-Class for Dots/Superdots (only Serverside atm)
+<br/>- fixed Bug with scrolling
+<p/>
+<br/>0.10 Jun 14, 2005
+<br/>- First release
+      ]]>
+  </changelog>
+  <screenshots>
+    <image name="20050623_jmapacman.jpg"/>  </screenshots>
+  <files>
+    <file type="binary" name="jmapacman-XXX.zip">
+      <description>This file contains the JMaPacman client. Download this to play online.</description>
+      <os>
+        <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+        <entry name="macosx" status="100"/>
+      </os>
+    </file>
+    <file type="server script binary" name="jmapacman-server-XXX.zip">
+      <description>This file contains the JMaPacman server plugin. You need marauroa in order to play correctly.</description>
+      <os>
+        <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+        <entry name="macosx" status="100"/>
+      </os>
+    </file>
+    <file type="source" name="jmapacman-XXX-src.tar.gz">
+      <description>This file contains the source code to build JMaPacman.</description>
+      <os>
+        <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+        <entry name="macosx" status="100"/>
+      </os>
+      <dependencies>
+        <entry name="marauroa" url="http://arianne.sourceforge.net/?arianne_url=content/download#server"/>
+      </dependencies>
+    </file>
+  </files>
+  <servers>
+    <server name="Public Server" url="http://jmapacman.mpc-donkey.de/"/>
+  </servers>
+  <authors>
+    <entry name="Martin Spüler" url=""/>
+    <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>
+  </authors>
+</game>
