@@ -13,6 +13,21 @@
   </item>
   -->
   <item>
+    <title>JMaPacman 0.2 released</title>
+    <date>Sun, 27 Jun 2005 14:19:52</date>
+      <images> 
+        <image url="screens/jmapacman/THM_20050623_jmapacman.jpg"/>
+      </images>
+    <content>
+      <![CDATA[Yes, it's Version 0.2 ;)<br> If you missed 0.1 : JMaPacman is a Java-Port of MaPacman which is a Multiplayer Pacman Game.<br>
+With 0.2 different Zones have been added. Now you can hide from the Ghosts by moving to another zone. Also there are superdots which give more points than normal ones.<p> Download JMaPacman <a href="http://prdownloads.sourceforge.net/arianne/jmapacman-0.02.zip?download">here</a>.<p>
+
+What's your Top Score ? Try it out at <a href="http://jmapacman.mpc-donkey.de">http://jmapacman.mpc-donkey.de</a> 
+<p><i>NOTE:</i> This released is marked as 0.02 instead of 0.2, it will be fixed for next release.
+]]>
+    </content>
+  </item>  
+  <item>
     <title>Stendhal 0.25 release: bugs fixes and initial support for items</title>
     <date>Sun, 05 Jun 2005 00:57:35</date>
       <images> 
