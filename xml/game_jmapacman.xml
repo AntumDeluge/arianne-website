@@ -1,4 +1,4 @@
-<?xml version='1.0'?>
+﻿<?xml version='1.0'?>
 <game name="jmapacman" shortdescription="A multiplayer online Pacman game">
   <updated date="2005/06/22"/>
   <version id="0.02"/>
@@ -17,7 +17,10 @@ Who will reach the Top Score ?
 JMaPacman is totally platform independent, written using Java 1.5 and the Java2D environment.
   ]]></description>
   <extended><![CDATA[
-
+  <p/><h2>Play now!</h2>
+  JMaPacman uses Java Webstart technology that enables you to use always the latest version available without having to worry about updates.<br>
+  Just click on the button to play.
+  <p/><a href="http://arianne.sourceforge.net/jws/jmapacman.jnlp"><img src="images/webstart.png" alt="Click here to play"></a>
   ]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/JMaPacmanManual"/>  
