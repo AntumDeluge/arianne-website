@@ -93,7 +93,7 @@ function WriteGameBriefingHTML($game,$long_briefing)
     echo '<h2>'.$game['game']['0 attr']['shortdescription'].'</h2>';
 
     $time=explode("/",GameUpdateTime($game,"game"));
-    if(time()-mktime(0,0,0,$time[2],$time[1],$time[0])<15*24*60*60)
+    if(time()-mktime(0,0,0,(int)$time[1],(int)$time[2],(int)$time[0])<15*24*60*60)
       {
       echo '<img src="images/updated.gif" class="update_image" alt="Recently Updated!">';
       }
@@ -124,7 +124,7 @@ function WriteGameBriefingHTML($game,$long_briefing)
     echo '<li class="text">';
     echo '<a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'" class="naviLight">'.ucfirst($game['game']['0 attr']['name']).'</a>';
     $time=explode("/",GameUpdateTime($game,"game"));
-    if(time()-mktime(0,0,0,$time[2],$time[1],$time[0])<15*24*60*60)
+    if(time()-mktime(0,0,0,(int)$time[1],(int)$time[2],(int)$time[0])<15*24*60*60)
       {
       echo '<img src="images/updated.gif" class="update_image" alt="Recently Updated">';
       }

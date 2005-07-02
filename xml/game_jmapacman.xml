@@ -1,7 +1,7 @@
-﻿<?xml version='1.0'?>
+<?xml version='1.0'?>
 <game name="jmapacman" shortdescription="A multiplayer online Pacman game">
-  <updated date="2005/06/22"/>
-  <version id="0.02"/>
+  <updated date="2005/07/02"/>
+  <version id="0.3"/>
   <status value="beta"/>
   <rated>
     <entry>
@@ -25,20 +25,20 @@ JMaPacman is totally platform independent, written using Java 1.5 and the Java2D
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/JMaPacmanManual"/>  
   <changelog><![CDATA[ 
-
-<br/>0.20 Jun 22, 2005
-<br/>- added Zones (4 different Maps to play)
-<br/>- added GhostBlock. An invisible items to block Ghosts only
-<br/>- added SuperDots
-<br/>- added Wrapper-Class for Dots/Superdots (only Serverside atm)
-<br/>- fixed Bug with scrolling
-<p/>
-<br/>0.10 Jun 14, 2005
-<br/>- First release
+<b>-</b> added Killed-Splash when Ghost or Player is killed
+<br/><b>-</b> added Fruits and Powerpills
+<br/><b>-</b> added Dot-WrapperClasses clientside
+<br/><b>-</b> added and changed some Maps
+<br/><b>-</b> added 2 more Maps
+<br/><b>-</b> reduced Amount of Score Player loses on Death
+<br/><b>-</b> changed Scrolling, scrolls much faster now
+<br/><b>-</b> save CPU by not moving Ghosts when no Player is logged in for a long time
+<br/><b>-</b> Players respawn on a random free RespawnPoint
+<br/><b>-</b> fixed Bug when other Player changes Zone or disapears
       ]]>
   </changelog>
   <screenshots>
-    <image name="20050623_jmapacman.jpg"/>  </screenshots>
+    <image name="20050702_jmapacman.jpg"/>    <image name="20050623_jmapacman.jpg"/>  </screenshots>
   <files>
     <file type="binary" name="jmapacman-XXX.zip">
       <description>This file contains the JMaPacman client. Download this to play online.</description>

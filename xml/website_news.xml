@@ -13,6 +13,25 @@
   </item>
   -->
   <item>
+    <title>JMaPacman 0.3 released</title>
+    <date>Sun, 02 Jul 2005 15:26:14</date>
+      <images> 
+        <image url="screens/jmapacman/THM_20050702_jmapacman.jpg"/>
+      </images>
+    <content>
+      <![CDATA[Version 0.3 of JMaPacman has been released. Now you can eat Powerpills
+which give you the power to eat ghosts for a short time. Also there are
+fruits which give much more points than anything else. Some Bugs have
+been fixed and there are 2 new maps on the public server to play on.
+<p>
+Download JMaPacman <a
+href="http://prdownloads.sourceforge.net/arianne/jmapacman-0.3.zip?download">here</a>
+<p>
+Try to beat the Top Score at <a
+href="http://jmapacman.mpc-donkey.de/">our Public Server</a>]]>
+    </content>
+  </item>  
+  <item>
     <title>JMaPacman 0.2 released</title>
     <date>Sun, 27 Jun 2005 14:19:52</date>
       <images> 
