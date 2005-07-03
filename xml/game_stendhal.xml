@@ -83,7 +83,7 @@ So what are you waiting for?! A whole new world awaits...]]>
         <entry name="macosx" status="100"/>
       </os>
     </file>
-    <file type="map editor binary" name="stendhal_mapeditor-1.01.zip">
+    <file type="map editor binary" name="stendhal_mapeditor-1.02.zip">
       <description>This file contains the stendhal map editor. Download this to create new maps. Send them to us if you want them to appear on next releases. Use the tmx file format.</description>
       <os>
         <entry name="win32" status="100"/>
