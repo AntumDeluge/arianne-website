@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2005/06/09"/>
-  <version id="0.25"/>
+  <updated date="2005/07/03"/>
+  <version id="0.30"/>
   <status value="beta"/>
   <rated>
     <entry>
@@ -47,19 +47,23 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
   <changelog><![CDATA[ 
-<b>-</b> Fixed a bug on dead
-<br/><b>-</b> Fixed a bug on cache timestamp
-<br/><b>-</b> Fixed a bug on stendhalcreateaccount
-<br/><b>-</b> Fixed a sheepless player that get blocked bug.
-<br/><b>-</b> Fixed a createTextBox bug with whitespaces.
-<br/><b>-</b> Fixed blocked Creatures AI bug
-<br/><b>-</b> Fixed bug on tell
-<br/><b>-</b> Fixed corpses problem
-<br/><b>-</b> Added where command
-<br/><b>-</b> Added msg command
-<br/><b>-</b> Added items
-<br/><b>-</b> Added item displacement
-<br/><b>-</b> Added own and release sheep commands
+<b>-</b> Added items system
+<br/><b>-</b> Fixed close bug
+<br/><b>-</b> Fixed a bug that blocks game
+<br/><b>-</b> Reestructured client entity system
+<br/><b>-</b> Completed dungeon_001 map
+<br/><b>-</b> Fixed cache bug definitively
+<br/><b>-</b> Added slots
+<br/><b>-</b> Added club, sword, shield and armor
+<br/><b>-</b> New combat system
+<br/><b>-</b> New monsters stats
+<br/><b>-</b> Several map fixes
+<br/><b>-</b> Move tilesets to PNG
+<br/><b>-</b> Added 6 devel points on player creation
+<br/><b>-</b> New NPC dialogs
+<br/><b>-</b> Added a weapon seller
+<br/><b>-</b> Removed ownerless sheeps
+<br/><b>-</b> Sato doesn't kill sheeps anymore
       ]]>
   </changelog>
   <screenshots>
@@ -112,7 +116,9 @@ So what are you waiting for?! A whole new world awaits...]]>
   </servers>
   <authors>
     <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>
+    <entry name="Steve I." url="http://arianne.sourceforge.net/wiki/index.php/StephenIerodiaconou"/>
     <entry name="Kim Purnell Samoa" url=""/>
+    <entry name="Danter" url="http://arianne.sourceforge.net/wiki/index.php/Danter"/>
     <entry name="Laurent Soubrevilla" url=""/>
     <entry name="Hans Halggstrom" url="http://www.iki.fi/zzorn/"/>
     <entry name="Jonas aka Damosh" url=""/>

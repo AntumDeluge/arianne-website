@@ -13,6 +13,19 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.30 release: Items system and new RP Combat system</title>
+    <date>Sun, 03 Jul 2005 13:29:51</date>
+      <images> 
+        <image url="screens/stendhal/THM_20050703_stendhal.jpg"/>
+      </images>
+    <content>
+      <![CDATA[Muahahaha! ok!, 0.30 is here! I know you have been waiting it. We have added finally the long awaited items system and you can wear them, by now only a club, a sword, a shield and a leather armor. We will add more on next releases.<br>
+      To get new items you need to buy them from Xin Blanca at the tavern.<p>This release unfortunately doesn't adds inventory support because we need a GUI framework to do it. I am actually working on it and hope to have it designed in one week so we can write a specification and start coding it.<p>
+      This release also features a new RP system where weapons have effect in combat, so don't forget to wear them.<br> We will really love to read from any problem you may have with the game or any suggestion you may have.<p>
+A complete game manual exists at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.]]>
+    </content>
+  </item>  
+  <item>
     <title>JMaPacman 0.3 released</title>
     <date>Sun, 02 Jul 2005 15:26:14</date>
       <images> 
