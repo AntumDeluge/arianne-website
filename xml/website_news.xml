@@ -13,6 +13,20 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.31 release: bug fixes</title>
+    <date>Fri, 08 Jul 2005 12:30:16</date>
+    <content>
+      <![CDATA[This release is a bug fixes over 0.30. We have fixed a bug at statistics system, speed up combat, ease creature killing, no more drop item bug, move item in inventory, 
+fixed bug at Weapon seller, fix render order, added Giant rat, added three new areas: valley and rat dungeon (two levels), fixed a problem with long sentences, 
+changed sprites to PNG, added Bag slot (1 item only) and modifiable server name at login text area.<br>
+Unfortunately some of these changes are server related and we are right now unable to reset stendhal server, so we will need to wait up to Jul, 20 for the real update.<br>
+Meanwhile we will keep developing new areas and the inventory system.<br>
+As before please report problems or suggestions.<p>
+IMHO I find the actual combat system too easy to kill monsters, so perhaps I do a rebalance again. Combat system is going to be replaced by a skill based system.<p>
+A complete game manual exists at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.]]>
+    </content>
+  </item>  
+  <item>
     <title>Stendhal 0.30 release: Items system and new RP Combat system</title>
     <date>Sun, 03 Jul 2005 13:29:51</date>
       <images> 

@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2005/07/03"/>
-  <version id="0.30"/>
+  <updated date="2005/07/08"/>
+  <version id="0.31"/>
   <status value="beta"/>
   <rated>
     <entry>
@@ -47,23 +47,19 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
   <changelog><![CDATA[ 
-<b>-</b> Added items system
-<br/><b>-</b> Fixed close bug
-<br/><b>-</b> Fixed a bug that blocks game
-<br/><b>-</b> Reestructured client entity system
-<br/><b>-</b> Completed dungeon_001 map
-<br/><b>-</b> Fixed cache bug definitively
-<br/><b>-</b> Added slots
-<br/><b>-</b> Added club, sword, shield and armor
-<br/><b>-</b> New combat system
-<br/><b>-</b> New monsters stats
-<br/><b>-</b> Several map fixes
-<br/><b>-</b> Move tilesets to PNG
-<br/><b>-</b> Added 6 devel points on player creation
-<br/><b>-</b> New NPC dialogs
-<br/><b>-</b> Added a weapon seller
-<br/><b>-</b> Removed ownerless sheeps
-<br/><b>-</b> Sato doesn't kill sheeps anymore
+<b>-</b>  Fixed a bug at statistics system.
+<br/><b>-</b>  Speed up combat
+<br/><b>-</b>  Ease creature killing.
+<br/><b>-</b>  No more drop item bug
+<br/><b>-</b>  Move item in inventory
+<br/><b>-</b>  Fixed bug at Weapon seller.
+<br/><b>-</b>  Fix render order
+<br/><b>-</b>  Added Giant rat
+<br/><b>-</b>  Added three new areas: valley and rat dungeon (two levels)
+<br/><b>-</b>  Fixed a problem with long sentences
+<br/><b>-</b>  Changed sprites to PNG
+<br/><b>-</b>  Added Bag slot (1 item only)
+<br/><b>-</b>  Modifiable server name at login text area<b>-</b> Added items system
       ]]>
   </changelog>
   <screenshots>
