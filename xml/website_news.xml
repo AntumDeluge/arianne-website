@@ -13,6 +13,16 @@
   </item>
   -->
   <item>
+    <title>Summer Sweet Summer!</title>
+    <date>Sat, 17 Sep 2005 02:41:12</date>
+    <content>
+      <![CDATA[Holidays are over as summer is right now. During this two months, Stendhal and Marauroa has shown little progress, although a really nice effort has been done to port our logging system to log4j and to create an API in order to reuse Stendhal code base for other games.<br>
+        The first task is complete and the results are simply awesome. Moving to log4j should have been done a great time before.<br>
+        Unfortunately our second task; create an API for Stendhal is not so advanced, anyway we are sure and proud that soon we will show some very interesting results.<p>
+        Meanwhile I am considering to release a 0.35 version that will add a basic inventory support and fix the ton of bugs most of you have pointed: mainly our lag problem. This release should happen along the next week if everything keeps working as it is now.]]>
+    </content>
+  </item>  
+  <item>
     <title>Stendhal 0.31 release: bug fixes</title>
     <date>Fri, 08 Jul 2005 12:30:16</date>
     <content>

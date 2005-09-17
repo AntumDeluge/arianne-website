@@ -34,5 +34,5 @@ printf(' (Page loaded in %.3f seconds.)', $totaltime);
  </a>
 </p>
 <?php 
-  include('counter.php'); 
+//  include('counter.php'); 
 ?>
