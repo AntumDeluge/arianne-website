@@ -13,6 +13,27 @@
   </item>
   -->
   <item>
+    <title>Corpses contains items and at last money!</title>
+    <date>Thu, 20 Sep 2005 19:22:38</date>
+      <images> 
+        <image url="images/articles/money_and_corpses.jpg"/>
+      </images>
+    <content>
+      <![CDATA[We have been idling for a few months, but in a few weeks we are doing again great improvements on the game and the gameplay. Matthias added a minimap so you can now orientate yourself on our
+        dungeons and not get lost again. Also I completed the inventory stuff, so now you can use chests and move items between slots, chests and floor freely.<p>
+        But the star feature of this upcoming release is the addition of corpses that contains items like shields, swords, armors and money. Yes! you read it correctly! Money. At last we have money in game to 
+        buy new stuff, to buy sheep or simply to show off :P.<p>
+        We plan to add ( at last too ) several new zones:
+        <br>- Valley
+        <br>- City road
+        <br>- Rat dungeon
+        <br>- Deeper dungeon
+        <br>- Orc palace
+        <br>- Orc jail
+        <p>This new release should happen in 4-5 days as we have to polish several details in order to make simpler the usage of the new changes.]]>
+    </content>
+  </item>  
+  <item>
     <title>Marauroa 1.10 and Stendhal 0.32 released</title>
     <date>Sun, 25 Sep 2005 11:42:53</date>
     <content>
