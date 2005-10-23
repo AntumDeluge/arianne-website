@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2005/09/25"/>
-  <version id="0.32"/>
+  <updated date="2005/10/23"/>
+  <version id="0.39"/>
   <status value="beta"/>
   <rated>
     <entry>
@@ -47,22 +47,29 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
   <changelog><![CDATA[ 
-<b>-</b>  Fixed a bug at statistics system.
-<br/><b>-</b>  Speed up combat
-<br/><b>-</b>  Ease creature killing.
-<br/><b>-</b>  No more drop item bug
-<br/><b>-</b>  Move item in inventory
-<br/><b>-</b>  Fixed bug at Weapon seller.
-<br/><b>-</b>  Fix render order
-<br/><b>-</b>  Added Giant rat
-<br/><b>-</b>  Added three new areas: valley and rat dungeon (two levels)
-<br/><b>-</b>  Fixed a problem with long sentences
-<br/><b>-</b>  Changed sprites to PNG
-<br/><b>-</b>  Added Bag slot (1 item only)
-<br/><b>-</b>  Modifiable server name at login text area<b>-</b> Added items system
+<b>-</b> Fixed ghost sheep bug
+<br><b>-</b> Added minimap
+<br><b>-</b> Fixed inventory
+<br><b>-</b> Added money
+<br><b>-</b> Weapons cost money now
+<br><b>-</b> Sheeps cost money now
+<br><b>-</b> Money objects can be joined in a single object
+<br><b>-</b> Corpses has items inside
+<br><b>-</b> Item amount appears in inventory
+<br><b>-</b> Now you can move items inside inspected entities
+<br><b>-</b> You can't inspect/open a entity while you are not near it
+<br><b>-</b> Refactored equip, moveequip and drop actions
+<br><b>-</b> Fixed a bug at RPSlot.assignValidID that blocked server
+<br><b>-</b> Corpses now are removed from player slots on load
+<br><b>-</b> You can't attack anymore NPC, yehy won't increase your stats.
+<br><b>-</b> Fixed icon on Java webstart version
+<br><b>-</b> Replaced afterlife map
+<br><b>-</b> Added navigation maps for all maps
+<br><b>-</b> Create a batch converter for maps.
       ]]>
   </changelog>
   <screenshots>
+    <image name="20051023_stendhal.jpg"/>
     <image name="20050605_stendhal.jpg"/>
     <image name="20050604_stendhal.jpg"/>
     <image name="20050520_2_stendhal.jpg"/>
