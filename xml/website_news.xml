@@ -13,6 +13,15 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.39,1 released</title>
+    <date>Wed, 26 Oct 2005 17:17:03</date>
+    <content>
+      <![CDATA[Due to the huge amount ( thanks everybody! ) of bug reports recieved, we have decided to publish this bug fixed version.<p>
+         Next release is going to delay for at least two weeks because we are in process of changing several things on Stendhal.<br>
+         Have a look at changes at: <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalRefactoring">new items, creatures and actions guide</a>]]>
+    </content>
+  </item>  
+  <item>
     <title>Stendhal 0.39: money!</title>
     <date>Sun, 23 Oct 2005 12:36:19</date>
       <images> 

@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2005/10/23"/>
-  <version id="0.39"/>
+  <updated date="2005/10/26"/>
+  <version id="0.39.1"/>
   <status value="beta"/>
   <rated>
     <entry>
@@ -69,6 +69,7 @@ So what are you waiting for?! A whole new world awaits...]]>
       ]]>
   </changelog>
   <screenshots>
+    <image name="20051023_stendhal.jpg"/>
     <image name="20050605_stendhal.jpg"/>
     <image name="20050604_stendhal.jpg"/>
     <image name="20050520_2_stendhal.jpg"/>
