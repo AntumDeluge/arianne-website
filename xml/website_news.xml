@@ -13,6 +13,16 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.40 BETA: join us in finding bugs before the release</title>
+    <date>Wed, 18 Dec 2005 11:00:18</date>
+    <content>
+      <![CDATA[It has been a long month, but finally thanks to the efforts of Danter, Steve and Matthias the 0.40 release is almost here!.<br>
+         To avoid problems that we have had in the past, we are going to run a private ( but open ) BETA server of the game. Please join us,
+         create an account and play the game at <a href="http://stendhal.game-server.cc/template_site/">BETA server</a> and in case you find a problem, please 
+         report it at <a href="https://sourceforge.net/tracker/?func=browse&group_id=1111&atid=101111">https://sourceforge.net/tracker/?func=browse&group_id=1111&atid=101111</a>]]>
+    </content>
+  </item>  
+  <item>
     <title>Stendhal 0.39,1 released</title>
     <date>Wed, 26 Oct 2005 17:17:03</date>
     <content>
