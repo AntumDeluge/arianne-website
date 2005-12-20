@@ -1,7 +1,7 @@
 
   <div id="title_section">
-  <a href="/"><img src="images/arianneLogo.jpg" alt="Arianne logo" class="left"></a>
-  <img src="images/gnuLogo.jpg" alt="GNU Logo" class="right">
+  <div class="left-title-image"></div>
+  <a href="/"><div class="right-title-image"></div></a>
   <p>an open source multiplayer online framework to easily create games!</p>
   </div>
 

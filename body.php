@@ -14,13 +14,14 @@ if(isset($_REQUEST["arianne_url"]))
     } 
   } 
 
+
   // build side menu
   ?>
       <div id="left_menu">
       
    
       <ul>
-        <li class="menu_title"><img src="images/gameLogo.gif" alt="Our Games"></li>
+        <li class="menu_title"><div id="game-menu-image">Games</div></li>
             <?php
             include_once("renderContent.php");
             renderGameBriefing(false);     
@@ -29,7 +30,7 @@ if(isset($_REQUEST["arianne_url"]))
       </ul>
 
       <ul>
-        <li class="menu_title"><img src="images/poweredByLogo.gif" alt="Powered By..."  >
+        <li class="menu_title"><div id="pw-menu-image">Powered By...</div>
         </li>
         <li><a href="http://sourceforge.net/projects/arianne"><IMG SRC="http://sourceforge.net/sflogo.php?group_id=1111&amp;type=1" ALT="SourceForge Logo"></a>
         </li>
@@ -44,7 +45,7 @@ if(isset($_REQUEST["arianne_url"]))
         <li><a href="http://www.python.org"><IMG SRC="images/partners/PythonPoweredSmall.gif" ALT="Python Logo"></a>
       </ul>
       <ul>      
-        <li class="menu_title"><img src="images/ratedAtLogo.gif" alt="Rate Us">
+        <li class="menu_title"><div id="rate-menu-image">Rate Us</div>
         </li>
             
         <li><a href="http://happypenguin.org/show?Arianne+RPG"><img src="http://happypenguin.org/rateomatic?Arianne+RPG" alt="Happy Penguin Rate"></a>

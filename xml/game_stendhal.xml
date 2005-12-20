@@ -3,6 +3,7 @@
   <updated date="2005/10/26"/>
   <version id="0.39.1"/>
   <status value="beta"/>
+  <cssdoc url="css/stendhal.css"/>
   <rated>
     <entry>
       <![CDATA[

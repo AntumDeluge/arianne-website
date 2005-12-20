@@ -1,0 +1,626 @@
+/***************************************************************************
+ *                      (C) Copyright 2005 - Arianne Website               *
+ ***************************************************************************
+ ***************************************************************************
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ ***************************************************************************/
+ 
+/************************************/
+/* DIVs of main page sections       */ 
+ 
+#pageheader {}
+#pagemain {}
+
+/* container of all DIVS */
+#main_contain {
+	margin: 5px auto 0px auto; 
+	padding:0;
+	width:800px; 
+	border: 4px solid #5588AA;
+	background-image: url("../images/bg_blue.png");
+	background-repeat: no-repeat;
+}
+
+#pagefooter { 
+    clear: both; 
+	padding:0;
+	margin:0;
+	display:block;
+    }
+#pagefooter p.footer{    
+	background-color: #99CCFF;
+    font-size: 8pt; text-align: center;
+}
+#pagefooter img.extremedm { border-style:none; border-width:0;}
+#pagefooter p.footerimages { text-align: right; }
+
+a.footer{ text-decoration: none; color: #000000;}
+a.footer:hover{ text-decoration: underline; color: #000000;}
+
+/************************************/
+/* Base Tags                        */
+
+body { 
+    font-family: Arial, Helvetica, Geneva, Sans-serif; 
+    background-color: #fff;
+    margin:0; padding:0; 
+    }
+    
+    
+.center { text-align: center; }
+.right { text-align: right; }
+.left { text-align: left; }
+.inline {display: inline; }
+.clearright {clear:right;margin:0;padding:0;}
+.code{ font-family: courier, monospaced; }
+.update_image { 
+    position:relative; 
+    left:10px;
+    }
+    
+.statustag {
+    border: 1px solid gray;
+    background-color: #99CCFF;
+    margin:10px;padding:0;
+    position:relative;
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+    }
+    
+.statustag p {
+    font-weight: normal;	
+    font-size:9pt;
+    text-align: center;      
+    margin:0;
+    padding:5px;
+    } 
+
+p{ 
+    font-family: Arial, Helvetica, Geneva, Sans-Serif;
+    }
+p.abstract{ 
+    font-family: Arial, Helvetica, Geneva, Sans-Serif;
+    }
+
+    
+table { 
+    width: 100%; 
+    vertical-align:top;
+    }
+    
+img { 
+    border-style:solid;
+    border-width:1px; 
+    border-color: #000000;
+    }
+
+strong{ font-weight: bold;}
+
+a:link{color: #334dd1; }
+a:visited{color: #334dd1;}
+
+
+H1{
+    font-family: Arial,Helvetica,Geneva,Sans-Serif; 
+    font-size: 16pt; 
+    font-weight: lighter; 
+    color: #036; 
+    border-bottom: 1px solid gray;
+    }
+    
+H2{
+    font-family: Arial,Helvetica,Geneva,Sans-Serif; 
+    font-size: 14pt; 
+    font-weight: lighter; 
+    color: #036; 
+    
+    }
+H3{
+    font-family: Arial,Helvetica,Geneva,Sans-Serif; 
+    font-size: 13pt; 
+    font-weight: lighter; 
+    color: #036;
+    }
+H4{
+    font-family: Arial,Helvetica,Geneva,Sans-Serif; 
+    font-size: 12pt; 
+    font-weight: lighter; 
+    color: #036;
+    }
+
+ul{ font-family: Arial, Helvetica, Geneva, Sans-Serif; }
+li{ font-family: Arial, Helvetica, Geneva, Sans-Serif;}
+
+blockquote{ font-family: Arial, Helvetica, Geneva, Sans-Serif;}
+
+/************************************/
+/* Titles For sections with link and 'Click Here For Page Details ' */
+
+.link_title a { text-decoration:none; color:#036; }
+.link_title p { color:#036; text-align:right; float:right; position:relative; right:10px; margin-top:-37px; font-size: 10pt;}
+
+/************************************/
+/* Standard List for placing a few screenshots in pages*/
+
+ul.screenshots img { border-width: 1px; border-color:black; width:125px; height:100px;}
+ul.screenshots { list-style:none; margin:0; padding:0; text-align:center;}
+ul.screenshots li {display:inline; padding: 5px; padding-left:10px; margin:0;}
+ul.screenshots li p { }
+
+ul.rating img { border-width: 1px; border-color:black}
+ul.rating { list-style:none; margin:0; padding:0; text-align:center;}
+ul.rating li {display:inline; padding-left:20px;}
+ul.rating li p { }
+
+
+
+/************************************/
+/* Title section DIV                */
+#title_section { margin:0;padding:0; }
+#title_section div.left-title-image { width:800px; height:90px; border: 0; margin:0; padding:0; background-image:url("../images/title_blue.png"); background-repeat:no-repeat;}
+#title_section div.right-title-image { display:none;}
+#title_section p { display:none; }
+
+#menubarcontainer { margin:0 0 20px 0; height: 20px; padding:0; clear: both; display:block;  background-color:#5588AA; font-size:9pt; font-weight: bold; }
+/*#topmenubar p { margin:0;padding:0; display:block; clear:both; }*/
+
+/************************************/
+/* The Left menu DIV tags           */
+
+#left_menu a { color: #000; text-decoration: none; font-weight:bold; }
+#left_menu img { 
+    padding:0px; margin:2px;     
+    border-width:1px; 
+    border-color: gray; 
+    border-style:solid;
+    }
+    
+#left_menu ul {list-style:none;
+	border: 2px solid #5588AA;
+	background:#fff url("../images/menubg_blue.png") no-repeat;
+	text-align:center;
+	margin: 0px 0px 15px 15px; 
+	padding:0px 0px 5px 0px;
+}
+
+#left_menu li {list-style-position:outside; padding:0;}
+#left_menu li.text { padding:5px 0px 0px 16px; text-align:left;}
+#left_menu { float: left; width: 170px;  padding:0; clear:none; margin:0; margin-top: 0px; }
+
+#left_menu ul li.menu_title img {
+    border:none;
+    }
+
+/* if you want you can use images as backgrounds to these divs instead */        
+#game-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#036;}  /*background-image: url("images/gameLogo.gif"); background-repeat:no-repeat; } */
+#pw-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#036;} 
+#rate-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#036;} 
+
+/************************************/
+/* Page content (DIV right of left menu ) */
+#pagecontent { margin:0; margin-left: 190px; padding:0 15px 15px 15px; margin-top:0px; clear:none; border-left:2px solid #5588AA; }
+
+#pagecontent ul.menubar {
+	text-align: center;
+	margin:0;padding: 5px;
+	border: 1px; 
+	border-style:solid; 
+	border-color: #fff;
+	background:#99ccff;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:85%;
+	font-weight:bold;
+}
+#pagecontent ul.menubar li
+{
+	font-size: 10pt;
+	margin:0;
+	padding:5px;
+	display: inline;
+	list-style-type: none;
+}
+
+#pagecontent ul.menubar li a:hover
+{
+color: #fff;
+background-color: #036;
+}
+
+#pagecontent ul.menubar li a:visited
+{
+color: #fff;
+background-color: #036;
+}  
+#pagecontent ul.menubar li a:link
+{
+color: #fff;
+background-color: #036;
+}  
+
+/************************************/
+/* game list div on game page (unnecessary?)*/
+#gamelist { margin:0; padding:0; clear:none; }
+
+/************************************/
+/* Each DIV entry in the list of games on games page*/
+.game_entry { padding:0; margin:0; clear:right; padding-bottom:20px;}
+.game_entry img { margin:10px; padding:0; border-width: 1px; border-color:black; display:block; 
+    float: right;
+    clear:right;
+    position:relative;
+    margin-right:0;
+}
+.game_entry h1 a {text-decoration: none; }
+.game_entry .update_image { float:right; clear:right; margin:10px; padding:0; border:0; position:relative; top:-40px;}
+.game_entry .statustag {
+    border: 1px solid gray;
+    background-color: #99CCFF;
+    margin:0px;
+    margin-left: 10px;
+    padding:0;
+    float: right;
+    clear:right;
+    position:relative;
+    width: 120px;
+    display:block;
+    }
+    
+.game_entry .statustag p {
+    font-weight: bold;	
+    font-size:10pt;
+    text-align: center;      
+    margin:0;
+    padding:5px;
+    } 
+    
+/************************************/
+/* game page */    
+
+.game_description { border-bottom: 1px solid gray; padding-bottom:10px;}
+
+.game_downloads{ border-bottom: 1px solid gray;  padding-bottom:10px;}
+
+.game_authors{ border-bottom: 1px solid gray; padding-bottom:10px; }
+
+.game_manual{ border-bottom: 1px solid gray;  padding-bottom:10px;}
+
+.game_screens{ border-bottom: 1px solid gray; padding-bottom:10px; }
+
+.game_servers{ border-bottom: 1px solid gray; padding-bottom:10px; }
+
+.game_changelog{ border-bottom: 1px solid gray; padding-bottom:10px; }
+
+#game_topimage {
+	
+	position:relative;
+	float: right;
+	clear:right;
+	margin:5px; padding:0; margin-top:30px;
+	width:100px;
+	height:100px;
+	background-image: url("../images/oneszeros.png");
+	background-repeat: no-repeat;
+}
+
+.rategame { text-align:center; float:right;clear:right;width:100px;margin:5px; padding:0; margin-top:30px;}
+.rategame img{ border:0; width:80px;height:45px; }
+
+ul.gamepagemenu
+{
+	font-size: 10pt;
+text-align: center;
+background-color:#5588AA;
+margin: 0;margin-top:7px;
+padding: 2px 0; 
+white-space: nowrap;
+position:relative;
+margin-left: auto;
+margin-right:auto;
+width:99%;
+}
+
+ul.gamepagemenu li
+{
+display: inline;
+list-style-type: none;
+margin: 3px;
+}
+
+ul.gamepagemenu li a { padding: 0px 10px; margin: 3px 0 3px 0; }
+
+ul.gamepagemenu li a:hover
+{
+color: #fff;
+background-color: #258;
+text-decoration: underline;
+}
+
+ul.gamepagemenu li a:visited
+{
+color: #fff;
+background-color: #258;
+text-decoration: none;
+}  
+ul.gamepagemenu li a:visited:hover
+{
+color: #fff;
+background-color: #258;
+text-decoration: underline;
+} 
+ul.gamepagemenu li a:link
+{
+color: #fff;
+background-color: #258;
+text-decoration: none;
+}
+ul.gamepagemenu li a:link:hover
+{
+color: #fff;
+background-color: #258;
+text-decoration: underline;
+}
+
+
+.download { 
+	font-size: 10pt;
+	margin:0;padding:0;margin-bottom:5px;
+    display:block; 
+    }
+
+.download ul { 
+    list-style:none; 
+    margin:0; 
+    padding:0; 
+    text-align:left; 
+    border:none;
+    }
+.download li {
+    padding:0;margin:0;margin-bottom:10px; 
+    }
+    
+.download div.filedesc {
+	text-align:center;
+	margin:0;padding:7px 0px;
+	font-size:11pt;
+	color: #fff;
+	background-color:#5588AA;
+    border-bottom:2px solid gray;
+    }
+
+.download div.link {
+	padding:10px; margin:0;
+	font-size: 12pt;
+}
+
+.download div.releaseinfo {
+	padding:10px; margin:0px;
+	font-size: 8pt;
+	float:right;
+	position:relative;
+}
+
+.download ul.OS_images { 
+	float:right;
+	width:200px;
+	text-align:right;
+	padding:5px;margin:0;
+    list-style:none; 
+    border:none; 
+    position:relative;
+    }
+.download ul.OS_images li { 
+    border:none; 
+    display:inline;
+    }
+.download ul.OS_images img {
+    border-width: 1px; 
+    border-color: black; 
+    border-style:solid; 
+    }
+    
+.download .dependancies { margin:0; padding:5px; font-size:9pt;}
+.download .dependancies ul li {
+    border:none; 
+    margin-right:5px;
+    display:inline;
+    }
+    
+.download .dependancies ul  {
+	padding:5px;margin:0;
+    list-style:none; 
+    }
+
+    
+/************************************/
+/* standard grey background around textual pages */
+
+.section { 
+    padding:0; 
+    margin:0;
+    }
+
+/************************************/
+/* screenshots.php page render tags */
+
+.screenshots_entry ul { 
+    list-style:none; 
+    margin:0; 
+    padding:0; 
+    text-align:center;
+    }
+
+.screenshots_entry ul li.thumbnail {
+    display:inline;
+    padding: 5px;
+    height:120px;
+    }
+    
+.screenshots_entry ul li.thumbnail img {
+    width:125px;
+    height:100px;
+    }
+    
+.screenshots_entry ul li.thumbnail a {
+    text-decoration: none;  
+    }
+
+.screenshots_entry ul li.thumbnail p { 
+    text-align:center;
+    display:inline;
+    width:125px;
+    margin:0px;
+    position:relative;
+    bottom:3px;
+}
+.screenshots_entry p.archive {
+    text-align:center;
+    width:99%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/************************************/
+/* news.php page render tags        */
+
+ul.newslist { 
+    position: relative;
+    list-style:none; 
+    margin:0; 
+    padding:0; 
+    text-align:left; 
+    width:99%; 
+    }
+    
+ul.newslist li { 
+	margin:0;
+    padding:5px;
+    }
+   
+.newsitem p.itemdate { 
+	padding:0;margin:0;
+    color:#036; 
+    text-align:left; 
+    float:left; clear:right;
+    position:relative; 
+    left:10px; 
+    margin-top:-17px;
+    font-size:70%;
+    
+    }
+    
+div.newstitle {
+	border-bottom: 1px solid gray;
+	margin:0;
+	padding:0;
+	margin-bottom:7px;
+	font-size:12pt;
+    color:#036;
+    margin-bottom:18px;  
+    font-weight:bold;  
+    }
+
+.newsitem img.news_image {
+	padding:0; margin:10px; margin-right:0px;
+    clear:right;
+    float:right;
+    border: 1px solid black;
+    display:block;
+    position:relative;
+    }
+.newsitem .newscontent_image {
+	padding:0;margin:0;
+    padding-left:20px; 
+    padding-top:10px; 
+    margin-top:0px; 
+    margin-right:20px;
+    }
+.newsitem .newscontent_noimage {
+	padding:0;margin:0;
+    padding-left:20px; 
+    padding-top:10px; 
+    margin-top:0px; 
+    margin-right:20px;
+    }
+
+/************************************/
+/* download.php page render tags    */
+
+.downloadpagesection {margin:0; padding:0; height: 150px; } 
+.downloadpagesection h2 { border-bottom: 1px solid gray; }
+.downloadpagesection .linktodownload {margin:0; padding:0; font-size: 10pt; text-decoration:none; }
+/*.download img { display:block; margin:5px; padding:0; position: relative; left: 10px; top: -5px;}*/
+.downloadpagesection img { float: right; display:block; clear:right;}
+.downloadpagesection .linktodownload a { 
+    text-decoration:none; 
+    font-size: 12pt;
+    border-bottom: 1px solid #368;
+    margin: 10px;
+    padding: 3px;
+}
+
+
+/************************************/
+/* our menu bar list standard class */
+
+ul.menubar
+{
+	background-color:#5588AA;
+margin: 0;
+margin-left: 14px;
+padding: 2px 0; 
+
+white-space: nowrap;
+}
+
+ul.menubar li
+{
+display: inline;
+list-style-type: none;
+margin: 5px;
+}
+
+ul.menubar li a { padding: 0px 10px; margin: 3px 0 3px 0; }
+
+ul.menubar li a:hover
+{
+color: #fff;
+background-color: #258;
+text-decoration: underline;
+}
+
+ul.menubar li a:visited
+{
+color: #fff;
+background-color: #258;
+text-decoration: none;
+} 
+
+ul.menubar li a:visited:hover
+{
+color: #fff;
+background-color: #258;
+text-decoration: underline;
+}
+ 
+ul.menubar li a:link
+{
+color: #fff;
+background-color: #258;
+text-decoration: none;
+}  
+
+ul.menubar li a:link:hover
+{
+color: #fff;
+background-color: #258;
+text-decoration: underline;
+} 
+/************************************/  

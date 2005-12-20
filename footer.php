@@ -5,7 +5,7 @@ $totaltime = $mtime[0] + $mtime[1] - $starttime;
 printf(' (Page loaded in %.3f seconds.)', $totaltime);
 ?>
 </p>
-
+<p class="footerimages">
 		<script language="javascript1.2" type="text/javascript"><!--
 		EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
 		EXb=EXs.colorDepth:EXb=EXs.pixelDepth;//-->
@@ -15,9 +15,9 @@ printf(' (Page loaded in %.3f seconds.)', $totaltime);
 		"/c.g?tag=marauroa&j=y&srw="+EXw+"&srb="+EXb+"&",
 		"l="+escape(parent.document.referrer)+"\" height=1 width=1>");//-->
 		</script><noscript><img height=1 width=1 alt=""
-		src="http://t0.extreme-dm.com/c.g?tag=marauroa&amp;j=n"></noscript>
+		src="http://t0.extreme-dm.com/c.g?tag=marauroa&amp;j=n" class="extremedm"></noscript>
 		
-<p class="right">
+
 <a target="_top" href="http://t.extreme-dm.com/?login=marauroa">
 		<img src="http://t1.extreme-dm.com/i.gif" height=31
 		border=0 width=36 alt=""></a>
@@ -34,5 +34,5 @@ printf(' (Page loaded in %.3f seconds.)', $totaltime);
  </a>
 </p>
 <?php 
-//  include('counter.php'); 
+  include('counter.php'); 
 ?>

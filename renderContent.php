@@ -53,7 +53,7 @@ function renderDownloads($type)
     {
     $content=implode("",file($file));
     $xml = XML_unserialize($content);
-    WriteDownloadHTML($xml,$type);
+    WriteLinkDownloadHTML($xml,$type);
     }  
   }
 
@@ -73,7 +73,7 @@ function renderGameList()
       }
     }
   closedir($handle);
-
+  
   $gameList=sortByDate($gameList);
  
   echo '<div id="gamelist"><ul class="menubar">';
@@ -81,8 +81,9 @@ function renderGameList()
   foreach($gameList as $file)
     {
     $content=implode("",file($file));
-    $xml = XML_unserialize($content);  
-    WriteGamePageListHTML( $xml ); 
+    $xml = XML_unserialize($content); 
+	WriteGamePageListHTML( $xml );
+	 
   }  
     
   echo '</ul></div>';    
@@ -106,7 +107,7 @@ function renderGameBriefing($long_briefing=TRUE)
       }
     }
   closedir($handle);
-
+  
   $gameList=sortByDate($gameList);
   
   foreach($gameList as $file)

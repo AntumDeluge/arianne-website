@@ -2,6 +2,7 @@
 <game name="jmapacman" shortdescription="A multiplayer online Pacman game">
   <updated date="2005/07/02"/>
   <version id="0.3"/>
+  <cssdoc url="css/jmapacman.css"/>
   <status value="beta"/>
   <rated>
     <entry>
