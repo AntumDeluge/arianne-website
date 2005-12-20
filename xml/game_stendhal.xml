@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2005/10/26"/>
-  <version id="0.39.1"/>
+  <updated date="2005/12/20"/>
+  <version id="0.40"/>
   <status value="beta"/>
   <cssdoc url="css/stendhal.css"/>
   <rated>
@@ -70,6 +70,7 @@ So what are you waiting for?! A whole new world awaits...]]>
       ]]>
   </changelog>
   <screenshots>
+    <image name="20051220_stendhal.jpg"/>
     <image name="20051023_stendhal.jpg"/>
     <image name="20050605_stendhal.jpg"/>
     <image name="20050604_stendhal.jpg"/>
@@ -87,7 +88,7 @@ So what are you waiting for?! A whole new world awaits...]]>
         <entry name="macosx" status="100"/>
       </os>
     </file>
-    <file type="map editor binary" name="stendhal_mapeditor-1.04.zip">
+    <file type="map editor binary" name="stendhal_mapeditor-1.10.zip">
       <description>This file contains the stendhal map editor. Download this to create new maps. Send them to us if you want them to appear on next releases. Use the tmx file format.</description>
       <os>
         <entry name="win32" status="100"/>
