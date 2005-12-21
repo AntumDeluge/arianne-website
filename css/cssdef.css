@@ -21,8 +21,8 @@
 	margin: 5px auto 0px auto; 
 	padding:0;
 	width:800px; 
-	border: 4px solid #5588AA;
-	background-image: url("../images/bg_blue.png");
+	border: 4px solid #000;
+	background-image: url("../images/logo_bg.jpg");
 	background-repeat: no-repeat;
 }
 
@@ -32,8 +32,9 @@
 	margin:0;
 	display:block;
     }
-#pagefooter p.footer{    
-	background-color: #99CCFF;
+#pagefooter p.footer{   
+	color:#fff; 
+	background-color: #2a0;
     font-size: 8pt; text-align: center;
 }
 #pagefooter img.extremedm { border-style:none; border-width:0;}
@@ -110,7 +111,7 @@ H1{
     font-family: Arial,Helvetica,Geneva,Sans-Serif; 
     font-size: 16pt; 
     font-weight: lighter; 
-    color: #036; 
+    color: #000; 
     border-bottom: 1px solid gray;
     }
     
@@ -118,20 +119,20 @@ H2{
     font-family: Arial,Helvetica,Geneva,Sans-Serif; 
     font-size: 14pt; 
     font-weight: lighter; 
-    color: #036; 
+    color: #000; 
     
     }
 H3{
     font-family: Arial,Helvetica,Geneva,Sans-Serif; 
     font-size: 13pt; 
     font-weight: lighter; 
-    color: #036;
+    color: #000;
     }
 H4{
     font-family: Arial,Helvetica,Geneva,Sans-Serif; 
     font-size: 12pt; 
     font-weight: lighter; 
-    color: #036;
+    color: #000;
     }
 
 ul{ font-family: Arial, Helvetica, Geneva, Sans-Serif; }
@@ -163,12 +164,71 @@ ul.rating li p { }
 /************************************/
 /* Title section DIV                */
 #title_section { margin:0;padding:0; }
-#title_section div.left-title-image { width:800px; height:90px; border: 0; margin:0; padding:0; background-image:url("../images/title_blue.png"); background-repeat:no-repeat;}
-#title_section div.right-title-image { display:none;}
+#title_section div.left-title-image { float:left; width:476px; height:90px; border: 0; margin:0; padding:0; background-image:url("../images/mainpage_title_a.png"); background-repeat:no-repeat;}
+#title_section div.right-title-image { float:right; width:324px; height:90px; border: 0; margin:0; padding:0; background-image:url("../images/mainpage_title_b.png"); background-repeat:no-repeat;}
 #title_section p { display:none; }
 
-#menubarcontainer { margin:0 0 20px 0; height: 20px; padding:0; clear: both; display:block;  background-color:#5588AA; font-size:9pt; font-weight: bold; }
+#menubarcontainer { margin:0 0 20px 0; height: 21px; padding:0; clear: both; display:block;  background-color:#2a0; font-size:9pt; font-weight: bold; }
 /*#topmenubar p { margin:0;padding:0; display:block; clear:both; }*/
+
+/************************************/
+/* our menu bar list standard class */
+
+ul.menubar
+{
+	background-color:#2a0;
+margin: 0;
+margin-left: 18px;
+padding: 3px 0; 
+
+white-space: nowrap;
+}
+
+ul.menubar li
+{
+display: inline;
+list-style-type: none;
+margin: 3px;
+border: 1px solid black;
+}
+
+ul.menubar li a { padding: 0px 10px; margin: 3px 0 3px 0; }
+
+ul.menubar li a:hover
+{
+color: #000;
+background-color: #fff;
+text-decoration: underline;
+}
+
+ul.menubar li a:visited
+{
+color: #000;
+background-color: #fff;
+text-decoration: none;
+} 
+
+ul.menubar li a:visited:hover
+{
+color: #000;
+background-color: #fff;
+text-decoration: underline;
+}
+ 
+ul.menubar li a:link
+{
+color: #000;
+background-color: #fff;
+text-decoration: none;
+}  
+
+ul.menubar li a:link:hover
+{
+color: #000;
+background-color: #fff;
+text-decoration: underline;
+} 
+/************************************/  
 
 /************************************/
 /* The Left menu DIV tags           */
@@ -182,8 +242,9 @@ ul.rating li p { }
     }
     
 #left_menu ul {list-style:none;
-	border: 2px solid #5588AA;
-	background:#fff url("../images/menubg_blue.png") no-repeat;
+	border: 2px solid #000;
+	/*background:#fff url("../images/menubg_blue.png") no-repeat;*/
+	background-color:#fff;
 	text-align:center;
 	margin: 0px 0px 15px 15px; 
 	padding:0px 0px 5px 0px;
@@ -192,57 +253,55 @@ ul.rating li p { }
 #left_menu li {list-style-position:outside; padding:0;}
 #left_menu li.text { padding:5px 0px 0px 16px; text-align:left;}
 #left_menu { float: left; width: 170px;  padding:0; clear:none; margin:0; margin-top: 0px; }
-
+#left_menu ul li.menu_title {background-color:#2a0;}
 #left_menu ul li.menu_title img {
     border:none;
     }
 
 /* if you want you can use images as backgrounds to these divs instead */        
-#game-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#036;}  /*background-image: url("images/gameLogo.gif"); background-repeat:no-repeat; } */
-#pw-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#036;} 
-#rate-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#036;} 
+#game-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;}  /*background-image: url("images/gameLogo.gif"); background-repeat:no-repeat; } */
+#pw-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;} 
+#rate-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;} 
 
 /************************************/
 /* Page content (DIV right of left menu ) */
-#pagecontent { margin:0; margin-left: 190px; padding:0 15px 15px 15px; margin-top:0px; clear:none; border-left:2px solid #5588AA; }
+#pagecontent { margin:0; margin-left: 190px; padding:0 15px 15px 15px; margin-top:0px; clear:none; border-left:2px solid #000; }
 
 #pagecontent ul.menubar {
 	text-align: center;
-	margin:0;padding: 5px;
-	border: 1px; 
-	border-style:solid; 
-	border-color: #fff;
-	background:#99ccff;
+	margin:0;padding: 3px;
+	background:#2a0;
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
-	width:85%;
+	width:95%;
 	font-weight:bold;
 }
 #pagecontent ul.menubar li
 {
 	font-size: 10pt;
-	margin:0;
-	padding:5px;
+	margin:2px;
+	padding:0;
 	display: inline;
 	list-style-type: none;
+	border: 1px solid #000;
 }
 
 #pagecontent ul.menubar li a:hover
 {
-color: #fff;
-background-color: #036;
+color: #000;
+background-color: #fff;
 }
 
 #pagecontent ul.menubar li a:visited
 {
-color: #fff;
-background-color: #036;
+color: #000;
+background-color: #fff;
 }  
 #pagecontent ul.menubar li a:link
 {
-color: #fff;
-background-color: #036;
+color: #000;
+background-color: #fff;
 }  
 
 /************************************/
@@ -313,60 +372,46 @@ background-color: #036;
 .rategame { text-align:center; float:right;clear:right;width:100px;margin:5px; padding:0; margin-top:30px;}
 .rategame img{ border:0; width:80px;height:45px; }
 
-ul.gamepagemenu
-{
-	font-size: 10pt;
-text-align: center;
-background-color:#5588AA;
-margin: 0;margin-top:7px;
-padding: 2px 0; 
-white-space: nowrap;
-position:relative;
-margin-left: auto;
-margin-right:auto;
-width:99%;
+ul.gamepagemenu {
+	text-align: center;
+	margin:0;padding: 3px;
+	background:#2a0;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:95%;
+	font-weight:bold;
 }
 
 ul.gamepagemenu li
 {
-display: inline;
-list-style-type: none;
-margin: 3px;
+	font-size: 10pt;
+	margin:2px;
+	padding:0;
+	display: inline;
+	list-style-type: none;
+	border: 1px solid #000;
 }
 
-ul.gamepagemenu li a { padding: 0px 10px; margin: 3px 0 3px 0; }
+ul.gamepagemenu li a { padding: 0px 10px; margin: 3px 0 3px 0; text-decoration:none; }
 
 ul.gamepagemenu li a:hover
 {
-color: #fff;
-background-color: #258;
-text-decoration: underline;
+color: #000;
+background-color: #fff;
+text-decoration:underline;
 }
 
 ul.gamepagemenu li a:visited
 {
-color: #fff;
-background-color: #258;
-text-decoration: none;
+color: #000;
+background-color: #fff;
 }  
-ul.gamepagemenu li a:visited:hover
-{
-color: #fff;
-background-color: #258;
-text-decoration: underline;
-} 
 ul.gamepagemenu li a:link
 {
-color: #fff;
-background-color: #258;
-text-decoration: none;
-}
-ul.gamepagemenu li a:link:hover
-{
-color: #fff;
-background-color: #258;
-text-decoration: underline;
-}
+color: #000;
+background-color: #fff;
+}  
 
 
 .download { 
@@ -391,7 +436,7 @@ text-decoration: underline;
 	margin:0;padding:7px 0px;
 	font-size:11pt;
 	color: #fff;
-	background-color:#5588AA;
+	background-color:#2a0;
     border-bottom:2px solid gray;
     }
 
@@ -506,7 +551,7 @@ ul.newslist li {
    
 .newsitem p.itemdate { 
 	padding:0;margin:0;
-    color:#036; 
+    color:#090; 
     text-align:left; 
     float:left; clear:right;
     position:relative; 
@@ -522,7 +567,7 @@ div.newstitle {
 	padding:0;
 	margin-bottom:7px;
 	font-size:12pt;
-    color:#036;
+    color:#000;
     margin-bottom:18px;  
     font-weight:bold;  
     }
@@ -566,61 +611,3 @@ div.newstitle {
     padding: 3px;
 }
 
-
-/************************************/
-/* our menu bar list standard class */
-
-ul.menubar
-{
-	background-color:#5588AA;
-margin: 0;
-margin-left: 14px;
-padding: 2px 0; 
-
-white-space: nowrap;
-}
-
-ul.menubar li
-{
-display: inline;
-list-style-type: none;
-margin: 5px;
-}
-
-ul.menubar li a { padding: 0px 10px; margin: 3px 0 3px 0; }
-
-ul.menubar li a:hover
-{
-color: #fff;
-background-color: #258;
-text-decoration: underline;
-}
-
-ul.menubar li a:visited
-{
-color: #fff;
-background-color: #258;
-text-decoration: none;
-} 
-
-ul.menubar li a:visited:hover
-{
-color: #fff;
-background-color: #258;
-text-decoration: underline;
-}
- 
-ul.menubar li a:link
-{
-color: #fff;
-background-color: #258;
-text-decoration: none;
-}  
-
-ul.menubar li a:link:hover
-{
-color: #fff;
-background-color: #258;
-text-decoration: underline;
-} 
-/************************************/  

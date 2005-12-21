@@ -265,8 +265,28 @@ function WriteGameStatusTag($game,$length=false)
   
 function WriteLinkDownloadHTML($xml, $type)
   {
-	
-    echo '<div class="downloadpagesection"><h2>'.ucfirst($xml[$type]['0 attr']['name']).'</h2>';
+	   	if( ($xml['game'][0]['status']['0 attr']['value'] === 'archived') )
+    {
+	    $showarchive=0;
+	  if(isset($_REQUEST["show_archive"]))
+	  {
+	  $showarchive=$_REQUEST["show_archive"];
+	  }
+	    if( $showarchive == 1 )
+	    {
+    		WriteDownloadLink($xml, $type);
+		}
+	}
+	else
+	{
+		WriteDownloadLink($xml, $type);
+    }  
+		  
+  }
+  
+function WriteDownloadLink($xml, $type)
+{    
+	echo '<div class="downloadpagesection"><h2>'.ucfirst($xml[$type]['0 attr']['name']).'</h2>';
  
   if(isset($xml['game'][0]['screenshots']))
   {
@@ -293,8 +313,8 @@ else
   if( $type === 'client' )
   	echo '<p class="linktodownload"><a href="?arianne_url=clients/client_'.$xml['client']['0 attr']['name'].'#downloadsection">Click here to go to this clients download links</a></p>';
   
-  echo '</div>';	  
-  }
+  echo '</div>';
+}
   
   
 function WriteDownloadHTML($game, $base, $section=false)
