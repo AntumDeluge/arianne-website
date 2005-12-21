@@ -21,8 +21,8 @@
 	margin: 5px auto 0px auto; 
 	padding:0;
 	width:800px; 
-	border: 4px solid #5588AA;
-	background-image: url("../images/bg_gray.png");
+	border: 4px solid #22b;
+	background-image: url("../images/bg_pacman.png");
 	background-repeat: no-repeat;
 }
 
@@ -33,21 +33,23 @@
 	display:block;
     }
 #pagefooter p.footer{    
-	background-color: #99CCFF;
+	background-color: #000;
+	color: #fff;
     font-size: 8pt; text-align: center;
 }
 #pagefooter img.extremedm { border-style:none; border-width:0;}
 #pagefooter p.footerimages { text-align: right; }
 
-a.footer{ text-decoration: none; color: #000000;}
-a.footer:hover{ text-decoration: underline; color: #000000;}
+a.footer{ text-decoration: none; color: #fff;}
+a.footer:hover{ text-decoration: underline; color: #fff;}
 
 /************************************/
 /* Base Tags                        */
 
 body { 
     font-family: Arial, Helvetica, Geneva, Sans-serif; 
-    background-color: #fff;
+    color: #ddf;
+    background-color: #000;
     margin:0; padding:0; 
     }
     
@@ -65,7 +67,7 @@ body {
     
 .statustag {
     border: 1px solid gray;
-    background-color: #99CCFF;
+    background-color: #ddf;
     margin:10px;padding:0;
     position:relative;
     margin-left: auto;
@@ -74,6 +76,7 @@ body {
     }
     
 .statustag p {
+	color: #000;
     font-weight: normal;	
     font-size:9pt;
     text-align: center;      
@@ -97,7 +100,7 @@ table {
 img { 
     border-style:solid;
     border-width:1px; 
-    border-color: #000000;
+    border-color: #fff;
     }
 
 strong{ font-weight: bold;}
@@ -110,7 +113,7 @@ H1{
     font-family: Arial,Helvetica,Geneva,Sans-Serif; 
     font-size: 16pt; 
     font-weight: lighter; 
-    color: #036; 
+    color: #fff; 
     border-bottom: 1px solid gray;
     }
     
@@ -118,20 +121,20 @@ H2{
     font-family: Arial,Helvetica,Geneva,Sans-Serif; 
     font-size: 14pt; 
     font-weight: lighter; 
-    color: #036; 
+    color: #fff; 
     
     }
 H3{
     font-family: Arial,Helvetica,Geneva,Sans-Serif; 
     font-size: 13pt; 
     font-weight: lighter; 
-    color: #036;
+    color: #fff;
     }
 H4{
     font-family: Arial,Helvetica,Geneva,Sans-Serif; 
     font-size: 12pt; 
     font-weight: lighter; 
-    color: #036;
+    color: #fff;
     }
 
 ul{ font-family: Arial, Helvetica, Geneva, Sans-Serif; }
@@ -163,11 +166,11 @@ ul.rating li p { }
 /************************************/
 /* Title section DIV                */
 #title_section { margin:0;padding:0; }
-#title_section div.left-title-image { width:800px; height:90px; border: 0; margin:0; padding:0; background-image:url("../images/title_gray.png"); background-repeat:no-repeat;}
+#title_section div.left-title-image { width:800px; height:90px; border: 0; margin:0; padding:0; background-image:url("../images/jmapacman_title.png"); background-repeat:no-repeat;}
 #title_section div.right-title-image { display:none;}
 #title_section p { display:none; }
 
-#menubarcontainer { margin:0 0 20px 0; height: 20px; padding:0; clear: both; display:block;  background-color:#5588AA; font-size:9pt; font-weight: bold; }
+#menubarcontainer { margin:0 0 20px 0; height: 20px; padding:0; clear: both; display:block;  background-color:#22b; font-size:9pt; font-weight: bold; }
 /*#topmenubar p { margin:0;padding:0; display:block; clear:both; }*/
 
 /************************************/
@@ -182,8 +185,9 @@ ul.rating li p { }
     }
     
 #left_menu ul {list-style:none;
-	border: 2px solid #5588AA;
-	background:#fff url("../images/menubg_gray.png") no-repeat;
+	border: 2px solid #22b;
+	/*background:#fff url("../images/menubg_gray.png") no-repeat;*/
+	background:#ddf;
 	text-align:center;
 	margin: 0px 0px 15px 15px; 
 	padding:0px 0px 5px 0px;
@@ -193,18 +197,19 @@ ul.rating li p { }
 #left_menu li.text { padding:5px 0px 0px 16px; text-align:left;}
 #left_menu { float: left; width: 170px;  padding:0; clear:none; margin:0; margin-top: 0px; }
 
+#left_menu ul li.menu_title { background: #22b; }
 #left_menu ul li.menu_title img {
     border:none;
     }
 
 /* if you want you can use images as backgrounds to these divs instead */        
-#game-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#036;}  /*background-image: url("images/gameLogo.gif"); background-repeat:no-repeat; } */
-#pw-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#036;} 
-#rate-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#036;} 
+#game-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;}  /*background-image: url("images/gameLogo.gif"); background-repeat:no-repeat; } */
+#pw-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;} 
+#rate-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;} 
 
 /************************************/
 /* Page content (DIV right of left menu ) */
-#pagecontent { margin:0; margin-left: 190px; padding:0 15px 15px 15px; margin-top:0px; clear:none; border-left:2px solid #5588AA; }
+#pagecontent { margin:0; margin-left: 190px; padding:0 15px 15px 15px; margin-top:0px; clear:none; border-left:2px solid #22b; }
 
 #pagecontent ul.menubar {
 	text-align: center;
@@ -386,7 +391,7 @@ ul.gamepagemenu
 {
 	font-size: 10pt;
 text-align: center;
-background-color:#5588AA;
+background-color:#22b;
 margin: 0;margin-top:7px;
 padding: 2px 0; 
 white-space: nowrap;
@@ -400,40 +405,40 @@ ul.gamepagemenu li
 {
 display: inline;
 list-style-type: none;
-margin: 3px;
+margin: 2px;
 }
 
-ul.gamepagemenu li a { padding: 0px 10px; margin: 3px 0 3px 0; }
+ul.gamepagemenu li a { padding: 0px 10px; margin: 1px 0 1px 0; font-weight: bold;}
 
 ul.gamepagemenu li a:hover
 {
-color: #fff;
-background-color: #258;
+color: #000;
+background-color: #fff;
 text-decoration: underline;
 }
 
 ul.gamepagemenu li a:visited
 {
-color: #fff;
-background-color: #258;
+color: #000;
+background-color: #fff;
 text-decoration: none;
 }  
 ul.gamepagemenu li a:visited:hover
 {
-color: #fff;
-background-color: #258;
+color: #000;
+background-color: #fff;
 text-decoration: underline;
 } 
 ul.gamepagemenu li a:link
 {
-color: #fff;
-background-color: #258;
+color: #000;
+background-color: #fff;
 text-decoration: none;
 }
 ul.gamepagemenu li a:link:hover
 {
-color: #fff;
-background-color: #258;
+color: #000;
+background-color: #fff;
 text-decoration: underline;
 }
     
@@ -646,7 +651,7 @@ div.newstitle {
 
 ul.menubar
 {
-	background-color:#5588AA;
+	background-color:#22b;
 margin: 0;
 margin-left: 14px;
 padding: 2px 0; 
@@ -665,36 +670,36 @@ ul.menubar li a { padding: 0px 10px; margin: 3px 0 3px 0; }
 
 ul.menubar li a:hover
 {
-color: #fff;
-background-color: #258;
+color: #000;
+background-color: #fff;
 text-decoration: underline;
 }
 
 ul.menubar li a:visited
 {
 color: #fff;
-background-color: #258;
+background-color: #000;
 text-decoration: none;
 } 
 
 ul.menubar li a:visited:hover
 {
-color: #fff;
-background-color: #258;
+color: #000;
+background-color: #fff;
 text-decoration: underline;
 }
  
 ul.menubar li a:link
 {
 color: #fff;
-background-color: #258;
+background-color: #000;
 text-decoration: none;
 }  
 
 ul.menubar li a:link:hover
 {
-color: #fff;
-background-color: #258;
+color: #000;
+background-color: #fff;
 text-decoration: underline;
 } 
 /************************************/  
