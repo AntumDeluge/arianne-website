@@ -26,7 +26,7 @@ if(isset($_REQUEST["arianne_url"]))
             include_once("renderContent.php");
             renderGameBriefing(false);     
             ?>
-        <li><p class="footer"><i>(Add your game here!)</i></p></li>
+        <li><p><i>(Add your game here!)</i></p></li>
       </ul>
 
       <ul>
