@@ -8,7 +8,7 @@ You can also contact the whole group at the mailing list. There are several mail
 </ul>
 
 <h2>IRC</h2>
-<p>Alternatively you may wish to chat to use live on IRC at </p><p><b>irc.freenode.net<br> #arianne</b></p>
+<p>Alternatively you may wish to chat live with the team on IRC at </p><p><b>irc.freenode.net<br> #arianne</b></p>
 
 <h2>Forums</h2>
 <p>There are also a number of Forums on our Sourceforge project page. <a href="https://sourceforge.net/forum/?group_id=1111">The forums are located here</a></p>
