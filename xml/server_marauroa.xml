@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <server name="marauroa">
-  <updated date="2005/10/26"/>
-  <version id="1.12"/>  
+  <updated date="2005/12/21"/>
+  <version id="1.20"/>  
   <status value="complete"/>
   <description><![CDATA[ 
 Marauroa is Arianne's Multiplayer Online Engine Server, that you can use to build 
