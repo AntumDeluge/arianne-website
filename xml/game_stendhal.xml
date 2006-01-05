@@ -117,7 +117,7 @@ So what are you waiting for?! A whole new world awaits...]]>
     </file>
   </files>
   <servers>
-    <server name="BETA Game server" url="http://stendhal.game-server.cc/template_site/">
+    <server name="BETA Game server" url="http://stendhal.game-server.cc/template_site/"/>
     <server name="Public Server" url="http://stendhal.ombres.ambre.net/"/>
   </servers>
   <authors>
