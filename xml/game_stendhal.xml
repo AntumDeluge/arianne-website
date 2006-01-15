@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2006/01/03"/>
-  <version id="0.41"/>
+  <updated date="2006/01/15"/>
+  <version id="0.42"/>
   <status value="beta"/>
   <cssdoc url="css/stendhal.css"/>
   <rated>
@@ -48,25 +48,29 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
   <changelog><![CDATA[ 
-<b>-</b> Fixed ghost sheep bug
-<br><b>-</b> Added minimap
-<br><b>-</b> Fixed inventory
-<br><b>-</b> Added money
-<br><b>-</b> Weapons cost money now
-<br><b>-</b> Sheeps cost money now
-<br><b>-</b> Money objects can be joined in a single object
-<br><b>-</b> Corpses has items inside
-<br><b>-</b> Item amount appears in inventory
-<br><b>-</b> Now you can move items inside inspected entities
-<br><b>-</b> You can't inspect/open a entity while you are not near it
-<br><b>-</b> Refactored equip, moveequip and drop actions
-<br><b>-</b> Fixed a bug at RPSlot.assignValidID that blocked server
-<br><b>-</b> Corpses now are removed from player slots on load
-<br><b>-</b> You can't attack anymore NPC, yehy won't increase your stats.
-<br><b>-</b> Fixed icon on Java webstart version
-<br><b>-</b> Replaced afterlife map
-<br><b>-</b> Added navigation maps for all maps
-<br><b>-</b> Create a batch converter for maps.
+<b>-</b>Added Venom rat.
+<br><b>-</b>On death player lose Levels, XP, ATK and DEF.
+<br><b>-</b>Organized data in Java Webstart. Everything is now inside stendhal folder.
+<br><b>-</b>Added Protection zones to avoid PK.
+<br><b>-</b>Fixed blood anticampers feature.
+<br><b>-</b>New food system.
+<br><b>-</b>Added potions.
+<br><b>-</b>Added support command to talk with admin crew.
+<br><b>-</b>Improved item stacking.
+<br><b>-</b>Banned some improper usernames.
+<br><b>-</b>Better source and data organization.
+<br><b>-</b>Fixed a bug that happen when you kill a sheep.
+<br><b>-</b>Improved data structure.
+<br><b>-</b>New food system.
+<br><b>-</b>Added sound system.
+<br><b>-</b>Added drinks.
+<br><b>-</b>Added poisons.
+<br><b>-</b>Added poisonous creatures.
+<br><b>-</b>Fixed inventory self closes bug.
+<br><b>-</b>Stats show now equipped stuff too.
+<br><b>-</b>New event system.
+<br><b>-</b>Some creatures can heal themselves.
+<br><b>-</b>Fixed food stackable bug.
       ]]>
   </changelog>
   <screenshots>

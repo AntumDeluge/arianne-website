@@ -13,6 +13,19 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.42: Venom rats are bad!</title>
+    <date>Sun, 15 Jan 2005 14:30:51</date>
+      <images> 
+        <image url="screens/stendhal/THM_20060115_stendhal.jpg"/>
+      </images>
+    <content>
+      <![CDATA[Thanks to all of you for the bugs reports.<br>
+        This release is the add some exciting features as different food pieces that heals at different rates, add potions to heal yourself fast on deep dungeons, venom creatures and poisons, add a new sound system. But this release is very important because of what it fixs: we have fixed the Timeout synchronization request that was due to ISP UDP packet size limits, we have also improved anticheaters features and dead is now something to take more serious.<p>
+        The bad news is that we don't feature new zones on this release. We need help with map making to make more areas and improve existing ones, also if you have reached level 15 or above your gameplay experience won't be as good because almost nothing will give xp now. Please if it is the case, help up to create new creatures and new exciting areas. Join #arianne at irc.freenode.net to talk about this.<p>
+        Have fun with this release and report bugs you may find. There is still a known bug at players inventory, so if you drag an item and drop on the same position the inventory will be incorrect and you won't be able to use it unless you change the zone or drop all the items on the floor and equip it again.>]]>
+    </content>
+  </item>  
+  <item>
     <title>Stendhal 0.40: Remember it is a BETA!</title>
     <date>Tue, 20 Dec 2005 12:36:19</date>
       <images> 
