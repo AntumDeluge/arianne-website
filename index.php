@@ -12,14 +12,18 @@ include_once('xml.php');
 $page_url="content/news";
 
 if(isset($_REQUEST["arianne_url"]))
-  {
-  
+  {  
   $page_url=$_REQUEST["arianne_url"];
   
-  if(!strpos(".",$page_url)===false or strpos("/",$page_url)==1)
+  if(!(
+      (strpos($page_url,".")===false)&&
+      (strpos($page_url,"//")===false)&&
+      (strpos($page_url,"http")===false)&&
+      (strpos($page_url,"/")!=1))
+      )
     {    
     $page_url="content/news";
-    } 
+    }
   }
 
 $name =  substr($page_url,strpos($page_url,"/")+1, strlen($page_url));

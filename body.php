@@ -1,19 +1,21 @@
 <?php
 
-$arianne_url="content/news";
+$page_url="content/news";
 
 if(isset($_REQUEST["arianne_url"]))
-  {
-  global $arianne_url;
+  {  
+  $page_url=$_REQUEST["arianne_url"];
   
-  $arianne_url=$_REQUEST["arianne_url"];
-  
-  if(!strpos(".",$arianne_url)===false or strpos("/",$arianne_url)==1)
+  if(!(
+      (strpos($page_url,".")===false)&&
+      (strpos($page_url,"//")===false)&&
+      (strpos($page_url,"http")===false)&&
+      (strpos($page_url,"/")!=1))
+      )
     {    
-    $arianne_url="content/news";
-    } 
-  } 
-
+    $page_url="content/news";
+    }
+  }
 
   // build side menu
   ?>
@@ -60,7 +62,7 @@ if(isset($_REQUEST["arianne_url"]))
 <?php
 
 echo '<div id="pagecontent">';
-include($arianne_url.".php"); 
+include($page_url.".php"); 
 echo '</div>';
 
  
