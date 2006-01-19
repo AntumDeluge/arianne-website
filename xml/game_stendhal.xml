@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2006/01/15"/>
-  <version id="0.42"/>
+  <updated date="2006/01/20"/>
+  <version id="0.43"/>
   <status value="beta"/>
   <cssdoc url="css/stendhal.css"/>
   <rated>
@@ -48,29 +48,31 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
   <changelog><![CDATA[ 
-<b>-</b>Added Venom rat.
-<br><b>-</b>On death player lose Levels, XP, ATK and DEF.
-<br><b>-</b>Organized data in Java Webstart. Everything is now inside stendhal folder.
-<br><b>-</b>Added Protection zones to avoid PK.
-<br><b>-</b>Fixed blood anticampers feature.
-<br><b>-</b>New food system.
-<br><b>-</b>Added potions.
-<br><b>-</b>Added support command to talk with admin crew.
-<br><b>-</b>Improved item stacking.
-<br><b>-</b>Banned some improper usernames.
-<br><b>-</b>Better source and data organization.
-<br><b>-</b>Fixed a bug that happen when you kill a sheep.
-<br><b>-</b>Improved data structure.
-<br><b>-</b>New food system.
-<br><b>-</b>Added sound system.
-<br><b>-</b>Added drinks.
-<br><b>-</b>Added poisons.
-<br><b>-</b>Added poisonous creatures.
-<br><b>-</b>Fixed inventory self closes bug.
-<br><b>-</b>Stats show now equipped stuff too.
-<br><b>-</b>New event system.
-<br><b>-</b>Some creatures can heal themselves.
-<br><b>-</b>Fixed food stackable bug.
+<b>-</b>&nbsp;Exit of tavern now belongs to tavern.
+<br><b>-</b>&nbsp;Fixed a bug when player recieve text but client.getPlayer() stills return null.
+<br><b>-</b>&nbsp;Configuration files are stored now at ~/stendhal
+<br><b>-</b>&nbsp;Carmen at Semos sells potions and antidotes.
+<br><b>-</b>&nbsp;Admin can summonat player slot several items at once.
+<br><b>-</b>&nbsp;Venom rats are a bit more weak and poison hurts less.
+<br><b>-</b>&nbsp;Use portal use changeZone method.
+<br><b>-</b>&nbsp;Antidote gives now inmunity for 2 minutes.
+<br><b>-</b>&nbsp;Fixed a bug at Java Web start related to existence of stendhal file
+<br><b>-</b>&nbsp;Workaround for inventory bug: left button dragging disabled.
+<br><b>-</b>&nbsp;Fixed a bug at Creature.logic
+<br><b>-</b>&nbsp;Added new areas:
+  <br><b>-</b>&nbsp;&nbsp;&nbsp;Temple
+  <br><b>-</b>&nbsp;&nbsp;&nbsp;Blacksmith
+  <br><b>-</b>&nbsp;&nbsp;&nbsp;Kanmararn entrace
+  <br><b>-</b>&nbsp;&nbsp;&nbsp;Or'ril dungeon level 3
+  <br><b>-</b>&nbsp;&nbsp;&nbsp;Jail
+<br><b>-</b>&nbsp;Added new creatures:
+  <br><b>-</b>&nbsp;&nbsp;&nbsp;Razor rat
+  <br><b>-</b>&nbsp;&nbsp;&nbsp;Ratman
+  <br><b>-</b>&nbsp;&nbsp;&nbsp;Dwarf
+  <br><b>-</b>&nbsp;&nbsp;&nbsp;Guardian Dwarf
+  <br><b>-</b>&nbsp;&nbsp;&nbsp;Elder Dwarf
+  <br><b>-</b>&nbsp;&nbsp;&nbsp;Orc warrior
+  <br><b>-</b>&nbsp;&nbsp;&nbsp;Orc chief
       ]]>
   </changelog>
   <screenshots>
