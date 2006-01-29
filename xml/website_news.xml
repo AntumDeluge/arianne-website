@@ -17,23 +17,23 @@
     <date>Sun, 29 Jan 2006 20:29:28</date>
     <content>
       <![CDATA[Again, we are releasing our weekly bug fixes release. This release adds:
-<br><b>o</b> Fixed Drink and food queue so you can consume potions even if full.
-<br><b>o</b> Speed up client
-<br><b>o</b> Changed sync event management so game is less laggy.
-<br><b>o</b> Can buy several items in a batch ( buy 5 potion )
-<br><b>o</b> Fixed sync error. Should happen less oftenly.
-<br><b>o</b> Items bought are automatically stacked.
-<br><b>o</b> Sheeps heals themselves slowly.
-<br><b>o</b> Admins are now denoted with yellow name.
-<br><b>o</b> NPC don't say bye if you are not talking to it.
-<br><b>o</b> Portals are walkable now. It looks better
-<br><b>o</b> Giant rats corpses are bigger.
-<br><b>o</b> Monsters does talk ( but not chat ).
-<br><b>o</b> Reworked map data structure. It is more organized now.
-<br><b>o</b> Added ambient sounds.
-<br><b>o</b> Fixed ATK and DEF loose on death.
-<br><b>o</b> Added new areas: Library and Orril dungeon
-<br><b>o</b> Added new monster: Black bear
+<br><b>.</b> Fixed Drink and food queue so you can consume potions even if full.
+<br><b>.</b> Speed up client
+<br><b>.</b> Changed sync event management so game is less laggy.
+<br><b>.</b> Can buy several items in a batch ( buy 5 potion )
+<br><b>.</b> Fixed sync error. Should happen less oftenly.
+<br><b>.</b> Items bought are automatically stacked.
+<br><b>.</b> Sheeps heals themselves slowly.
+<br><b>.</b> Admins are now denoted with yellow name.
+<br><b>.</b> NPC don't say bye if you are not talking to it.
+<br><b>.</b> Portals are walkable now. It looks better
+<br><b>.</b> Giant rats corpses are bigger.
+<br><b>.</b> Monsters does talk ( but not chat ).
+<br><b>.</b> Reworked map data structure. It is more organized now.
+<br><b>.</b> Added ambient sounds.
+<br><b>.</b> Fixed ATK and DEF loose on death.
+<br><b>.</b> Added new areas: Library and Orril dungeon
+<br><b>.</b> Added new monster: Black bear
 <p>This release also ships a new version of the map editor. Just use update.bat to sync your map editor with CVS. We are going to need TONS of help to complete maps for 0.50. Please join us at irc.freenode.net #arianne and help us with the task.
       ]]>
     </content>
