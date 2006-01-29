@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <server name="marauroa">
-  <updated date="2005/12/21"/>
-  <version id="1.21"/>  
+  <updated date="2006/01/29"/>
+  <version id="1.22"/>  
   <status value="complete"/>
   <description><![CDATA[ 
 Marauroa is Arianne's Multiplayer Online Engine Server, that you can use to build 
@@ -60,10 +60,9 @@ you want.<p/>
     ]]>
   </extended>
   <changelog><![CDATA[ 
-<b>-</b> Added game events support
-<br><b>-</b> Fixed a bug at RPSlot
-<br><b>-</b> Fixed NetworkClientManager that made wrong signatures
-<br><b>-</b> Resized UDP packet size to 1000 bytes
+<b>-</b> Fixed memory leak because incorrectly handled JDBC Connection.
+<br><b>-</b> Added threaded network client.
+<br><b>-</b> Fixed messing messages because repeated signature.
       ]]>
   </changelog>
   <files>

@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2006/01/20"/>
-  <version id="0.43"/>
+  <updated date="2006/01/29"/>
+  <version id="0.44"/>
   <status value="beta"/>
   <cssdoc url="css/stendhal.css"/>
   <rated>
@@ -48,31 +48,29 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
   <changelog><![CDATA[ 
-<b>-</b>&nbsp;Exit of tavern now belongs to tavern.
-<br><b>-</b>&nbsp;Fixed a bug when player recieve text but client.getPlayer() stills return null.
-<br><b>-</b>&nbsp;Configuration files are stored now at ~/stendhal
-<br><b>-</b>&nbsp;Carmen at Semos sells potions and antidotes.
-<br><b>-</b>&nbsp;Admin can summonat player slot several items at once.
-<br><b>-</b>&nbsp;Venom rats are a bit more weak and poison hurts less.
-<br><b>-</b>&nbsp;Use portal use changeZone method.
-<br><b>-</b>&nbsp;Antidote gives now inmunity for 2 minutes.
-<br><b>-</b>&nbsp;Fixed a bug at Java Web start related to existence of stendhal file
-<br><b>-</b>&nbsp;Workaround for inventory bug: left button dragging disabled.
-<br><b>-</b>&nbsp;Fixed a bug at Creature.logic
-<br><b>-</b>&nbsp;Added new areas:
-  <br><b>-</b>&nbsp;&nbsp;&nbsp;Temple
-  <br><b>-</b>&nbsp;&nbsp;&nbsp;Blacksmith
-  <br><b>-</b>&nbsp;&nbsp;&nbsp;Kanmararn entrace
-  <br><b>-</b>&nbsp;&nbsp;&nbsp;Or'ril dungeon level 3
-  <br><b>-</b>&nbsp;&nbsp;&nbsp;Jail
-<br><b>-</b>&nbsp;Added new creatures:
-  <br><b>-</b>&nbsp;&nbsp;&nbsp;Razor rat
-  <br><b>-</b>&nbsp;&nbsp;&nbsp;Ratman
-  <br><b>-</b>&nbsp;&nbsp;&nbsp;Dwarf
-  <br><b>-</b>&nbsp;&nbsp;&nbsp;Guardian Dwarf
-  <br><b>-</b>&nbsp;&nbsp;&nbsp;Elder Dwarf
-  <br><b>-</b>&nbsp;&nbsp;&nbsp;Orc warrior
-  <br><b>-</b>&nbsp;&nbsp;&nbsp;Orc chief
+<b>-</b> Fixed a null pointer bug at creature logic.
+<br><b>-</b> Fixed Drink and food queue so you can consume potions even if full.
+<br><b>-</b> Speed up client
+<br><b>-</b> Changed sync event management so game is less laggy.
+<br><b>-</b> Can buy several items in a batch ( buy 5 potion )
+<br><b>-</b> Fixed sync error. Should happen less oftenly.
+<br><b>-</b> Items bought are automatically stacked.
+<br><b>-</b> Sheeps heals themselves slowly.
+<br><b>-</b> Admins are now denoted with yellow name.
+<br><b>-</b> NPC don't say bye if you are not talking to it.
+<br><b>-</b> Portals are walkable now. It looks better
+<br><b>-</b> Giant rats corpses are bigger.
+<br><b>-</b> Monsters does talk ( but not chat ).
+<br><b>-</b> Reworked map data structure. It is more organized now.
+<br><b>-</b> Added ambient sounds.
+<br><b>-</b> Fixed ATK and DEF loose on death.
+<br><b>-</b> Added new area:<ul>
+  <li>Library
+  <li>Orril dungeon
+  </ul>
+<br><b>-</b> Added new monster:<ul>
+  <li>Black bear
+  </ul>
       ]]>
   </changelog>
   <screenshots>
@@ -94,7 +92,7 @@ So what are you waiting for?! A whole new world awaits...]]>
         <entry name="macosx" status="100"/>
       </os>
     </file>
-    <file type="map editor binary" name="stendhal_mapeditor-1.10.zip">
+    <file type="map editor binary" name="stendhal_mapeditor-1.20.zip">
       <description>This file contains the stendhal map editor. Download this to create new maps. Send them to us if you want them to appear on next releases. Use the tmx file format.</description>
       <os>
         <entry name="win32" status="100"/>
