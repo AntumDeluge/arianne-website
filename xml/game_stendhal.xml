@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2006/01/29"/>
-  <version id="0.44"/>
+  <updated date="2006/03/03"/>
+  <version id="0.45"/>
   <status value="beta"/>
   <cssdoc url="css/stendhal.css"/>
   <rated>
@@ -48,32 +48,28 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
   <changelog><![CDATA[ 
-<b>-</b> Fixed a null pointer bug at creature logic.
-<br><b>-</b> Fixed Drink and food queue so you can consume potions even if full.
-<br><b>-</b> Speed up client
-<br><b>-</b> Changed sync event management so game is less laggy.
-<br><b>-</b> Can buy several items in a batch ( buy 5 potion )
-<br><b>-</b> Fixed sync error. Should happen less oftenly.
-<br><b>-</b> Items bought are automatically stacked.
-<br><b>-</b> Sheeps heals themselves slowly.
-<br><b>-</b> Admins are now denoted with yellow name.
-<br><b>-</b> NPC don't say bye if you are not talking to it.
-<br><b>-</b> Portals are walkable now. It looks better
-<br><b>-</b> Giant rats corpses are bigger.
-<br><b>-</b> Monsters does talk ( but not chat ).
-<br><b>-</b> Reworked map data structure. It is more organized now.
-<br><b>-</b> Added ambient sounds.
-<br><b>-</b> Fixed ATK and DEF loose on death.
-<br><b>-</b> Added new area:<ul>
-  <li>Library
-  <li>Orril dungeon
-  </ul>
-<br><b>-</b> Added new monster:<ul>
-  <li>Black bear
-  </ul>
+<b>-</b>  Fixed ambient sounds.
+<br><b>-</b>  Fixed sheep quest.
+<br><b>-</b>  Fixed sheep inmortality bug.
+<br><b>-</b>  Fixed equipment mess bug.
+<br><b>-</b>  Fixed offline icon not showing.
+<br><b>-</b>  Fixed equipment bug.
+<br><b>-</b>  Fixed NPC talking bug.
+<br><b>-</b>  Fixed corpses not showing correctly usable items.
+<br><b>-</b>  Added Event system to ease development of client.
+<br><b>-</b>  Added sword beam to show attack.
+<br><b>-</b>  Added Python initialization script to ease modification of Server.
+<br><b>-</b>  Added Quest system.
+<br><b>-</b>  Added a very basic scripts system.
+<br><b>-</b>  Added ranged combat.
+<br><b>-</b>  Added new monsters ( around 30 new monsters ).
+<br><b>-</b>  Added new zones ( more than 40 new zones ).
+
       ]]>
   </changelog>
   <screenshots>
+    <image name="20060303_stendhal.jpg"/>
+    <image name="20060304_stendhal.jpg"/>
     <image name="20051220_stendhal.jpg"/>
     <image name="20051023_stendhal.jpg"/>
     <image name="20050605_stendhal.jpg"/>
