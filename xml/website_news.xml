@@ -16,7 +16,6 @@
     <title>Stendhal 0.45: Diplodocus!</title>
     <date>Fri, 03 March 2006 18:48:19</date>
       <images> 
-        <image url="images/articles/world_0.50.png"/>
         <image url="screens/stendhal/THM_20060303_stendhal.jpg"/>
         <image url="screens/stendhal/THM_20060304_stendhal.jpg"/>
       </images>
@@ -24,7 +23,7 @@
       <![CDATA[Welcome to the biggest better ever release of Arianne.<p>
 This release of stendhal features the biggest map we have ever had on the seven years of development. It has around 70 zones, many of them still to be populated. We also added around 50 new monsters so the monsters now range from level 0 to level 100.<p>
 We added ranged combat with bow and arrows, and monsters can also use it.<br>
-Stendhal now has a Quest and Scripts system <i>(done in java)</i> to create interesting Quests and make important game effects using the scripts. Be sure to give a try to Tad and Ceryl about their quests. We need your help to code more and more quests, so if you write Java contact <a href="arianne-devel@lists.sf.net">us</a>.<p>
+Stendhal now has a Quest and Scripts system <i>(done in java)</i> to create interesting Quests and make important game effects using the scripts. Be sure to give a try to Tad and Ceryl about their quests. We need your help to code more and more quests, so if you write Java contact <a href="mailto:arianne-devel@lists.sf.net">us</a>.<p>
 Also I fixed a nasty bug on GUI that messed up the inventory. Now it won't happen again. Thanks for waiting.<p>
 Unfortunatelly this release isn't named 0.50 because we still miss some important things:<br>
 - More quests and NPCs.<br>
