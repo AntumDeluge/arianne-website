@@ -67,12 +67,11 @@ So what are you waiting for?! A whole new world awaits...]]>
 <br><b>-</b> Added bank at Semos. It will contain player items.
 <br><b>-</b> Added Orril castle.
 <br><b>-</b> Weakened XP earn limits.
-
       ]]>
   </changelog>
   <screenshots>
-    <image name="20060310_stendhal.jpg"/>
     <image name="20060303_stendhal.jpg"/>
+    <image name="20060310_stendhal.jpg"/>
     <image name="20060304_stendhal.jpg"/>
     <image name="20051220_stendhal.jpg"/>
     <image name="20051023_stendhal.jpg"/>
@@ -86,7 +85,6 @@ So what are you waiting for?! A whole new world awaits...]]>
         <entry name="macosx" status="100"/>
       </os>
     </file>
-  <files>
     <file type="binary" name="stendhal-XXX.zip">
       <description>This file contains the stendhal client. Download this to play online.</description>
       <os>
@@ -124,8 +122,7 @@ So what are you waiting for?! A whole new world awaits...]]>
     </file>
   </files>
   <servers>
-    <server name="BETA Game server" url="http://stendhal.game-server.cc/template_site/"/>
-    <server name="Public Server" url="http://stendhal.ombres.ambre.net/"/>
+    <server name="Game server" url="http://stendhal.game-server.cc/template_site/"/>
   </servers>
   <authors>
     <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>
