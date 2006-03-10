@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2006/03/03"/>
-  <version id="0.45"/>
+  <updated date="2006/03/10"/>
+  <version id="0.46"/>
   <status value="beta"/>
   <cssdoc url="css/stendhal.css"/>
   <rated>
@@ -48,37 +48,44 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
   <changelog><![CDATA[ 
-<b>-</b>  Fixed ambient sounds.
-<br><b>-</b>  Fixed sheep quest.
-<br><b>-</b>  Fixed sheep inmortality bug.
-<br><b>-</b>  Fixed equipment mess bug.
-<br><b>-</b>  Fixed offline icon not showing.
-<br><b>-</b>  Fixed equipment bug.
-<br><b>-</b>  Fixed NPC talking bug.
-<br><b>-</b>  Fixed corpses not showing correctly usable items.
-<br><b>-</b>  Added Event system to ease development of client.
-<br><b>-</b>  Added sword beam to show attack.
-<br><b>-</b>  Added Python initialization script to ease modification of Server.
-<br><b>-</b>  Added Quest system.
-<br><b>-</b>  Added a very basic scripts system.
-<br><b>-</b>  Added ranged combat.
-<br><b>-</b>  Added new monsters ( around 30 new monsters ).
-<br><b>-</b>  Added new zones ( more than 40 new zones ).
+<b>-</b> Fixed sheep
+<br><b>-</b> Fixed blacksmith animations.
+<br><b>-</b> Fixed Nalwor waterfall animation.
+<br><b>-</b> Creatures correctly balanced
+<br><b>-</b> Fixed dragons and added a new category Huge animals.
+<br><b>-</b> Fixed a bug at Attack system that weakens NPC.
+<br><b>-</b> Fixed some maps bugs.
+<br><b>-</b> Speed up path finding by a factor of x20
+<br><b>-</b> Added cloaks
+<br><b>-</b> Added plate armor
+<br><b>-</b> Rebalanced again creatures
+<br><b>-</b> Fixed a very fun bug at Seller NPC ;<br><b>-</b>)
+<br><b>-</b> Moved NPC GFX to its own folder.
+<br><b>-</b> Simplified quests.
+<br><b>-</b> Added Semos Mine and Orril Castle new zones.
+<br><b>-</b> Added new quests and new items
+<br><b>-</b> Added bank at Semos. It will contain player items.
+<br><b>-</b> Added Orril castle.
+<br><b>-</b> Weakened XP earn limits.
 
       ]]>
   </changelog>
   <screenshots>
+    <image name="20060310_stendhal.jpg"/>
     <image name="20060303_stendhal.jpg"/>
     <image name="20060304_stendhal.jpg"/>
     <image name="20051220_stendhal.jpg"/>
     <image name="20051023_stendhal.jpg"/>
-    <image name="20050605_stendhal.jpg"/>
-    <image name="20050604_stendhal.jpg"/>
-    <image name="20050520_2_stendhal.jpg"/>
-    <image name="20050520_3_stendhal.jpg"/>
-    <image name="20050520_1_stendhal.jpg"/>
-    <image name="20050417_stendhal.jpg"/>
   </screenshots>
+  <files>
+    <file type="FULL binary with sounds" name="stendhal-FULL-XXX.zip">
+      <description>This file contains the FULL stendhal client with sounds. Download this to play online.</description>
+      <os>
+        <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+        <entry name="macosx" status="100"/>
+      </os>
+    </file>
   <files>
     <file type="binary" name="stendhal-XXX.zip">
       <description>This file contains the stendhal client. Download this to play online.</description>

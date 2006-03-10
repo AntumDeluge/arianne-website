@@ -13,6 +13,23 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.46: getting there...</title>
+    <date>Fri, 10 March 2006 16:26:38</date>
+      <images> 
+        <image url="screens/stendhal/THM_20060310_stendhal.jpg"/>
+      </images>
+    <content>
+      <![CDATA[Again,  on our weekly releases approach we present Stendhal 0.46. This version mostly fixs bugs and add a new interesting quest. We have fixed the sheep bug that made sheep to be transparent. All animations are now fixed, so if you see a strange area please report it as a bug.<p>
+I have also rebalanced again creatures, please complain if you find them to hard. For top level players we have added Dragons and liches so they can party and enjoy :).<p>
+There are some new items to fight against these formidable enemies: plate armors, golden armors, hammers, scythe, fire sword, ...<p>
+Also per request Quests has been made simpler, so saying hi once you have started the quest trigger it.<p>
+Finally we have added several new areas that you will love: Orril castle and Semos mines, and inside Semos city you have now a Bank and a Storage.
+<p>
+We still need your help to add content to world as items, creatures, quests, maps, bugs, suggestions or simply as a hardcore player. Please write <a href="mailto:arianne-general@lists.sf.net">us</a> if you are interested in helping.
+]]>
+    </content>
+  </item>  
+  <item>
     <title>Stendhal 0.45: Diplodocus!</title>
     <date>Fri, 03 March 2006 18:48:19</date>
       <images> 
