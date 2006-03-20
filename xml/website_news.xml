@@ -13,6 +13,15 @@
   </item>
   -->
   <item>
+    <title>Vote Arianne for Sourceforge Community Choice Awards</title>
+    <date></date>
+    <content>
+      <![CDATA[
+         <a href="http://sourceforge.net/awards/cca/"><span style="float: left; padding: 0 .5em 1.5em 0" ><img src="https://images-ssl.sourceforge.net/images/sfx/cca/sf_cca_2006_icon.png" alt="CCA - Nominee" width="32" height="32" /></span><strong> 2006 Community Choice Awards</strong><br />Vote for this project in the Games category!</a>
+      ]]>
+      </content>
+  </item>
+  <item>
     <title>Stendhal 0.46: getting there...</title>
     <date>Fri, 10 March 2006 16:26:38</date>
       <images> 
