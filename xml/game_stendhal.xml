@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2006/03/10"/>
-  <version id="0.46"/>
+  <updated date="2006/03/24"/>
+  <version id="0.47"/>
   <status value="beta"/>
   <cssdoc url="css/stendhal.css"/>
   <rated>
@@ -48,28 +48,26 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
   <changelog><![CDATA[ 
-<b>-</b> Fixed sheep
-<br><b>-</b> Fixed blacksmith animations.
-<br><b>-</b> Fixed Nalwor waterfall animation.
-<br><b>-</b> Creatures correctly balanced
-<br><b>-</b> Fixed dragons and added a new category Huge animals.
-<br><b>-</b> Fixed a bug at Attack system that weakens NPC.
-<br><b>-</b> Fixed some maps bugs.
-<br><b>-</b> Speed up path finding by a factor of x20
-<br><b>-</b> Added cloaks
-<br><b>-</b> Added plate armor
-<br><b>-</b> Rebalanced again creatures
-<br><b>-</b> Fixed a very fun bug at Seller NPC ;<br><b>-</b>)
-<br><b>-</b> Moved NPC GFX to its own folder.
-<br><b>-</b> Simplified quests.
-<br><b>-</b> Added Semos Mine and Orril Castle new zones.
-<br><b>-</b> Added new quests and new items
-<br><b>-</b> Added bank at Semos. It will contain player items.
-<br><b>-</b> Added Orril castle.
-<br><b>-</b> Weakened XP earn limits.
+<br><b>-</b> Fixed location of version file.
+<br><b>-</b> Fixed teleport bug.
+<br><b>-</b> Fixed negative xp problem.
+<br><b>-</b> Fixed a problem that made players not to leave world because of sheeps.
+<br><b>-</b> Added door and keys
+<br><b>-</b> Added new quests
+<br><b>-</b> Added stendhal own database that speed up game turns
+<br><b>-</b> Added a Townhall
+<br><b>-</b> Added several NPC to help players introduce into the game
+<br><b>-</b> Added new monsters ( around 15 more )
+<br><b>-</b> Added kobold's city
+<br><b>-</b> Fixed a bug about invincible creatures
+<br><b>-</b> Added a depot to place items safely.
+<br><b>-</b> Fixed NPC outfits
+<br><b>-</b> Fixed break dance bug
+<br><b>-</b> Better corpse representation
       ]]>
   </changelog>
   <screenshots>
+    <image name="20060324_stendhal.jpg"/>
     <image name="20060303_stendhal.jpg"/>
     <image name="20060310_stendhal.jpg"/>
     <image name="20060304_stendhal.jpg"/>
