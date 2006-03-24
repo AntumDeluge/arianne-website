@@ -23,7 +23,7 @@
 Another feature that has been requested and has been added is a storage to safely place items: you can have a look to it at bank.<p>
 After this version we will work now on fixing minor details and improving GUI, so that we can finally introduce a new RP system and reach 0.50.<br>
 We still need your <b>help to add content to world as items, creatures, quests, maps, bugs, suggestions or simply as a hardcore player</b>. Please write <a href="mailto:arianne-general@lists.sf.net">us</a> if you are interested in helping.<p>
-<b>NOTE:</b> Create account has been broken. If you have had problems, please create a new account now.
+<b>NOTE:</b> Create account has been broken. If you have had problems, please create a new account now. We have done a server side only release that fixs the bug, just in case you are interested in running your own server: <a href="https://sourceforge.net/project/showfiles.php?group_id=1111&package_id=145790">Server side only 0.47</a>
 ]]>
     </content>
   </item>  
