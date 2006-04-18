@@ -13,6 +13,16 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.48: Buddies</title>
+    <date>Tue, 18 April 2006 14:13:00</date>
+    <content>
+      <![CDATA[This release should have happened two weeks above, but Sourceforge CVS failure and holidays took it out of schedule. We have added a buddy system so you can keep in touch with your friends, blood pools as a result of fights, player age :), new items and a new area near Ados called the swamp.<br>
+We also removed some offending GFX, hide admin commands, fixed sheeps and simplified Xin Blanca items list.<p>
+Next version is prone to take a few weeks of time because I really want to work now on GUI as most issues now are fixed and working.
+]]>
+    </content>
+  </item>  
+  <item>
     <title>Stendhal 0.47: Liches and Kobolds</title>
     <date>Fri, 24 March 2006 00:01:54</date>
       <images> 

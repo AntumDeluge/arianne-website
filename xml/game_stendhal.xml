@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2006/03/24"/>
-  <version id="0.47"/>
+  <updated date="2006/04/18"/>
+  <version id="0.48"/>
   <status value="beta"/>
   <cssdoc url="css/stendhal.css"/>
   <rated>
