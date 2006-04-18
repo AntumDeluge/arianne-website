@@ -48,22 +48,27 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
   <changelog><![CDATA[ 
-<br><b>-</b> Fixed location of version file.
-<br><b>-</b> Fixed teleport bug.
-<br><b>-</b> Fixed negative xp problem.
-<br><b>-</b> Fixed a problem that made players not to leave world because of sheeps.
-<br><b>-</b> Added door and keys
-<br><b>-</b> Added new quests
-<br><b>-</b> Added stendhal own database that speed up game turns
-<br><b>-</b> Added a Townhall
-<br><b>-</b> Added several NPC to help players introduce into the game
-<br><b>-</b> Added new monsters ( around 15 more )
-<br><b>-</b> Added kobold's city
-<br><b>-</b> Fixed a bug about invincible creatures
-<br><b>-</b> Added a depot to place items safely.
-<br><b>-</b> Fixed NPC outfits
-<br><b>-</b> Fixed break dance bug
-<br><b>-</b> Better corpse representation
+<b>-</b>  Added jail command
+<br><b>-</b>  Added protection zone around Semos
+<br><b>-</b>  Added Buddy system
+<br><b>-</b>  Added Blood pool on fights
+<br><b>-</b>  Fixed improper GFX.
+<br><b>-</b>  Fixed bug that makes equip command fails if the slot is full.
+<br><b>-</b>  Fixed several minor maps bugs.
+<br><b>-</b>  Cloack now adds DEF (client side fix).
+<br><b>-</b>  Fixed NPC keywords ( now quests works too with hello and hola ).
+<br><b>-</b>  Added a Jail keeper NPC.
+<br><b>-</b>  Simplified Xin Blanca items lists.
+<br><b>-</b>  Fixed a very important bug on pathfinding that was being abused by players.
+<br><b>-</b>  Added tavern second floor.
+<br><b>-</b>  Big monsters are now draw when part of them is out of screen.
+<br><b>-</b>  You can query now player's age.
+<br><b>-</b>  Randomize a bit creatures and its respawn time.
+<br><b>-</b>  Fixed sheep bug related to sheep not responding to any command.
+<br><b>-</b>  Screen move less and faster now.
+<br><b>-</b>  Hide admin commands for not confusing players.
+<br><b>-</b>  Added new items ( a few: around 20 more )
+<br><b>-</b>  Added a new area on the top east, near Ados.
       ]]>
   </changelog>
   <screenshots>
