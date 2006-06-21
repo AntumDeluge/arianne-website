@@ -13,6 +13,24 @@
   </item>
   -->
   <item>
+    <title>Stendhal 0.51: Deathmatch happiness</title>
+    <date>Fri, 16 June 2006 21:02:34</date>
+    <content>
+      <![CDATA[This release close several bugs that have arise after 0.50 release. Mainly, we speeded up client start time and connect will take now just between one and three seconds. Also we fixed strange cases where avatars keep on game after logout and a worse bug that lead to personal chests robbery.<br>
+On the good side we have also closed a bug that allowed item duplication and improved the deathmatch for not to be so easy.<br>Also we added a new quest called Wood on the forest.<p>
+Hope you enjoy it. Visit us at irc.freenode.net#arianne for a chat.
+]]>
+    </content>
+  </item>  
+  <item>
+    <title>Server returns to stendhal.ath.cx</title>
+    <date>Sun, 18 Jun 2006 23:59:12</date>
+    <content>
+      <![CDATA[We have been informed that Murpe is not able to host our server anymore so we return it to stendhal.ath.cx.<br>
+      Keep in mind that the server may go down in seven days as I go on holidays.]]>
+      </content>
+  </item>
+  <item>
     <title>Stendhal 0.50: major release since December</title>
     <date>Fri, 16 June 2006 21:02:34</date>
     <content>
