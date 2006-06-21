@@ -14,7 +14,7 @@
   -->
   <item>
     <title>Stendhal 0.51: Deathmatch happiness</title>
-    <date>Fri, 16 June 2006 21:02:34</date>
+    <date>Fri, 21 June 2006 20:01:51</date>
     <content>
       <![CDATA[This release close several bugs that have arise after 0.50 release. Mainly, we speeded up client start time and connect will take now just between one and three seconds. Also we fixed strange cases where avatars keep on game after logout and a worse bug that lead to personal chests robbery.<br>
 On the good side we have also closed a bug that allowed item duplication and improved the deathmatch for not to be so easy.<br>Also we added a new quest called Wood on the forest.<p>

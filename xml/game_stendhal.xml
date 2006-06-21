@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2006/04/18"/>
-  <version id="0.48"/>
+  <updated date="2006/06/21"/>
+  <version id="0.51"/>
   <status value="beta"/>
   <cssdoc url="css/stendhal.css"/>
   <rated>
@@ -48,27 +48,16 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
   <changelog><![CDATA[ 
-<b>-</b>  Added jail command
-<br><b>-</b>  Added protection zone around Semos
-<br><b>-</b>  Added Buddy system
-<br><b>-</b>  Added Blood pool on fights
-<br><b>-</b>  Fixed improper GFX.
-<br><b>-</b>  Fixed bug that makes equip command fails if the slot is full.
-<br><b>-</b>  Fixed several minor maps bugs.
-<br><b>-</b>  Cloack now adds DEF (client side fix).
-<br><b>-</b>  Fixed NPC keywords ( now quests works too with hello and hola ).
-<br><b>-</b>  Added a Jail keeper NPC.
-<br><b>-</b>  Simplified Xin Blanca items lists.
-<br><b>-</b>  Fixed a very important bug on pathfinding that was being abused by players.
-<br><b>-</b>  Added tavern second floor.
-<br><b>-</b>  Big monsters are now draw when part of them is out of screen.
-<br><b>-</b>  You can query now player's age.
-<br><b>-</b>  Randomize a bit creatures and its respawn time.
-<br><b>-</b>  Fixed sheep bug related to sheep not responding to any command.
-<br><b>-</b>  Screen move less and faster now.
-<br><b>-</b>  Hide admin commands for not confusing players.
-<br><b>-</b>  Added new items ( a few: around 20 more )
-<br><b>-</b>  Added a new area on the top east, near Ados.
+<b>-</b> Speed up server connection because of a bug.
+<br><b>-</b> Fixed strange cases where avatars keeps on game after logout.
+<br><b>-</b> Fixed personal chest bugs: stealth other players and items duplication.
+<br><b>-</b> Improved deathmatch script.
+<br><b>-</b> Speed up client start time.
+<br><b>-</b> Improving creatures navigation.
+<br><b>-</b> Fixed deathmatch exploit.
+<br><b>-</b> Fixed some maps glitches.
+<br><b>-</b> Website added to server binary
+<br><b>-</b> Added Wood on the forest quest.
       ]]>
   </changelog>
   <screenshots>
@@ -96,7 +85,7 @@ So what are you waiting for?! A whole new world awaits...]]>
         <entry name="macosx" status="100"/>
       </os>
     </file>
-    <file type="map editor binary" name="stendhal_mapeditor-1.20.zip">
+    <file type="map editor binary" name="stendhal_mapeditor-1.21.zip">
       <description>This file contains the stendhal map editor. Download this to create new maps. Send them to us if you want them to appear on next releases. Use the tmx file format.</description>
       <os>
         <entry name="win32" status="100"/>
