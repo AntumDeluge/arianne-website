@@ -1,5 +1,5 @@
 <div class="section"><h1>Contact information</h1>
-<p>You can contact me, the project leader, at my email: arianne_rpg <i>at</i> users <i>tod</i> sourceforge <i>tod</i> net<br/>
+<p>You can contact any of the project leaders, arianne_rpg, nhnb or kymara, at: NAME <i>at</i> users <i>tod</i> sourceforge <i>tod</i> net<br/>
 You can also contact the whole group at the mailing list. There are several mailing lists available:</p>
 <ul>
 <li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-general">arianne-general</a> general subjects mailing list</li>
@@ -8,8 +8,20 @@ You can also contact the whole group at the mailing list. There are several mail
 </ul>
 
 <h2>IRC</h2>
-<p>Alternatively you may wish to chat live with the team on IRC at </p><p><b>irc.freenode.net<br> #arianne</b></p>
+<p>You may wish to chat live with the team on IRC. You can get an IRC client and connect to:
 
+<p><b>irc.freenode.net</b> (see <a href="http://freenode.net">http://freenode.net</a> for more information) then
+<ul> 
+<li> <b>#arianne</b> which is for technical discussion, getting help and planning.</li>
+<li><b>#arianne-chat</b> which is for friendly chatter </li>
+</ul>
+<p>
+Alternatively, you can simply use freenode's webchat service, below. 
+<ul> 
+<li>
+<a href="http://webchat.freenode.net/?channels=arianne">#arianne</a></li>
+<li>
+<a href="http://webchat.freenode.net/?channels=arianne-chat">#arianne-chat</a></li>
 <h2>Forums</h2>
 <p>There are also a number of Forums on our Sourceforge project page. <a href="https://sourceforge.net/forum/?group_id=1111">The forums are located here</a></p>
 

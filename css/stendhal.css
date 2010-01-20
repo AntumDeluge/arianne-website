@@ -22,7 +22,7 @@
 	padding:0;
 	width:800px; 
 	border: 4px solid #484;
-	background-image: url("../images/bg_green.png");
+	background-image: url("../images/bg_new.png");
 	background-repeat: no-repeat;
 }
 
@@ -163,8 +163,8 @@ ul.rating li p { }
 /************************************/
 /* Title section DIV                */
 #title_section { margin:0;padding:0; }
-#title_section .left-title-image { float:left; position: relative;width:499px; height:90px; border: 0; margin:0; padding:0; background-image:url("../images/stendhal_title_a.png"); background-repeat:no-repeat;}
-#title_section .right-title-image { float:right; position: relative; width:301px; height:90px; border: 0; margin:0; padding:0; background-image:url("../images/stendhal_title_b.png"); background-repeat:no-repeat; }
+#title_section .left-title-image { float:left; position: relative;width:499px; height:90px; border: 0; margin:0; padding:0; background-image:url("../images/title_new.png"); background-repeat:no-repeat;}
+#title_section .right-title-image { float:right; position: relative; width:301px; height:90px; border: 0; margin:0; padding:0; background-image:url("../images/stendhal_title_b_new.png"); background-repeat:no-repeat; }
 #title_section p { display:none; }
 
 #menubarcontainer { margin:0 0 20px 0; height: 20px; padding:0; clear: both; display:block;  background-color:#484; font-size:9pt; font-weight: bold; }
@@ -281,7 +281,7 @@ ul.rating li p { }
 	margin:5px; padding:0; margin-top:30px;
 	width:100px;
 	height:100px;
-	background-image: url("../screens/stendhal.jpg");
+	background-image: url("../screens/stendhal_new.png");
 	background-repeat: no-repeat;
 }
 

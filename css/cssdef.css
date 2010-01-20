@@ -178,7 +178,7 @@ ul.menubar
 {
 	background-color:#2a0;
 margin: 0;
-margin-left: 18px;
+margin-left: 25px;
 padding: 3px 0; 
 
 white-space: nowrap;
@@ -188,7 +188,7 @@ ul.menubar li
 {
 display: inline;
 list-style-type: none;
-margin: 3px;
+margin: 10px;
 border: 1px solid black;
 }
 

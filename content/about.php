@@ -6,7 +6,7 @@ turn based and real time games.</p>
 <p>It provides a simple way of creating games on a <i>portable</i> and 
 <i>robust</i> server architecture. The server is coded in <i>Java</i> and uses
 <i>Python</i> for your game description, provides a <i>MySQL</i> backend and 
-uses an UDP transport channel to communicate with dozens of players.</p>
+uses an TCP transport channel to communicate with dozens of players.</p>
 
 <p>Our reference client engines are coded using <i>Java</i> and the <i>C</i> 
 language in order to achieve maximum portability.</p>
@@ -23,7 +23,7 @@ has been <i>KISS</i>: Keep it simple, stupid! </p>
 <ul class="screenshots">
 <li><img src="screens/gladiators/example.jpg" alt="Screenshot"></li>
 <li><img src="screens/mapacman/example.jpg" alt="Screenshot"></li>
-<li><img src="screens/stendhal/example.jpg" alt="Screenshot"></li>
+<li><img src="screens/stendhal/map66.png" alt="Screenshot"></li>
 </ul>
 
 <h2>How is it licensed?</h2>
@@ -38,7 +38,7 @@ contributions and modifications to the code to create the best possible
 <h2>What is Marauroa?</h2>
 <p>All our efforts are supported by arianne's server: <i>Marauroa</i>.</p>
 <p>Marauroa is completely written in Java using a <i>multithreaded</i> server
-architecture with a <i>UDP</i> oriented network protocol, a <i>MySQL</i> based 
+architecture with a <i>TCP</i> oriented network protocol, a <i>MySQL</i> based 
 persistence engine and a flexible game system. The game system is <i>totally 
 expandable and modifiable</i> by game developers and is able to run 
 <i>Python</i> scripts defining the game's rules.</p>
@@ -53,4 +53,5 @@ what are you trying to do, allowing a great freedom to create any game type.</p>
 <p>On Arianne we care about code quality so code is fully tested using Test Units with <i>JUnit</i> and <i>cppunit</i>, so all modules are tested for most common cases, allowing a better quality software to be deployed.
 </p><p><b>Your</b> cooperation reporting problems is invaluable: <i>You are our best developer and we want to hear from you</i>.</p>
 
+<p>If you'd like any more information, try our <a href="http://stendhal.game-host.org/wiki/index.php/Main_Page">wiki</a>.
 </div>

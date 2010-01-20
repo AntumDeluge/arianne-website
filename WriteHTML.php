@@ -381,7 +381,7 @@ function WriteDownloadHTML($game, $base, $section=false)
     echo '</ul>';
     if(isset($file['dependencies']))
       {
-      echo '<div class="dependancies"><b>Dependancies</b>: (This file depends on)<ul>';
+      echo '<div class="dependancies"><b>Dependencies</b>: (This file depends on)<ul>';
       foreach($file['dependencies'][0]['entry'] as $key=>$dependsOn)
         {
         if(is_array($dependsOn))
@@ -437,10 +437,12 @@ function WriteGameHTML($game,$base)
   echo '</ul>';
   
   WriteGameStatusTag($game,true); 
+
+  echo '<div id="game_topimage"></div>';
    
   if(isset($game[$base][0]['rated']))
     {
-    echo '<div class="rategame"><p>Rate us at</p> ';
+    echo '<div class="rategame"><p>Rate us at:</p> ';
     foreach($game[$base][0]['rated'][0]['entry'] as $tag=>$rated) 
       {
       echo $rated;
@@ -451,8 +453,6 @@ function WriteGameHTML($game,$base)
     {
     
     }
-
-  echo '<div id="game_topimage"></div>';
 
   echo '<div class="game_description"><a name="about"></a><h2>What is '.$game[$base]['0 attr']['name'].'?</h2>'.$game[$base][0]['description'][0];
   if(isset($game[$base][0]['extended']))

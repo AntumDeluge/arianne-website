@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2006/06/21"/>
-  <version id="0.51"/>
+  <updated date="2010/01/08"/>
+  <version id="0.80"/>
   <status value="beta"/>
   <cssdoc url="css/stendhal.css"/>
   <rated>
@@ -16,6 +16,9 @@
       <![CDATA[<a href="http://www.gamesites200.com/mpog/vote.php?id=1850"><img src="http://www.gamesites200.com/mpog/vote.gif" ALT="Paid and Free
 MMORPG & MPOG" border="0"></a>]]>    
     </entry>
+  <entry>
+      <![CDATA[<script type="text/javascript" src="http://www.ohloh.net/projects/3711/widgets/project_users?style=green"></script>]]>
+    </entry>
 
   </rated>
   <description><![CDATA[ 
@@ -23,12 +26,12 @@ Are you looking for adventure? Want to fight for riches?<br>
 Develop yourself and your social standing? Meet new people?<br>
 Do you want to be part of a brave new world?
 <p/>
-Stendhal is a full fledged <b>multiplayer</b> online adventures game (MMORPG) developed using the Arianne game development system.
+Stendhal is a fully fledged <b>multiplayer</b> online adventures game (MMORPG) developed using the Arianne game development system.
 <p/>
 Stendhal features a new, rich and expanding world in which you can explore towns, buildings, plains, caves and dungeons. <br>
 You will meet NPCs and acquire tasks and quests for valuable experience and cold hard cash.<br>
 Your character will develop and grow and with each new level up become stronger and better. With the money you acquire you can buy new items and improve your armour and weapons.<br>
-And for the blood thirsty of your; satisfy your killing desires by roaming the world in search of evil monsters!
+And for the blood thirsty of you; satisfy your killing desires by roaming the world in search of evil monsters!
 <p/>
 Stendhal is totally platform independent, written using Java 1.5 and the Java2D environment.
 <p/>
@@ -36,7 +39,7 @@ So what are you waiting for?! A whole new world awaits...]]>
   </description>
   <extended><![CDATA[
   <p/><h2>Want to help us?</h2>
-  Stendhal is a reference to test Marauroa 1.00 features.<br/>
+  Stendhal is a reference to test Marauroa features.<br/>
   The game is right now <b>PLAYABLE</b> and <b>FUN</b>.<p/>
   We would really love to get your help to complete some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">open tasks</a>.
 
@@ -47,20 +50,439 @@ So what are you waiting for?! A whole new world awaits...]]>
   ]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
-  <changelog><![CDATA[ 
-<b>-</b> Speed up server connection because of a bug.
-<br><b>-</b> Fixed strange cases where avatars keeps on game after logout.
-<br><b>-</b> Fixed personal chest bugs: stealth other players and items duplication.
-<br><b>-</b> Improved deathmatch script.
-<br><b>-</b> Speed up client start time.
-<br><b>-</b> Improving creatures navigation.
-<br><b>-</b> Fixed deathmatch exploit.
-<br><b>-</b> Fixed some maps glitches.
-<br><b>-</b> Website added to server binary
-<br><b>-</b> Added Wood on the forest quest.
-      ]]>
+  <changelog><![CDATA[
+
+<p><b>Stendhal 0.80</b>
+<br>*features*
+<br>- Player-to-player trading facilitated by Harold in Semos Tavern
+<br>- a maze created especially for you by Haizen
+<br>- Help Mrs. Yeti quest
+<br>- Herbs For Carmen quest
+<br>- Kill Gnomes quest
+<br>- Sarzina has nicer answers when asking about your karma
+<br>- ShopSigns show item images, price and stats in a popup window
+<br>- /ignore <player> ignores public chat from player as well as private
+<br>*bug fixes*
+<br>- Semos Village and south east of Semos city redesigned to direct new players better 
+<br>- '/sound mute on' command is now simply '/mute'
+<br>- /mute is remembered across restarts
+<br>- fixed unwanted popping up of minimized keyring window
+<br>- collision fixes
+<br>- entwives are faster, entrance to them has level check
+<br>- allowed distance to pass an item on the ground now matches the allowed distance to throw from bag
+<br>- tell the user where the chatlog has been written after they right-click 'save' it
+<br>- black pearl image is larger, in line with the other gems
+<br>- /altercreature works
+<br>- keyring cannot be used at all till enabled by quest
+<br>- add warning if a player is too far away from fish,gold,well source to use it
+<br>- order corrected for using/removing scroll
+<br>*code*
+<br>- use item transformer for loading items
+<br>- QuestCompletedSeller and Buyer types
+<br>- NPC chat and creature noises using RPEvent
+<br>*website*
+<br>- nicer urls for subpages on the website
+<br>- a new version of the atlas with dungeon entrances: http://stendhal.game-host.org/wiki/index.php/File:WorldWithMarkedDungeons091122.png
+<br>- dedicated testing page on wiki http://stendhal.game-host.org/wiki/index.php/Stendhal_Testing
+<br>- Stendhal Manual on the wiki updated with new images
+
+<p><b>Stendhal 0.79</b>
+<br>* changes for players
+<br>- fixed an issue which made Stendhal unplayable on Ubuntu 9.10 with nvidia drivers on Sun JDK.
+<br>- chat bar responds faster to typed letters on some systems
+<br>- fixed website: characters with the same name as creatures no longer get people killing those creatures listed
+<br>- change price of barbarian armor
+<br>- fixed graphics for balrog and killer bat corpse
+<br>* changes for admins
+<br>- new command /script -list
+<br>- new /script SetServerWelcome.class which will set a new login welcome message until the server is restarted 
+<br>- fixed broken logging of source position for items moved around on the ground
+<br>- added $ignore and $spam supportanswer shortcuts, also changed the $abuse shortcut to $notsupport 
+
+<p><b>Stendhal 0.78</b>
+<br>* changes for players
+<br>- various map fixes
+<br>- added a note about logging on account creation
+<br>- destroy the old wedding ring, if another is added to 
+the same slot with it and use up the energy of the new 
+one
+<br>- renamed Stichard Rallman
+<br>- balrog and his corpse redrawn
+<br>- semos mine town revival weeks with outfits, tic tac 
+toe, paper chase and susi
+<br>* changes for developer / hosters / admins
+<br>- replaced old forked map editor with the official one 
+from http://mapeditor.org/ 
+<br>- fixed error message: object does not have slot 
+!quests
+<br>- check existence of character to be jailed
+<br>- check that the player in /jail-command exists
+
+
+
+<p><b>Stendhal 0.77</b>
+<br>- improvements to the test infrastructure, now including coverage reports and various statistics about code quality
+<br>- more corpses redrawn and new kinds added
+<br>- now all a player's money is shown in the hall of fame (including money in bank chests)
+<br>- Keep max 12 sheep in the semos pen simultaneously
+<br>- tomatoes use a grower
+<br>- don't let pets/sheep dying result in concurrent modification
+<br>- Make it possible to name pets back to their original name
+<br>- allow always using the animal type to rename a pet (even if it has a name already)
+<br>- give 20 xp for the Cherub in the starting zone so players don't get to level
+4 instantly 
+<br>- new items added to NPC buyers
+<br>- moved the chatlog to the main client window
+<br>- minimap and buddies are now a side panel
+<br>- added a way to clean the house portal cache
+<br>- tell support about /script DropPlayerItems
+<br>- fixed item log on drop of stackable items
+<br>- store content to database on closing a stored chest incase server does not shut gracefully
+<br>- automatically close stored chest when the zone it is in becomes empty of players
+<br>- wedding rings have a level ratio dependent cooling period
+<br>- you can divorce for a fee instead of xp loss, temporarily
+<br>- adventure island which is a bit like DM <br>- you get creatures but you get XP and items. It costs money and you must go alone
+<br>- if you lose a house key on death you're told which house it was for (so the owner can change locks if the key wasn't retrieved)
+<br>- buddy list is sorted alphabetically
+<br>- outside semos tavern is a better seating area
+
+<p><b>Stendhal 0.76</b>
+<br>- ported to the latest release of marauroa, 3.0 which supports multi threaded database access
+<br>- support for OpenJDK IcedTea (thanks to omair)
+<br>- corpse images used are now specified in xml
+<br>- corpses redrawn and new kinds added
+
+<p><b>Stendhal 0.75.1</b>
+<br>-Some indexed images causing problems with old Java versions changed to RGB
+<br>-Rented sign problem fixed
+<p><b>Stendhal 0.75</b>
+<br>- the corpse of a raid creature can only be looted by player that the raid creature attacked
+<br>- min level for items which makes them less effective if player is less then min level for using item
+ <br> - attacking items have slower rate to hit if user less than min level
+ <br> - defending items have less defence if user less than min level
+ <br> - for all items with min level the effect is bigger, the further user is from min level
+<br>- items display lifesteal and min level attributes in description
+<br>- a large memory hole fixed
+<br>- Jenny from the Mill sells flower seeds to plant on a patch in Semos Plains N
+<br>- added NPCs to website
+<br>* new artwork
+<br>- potions, antidotes, poisons
+<br>- black dragon, flying golden dragon
+<br>- skeletons, fallens of all kinds
+<br>* Admin
+ <br> - support log available at http://stendhal.game-host.org
+ <br> - player history available at http://stendhal.game-host.org/?id=content%2Fadmin%2Fplayerhistory&name=NAME&sublogin=Search
+ <br> - new command /adminnote
+ <br> - /gmhelp_script and /gmehlp_alter replaced by /gmhelp script and /gmhelp alter
+
+
+<p><b>Stendhal 0.74</b>
+<br>- player karma affects what skills they lose on death 
+<br> --max 20% for non ring wearers with negative karma, and 10% as before if player karma was 0. if they had positive karma they lose less
+<br> --Ring wearers lose max 2%, average 1% and less with positive karma
+<br>- new hybrid spider creature in nalwor drow tunnels
+<br>- new houses in ados, numbers 69 to 77 
+<br>- tutorial event linking to stendhal rules
+<br>- find out content of Ignore list by typing /ignore (with no parameters)
+<br>- deathmatch: if occupied then challenging player is told who is inside so they can say yes/no about entering
+<br>- feedback to player given on successful buddy and sentence actions
+<br>- feedback messages about failure when trying to drop or displace items too far from current location, displacing an item without being next to 
+it, dropping onto a collision, adding to full slots
+<br>- inform player who dropped item into a nearby corpse, incase the drop was not deliberate
+<br>- Sarzina suggests some ways to get karma
+<br>- Daily monster, daily item and weekly item quests give karma.
+<br>- Daily Item quest gives less XP than monster now, (as it gives more karma)
+<br>- max level players get a large karma reward from daily and weekly quests (as they cannot earn xp from it)
+<br>- in fighting, made the 'level difference to not need karma' be dependent on level instead of being a fixed 20 levels 
+<br>- answer a riddle to leave hell, as another option instead of losing karma
+<br>- more creature descriptions 
+<br>- new raid scripts added, and list raids which gives the names. existing scripts renamed to be all same format
+<br>*Admin*
+<br>- gag is adminlevel 200
+<br>- support and supportanswer messages coloured orange to make more visible
+<br>- supportanswer keywords which abbreviate longer replies
+<br>- postman sends new account messages and npc shout to a zone messages to support channel
+<br>*Bug fixes*
+<br>- PersonalChest removes its own turnlistener in onremoved(rpzone), fixing NPE when leaving vaults
+<br>- karma for large scales was never achieved due to a wrongly used log
+<br>- karma for canHit was factored out early by a cast to int
+<br>- adding buddies using right<br>-click fixed
+<br>- house tax problem fixed
+<br>- added missing logic to BringListOfItemsQuests
+<br>- monogenes shows map, ilisa shows picture, liliana shows outfits again
+<br>- don't allow pets or sheep in death match
+<br>- remove possibility of	dropping or displacing	items to places	where they can't be retrieved (or where it would be v long walk to fetch 
+them)
+<br>- minor map and graphical fixes
+<br>- unignore: check first, and if target not being ignored, tell player so.
+<br>- now getting points in dm for the final creature killed
+*behind the scenes*
+<br>- Conversationstates changed to enum
+<br>- reflection removed from stendhalQuestsystem
+<br>- QuestsXMLReader changed from singleton to just create one.
+<br>- Iquest.getName() abstract in Abstractquest. every quest knows its name now (not the descriptive one yet)
+<br>- moved a lot of tilesets to correct homes
+
+<p><b>Stendhal 0.73</b>
+<br>- rare monsters that do not appear in DM or daily quests: pegasus and centaur
+<br>- lord durin, a high level boss in ados abandoned keep
+<br>- new npc condition and action for events with any kind of delay to be checked
+<br>- replace mountain orcs in -2 semos mines n e3 with chaos creatures
+<br>- added high level boss, gashadokuro, based on japanese legend
+<br>- new outfit lender in magic clothing boutique who lends costumes including slime and goblin face
+<br>- messaging areas to give atmospheric messages to players entering or leaving them
+<br>- semos community chest stored between server restarts
+<br>- min respawn time for creatures (10 seconds)
+<br>- NPCs will not buy items from a player killer at all
+<br>- NPCs will sell to a player killer but they charge 1.5 times the normal price
+<br>- doors into the oni palace now a level checking portal 
+<br>- Thanatos says the new def of trophy helmet, and says if it is at max, as he
+changes it
+<br>- marked scrolls don't get player bound (old ones to be unbound)
+<br>- postman reports newly created account names to admin
+<p>*Bug fixes*
+<br>- bugfix to /alter, now doesn't reject a heal which takes hp over base hp, instead sets hp to full
+<br>- quoting #-characters
+<br>- fixed chat bubbles and changed appearance to be more bubbly
+<br>- fix feedback of buyer/seller npcs asked to transact large numbers of items
+<br>- wedding ring checks !visited and pet distance
+<br>- push action sends a feedback message to player if pushing is not allowed
+because of the time limit
+<br>- gagged players can use /support only once per minute
+<br>- levels 5  - 60 respawn time slightly increased
+<br>- placeat fixed so that doors do not shift player aside and algorithm is smarter
+<p>* Player houses*
+<br>- house doors remember lock number and expiry time
+<br>- house keys only open door if lock number and house number match
+<br>- player can look at house door to see owner and knock on it which sends message
+to players inside
+<br>- house keys show who owns the house
+<br>- chests which are accessible to everyone in the zone inside each house
+<br>- chests prefilled with a note and gifts for new house owners
+<br>- houses made no teleport In
+<br>- postman no longer used to remember which houses are bought
+<br>- house tax charged monthly, if unpaid for 6 months, house confiscated
+<br>- reselling houses is possible, regain 40% of value minus taxes owed
+<br>- changing locks feature
+<br>- can ask npc what houses are available
+<br>- many houses redecorated inside to use new tiles
+<p><b>Stendhal 0.72</b>
+
+<p>*Features*
+<br>- dagobert creates personal vaults for players, so they can access semos bank slot without spies
+<br>- vaults contain a wastebin for disposing of items; other items left on ground get returned to player on leaving
+<br>- /me shows emotes
+<br>- /clear clears gamelog
+<br>- chatlog can be saved by right clicking on gamelog. it is saved in home/stendhal/gamelog.txt
+<br>- /info returns current server time
+<br>- Susi and her father living in a house in Ados
+<br>- special outfit lender Liliana in magic city 
+<br>- creatures equip the items they have, and use the respective attack rate 
+<br>- infantry gnome, archmage elf, dark elf knight, dark elf sacerdotist, black 
+dragon and balrog attack at different rates from the default, and hit either
+harder or weaker accordingly
+<br>- rare monsters that do not appear in DM or daily quests. a big bad wolf and an
+unicorn added for now
+<br>- new item, red dragon cloak
+<br>- walkblocker squares coloured pink on minimap
+<p>*Improvements* 
+<br>- player level info added to character panel
+<br>- player atk and def displayed as base 'times' (weapon + 1) on character panel
+<br>- Deathmatch recruiter walks in safer (upper) part of swamp 
+<br>- find out which heroes are in the deathmatch already by asking Thonatus, the recruiter
+<br>- increased spawn delay of creatures in DM by 5 sec
+<br>- decrease how long player is forced to wait after requesting bail
+<br>- increased the XP given for some of the low and mid level quests
+<br>- optimal distance for archer to attack from is 4. Less effective when farther or nearer and not all if distance > 7. Switches to melee at 0 distance.
+<br>- reduce the archer speeds else many left unkilled at zone boundaries
+<br>- fence around semos village w closer to house to be less obstructive
+<br>- some creatures in bad places for very new players moved
+<br>- arrows dropped more often
+<br>- some elves dropping food and potions
+<br>- cherries and apples heal faster
+<br>- Yorphin Baos (Fado) buys hell dagger
+<br>- all tables in fado and semos tavern walk blockers instead of collisions so items can be placed on them
+<br>- teleporting out of semos bank now possible, as in teleporting out of a few other areas which only had magic scrolls disallowed for stopping players teleporting in
+<p>*Bug fixes*
+<br>- /ban reason is no longer eaten on client side
+<br>- NPCShoutZone.java: messages are now also send to all supporters as stated in todo
+<br>- Snowballs.java: let NPC say when new snowballs could be needed
+<br>- Soup making exploit to boost karma now fixed
+<br>- Zara re-offers quest if player previously rejected 
+<br>- security measures on nalwor jail removed so players can heal there
+<br>- sheep and pet only get hungrier when there are players in the same zone 
+<br>- rose leigh says Bye directly after giving flower so other players can say hi
+<br>- dwarf golem moved to giant animal instead of giant human
+<p>*Misc*
+<br>- mossy rubble pic has been added to rock
+<br>- wood grower shows branch till picked
+<br>- Collisionmap is now backed by Bitset
+<br>- zones can be implemented by subclassing StendhalRPZone and specifying it in 'zones'.xml
+<br>- LoginDialog positions caret on name now
+
+<p><b>Stendhal 0.71</b>
+<br>- chatlog stops automatic scroll on when not at bottom of text 
+<br>- chatlog highlighted pink if the scroll was halted and there are unread messages
+<br>- tab-completion toggles through all online players in chat line
+<br>- attribute all players who kill in DM not just the DM starter
+<br>- fix a bug in heal which was confusing the DM assistant
+<br>- fix a bug in the calculation of DM score
+<br>- add npc to guide players to the rat city and help them avoid going wrong way
+<br>- leander buys cheese 
+<br>- place a few creatures that were low level but only accessible by going past
+high level cretaures, in better places to aid mayor task
+<br>- fixed a bug with using balloons
+<br>- spots with black dragons decorated more
+<br>- prototype pirate creatures added
+<br>- consumption of meat, ham, soup, pizza and cheese sped up by about 1.5 x
+<br>- added some more creature descriptions
+<br>- pets at full weight (usually 100) get hungry slower - approximately 5 times slower
+<br>- add healer ability to charge dependent on level of player
+<br>- valo and ilisa healing dependent on charge (so all players can get healed in
+semos and ados)
+<br>- pk skull icon got glowing eyes
+<br>- semos mine town revival weeks celebrated - outfit lender + more
+<br>- jailreport is available to level 50 admins, and takes an optional player argument
+
+<br><b>Stendhal 0.70</b>
+<br>- damage calculations place greater emphasis on weapon attack and level instead of mainly base skills (this means heavy weapons are now better against strong creatures than a dagger type)
+<br>- PVP only enabled for those of close enough level
+<br>- constant change/time unit for monster spawning, for same average respawn time but no memory effect
+<br>- minimap shows protected areas as pale green
+<br>- away and grumpy message added to player description on 'Look'
+<br>- no XP reward for killing a player
+<br>- player killers marked with an icon
+<br>- healers won't heal player killers (even if they want to pay)
+<br>- Io Flotto removes player killer icon
+<br>- tutorial event for first player kill
+<br>- using a balloon within 6 hours of using the last decreases the time on 7 kika to 5 mins
+<br>- using rainbow beans within 6 hours of using the last makes you sick
+<br>- although snowballs and vomit are missiles, they don't show stats now
+<br>- immortal sword redrawn
+<br>- poison prevents you from using double click to walk
+<br>- improved stats of : great sword, claymore, vampire sword, fire sword, golden orc sword
+<br>- reduced stats of: sword, katana, scimitar, elvish sword, twin swords
+<br>- extra semos chest in ados bank
+<br>- script for GM to run which corrects the slot of a player in DM so they can claim victory
+<br>- NPCShoutZone script for GM
+<br>- /ban command for GM 
+<br>- invited guest cannot use invitation scroll to get to church unless the engaged player is online
+<br>- older invitation scrolls with a different format will not work now (magic lost)
+<br>- dresses corrected to fit female body better
+<br>- a new hair and some new GM outfits
+<br>- new players start with a random unisex outfit instead of nekked
+<br>- pet Look description tells how hungry it is
+<br>- pet Leave and Own refactored, fixed bugs
+<br>- NPCs say something when you 'attack' them
+<br>- client reports all killers of an entity
+<br>- Ognir now distinguishes between bound an unbound rings when fixing
+<br>- Wikipedian fixed for new wikipedia.org API
+<br>- some wooden furniture items redrawn
+<br>- admin inspect and admin destroy now work for contained items too.
+<br>- pushing creatures with an area > 4 is no longer possible
+
+<p><b>Stendhal 0.69</b>
+<br>- 7 kikareukin clouds added
+<br>- archangel and dark archangel, new creatures
+<br>- corrected xp of golden death
+<br>- path between kirdneh and fado
+<br>- added -Dstendhal.quest.regex analog to -Dstendhal.zone.regex to speed up restart while developing.
+<br>- fado battle arena for raids - clear space and divided levels
+<br>- hedges, waterfall and vegetable growers redrawn
+<br>- spinach, salad, all mushrooms and all herbs now using vegetable grower
+<br>- can *destroy blood and corpse now, (but ths is not clean) and blocked *destroy of portal
+<br>- the *destroy message tells admin exactly what they destroyed
+<br>- *destroyed creatures don't drop items
+<br>- cleaned up /inspect of a player
+<br>- made sally give time remaining to campfire test and reworked parts
+<br>- AmazonPrincess uses 'new' ChatAction way
+<br>- in battle karma isn't used when the level difference is enough that no luck is needed
+<br>- pet is starving message re-introduced
+<br>- 'use' only seen on items which are useable
+<br>- item guard creatures like the thing can check if a quest is active before dropping item
+<br>- extend ketteh wehoh npc and move her to new player start area
+<br>- rats are stupid cowards
+<br>- new help command /gmhelp_script
+<br>- mithril cloak quest, started with Ida
+<br>- creatures added to an empty platform in hell including new creature devil monk
+<br>- push checks if entity to be pushed is stood on an item
+<br>- katinka accepts abandoned pets, who are rehomed in the pet sanctuary
+<br>- pets can eat from passive entity respawn points
+<br>- items which are not placed by a player now expire correctly
+<br>- lorenz and xoderos given improved response coverage for their quests
+<br>- player is no longer told 'you can't consume any more', but eat too much and you choke or choke to death
+<br>- eating, poisoned, choking and combat icons moved up 8 pixels so they don't overhang entity's feet
+<br>- red combat square made slightly smaller so that it is not outside the entity area (which casued map trouble)
+<br>- -D switch available if you want your eating/poisoned/choking icons drawn on top most layer
+<br>- on death player is told what items their corpse contains
+
+<p><b>Stendhal 0.68.1</b>
+<br>- sentence can be set for website
+<br>- new raid scripts
+<br>- map fixes
+<br>- north of ados is a bazaar
+<br>- ados mountains have some trees and new houses
+<br>- baby dragon not eating bug fixed
+<br>- balrog home in semos mines w2 redecorated
+<br>- all tiles of unknown origin now redrawn
+<br>- 'can drop items from bag even when closed' bug fixed
+<br>- honeymoon logic for just married couples is smarter 
+<br>- townhall redecorated
+<br>- all east-west doors have much better look and feel
+<br>- client bug Freeze on rapid Login button uses now fixed
+<br>- ados coastline is complete
+<br>- unused classes in client removed
+<br>- some shop selling/buying bugs fixed
+<br>- character panel shows atk_xp and def_xp needed till next level up instead of total atk_xp/def_xp
+
+<p><b>Stendhal 0.68</b>
+<br>- pizza is edible and can be made at the wofol bakery
+<br>- ados tavern got a makeover and new staff
+<br>- name your pet with /name <pet> <name>
+<br>- assassins tunnel from assassins HQ to ados castle
+<br>- new creatures which drop new items in assassins tunnel
+<br>- dragon lair in assassins tunnel
+<br>- ados castle gardens in correct place now
+<br>- -1 semos mines zones (mtn dwarf areas) decorated
+<br>- tiled:
+  <br>&nbsp;- fixed tiled's source code so the the tiled/src directory can be added to the Eclipse project configuration
+  <br>&nbsp;- added tiled as target to build.xml (targets "compile_tiled" and "tiled_run")
+  <br>&nbsp;- Java 1.5 fixes to eliminate compiler warnings
+  <br>&nbsp;- you can launch tiled directly from Eclipse or using ANT
+  <br>&nbsp;- updated tiled.jar
+<br>- ANT targets "rendermaps" and "updatemaps" now use the new tiled code
+<br>- new gfx for soup, wine, beer
+<br>- fado priest heals, jynath charges a bit more for healing
+<br>- mithril nuggets can now be cast into mithril bars
+<br>- mithril shields can now be forged
+<br>- entwives have be discovered in ados mountains
+<br>- gnomes have built a village west of semos
+<br>- meat market added to ados
+<br>- hotdog stand added to athor
+<br>- magic theater barmaid added - typical movie watching goodies
+<br>- buyer added to gnome village - various goods
+<br>- buyer added to assassin HQ lobby - various goods
+<br>- archery buyer added to Nalwor Inn basement
+<br>- armor buyer added to Kirdneh market area
+<br>- fish market added to Kirdneh market area
+<br>- cloak buyer added to central Amazon area
+<br>- odds and ends buyer added to -3 abandoned keep
+<br>- veggie and herb buyer added to assassin HQ cellar
+<br>- scrolls now available by bartering with gardener lady in kalavan 
+<br>- milk now available from semos farm
+<br>- honey now available from beekeeper in fado forest
+
+]]>
   </changelog>
   <screenshots>
+    <image name="raid65.png"/>
+    <image name="20070522_stendhal.jpg"/>
+    <image name="20070522_1_stendhal.jpg"/>
+    <image name="20070522_2_stendhal.jpg"/>
+    <image name="20070522_stendhal.jpg"/>
+    <image name="20070414_stendhal.jpg"/>
+    <image name="20070130_stendhal.jpg"/>
+    <image name="20060903_stendhal.jpg"/>
     <image name="20060324_stendhal.jpg"/>
     <image name="20060303_stendhal.jpg"/>
     <image name="20060310_stendhal.jpg"/>
@@ -85,7 +507,7 @@ So what are you waiting for?! A whole new world awaits...]]>
         <entry name="macosx" status="100"/>
       </os>
     </file>
-    <file type="map editor binary" name="stendhal_mapeditor-1.21.zip">
+    <file type="map editor binary" name="stendhal_mapeditor-2.00.zip">
       <description>This file contains the stendhal map editor. Download this to create new maps. Send them to us if you want them to appear on next releases. Use the tmx file format.</description>
       <os>
         <entry name="win32" status="100"/>
@@ -94,7 +516,7 @@ So what are you waiting for?! A whole new world awaits...]]>
       </os>
     </file>
     <file type="server script binary" name="stendhal-server-XXX.zip">
-      <description>This file contains the stendhal server plugin. You need marauroa in order to play correctly.</description>
+      <description>This file contains the stendhal server files. See http://stendhal.game-host.org/wiki/index.php/Host_a_Stendhal_Server</description>
       <os>
         <entry name="win32" status="100"/>
         <entry name="linux" status="100"/>
@@ -102,19 +524,16 @@ So what are you waiting for?! A whole new world awaits...]]>
       </os>
     </file>
     <file type="source" name="stendhal-XXX-src.tar.gz">
-      <description>This file contains the source code to build stendhal.</description>
+      <description>This file contains the source code to build stendhal. See http://stendhal.game-host.org/wiki/index.php/Stendhal#Build_information </description>
       <os>
         <entry name="win32" status="100"/>
         <entry name="linux" status="100"/>
         <entry name="macosx" status="100"/>
       </os>
-      <dependencies>
-        <entry name="marauroa" url="http://arianne.sourceforge.net/?arianne_url=content/download#server"/>
-      </dependencies>
     </file>
   </files>
   <servers>
-    <server name="Game server" url="http://stendhal.game-server.cc/template_site/"/>
+    <server name="Game server" url="http://stendhal.game-host.org/"/>
   </servers>
   <authors>
     <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>
@@ -125,5 +544,12 @@ So what are you waiting for?! A whole new world awaits...]]>
     <entry name="Hans Halggstrom" url="http://www.iki.fi/zzorn/"/>
     <entry name="Jonas aka Damosh" url=""/>
     <entry name="TheGeneral" url=""/>
+    <entry name="Hendrik" url="http://www.ohloh.net/accounts/nhnb"/>
+    <entry name="kymara" url="http://www.ohloh.net/accounts/kymara"/>
+    <entry name="durkham" url="http://www.ohloh.net/projects/stendhal/AstridSawatzky"/>
+    <entry name="MartinF" url="http://www.ohloh.net/accounts/martinfuchs"/>
+    <entry name="mort" url="http://www.ohloh.net/projects/stendhal/contributors/"/>
+    <entry name="Chad3f" url="http://www.ohloh.net/projects/stendhal/contributors/"/>
+    <entry name="kiheru" url="http://www.ohloh.net/accounts/kiheru"/>
   </authors>
 </game>

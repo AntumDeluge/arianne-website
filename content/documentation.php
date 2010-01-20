@@ -1,11 +1,10 @@
 <div class="section"><h1>Documentation</h1>
 <p>Documentation for Arianne is mainly in project packages as text docs and 
 javadocs comments but we also keep other online live documentation on our 
-WikiWiki.
+Wiki.
 
 <h2>Wiki</h2>
-A Wiki is an editable website for create documentation. The majority of our docs are on this at <a href="wiki" class="navi"><b>ArianneWiki</b></a>. 
-Note that a known problem with WikiWiki may require you to hit refresh multiple times before the page will load.
+A Wiki is an editable website for creating documentation. Some framework docs are on <a href="http://stendhal.game-host.org/wiki/index.php/Frameworks_documentation" class="navi"><b>Arianne's wiki</b></a>. 
 </p>
 
 <h2>Reporting bugs</h2>
@@ -28,10 +27,10 @@ here to submit a Bug</a></p>
 <h2>CVS Usage</h2>
 <p>We use CVS extensively:</p>
 <p>
-  cvs -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/arianne login<br>
-  cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/arianne co modulename
+  cvs -d:pserver:anonymous@arianne.cvs.sourceforge.net:/cvsroot/arianne login<br>
+  cvs -z3 -d:pserver:anonymous@arianne.cvs.sourceforge.net:/cvsroot/arianne co modulename
 </p>
-<p>Browse online the repository <a href="http://cvs.sourceforge.net/viewcvs.py/arianne">here</a>
+<p>Browse online the repository <a href="http://ariane.cvs.sourceforge.net/">here</a>
 Relevant modules are:</p>
 <ul>
 <li>ariannexp</li>

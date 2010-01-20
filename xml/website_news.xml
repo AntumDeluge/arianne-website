@@ -1,17 +1,817 @@
 <?xml version='1.0'?>
 <website>
   <!--
+
   <item>
     <title></title>
     <date></date>
-    <images> 
+    <images>
       <image url=""/>
     </images>
     <content>
       <![CDATA[]]>
       </content>
   </item>
-  -->
+-->
+
+ <item>
+    <title>Stendhal 0.80: Harold's new job, Trade Manager!</title>
+    <date>8th January 2010</date>
+   <images>
+      <image url="screens/stendhal/trade80.png"/>
+      <image url="screens/stendhal/shopsign80.png"/>
+      <image url="screens/stendhal/maze80.png"/>   
+      <image url="screens/stendhal/ignore80.png"/>
+    </images>
+    <content>
+      <![CDATA[
+Budding salesmen, there is help at hand for make your trading smooth! Harold will be your middle-man, you tell him what price you want to sell your item for, and he will take it from you. Anyone who comes to ask him what offers he has recorded has the chance to buy your item. Once your item is sold, Harold will give you the price that you asked for it. He's new to the job, so he's only accepting 3 offers per person, so that he doesn't overload himself with work. 
+<p>If you prefer to deal direct with tradesmen, barmaids, and suppliers, then you'll find that easier now too. A kind artist has painted each shop blackboard (or book) with a picture, price, and description of each item for sale. Just look closely at the sign by each shop, and you will see something like the picture on the right here. 
+<p>Do you remember Haizen, the wizard who sells scrolls? He's learnt some new tricks recently. If you ask him, he'll create a fiendishly difficult maze for you. Can you be the fastest maze runner? You can try a new maze once a day. If that isn't enough to keep you occupied, some of the female population of the island need your help; Carmen, Jenny and Mrs. Yeti would all be happy to hear from you.
+<p>We're really happy with the community here, and we hope you are too. But sometimes there's someone you really just want to ignore, and not hear anything at all from. Well, now <i>/ignore name</i> will mean you can't see private or public messages from that person, until you choose to <i>/unignore name</i>. To check who you are currently ignoring, you can type <i>/ignore</i>. Have fun!]]>      
+    </content>
+  </item>
+
+  <item>
+    <title>Marauroa 3.3 released</title>
+    <date>8th January 2010</date>
+     <content>
+      <![CDATA[Marauroa is Arianne's Multiplayer Online Engine Server, which you can use to build your own online games.
+Marauroa 3.3 introduces new features: RPEvents can have RPSlots. This means that events sent from the server to the
+                client can contain more complex data. Games using Marauroa can now check the structure of the database using
+                doesTableExist and doesColumnExist in order to update it.
+<p>There are also some bug fixes, to make Marauroa more stable, for example in the case of database errors. Full details can
+                be found in the <a href="http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa#changes">change log</a>.
+]]>
+     </content>
+  </item>
+
+ <item>
+    <title>Raid: Harold was kidnapped!</title>
+    <date>6th January 2010</date>
+    <content>
+      <![CDATA[
+Xhiphin Zohos, from Fado, called for help, because somehow many caged creatures had been let loose. The bandits who did this were in disguise. Luckily, there was a lot of help to kill the creatures, which had gone wild after being captive for so long. 
+      <div align="center"><img src="screens/stendhal/raid060110.png" alt="Fado under siege!" width="100%" height="100%"/></div>
+<p>Once Fado was safe and the creatures were dead, Xhiphin Zohos begged for anyone to help look for Harold, who had been the keeper of the animals. He had been kidnapped by the bandits! Every building in Fado was thoroughly searched and Harold was eventually found, safe, in the shepherd house. 
+      <div align="center"><img src="screens/stendhal/harold.png" alt=Harold safe and sound" width="100%" height="100%"/></div>
+<p>Harold explained to his saviours what had happened, how he had been kidnapped, and he thanked them for saving him. He also told them that the whole experience had made him realise that his job was much too dangerous, and now he is going to look for a different job. Lets wish him luck in this!]]>
+      </content>
+  </item>
+
+
+
+  <item>
+    <title>Raid: New Year Revolt</title>
+    <date>1st January 2010</date>
+    <content>
+      <![CDATA[
+Semos was in danger this New Year, from creatures which threatened to invade. 
+Legions of creatures started to appear in the Semos Mine Towns, and a cast of blackness fell over the island.
+Mayor Sakhs had been forewarned of the disaster, and he called warriors to help defend Semos. 
+He also begged them to find a number of ancient relics which may help protect against the evil.
+      <div align="center"><img src="screens/stendhal/raid010110.png" alt="New Year Revolt" width="100%" height="100%"/></div>
+<p>It was not easy for the brave warriors, they had to seek out the creatures, which were smart and tried to attack from many places.
+Although the revolt started in the Mine Town, it spread across the mountain ridges, through the plains, 
+and then south west around Semos Jail. Many of the creatures had enhanced strength and health, and the warriors worked as teams
+to destroy each and every one. Once all the creatures were killed and all ankhs had been found, the warriors journeyed back to the 
+townhall and presented the ankhs for the safety of Semos. 
+<p>Those intrepid warriors who found ankhs were: shadon, jesco, giovanote (2), kezman, kiyosh, moritzger and madmetzger.
+      <div align="center"><img src="screens/stendhal/townhall010110.png" alt="Townhall" width="100%" height="100%"/></div>
+<p>Thanks to all who help to defend Semos, whether from the New Year Revolt or the day by day threats. Happy New Year!]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 0.79: Back to reality</title>
+    <date>13 November 2009</date>
+    <images> 
+      <image url="screens/stendhal/stendhal79.png"/>
+    </images>
+    <content>
+      <![CDATA[The Mine Town celebrations are over for another year; the outfits must be folded away and the games packed into boxes. But don't be sad, you can look forward to Christmas now! 
+<p>
+While you are playing you may notice an improvement in your client's performance, particularly if you run Ubuntu 9.10 with nvidia drivers on Sun JDK. Client improvements have been the major changes of 0.79, so if you had trouble before we hope that it is better now.
+]]>
+      </content>
+</item>
+
+  <item>
+    <title>Stendhal 0.78: Semos Mine Town Revival Weeks</title>
+    <date>22 October 2009</date>
+    <images>
+      <image url="screens/stendhal/tictactoegame78.png"/>
+      <image url="screens/stendhal/outfits78.png"/>
+    </images>
+    <content>
+ <![CDATA[Come join Susi this year at the Semos Mine Town Revival Weeks - you can  
+play tic tac toe, try a puzzle, play a treasure hunt game, hire a fun outfit and most importantly, make friends with Susi.
+<p>In case you don't know the story, three years ago Susi was 
+captured on her way back from the Semos Mine Town revival party. She was missing for two years and there was no 
+party during that time - all of Ados searched for her. Last year, she was found aboard a pirate ship by players who had been defending Ados from a 
+pirate attack. Mein_Dino, IschBing, Maja and Peka were heroes at that raid! This year there will be no fighting or danger, just lots of fun.
+]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 0.77: Adventure Island Awaits</title>
+    <date>2 September 2009 21:33:35</date>
+    <images>
+      <image url="screens/stendhal/client77.png"/>
+      <image url="screens/stendhal/adventure77.png"/>
+    </images>
+    <content>
+      <![CDATA[This is the beginning of a very great change - the game menus and windows are being moved off the main screen. Initially, the buddies list and minimap panel have both been moved off your world screen and onto their own side panel, attached to the screen. Also, the chat log is no longer a separate floating window, but a resizeable panel attached to the screen. It's a major step forward and something players have wanted for a long time, soon we hope to be able to move the Bag and Character panels out of the world screen too. It gives you plenty more space to see ...
+<p>
+... terrifying creatures. Do you love to fight these? Then go to the magic city and find the Challenger Haastaja and his pet chaos green dragonrider inside his house. He will summon an adventure island for you, with creatures chosen just for you to kill. (And chosen to be a challenge ... ) It's expensive, and you can only go to the adventure island once every 3 days, but it is well worth the money and the wait. 
+<p>
+If you started the adventure called marriage, you'll notice a change in wedding rings. Ognir used magical gold which has limited power, and this power which provides the teleport works best between equals. Once you have used the ring you need to wait at least 5 minutes for it to recharge itself. If you used it to be with a spouse who is a very different level to you, the wait is longer. If you had not been lucky enough to find someone else who would marry you, and you resorted to marrying yourself (a clone), you might find this really affects you, if your clone is very low in level. So, if you want to divorce them instead of levelling them up, then you can temporarily take advantage of Wilfred's special offer. He is letting you pay a fee instead of taking a 3% xp loss on divorce. The fee is 200 x your level, and if you have the money he'll automatically offer you it - if you don't, he'll automatically offer the xp loss.  
+]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 0.76: Ported to Marauroa 3.0</title>
+    <date>2 August 2009 23:16:00</date>
+    <images> 
+      <image url="screens/stendhal/jdk76.png"/>
+     <image url="screens/stendhal/corpses76.png"/>
+    </images>
+    <content>
+      <![CDATA[Everything has changed but nothing is different. So, what's happened? The engine Marauroa which runs Stendhal and controls the database has had major refactoring; mainly to how it accesses the databases. Things are now possible which weren't before, but these all go on 'behind the scenes'. So, in the world of Stendhal, our NPCs, players, creatures, fighting, banks, items, farming, houses, zones and quests, are all unchanged. Stendhal has been ported to use the newly rewritten engine but everything should look exactly as before.*
+<p>
+We're really happy to announce that the Stendhal client is now <b>compatible with OpenJDK</b>! This is great as OpenJDK is the default Java with many Linux distributions now, so we are happy to have this compatibility. Thanks to omair who provided the fix. 
+<p>
+* Well, not quite everything, as corpses have now been redrawn and new types added. It's also now possible to specify a specific corpse for each creature (instead of one across each class) so if you think a certain creature or creature class should have a different looking corpse, and can draw one, please send us your best efforts!
+]]>
+      </content>
+  </item>
+ 
+  <item>
+    <title>Marauroa 3.0: multithreading and extended database support</title>
+    <date>2 August 2009 23:16:00</date>
+    <content>
+      <![CDATA[With Marauroa 3.0, the game engine now supports multithreading, and it is possible to run parallel transactions in different threads. JDBCDatabase has been split into several small *DAO (Data Access Object) classes. Low level database operations are now in the new package marauroa.server.db. These changes will require you to port any application using Marauroa, so for help on how to port your application see <a href="http://stendhal.game-host.org/wiki/index.php/Refactoring_Database_Access_in_Marauroa">Refactoring Database Access in Marauroa</a>. Additionally, we have begun work on supporting other database systems beside MySQL. 
+]]>
+      </content>
+  </item> 
+
+
+<item>
+    <title>Stendhal 0.75: Beauty and Balance</title>
+    <date>12 July 2009 22:50:00</date>
+    <images>
+      <image url="screens/stendhal/artwork75.png"/>
+      <image url="screens/stendhal/clone75.png"/>
+    </images>
+    <content>
+      <![CDATA[It's all about beauty at this time of year. You'll see it if you buy daisies seeds or lilia seeds from Jenny and watch them grow into fabulous flowers. Be sure you plant them on the patch of fertile ground in Semos Plains North. Anyone can pick your fully grown flower, so you're doing a public service by planting them for all to watch and for some lucky person to pick. Perhaps they're most beautiful left in the ground, though. 
+<p>
+You'll see it too in the improved looks of many items and creatures, not to mention the amazing new stendhal splashscreen as voted by YOU the players! If you enjoyed that competition, keep looking out for the next one, you can take part by entering or voting, or both.  
+<p>
+Do you ever see players who should not yet have mastered the black arts, but somehow have many black items? Explicitly: low level players who are stacked with really good stuff? Well, although they can use them still, they will get less good defense from defensive items, and attacking weapons will hit with a lower rate, if the user is less than the minimum level required for the item. The closer you are to the minimum level the better you can use the item, and of course if you have more than the min level required to use it properly, you get the optimal stats from it. So, if your player has a 'twin' who you have gifted items to, you may find that his level is not high enough to use them effectively. Or if you're a genuine player but have been lucky enough to receive a lot of very high level gifts, you may prefer to wait to use those gifts till you are at the correct level for them. What apprentice can truly wield his master's sword?]]>
+      </content>
+  </item> 
+  <item>
+    <title>Stendhal 0.74: What goes around comes around</title>
+    <date>23 May 2009 23:25:00</date>
+    <images>
+     <image url="screens/stendhal/hell74.png"/>
+      <image url="screens/stendhal/arachne74.png"/>
+    </images>
+    <content>
+      <![CDATA[Finding the 10%* death penalty hard? If you have good karma you could lose a lot less skills now - but if you have bad karma you 
+could lose up to 20%**. If you want to know more ways to get karma just go and ask Sarzina, the wizardess in fado hut, she will tell you.
+<p>
+If you are a regular visitor to hell and the karma 'hit' when you left hell was getting you down, now you have the option to answer a riddle 
+instead. They are quite tricky so if you can't solve it, you can still leave the normal way. Please try to solve these yourself instead of asking 
+other players. It's not the kind of thing to ask help on, either try to solve it or don't bother, just asking for the answer is cheating. 
+<p>
+Eight more ados houses have opened for sale and all existing houses images have been updated on 
+<a href="http://stendhal.game-host.org/wiki/index.php/StendhalHouses">StendhalHouses</a>
+ - on that wiki page you will find all the updated information about how player houses got improved in the previous release of 0.73 so you may 
+find it worth reading. Don't forget older houses will become available all the time as their owners resell them or they become reclaimed by the 
+state. There are also some special apartments available in an exciting holiday location, a limited number only. 
+<p>
+Last but not least, another fearsome new creature to face in battle - arachne - the name says it all ... 
+<p>
+* 1% for emerald ring wearers
+<br>** 2 % for emerald ring wearers]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 0.73: Houses sweet houses</title>
+    <date>31 March 2009 16:41:00</date>
+    <images>
+      <image url="screens/stendhal/availablility73.png"/>
+      <image url="screens/stendhal/house73.png"/>
+      <image url="screens/stendhal/tax73.png"/>
+    </images>
+    <content>
+      <![CDATA[Player houses have just got even better! Each house comes with a storage chest, it's not like a player chest where each player sees 
+their own items - it's like the Semos community chest, but inside the house! Everyone with a key can access it, so if you're worried and can't 
+remember who you gave a key to, or if you die and lose your key, hurry to your house seller and ask to get your locks changed. When you're stood 
+outside a house door you can see who owns the house, or if it's for sale, and you can also knock so that anyone inside the house knows you are there. 
+Of course all these features do come with a little teeny cost, and that is a regular House Tax, of 1000 money charged once per month. If you do not 
+go and pay the Ados Taxman then interest is charged, so you owe more, and if you omit to pay for 6 months then you lose your house completely! (This 
+is in fact good news for players, because it means the houses bought by people who no longer play will become free again, yay!) If the tax is too 
+worrying for you, you can simply resell your house to the state, and regain some of the money you spent on buying it.
+
+<p>
+The people who live on Fauimoni have started to notice the bad aura around those who kill other players, and now they refuse to buy any items from 
+player killers. They will still sell items to player killers, but they charge a bit more. There's plenty more to tell about: creatures, messages, 
+more magic outfits, these we leave to you to explore! ]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 0.72: New abilities</title>
+    <date>22 February 2009 23:55:00</date>
+    <images>
+        <image url="screens/stendhal/dm72.png"/>
+      <image url="screens/stendhal/vault72.png"/>
+  
+    </images>
+    <content>
+      <![CDATA[The Semos Mine Town Revival Weeks Party is over and Susi and her daddy are safe at home now in Ados City. Liliana the magic costume maker has opened a boutique in the magic city, her outfits now last for longer but cost a little more to buy. A new outfit is a great way to express yourself so it is well worth it! Another new way to express yourself is by using the /me command. Just try typing for example '/me loves Stendhal' or '/me thinks kymara is awesome' and you will get the idea!
+<p>
+
+Do you enter the Ados Deathmatch often? Next time before you go in, try asking Thonatus which heroes are already battling inside. You'd be surprised how accurately he remembers who has recently taken the challenge. Just in case you have trouble finding him, you should know that he has become tired of dodging the dangerous fallen high priests and walking amongst the smelly fallen warriors. He now sticks to the upper (northern) parts of the swamp, it is safer there. 
+<p>
+
+For those players who prefer even safer areas such as Semos city, you must have noticed how crowded the bank can be. This is great for when you want to chat or trade but sometimes one yearns for privacy. Now you can ask Dagobert for access to a personal vault. It's there only when you ask for it, and when you leave it vanishes, so any items which you accidentally leave on the ground are returned to you. You can use a magic scroll to exit the vault, or a portal, and also the ability to use scrolls to exit Semos Bank itself has been restored.
+<p>
+
+So, players have learnt a number of new abilities - what about creatures? Not to be left out, they have been in training with weapons and learned how to use weapons to attack either slow or fast. Some creatures like the balrog now hit very slow but harder for each hit. Other creatures like a nimble archmage elf or infantry gnome make only very weak hits but faster than normal. It will make for an exciting time so don't delay, try out the new features today. 
+]]>
+      </content>
+  </item>
+
+ <item>
+    <title>Stendhal 0.71: Semos Mine Town Revival Weeks!</title>
+    <date>30 November 17:03:00</date>
+    <images> 
+      <image url="screens/stendhal/outfit71.png"/>
+    </images>
+    <content>
+      <![CDATA[To celebrate the lost girl Susi being found safe and well, the tradition of celebrating Semos Mine Town Revival Weeks has returned! 
+For a short time only, visit the Semos Mine Town and get an exciting magic outfit, try a puzzle or chat with the centre of the party, Susi. 
+<p>
+Another piece of very good news is about Thanatos, the Death match Assistant. Any of you who have done a Deathmatch will know that Thanatos has suffered from hallucinations for a long time - he sometimes saw live creatures, even when there were none, and wouldn't let you claim your Deathmatch victory! The best doctors in the land have treated him and we're happy to say he's shown a huge improvement in his ability to do his job. He's also had a chat with Mayor Sakhs of Semos, and explained to him that if a player has helped another kill a creature in Deathmatch, even if they didn't start it, then the Mayor should really reward the helper duly. Have fun!]]>
+      </content>
+  </item>
+
+
+  <item>
+    <title>Stendhal 0.70: Rules of War</title>
+    <date>3 October 13:30:05</date>
+    <images> 
+      <image url="screens/stendhal/damage70.png"/>
+      <image url="screens/stendhal/pk70.png"/>
+    </images>
+    <content>
+      <![CDATA[
+<p>Warriors, take note! For the rules of combat have changed, and to be ignorant of them is to be in mortal danger!!
+<p>The Revised Battle Creed, applying to all beings, creature and human:
+<ul>
+<li>Experience level <i>and</i> attack skill both influence the fighter's ability to damage
+<li>Experience level <i>and</i> defense skill both influence the fighter's ability to defend
+<li>Even weak beings <i>can</i> harm the strongest being
+<li>Against fearsome creatures a heavy weapon is mightier than a knife or dagger
+<li>Be wary when patrolling in hostile areas. Enemies may appear at any moment
+</ul>...for only human warriors:
+<ul>
+<li>A warrior shall not attack another human soul if he is much weaker than himself, except in defence
+<li>All shall know when they are safe from attack by any other warrior, by the green aura of protection
+<li>Those who kill another soul shall be branded with the red skull of death
+</ul>
+<p>Be very aware, the principles of damage apply equally to creatures. You experienced warriors will notice much faster, harder battles than you are used to. Therefore, be cautious until you are again confident of your abilities, and then, go forth and fight!]]>
+      </content>
+  </item>
+ <item>
+    <title>Stendhal 0.69: Wrath of Angels</title>
+    <date>12 August 17:55:00</date>
+    <images>
+      <image url="screens/stendhal/angel69.png"/>
+      <image url="screens/stendhal/choke69.png"/>
+    </images>
+    <content>
+      <![CDATA[
+<p>The threats of Blordrough's dark legion forces cooperation between citizens. Believe it or not, scientists and magicians set aside their beliefs and differences. 
+They combine efforts to make an awesome piece of equipment that can be used to <i>your</i> advantage. Hmmm, or perhaps they are just doing it for the love of Ida. It is a mission for which you will need to ask for help from many types of people, and you will have plenty you need to collect on the way.
+
+<p>You'll probably be too busy to take a balloon ride up to Kikareukin clouds, and you might even struggle to find time for raids in Fado's new battle arena. If you're even too distracted to look after your pet properly, it will be well looked after in Ados pet sanctuary. Just ask Katinka for help and she will take care of it for you, permanently.
+<br>You should make sure you look after yourself well when working so hard, eat regularly ... but not <i>too</i> regularly, because if you stuff too much food into your mouth at once you can choke. Choking hurts ... and can even kill you, so greedy people better watch out!
+
+<p>Finally the generous among you will notice that their good karma is lasting longer - you don't need good luck to defeat something significantly weaker than you, just skill. So your luck is saved up for when you really need it. Like in Kikareukin clouds ...]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Hide and Seek!</title>
+    <date>3 July 22:00:00</date>
+    <images>
+      <image url="screens/stendhal/hideandseek.png"/>
+    </images>
+    <content>
+      <![CDATA[Grannie played a game of hide and seek with the players tonight. She shouted clues and waited hidden to see who would turn up. Those who solved the clues were rewarded with chocolate, pizza, licorice and more treats! 
+<p>Congratulations to ladymacbeth for solving every clue and going to the correct places. Thanks to all who took part!
+
+<p>Here are the clues for you to try at home:
+<br><small>
+<br>* I see a fire burning. A red headed girl has been collecting logs , she only asks a little favor.
+<br>* Now go to the father of the girl you found. It smells good where he is.
+<br>* You might get stung at my next hiding place!
+<br>* I'm by a very lonely boy. Noone remembers to say hi to him.
+<br>* My final hiding place is next to the founder of the FSF ...
+</small>
+<p>Yes, that's right, even a Richard Stallman NPC is in our game, here to teach players about true <a href="http://www.fsf.org/">free software</a> like Stendhal.
+]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 0.68.1: Fix it and tidy up</title>
+    <date>30 June 20:45:00</date>
+    <images>
+      <image url="screens/stendhal/coast681.png"/>
+      <image url="screens/stendhal/honeymoon681.png"/>
+      <image url="screens/stendhal/balrog681.png"/>
+      <image url="screens/stendhal/house681.png"/>
+    </images>
+    <content>
+      <![CDATA[There's always work to do in Faiumoni. Recently we've been fixing leaks, patching up holes and oiling rusty mechanisms. With all these problems solved, you'll notice less bugs scuttling around. Another change you'll notice is that the number in brackets on your character panel after the ATK and DEF levels now shows the skills needed to level up to the next level. It will count down as you fight instead of counting up.
+
+<p>Linda from Fado Hotel has been on a training course. She now sends couples together to their honeymoon, first checking they are 'just married', of course. She explains about the invitation scroll a bit better now, and is so clever she doesn't even let you go if you don't have space in your bag for the scroll!
+
+<p>Aenihata got bored one day while protecting Semos from the balrog deep in the mines. So he practised some of his 'terraforming' spells and made a brand new cave! Luckily he still has plenty of magic power to keep the barrier around the balrog up.
+
+<p>Finally we must congratulate Stendhal's artists, who have done a brilliant job over the last year. We had some artworks which we found ugly, or just outdated. So we have been painting our own, and sourcing some from other free projects like Stendhal. You probably noticed the grass getting texture, houses being rebuilt and flowerbeds being replanted for the last few releases. Well, we've finally finished redrawing the old art work and are really happy with the outcome.]]>
+      </content>
+  </item>
+
+ <item>
+    <title>Stendhal 0.68: Gnome Sweet Gnome</title>
+    <date>29 May 21:04:00</date>
+    <images>
+      <image url="screens/stendhal/dragonlair68.png"/>
+      <image url="screens/stendhal/gnomevillage68.png"/>
+      <image url="screens/stendhal/liljohnnnny68.png"/>
+      </images>
+    <content>
+      <![CDATA[Gossip has been spreading about the precious nuggets of mithril found deep in ados mountains. Some say there is a man who can cast them into mithril bars, which are yet more precious. Some even say that a shield can be forged out of this amazing metal. It's up to you to discover if there is any truth in these rumours.
+<p>
+The chatterboxes of Faiumoni have had plenty more to talk about, from the controversial new ados barman, to the new attractions on Athor, and yet more fantastical rumours, of huge trees in female shapes that roam the earth ... For those with less mouth, more action, seek out the assassins' tower and pit your strengths against the best of the villains. Beware of the dragons!
+<p>
+Have you money to spend? The traders of you will be delighted to hear of the meat market in Ados, and new shops in Nalwor, Ados abandoned Keep, Amazon Island and many more exotic locations. Explore again areas you used to know well, you'd be surprised to see what has changed! 
+    ]]> </content>
+  </item>
+ <item>
+    <title>Stendhal 0.67: Happy Valentines</title>
+    <date>14 Feb 11:59:00</date>
+    <images>
+      <image url="screens/stendhal/yeti67.png"/>
+      <image url="screens/stendhal/keep67.png"/>
+      <image url="screens/stendhal/hayunn67.png"/>
+      <image url="screens/stendhal/heart67.png"/>
+    </images>
+    <content>
+      <![CDATA[Mr and Mrs Yeti have a sweet little ice cave below Semos Mountain. Be like Mr Yeti, keep your loved one sweet, with a red rose from Fleur in Kirdneh. While you're there, why not visit the museum, drink in the inn, go to the bank or even buy a house!
+<p>
+Perhaps your loved one likes cute cuddly animals? Then take a stroll around the farm east of Semos. It's full of cute piglets, goats, cows and little tiny mice. 
+<p>
+Alone for Valentines? Go kill some dwarves! That'll help! The orcs in ados abandoned keep want to be rid of the mountain dwarves, so you'd even be doing them a favour. Perhaps retail therapy is what you need, in which case the Orcs in the keep can sell you good quality armor. Some say there's even better stuff deeper in the keep.
+<p>
+Enough of the blood and guts and back to a love story. Princess Esclara on Amazon island has locked up an ugly barbarian - and he wants to know why! She's not too happy either - are there secret feelings between them? Ok, so it's not quite Romeo and Juliet... 
+<p>Lastly on the love theme, a gentle reminder that we want to help any new people who join our world. Hayunn Naratha has been employed as full time tutor of anyone new, which should help a lot, but remember if you do see anyone looking lost - help them! It's what makes the world go round. ]]>
+      </content>
+  </item>
+<item>
+    <title>Stendhal 0.66: Embracing Marauroa 2.x</title>
+    <date>8 Jan 2008 19:35:00</date>
+    <images>
+      <image url="screens/stendhal/signs66.png"/>
+      <image url="screens/stendhal/map66.png"/>
+    </images>
+    <content>
+      <![CDATA[Three months ago a major new version of our engine Marauroa was released. With it came potential for new, exciting features for Stendhal. In this release we are testing the possibilities.
+<p>New kinds of data storage are possible, using a zone for storage and not just the player. Examples now in game are signs which can be rented in Semos City. Also that admin can jail players who are offline, and they can be freed even if the server is restarted inbetween. Finally there is now a way to view an image from the game client, and the first image in game is a map of Semos, which Monogenes can show any player needing help with directions.
+]]>
+      </content>
+  </item>
+  <item>
+    <title>Stendhal 0.65: Christmas is coming!</title>
+    <date>3 Dec 2007 21:30:00</date>
+    <images>
+      <image url="screens/stendhal/xmas07.png"/>
+      <image url="screens/stendhal/dead_lich.png"/>
+    </images>
+    <content>
+      <![CDATA[Semos is decorated for Christmas! Santa feels right at home when he drops in, on his travels around the island. Find him to get your Christmas gift. With such lovely rewards you shouldn't need our latest new feature, which is called 'grumpy' because it allows you to ignore messages from anyone but your buddies. Do /help to find out more.
+<p>
+The extra cold winter has brought out the ice and air elementals, and they've taught the fire, water and earth elementals to toughen up as they have always been a little weak. How about you, do you wish to learn new secrets? Perhaps the secret of how to get past the lich and his lair? You will need a new skill for that, and the cunning to discover it yourself.
+<p>
+The world continues to expand, and get easier to travel across. There are now routes between the newer cities of Kalavan and Kirdneh, using the underground great caves as a shortcut past Fado forest. If you do explore above ground, look out for the forest nymphs - they don't get many visitors. In Kirdneh, you'll notice house numbers on all the doors. They're not ready for ownership yet but feel free to look around the city and chat to the locals.
+<p>
+Merry Christmas!
+]]>
+      </content>
+  </item>
+  <item>
+    <title>Stendhal 0.64: *grr* Baby Dragons! *grr* </title>
+    <date>15 Nov 2007 21:50:00</date>
+    <images>
+      <image url="screens/stendhal/annie64.png"/>
+      <image url="screens/stendhal/dragon64.png"/>
+    </images>
+    <content>
+      <![CDATA[Do you yearn for a faithful companion, a little beast who can stand up for himself? And just needs the occasional bit of meat to keep him happy? Then get your very own baby dragon and watch him grow wings. Of course, you'll need to find an egg from someone first... perhaps someone who lives or works amongst magicians?
+<p>
+Many houses have now been redecorated in Ados, ready to sell. Just make sure you're on good terms with the Ados residents, then talk to the estate agent in the Townhall. For those who own houses in Kalavan, and those who don't, will be able to enjoy the beautiful new city gardens. Perhaps you'll even make a new friend there.]]>
+      </content>
+  </item>
+  <item>
+    <title>Stendhal 0.63: Huge, strange, sweet, wild, safe</title>
+    <date>18 Oct 2007 19:51:00</date>
+    <images>
+      <image url="screens/stendhal/kalavan63.png"/>
+      <image url="screens/stendhal/revi63.png"/>
+      <image url="screens/stendhal/wizard63.png"/>
+      <image url="screens/stendhal/amazon63.png"/>
+    </images>
+    <content>
+      <![CDATA[There's something 'huge' been happening in the world ... huge Fado
+great caves were discovered, full of cave trolls, madarams, and dragons. Huge
+creatures like dragons seem even bigger now that you can walk behind them.
+But nothing is so huge as the Imperial Army, with the huge Kalavan Castle and the
+huge underground city of Sedah. 
+
+<p>There's something 'strange' been happening, too, like the strange rainbow
+beans to take you to a strange dream world. There is a strange magic city full
+of wizards and witches, healers and sorcerers. And there is the strange fact that suddenly, 
+your ability to defend yourself, depends also on your experience of the world.
+
+<p>There's something 'sweet' developing: sweet little cats you can care for,
+and sweet homes in Kalavan City, which you can buy to live in. Sweet too are
+the princesses who give you quests, and there are sweet treats: pineapples, coconuts and fairy cakes.
+
+<p>There's something 'wild' out there: wild women on the Amazon Island; wild creatures whose habits 
+are now a lot less predictable; and wildly animated tiles.
+
+<p>Finally, there's something safe in knowing that your bank chest is more
+secure. There's safety too in the knowledge that if you're unhappily married,
+you can now divorce. And if you want to stay safe, you can get information
+about any creature you like, from the famed warrior Starkad. Perhaps one day
+you will have fought as much as him ...]]>
+      </content>
+  </item>
+ <item>
+    <title>Stendhal 0.62: Sky towers and deep dungeons</title>
+    <date>13 Aug 2007 20:15:00</date>
+    <images>
+      <image url="screens/stendhal/20070813_elf.png"/>
+      <image url="screens/stendhal/20070813_angel.png"/>
+      <image url="screens/stendhal/20070813_fairies.png"/> 
+    </images>
+    <content>
+      <![CDATA[
+Prison breakout! Duergars swarmed the prison below the dwarven kingdom of Kanmararn. Will you join the dwarves or leave them to their fate?
+
+<p>Explorers coming from the west are talking about new places they have found. They say that if you get past the Devil Queen, you will find yourself in a place called Kikareukin which is floating in the sky! But be careful as Kikareukin
+is not just a walk in the clouds...
+
+<p>If you have some spare axes, Woody the Woodcutter living east of Fado might want to buy them. While over there you may bump into leprechauns and clurichauns, though they'll try to protect their lucky charms. The final piece of advice before you enter again to Faiumoni: beware, only the very strong should enter Oni castle battle the strange purple creatures!]]>
+      </content>
+  </item>
+
+
+<item>
+    <title>Server up</title>
+    <date>28 Jul 2007 20:32:32</date>
+    <content>
+      <![CDATA[
+The Server is now back up and running again.<p>
+We are still recovering functionality of postman, and of admin scripts. Thanks for your continuing patience and 
+support.]]>
+   </content>
+  </item>
+
+<item>
+    <title>Server Problems</title>
+    <date>26 Jul 2007 23:45:02</date>
+    <content>
+      <![CDATA[
+We're currently experiencing some hardware problems. The server is temporarily down.
+<p>
+We are sorry for the inconvenience. We are working on the problem.]]>
+   </content>
+  </item>
+
+  <item>
+    <title>Is your client is slow AND you use Linux/X11?</title>
+    <date>29 Jun 2007 23:32:02</date>
+    <content>
+      <![CDATA[
+You can try this for a quick fix.<p>
+Download stendhal client and start it with the following command line:
+<pre>java -Dsun.java2d.pmoffscreen=false -Xmx200m -jar stendhal-XX.jar</pre>
+or with:
+<pre>java -Dsun.java2d.opengl=true -Xmx200m -jar stendhal-XX.jar</pre>
+(XX is whichever stendhal you run with, maybe 0.58 or 0.61 ..)
+<p>
+We are sorry for the inconvenience. <br> This problem is caused by a glitch in X11 pixmap and alpha usage in combination with java runtime.
+We are working on a solution and will inform you when the issue is solved and this work around is not needed anymore.      ]]>
+      </content>
+  </item>
+
+
+  <item>
+    <title>Stendhal 0.61: Wofol opens its doors</title>
+    <date>Fri, 22 Jun 2007 18:53:09</date>
+    <images>
+      <image url="screens/stendhal/THM_20070622_1_stendhal.jpg"/>
+      <image url="screens/stendhal/THM_20070622_2_stendhal.jpg"/>
+      <image url="screens/stendhal/THM_20070622_3_stendhal.jpg"/>
+    </images>
+
+    <content>
+      <![CDATA[
+The houses in Kobold City (known to the Kobolds as Wofol) have opened their doors. Meet Wrvil the weapons trader, and a mountain dwarf who needs errands running. You had better hope noone asks you for anything which requires going to the swamps outside Ados - the creatures there have mutated into things much nastier. The resident ghost over in Ados haunted house is just the opposite - very friendly and she wants to know about other spirits like her. Just make sure you don't get caught in giant webs in the basement ... <p>
+Elsewhere in Ados, the barracks buy some of the very best equipment around, and pay good prices. There must be a general shortage of armor, because the Quartermaster of Mithrilbourgh army also requires boots and helmets. Or if you find mainly cloaks in your travels, don't waste them, take them to a seamstress who uses them to make sails for ships. <p>
+Talking of ships, if you're on the Athor ferry, remember to fish for mackerel. You need that to make tasty fish pies! Find out the other ingredients from Linzo in Fado. And if you're a fan of fishing, why not try wishing? Look for wells with a sparkle to them, and make a wish. Good luck!]]>
+        </content>
+  </item>
+
+
+  <item>
+    <title>Dwarves revolt</title>
+    <date>Mon 04 Jun 2007 11:53:11</date>
+    <content>
+      <![CDATA[
+      We have had another raid this weekend, this time dwarves raised their arms on the coast of Or'ril. Even poor Lich was scared.<p>
+      We have recorded all the event so you can see it and know what you miss :).<br>
+      <br>
+      Part 1: Players reaching stage.<br>
+      <object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/U5JaD4qlmwM"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/U5JaD4qlmwM" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object>
+      <br>
+      Part 2: Players defeating dwarves<br>
+      <object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/ivJqQc99S8Q"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/ivJqQc99S8Q" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object>
+      <p>
+      If you want to share your screenshots with us, send a JPG with good quality to <a href="mailto:miguelangelblanchlardin_<FIXME>_hotmail_<FIXME>_com">me</a>
+      ]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Balrog 0wn3d!</title>
+    <date>Tue 29 May 2007 17:25:06</date>
+    <content>
+      <![CDATA[
+      Between many they were able to defeat our Balrog <small>( a weak version )</small>.
+      Some people say there is one player that can defeat Balrog solo...<br/>
+      <div align="center"><img src="images/articles/balrog_poster.jpg" alt="Balrog defeated"/></div>
+      <p>
+      If you want to share your screenshot with us, send a JPG with good quality to <a href="mailto:miguelangelblanchlardin_<FIXME>_hotmail_<FIXME>_com">me</a>
+      ]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Raid: Cities under attack!</title>
+    <date>Sun 27 May 2007 21:58:03</date>
+    <images>
+      <image url="images/articles/20070527_raid_0.jpg"/>
+      <image url="images/articles/20070527_raid_1.jpg"/>
+      <image url="images/articles/20070527_raid_2.jpg"/>
+    </images>
+    <content>
+      <![CDATA[
+Today, it has been a long day.
+<p>
+Ados, Semos and Nalwor have been under attack, but our brave warriors have saved them again.
+<p>
+Julius shouted and ran away when barbarians came to attack Ados. Lucky that eusebius and others were around. Eusebius got an enhanced Ugmash from the mayor of Ados as a reward for his help in saving Ados.
+<p>
+Mareion asked us for help when the drows started attacking Nalwor. Evil drows even summoned a cursed giant spider.
+Many heroes came to defeat them, and again Vesper won, but kindly passed the award to Juan_1990_16 who received a black_halberd.
+<p>
+Just after that, goblins started to attack Semos, but they were not alone. They came with the giant Tobuk, a friend of the goblins, but again, a horde of Semos citizens came and defeated them.
+<p>
+You can be our next hero! :)]]>
+      </content>
+  </item>
+
+
+  <item>
+    <title>Stendhal 0.60: A Marriage of Beauty and Chaos</title>
+    <date>Tue, 22 May 2007 21:03:56</date>
+    <images>
+      <image url="screens/stendhal/THM_20070522_stendhal.jpg"/>
+      <image url="screens/stendhal/THM_20070522_1_stendhal.jpg"/>
+      <image url="screens/stendhal/THM_20070522_2_stendhal.jpg"/>
+    </images>
+
+    <content>
+      <![CDATA[
+Semos mines have been excavated deeper, producing new rocks and stones which were used to rebuild many tired looking buildings. All the citizens think it looks much better and even redecorated indoors as a result. However, digging the mines has opened up new passages and caverns ... they are no longer just the home of cute and cuddly kobolds, as here dwell the Chaos warriors! Also swarming the mines is a whole outpost of the Mithrilborough army, not to mention the mountain dwarves and a much, much, much greater beast. The mountain dwarves are famed blacksmiths - so all the creatures and monsters in Fauimoni traded in the things they fight with - clubs, armor and shields - for better versions. You may find that a monster drops something better than you expected - but he will not want to drop it often.<p>
+The bridge to Fado is open! Discover the delights of the city known across the land as the home of celebrations - of good food and marriage. Find a pretty maiden with a quest for you, and learn about karma from a wizardess. Over in Nalwor, it is less peaceful. The dark elves are still making trouble, and the mayor needs your help. Do what he asks and a special protective prize will be yours. You can fear less from death - but remember, there are now many more who wish to take life from you.]]>
+	</content>
+  </item>
+
+  <item>
+    <title>Developer's meeting log</title>
+    <date>Sun 22 April 2007 12:28:03</date>
+    <content>
+      <![CDATA[The log of our online meeting is available at <a href="http://arianne.sourceforge.net/docs/200704_meeting.txt">http://arianne.sourceforge.net/docs/200704_meeting.txt</a>.<br>
+      You can check at <a href="http://arianne.sourceforge.net/wiki/index.php?title=ArianneMeeting200704">Wiki</a> decisions taken and matters that are still to be decided.]]>
+      </content>
+  </item>
+
+    <item>
+    <title>Stendhal Server Connection Problem (FIXED)</title>
+    <date>Tue, 19 April 2007 09:21:23</date>
+    <content>
+      <![CDATA[ Dear Stendhal gamers,<br>our public server is suffering from internet connection problems today and so is down. However, we expect the issues to 
+      be resolved within the next 12 to 24 hours so keep checking back here to keep updated!<p><b>NOTE: As 20:12 GMT+1 the problem has been fixed. Thanks you for your patience</b>.
+      ]]>
+      </content>
+  </item>
+  
+  
+  <item>
+    <title>Stendhal 0.59: Beach or Battle? Pizza or Perish? You decide ...</title>
+    <date>Sat, 14 April 2007 19:45:14</date>
+    <images>
+      <image url="screens/stendhal/THM_stendhal_20070414.jpg"/>
+      <image url="screens/stendhal/THM_stendhal_20070414_1.jpg"/>
+    </images>
+
+    <content>
+      <![CDATA[
+Ados has expanded! The city dwellers are getting desperate for supplies, so the mayor begs your help. As you return, beware of getting drawn into the great caves under Ados Rock. The brave who venture there talk of giants, red dragons and black death. You'll need to face the giants if you want to earn the immortal sword, and anyone who can defeat the black death may loot some rare shadow armament. If the ados caves don't scare you enough, try the drow tunnels. Are the dark elves planning an attack on Nalwor?<p>
+If you want to get away from it all, take a break on Athor Island. It's got it all: sun, sea, sand, oh and cannibals, crocodiles and minotaurs ... Both hard workers and holiday makers can help out Leander. He needs pizza delivered across Faiumoni. Get it there on time and you'll get a tidy tip. Perhaps you'll choose to store your cash in Nalwor bank - once you've earned the key, that is. Are you fed up of all those keys jangling in your bag? Then get your keyring fixed, a blacksmith should be able to help.<p>
+Thanks to some dedicated cleaning, the waters of Faiumoni are now fresh and full of life. Fish have come back to the surface, and if you look carefully you may see glints of gold. Even the air has had a spring clean, so that sounds travel to your ear fresher, and clearer. Enjoy! And fight bravely ... 
+<p>If you are a hardcore player or if on the other hand you are new to Stendhal you will find helpful the <a href="http://arianne.sourceforge.net/wiki/index.php?title=StendhalAtlas">Atlas</a>   ]]>
+ </content>
+  </item>
+
+
+  <item>
+    <title>Stendhal 0.58.1: Abracadabra fixed</title>
+    <date>Mon, 09 April 2007 10:56:47</date>
+    <content>
+      <![CDATA[
+There was great joy recently in Semos Town Square when Carmen got a bit confused and started selling large amounts of potions for negative amounts of money. All sellers have been given new instructions and bigger abacuses to calculate on. 
+<p>
+Any adventurers who profited from the confusion have returned their extra items, as they are all honest players. (No players were harmed in the enforcement of this rule...)
+<p>
+High level players have had a boost recently. With the level cap of 99 removed, players over this found that they earned only 1 XP for even Black Dragons! Now, instead of earning 1 XP, or full XP for every creature (a short term fix) they now earn full XP only for creatures over level 75. A fair solution! ]]>
+      </content>
+  </item>
+
+ 
+  <item>
+    <title>Stendhal 0.58: Vampires roam Semos Catacombs!</title>
+    <date>Sat, 10 March 2007 20:41:39</date>
+    <images>
+      <image url="images/articles/THM_stendhal_058.png"/>
+      <image url="images/articles/THM_stendhal_058_1.png"/>
+    </images>
+
+    <content>
+      <![CDATA[
+<font color=red><b>NOTE:</b> We are having problems lately with DNS of our game server, so if it doesn't work for you, please try <b><a href="http://mblanch.homeip.net/ip.txt">IP here</a></b></font><p>
+The elves are back to their homes and businesses in Nalwor City, and they're pretty mad that humans have been visiting! Tread carefully next time you make a trip. Maybe you'll be tempted to travel far, now that walking long distance is enabled by double clicking your minimap. Perhaps you'll visit the Rat City? A careless ratman has left a door open...<p>
+For those who just want a quiet life, they'll find that ctrl+r clears all those annoying chat bubbles. That's not recommended in the middle of a trade on the new trading table in Semos Town Hall. You want to have your wits about you for bargaining the best prices. While you're in the Town Hall - go chat to the Mayor, as he now tells you exactly how long to wait till your next daily monster quest. He might ask you to kill some of the troublesome bandits on the road from Semos to Ados?<p>
+More than trouble lurks beneath the graveyard in Semos Plains North ... vampires roam the Catacombs. If you want to hear the stories, go to the ancient dwarf blacksmith in the mines of Or'ril mountain. And if you're brave enough, begin the quest for the Vampire Sword.       ]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Pub Quiz in Semos tavern</title>
+    <date>Sun, 04 March 2007 18:49:12</date>
+    <images>
+      <image url="images/articles/THM_quizgame_20070304.png"/>
+      <image url="images/articles/THM_quizgame_20070304_1.png"/>
+    </images>
+    <content>
+      <![CDATA[
+The adventurers met for a pub quiz tonight in Semos Tavern. 16 people played, from level 10 up to level 91, led by quizmaster superkym. vesper is the brain box of the evening, he certainly had the fastest fingers, and Cutler deserves an honourable mention. Someone1234 impressed us by getting the final question right. We celebrated with a group photo and beers all round!
+<p>Here are the questions for you to try at home:
+<br><small>
+<br>How much does a home scroll cost? 
+<br>Name a creature who drops katana 
+<br>What is Ceryl's job? 
+<br>How many grain makes one bag of flour? 
+<br>What is the top prize at Ricardo's table?
+<br>What items does a new player start with? 
+<br>Where does Hackim Easso work? 
+<br>How much can you sell a sword to Xin Blanca for? 
+<br>Who makes sandwiches? 
+<br>Where do 'death' live? 
+<br>What's the missing girl from Ados called? 
+<br>Who is the housewife with a rat problem? 
+<br>What herb did Ilisa need to make Tad better?
+<br>Name a poisonous creature 
+<br>What is the name of the berry that sheep eat?</small>       ]]>
+      </content>
+  </item>
+
+
+    <item>
+    <title>Stendhal 0.57: big changes for a little world!</title>
+    <date>Thu, 30 January 2007 22:53:21</date>
+   <images>
+      <image url="screens/stendhal/THM_20070130_stendhal.jpg"/>
+    </images>
+    <content>
+      <![CDATA[The Mayor of Semos made a tour of Faumoni recently to discuss administrative issues. He has deemed that any rewards bestowed upon an adventurer should be used only by he who earned them. In the Mayor's tour he noticed some irregularities in the terrain: gardeners and architects have been employed to fix these. He also taught better use of language to many of his citizens.<p>
+Thanatos got approval for some changes to the deathmatch. He thinks it should only reward the player who starts it. He complained of cowards who disappear mid match, without the proper procedure of begging 'bail' from him. These might experience problems in future. Frequent visitors to the arena may have noticed the improved intelligence of black dragons and been relieved they don't fight them themselves. Well, the dragons have taught their secrets to every creature on the island, even the smallest and slowest, so now everything is a lot smarter.<p>
+Mayor Sakhs' visit didn't cover every spot on the island. He'd heard reports of a heathen outdoor temple on the mountain pass between Orril and Semos, but he claims religion is not his business. Perhaps he was afraid of powerful demons there? He also didn't venture past the 'Keep Out' sign in Ados after hearing strange wails and bangs inside. The children in Ados park also keep away from that house, although they did complain of boredom. Maybe they'd like something to play with ... Someone else who is keen for new 'toys' is Balduin. He's been told about new kinds of monster and he wants to add their weapons to his collection.  ]]>
+    </content>
+  </item>
+
+
+
+    <item>
+    <title>Stendhal 0.56: Merry Christmas!</title>
+    <date>Thu, 19 December 2006 17:38:12</date>
+    <content>
+      <![CDATA[It is one year since the first adventurers arrived on the Island of Faiumoni and explored the town of Semos, Or'ril Castle and the elvish Nalwor Forest. Now, the road to Ados City is open!<p>
+Everyone is invited to come meet the population of Ados. With the knowledge from these new people, Zynn Iwuhos the librarian has been hard at work. He's made detailed descriptions of all weapons and armor listed in his library, and a roll of honor which mentions all important people on Faiumoni.<p>
+Ados City has bakers who make pies, to sustain heroes in battle. These will be needed, as an experiment of Haizen's has gone wrong and dragons seem much more cunning than they've ever been! At the deathmatch arena in Ados, there is no place to hide .... ]]>
+    </content>
+  </item>
+
+
+
+    <item>
+    <title>Stendhal 0.55: Halloween night!</title>
+    <date>Tue, 31 October 2006 19:58:47</date>
+    <content>
+      <![CDATA[The deserted Semos Mine Town is remembered regularly with a big celebration: 
+the Semos Mine Town Revival Weeks! Come and join in, get a costume and play 
+puzzles! Don't forget that kobolds and slime still lurk in the mines, so 
+don't have too much fun...<p/>
+This version introduces the following new features:
+<br>- improved language of nearly all NPCs
+<br>- smart updater for future versions (so that you do not have to download the 
+complete client on every new version)
+<br>- Semos Mine Town Revival Weeks
+<br>&nbsp;&nbsp;- new quest: reverse arrow
+<br>&nbsp;&nbsp;- Costume Party
+<br>&nbsp;&nbsp;- you can make a friend there
+<br>- game masters can get invisible (but there name is still displayed)
+<br>- game masters can walk through walls
+<br><br>Enjoy!]]>
+    </content>
+  </item>
+
+    <item>
+    <title>Stendhal 0.54 and Marauroa 1.34: Dice Gambling</title>
+    <date>Sun, 01 October 2006 18:57:19</date>
+      <images>
+        <image url="screens/stendhal/THM_20061001_stendhal.jpg"/>
+      </images>
+    <content>
+      <![CDATA[The latest version of our game is ready! This version introduces the following new features:
+<br>- added dice gambling in Semos Tavern with golden trousers as the jackpot
+<br>- fixed lag because of broken key handling on X11 (Linux)
+<br>- display other players on minimap
+<br>- made jail accessible to normal players
+<br>- added additional clothes and hair styles for females
+<br>- changed our default server to stendhal.game-host.org
+<br>- converted admin / game master commands from groovy to reloadable java classes
+<br><br>Enjoy!]]>
+    </content>
+  </item>
+ 
+   <item>
+    <title>Stendhal 0.53 and Marauroa 1.33: Archers and Farmers</title>
+    <date>Sun, 03 September 2006 15:47:29</date>
+      <images> 
+        <image url="screens/stendhal/THM_20060903_stendhal.jpg"/>
+      </images>
+    <content>
+      <![CDATA[The latest version of our game is ready! This version introduces the following new features:<br>- added regrowing grain fields which can be harvested<br>- added a windmill and an NPC who mills flour from grain<br>- added a bakery and an NPC who bakes bread from flour<br>- gave archer elf and archer kobold something to shoot<br>- made iron casting take time<br><br>Enjoy!]]>
+    </content>
+  </item> 
+  <item>
+    <title>Marauroa 1.32.1</title>
+    <date>Mon, 26 August 2006 19:10:02</date>
+    <content>
+      <![CDATA[A small update to Marauroa (the server) which fixes a problem with socket.write() blocking for several minutes.]]>
+    </content>
+  </item> 
+  <item>
+    <title>Stendhal 0.52 and Marauroa 1.32</title>
+    <date>Mon, 14 August 2006 17:44:23</date>
+    <content>
+      <![CDATA[Thanks to all the hard work of the Arianne team (go to server: irc.freenode.net channel : arianne to meet some of them) there is a new version of both the client and server.These versions fix a large number of issues, improve performance, introduce some new maps, a new quest and even some new features. A manual is found at http://arianne.sourceforge.net/wiki/index.php?title=StendhalManual. ]]>
+    </content>
+  </item>    
   <item>
     <title>Stendhal 0.51: Deathmatch happiness</title>
     <date>Fri, 21 June 2006 20:01:51</date>
@@ -222,7 +1022,8 @@ Have a try to Stendhal! If you like it you will really love helping us to create
     <content>
       <![CDATA[As you can read on our previous news item, we have added money to game, so now in addition of gaining XP by killing monsterm you can inspect them to obtain too money. You can by now spend your money on the tavern weapon's seller.<p>
          This release is pretty stable, but many of the features are hacked, so we are going to enter in a refactoring to increase code quality that will surely delay a new release for at least 2-3 weeks. But in case you find any problem or a bug please <a href="https://sourceforge.net/tracker/?func=add&group_id=1111&atid=101111">tell us</a>.<p>
-         We have decide to skip the addition of the new zones and the addition of chests ( but on the city ) because we need this version to be released as soon as possible, so we can start the refactoring today. So in order to speed up the development we would need help completing the maps and adding items and chests.<p>         Please help us create content, items, monsters, maps and quest for Stendhal. Have a tour around our <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalRefactoring">new items, creatures and actions guide</a>.<p>
+         We have decide to skip the addition of the new zones and the addition of chests ( but on the city ) because we need this version to be released as soon as possible, so we can start the refactoring today. So in order to speed up the development we would need help completing the maps and adding items and chests.<p>
+         Please help us create content, items, monsters, maps and quest for Stendhal. Have a tour around our <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalRefactoring">new items, creatures and actions guide</a>.<p>
          This release of stendhal is also (again) together with a release of Marauroa: 1.11, that adds capacity limit to slots and fix a bug at slot assignID procedure.]]>
     </content>
   </item>  
