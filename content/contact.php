@@ -8,20 +8,21 @@ You can also contact the whole group at the mailing list. There are several mail
 </ul>
 
 <h2>IRC</h2>
-<p>You may wish to chat live with the team on IRC. You can get an IRC client and connect to:
+<p>You may wish to chat live with the team on IRC. You can get an IRC client and connect to:</p>
 
-<p><b>irc.freenode.net</b> (see <a href="http://freenode.net">http://freenode.net</a> for more information) then
+<p><b>irc.freenode.net</b> (see <a href="http://freenode.net">http://freenode.net</a> for more information) then</p>
 <ul> 
 <li> <b>#arianne</b> which is for technical discussion, getting help and planning.</li>
 <li><b>#arianne-chat</b> which is for friendly chatter </li>
 </ul>
 <p>
-Alternatively, you can simply use freenode's webchat service, below. 
+Alternatively, you can simply use freenode's webchat service, below. </p>
 <ul> 
 <li>
 <a href="http://webchat.freenode.net/?channels=arianne">#arianne</a></li>
 <li>
 <a href="http://webchat.freenode.net/?channels=arianne-chat">#arianne-chat</a></li>
+</ul>
 <h2>Forums</h2>
 <p>There are also a number of Forums on our Sourceforge project page. <a href="https://sourceforge.net/forum/?group_id=1111">The forums are located here</a></p>
 

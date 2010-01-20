@@ -1,10 +1,10 @@
 <div class="section"><h1>Documentation</h1>
 <p>Documentation for Arianne is mainly in project packages as text docs and 
 javadocs comments but we also keep other online live documentation on our 
-Wiki.
+Wiki.</p>
 
 <h2>Wiki</h2>
-A Wiki is an editable website for creating documentation. Some framework docs are on <a href="http://stendhal.game-host.org/wiki/index.php/Frameworks_documentation" class="navi"><b>Arianne's wiki</b></a>. 
+<p>A Wiki is an editable website for creating documentation. Some framework docs are on <a href="http://stendhal.game-host.org/wiki/index.php/Frameworks_documentation" class="navi"><b>Arianne's wiki</b></a>. 
 </p>
 
 <h2>Reporting bugs</h2>
