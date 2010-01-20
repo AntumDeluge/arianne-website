@@ -1,5 +1,9 @@
 .project
-counter.data
 DONTEDIT
-stendhal
+backup_wiki
+counter.data
 jws
+stendhal
+stendhal-cvs
+stendhal.version
+wiki
