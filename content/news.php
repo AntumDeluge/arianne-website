@@ -5,9 +5,6 @@
         $content=implode("",file('xml/website_news.xml'));
         $xml = XML_unserialize($content);
         WriteNewsHTML($xml,$all);
-	echo '<!-- all dump:';
-var_dump($all);
-echo '-->';
        ?>
       <p><a href="?arianne_url=content/news&amp;all=100">Read all the news items</a></p>
 
