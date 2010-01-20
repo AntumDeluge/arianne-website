@@ -13,7 +13,7 @@
             
             $content=implode("",file('xml/website_menu.xml'));
             $xml = XML_unserialize($content);
-            WriteMenuHTML($xml);      
+            WriteMenuHTML($xml);
           ?>
      </ul>
      </div>
