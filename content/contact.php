@@ -24,7 +24,7 @@ Alternatively, you can simply use freenode's webchat service, below. </p>
 <a href="http://webchat.freenode.net/?channels=arianne-chat">#arianne-chat</a></li>
 </ul>
 <h2>Forums</h2>
-<p>There are also a number of Forums on our Sourceforge project page. <a href="https://sourceforge.net/forum/?group_id=1111">The forums are located here</a></p>
+<p>There are also a number of Forums on our Sourceforge project page. <a href="https://sourceforge.net/projects/arianne/forums">The forums are located here</a></p>
 
 <h2>Join/Help Arianne</h2>
 <p>Yep, Arianne is open source and we welcome everyone willing to fight side 
