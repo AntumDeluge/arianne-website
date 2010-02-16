@@ -4,5 +4,5 @@ $name='xml/tool_'.substr(strstr(decidePageToLoad($_REQUEST["arianne_url"]), "too
 $content=implode("",file($name));
 $xml = XML_unserialize($content);
 
-WriteGameHTML($xml,"tool");
+WriteGameHTML($xml, "game");
 ?>
