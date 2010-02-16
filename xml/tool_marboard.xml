@@ -8,18 +8,6 @@
 Marboard is an early prototype of an easy to use vector graphics program allowing live collaboration over the Internet.
 While it is not ready for production use yet, it is a good proof that Marauroa is suitable for serious applications, too. ]]>
   </description>
-  <extended><![CDATA[
-  <p/><h2>Want to help us?</h2>
-  Stendhal is a reference to test Marauroa features.<br/>
-  The game is right now <b>PLAYABLE</b> and <b>FUN</b>.<p/>
-  We would really love to get your help to complete some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">open tasks</a>.
-
-  <p/><h2>Play now!</h2>
-  Stendhal uses Java Webstart technology that enables you to use always the latest version available without having to worry about updates.<br>
-  Just click on the button to play.
-  <p/><a href="http://arianne.sourceforge.net/jws/stendhal.jnlp"><img src="images/webstart.png" alt="Click here to play"></a>
-  ]]>
-  </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/Marboard_Manual"/>
   <changelog><![CDATA[
 
