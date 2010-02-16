@@ -419,7 +419,7 @@ function WriteChangeLogHTML($game,$base)
 function WriteGameHTML($game,$base)
   {
   echo '<h1>'.ucfirst($game[$base]['0 attr']['name']).'</h1>';
-  echo '<p>&copy; 2005 (See Authors list). Released under GNU/GPL license.</p>';
+  echo '<p>&copy; 2005-2010 (See Authors list). Released under GNU/GPL license.</p>';
   
   echo '<ul class="gamepagemenu">';
     
