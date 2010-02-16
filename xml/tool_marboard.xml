@@ -1,0 +1,135 @@
+<?xml version='1.0'?>
+<game name="marboard" shortdescription="Marboard is an early prototype of an easy to use vector graphics program allowing live collaboration">
+  <updated date="2010/02/16"/>
+  <version id="0.11"/>
+  <status value="beta"/>
+  <cssdoc url="css/stendhal.css"/>
+  <description><![CDATA[ 
+Marboard is an early prototype of an easy to use vector graphics program allowing live collaboration over the Internet.
+While it is not ready for production use yet, it is a good proof that Marauroa is suitable for serious applications, too. ]]>
+  </description>
+  <extended><![CDATA[
+  <p/><h2>Want to help us?</h2>
+  Stendhal is a reference to test Marauroa features.<br/>
+  The game is right now <b>PLAYABLE</b> and <b>FUN</b>.<p/>
+  We would really love to get your help to complete some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">open tasks</a>.
+
+  <p/><h2>Play now!</h2>
+  Stendhal uses Java Webstart technology that enables you to use always the latest version available without having to worry about updates.<br>
+  Just click on the button to play.
+  <p/><a href="http://arianne.sourceforge.net/jws/stendhal.jnlp"><img src="images/webstart.png" alt="Click here to play"></a>
+  ]]>
+  </extended>
+  <manual url="http://arianne.sourceforge.net/wiki/index.php/Marboard_Manual"/>
+  <changelog><![CDATA[
+
+<p><b>Marboard 0.11</b></p>
+<li>added change log (this file)</li>
+<li>added a progress bar on load of a .marb file</li>
+<li>throttled loading</li>
+</ul>
+
+<p><b>Marboard 0.10</b></p>
+<ul>
+<li>implemented loading of .marb files</li>
+<li>added preview in tool bar for color and fill color</li>
+<li>added color chooser dialog</li>
+</ul>
+
+<p><b>Marboard 0.09</b></p>
+<ul>
+<li>preview during drawing of lines or rectangles</li>
+<li>implemented save to .marb files</li>
+</ul>
+
+<p><b>Marboard 0.08</b></p>
+<ul>
+<li>bugfix: toolbar icons</li>
+</ul>
+
+<p><b>Marboard 0.07</b></p>
+<ul>
+<li>added support for filled shapes</li>
+<li>added filled rectangles as new shape</li>
+<li>added toolbar to select dot, line, rectangle</li>
+</ul>
+
+<p><b>Marboard 0.06</b></p>
+<ul>
+<li>added new drawing tool for staight lines</li>
+<li>added menu to select a drawing color</li>
+<li>added menu to select a thickness</li>
+<li>completely rewrote the drawing code to use Swing JComponent instead of AWT Canvas</li>
+<li>fixed drop-down menu behind window </li>
+<li>fixed flicker on update </li>
+<li>fixed crash of X-Windows (!) on resize</li> 
+</ul>
+
+<p><b>Marboard 0.05</b></p>
+<ul>
+<li>added menu bar</li>
+<li>removed right click to clear the board</li>
+</ul>
+
+<p><b>Marboard 0.04</b></p>
+<ul>
+<li>fixed one of the causes for flickering screen on MS Windows</li>
+</ul>
+
+<p><b>Marboard 0.03</b></p>
+<ul>
+<li>tried in vain to fix flicker on MS Windows</li>
+</ul>
+
+<p><b>Marboard 0.02</b></p>
+<ul>
+<li>fixed class cast exception on logout</li>
+</ul>
+
+<p><b>Marboard 0.01</b></p>
+<ul>
+<li>first prototype release</li>
+<li>implemented a basic server</li>
+<li>implemented a basic client-gui.</li>
+<li>added two types of entities: meta entities for objects like users and shapes for everything visible</li>
+<li>added support for z-index on the server side</li>
+<li>draw some dots on server start</li>
+<li>generate a random account on program start and automatically login</li>
+<li>added support for displaying different colors and thicknesses</li>
+<li>added left click to draw a red dot (hack the client to draw in other colors)</li>
+<li>added right click to clear the board</li>
+<li>added build.xml script</li>
+<li>added support for automatic tests and coverage report on Hudson</li>
+</ul>
+
+]]>
+  </changelog>
+  <screenshots>
+    <image name="marboard_dot.png"/>
+    <image name="marboard_uml.jpg"/>
+  </screenshots>
+  <files>
+    <file type="binary" name="marboard-client-0.11.zip">
+      <description>This file contains the Marboard client. Download this to test it.</description>
+      <os>
+        <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+        <entry name="macosx" status="100"/>
+      </os>
+    </file>
+    <file type="server script binary" name="marboard-server-0.11.zip">
+      <description>This file contains the Marboard server files.</description>
+      <os>
+        <entry name="win32" status="100"/>
+        <entry name="linux" status="100"/>
+        <entry name="macosx" status="100"/>
+      </os>
+    </file>
+  </files>
+  <authors>
+    <entry name="hendrik" url="http://www.ohloh.net/accounts/nhnb"/>
+    <entry name="kymara" url="http://www.ohloh.net/accounts/kymara"/>
+    <entry name="madmetzger" url="http://www.ohloh.net/accounts/madmetzger"/>
+    <entry name="kiheru" url="http://www.ohloh.net/accounts/kiheru"/>
+  </authors>
+</game>
