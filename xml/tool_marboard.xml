@@ -3,7 +3,6 @@
   <updated date="2010/02/16"/>
   <version id="0.11"/>
   <status value="beta"/>
-  <cssdoc url="css/stendhal.css"/>
   <description><![CDATA[ 
 Marboard is an early prototype of an easy to use vector graphics program allowing live collaboration over the Internet.
 While it is not ready for production use yet, it is a good proof that Marauroa is suitable for serious applications, too. ]]>
@@ -12,6 +11,7 @@ While it is not ready for production use yet, it is a good proof that Marauroa i
   <changelog><![CDATA[
 
 <p><b>Marboard 0.11</b></p>
+<ul>
 <li>added change log (this file)</li>
 <li>added a progress bar on load of a .marb file</li>
 <li>throttled loading</li>
@@ -94,7 +94,7 @@ While it is not ready for production use yet, it is a good proof that Marauroa i
   </changelog>
   <screenshots>
     <image name="marboard_dot.png"/>
-    <image name="marboard_uml.jpg"/>
+    <image name="marboard_uml.png"/>
   </screenshots>
   <files>
     <file type="binary" name="marboard-client-0.11.zip">
