@@ -4,12 +4,12 @@
   <version id="0.11"/>
   <status value="beta"/>
   <description><![CDATA[ 
-Marboard is an early prototype of an easy to use vector graphics program allowing live collaboration over the Internet.
-While it is not ready for production use yet, it is a good proof that Marauroa is suitable for serious applications, too.
+<p>Marboard is an early prototype of an easy to use vector graphics program allowing live collaboration over the Internet.
+While it is not ready for production use yet, it is a good proof that Marauroa is suitable for serious applications, too.</p>
 
-<div style="text-weight: bold; color: red">Marboard is an early prototype, not ready for production use, yet.</div>
+<p><div style="text-weight: bold; color: red">Marboard is an early prototype, not ready for production use, yet.</div></p>
 
-You can find more information about the current state of development, and how you can contribute, on <a href="http://stendhal.game-host.org/wiki/index.php/Marboard">Marboard's Wiki</a> page.
+<p>You can find more information about the current state of development, and how you can contribute, on <a href="http://stendhal.game-host.org/wiki/index.php/Marboard">Marboard's Wiki</a> page.</p>
 ]]>
   </description>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/Marboard_Manual"/>
