@@ -13,6 +13,89 @@
       </content>
   </item>
 -->
+ <item>
+    <title>Stendhal 0.81.1: bug fix release</title>
+    <date>24th February 2010</date>
+     <content>
+      <![CDATA[Thanks to some bug reports from helpful players we have been able to fix a couple of issues with the latest release, for full details please see <a href="?arianne_url=games/game_stendhal#changes">the Stendhal changelog.</a>]]>
+      </content>
+  </item>
+
+
+  <item>
+    <title>Marauroa 3.5 released</title>
+    <date>23rd February 2010</date>
+    <content>
+      <![CDATA[Marauroa 3.5 adds the ability to limit parallel connections and account creation, and these limits are configurable. Full details can be found at <a href="http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa#changes">the Marauroa changelog</a>.]]>
+      </content>
+  </item>
+
+<item>
+    <title>Stendhal 0.81: Music to your ears</title>
+    <date>20th February 2010</date>
+    <images>
+      <image url="screens/stendhal/music81.png"/>
+      <image url="screens/stendhal/ignore81.png"/>
+      <image url="screens/stendhal/statspanel81.png"/> 
+   </images>
+    <content>
+      <![CDATA[
+Did you know that one of your friends from Semos is a composer of music? <a 
+href="http://stendhal.game-host.org/character/storyteller.html">Storyteller</a> wrote some songs and they're playing now in various places. <a 
+href="http://stendhal.game-host.org/character/plassy.html">Plassy</a> created the system to play the music and <a 
+href="http://stendhal.game-host.org/character/hendrik.html">hendrik</a> showed Margaret 
+in 
+the tavern and the spirits in the dungeons how to play it. 
+<p>
+The telepath Io Flotto has strengthened the /ignore instruction for you. Now, when you are ignoring chat from another, they look shaded out to black. It means you won't see the outfit and the name becomes less readable. In the demonstration image here you can see Athor labyrinth, which <a href="http://stendhal.game-host.org/character/laguz.html">Laguz</a> has redecorated.
+<p>
+Did you sometimes have problems with holes in your bag when you moved items around in it? Well, Ida the seamstress has very kindly sewed them all up for you. We think that <a href="http://stendhal.game-host.org/character/kiheru.html">kiheru</a> taught her a new technique, and now you should accidentally drop items less. 
+<p>
+Finally for those of you who love playing so much that you would like your own server to play on, the installation process has been <a 
+href="http://stendhal.game-host.org/wiki/index.php/Easy_Stendhal_Installation_On_Windows">vastly 
+simplified</a>. Remember, Stendhal is software released under an open source license, the <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a>!
+]]>
+      </content>
+</item>
+
+  <item>
+    <title>Marauroa 3.4 released</title>
+    <date>19th February 2010</date>
+    <content>
+      <![CDATA[Marauroa 3.4 adds support for the H2 serverless database system, as an alternative to MySQL. There are a number of other new features, relating to setting the max number of players, temporary bans and inactive accounts. Full details can be found at <a href="http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa#changes">the Marauroa changelog</a>.]]>
+      </content>
+  </item>
+
+ <item>
+    <title>Event: Hunt for the lost cat!</title>
+    <date>24th January 2010</date>
+    <content>
+      <![CDATA[
+On Friday 22nd January a sign appeared in Semos:
+<br><i>"I hid my cat somewhere in Fauimoni. Find and bring her to semos tavern 
+and totaling up to 48,500 HP and a few scrolls. You 
+have until Sunday 11:59.59 server time. Good luck and thanks 
+for your participation. Note, cats name has been changed. 
+lol Have fun!"</i>
+<br>Geomac had created this hide and seek game for the players! So the hunt 
+started, from all those who were worried about the cat left alone, 
+and those who wanted the generous prize.
+But where was the cat? By Saturday it was still not found and geomac 
+added this message:
+<br><i>"Clue: An Item needed by Linzo is nearby."</i>
+<br>Finally on Sunday morning snakevip found geomac's cat, deenie, on the 
+3rd floor of Ados Townhall, by Reg Denson. Snakevip brought deenie to 
+Semos tavern and was rewarded with ingredients for 
+100 pizzas, 100 fish pies, 24 gold bars, 2 home scrolls, 1 empty scroll, 
+and a marked scroll to Wofol bakery where he could make the pizzas! A 
+wonderful reward and a really great event, many thanks to geomac for 
+organising this. 
+      <div align="center"><img src="screens/stendhal/deenie.jpeg" alt="Deenie safe"/></div>
+]]>
+      </content>
+  </item>
+
+
 
  <item>
     <title>Stendhal 0.80: Harold's new job, Trade Manager!</title>
@@ -644,7 +727,7 @@ The bridge to Fado is open! Discover the delights of the city known across the l
     <title>Stendhal 0.59: Beach or Battle? Pizza or Perish? You decide ...</title>
     <date>Sat, 14 April 2007 19:45:14</date>
     <images>
-      <image url="screens/stendhal/THM_stendhal_20070414.jpg"/>
+      <image url="screens/stendhal/THM_stendhal_20070414.png"/>
       <image url="screens/stendhal/THM_stendhal_20070414_1.jpg"/>
     </images>
 
