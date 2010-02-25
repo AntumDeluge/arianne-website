@@ -1,4 +1,4 @@
-<p class="footer"> &copy; 1999-2008 <a 
+<p class="footer"> &copy; 1999-2010 <a 
 href="http://arianne.sourceforge.net" class="navi">Arianne RPG</a>
 <?php
 $mtime = explode(' ', microtime());
