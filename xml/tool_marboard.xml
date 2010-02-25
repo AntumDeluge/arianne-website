@@ -1,7 +1,8 @@
 <?xml version='1.0'?>
 <game name="marboard" shortdescription="Marboard is an early prototype of an easy to use vector graphics program allowing live collaboration">
-  <updated date="2010/02/16"/>
-  <version id="0.11"/>
+  <updated date="2010/02/23"/>
+  <version id="0.12"/>
+  <type value="tool"/>
   <status value="beta"/>
   <description><![CDATA[ 
 <p>Marboard is an early prototype of an easy to use vector graphics program allowing live collaboration over the Internet.
@@ -14,6 +15,10 @@ While it is not ready for production use yet, it is a good proof that Marauroa i
   </description>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/Marboard_Manual"/>
   <changelog><![CDATA[
+<p><b>Marboard 0.12</b></p>
+<ul>
+<li>Fixed build script</li>
+</ul>
 
 <p><b>Marboard 0.11</b></p>
 <ul>
@@ -110,7 +115,7 @@ While it is not ready for production use yet, it is a good proof that Marauroa i
         <entry name="macosx" status="100"/>
       </os>
     </file>
-    <file type="server script binary" name="marboard-server-0.11.zip">
+    <file type="server script binary" name="marboard-server-0.11.jar">
       <description>This file contains the Marboard server files.</description>
       <os>
         <entry name="win32" status="100"/>

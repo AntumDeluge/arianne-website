@@ -4,7 +4,7 @@
     <entry name="News" url="?arianne_url=content/news"/>
     <entry name="About" url="?arianne_url=content/about"/>
     <entry name="Downloads" url="?arianne_url=content/download"/>
-    <entry name="Server" url="?arianne_url=servers/server_marauroa"/>
+    <entry name="Engine" url="?arianne_url=servers/server_marauroa"/>
     <entry name="Games" url="?arianne_url=content/games"/>
     <entry name="Screenshots" url="?arianne_url=content/screenshots"/>
     <entry name="Documentation" url="?arianne_url=content/documentation"/>

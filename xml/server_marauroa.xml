@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <server name="marauroa">
-  <updated date="2010/12/08"/>
-  <version id="3.3"/>  
+  <updated date="2010/02/23"/>
+  <version id="3.5"/>  
   <status value="complete"/>
   <rated>
    <entry>
@@ -10,13 +10,14 @@
   </rated>
  
  <description><![CDATA[ 
-Marauroa is Arianne's Multiplayer Online Engine Server, that you can use to build 
-you own online games using Marauroa as a Content Management system.<p/>
+Marauroa is Arianne's Multiplayer Online Engine, which you can use to build
+your own online games using Marauroa for object management, database persistence
+and perception based client-server communication.<p/>
 
 Marauroa is completely written in Java using a multithreaded server architecture
-with a TCP oriented network protocol, a mySQL based persistence engine and a 
+with a TCP oriented network protocol, a MySQL or H2 based persistence engine and a 
 flexible game system based on open systems totally expandible and modifiable 
-by developers and that is able to run scripts on Python for the game's rules.<p/>
+by developers. Game rules can be written in Java, and Python scripts could be supported with a little work.<p/>
  
 Marauroa is based on a philosophy we call Action/Perception, on each turn a 
 perception is sent to clients explaining them what they percieve and clients 
@@ -29,15 +30,15 @@ you want.<p/>
   <extended><![CDATA[
 	<p>Marauroa is based on very simple principles:<ul>
 	<li>Clients communicate with the server, and vice-versa, using a TCP portable network protocol with reliability in mind to allow a stabler experience when online game lag occurs. </li>
-	<li>You can develop an arianne client, using the arianne client framework, on any system that is able to compile C code. </li>
+<!-- TODO: check!	<li>You can develop an arianne client, using the arianne client framework, on any system that is able to compile C code. </li> -->
 	<li>To play a game every player needs an account on the server that is identified by an username and a password. </li>
-	<li>Players use their account to login into the server and then choose a 'player' stored under their account to play with. The server then checks the login information using the mySQL backend and loads the player into the game using the persistence engine. </li>
+	<li>Players use their account to login into the server and then choose a 'player' stored under their account to play with. The server then checks the login information using the MySQL backend and loads the player into the game using the persistence engine. </li>
 	<li>Players send actions to the server. The action system is totally open and has nothing hard-coded so you can edit it totally to your game style. The server sends at regular intervals, called turns, a perception to each player to inform them about the state of the game and any relevant state modifications. Marauroa's perception system is based on the Delta^2 ideology: simply send what has changed. </li>
 	<li>The server executes some code each turn in order to move the game status on. Using this hook it is simple to code triggers, timeouts, conditions and whatever kind of behavior you need. </li>
 	<li>The server transparently and automatically stores players and game status modifications on the persistence engine, and also information decided by the game developer using their game definition scripts. </li>
-	<li>The server side game rules can be written in Python to allow simple and rapid development without needing to recompile the rules engine and without having to know anything about Marauroa's internals. Games
-	rules can also be coded in Java. </li>
-	<li>The server generates statistics of usage which are stored in a mySQL database (so you can later generate fancy statistics from them). Or in case you don't require them, they can be disabled to save CPU cycles and disk space. Marauroa features a modular structure that means modules can be changed and disabled without affecting the operation of other modules. </li>
+	<li>Game rules can be coded in Java to allow simple and rapid development and without having to know anything about Marauroa's internals.<\li>
+        <li>Python scripts for the game rules could be supported with a little work.<\li>
+	<li>The server generates statistics of usage which are stored in a MySQL or H2 database (so you can later generate fancy statistics from them). Or in case you don't require them, they can be disabled to save CPU cycles and disk space. Marauroa features a modular structure that means modules can be changed and disabled without affecting the operation of other modules. </li>
 	<li>Both the server and clients are fully and wisely documented, with documentation about specification and design and not just API documentation. </li>
 	</ul>
 
@@ -66,6 +67,19 @@ you want.<p/>
     ]]>
   </extended>
   <changelog><![CDATA[
+
+<br><b>3.5</b>
+<br>- limit number of parallel connections from one ip-address, see <a href="http://stendhal.game-host.org/wiki/index.php/Configuration_file_server.ini#Limits">Configuration file server.ini</a>
+<br>- limit account creation per ip-address in a timeframe, see above
+<br>- fixed null values on H2 in account.timedate and gameEvents.timedate
+
+
+<br><b>3.4</b>
+<br>- added support for the H2 serverless database system in addition to MySQL.
+<br>- added configuration setting max_number_of_players in server.ini
+<br>- added temporary bans stored in the new table accountban
+<br>- fixed error message on inactive accounts claiming the account was banned.
+
 <br><b>3.3</b>
 <br>- games can now check the structure of the database using doesTableExist and doesColumnExist in order to update it automatically
 <br>- RPEvents can now have RPSlots

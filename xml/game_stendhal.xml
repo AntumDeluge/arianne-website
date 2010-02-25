@@ -1,8 +1,9 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2010/01/08"/>
-  <version id="0.80"/>
-  <status value="beta"/>
+  <updated date="2010/02/24"/>
+  <version id="0.81.1"/>
+  <status value="stable"/>
+  <type value="game"/>
   <cssdoc url="css/stendhal.css"/>
   <rated>
     <entry>
@@ -10,14 +11,14 @@
       <a href="http://happypenguin.org/show?stendhal"><img src="http://happypenguin.org/rateomatic?stendhal"></a>]]>    
     </entry>
     <entry>
-      <![CDATA[<a href="http://freshmeat.net/projects/stendhal/"><img src="http://images.freshmeat.net/img/logo.gif"></a>]]>    
+      <![CDATA[<a href="http://freshmeat.net/projects/stendhal/"><img src="images/fm_logo.png"></a>]]>    
     </entry>
-    <entry>
+<!-- broken link    <entry>
       <![CDATA[<a href="http://www.gamesites200.com/mpog/vote.php?id=1850"><img src="http://www.gamesites200.com/mpog/vote.gif" ALT="Paid and Free
 MMORPG & MPOG" border="0"></a>]]>    
-    </entry>
+    </entry>-->
   <entry>
-      <![CDATA[<script type="text/javascript" src="http://www.ohloh.net/projects/3711/widgets/project_users?style=green"></script>]]>
+      <![CDATA[&nbsp;&nbsp; <script type="text/javascript" src="http://www.ohloh.net/projects/3711/widgets/project_users?style=green"></script>]]>
     </entry>
 
   </rated>
@@ -39,9 +40,9 @@ So what are you waiting for?! A whole new world awaits...]]>
   </description>
   <extended><![CDATA[
   <p/><h2>Want to help us?</h2>
-  Stendhal is a reference to test Marauroa features.<br/>
+  Stendhal started as a reference to test <a href="?arianne_url=servers/server_marauroa">Marauroa</a> features.<br/>
   The game is right now <b>PLAYABLE</b> and <b>FUN</b>.<p/>
-  We would really love to get your help to complete some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">open tasks</a>.
+  We would really love to get your help <a href="http://stendhal.game-host.org/wiki/index.php/Navigation_for_Stendhal_Contributors">contributing</a>.
 
   <p/><h2>Play now!</h2>
   Stendhal uses Java Webstart technology that enables you to use always the latest version available without having to worry about updates.<br>
@@ -51,6 +52,47 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
   <changelog><![CDATA[
+<br><b>Stendhal 0.81.1</b>
+<br><b>*bug fixes*</b>
+<br>- fixed an issue with 0 hp created by logging out while dying (thanks to Andrzej Kofanski)
+<br>- prevent client crash on empty soundNameList
+<br>- renamed admins.list to admins.txt to simplify installation on windows with hidden file name extensions
+<br>- fixed a server side classpath issue
+<br>- updated to Marauroa 3.5 to fix an issue with null-values in the timedate columns in gameEvents and account
+
+<p><b>Stendhal 0.81</b>
+<br><b>*features*</b>
+<br>- player stats moved from the character window to the side panel
+<br>- a dragbar for making the game screen smaller (handy for netbooks)
+<br>- new quest from Ouchit with new NPC in ados forest
+<br>- having multiple correct answers for a riddle now possible
+<br>- athor labyrinth redrawn 
+<br>- h2 database support
+<br>- ignored players are drawn as black forms
+
+<br><b>*bug fixes*</b>
+<br>- numerous small map fixes
+<br>- poorly organised tilesets reorganised
+<br>- list quests output fixed
+<br>- split grain field
+<br>- show a long dash rather than a negative number for required xp for max level players
+<br>- feedback on using portals and chests from too far away
+<br>- fixed "Drag and drop sometimes misses slots and hits ground instead" (was for drag and drop onto same slot)
+<br>- better reject message for inactive accounts
+<br>- fixed leander stealing all the pizzas of a player who has failed the quest previously
+
+<br><b>*code*</b>
+<br>- sound system rewritten and using oggs 
+<br>- more client refactoring
+
+<br><b>*website*</b>
+<br>- fixed a directory traversing vulnerability on http://arianne.sf.net
+  (special thanks to Ed Milner for discovering and reporting it)
+<br>- account history
+<br>- adminlevel shown
+
+<p><b>Stendhal 0.80.1: server only release</b>
+<br>- fixed logout while dying
 
 <p><b>Stendhal 0.80</b>
 <br>*features*
@@ -174,7 +216,7 @@ from http://mapeditor.org/
  <br> - player history available at http://stendhal.game-host.org/?id=content%2Fadmin%2Fplayerhistory&name=NAME&sublogin=Search
  <br> - new command /adminnote
  <br> - /gmhelp_script and /gmehlp_alter replaced by /gmhelp script and /gmhelp alter
-
+<!--
 
 <p><b>Stendhal 0.74</b>
 <br>- player karma affects what skills they lose on death 
@@ -471,8 +513,8 @@ semos and ados)
 <br>- scrolls now available by bartering with gardener lady in kalavan 
 <br>- milk now available from semos farm
 <br>- honey now available from beekeeper in fado forest
-
-]]>
+-->
+See <a href="http://arianne.cvs.sourceforge.net/viewvc/*checkout*/arianne/stendhal/doc/CHANGES.txt">all past changes</a>]]>
   </changelog>
   <screenshots>
     <image name="raid65.png"/>
@@ -541,7 +583,7 @@ semos and ados)
     <entry name="Kim Purnell Samoa" url=""/>
     <entry name="Danter" url="http://arianne.sourceforge.net/wiki/index.php/Danter"/>
     <entry name="Laurent Soubrevilla" url=""/>
-    <entry name="Hans Halggstrom" url="http://www.iki.fi/zzorn/"/>
+    <entry name="Hans Haggstrom" url="http://www.iki.fi/zzorn/"/>
     <entry name="Jonas aka Damosh" url=""/>
     <entry name="TheGeneral" url=""/>
     <entry name="Hendrik" url="http://www.ohloh.net/accounts/nhnb"/>
@@ -551,5 +593,9 @@ semos and ados)
     <entry name="mort" url="http://www.ohloh.net/projects/stendhal/contributors/"/>
     <entry name="Chad3f" url="http://www.ohloh.net/projects/stendhal/contributors/"/>
     <entry name="kiheru" url="http://www.ohloh.net/accounts/kiheru"/>
+    <entry name="madmetzger" url="http://www.ohloh.net/accounts/madmetzger"/>
+    <entry name="tigertoes" url="http://www.ohloh.net/accounts/tigertoes"/>
+    <entry name="yoriy" url="http://www.ohloh.net/accounts/yoriy"/>
+    <entry name="plassy" url="http://www.ohloh.net/projects/stendhal/contributors/"/>
   </authors>
 </game>
