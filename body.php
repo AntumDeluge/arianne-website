@@ -16,10 +16,20 @@ if(isset($_REQUEST["arianne_url"]))
         <li class="menu_title"><div id="game-menu-image">Games</div></li>
             <?php
             include_once("renderContent.php");
-            renderGameBriefing(false);     
+            renderGameBriefing(false, game);     
             ?>
         <li><p><i>(Add your game here!)</i></p></li>
       </ul>
+
+      <ul>
+        <li class="menu_title"><div id="game-menu-image">Tools</div></li>
+            <?php
+	include_once("renderContent.php");
+        renderGameBriefing(false,tool);
+            ?>
+       <li><p><i>(Add your tool here!)</i></p></li>
+      </ul>
+
 
       <ul>
         <li class="menu_title"><div id="pw-menu-image">Powered By...</div>
@@ -39,8 +49,8 @@ if(isset($_REQUEST["arianne_url"]))
       <ul>      
         <li class="menu_title"><div id="rate-menu-image">Rate Us</div>
         </li>
-            
-        <li><a href="http://happypenguin.org/show?Arianne+RPG"><img src="http://happypenguin.org/rateomatic?Arianne+RPG" alt="Happy Penguin Rate"></a>
+       <li><a href="http://sourceforge.net/projects/arianne/reviews/"><IMG SRC="http://sourceforge.net/sflogo.php?group_id=1111&amp;type=1" ALT="SourceForge Logo"></a>
+        <li><a href="http://happypenguin.org/show?Stendhal"><img src="http://happypenguin.org/rateomatic?Stendhal" alt="Happy Penguin Rate"></a>
         </li>
       </ul>
       

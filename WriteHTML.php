@@ -101,8 +101,9 @@ function WriteGamePageListHTML($game )
   
 function WriteShortGameDesc($game)
 {
+  $type = $game['game'][0]['type']['0 attr']['value'];
 	echo '<li class="text">';
-    echo '<a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'" class="naviLight">'.ucfirst($game['game']['0 attr']['name']).'</a>';
+    echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$game['game']['0 attr']['name'].'" class="naviLight">'.ucfirst($game['game']['0 attr']['name']).'</a>';
     $time=explode("/",GameUpdateTime($game,"game"));
     if(time()-mktime(0,0,0,$time[2],$time[1],$time[0])<15*24*60*60)
       {
@@ -119,7 +120,7 @@ function WriteShortGameDesc($game)
           $image_size = getimagesize('screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
           $html_size = imageResize($image_size[0], $image_size[1], 130);
         
-          echo '<a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'"><img src="screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Game screenshot" '.$html_size.'></a>';
+          echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$game['game']['0 attr']['name'].'"><img src="screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
           }
         }
       }
@@ -132,9 +133,11 @@ function WriteShortGameDesc($game)
 
 function WriteLongGameDesc($game)
 {
+  $type = $game['game'][0]['type']['0 attr']['value'];
+
 	    echo '<div class="game_entry">';
      
-    echo '<div class="link_title"><a name="'.$game['game']['0 attr']['name'].'"></a><h1><a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'">'.ucfirst($game['game']['0 attr']['name']).'</a></h1><p><a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'">Click here to see information about this package</a></p></div>';
+    echo '<div class="link_title"><a name="'.$game['game']['0 attr']['name'].'"></a><h1><a href="?arianne_url='.$type.'s/'.$type.'_'.$game['game']['0 attr']['name'].'">'.ucfirst($game['game']['0 attr']['name']).'</a></h1><p><a href="?arianne_url='.$type.'s/'.$type.'_'.$game['game']['0 attr']['name'].'">Click here to see information about this package</a></p></div>';
     echo '<h2>'.$game['game']['0 attr']['shortdescription'].'</h2>';
 
     $time=explode("/",GameUpdateTime($game,"game"));
@@ -154,7 +157,7 @@ function WriteLongGameDesc($game)
           $image_size = getimagesize('screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
           $html_size = imageResize($image_size[0], $image_size[1], 120);
         
-          echo '<a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'"><img src="screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Game screenshot" '.$html_size.'></a>';
+          echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$game['game']['0 attr']['name'].'"><img src="screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
           }
         }
       }
@@ -163,7 +166,7 @@ function WriteLongGameDesc($game)
       
       }     
     echo '<p>'.$game['game'][0]['description'][0].'</p>';
-    echo '<p><a href="?arianne_url=games/game_'.$game['game']['0 attr']['name'].'">'.ucfirst($game['game']['0 attr']['name']).' - Click here to see information about this package</a></p>';
+    echo '<p><a href="?arianne_url='.$type.'s/'.$type.'_'.$game['game']['0 attr']['name'].'">'.ucfirst($game['game']['0 attr']['name']).' - Click here to see information about this package</a></p>';
     
   
     echo '</div>';
@@ -219,43 +222,50 @@ function WriteGameStatusTag($game,$length=false)
   if( $game['game'][0]['status'] )
     {
     echo '<div class="statustag">';
+    $type = $game['game'][0]['type']['0 attr']['value'];
     if( $length )
       {
 	  switch( $game['game'][0]['status']['0 attr']['value'])
 	  {
 		  case "broken":
-      		echo '<p>This game is marked as BROKEN. This implies it does not work with the current server version and is therefore unsupported. We are working towards restoring the broken games. Sorry for any inconvenience.</p>';
+      		echo '<p>This '.$type.' is marked as BROKEN. This implies it does not work with the current server version and is therefore unsupported. We are working towards restoring the broken '.$type.'s. Sorry for any inconvenience.</p>';
       		break;
       	  case "beta":
-      		echo '<p>This game is marked as BETA. This implies it is still under construction and may contain bugs or be feature incomplete, <b>however</b> it may still be playable so please have a go!</p>';
+      		echo '<p>This '.$type.' is marked as BETA. This implies it is still under construction and may contain bugs or be feature incomplete, <b>however</b> it may still be playable so please have a go!</p>';
 			break; 
 		  case "alpha":     
-      		echo '<p>This game is marked as ALPHA. This implies it is still in early days of construction and will possibly not be playable. Please join us and help complete it!</p>';
+      		echo '<p>This '.$type.' is marked as ALPHA. This implies it is still in early days of construction and will possibly not be playable. Please join us and help complete it!</p>';
 			break; 
+	   case "stable":
+	    echo '<p>This '.$type.' is marked as STABLE. Have Fun! :)</p>';
+	    break;
 		  case "complete":	 
-      		echo '<p>This game is marked as COMPLETE. Have Fun! :)</p>';
+      		echo '<p>This '.$type.' is marked as COMPLETE. Have Fun! :)</p>';
 			break; 
 		case "archived":	 
-      		echo '<p>This game is marked as ARCHIVED. It has probably been dropped and is not supported anymore.</p>';
+      		echo '<p>This '.$type.' is marked as ARCHIVED. It has probably been dropped and is not supported anymore.</p>';
 			break; 
       }
       } else {
 	  switch( $game['game'][0]['status']['0 attr']['value'])
 	  {
 		  case "broken":
-      		echo '<p>This game is marked as BROKEN. </p>';
+      		echo '<p>This '.$type.' is marked as BROKEN. </p>';
       		break;
       	  case "beta":
-      		echo '<p>This game is marked as BETA.</p>';
+      		echo '<p>This '.$type.' is marked as BETA.</p>';
 			break; 
+          case "stable":
+	    echo '<p>This '.$type.' is marked as STABLE.</p>';
+	    break;
 		  case "alpha":     
-      		echo '<p>This game is marked as ALPHA.</p>';
+      		echo '<p>This '.$type.' is marked as ALPHA.</p>';
 			break; 
 		  case "complete":	 
-      		echo '<p>This game is marked as COMPLETE.</p>';
+      		echo '<p>This '.$type.' is marked as COMPLETE.</p>';
 			break; 
 		case "archived":	 
-      		echo '<p>This game is marked as ARCHIVED.</p>';
+      		echo '<p>This '.$type.' is marked as ARCHIVED.</p>';
 			break; 
       }
       }
@@ -286,6 +296,7 @@ function WriteLinkDownloadHTML($xml, $type)
   
 function WriteDownloadLink($xml, $type)
 {    
+
 	echo '<div class="downloadpagesection"><h2>'.ucfirst($xml[$type]['0 attr']['name']).'</h2>';
  
   if(isset($xml['game'][0]['screenshots']))
@@ -297,22 +308,25 @@ function WriteDownloadLink($xml, $type)
       $image_size = getimagesize('screens/'.$xml['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
       $html_size = imageResize($image_size[0], $image_size[1], 130);
     
-      echo '<a href="?arianne_url=games/game_'.$xml['game']['0 attr']['name'].'#downloadsection"><img src="screens/'.$xml['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Game screenshot" '.$html_size.'></a>';
+      echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$xml['game']['0 attr']['name'].'#downloadsection"><img src="screens/'.$xml['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
       }
     }
+  } else {
+    echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$xml[$type]['0 attr']['name'].'#downloadsection"><img src="images/oneszeros.png" alt=ones zeros"></a>';
   }
-else
-  {
-  echo '<p>Sorry No Image Available</p>';
-  }
+
   if( $type === 'game')
   	echo '<p class="linktodownload"><a href="?arianne_url=games/game_'.$xml['game']['0 attr']['name'].'#downloadsection">Click here to go to this games download links</a></p>';
   if( $type === 'server')
-  	echo '<p class="linktodownload"><a href="?arianne_url=servers/server_'.$xml['server']['0 attr']['name'].'#downloadsection">Click here to go to the server download links</a></p>';
+  	echo '<p class="linktodownload"><a href="?arianne_url=servers/server_'.$xml['server']['0 attr']['name'].'#downloadsection">Click here to go to the engine download links</a></p>';
   
   if( $type === 'client' )
   	echo '<p class="linktodownload"><a href="?arianne_url=clients/client_'.$xml['client']['0 attr']['name'].'#downloadsection">Click here to go to this clients download links</a></p>';
+ 
+ if( $type === 'tool' )
+        echo '<p class="linktodownload"><a href="?arianne_url=tools/tool_'.$xml['game']['0 attr']['name'].'#downloadsection">Click here to go to this tools download links</a></p>';
   
+
   echo '</div>';
 }
   
@@ -526,9 +540,9 @@ function WriteScreenshotsHTML( $game, $base, $archived=false )
   {
       // load shots from dir by name 
       // line up thumbnails
-      
+        
       if( !$archived ) {
-        echo '<div class="screenshots_entry"><div class="link_title"><h2><a href="?arianne_url=games/game_'.$game[$base]['0 attr']['name'].'">'.ucfirst($game[$base]['0 attr']['name']).'</a></h2><p><a href="?arianne_url=games/game_'.$game[$base]['0 attr']['name'].'">Click here to see information about this package</a></p></div>';
+        echo '<div class="screenshots_entry"><div class="link_title"><h2><a href="?arianne_url='.$base.'s/'.$base.'_'.$game[$base]['0 attr']['name'].'">'.ucfirst($game[$base]['0 attr']['name']).'</a></h2><p><a href="?arianne_url='.$base.'s/'.$base.'_'.$game[$base]['0 attr']['name'].'">Click here to see information about this package</a></p></div>';
         $val = "screens/".$game[$base]['0 attr']['name'];
       } else {
         echo '<div class="screenshots_entry"><div class="link_title"><h2>Archived</h2></div>';      

@@ -2,7 +2,8 @@
 <p>Use these links to find the download section for each game/server etc.</p>
 <ul class="menubar">
 <li><a href="#games">Games</a></li>
-<li><a href="#server">Server</a></li>
+<li><a href="#engine">Engine</a></li>
+<li><a href="#tool">Tool</a></li>
 <li><a href="#CVS">CVS</a></li>
 </ul>
 <p>Make sure you have the required dependencies before downloading files.</p>
@@ -16,8 +17,8 @@
   renderDownloads("game");
 ?>
 
-<a name="server"></a><h1>Server</h1>
-If you want to run your own Arianne server you need to download Marauroa.
+<a name="engine"></a><h1>Engine</h1>
+If you want to create your own Arianne game you need to download Marauroa.
 <?php
   renderDownloads("server");
 
@@ -26,7 +27,17 @@ If you want to run your own Arianne server you need to download Marauroa.
 
   renderDownloads("client"); <- arianne XP removed at least for now*/ 
 ?>
+<a name="tool"></a><h1>Tools</h1>
+Tools downloads
+<?php
+renderDownloads("tool");
+
+?>
+
 
 <a name="CVS"></a><h1>CVS</h1>
-If you need to grab the latest copy of Arianne and you can't wait for a release, use CVS.<p>
-<a href="http://arianne.cvs.sourceforge.net">http://arianne.cvs.sourceforge.net/</a>
+If you need to grab the latest copy of Arianne and you can't wait for a release, you can use CVS.<p>
+
+You can use a CVS client to <a href="http://sourceforge.net/scm/?type=cvs&group_id=1111">download our source code</a> 
+or you can browse the <a href="http://arianne.cvs.sourceforge.net/arianne">web-based CVS repository</a>
+

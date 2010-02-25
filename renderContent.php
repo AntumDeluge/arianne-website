@@ -57,7 +57,7 @@ function renderDownloads($type)
     }  
   }
 
-function renderGameList()
+function renderGameList($type)
   {
   $gameList=array();
   $handle=opendir("xml/");
@@ -66,7 +66,7 @@ function renderGameList()
     if($file=='.'||$file=='..') continue;
     if(!is_dir("xml/".$file))
       {
-      if(strpos($file,'game_')!==false)
+	if(strpos($file,$type.'_')!==false)
         {
         $gameList[]="xml/".$file;
         }
@@ -90,7 +90,7 @@ function renderGameList()
       
   }
   
-function renderGameBriefing($long_briefing=TRUE)
+function renderGameBriefing($long_briefing=TRUE,$type)
   {
   $gameList=array();
   $handle=opendir("xml/");
@@ -100,7 +100,7 @@ function renderGameBriefing($long_briefing=TRUE)
     if($file=='.'||$file=='..') continue;
     if(!is_dir("xml/".$file))
       {
-      if(strpos($file,'game_')!==false)
+	if(strpos($file,$type.'_')!==false)
         {
         $gameList[]="xml/".$file;
         }
