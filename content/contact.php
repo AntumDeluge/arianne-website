@@ -1,11 +1,5 @@
 <div class="section"><h1>Contact information</h1>
-<p>You can contact any of the project leaders, arianne_rpg, nhnb or kymara, at: NAME <i>at</i> users <i>tod</i> sourceforge <i>tod</i> net<br/>
-You can also contact the whole group at the mailing list. There are several mailing lists available:</p>
-<ul>
-<li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-general">arianne-general</a> general subjects mailing list</li>
-<li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-devel">arianne-devel</a> development talk mailing list</li>
-<li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-announce">arianne-announce</a> read-only release announces mailing list</li>
-</ul>
+<p>You can contact the project leaders, nhnb or kymara, at: NAME <i>at</i> users <i>tod</i> sourceforge <i>tod</i> net<br/>
 
 <h2>IRC</h2>
 <p>You may wish to chat live with the team on IRC. You can get an IRC client and connect to:</p>
@@ -31,3 +25,11 @@ Alternatively, you can simply use freenode's webchat service, below. </p>
 by side with us in our brave effort :-)</p>
 <p>Take a look to Sourceforge Bugs Trackers, create a new exciting game, help 
 fix this website or promote Arianne all around the world are a few of the many options. Please remember to contact us if you wish to participate.</p>
+
+<h2>Mailing Lists</h2>
+You can also contact the whole group at the mailing list. There are several mailing lists available:</p>
+<ul>
+<li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-general">arianne-general</a> general subjects mailing list</li>
+<li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-devel">arianne-devel</a> development talk mailing list</li>
+<li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-announce">arianne-announce</a> read-only release announces mailing list</li>
+</ul>
