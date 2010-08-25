@@ -18,7 +18,7 @@ function WriteMenuHTML($website)
     }
   }
 
-function WriteNewsHTML($website,$all)
+function WriteNewsHTML($website, $all)
   {
   $maxNewsItems=5;
   
@@ -28,13 +28,19 @@ function WriteNewsHTML($website,$all)
     {
     if($maxNewsItems==0) break;
     if(!$all) $maxNewsItems--;
+    WriteNewsItemHtml($item);
+    }
 
+  echo '</ul>';  
+  }
 
+function WriteNewsItemHtml($item)
+  {
     echo '<li><div class="newsitem"><div class="newstitle">'.$item['title'][0].'</div><p class="itemdate">'.$item['date'][0].'</p>';
 
     if(isset($item['images']))
       {
-	  
+      
       foreach($item['images'][0]['image'] as $key=>$image) 
         {
         if(is_array($image))
@@ -52,11 +58,8 @@ function WriteNewsHTML($website,$all)
         echo '<div class="newscontent_noimage">'.$item['content'][0].'</div><div class="clearright">&nbsp;</div></div>';
       }
       echo '</li>';
-    }
-
-  echo '</ul>';  
   }
-  
+
 function imageResize($width, $height, $target) 
   { 
   //takes the larger size of the width and height and applies the formula accordingly...this is so this script will work dynamically with any size image 
