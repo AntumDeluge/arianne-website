@@ -34,6 +34,21 @@ function WriteNewsHTML($website, $all)
   echo '</ul>';  
   }
 
+function WriteNewsHTMLForNamedItem($website, $title)
+  {
+  echo '<ul class="newslist">';
+
+  foreach($website['website'][0]['item'] as $key=>$item)
+    {
+    if ($title == getNiceURL($item['title'][0]))
+      {
+      WriteNewsItemHtml($item);
+      }
+    }
+
+  echo '</ul>';  
+  }
+
 function WriteNewsItemHtml($item)
   {
     echo '<li><div class="newsitem"><div class="newstitle">'.$item['title'][0].'</div><p class="itemdate">'.$item['date'][0].'</p>';
@@ -58,6 +73,19 @@ function WriteNewsItemHtml($item)
         echo '<div class="newscontent_noimage">'.$item['content'][0].'</div><div class="clearright">&nbsp;</div></div>';
       }
       echo '</li>';
+  }
+
+/**
+ * gets a nice url
+ *
+ * @return nice url
+ */
+function getNiceURL($title)
+  {
+  $res = strtolower($title);
+  $res = preg_replace('/[ _,;.:<>|!?\'"] /', ' ', $res);
+  $res = preg_replace('/[ _,;.:<>|!?\'"]/', '-', $res);
+  return urlencode($res.'.html');
   }
 
 function imageResize($width, $height, $target) 

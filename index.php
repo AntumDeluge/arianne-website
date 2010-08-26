@@ -72,8 +72,8 @@ if( file_exists('xml/'.$name.'.xml')) {
 } else {
   echo '<link rel="stylesheet" type="text/css" href="css/cssdef.css">';
 }
-?>    
-    
+?>
+
 </head>
 
 <body>
