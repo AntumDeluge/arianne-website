@@ -20,7 +20,7 @@ echo '</pre>';
 # and returns an equivalent PHP data structure
 ###################################################################################
 function & XML_unserialize(&$xml){
-	$xml_parser = &new XML();
+	$xml_parser = new XML();
 	$data = &$xml_parser->parse($xml);
 	$xml_parser->destruct();
 	return $data;
