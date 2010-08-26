@@ -432,6 +432,15 @@ ul.menubar li a:visited
 {
     color: white;
     text-decoration: none;
-}  
+}
 
+a.newsitemtitle
+{
+    text-decoration: none;
+    color: black;
+}
+a.newsitemtitle:hover
+{
+    text-decoration: underline;
+}
 /************************************/  

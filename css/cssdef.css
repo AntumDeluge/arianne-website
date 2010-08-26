@@ -595,6 +595,17 @@ div.newstitle {
     margin-right:20px;
     }
 
+a.newsitemtitle
+{
+    text-decoration: none;
+    color: black;
+}
+
+a.newsitemtitle:hover
+{
+    text-decoration: underline;
+}
+
 /************************************/
 /* download.php page render tags    */
 
