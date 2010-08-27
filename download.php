@@ -1,6 +1,6 @@
 <?php
 
-$products = array('stendhal');
+$products = array('jmapacman', 'marauroa', 'marboard', 'stendhal');
 
 $filesShort = array(
 	'jmapacman.zip', 'jmapacman-server.zip', 'jmapacman-src.tar.gz', 'jmapacman-changes.txt',
@@ -13,22 +13,21 @@ $filesLong = array(
 	'marboard-client-(version).zip', 'marboard-server-(version).zip', 'marboard-src-(version).zip', 'marboard-(version)-changes.txt',
 	'stendhal-(version).zip', 'stendhal-FULL-(version).zip', 'stendhal-server-(version).zip', 'stendhal-(version)-src.tar.gz', 'stendhal-(version)-changes.txt'); 
 
+$file = $_REQUEST['file'];
 
-function getVersion($file) {
-	preg_match('/^([^-.]*)/', $file, $matches, PREG_OFFSET_CAPTURE);
-	$product = $matches[0][0];
+preg_match('/^([^-.]*)/', $file, $matches, PREG_OFFSET_CAPTURE);
+$product = $matches[0][0];
 
-	if (!in_array($product, array('stendhal'))) {
-		return null;
-	}
-
+if (in_array($product, array('stendhal'))) {
 	$version = file_get_contents(dirname(__FILE__).'/'.$product.'.version');
-	return trim($version);
 }
 
-	echo '<pre>';
-	echo 'File: '.htmlspecialchars($_REQUEST['file']);
-	$version = getVersion($_REQUEST['file']);
-	echo trim($version);
-	echo 'B</pre>';
+if (!isset($version) || $version == '') {
+	header('HTTP/1.1 404 Not Found');
+	echo 'The file '.htmlspecialchars($file).' could not be found';
+} else {
+	$rewrittenFilename = str_replace($filesShort, $filesLong, $file);
+	$rewrittenFilename = str_replace('(version)', $version, $rewrittenFilename);
+	header('Location: https://sourceforge.net/projects/arianne/files/'.$product.'/'.$version.'/'.$rewrittenFilename.'/download');
+}
 ?>
