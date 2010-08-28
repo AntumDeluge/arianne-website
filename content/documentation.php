@@ -4,7 +4,7 @@ javadocs comments but we also keep other online live documentation on our
 Wiki.</p>
 
 <h2>Wiki</h2>
-<p>A Wiki is an editable website for creating documentation. Some framework docs are on <a href="http://stendhal.game-host.org/wiki/index.php/Frameworks_documentation" class="navi"><b>Arianne's wiki</b></a>. 
+<p>A Wiki is an editable website for creating documentation. Some framework docs are on <a href="http://stendhalgame.org/wiki/Frameworks_documentation" class="navi"><b>Arianne's wiki</b></a>. 
 </p>
 
 <h2>Reporting bugs</h2>
