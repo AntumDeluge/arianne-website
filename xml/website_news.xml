@@ -12,12 +12,173 @@
       <![CDATA[]]>
       </content>
   </item>
--->
+ -->
+
+
+<item>
+    <title>Stendhal 0.86: The Wizards Circle</title>
+    <date>26th July 2010</date>
+    <images>
+      <image url="screens/stendhal/tower86.png"/>
+      <image url="screens/stendhal/circle86.png"/>
+      <image url="screens/stendhal/settings86.png"/>
+      <image url="screens/stendhal/park86.png"/>
+ </images>
+    <content>
+      <![CDATA[Have you noticed the graceful round tower in Semos Mountains and wondered what goes on in that lofty spire? The guardian of the tower, Zekiel, has prepared a quest for you - complete the Wizards Circle and access will be granted. 
+<p>
+Perhaps the sorceress Sarzina visited the Wizards Circle, for she has a new power also; she can enable you to visualise your karma: good, or bad, at any time. 
+<p>
+The magic from that round tower is overspilling into the world, and your imagination. What was square has become circular - when you visualise attacks, you'll now see circles. Your hearing may be more advanced, with strains of music, bells, and other sounds now audible that you could not hear before. 
+<p>
+You'll find heightened awareness of the world around you, for example pathways will be more clearly marked and you can more readily access your inventory, or any help you need. If you keep your eyes and ears open, you'll discover many more magical little <a href ="http://arianne.sourceforge.net/?arianne_url=games/game_stendhal#changes">changes</a> in the world.
+]]>
+      </content>
+  </item>
+
+
+  <item>
+    <title>Marauroa 3.8.1 released</title>
+    <date>25th July 2010</date>
+    <content>
+      <![CDATA[Marauroa 3.8.1 is released. Marauroa 3.8.1 is mostly a bug fix release, with some additional work around characters. For full details please see <a href="http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa#changes">marauroa's
+changelog</a>.]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 0.85: Wood, wood everywhere</title>
+    <date>27th June 2010</date>
+    <images>
+      <image url="screens/stendhal/producers85.png"/>
+      <image url="screens/stendhal/phalk85.png"/>
+      <image url="screens/stendhal/choose_character85.png"/>
+ </images>
+    <content>
+      <![CDATA[Farmers like Karl have learnt a more efficient sowing technique. Each small patch of grain in the fields is planted closer together, so it will slow you down when you walk over that patch, but you can walk more easily between grain rows than before. After you harvested all your grain, you'd take it to Jenny to be milled. Do you sometimes forget that you left an order with her, or for how much? Well, now you can use /listproducers to be reminded of all your orders you placed with Jenny and other workers who cast, make and bake for you. You may use that to remember to collect some sandwiches you made with Leander, for Phalk. The dwarf guardian is hungry at his station in Semos mines and would appreciate some food and drink.
+<p>
+Stendhal 0.85 has some changes you'll notice as you start the client, too. There is a new wooden panel theme and now it is used for all the parts of the Stendhal client including the buttons on the first screen. When you login to your account you'll notice a dialog with your character, you need to click on that to login. If you have more than one account, you can merge them, so that when you login you can choose between your characters. Please read <a href = "http://stendhalgame.org/wiki/Stendhal_Account_Merging">http://stendhalgame.org/wiki/Stendhal_Account_Merging</a> for more details. This is optional, it does not affect gameplay, and you can still play more than one character at the same time. ]]>
+      </content>
+  </item>
+ 
+  <item>
+    <title>Marauroa 3.8 released</title>
+    <date>26th June 2010</date>
+    <content>
+      <![CDATA[Marauroa 3.8 is released! Marauroa 3.8 adds version compatibility between client and server of different protocol versions. There are two kinds of extensions to the protocol: details in the character list, and maps attributes. Performance is also optimised, with asynchronous login, and 'baking' of RPClasses. Full details are at <a href = "http://stendhalgame.org/wiki/Marauroa_3.8">http://stendhalgame.org/wiki/Marauroa_3.8</a>, and you can also refer to <a href
+="http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa#changes">marauroa's
+changelog</a>.]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 0.84: Don't deny the desperate Despot</title>
+    <date>2nd June 2010</date>
+    <images>
+      <image url="screens/stendhal/army84.png"/>
+      <image url="screens/stendhal/heal84.png"/>
+      <image url="screens/stendhal/arrows84.png"/>
+      <image url="screens/stendhal/icons84.png"/>
+    </images>
+    <content>
+      <![CDATA[       Are you an obsessive hoarder of rare items? Do you pay high sums for a durin axe (just because it is rare) or camp hours to win a nihonto? Balduin is just like you. If, and only if, you've completed every other quest to collect special items, he'll challenge you to find one more... but don't bother asking your friends what he challenged them with, your quest could well be different.
+  <p>
+      Despot Halb Errvl has been sitting alone in the Mithrilbourgh Throne Room for too long. He's become really paranoid about rival armies, and is asking for help killing hundreds of enemies. He doesn't care where you find them, so long as you kill as many as possible. Others who ask for your help in for example cleaning a cellar of spiders, really will check now that you killed spiders from their cellar and not just any old spider. They realised that we've been deceiving them a little in the past with our proof of kills!
+<p>      The pizza baker Leander is now more responsible: he sends his employees only to locations that he is confident they can survive in. But the food situation at Ados Wild Life Refuge has got worse: they are now in need of weekly supplies. Katinka will ask you to bring food they need for the animals in the zoo, and to thank you Dr. Feelgood will heal your pets and sheep and might sell you some cheap medicine. If you are not interested in feeding the animals to get cheap potions you can still buy them elsewhere. There is Carmen in Semos, and in Fado is Sarzina, who joined the potion market, selling mega potions.
+ <p>
+      Last but not least the user interface was improved so that status icons for being away or eating are also displayed in the side panel. Flying arrows are now visible in the world, and if you'd like supplies of these to experiment with you can buy them from Mrotho and Diehelm Brui. Missiles are effective too, and early experimentation has shown that fire shuriken work somewhat better than snowballs... ]]>
+      </content>
+  </item>
+  <item>
+    <title>Marauroa 3.7 released</title>
+    <date>1st June 2010</date>
+    <content>
+      <![CDATA[Marauroa 3.7 is released, with changes to handling of characters. Full details are at <a href 
+="http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa#changes">marauroa's 
+changelog</a>.]]>
+      </content>
+  </item>
+
+
  <item>
-    <title>Stendhal 0.81.1: bug fix release</title>
-    <date>24th February 2010</date>
+    <title>Stendhal 0.83: Dark or Light, Fire or Ice?</title>
+    <date>30th April 2010</date>
+    <images>
+      <image url="screens/stendhal/damage83.png"/>
+      <image url="screens/stendhal/careful83.png"/>
+      <image url="screens/stendhal/ratcity83.png"/>
+      <image url="screens/stendhal/cursor83.png"/>
+    </images>
+    <content>
+      <![CDATA[The forces of the elements have lain dormant in the world for a long time. 
+But now, fire, ice, dark and light magic is awakening. Those wielding a fire sword will find excellent results
+ when fighting for example an ice elemental, while fire elementals resist fire weapons very well. Likewise, magical defensive items can aid, or can hinder, when fighting magical creatures. A black shield gives extra protection against the dark power of a black death, but is vulnerable to the light magic emanating from an angel.
+<p>
+Military leaders started to question their attack strategies recently, wondering why their troops are never changing target
+to kill off the weakest enemy first. So, the top military leaders (commanders, generals, and so on) are trialling a system of targetting the weakest enemy first, and even changing attack if a new, weaker enemy is within reach. Sources suggest that this tactic was actually inspired by the dragons and elite creatures, who themselves thought of the idea first. In any case, it is true that dragons and the strongest creatures have also adopted this 'attack the weakest' policy.
+<p>
+The Ados Mayor has been grateful for help with his 'rat problem' - but the situation is getting worse, with more rats 
+invading the city whenever one spots an opportunity. To help Ados just listen out for Mayor Chalmers: he'll surely call when he needs help. He's also sent warriors to investigate the so-called 'Rat City' deep in Or'ril dungeons, who have noticed increased activity there recently, a larger population of the talking rat men and women, and some open doors to reach new dungeons.
+<p>
+As you explore it's good to know what you're looking at and how you can interact with the world. Now your mouse cursor gives you a hint: for enemies it displays a sword representing combat, for other people, or signs to look at, a magnifying glass is shown, for the ground you can walk on, some footprints, and so on. For those already with /clickmode set for single click walking, these actions shown by the mouse are done with a single click, too. This includes attack, look, inspect or loot a corpse, use a portal (even from a distance). There is no change for those with double click /clickmode. Using items from the bag will remain double click for everyone (since you may single click on items to drag and drop them).
+<p>
+There's much more news than can fit here, so to read about the many other changes please check <a href="?arianne_url=games/game_stendhal#changes">the Stendhal changelog.</a>
+]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 0.82.1 released</title>
+    <date>28th March 2010</date>
+    <images>
+     </images>
+    <content>
+      <![CDATA[Stendhal 0.82.1 adds the command /clickmode to toggle between single click walk and double click walk. It also fixes a bug in owning pets, /mute being remembered across restart, and an issue for Microsoft Windows users when moving corpses. For full details please see <a href="?arianne_url=games/game_stendhal#changes">the Stendhal changelog.</a>
+]]>
+      </content>
+  </item>
+
+ <item>
+    <title>Spring Festival and Tournament</title>
+    <date>27th March 2010</date>
+    <content>
+      <![CDATA[We had a big party in Ados to celebrate Spring. Maria was on hand to sell party food and drinks, and there was a Tournament where players challenged each other to prove their strength. The party got a huge number of guests! 
+      <div align="center"><a href="screens/stendhal/party20100327.jpg"><img src="screens/stendhal/party20100327_small.jpg" alt="Spring Tournament" width="100%" height="100%"/></a></div>
+<p>bell13 and snakevip were chosen as first place winners, with killerm, love_puppet and emily  in second place. Well done all! You can read the full results from the Tournament, with details of every fight, at <a href="http://stendhalgame.org/wiki/index.php/Stendhal_Events/SpringFestival201003">our wiki</a>.
+      <div align="center"><img src="screens/stendhal/winners20100327.jpg"></div>
+]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 0.82: Spring is coming!</title>
+    <date>26th March 2010</date>
+    <images>
+      <image url="screens/stendhal/orb82.png"/>
+      <image url="screens/stendhal/sound82.png"/>
+      <image url="screens/stendhal/rats82.png"/>
+    </images>
+    <content>
+      <![CDATA[Is that a giant soap bubble which has landed in Kalavan City? No, it's a magical orb, and provided that Ilisa has taught you the art of scrying, you can use this magical orb to take you ... erm ... who knows! Somewhere fun, that's for sure. While you're in the Kalavan area, if you can brave the castle, you'll find someone with a favour to ask you.
+<p>If you get around using automatic walking, you should notice smoother movement, and that you can start walking with only one click, not two. 
+Hopefully you've been enjoying the rich variety of sounds and music around recently. Now you have ability to set the overall sound volume, and even adjust creature volume independently of the background music volume, for example.  
+<p>Rats are particularly noisy little critters, and Ados is starting to have a bit of a rat problem. When you hear the Ados mayor shout for help, would you please go kill some rats in buildings inside Ados? The city is getting overrun and he'll reward you well.
+<p>Spring is well on the way, so if you are lucky you can find the Easter Bunny hopping about, and he might have a present for you. And we'd love it if you can join us for a <a href="http://stendhalgame.org/news/-45.html">Spring festival party</a> this weekend.]]>
+      </content>
+  </item>
+
+
+ <item>
+    <title>Stendhal Client Quality Week</title>
+    <date>5th March 2010</date>
      <content>
-      <![CDATA[Thanks to some bug reports from helpful players we have been able to fix a couple of issues with the latest release, for full details please see <a href="?arianne_url=games/game_stendhal#changes">the Stendhal changelog.</a>]]>
+      <![CDATA[
+Our <a href="http://stendhalgame.org/news/client-quality-week-43.html">Client Quality Week</a> has already resulted in useful bug 
+reports from helpful players. Thanks to this we have been able to make bugfix releases Stendhal 0.81.1 and 0.81.2 
+which fix a couple of issues with the latest release, 
+for full details please see <a href="?arianne_url=games/game_stendhal#changes">the Stendhal changelog.</a>
+<br>
+Thanks everyone for uploading your error log files and please continue to do so.]]>
       </content>
   </item>
 
@@ -41,18 +202,18 @@
     <content>
       <![CDATA[
 Did you know that one of your friends from Semos is a composer of music? <a 
-href="http://stendhal.game-host.org/character/storyteller.html">Storyteller</a> wrote some songs and they're playing now in various places. <a 
-href="http://stendhal.game-host.org/character/plassy.html">Plassy</a> created the system to play the music and <a 
-href="http://stendhal.game-host.org/character/hendrik.html">hendrik</a> showed Margaret 
+href="http://stendhalgame.org/character/storyteller.html">Storyteller</a> wrote some songs and they're playing now in various places. <a 
+href="http://stendhalgame.org/character/plassy.html">Plassy</a> created the system to play the music and <a 
+href="http://stendhalgame.org/character/hendrik.html">hendrik</a> showed Margaret 
 in 
 the tavern and the spirits in the dungeons how to play it. 
 <p>
-The telepath Io Flotto has strengthened the /ignore instruction for you. Now, when you are ignoring chat from another, they look shaded out to black. It means you won't see the outfit and the name becomes less readable. In the demonstration image here you can see Athor labyrinth, which <a href="http://stendhal.game-host.org/character/laguz.html">Laguz</a> has redecorated.
+The telepath Io Flotto has strengthened the /ignore instruction for you. Now, when you are ignoring chat from another, they look shaded out to black. It means you won't see the outfit and the name becomes less readable. In the demonstration image here you can see Athor labyrinth, which <a href="http://stendhalgame.org/character/laguz.html">Laguz</a> has redecorated.
 <p>
-Did you sometimes have problems with holes in your bag when you moved items around in it? Well, Ida the seamstress has very kindly sewed them all up for you. We think that <a href="http://stendhal.game-host.org/character/kiheru.html">kiheru</a> taught her a new technique, and now you should accidentally drop items less. 
+Did you sometimes have problems with holes in your bag when you moved items around in it? Well, Ida the seamstress has very kindly sewed them all up for you. We think that <a href="http://stendhalgame.org/character/kiheru.html">kiheru</a> taught her a new technique, and now you should accidentally drop items less. 
 <p>
 Finally for those of you who love playing so much that you would like your own server to play on, the installation process has been <a 
-href="http://stendhal.game-host.org/wiki/index.php/Easy_Stendhal_Installation_On_Windows">vastly 
+href="http://stendhalgame.org/wiki/index.php/Easy_Stendhal_Installation_On_Windows">vastly 
 simplified</a>. Remember, Stendhal is software released under an open source license, the <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a>!
 ]]>
       </content>
@@ -235,7 +396,7 @@ We're really happy to announce that the Stendhal client is now <b>compatible wit
     <title>Marauroa 3.0: multithreading and extended database support</title>
     <date>2 August 2009 23:16:00</date>
     <content>
-      <![CDATA[With Marauroa 3.0, the game engine now supports multithreading, and it is possible to run parallel transactions in different threads. JDBCDatabase has been split into several small *DAO (Data Access Object) classes. Low level database operations are now in the new package marauroa.server.db. These changes will require you to port any application using Marauroa, so for help on how to port your application see <a href="http://stendhal.game-host.org/wiki/index.php/Refactoring_Database_Access_in_Marauroa">Refactoring Database Access in Marauroa</a>. Additionally, we have begun work on supporting other database systems beside MySQL. 
+      <![CDATA[With Marauroa 3.0, the game engine now supports multithreading, and it is possible to run parallel transactions in different threads. JDBCDatabase has been split into several small *DAO (Data Access Object) classes. Low level database operations are now in the new package marauroa.server.db. These changes will require you to port any application using Marauroa, so for help on how to port your application see <a href="http://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Marauroa">Refactoring Database Access in Marauroa</a>. Additionally, we have begun work on supporting other database systems beside MySQL. 
 ]]>
       </content>
   </item> 
@@ -272,7 +433,7 @@ instead. They are quite tricky so if you can't solve it, you can still leave the
 other players. It's not the kind of thing to ask help on, either try to solve it or don't bother, just asking for the answer is cheating. 
 <p>
 Eight more ados houses have opened for sale and all existing houses images have been updated on 
-<a href="http://stendhal.game-host.org/wiki/index.php/StendhalHouses">StendhalHouses</a>
+<a href="http://stendhalgame.org/wiki/index.php/StendhalHouses">StendhalHouses</a>
  - on that wiki page you will find all the updated information about how player houses got improved in the previous release of 0.73 so you may 
 find it worth reading. Don't forget older houses will become available all the time as their owners resell them or they become reclaimed by the 
 state. There are also some special apartments available in an exciting holiday location, a limited number only. 

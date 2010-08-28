@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2010/02/24"/>
-  <version id="0.81.1"/>
+  <updated date="2010/07/28"/>
+  <version id="0.86.1"/>
   <status value="stable"/>
   <type value="game"/>
   <cssdoc url="css/stendhal.css"/>
@@ -18,7 +18,7 @@
 MMORPG & MPOG" border="0"></a>]]>    
     </entry>-->
   <entry>
-      <![CDATA[&nbsp;&nbsp; <script type="text/javascript" src="http://www.ohloh.net/projects/3711/widgets/project_users?style=green"></script>]]>
+      <![CDATA[&nbsp;&nbsp; <script type="text/javascript" src="http://www.ohloh.net/projects/3711/widgets/project_users"></script>]]>
     </entry>
 
   </rated>
@@ -27,7 +27,7 @@ Are you looking for adventure? Want to fight for riches?<br>
 Develop yourself and your social standing? Meet new people?<br>
 Do you want to be part of a brave new world?
 <p/>
-Stendhal is a fully fledged <b>multiplayer</b> online adventures game (MMORPG) developed using the Arianne game development system.
+<a href="http://stendhalgame.org">Stendhal</a> is a fully fledged <b>multiplayer</b> online adventures game (MMORPG) developed using the Arianne game development system.
 <p/>
 Stendhal features a new, rich and expanding world in which you can explore towns, buildings, plains, caves and dungeons. <br>
 You will meet NPCs and acquire tasks and quests for valuable experience and cold hard cash.<br>
@@ -40,9 +40,8 @@ So what are you waiting for?! A whole new world awaits...]]>
   </description>
   <extended><![CDATA[
   <p/><h2>Want to help us?</h2>
-  Stendhal started as a reference to test <a href="?arianne_url=servers/server_marauroa">Marauroa</a> features.<br/>
   The game is right now <b>PLAYABLE</b> and <b>FUN</b>.<p/>
-  We would really love to get your help <a href="http://stendhal.game-host.org/wiki/index.php/Navigation_for_Stendhal_Contributors">contributing</a>.
+  We would really love to get your help <a href="http://stendhalgame.org/wiki/Navigation_for_Stendhal_Contributors">contributing</a> and if you are interested you can learn a lot more about Stendhal at <a href="http://stendhalgame.org/wiki/Stendhal">Stendhal's wiki</a>.
 
   <p/><h2>Play now!</h2>
   Stendhal uses Java Webstart technology that enables you to use always the latest version available without having to worry about updates.<br>
@@ -50,9 +49,215 @@ So what are you waiting for?! A whole new world awaits...]]>
   <p/><a href="http://arianne.sourceforge.net/jws/stendhal.jnlp"><img src="images/webstart.png" alt="Click here to play"></a>
   ]]>
   </extended>
-  <manual url="http://arianne.sourceforge.net/wiki/index.php/StendhalManual"/>  
+  <manual url="http://stendhalgame.org/wiki/StendhalManual"/>  
   <changelog><![CDATA[
-<br><b>Stendhal 0.81.1</b>
+<p><b>0.86.1</b>
+<br><b>*bugfixes*</b>
+<br>- If floating windows were saved under settings panel, move them on login
+<br>- updater package does not use DefaultGameProperties, only use properties file, to make it easier for other projects to understand how to use updater without breaking it
+<br>- use new 0.86.1 base for updater due to problems with webstart clients from 0.85
+<br>- remove db_id entries from buddy list
+<br>- offer deletion of update files in case of a security exception
+
+<p><b>0.86</b>
+<br><b>*world*</b>
+<br>-new quest at the wizards tower in semos mountain
+<br>-new music by semos dungeon, in semos and ados townhall, semos temple, ados church and in the forest
+<br>-new sounds on the athor ship, in the ados sewers, at the ados city haven and some minor additions
+<br>-Ados and Fado churches ring their bells at full and half hours
+<br>-initial Hayunn dialog/tutorial streamlined and improved
+<br>-Diogenes tells you about postman, he recently remembered that used to be his job
+<br>-a sign at the flowers field which shows the meaning of these flowers
+<br>-marked path from semos to ados city and to the athor ferry pier on ados coast
+<br>-new npc added to ados market, who buys blue shield 
+<br>-Simon in Ados church offers helpful guidance
+<br>-blackjack max stake raised to 400
+<br>-bakers want more button mushrooms
+
+<br><b>*client*</b>
+<br>-attack targets drawn as circles
+<br>-settings panel uses icons and is always visible
+<br>-new help menus for settings panel
+<br>-"Remove account" button moved next to the account list
+<br>-right click and ignore a player, or right click and unignore an already ignored player
+<br>-/storemessage <player> <message> for using postman
+<br>-karma scale bar (activated by asking Sarzina)
+
+<br><b>*bugfixes*</b>
+<br>-walkblocker tables have proper resistance
+<br>-Mac OSX cmd key mapping
+<br>-getting an amulet when killing thing
+
+<br><b>*code*</b>
+<br>-portals can do actions 
+<br>-Messages from NPCs to offline players for postman can be stored in a table (without postman online)
+<br>-SBoxLayout supports alignment and padding
+<br>-support messages will get sent using postman if the player was offline
+<br>-postman uses an admin action to store messages in table
+
+<p><b>0.85</b>
+<br><b>*features*</b>
+<br>- all gui components use a new wood panel theme (even ones which did not have wood before)
+<br>- character selection dialog after account login
+<br>- login profiles can be cleaned up
+<br>- right click and 'Where' yourself
+<br>- /listproducers command for working NPCs
+<br>- quest to help Phalk with food and clothes
+<br>- slow down when walking over resisting entities
+<br>- take resistance into consideration when choosing path
+<br>- use more karma at the well and count activities
+<br>- added descriptions to some npcs
+<br>- new npc in ados church
+<br>- new tutorial messages for receiving items and private messages
+<br>- rats in semos village are not cowards
+
+<br><b>*code*</b>
+<br>- players can't use npc names or creature names
+<br>- cannot add buddy who doesn't exist
+<br>- refactored Kanmararn Soldiers quest
+<br>- style code completely rewritten as a swing look & feel, and extended to all components used by stendhal
+<br>- a script for calculating item drop rarities
+<br>- quests history refactored to not use xml
+<br>- many semos npcs reverted to not use xml for configuration
+  
+<br><b>*bugfixes*</b>
+<br>- upper part of grain is not counted as grain (can move between grain fields)
+<br>- raid creatures no longer have attack weakest profile even if the creature normally would
+<br>- weekly item quest xp reward
+<br>- quest completed check where completed state is set to other than 'done'
+<br>- initial Hayunn dialog/tutorial cleaned up
+
+<p><b>0.84</b>
+<br><b>*features*</b>
+<br>- new quest from Balduin if you have completed all other quests to get or collect rare weapons
+<br>- daily and weekly item quests can ask for more than one of each item at once
+<br>- eating, poisoned, grumpy and away status are shown in the stats panel
+<br>- Dr. Feelgood can heal pets
+<br>- Zoo Food quest is repeatable and food item request is randomised
+<br>- pizza delivery missions selected by level
+<br>- client can be started with username and password as parameters to bypass login gui (not for use on multi-user systems)
+<br>- an arrow effect drawn for distance attacks
+<br>- mrotho and diehelm brui sell arrows (and merenwen pays a bit less for arrows)
+<br>- sarzina sells mega potions
+<br>- temporary bans can be made using /ban
+<br>- reason for ban is visible to player
+<br>- new missile, a fire shuriken
+
+<br><b>*code*</b>
+<br>- new simple layout manager to replace the abandoned pagelayout
+<br>- reworked zone configurators for Kill Dark Elves quest and for Kill Spiders quest.
+<br>- reworked Daily Monster quest NPC engine
+<br>- reworked kill quests to not clear player's information about previous killed creatures:
+<br>  - Daily Monster quest
+<br>  - Kill Gnomes quest
+<br>  - Kill Dhohr Nuggetcutter quest
+<br>  - Clean Storage Space quest
+<br>  - Club Of Thorns quest
+<br>  - Meet Hayunn quest
+<br>  - Sad Scientist quest
+<br>- npc conditions and actions for randomised item collection quests
+<br>- fixed bug with xp display after death
+<br>- ranged attack bug fixes on using up last missile and throwing from 1 tile away
+<br>- email address field may be left completely empty on account creation 
+<br>- /inspect command output improved for viewing quests, karma, and coordinates
+
+<br><b>*website*</b>
+<br>- performance optimisation
+<br>- bugfixes including player display on firefox
+<br>- spouse of a married player is displayed 
+
+<p><b>0.83</b>
+<br><b>*features*</b>
+<br>- Rat City extended
+<br>- Find the Rat Children quest
+<br>- some creatures have attack strategy choosing weakest opponent (e.g. dragons, military commanders, bosses)
+<br>- Zynn Iwuhos has some maps on display in the library
+<br>- Tab completion for online nick names works now without /who called before
+<br>- orc spearman creature
+<br>- /atlas /faq and /manual commands to open useful pages in browser
+<br>- Harold tweets trades, the official stendhal server uses <a href="http://twitter.com/stendhaltrade">http://twitter.com/stendhaltrade</a>
+<br>- magical damage types of weapons (fire, ice ...)
+<br>- resistance/vulnerability of creatures to magical weapons (fire, ice, ...)
+<br>- attack sweeps look different depending on the attack type
+<br>- Haizen's maze has music near the exit
+<br>- Plan a new route when a player following a path hits another entity
+<br>- single click for most actions and contextual mouse cursors (use /clickmode if you prefer doubleclick)
+<br>- sub-zone teleport restrictions
+<br>- NPCs can respond to emote actions
+<br>- fertile ground inside houses
+<br>- zone changing using mouse is possible
+<br>- a family of NPCs holidaying in Ados
+<br>- more rats and zones for the Pied Piper quest
+
+<br><b>*bugfixes*</b>
+<br>- archer behaviour
+<br>- zero value offers supported at market
+<br>- Monogenes easier to use
+<br>- kill spiders and dark elves quests check you killed creatures from those relevant areas
+<br>- recover automatically from corrupted cache files
+<br>- ghosts have low hp like intended
+<br>- turns walking along a path are now smooth
+<br>- using a portal from distance walks the player to the portal
+<br>- the client can cope better with differing tile sizes
+
+<br><b>*code*</b>
+<br>- creatures xml split into smaller parts
+<br>- attacks are now events
+<br>- signs can show an image instead of 'You read: ' text, or a description
+<br>- Charas Converter jar available to download
+
+<br><b>*website*</b>
+<br>- new domain stendhalgame.org
+<br>- rss feeds
+
+
+<p><b>Stendhal 0.82.1</b>
+<br>- new command /clickmode to toggle between single click walking and double click walking
+<br>- fixed movement to drop target (only Microsoft Windows was affected)
+<br>- fixed /mute not being stored across restarts
+<br>- fixed pets not ownable
+
+<p><b>Stendhal 0.82</b>
+<br><b>*features*</b>
+<br>- single click movement
+<br>- Easter Bunny
+<br>- Pied Piper quest
+<br>- open manual on key F1
+<br>- added /volume support for sound
+<br>- asynchronous database access
+<br>- Kalavan orb
+<br>- Sad Scientist quest
+<br>- Dice Gambling prizes upgraded
+
+<br><b>*admin*</b>
+<br>- new /script AdminPortal.class
+<br>- support answer contains the name of the asking player in the greeting
+
+<br><b>*website*</b>
+<br>- added detail view of news items on their own pages (with nice urls)
+<br>- improvements to various icons
+<br>- reorganisation and cleanup of http://arianne.sf.net
+
+<br><b>*bug fixes*</b>
+<br>- Carmen only asks for her quest if the player is at least level 2.
+<br>- improved stability of the client in uncommon situations
+<br>- stat changes that occurred during zone change (like losing xp on death) did not update the stats window.
+<br>- click walking is now a lot smoother
+<br>- fixed Harold telling players about expiring earnings every minute
+
+<p><b>Stendhal 0.81.2</b>
+<br><b>*bug fixes*</b>
+<br>- fixed a crash on Linux using alsa (non pulse) audio drivers and Sun Java (not OpenJDK) 
+  if all channels are in use by another application
+<br>- fixed rare InvalidVersionExceptions in the network code on high latency connections 
+  (for example for people living outside Europe to an server in Europe)
+<br>- handle failure to load sprite images more gracefully
+<br>- improved logging of uncaught exceptions 
+<p>
+0.81.2 contains the first results of the Client Quality Weeks. Thanks everyone for providing
+your error log files and please continue to do so.
+
+<p><b>Stendhal 0.81.1</b>
 <br><b>*bug fixes*</b>
 <br>- fixed an issue with 0 hp created by logging out while dying (thanks to Andrzej Kofanski)
 <br>- prevent client crash on empty soundNameList
@@ -124,8 +329,8 @@ So what are you waiting for?! A whole new world awaits...]]>
 <br>- NPC chat and creature noises using RPEvent
 <br>*website*
 <br>- nicer urls for subpages on the website
-<br>- a new version of the atlas with dungeon entrances: http://stendhal.game-host.org/wiki/index.php/File:WorldWithMarkedDungeons091122.png
-<br>- dedicated testing page on wiki http://stendhal.game-host.org/wiki/index.php/Stendhal_Testing
+<br>- a new version of the atlas with dungeon entrances: <a href="hhttp://stendhalgame.org/wiki/File:WorldWithMarkedDungeons091122.png">http://stendhalgame.org/wiki/File:WorldWithMarkedDungeons091122.png</a>
+<br>- dedicated testing page on wiki <a href="http://stendhalgame.org/wiki/Stendhal_Testing">http://stendhalgame.org/wiki/Stendhal_Testing</a>
 <br>- Stendhal Manual on the wiki updated with new images
 
 <p><b>Stendhal 0.79</b>
@@ -212,8 +417,8 @@ from http://mapeditor.org/
 <br>- black dragon, flying golden dragon
 <br>- skeletons, fallens of all kinds
 <br>* Admin
- <br> - support log available at http://stendhal.game-host.org
- <br> - player history available at http://stendhal.game-host.org/?id=content%2Fadmin%2Fplayerhistory&name=NAME&sublogin=Search
+ <br> - support log available at http://stendhalgame.org
+ <br> - player history available at http://stendhalgame.org/?id=content%2Fadmin%2Fplayerhistory&name=NAME&sublogin=Search
  <br> - new command /adminnote
  <br> - /gmhelp_script and /gmehlp_alter replaced by /gmhelp script and /gmhelp alter
 <!--
@@ -558,7 +763,7 @@ See <a href="http://arianne.cvs.sourceforge.net/viewvc/*checkout*/arianne/stendh
       </os>
     </file>
     <file type="server script binary" name="stendhal-server-XXX.zip">
-      <description>This file contains the stendhal server files. See http://stendhal.game-host.org/wiki/index.php/Host_a_Stendhal_Server</description>
+      <description>This file contains the stendhal server files. See http://stendhalgame.org/wiki/Host_a_Stendhal_Server</description>
       <os>
         <entry name="win32" status="100"/>
         <entry name="linux" status="100"/>
@@ -566,7 +771,7 @@ See <a href="http://arianne.cvs.sourceforge.net/viewvc/*checkout*/arianne/stendh
       </os>
     </file>
     <file type="source" name="stendhal-XXX-src.tar.gz">
-      <description>This file contains the source code to build stendhal. See http://stendhal.game-host.org/wiki/index.php/Stendhal#Build_information </description>
+      <description>This file contains the source code to build stendhal. See http://stendhalgame.org/wiki/Stendhal#Build_information </description>
       <os>
         <entry name="win32" status="100"/>
         <entry name="linux" status="100"/>
@@ -575,10 +780,21 @@ See <a href="http://arianne.cvs.sourceforge.net/viewvc/*checkout*/arianne/stendh
     </file>
   </files>
   <servers>
-    <server name="Game server" url="http://stendhal.game-host.org/"/>
+    <server name="Game server" url="http://stendhalgame.org/"/>
   </servers>
   <authors>
+    <entry name="kymara" url="http://www.ohloh.net/accounts/kymara"/>
+    <entry name="Hendrik" url="http://www.ohloh.net/accounts/nhnb"/>
+    <entry name="kiheru" url="http://www.ohloh.net/accounts/kiheru"/>
+    <entry name="madmetzger" url="http://www.ohloh.net/accounts/madmetzger"/>
+    <entry name="tigertoes" url="http://www.ohloh.net/accounts/tigertoes"/>
+    <entry name="yoriy" url="http://www.ohloh.net/accounts/yoriy"/>
+    <entry name="plassy" url="http://www.ohloh.net/projects/stendhal/contributors/"/>
+    <entry name="durkham" url="http://www.ohloh.net/projects/stendhal/AstridSawatzky"/>
+    <entry name="MartinF" url="http://www.ohloh.net/accounts/martinfuchs"/>
+    <entry name="mort" url="http://www.ohloh.net/projects/stendhal/contributors/"/>
     <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>
+    <entry name="Chad3f" url="http://www.ohloh.net/projects/stendhal/contributors/"/>
     <entry name="Steve I." url="http://arianne.sourceforge.net/wiki/index.php/StephenIerodiaconou"/>
     <entry name="Kim Purnell Samoa" url=""/>
     <entry name="Danter" url="http://arianne.sourceforge.net/wiki/index.php/Danter"/>
@@ -586,16 +802,6 @@ See <a href="http://arianne.cvs.sourceforge.net/viewvc/*checkout*/arianne/stendh
     <entry name="Hans Haggstrom" url="http://www.iki.fi/zzorn/"/>
     <entry name="Jonas aka Damosh" url=""/>
     <entry name="TheGeneral" url=""/>
-    <entry name="Hendrik" url="http://www.ohloh.net/accounts/nhnb"/>
-    <entry name="kymara" url="http://www.ohloh.net/accounts/kymara"/>
-    <entry name="durkham" url="http://www.ohloh.net/projects/stendhal/AstridSawatzky"/>
-    <entry name="MartinF" url="http://www.ohloh.net/accounts/martinfuchs"/>
-    <entry name="mort" url="http://www.ohloh.net/projects/stendhal/contributors/"/>
-    <entry name="Chad3f" url="http://www.ohloh.net/projects/stendhal/contributors/"/>
-    <entry name="kiheru" url="http://www.ohloh.net/accounts/kiheru"/>
-    <entry name="madmetzger" url="http://www.ohloh.net/accounts/madmetzger"/>
-    <entry name="tigertoes" url="http://www.ohloh.net/accounts/tigertoes"/>
-    <entry name="yoriy" url="http://www.ohloh.net/accounts/yoriy"/>
-    <entry name="plassy" url="http://www.ohloh.net/projects/stendhal/contributors/"/>
+
   </authors>
 </game>

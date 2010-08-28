@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <server name="marauroa">
-  <updated date="2010/02/23"/>
-  <version id="3.5"/>  
+  <updated date="2010/07/25"/>
+  <version id="3.8.1"/>  
   <status value="complete"/>
   <rated>
    <entry>
@@ -25,6 +25,8 @@ can ask server to do any action in their names using actions.
 Marauroa is totally game agnostic and makes very little assumptions about what 
 are you trying to do, allowing a great freedom to create whatever type of game 
 you want.<p/>
+For (lots) more information on Marauroa please see <a href = "http://stendhal.game-host.org/wiki/index.php/Marauroa">Marauroa's wiki pages</a>.
+
 ]]>
   </description>
   <extended><![CDATA[
@@ -67,6 +69,41 @@ you want.<p/>
     ]]>
   </extended>
   <changelog><![CDATA[
+
+<br><b>3.8.1</b>
+<br>- added new method ClientFrameWork.sendKeepAlive for keeping the connection open more than 10 minutes in the character selection state pre game
+<br>- added new method DBCommandQueue.getOneResult
+<br>- database: added id and status to characters table
+<br>- fixed an issue if a client with version 32 and a client with version 32 are in the same zone
+
+<br><b>3.8</b>
+<br>- attributes of type map
+<br>- multi protocol version support for client server communication (from 
+version 31 to 40)
+<br>- multi protocol version support for database storage
+<br>- added ability to RPClass.bake() the RPClass to speed up performance.
+<br>- logins are now processed asynchronously to speed up performance
+<br>- only count clients that are in game in the statistics (not the ones 
+waiting to connect or waiting to logout)
+<br><b>Please see <a href = "http://stendhalgame.org/wiki/Marauroa_3.8">http://stendhalgame.org/wiki/Marauroa_3.8</a> for details on 
+those features</b>
+
+<br><b>3.7.9</b>
+<br>- all the features of 3.8 but with the client protocol version set to 32, so disabling the requesting of maps
+
+
+<br><b>3.7</b>
+<br>- Note: Make sure that you place the player into the world in RPRuleProcessor.onInit() and not in 
+RPObjectFactory.transform
+<br>- character list now includes the RPObject to provide details if the network protocol version is >= 32
+<br>- improved performance by processing client message outside the PlayerEntryContainer lock
+<br>- added detailed error message if a transaction is accessed from another thread
+<br><b>3.6</b>
+<br>- added number of unique ips to statistics in addition to number of players
+<br>- provided an infrastructure for asynchronous database access (not used at all places yet)
+
+<br><b>3.5.1</b>
+<br>- fixed reading of size from the network stream in case it was split over multiple packets
 
 <br><b>3.5</b>
 <br>- limit number of parallel connections from one ip-address, see <a href="http://stendhal.game-host.org/wiki/index.php/Configuration_file_server.ini#Limits">Configuration file server.ini</a>
