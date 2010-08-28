@@ -67,7 +67,7 @@ There is not currently a JMaPacman server active.</b> ]]></description>
         <entry name="macosx" status="100"/>
       </os>
       <dependencies>
-        <entry name="marauroa" url="http://arianne.sourceforge.net/?arianne_url=content/download#server"/>
+        <entry name="marauroa" url="/download.html#server"/>
       </dependencies>
     </file>
   </files>

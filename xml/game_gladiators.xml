@@ -12,7 +12,7 @@
     Your main goal is to get fame so that you can buy better equipment, and better gladiators.<p/>]]>
   </description>
 
-  <manual url="?arianne_url=docs/gladiators/gladiators_manual"/>  
+  <manual url="/docs/gladiators/gladiators_manual.html"/>  
   <screenshots>
     <image name="20040220_Gladiators.jpg"/>
   </screenshots>

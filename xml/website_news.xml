@@ -31,7 +31,7 @@ Perhaps the sorceress Sarzina visited the Wizards Circle, for she has a new powe
 <p>
 The magic from that round tower is overspilling into the world, and your imagination. What was square has become circular - when you visualise attacks, you'll now see circles. Your hearing may be more advanced, with strains of music, bells, and other sounds now audible that you could not hear before. 
 <p>
-You'll find heightened awareness of the world around you, for example pathways will be more clearly marked and you can more readily access your inventory, or any help you need. If you keep your eyes and ears open, you'll discover many more magical little <a href ="http://arianne.sourceforge.net/?arianne_url=games/game_stendhal#changes">changes</a> in the world.
+You'll find heightened awareness of the world around you, for example pathways will be more clearly marked and you can more readily access your inventory, or any help you need. If you keep your eyes and ears open, you'll discover many more magical little <a href="/game/stendhal.html#changes">changes</a> in the world.
 ]]>
       </content>
   </item>
@@ -41,7 +41,7 @@ You'll find heightened awareness of the world around you, for example pathways w
     <title>Marauroa 3.8.1 released</title>
     <date>25th July 2010</date>
     <content>
-      <![CDATA[Marauroa 3.8.1 is released. Marauroa 3.8.1 is mostly a bug fix release, with some additional work around characters. For full details please see <a href="http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa#changes">marauroa's
+      <![CDATA[Marauroa 3.8.1 is released. Marauroa 3.8.1 is mostly a bug fix release, with some additional work around characters. For full details please see <a href="/engine/marauroa.html#changes">marauroa's
 changelog</a>.]]>
       </content>
   </item>
@@ -66,7 +66,7 @@ Stendhal 0.85 has some changes you'll notice as you start the client, too. There
     <date>26th June 2010</date>
     <content>
       <![CDATA[Marauroa 3.8 is released! Marauroa 3.8 adds version compatibility between client and server of different protocol versions. There are two kinds of extensions to the protocol: details in the character list, and maps attributes. Performance is also optimised, with asynchronous login, and 'baking' of RPClasses. Full details are at <a href = "http://stendhalgame.org/wiki/Marauroa_3.8">http://stendhalgame.org/wiki/Marauroa_3.8</a>, and you can also refer to <a href
-="http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa#changes">marauroa's
+="/engine/marauroa.html#changes">marauroa's
 changelog</a>.]]>
       </content>
   </item>
@@ -94,7 +94,7 @@ changelog</a>.]]>
     <date>1st June 2010</date>
     <content>
       <![CDATA[Marauroa 3.7 is released, with changes to handling of characters. Full details are at <a href 
-="http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa#changes">marauroa's 
+="/engine/marauroa.html#changes">marauroa's 
 changelog</a>.]]>
       </content>
   </item>
@@ -122,7 +122,7 @@ invading the city whenever one spots an opportunity. To help Ados just listen ou
 <p>
 As you explore it's good to know what you're looking at and how you can interact with the world. Now your mouse cursor gives you a hint: for enemies it displays a sword representing combat, for other people, or signs to look at, a magnifying glass is shown, for the ground you can walk on, some footprints, and so on. For those already with /clickmode set for single click walking, these actions shown by the mouse are done with a single click, too. This includes attack, look, inspect or loot a corpse, use a portal (even from a distance). There is no change for those with double click /clickmode. Using items from the bag will remain double click for everyone (since you may single click on items to drag and drop them).
 <p>
-There's much more news than can fit here, so to read about the many other changes please check <a href="?arianne_url=games/game_stendhal#changes">the Stendhal changelog.</a>
+There's much more news than can fit here, so to read about the many other changes please check <a href="/game/stendhal.html#changes">the Stendhal changelog.</a>
 ]]>
       </content>
   </item>
@@ -133,7 +133,7 @@ There's much more news than can fit here, so to read about the many other change
     <images>
      </images>
     <content>
-      <![CDATA[Stendhal 0.82.1 adds the command /clickmode to toggle between single click walk and double click walk. It also fixes a bug in owning pets, /mute being remembered across restart, and an issue for Microsoft Windows users when moving corpses. For full details please see <a href="?arianne_url=games/game_stendhal#changes">the Stendhal changelog.</a>
+      <![CDATA[Stendhal 0.82.1 adds the command /clickmode to toggle between single click walk and double click walk. It also fixes a bug in owning pets, /mute being remembered across restart, and an issue for Microsoft Windows users when moving corpses. For full details please see <a href="/game/stendhal.html#changes">the Stendhal changelog.</a>
 ]]>
       </content>
   </item>
@@ -176,7 +176,7 @@ Hopefully you've been enjoying the rich variety of sounds and music around recen
 Our <a href="http://stendhalgame.org/news/client-quality-week-43.html">Client Quality Week</a> has already resulted in useful bug 
 reports from helpful players. Thanks to this we have been able to make bugfix releases Stendhal 0.81.1 and 0.81.2 
 which fix a couple of issues with the latest release, 
-for full details please see <a href="?arianne_url=games/game_stendhal#changes">the Stendhal changelog.</a>
+for full details please see <a href="/game/stendhal.html#changes">the Stendhal changelog.</a>
 <br>
 Thanks everyone for uploading your error log files and please continue to do so.]]>
       </content>
@@ -187,7 +187,7 @@ Thanks everyone for uploading your error log files and please continue to do so.
     <title>Marauroa 3.5 released</title>
     <date>23rd February 2010</date>
     <content>
-      <![CDATA[Marauroa 3.5 adds the ability to limit parallel connections and account creation, and these limits are configurable. Full details can be found at <a href="http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa#changes">the Marauroa changelog</a>.]]>
+      <![CDATA[Marauroa 3.5 adds the ability to limit parallel connections and account creation, and these limits are configurable. Full details can be found at <a href="/engine/marauroa.html#changes">the Marauroa changelog</a>.]]>
       </content>
   </item>
 
@@ -223,7 +223,7 @@ simplified</a>. Remember, Stendhal is software released under an open source lic
     <title>Marauroa 3.4 released</title>
     <date>19th February 2010</date>
     <content>
-      <![CDATA[Marauroa 3.4 adds support for the H2 serverless database system, as an alternative to MySQL. There are a number of other new features, relating to setting the max number of players, temporary bans and inactive accounts. Full details can be found at <a href="http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa#changes">the Marauroa changelog</a>.]]>
+      <![CDATA[Marauroa 3.4 adds support for the H2 serverless database system, as an alternative to MySQL. There are a number of other new features, relating to setting the max number of players, temporary bans and inactive accounts. Full details can be found at <a href="/engine/marauroa.html#changes">the Marauroa changelog</a>.]]>
       </content>
   </item>
 
@@ -285,7 +285,7 @@ Marauroa 3.3 introduces new features: RPEvents can have RPSlots. This means that
                 client can contain more complex data. Games using Marauroa can now check the structure of the database using
                 doesTableExist and doesColumnExist in order to update it.
 <p>There are also some bug fixes, to make Marauroa more stable, for example in the case of database errors. Full details can
-                be found in the <a href="http://arianne.sourceforge.net/?arianne_url=servers/server_marauroa#changes">change log</a>.
+                be found in the <a href="/engine/marauroa.html#changes">change log</a>.
 ]]>
      </content>
   </item>
@@ -1995,8 +1995,8 @@ Backtracking detected --> Rotating
 		Thanks to Steve I. , we all now have a manual for Gladiators. Please check it 
 		and as usual report any kind of problems that you may find.<p/>
 		Manual is at Documentation: 
-		<a href="index.php?arianne_url=games/gladiators/gladiators_manual">manual</a>
-      ]]>
+		<a href="/doc/gladiators/gladiators_manual.html">manual</a>
+      ]]> <!-- TODO -->
       </content>
   </item>
   <item>

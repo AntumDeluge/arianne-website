@@ -1,10 +1,12 @@
 RewriteEngine On
 Options -multiviews
 
+RewriteRule ^docs/(.*).html$ index.php?arianne_url=docs/$1 [L,env=arianne:rewrite]
 RewriteRule ^engine/(.*).html$ index.php?arianne_url=servers/server_$1 [L,env=arianne:rewrite]
-RewriteRule ^game/index.html$ index.php?arianne_url=games [L,env=arianne:rewrite]
+RewriteRule ^game/index.html$ index.php?arianne_url=content/games [L,env=arianne:rewrite]
 RewriteRule ^game/(.*).html$ index.php?arianne_url=games/game_$1 [L,env=arianne:rewrite]
 RewriteRule ^tool/(.*).html$ index.php?arianne_url=tools/tool_$1 [L,env=arianne:rewrite]
+RewriteRule ^client/(.*).html$ index.php?arianne_url=clients/client_$1 [L,env=arianne:rewrite]
 RewriteRule ^news/(.*).html$ index.php?arianne_url=content/news&title=$1 [L,env=arianne:rewrite]
 RewriteRule ^(.*).html$ index.php?arianne_url=content/$1 [L,env=arianne:rewrite]
 

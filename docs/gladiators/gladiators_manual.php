@@ -248,7 +248,7 @@ center of the arena.</p>
 <ul>
   <li><i><b>What Do I Do When I Find A Bug?</b></i>
     <p>Bugs can be reported by creating a bug report on Sourceforge. <a
- href="http://arianne.sourceforge.net/index.php?arianne_url=content/bug">To
+ href="/bug.html">To
 find out in detail what todo click here and visit the appropriate page
 on our website</a>.</p>
     <p>&nbsp; </p>

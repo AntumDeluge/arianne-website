@@ -25,7 +25,7 @@ can ask server to do any action in their names using actions.
 Marauroa is totally game agnostic and makes very little assumptions about what 
 are you trying to do, allowing a great freedom to create whatever type of game 
 you want.<p/>
-For (lots) more information on Marauroa please see <a href = "http://stendhal.game-host.org/wiki/index.php/Marauroa">Marauroa's wiki pages</a>.
+For (lots) more information on Marauroa please see <a href = "http://stendhalgame.org/wiki/index.php/Marauroa">Marauroa's wiki pages</a>.
 
 ]]>
   </description>
@@ -106,7 +106,7 @@ RPObjectFactory.transform
 <br>- fixed reading of size from the network stream in case it was split over multiple packets
 
 <br><b>3.5</b>
-<br>- limit number of parallel connections from one ip-address, see <a href="http://stendhal.game-host.org/wiki/index.php/Configuration_file_server.ini#Limits">Configuration file server.ini</a>
+<br>- limit number of parallel connections from one ip-address, see <a href="http://stendhalgame.org/wiki/index.php/Configuration_file_server.ini#Limits">Configuration file server.ini</a>
 <br>- limit account creation per ip-address in a timeframe, see above
 <br>- fixed null values on H2 in account.timedate and gameEvents.timedate
 
@@ -151,7 +151,7 @@ RPObjectFactory.transform
 <br>- added a new package marauroa.server.db for low level database stuff
 <br>- started to work on supporting other database systems beside mysql
 <br>- for help on how to port your application see <a 
-href="http://stendhal.game-host.org/wiki/index.php/Refactoring_Database_Access_in_Marauroa">Refactoring database access in Marauroa</a>
+href="http://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Marauroa">Refactoring database access in Marauroa</a>
 <br>- fixed some compiler and javadoc warnings
 
 <br><b>2.6.3</b>
