@@ -259,7 +259,7 @@ text-decoration: underline;
     }
 
 /* if you want you can use images as backgrounds to these divs instead */        
-#game-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;}  /*background-image: url("images/gameLogo.gif"); background-repeat:no-repeat; } */
+#game-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;}  /*background-image: url("/images/gameLogo.gif"); background-repeat:no-repeat; } */
 #pw-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;} 
 #rate-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;} 
 

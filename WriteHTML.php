@@ -140,7 +140,7 @@ function WriteShortGameDesc($game)
     $time=explode("/",GameUpdateTime($game,"game"));
     if(time()-mktime(0,0,0,$time[2],$time[1],$time[0])<15*24*60*60)
       {
-      echo '<img src="images/updated.gif" class="update_image" alt="Recently Updated">';
+      echo '<img src="/images/updated.gif" class="update_image" alt="Recently Updated">';
       }
     echo '</li>';
     echo '<li>';
@@ -176,7 +176,7 @@ function WriteLongGameDesc($game)
     $time=explode("/",GameUpdateTime($game,"game"));
     if(time()-mktime(0,0,0,$time[2],$time[1],$time[0])<15*24*60*60)
       {
-      echo '<img src="images/updated.gif" class="update_image" alt="Recently Updated!">';
+      echo '<img src="/images/updated.gif" class="update_image" alt="Recently Updated!">';
       }
     WriteGameStatusTag($game);
     
@@ -345,7 +345,7 @@ function WriteDownloadLink($xml, $type)
       }
     }
   } else {
-    echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$xml[$type]['0 attr']['name'].'#downloadsection"><img src="images/oneszeros.png" alt=ones zeros"></a>';
+    echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$xml[$type]['0 attr']['name'].'#downloadsection"><img src="/images/oneszeros.png" alt=ones zeros"></a>';
   }
 
   if( $type === 'game')
@@ -422,7 +422,7 @@ function WriteDownloadHTML($game, $base, $section=false)
       {
       if(is_array($worksOnOS))
         {
-        echo '<li><img src="images/platforms/'.$worksOnOS['name'].'.png" alt="Operating System Logo"></li>';
+        echo '<li><img src="/images/platforms/'.$worksOnOS['name'].'.png" alt="Operating System Logo"></li>';
         }
       }
     echo '</ul>';
