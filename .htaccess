@@ -1,0 +1,30 @@
+RewriteEngine On
+Options -multiviews
+
+RewriteRule ^engine/(.*).html$ index.php?arianne_url=servers/server_$1 [L,env=arianne:rewrite]
+RewriteRule ^game/index.html$ index.php?arianne_url=games [L,env=arianne:rewrite]
+RewriteRule ^game/(.*).html$ index.php?arianne_url=games/game_$1 [L,env=arianne:rewrite]
+RewriteRule ^tool/(.*).html$ index.php?arianne_url=tools/tool_$1 [L,env=arianne:rewrite]
+RewriteRule ^news/(.*).html$ index.php?arianne_url=content/news&title=$1 [L,env=arianne:rewrite]
+RewriteRule ^(.*).html$ index.php?arianne_url=content/$1 [L,env=arianne:rewrite]
+
+
+#RewriteCond %{env:arianne} ^$
+#RewriteCond %{QUERY_STRING} arianne_url=content/([^&]*)
+#RewriteRule ^.* /%1.html? [R=301]
+
+#RewriteCond %{env:arianne:rewrite} ^$
+#RewriteCond %{QUERY_STRING} arianne_url=games/game_([^&]*)
+#RewriteRule ^.* /game/%1.html? [R=301]
+
+#RewriteCond %{env:arianne:rewrite} ^$
+#RewriteCond %{QUERY_STRING} arianne_url=games/([^&]*)
+#RewriteRule ^.* /game/index.html? [R=301]
+
+#RewriteCond %{env:arianne:rewrite} ^$
+#RewriteCond %{QUERY_STRING} arianne_url=tools/tool_([^&]*)
+#RewriteRule ^.* /tool/%1.html? [R=301]
+
+#RewriteCond %{env:arianne:rewrite} ^$
+#RewriteCond %{QUERY_STRING} arianne_url=servers/server_([^&]*)
+#RewriteRule ^.* /engine/%1.html? [R=301]
