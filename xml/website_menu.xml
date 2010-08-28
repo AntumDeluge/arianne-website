@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <website>
   <menu>
-    <entry name="News" url="/news.html"/>
+    <entry name="News" url="/"/>
     <entry name="About" url="/about.html"/>
     <entry name="Downloads" url="/download.html"/>
     <entry name="Engine" url="/engine/marauroa.html"/>
