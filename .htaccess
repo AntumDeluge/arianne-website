@@ -21,10 +21,6 @@ RewriteCond %{QUERY_STRING} arianne_url=games/game_([^&]*)
 RewriteRule ^.* /game/%1.html? [R=301]
 
 RewriteCond %{QUERY_STRING} !rewrite=3QivnzcY
-RewriteCond %{QUERY_STRING} arianne_url=games/([^&]*)
-RewriteRule ^.* /game/index.html? [R=301]
-
-RewriteCond %{QUERY_STRING} !rewrite=3QivnzcY
 RewriteCond %{QUERY_STRING} arianne_url=tools/tool_([^&]*)
 RewriteRule ^.* /tool/%1.html? [R=301]
 
