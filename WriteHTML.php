@@ -51,7 +51,9 @@ function WriteNewsHTMLForNamedItem($website, $title)
 
 function WriteNewsItemHtml($item)
   {
-    echo '<li><div class="newsitem"><div class="newstitle">'.$item['title'][0].'</div><p class="itemdate">'.$item['date'][0].'</p>';
+    echo '<li><div class="newsitem"><div class="newstitle">'
+    	.'<a class="newstitle" href="/news/'.getNiceURL($item['title'][0]).'.html">'.$item['title'][0].'</a>'
+    	.'</div><p class="itemdate">'.$item['date'][0].'</p>';
 
     if(isset($item['images']))
       {
@@ -85,7 +87,7 @@ function getNiceURL($title)
   $res = strtolower($title);
   $res = preg_replace('/[ _,;.:<>|!?\'"] /', ' ', $res);
   $res = preg_replace('/[ _,;.:<>|!?\'"]/', '-', $res);
-  return urlencode($res.'.html');
+  return urlencode($res);
   }
 
 function imageResize($width, $height, $target) 
