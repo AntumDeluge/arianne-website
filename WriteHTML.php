@@ -599,7 +599,7 @@ function WriteScreenshotsHTML( $game, $base, $archived=false )
         $month = substr($THMfilename, $pos+8, 2);
         $day = substr($THMfilename, $pos+10, 2);
         
-        // TODO: Scale correctly to don't deform the image 
+        // Scale correctly to don't deform the image 
         $image_size = getimagesize(dirname(__FILE__).'/'.$THMfilename);
         $html_size = imageResize($image_size[0], $image_size[1], 150);
 
@@ -619,8 +619,7 @@ function WriteScreenshotsHTML( $game, $base, $archived=false )
       }
     else
       {
-      //  TODO
-      echo "<p class=\"archive\"><a href=\"index.php?arianne_url=content/screenshots&amp;archived=1\">Click here to see all the old images!</a></p>";
+      echo "<p class=\"archive\"><a href=\"/screenshots-archived.html\">Click here to see all the old images!</a></p>";
       }
   }
   

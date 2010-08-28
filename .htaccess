@@ -10,26 +10,29 @@ RewriteRule ^tool/(.*).html$ index.php?arianne_url=tools/tool_$1&rewrite=3Qivnzc
 RewriteRule ^client/(.*).html$ index.php?arianne_url=clients/client_$1&rewrite=3QivnzcY [L]
 RewriteRule ^news/(.*).html$ index.php?arianne_url=content/news&title=$1&rewrite=3QivnzcY [L]
 RewriteRule ^(.*)-all.html$ index.php?show_archive=1&arianne_url=content/$1&rewrite=3QivnzcY [L]
+RewriteRule ^(.*)-archived.html$ index.php?show_archive=1&arianne_url=content/$1&archived=1&rewrite=3QivnzcY [L]
 RewriteRule ^(.*).html$ index.php?arianne_url=content/$1&rewrite=3QivnzcY [L]
 
 
-RewriteCond %{QUERY_STRING} !rewrite=3QivnzcY
+RewriteCond %{QUERY_STRING} rewrite=3QivnzcY
+RewriteRule .* - [L]
+
 RewriteCond %{QUERY_STRING} show_archive=1
 RewriteCond %{QUERY_STRING} arianne_url=content/([^&]*)
-RewriteRule ^.* %1-all.html? [R=301,L]
+RewriteRule .* /%1-all.html? [R=301,L]
 
-RewriteCond %{QUERY_STRING} !rewrite=3QivnzcY
+RewriteCond %{QUERY_STRING} archived=1
 RewriteCond %{QUERY_STRING} arianne_url=content/([^&]*)
-RewriteRule ^.* %1.html? [R=301,L]
+RewriteRule .* /%1-archived.html? [R=301,L]
 
-RewriteCond %{QUERY_STRING} !rewrite=3QivnzcY
+RewriteCond %{QUERY_STRING} arianne_url=content/([^&]*)
+RewriteRule .* /%1.html? [R=301,L]
+
 RewriteCond %{QUERY_STRING} arianne_url=games/game_([^&]*)
-RewriteRule ^.* /game/%1.html? [R=301]
+RewriteRule .* /game/%1.html? [R=301]
 
-RewriteCond %{QUERY_STRING} !rewrite=3QivnzcY
 RewriteCond %{QUERY_STRING} arianne_url=tools/tool_([^&]*)
-RewriteRule ^.* /tool/%1.html? [R=301]
+RewriteRule .* /tool/%1.html? [R=301]
 
-RewriteCond %{QUERY_STRING} !rewrite=3QivnzcY
 RewriteCond %{QUERY_STRING} arianne_url=servers/server_([^&]*)
-RewriteRule ^.* /engine/%1.html? [R=301]
+RewriteRule .* /engine/%1.html? [R=301]

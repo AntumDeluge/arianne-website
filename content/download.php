@@ -9,8 +9,7 @@
 <p>Make sure you have the required dependencies before downloading files.</p>
 
 <p>
-<!-- TODO -->
-<a href="/?show_archive=1&arianne_url=content/download">(Show Archived Games Too...)</a></p>
+<a href="/download-all.html">(Show Archived Games Too...)</a></p>
 
 <a name="games"></a><h1>Games</h1>
 <b>NOTE:</b>To play an arianne game you need to create an account for it. Get more info at each game page.
