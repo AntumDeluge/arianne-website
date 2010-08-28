@@ -51,8 +51,9 @@ function WriteNewsHTMLForNamedItem($website, $title)
 
 function WriteNewsItemHtml($item)
   {
+  	$strippedTitle = getNiceURL($item['title'][0]);
     echo '<li><div class="newsitem"><div class="newstitle">'
-    	.'<a class="newstitle" href="/news/'.getNiceURL($item['title'][0]).'.html">'.$item['title'][0].'</a>'
+    	.'<a class="newsitemtitle" href="/news/'.$strippedTitle.'.html">'.$item['title'][0].'</a>'
     	.'</div><p class="itemdate">'.$item['date'][0].'</p>';
 
     if(isset($item['images']))
