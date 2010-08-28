@@ -11,7 +11,7 @@
       <a href="http://happypenguin.org/show?stendhal"><img src="http://happypenguin.org/rateomatic?stendhal"></a>]]>    
     </entry>
     <entry>
-      <![CDATA[<a href="http://freshmeat.net/projects/stendhal/"><img src="images/fm_logo.png"></a>]]>    
+      <![CDATA[<a href="http://freshmeat.net/projects/stendhal/"><img src="/images/fm_logo.png"></a>]]>    
     </entry>
 <!-- broken link    <entry>
       <![CDATA[<a href="http://www.gamesites200.com/mpog/vote.php?id=1850"><img src="http://www.gamesites200.com/mpog/vote.gif" ALT="Paid and Free
@@ -46,7 +46,7 @@ So what are you waiting for?! A whole new world awaits...]]>
   <p/><h2>Play now!</h2>
   Stendhal uses Java Webstart technology that enables you to use always the latest version available without having to worry about updates.<br>
   Just click on the button to play.
-  <p/><a href="http://arianne.sourceforge.net/jws/stendhal.jnlp"><img src="images/webstart.png" alt="Click here to play"></a>
+  <p/><a href="http://arianne.sourceforge.net/jws/stendhal.jnlp"><img src="/images/webstart.png" alt="Click here to play"></a>
   ]]>
   </extended>
   <manual url="http://stendhalgame.org/wiki/StendhalManual"/>  

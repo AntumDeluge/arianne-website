@@ -23,7 +23,7 @@ There is not currently a JMaPacman server active.</b> ]]></description>
   <p/><h2>Webstart</h2>
   JMaPacman uses Java Webstart technology that enables you to use always the latest version available without having to worry about updates.<br>
   Just click on the button to launch the client.
-  <p/><a href="http://arianne.sourceforge.net/jws/jmapacman.jnlp"><img src="images/webstart.png" alt="Click here to play"></a>
+  <p/><a href="http://arianne.sourceforge.net/jws/jmapacman.jnlp"><img src="/images/webstart.png" alt="Click here to play"></a>
   ]]>
   </extended>
   <manual url="http://arianne.sourceforge.net/wiki/index.php/JMaPacmanManual"/>  

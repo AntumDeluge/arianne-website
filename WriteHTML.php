@@ -62,7 +62,7 @@ function WriteNewsItemHtml($item)
         {
         if(is_array($image))
           {
-          echo '<img class="news_image" src="'.$image['url'].'" alt="Game screenshot">';
+          echo '<img class="news_image" src="/'.$image['url'].'" alt="Game screenshot">';
           }
         }
         echo '<div class="newscontent_image">'.$item['content'][0].'</div>';
@@ -134,7 +134,7 @@ function WriteGamePageListHTML($game )
   
 function WriteShortGameDesc($game)
 {
-  $type = $game['game'][0]['type']['0 attr']['value'];
+    $type = $game['game'][0]['type']['0 attr']['value'];
 	echo '<li class="text">';
     echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$game['game']['0 attr']['name'].'" class="naviLight">'.ucfirst($game['game']['0 attr']['name']).'</a>';
     $time=explode("/",GameUpdateTime($game,"game"));
@@ -150,10 +150,10 @@ function WriteShortGameDesc($game)
         {
         if(is_array($image))
           {
-          $image_size = getimagesize('screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
+          $image_size = getimagesize(dirname(__FILE__).'/screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
           $html_size = imageResize($image_size[0], $image_size[1], 130);
         
-          echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$game['game']['0 attr']['name'].'"><img src="screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
+          echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$game['game']['0 attr']['name'].'"><img src="/screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
           }
         }
       }
@@ -186,11 +186,10 @@ function WriteLongGameDesc($game)
         {
         if(is_array($image))
           {
-          //echo '<a href="screens/'.$game['game']['0 attr']['name'].'/'.$image['image']['0 attr']['name'].'"><img src="screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Game screenshot"></a>';
-          $image_size = getimagesize('screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
+          $image_size = getimagesize(dirname(__FILE__).'/screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
           $html_size = imageResize($image_size[0], $image_size[1], 120);
         
-          echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$game['game']['0 attr']['name'].'"><img src="screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
+          echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$game['game']['0 attr']['name'].'"><img src="/screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
           }
         }
       }
@@ -338,10 +337,10 @@ function WriteDownloadLink($xml, $type)
     {
     if(is_array($image))
       {
-      $image_size = getimagesize('screens/'.$xml['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
+      $image_size = getimagesize(dirname(__FILE__).'/screens/'.$xml['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
       $html_size = imageResize($image_size[0], $image_size[1], 130);
     
-      echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$xml['game']['0 attr']['name'].'#downloadsection"><img src="screens/'.$xml['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
+      echo '<a href="?arianne_url='.$type.'s/'.$type.'_'.$xml['game']['0 attr']['name'].'#downloadsection"><img src="/screens/'.$xml['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
       }
     }
   } else {
@@ -380,7 +379,7 @@ function WriteDownloadHTML($game, $base, $section=false)
       {
       if(is_array($image))
         {
-        echo '<a href="screens/'.$game[$base]['0 attr']['name'].'/'.$image['name'].'"><img src="screens/'.$game[$base]['0 attr']['name'].'/THM_'.$image['name'].'" alt="Game screenshot" class="download_screenshot"></a>';
+        echo '<a href="/screens/'.$game[$base]['0 attr']['name'].'/'.$image['name'].'"><img src="/screens/'.$game[$base]['0 attr']['name'].'/THM_'.$image['name'].'" alt="Game screenshot" class="download_screenshot"></a>';
         }
       }
     }
@@ -523,7 +522,7 @@ function WriteGameHTML($game,$base)
       {
       if(is_array($image))
         {
-        echo '<li><a href="screens/'.$game[$base]['0 attr']['name'].'/'.$image['name'].'"><img src="screens/'.$game[$base]['0 attr']['name'].'/THM_'.$image['name'].'" alt="Game screenshot"></a></li>';
+        echo '<li><a href="screens/'.$game[$base]['0 attr']['name'].'/'.$image['name'].'"><img src="/screens/'.$game[$base]['0 attr']['name'].'/THM_'.$image['name'].'" alt="Game screenshot"></a></li>';
         $i++;
         }
       if( $i > 3) break;
@@ -615,10 +614,10 @@ function WriteScreenshotsHTML( $game, $base, $archived=false )
         $day = substr($THMfilename, $pos+10, 2);
         
         // TODO: Scale correctly to don't deform the image 
-        $image_size = getimagesize("$THMfilename");
+        $image_size = getimagesize(dirname(__FILE__).'/'.$THMfilename);
         $html_size = imageResize($image_size[0], $image_size[1], 150);
 
-        echo "<li class=\"thumbnail\"><a href=\"$filename1$filename2\"><img src=\"$THMfilename\"  alt=\"Screenshot\">";
+        echo "<li class=\"thumbnail\"><a href=\"$filename1$filename2\"><img src=\"/$THMfilename\"  alt=\"Screenshot\">";
         echo "</a></li>";
         $ab++;
         $i++;
