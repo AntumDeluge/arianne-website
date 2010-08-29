@@ -53,7 +53,7 @@ function WriteNewsItemHtml($item)
   {
   	$strippedTitle = getNiceURL($item['title'][0]);
     echo '<li class="clearright"><div class="newsitem"><div class="newstitle">'
-    	.'<a class="newsitemtitle" href="/news/'.$strippedTitle.'.html"><h2 style="padding:0; margin:0; margin-top:1em">'.$item['title'][0].'</h2></a>'
+    	.'<h2 style="padding:0; margin:0; margin-top:1em; font-weight: bold"><a class="newsitemtitle" href="/news/'.$strippedTitle.'.html">'.$item['title'][0].'</a></h2>'
     	.'</div><p class="itemdate">'.$item['date'][0].'</p>';
 
     if(isset($item['images']))
