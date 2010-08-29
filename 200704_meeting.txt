@@ -1,0 +1,1228 @@
+[18:00] <mblanch> *****************************************************************
+[18:00] <mblanch> * 1st 2007 Arianne meeting. *
+[18:00] <mblanch> * ======================== *
+[18:00] <mblanch> * April 21, 2007 16:00 GMT *
+[18:00] <mblanch> *****************************************************************
+[18:00] <mblanch> * Matters to talk about today *
+[18:00] <mblanch> * * Marauroa 2.0 integration into stendhal *
+[18:00] <mblanch> * * CVS usage, branches *
+[18:00] <mblanch> * * RP creation in small steps *
+[18:00] <mblanch> * * Release before the RP replacement *
+[18:00] <mblanch> * * Version naming after 0.59 *
+[18:00] <mblanch> * * Project managing and planning *
+[18:00] <mblanch> * * Quality process *
+[18:00] <mblanch> * * RP features *
+[18:00] <mblanch> * * Monsters *
+[18:00] <mblanch> * * Maps *
+[18:00] <mblanch> * * Music *
+[18:00] <mblanch> * * Server replication/Multiserver *
+[18:00] <mblanch> * *
+[18:00] <mblanch> *****************************************************************
+[18:00] <mblanch> Welcome all to our first 2007 meeting :)
+[18:00] <mblanch> I log the whole meeting and it will be available online later.
+[18:00] <mblanch> I will also follow it to our arianne-devel mailing list.
+[18:01] <steve_i> first post
+[18:01] * Oslsachem (n=Myn@236.Red-88-22-175.staticIP.rima-tde.net) has joined #arianne
+[18:01] <Oslsachem> hi ppl
+[18:02] <hendrik> i'll send him a query
+[18:02] <mblanch> TOPIC: Marauroa 2.0 integration into stendhal
+[18:02] <steve_i> hi Oslsachem
+[18:02] <mblanch> hendrik, you wanted to talk about this.
+[18:03] <mblanch> Marauroa 2.0 as you know, is our next iteration on the marauroa framework, and it comes to fix several structural limitation that we have found at Stendhal.
+[18:04] <mblanch> Marauroa 2.0 is centered exclusively at TCP
+[18:04] <kymara> i'd like to have a better idea how much porting to marauroa 2.0 will affect the kind of code i write regularly (like Quests and NPCs)
+[18:04] <mblanch> kymara: very little
+[18:04] <mblanch> Marauroa 2.0 introduce some new things:
+[18:04] * steve_i_away (n=steve_i8@resnet-76204.resnet.bris.ac.uk) Quit (Read error: 110 (Connection timed out))
+[18:04] <mblanch> * Better RPClass definition
+[18:04] <mblanch> * Static attributes for a RPClass
+[18:05] <mblanch> * RPEvents
+[18:05] <mblanch> * RPLink
+[18:05] <hendrik> kymara, it is the internal handling for Entities and Network stuff.
+[18:05] <mblanch> RPEvent and RPLink will be used a lot at Stendhal, but internally
+[18:06] <mblanch> Briefly, an RPEvent is a set of pairs name,value.
+[18:06] <mblanch> Each RPObject has as many RPEvents as it wants, they are send to client and removed after turn ends
+[18:07] <mblanch> RPEvents are great for things like showing damage, healing, text, ... in general any thing that is a event
+[18:07] <mblanch> RPLink is a slot that has just one object inside.
+[18:08] <hendrik> we used a workaround in the past which was to add such attributes like "text" to an entity and remove it at the beginning of the next turn. So we were limited to one value.
+[18:08] <mblanch> The point of RPLink is that it simplify things like bank, sheep, buddy, ... things that are not slots but have been modelled like that.
+[18:08] <kymara> will poison be handled better?
+[18:08] <mblanch> I will write ( soon ) a document that explain all the new things of 2.0 and how to handle it.
+[18:09] <mblanch> kymara: yes, it will be handle easier.
+[18:09] <lenocas> and drunk with beer and wine??
+[18:09] <mblanch> lenocas: we talk about that at the RP features
+[18:09] <steve_i> in terms of the amount of data to send to client, does it change , or is it approx the same
+[18:09] <mblanch> Also there are some other features:
+[18:09] <mort4> mblanch: about the sheep RPLink... it would be very cool if we could have other animals that follow you
+[18:10] <mort4> i tried to do this long ago, but gave up
+[18:10] <mblanch> - We can deny logout ( for example, no logout in a combat )
+[18:10] <mblanch> - We can ban and autoban players that flood the server
+[18:10] <hendrik> mblanch, i have not been able to follow all the changes closly. It seems to me that porting stehdal can be done in a couple of days. mblanch, is this right?
+[18:10] <mblanch> - We can ban from the game server code
+[18:10] <durkham> does anyone already know how much work will it be to port stendhal?
+[18:10] <mblanch> steve_i: more or less the same, but it will be a bit smaller. 90% of the actual size
+[18:11] <mblanch> mort4: Right, we talk on RP features about that.
+[18:11] <mblanch> hendrik: yes
+[18:11] <mblanch> hendrik: I could make it work with 2.0 in 3-5 hours, and them port the rest of things slowly to use the new features
+[18:11] <mblanch> hendrik: There shouldn't be any *big* bug as it is tested with test cases
+[18:12] <mblanch> hendrik: but only when we move stendhal to it we can find.
+[18:12] <durkham> so mblanch does the porting ?
+[18:12] <mblanch> durkham: yes, and I will write the doc about new features so you all know how to use them
+[18:12] <Snaketails-2> in Mar2.0 is the TCP traffick compressed or something to make the package size smaller, or sent as open strings?
+[18:12] <mblanch> SnakeTails: the perception data is compressed with Zlib I think ( as in Marauroa 1.34 )
+[18:13] <kymara> mblanch: will IP address tracking be easier, will there be a new types of ban (like on creating new accounts)?
+[18:13] <mblanch> kymara: Yes, IP tracking will be possible on 2.0
+[18:13] <mblanch> kymara: other types of ban are possible but are game dependand ( and so coded in stendhal )
+[18:14] <steve_i> is account creation handled by marauroa in a generic way or do u code a specific account creation code for the stendhal-server code?
+[18:14] <Snaketails-2> IP tracking ?
+[18:14] <mblanch> steve_i: oh, that also another of the new features :)
+[18:14] <timothyb89> Will web based interfaces and such be available (password changing, etc, etc)?
+[18:14] <mblanch> steve_i: right now we can only create accounts of one character
+[18:15] <mblanch> steve_i: in 2.0 we can really create accounts of several characters.
+[18:15] <mblanch> steve_i: account ( and character ) creation is handled on a generic way.
+[18:15] <mblanch> steve_i: marauroa creates all the database stuff and call stendhal to fill the RPObject to store to database ( the created player )
+[18:15] <mblanch> SnakeTails: Yes, to ban players, right now we can't ban them easily.
+[18:16] <mblanch> timothyb89: My idea was to integrate them on stendhal itself
+[18:16] <hendrik> timothyb89, there are already web-interaces. but they are deactivated because we do not want players to enter their accountdata anywhere outside the game.
+[18:16] <mblanch> timothyb89: but I think it won't be hard to do a webinterface
+[18:16] <Snaketails-2> but there are problems I see with IP banning
+[18:16] <kymara> once stendhal is ported to mar 2.0 will people who run their own server have to build marauroa or may we usa marauroa jar (for 2.0)?
+[18:16] <timothyb89> mblanch: Ok :)
+[18:16] <mblanch> kymara: use marauroa.jar that will be 2.0 :)
+[18:17] <mort4> mblanch: what about player names when there are multiple characters per account?
+[18:17] <mblanch> mort4: it will be game specific.
+[18:17] <mblanch> mort4: game can choose to deny character creation based on that name
+[18:18] <hendrik> we should not talk about player names but account names and character names.
+[18:18] <mblanch> mort4: also on 2.0, server can propose a character name to player
+[18:18] <Snaketails-2> a marauroa.jar file similar to stendhal.jar file would be nice, but for those who want to tweak settings "sources" also
+[18:18] <mort4> ok
+[18:18] <lenocas> mblanch, it would be fair!!but, when many persosn in a family play stendhal?
+[18:18] <mblanch> I have added code to make account name to be randomly generated to siz numbers or so.
+[18:18] <lenocas> i mean they have same ip?
+[18:18] <mort4> mblanch: people will forget them
+[18:19] <mort4> i think by default your first character name should be the same as the account name
+[18:19] <mort4> otherwise it's too hard to remember
+[18:19] <mblanch> lenocas: each person needs an account, but each account has several characters, and each character is an ingame player.
+[18:19] <lenocas> :S
+[18:19] <mblanch> mort4: It is not hardcoded, server game can decide on that.
+[18:19] <lenocas> i will ask explanations later...
+[18:20] <mblanch> mort4: when we add a new RP, many people will want to have several character.
+[18:20] <mblanch> Should character names be unique? they are unique per account right now.
+[18:21] <lenocas> yes, mblanch :)
+[18:21] <mblanch> Should we allow several characters on the same account to be played simultaneously?
+[18:21] <hendrik> i think they must be unique in the whole game world.
+[18:21] <steve_i> mblanch: defiantely unique
+[18:21] <mort4> mblanch: what about using e-mail addresses as account names?
+[18:21] <mort4> you need an e-mail account anyway
+[18:21] <mort4> and people don't forget these
+[18:21] <steve_i> mblanch: but they can maybe be mulitple names, eg a first name and a second name
+[18:22] <mblanch> mort4: I like it :)
+[18:22] <steve_i> mblanch: yeah and email address could also be verified
+[18:22] <mblanch> What do you think about account activation by email?
+[18:22] <steve_i> i made a feature request today :)
+[18:22] <lenocas> yes, mblanch:)
+[18:22] <mort4> and it is a bit harder to create lots of accounts
+[18:22] <Snaketails-2> email address verificatio I would wholly support ;o)
+[18:22] <durkham> i like souble opt in but we would loose the create account and go.... thing
+[18:23] <hendrik> we will lose potential player if they have to enter their email-address.
+[18:23] <durkham> souble = double
+[18:23] <Seather_> will there be a safe way to send a kick message? will we still be able to do an unclean disconnection which makes it look like the server is down?
+[18:23] <mblanch> Seather_: it is done, player will get a MessageS2CBanned message :)
+[18:23] <kymara> exactly durkham - java webstart is there for play and go (amongst other things)
+[18:23] <mblanch> hendrik: I agree with you
+[18:23] <steve_i> yes but also get rid of nuisance players , its a trade off
+[18:23] <Snaketails-2> I put something about that in the forum today
+[18:24] <kymara> but if we can deal with nuisance players better ...
+[18:24] <mblanch> Many people don't like to enter its email address on anything.
+[18:24] <hendrik> it would be good if we could require email-address validation for some ip-addresses.
+[18:24] <kymara> they're less of a nuisance, then
+[18:24] <Snaketails-2> ...forum today .... about kick players, and text to screen
+[18:24] <kymara> yes hendrik - another kind of ban, in a way
+[18:24] <lenocas> yes, hendrik :)
+[18:25] * timothyb89_lapto (n=kvirc@c-67-161-204-99.hsd1.co.comcast.net) has joined #arianne
+[18:25] <lenocas> :) here he comes !!
+[18:25] <mblanch> How would that be? some players validate and another no?
+[18:25] <steve_i> if its easy to do , then y not
+[18:25] <lenocas> perhaps, if there are reasons to make a difference, i guess...
+[18:25] <ChadF> hendrik: there could be 2 classes of players.. those that have verified with email, and those that don't at the price of some functionality/limits that are easily abused.
+[18:26] <hendrik> "We are sorry, but there have been many absive actions from people using the same Internet Server Provide than you do. So we require you to verify your email address in order to create an account."
+[18:26] <mblanch> I like Chadf idea
+[18:26] <mort4> ChadF: but then we need to make it possible to enter your e-mail address later on
+[18:26] <lenocas> hendrik; good!!!! :)
+[18:26] <hendrik> mort4, yes and change it.
+[18:26] <kymara> we could make a forum for this
+[18:27] <mblanch> For example,... no support and not global talk ( i talk about this later ) until account has been validated.
+[18:27] <Seather_> and a modified client won't be able to evade the kick? (i ask because i know of a couple situations in other games where a client side cheat code could evade getting kicked by not agnolging that it recived the message)
+[18:27] <mblanch> mort4: ok, I write email modication request.
+[18:27] <ChadF> mort4: you mean to login? that would just be associated with the account/pass they use to login, like now. it would just be in a validated status.
+[18:27] <mblanch> Seather_: no
+[18:27] <Snaketails-2> modifying your Email addy later on could be a "user-admin" function either in game with a town official, or online
+[18:27] <mblanch> Seather_: server send the kick and close the connection
+[18:27] <mblanch> Seather_: everything is server managed here :)
+[18:28] <hendrik> Seather_, that message is just for notification the player that this is not some random technical problem.
+[18:28] <steve_i> i like the idea of having a few restirctions until you verify
+[18:28] <steve_i> eg talk out loud
+[18:29] <ChadF> Snaketails-2: you don't want players to have to give their email out in the game where others could see it,since it should remain private from other players
+[18:29] <kymara> it starts to sound like a shareware software where you have restrictions till you register, then, steve_i
+[18:29] <lenocas> why in the game. give e-mail'
+[18:29] <lenocas> ?
+[18:29] <mblanch> kymara: no, it is not... it won't be so disturbing
+[18:29] <kymara> lenocas: you remember problems with many players making accounts with rude name?
+[18:30] <ChadF> lenocas: Snaketails-2 was talking about how to change/update it
+[18:30] <mblanch> kymara: you will be asked to confirm your email account, just that.
+[18:30] <kymara> lenocas: if, then, we were able to say 'you can't make a new account without a proper email address' then maybe we woul dhave less problem
+[18:30] <steve_i> thing is as the game gets more popular more and more people will abuse the 'play for 2 minutes for a couple of kicks then go'
+[18:30] <steve_i> i mean abusive kicks
+[18:30] <mblanch> I talk about newbiew on the RP section :)
+[18:30] <mblanch> Anything more about Marauroa 2.0?
+[18:31] <Snaketails-2> I'm not saying that the info is given out in game, its like when you go to vote (or sit o the toilet), you go in a 1 person room, and no one can enter and you do your "business" in private
+[18:31] <durkham> perhaps we should discuss this seperately ? and go on with schedule ?
+[18:31] <ChadF> kymara: a "limited" account would also let players play imediately, before they validate their account.. which then gets them the full gameplay
+[18:31] <hendrik> all the recent idiots have been playing for several days, one even for more than a year.
+[18:31] <steve_i> yes
+[18:31] <lenocas> mblanch. can we keep our nicks with reset?? please!!!
+[18:31] <timothyb89_lapto> I think some restrictions like that would be good :) Are *are* trying to keep agod community, so making sure people actually want to play and are not just taking up resources are a good thing ;-)
+[18:31] <mblanch> lenocas: we talk about that at the end.
+[18:31] <mblanch> TOPIC: CVS usage, branches
+[18:32] <mblanch> Lately we ( I at least ) have had some headaches with CVS
+[18:32] <mblanch> We should decide how to use it
+[18:32] <mblanch> and how to add experimental stuff
+[18:32] <mblanch> and how to freeze it for releases
+[18:32] <durkham> i propose the following:
+[18:33] <durkham> announce realease
+[18:33] <durkham> let then go on 2 days of normal coding
+[18:33] <timothyb89_lapto> Maybe a seperate module? stendhal-unstable and stendhal-stable?
+[18:33] <durkham> code freeze then
+[18:33] <durkham> bugfixing for anotheer 2-3 days
+[18:34] <durkham> then branch release version
+[18:34] <mblanch> timothyb89: You mean branches.
+[18:34] <durkham> so the there should not be any need for backproting in the matter it was the last time
+[18:34] <timothyb89_lapto> yes hehe P
+[18:34] <mblanch> hendrik: what do you say
+[18:34] * hendrik agrees with durkham
+[18:35] <mblanch> Ok, so:
+[18:35] <mblanch> Announce release (4-5 days earlier)
+[18:35] <mblanch> No more features ( commited things are rolled back )
+[18:35] <mblanch> Test, review and code freeze
+[18:35] <mblanch> Branch and release from branch.
+[18:35] <steve_i> do u guys tag the source at each version so its possible to get to checkout a known version?
+[18:35] <mblanch> steve_i: yes
+[18:35] <durkham> yes
+[18:36] <hendrik> no
+[18:36] <durkham> no?
+[18:36] <steve_i> can u just tag at 'code freeze' and use that but still allow further commits
+[18:36] <hendrik> it is impossible to checkout the version we released.
+[18:36] <ChadF> Also, per-file cvs branches should only be done when needed. So if a file is 1.5 for the release and still 1.5 in head, 1.6 should be used for both the patch and head if the fix applies to both. No creating side branches that have to be mirrored in the head line.
+[18:37] <danter> i think timothyb89's idea about stable and unstable is a good idea... but we should probably create them as svn aswell, if we are starting to change cvs stuff anyway
+[18:37] <danter> atleast I think it's really good if we have some form of unstable version
+[18:37] * timothyb89_lapto likes svn
+[18:37] <ChadF> Of cource if release is 1.5 and head is 1.6, a real patch would go in 1.5.1 (and be merged if needed into the head)
+[18:37] <ChadF> c=s
+[18:37] * hendrik hates svn.
+[18:37] <lenocas> :P
+[18:38] <kymara> i'm no expert but it seems like we've had a lot of experimental/unfinished stuff in cvs recently
+[18:38] * durkham allways though below 1.0 is unstable anyway
+[18:38] <danter> cause alot of strange bugs (deathmatch arena) has came into game alot of times
+[18:38] <mblanch> danter: we keep on CVS because all the history is there.
+[18:38] <ChadF> hendrik: would make it easier to move files ;)
+[18:38] <kymara> why can't people keep an unstable branch on their own machine?
+[18:38] <ChadF> mblanch: the history can be xfered (cvs2svn)
+[18:38] <kymara> and not do a commit with a comment like 'this is broken still' on a very important file?
+[18:38] * ChadF hasn't seen how it handles cvs items in Attic though
+[18:38] <Seather_> have a test server setup to allow for more people to test before release?
+[18:38] <kymara> (without meaning to sound critical)
+[18:39] <durkham> agree with kymara experimental stuff should be on local maschine
+[18:39] <danter> well, the history will still be able in cvs directory, just checkout that version, then mod to cvs
+[18:39] <timothyb89_lapto> Or: svn can be unstable, cvs can be official and bugfixes
+[18:39] <hendrik> Seather_, we have had a test server for all the last releases. But we need an easier way to distribute Branch-clients.
+[18:39] <danter> the history will just be crucial the first month or so, after that it's not really necesary
+[18:39] <durkham> i like the idea of having a test maschine that is created from cvs every night and fresh and easy every morning
+[18:40] <mblanch> I plan to create a complete copy of our release structure
+[18:40] <kymara> another comment that might sound critical and i do apologise in advance
+[18:40] <mblanch> so we can test on the backstage before the release
+[18:41] <durkham> timothy how to explain that idea to my ide?
+[18:41] <mblanch> kymara: critical comments are good :)
+[18:41] <kymara> but we did do pretty much that cvs 'freeze' and 'only bugfix' this time round
+[18:41] <kymara> but it wasn't particularly respected
+[18:41] <kymara> (hides)
+[18:41] <durkham> true
+[18:41] <kymara> how do we make sure what we plan now, is kept to?
+[18:41] * durkham tears kymara out of her hole
+[18:41] <kymara> we really should have to have moderated commits. we should all be capable of obeying rules
+[18:42] <kymara> *shouldnt have to have
+[18:42] <mblanch> I can take care of enforcing it :)
+[18:42] <steve_i> thats why we need a place for people to keep commiting, rather than no commits at all
+[18:42] <kymara> steve_i: why can't people be patient for a few days?
+[18:42] <steve_i> a serpate place i mean
+[18:42] <timothyb89_lapto> durkham: hehe... IDEs don't like to versions too much :P hehe... frgot abot that :P
+[18:42] <kymara> do it on their own machines ?
+[18:42] <hendrik> As usual there was a small number of bugs per developer.
+[18:42] <hendrik> but we are a much larger team now.
+[18:42] <hendrik> so more bugs in sum.
+[18:42] <durkham> steve_i i think this is all about self-discipline, just keep ypurself from hitting commit
+[18:43] <steve_i> fair enough, there is no time pressure i suppose, no one is getting paid :)
+[18:43] <hendrik> steve_i, this was the first time that we had the branch before the release.
+[18:43] <kymara> steve_i: and everyone had agreed to freeze commits except for bug fixes
+[18:43] <kymara> they had some days notice of the freeze starting
+[18:44] <hendrik> most of the bugs had been introduced beforehand.
+[18:44] <danter> timothyb89: even if you do it on your own machine, bugs will always appear, thus we need an easy way to distribute "test clients" that seweral can use to test it, before a release is made
+[18:44] <mblanch> Well, the whole point on 0.59 is that there has been a lot of refactoring
+[18:44] <mblanch> and that have caused bugs ( not bad at all )
+[18:44] <Snaketails-2> whats the timing of updates to CVS -> running on test server then -> World server ?
+[18:45] <danter> kymara I mean... sorry timothyb89
+[18:45] <mblanch> once bugs are fixed we will have a better source code
+[18:45] * durkham sinking smilingly into ground
+[18:45] <kymara> danter: you're right, especially with something you had no chance to test like how the updater handles your changes
+[18:46] <hendrik> we should look closer at the things other developers do.
+[18:46] <kymara> perhaps that woudl be easier if we had a protocol for commit messages
+[18:46] <durkham> it is hard to follow others developers changes but this seems to be the topic planning and quality
+[18:46] <hendrik> this is getting more difficult in a larger team
+[18:47] <hendrik> and we know that all the other developers know what they are doing.
+[18:47] * ChadF thinks the release test period needs to be more than the typical day or two.It seems to cause releases to go out on the main server, fullowed by immediate bug fixes that may have been caught with more eval.
+[18:47] <kymara> definitely, my inbox is always packed with emails about commits. and yes i would have no reason to assume i need to check someone else's changes
+[18:47] <Snaketails-2> how much documentation is submitted with each code update?
+[18:47] <mort4> ChadF: a public beta would be nice
+[18:47] <mort4> currently only the developers test
+[18:47] <mblanch> ChadF: yes, but bugs often only shows when running server on public
+[18:48] * sshk5 (n=sshk5@81.202.127.83.dyn.user.ono.com) Quit ("Saliendo")
+[18:48] <kymara> mort4: i was also thinking we should invite a handful of players to test
+[18:48] <ChadF> perhaps publicize a "test" server to general players.. since developers can only go so much.
+[18:48] <kymara> or just a few we know
+[18:48] <mort4> mblanch: we could run the beta on the public server
+[18:48] <mort4> with the actual database
+[18:48] <kymara> example: we'd never have found that username case specific bug
+[18:48] <mort4> then reset the DB to the old state after beta testing
+[18:48] <ChadF> and give incentives like "extra access/items" on those tests server in exchange for testing thing
+[18:48] <kymara> because we're all developers, trained to use correct case
+[18:48] <Snaketails-2> there used to be a pre-release server in the 1st 2-4 months of this full time playable version
+[18:49] <hendrik> using a database dump seems like a good idea, but we should do this on another server.
+[18:49] <kymara> i think just running a test server like we did this time (mblanch's) but inviting a few players on would be enough
+[18:49] <steve_i> def need some dedicated Beta Testers
+[18:49] <hendrik> like stendhal-test.ath.cx or mblanch's one.
+[18:49] <steve_i> to try just about everything to break the game
+[18:49] <kymara> hendrik: i thought about a PlayerMaker script
+[18:49] <kymara> like your AdminMaker one
+[18:49] * ChadF doesn't sugesset a full code freeze for that week though =)
+[18:49] <durkham> agree kymara and steve_i
+[18:50] <kymara> to make a player when you speak to them, possibly with a parameter for what level they want to be
+[18:50] <hendrik> yes
+[18:50] <kymara> or random level assignation
+[18:50] * timothyb89_lapto would be happy to host a server of any sort, but that should be talked about later
+[18:51] <kymara> using database dump might be ok too. but i don't know, i'm not sure players would be ok with it. they'd feel like they deserved any items they got, gven to them in teh real server
+[18:51] <Snaketails-2> agree with timothy about server
+[18:51] <kymara> we already get requests to match their KM atk/def/xp levels
+[18:51] <mblanch> :)
+[18:51] <mblanch> ok, move to next topic?
+[18:51] <ChadF> kymara: but to really give it a good test, you need the divisity of random ppl playing. Choosing a handful of ppl may skew that (even unintentially)
+[18:51] <mblanch> I can host the test server
+[18:52] * durkham move on!
+[18:52] <mblanch> TOPIC: RP creation in small steps
+[18:52] <mblanch> This is about the creation of the new RP system
+[18:52] <ChadF> If we did have a public beta server, we probably should have a seperate bugs submision list (to diff from the released ones)
+[18:52] <danter> were we really done with this topic...?
+[18:52] * ChadF is now =)
+[18:53] <mblanch> danter: anything else?
+[18:53] <danter> i dunno... it sort of feels like any decisions never was made
+[18:54] <ChadF> danter: maybe just gveing ideas at this point is enough
+[18:54] <ChadF> not need to rush an unideal sollution
+[18:54] * Seather2 (n=seather@c-24-23-145-87.hsd1.ca.comcast.net) has joined #arianne
+[18:54] <danter> ok...
+[18:54] <mblanch> Yes, knowing that something need to be done and ppl have pointed
+[18:54] <mblanch> - test server
+[18:54] <ChadF> rr= not=no
+[18:54] <danter> well next topic then
+[18:54] <mblanch> - copy of database dump
+[18:55] <kymara> we can write up on the wiki, there's already a release procedure page there
+[18:55] <mblanch> - more players, not just developers.
+[18:55] <mblanch> ...
+[18:55] <kymara> and the cvs 'rules' :P
+[18:55] <mblanch> ok?
+[18:55] <mblanch> And to make it clear, creating the RP on time is not going to be possible.
+[18:56] <steve_i> right on next topic - will players classes be introduced? eg mage , fighter etc? and if so will this need a DB reset?
+[18:56] <mblanch> So RP need to be done in steps
+[18:56] <mblanch> steve_i: please wait for RP features, ok?
+[18:56] <mblanch> steve_i: this is just about the development of the RP
+[18:56] <steve_i> ok sorry
+[18:56] <mblanch> steve_i: np :)
+[18:56] <hendrik> we should try to have a release within 4 weeks. So we need to do the whole RP thing in small steps.
+[18:57] <hendrik> And we may want to get parts of it live so that they are tested.
+[18:57] <ChadF> hendrik: 59.x or 60? =)
+[18:57] <steve_i> well i suppose it kinda relates... ie if you wanna do it little steps, at what point if any, will you have to reset DB... cause that is a big step
+[18:57] <Snaketails-2> small steps for RP would be best, tep & test, if not you could screw the world.
+[18:58] <danter> yes, defently small and well tested cases with RP
+[18:58] * hendrik is not sure whether we are closer to a db-reset than we have been a year ago.
+[18:58] <mblanch> The problem of doing RP in steps is that we will have again the same problems that on actual stendhal: unbalanced things
+[18:58] <danter> othervise we would get back to this situation in no time
+[18:58] * ChadF has some ideas to impl, but the hard work would be adding meaningful entries to the items/creatures xml files.
+[18:58] <mblanch> hendrik: Database reset is as you guess not soon :)
+[18:58] <Snaketails-2> I believe the current 59.x is too cloe to release a new RP on 60.0 maybe a player DB reset at 1.0 and the REP is installed up to that point
+[18:59] <hendrik> please ignore the version numbers for now.
+[18:59] <Seather2> arianne[eye]_ : help
+[18:59] <mblanch> SnakeTails: I hoped that 0.60 would have a new RP but that's plainly impossible.
+[19:00] <Snaketails-2> agreed. but its something that should be looked at, and thats setting of "milestones"
+[19:00] <mblanch> SnakeTails: ok
+[19:00] <mblanch> ChadF: We need to sort how to add ideas so they don't collide
+[19:01] <steve_i> sorry to butt in but have to go now :( so much left unsaid... another meeting sometime soon?
+[19:02] <mblanch> steve_i: dunno
+[19:02] <durkham> mblanch that would be topic planning then
+[19:02] <steve_i> its ok i will add to wiki discussions etc
+[19:02] * steve_i is now known as steve_i_away
+[19:02] <mblanch> durkham:
+[19:02] <mblanch> Dunno
+[19:02] <mblanch> We need to think how to do RP before coding so we all work on the same direction
+[19:03] <mblanch> I feel that lately the code has lost its idea of working on a single direction
+[19:03] * hendrik just wants to throw somehting in:
+[19:03] <hendrik> +-------+----------+
+[19:03] <durkham> yes and i see parts of it already coded
+[19:03] <hendrik> | level | count(*) |
+[19:03] <hendrik> +-------+----------+
+[19:03] <hendrik> | 0 | 7110 |
+[19:03] <hendrik> | 1 | 337 |
+[19:03] <hendrik> | 2 | 426 |
+[19:03] <hendrik> | 3 | 321 |
+[19:03] <hendrik> | 4 | 413 |
+[19:03] <hendrik> | 5 | 294 |
+[19:03] <hendrik> | 6 | 157 |
+[19:03] <hendrik> | 7 | 119 |
+[19:03] <hendrik> | 8 | 102 |
+[19:03] <Snaketails-2> setup a basis for RP, similar to that hand drawn graphic of the world MB did a long time ago ;o)
+[19:03] <hendrik> | 9 | 179 |
+[19:03] <ChadF> mblanch: I wanted to create itemized skills, instead of global atk/def values. Then skills can be specialized, and easier to gain in certain areas (reducing the need for "camping") and a more realistic gameplay.
+[19:04] * ChadF wonders if hendrik will flood off =)
+[19:04] <kymara> possible, since it's going to get to 200+ :P
+[19:04] * durkham wonders what purpose
+[19:04] * hendrik uses a client which prevents that.
+[19:05] <durkham> agrees mblanch of code direction
+[19:06] <mblanch> We should all agree and create a Wiki of the milestones of stendhal
+[19:06] <mblanch> and work all on that features
+[19:06] * durkham planning?
+[19:06] <mblanch> new features can be added at the end of the planned milestones.
+[19:07] <mblanch> ok?
+[19:07] <hendrik> i am not sure whether this is limited to features.
+[19:07] <durkham> i agree on any means of planning 'tool'
+[19:08] <mblanch> hendrik: what do you mean?
+[19:08] * Seather_ (n=seather@c-24-23-145-87.hsd1.ca.comcast.net) Quit (No route to host)
+[19:08] <kymara> mblanch: are you suggesting you decide what we want and how to do it, first? then start splitting up tasks, perhap susign a program?
+[19:08] <kymara> *using
+[19:08] <mblanch> kymara: more or less
+[19:08] <hendrik> there are different ideas how the code should be structures and sometimes one does a refactoring which undoes a refactoring done by someone else before.
+[19:08] <mblanch> kymara: i want to mean what hendrik has just wrote :)
+[19:08] <ChadF> mblanch: also, if the balance isn't perfect at first, we could always tweak it over time (like mini-releases just for those values), as long as it's done slowely so players don't notice dramatic shifts.
+[19:09] * timothyb89_lapto (n=kvirc@c-67-161-204-99.hsd1.co.comcast.net) has left #arianne
+[19:09] <mblanch> ChadF: well, there is no other option.
+[19:10] <Snaketails-2> whats wrong with players noticing dramatic shifts?
+[19:10] <mblanch> SnakeTails: complains :)
+[19:10] <ChadF> Snaketails-2: some could get easily killed without without warning, if their def or something changes too fast
+[19:10] <Snaketails-2> ok, what would te sift be like on DB reset ?
+[19:11] <mblanch> Anyway... we can't spent much on planning, it is useless
+[19:11] <hendrik> Snaketails-2, for example there was a problem with deathmatch for some mounth. This is fixed now and players are really surprised and get angry if they die because it is for normal difficulty again.
+[19:11] <mblanch> But we need to reach an agreement on how to work the next release.
+[19:11] <mort4> i'd like to have different kinds of ATK
+[19:11] <mblanch> mort4: RP Features please :)
+[19:11] <mort4> like, bow+arrows skills, spear skills etc
+[19:12] <mort4> ok
+[19:12] <mort4> just saying it now because i'll be away later
+[19:12] <mblanch> Ok, so is ok that we work on a Wiki page to work all on the same direction?
+[19:12] * ChadF gave a ranting on some of the basis of his skills ideas a while back, so it should be logged by the eye
+[19:12] <mblanch> Move to next topic?
+[19:12] <durkham> if we have a rp-wiki and a code wiki yes
+[19:12] <mblanch> durkham: ok
+[19:13] <Snaketails-2> wiki page to set a direction I feel is a good step to furthering the game ;o)
+[19:13] <danter> I had a rather nice idea about gaining levels and such earlier today... right now we describe atk/def of monsters in an xml file, there we also describe how much xp you gain from monsters. We could change the level to describe how much experience you gain from monsters, that level is used also to define how much atk and def experience (or what other attributes we will use) it will work in the same way as normal experience works now... after
+[19:14] <mblanch> TOPIC: Releases before the RP replacement
+[19:14] <mblanch> (Before we start to talk about RP features :P )
+[19:15] <ChadF> We need a better way to find where to start putting these things on the wiki, if we're expected to use it for ideas. Right now I have to follow many links just to get close to what I want (and I don't know what pages I don't notice).
+[19:15] <danter> the training woldnt be so slow (when your fighting the monsters for your lvl) but would go extremely slow and hardly notice, if your fighting monsters that can't harm you
+[19:15] <mblanch> Well, as a result of the previous point ( RP complexity ) we have to release new things between 0.59 and working new RP system
+[19:15] * durkham really wonders if planning had been better at an earlier place on the schedule
+[19:16] <hendrik> http://arianne.sourceforge.net/wiki/index.php?title=StendhalRefactoring
+[19:16] <kymara> the new wiki side bar helps with this a lot ChadF
+[19:16] <mblanch> And also related with this topic it is "Version naming after 0.59"
+[19:17] <mblanch> We need to do a 0.60 release that is not going to have a new RP
+[19:17] <mblanch> We need also to decide how to name versions
+[19:17] <timothyb89> And 0.60 will have been ported to 2.0 if I've been following things correctly?
+[19:17] <timothyb89> *marauroa 2.0
+[19:17] <mblanch> yes
+[19:17] <Snaketails-2> the thing is with the 0.60 release the new RP system may not be implemented, but it is a whole lot further forward than it was 3 at 0.58
+[19:18] <mblanch> I can port database from 1.34 to 2.0
+[19:18] <timothyb89> :)
+[19:18] <Snaketails-2> 3 at 0.58?
+[19:18] <Snaketails-2> grrrrr 3:20am ;o( sorry
+[19:19] <mblanch> hendrik: so? what do you think the naming should be like?
+[19:19] <ChadF> mblanch: so hold off the db reset till 61 or something?
+[19:19] <mblanch> ChadF: as long as possible until new RP is mature enough
+[19:20] <danter> ChadF: frankly I don't think a DB reset will be any soon at all right no
+[19:20] <danter> w
+[19:20] <durkham> i propose 0.60 for stendhal portet to marauroa 2.0
+[19:20] <hendrik> i think we should go for 0.60 as we need more than one release before it is ready.
+[19:20] <danter> as hendrik and mblanch said earlier
+[19:20] <durkham> if new RP is implmented let it be 0.70
+[19:20] <durkham> so the big changes are in the numbers
+[19:20] <mblanch> What about 1.00?
+[19:21] <ChadF> durkham: that seems like far off, if we want to start the new rp soon (in small steps)
+[19:21] <Snaketails-2> how about in 0.60.01 -> 0.60.99 RP is built up over time in minor steps, don't work on other "side" projects, and concentrate on this?
+[19:21] <kymara> mblanch: i think it would be useful to see how the new RP system works from a zeroed database before releasing as not-beta
+[19:21] <mblanch> SnakeTails: problem of 0.60.01--> is that we miss the feeling of progress ( hey! see! still 0.60, as Oslsachem told about wine project :P )
+[19:22] <mblanch> kymara: ok
+[19:22] <durkham> chadf: i have no problem with 0.60 release and have the next one named 0.70 is the change is big enough to rectify
+[19:22] <Snaketails-2> I'm happy to have my stats set to zero to test the new system, or any system
+[19:22] <ChadF> how about the M$ way of using years.. "stendhal 2007: spring thaw" ;)
+[19:22] <kymara> SnakeTails: not all of us can contribute to writing the new RP :/
+[19:22] * durkham grunts at chadf
+[19:22] <mblanch> So we keep 0.60, 0.61, 0.62, ... and 0.60.1 to bug fixes?
+[19:22] <kymara> if we were told to only do those release, i and a few others couldn't contribute for ages. perhaps no bad thing :P
+[19:23] <kymara> mblanch: what you say about numbering sounds sensible to me
+[19:23] <Snaketails-2> but those who can will work on the RP system, there will always be a job for cartographers (world makers and fillers)
+[19:23] <ChadF> mblanch: there's also the linux kernal style.. odd/even minir versions for stable/devel
+[19:23] <durkham> mblanch agreed
+[19:23] <ChadF> rr.. kernel
+[19:23] <hendrik> Snaketails-2, keep in mind that this is hobby, not payed work. So it is impossible to force anyone to do this.
+[19:24] <mblanch> ChadF: are we would to release devel things?
+[19:24] <Snaketails-2> rr.. kernel ? as in 2.<even> is public release 2.<odd> is the next test version ?
+[19:24] <hendrik> ChadF, this may be useful if we have more than 500 active developers.
+[19:24] <lenocas> !!!!
+[19:24] <durkham> and have a big number jump for the RP stuff meant to be as wished
+[19:24] <mblanch> hendrik: so keep the actual way of numbering?
+[19:24] <hendrik> mblanch, yes
+[19:24] <mblanch> ok
+[19:24] <ChadF> in that case a beta server could also run with the devel version (rewinding conversation a bit)
+[19:25] <durkham> what i thought of :)
+[19:25] <mblanch> Yes, but it is not released :)
+[19:25] <hendrik> I think we should do some PR for 0.60. Like comparing it to 0.50.
+[19:25] <mblanch> PR?
+[19:25] <hendrik> instead of defining it based on completly new things.
+[19:25] <ChadF> pub-rel
+[19:26] <durkham> rp role play
+[19:26] <hendrik> public relations -> advertisement.
+[19:26] <mblanch> ok
+[19:26] <ChadF> get it into slashdot ;)
+[19:26] <mblanch> Careful :)
+[19:26] <hendrik> no, not that.
+[19:26] <ChadF> CNN? =)
+[19:26] <mblanch> Or Atlan server will burn :D
+[19:26] <durkham> BBC world
+[19:27] <danter> :P
+[19:27] <kymara> what about more activity on happy penguin etc
+[19:27] <hendrik> what i wanted to say is this: We should define 0.60 from a customers point of view not from a developers ones.
+[19:27] <Snaketails-2> how about if the releases between 60 and 70 are just on the test server and the major releases to public get the 60, 70, 80 ?
+[19:27] <kymara> how many people here haven't rated it thet? we could all go do that
+[19:27] <mblanch> hendrik: agree
+[19:27] <kymara> hendrik: i would be happy to help with this
+[19:27] <mblanch> hendrik: kymara is doing a great job at the new items
+[19:27] <hendrik> and there are lots of great things in 0.60 that have not been there in 0.50.
+[19:27] <hendrik> mblanch, yes i agree with that.
+[19:28] <kymara> but not /. or anything so big
+[19:28] <mblanch> done with topic now?
+[19:28] * durkham kymara shhht, just take it and enjoy it
+[19:28] <kymara> word of mouth is a big thing. a lot of us have blogs, i guess. we could post to there
+[19:28] * hendrik points at a commonly known non-technical issue that has to be fixed first before we go that public.
+[19:29] <hendrik> (not related to kymara last sentence)
+[19:29] <kymara> true, hendrik
+[19:29] <kymara> kiheru could probably recruit more people to help him with this
+[19:30] <kymara> it is a huge task for him alone
+[19:30] <mblanch> steve site will help us recruit ocasional developers
+[19:30] <mblanch> and graphics, map makers and so
+[19:30] * durkham wonders what technical issue
+[19:30] <mblanch> I plan to allow people submit work and pay them in game money for their work
+[19:30] * durkham non-technical
+[19:30] <Snaketails-2> the mapping I found the most interesting part
+[19:31] * durkham just found out
+[19:31] * mblanch moves topic ++
+[19:31] <mblanch> TOPIC: Project managing and planning and Quality review
+[19:31] <lenocas> game money??? :O
+[19:31] <mblanch> This the BIGGEST problem we have right now
+[19:31] <lenocas> lol
+[19:31] <mblanch> There is little management ( that's ok )
+[19:32] <durkham> i porpose have some more sophisticated tool for planning
+[19:32] <mblanch> There is 0 planning ( that's bad, I always find myself surprised when I reading CVS commits )
+[19:32] <lenocas> eheh
+[19:32] <mblanch> and we need to work on quality ( test server we have previously talked will help. )
+[19:33] <kymara> and people even 'plan' on projects in tandem. so that they are disappointed when they find someone already has ideas which would preclude theirs
+[19:33] <mblanch> and about planning the wiki we mentioned before should help, but we should all ( I too ) be more communicative about what we are doing and what our next steps are going to be.
+[19:33] <Snaketails-2> I can relate to the current topic, and so can my boss when he hassles me at work ;o(
+[19:34] <kymara> mblanch: we have that wiki for maps
+[19:34] <durkham> mblanch i showed you the xplanner.org programm
+[19:34] <mblanch> durkham: problem of planning tools is that can't be imposed
+[19:34] <kymara> but only about half the devels who make maps, use it
+[19:34] <mblanch> kymara: yes, I will improve it a bit, but it is a good thing
+[19:34] <kymara> likewise we have a quests refactoring page with many details
+[19:34] <kymara> which has also been ignored, causing problems
+[19:34] * hendrik likes to do small things spontaneously
+[19:34] <mblanch> hendrik: yes
+[19:35] <Snaketails-2> in the early days, it was "see danter for mapping" see this person for this.... there was a central organiser and controller.... what happened?
+[19:35] <mblanch> hendrik: we are talking about long-term development
+[19:35] <mblanch> SnakeTails: globalization :P
+[19:35] <kymara> sure, hendrik, but perhaps you also keep your eyes on any wiki refactoring pages which might affect your ideas
+[19:35] <danter> heh... I got rather innactive... and well others took over...
+[19:35] <durkham> mblanch problem on volunteer programmers is they cannot be imposed at all
+[19:35] <mblanch> SnakeTails: I think RL work interfere.
+[19:35] <mblanch> durkham: that's teh point :(
+[19:35] <durkham> at the moment i have to take care at at leaast 3 paces
+[19:36] <durkham> 3 places
+[19:36] <hendrik> Snaketails-2, we still have this: Ask ChadF for gui and zones, ask durkham for sound and OOP, ...
+[19:36] <durkham> that are definately too many
+[19:36] <mblanch> durkham: which places?
+[19:36] <durkham> wiki
+[19:36] <hendrik> ask kiheru for sprites, ask kymara for quests...
+[19:36] <durkham> bug trackers bug and features
+[19:36] <Snaketails-2> but the general idea of controlling and direxcton was there, ok RL gets in the way of fun stuff/hobbies but there should be something like this if its a person, or if its a web page.
+[19:36] <durkham> there is somewhere a readme which i also should contribute to
+[19:36] <ChadF> maybe we could create a wiki page for each developer that they can organize however), then in the common area, links are created to those pages/sections of developers that have ideas/comments on them (when relavent).
+[19:37] <durkham> the the todo s in code
+[19:37] <durkham> irc
+[19:37] <durkham> did i miss one?
+[19:37] <Snaketails-2> Ahhh ok ;o)
+[19:37] <Snaketails-2> thanks hendrik ;o)
+[19:37] <mblanch> So how to improve this?
+[19:37] <mblanch> durkham: irc logs :P
+[19:37] <kymara> even though it#s true, people may 'ask me' about quests - that doesn't mean all do say
+[19:38] <durkham> if we had a central point just for planning
+[19:38] <danter> hmm, I think alot of developers needs to be added to this page
+[19:38] <danter> http://arianne.sourceforge.net/wiki/index.php?title=Main_Page
+[19:38] <durkham> and it is not like waterfall
+[19:38] <Snaketails-2> how about a forum area for the seperate areas that get worked on so discussions can take place, and not meet at say 1600 which for some people cannot do this often...
+[19:38] <durkham> just like have the tasks, a bit like the bug-tracker in sf but you must be able to devide it
+[19:39] <mblanch> durkham: the problem of any app that really deserver our time is that it is moderately complex and newbies reject to use ( and not so newbies :| )
+[19:39] <durkham> i needed about half an hour to setup and post the first task to xplanner
+[19:39] <durkham> and most of it was setup
+[19:39] <hendrik> Snaketails-2, i just found http://arianne.sourceforge.net/wiki/index.php?title=ArianneAuthors&action=history
+[19:40] <mblanch> I have problems with people to use Bugs tracker
+[19:40] <hendrik> Snaketails-2, i just found http://arianne.sourceforge.net/wiki/index.php?title=ArianneAuthors
+[19:40] <ChadF> it's just that my ideas don't always follow the structure of the main stuff (because some things transend areas), and spliting them up in the common area would be fragmented or redundent of I had to explain/link some of the framework ideas in each.
+[19:40] <ChadF> s=c
+[19:40] <ChadF> of=if
+[19:40] <durkham> i have problems with the bug tracker as it is not dedicated enough
+[19:41] <timothyb89> durkham, mblanch: what about SF tasks? I used them and they work pretty well :)
+[19:41] <mblanch> timothyb89: not as clear as tracker
+[19:41] <durkham> i never seen a working one ?
+[19:41] <ChadF> durkham: as in a bug (for release versions) and bugs-devel for unrealesed things?
+[19:41] <mblanch> timothyb89: I have them disabled for Arianne
+[19:41] <timothyb89> Ah, yes...
+[19:42] <hendrik> it misses dependencies.
+[19:42] <durkham> lets tae the bug i committed about the wrong portals
+[19:42] <danter> ohh, never seen that authors page before...
+[19:42] <hendrik> but it has one huge advantage: It is simple to use for normal users (non developers)
+[19:43] <durkham> is there a project using it at sf.net so i could take a look at?
+[19:43] <durkham> does have subtasks to tasks
+[19:44] <timothyb89> durnham: sf tasks? mine uses tasks --> sf.net/projects/mazerunner
+[19:44] <timothyb89> *durkham sorry
+[19:44] <durkham> like have a task new map gruntyplace
+[19:44] <durkham> then there would be NPCs on ti and quests
+[19:44] <durkham> there would be tiles to do
+[19:44] <durkham> there would be coding needed
+[19:44] <durkham> as subtasks
+[19:45] * durkham btw dependencies do not really matter
+[19:45] <timothyb89> all there.... but as mblanch said, it can get confusing
+[19:45] <ChadF> Show we add Category/Group choices to the trackin items? Right now they're just empty to group things better>
+[19:45] <ChadF> ?
+[19:46] <ChadF> rr.. empty to = empty, to
+[19:46] <Snaketails-2> Good night all, 3:45am and I fallng asleep, good luck with meeting ;o)
+[19:46] <mblanch> I just use Stendhal:. Marauroa:, Wiki:, Website:
+[19:46] <Oslsachem> night Snaketails-2
+[19:46] <lenocas> good night, SnakeTails :)
+[19:46] * Snaketails-2 (n=yendor@c211-28-232-191.fernt1.vic.optusnet.com.au) has left #arianne
+[19:46] <mblanch> We can expand that idea to fit our needs
+[19:47] * SnakeTails (n=yendor@c211-28-232-191.fernt1.vic.optusnet.com.au) Quit (Remote closed the connection)
+[19:48] <ChadF> things like client and server, and sub-groups like sound, quests, gui, etc..
+[19:48] <durkham> chadf that sounds good as a start
+[19:49] <hendrik> the sub-groups sound good but i don't know about client/server.
+[19:49] <ChadF> hendrik: that was for general cases that don't fit to a specific subtype
+[19:49] <ChadF> so they could be assigned to the lower level that fits the problem
+[19:49] <ChadF> rr.. lowest
+[19:49] <hendrik> ok
+[19:50] <durkham> it is possible to change the category !?
+[19:50] <ChadF> so there would be a "general" type for ones that are indeterminent
+[19:51] <durkham> yes and then we could have the bugs to our users and categorized for our needs?
+[19:51] <mblanch> yes
+[19:51] <durkham> ok lets give that a try
+[19:51] <ChadF> for example: "item drop doesn't work". Is that a client bug, or a server bug. At first glance if would be placed in a general cat/group until more reaserch is done
+[19:52] <durkham> like userSubmit :)
+[19:52] <ChadF> then if someone looks at the client side and finds it working there, they change the state to server
+[19:53] <mblanch> ok
+[19:53] <mblanch> anything else on this topic?
+[19:53] <hendrik> Items&Creatures
+[19:53] <durkham> quality?
+[19:53] <mblanch> Any measure apart of test server and 1 week pre announce of the release to improve quality?
+[19:53] <durkham> tests?
+[19:54] <ChadF> and maybe someone stubles over the bug in the server, but doesn't know how to fix it, they might change it to a even more specfic type (to let others know where to look). Ok, I'm done with this now. ;)
+[19:54] <mblanch> Right! :) Tests :)
+[19:54] <ChadF> rr.. stumbles
+[19:54] <mblanch> I will write test cases for the code as I start doing the porting
+[19:54] <durkham> do not change the tests to pass, by commenting them out !!!!!!!
+[19:54] <kymara> also being more responsible for testing your own changes
+[19:54] <dine> Sorry, I have to go now...I would have liked to say sth. about maps etc, but I'm going to a party tonight. But I want you to know that I started making a cannalization beneath ados. Till later
+[19:54] <dine> bye
+[19:54] <durkham> have fun
+[19:54] <hendrik> durkham, i agree if and only if the test has worked once.
+[19:54] <Oslsachem> bye dine
+[19:55] <mort4> bye all
+[19:55] <ChadF> durkham: do not write tests that break when the impl changes! ;)
+[19:55] <durkham> no disagree on that
+[19:55] <Oslsachem> bye mort4
+[19:55] * dine (n=dine@p508A1EE4.dip0.t-ipconnect.de) Quit (Read error: 104 (Connection reset by peer))
+[19:55] <durkham> chadf that would be do not write tests
+[19:55] * mort4 (n=mort@p508A1EE4.dip0.t-ipconnect.de) Quit (Read error: 104 (Connection reset by peer))
+[19:55] <kymara> ChadF: why not rewrite the test when the impl is changed?
+[19:55] <mblanch> durkham: exactly, no empty tests :P
+[19:55] <ChadF> tests should be based on api specs,
+[19:55] <durkham> i agree to no empty tests
+[19:55] <ChadF> not just "how it seems to work now"
+[19:56] <mblanch> ok
+[19:56] <ChadF> otherwise it's not testing anything meaningful
+[19:56] <ChadF> kymara: I did.. I commented out the obsolete test code
+[19:56] <hendrik> such tests are useful if you want to refactor the code.
+[19:56] <durkham> as you all seem to understand every little bit of this pasta of code , i really admire
+[19:57] <durkham> i need the tests to understand what is going on
+[19:57] <durkham> they shall brake if some changes in code changes the behaviour
+[19:58] <mblanch> ok, anything else?
+[19:58] <hendrik> please do not comment out code. If it is not used anymore, just delete it. It can be restored from cvs.
+[19:58] <ChadF> but sometimes what is going on shouldn't be assumed as how it should be. Only the things that *have* to work a certain way need to be tested well. Everythin else is impl.
+[19:58] <durkham> chadf xou did comment the tests out , you commented their implementation
+[19:58] <durkham> so they passed but were not there ynamore
+[19:58] <hendrik> ChadF, it is sometimes hard to understand the difference.
+[19:59] <mblanch> ChadF: I have found lots of bugs that were on code that was simple :)
+[19:59] <mblanch> I will make sure most methods are covered by tests
+[19:59] <durkham> the tests i did today on server side items are throwing exceptions
+[19:59] <mblanch> but I need the compromise of everyone writting new code to make sure that if they make a test fail ( that used to work ) to fix the code, not the test :P
+[20:00] <kymara> hendrik: i can follow that rule if we can make the exceptions to it clear - like we're ok to comment in StendhalQuestSystem, so we can say in the top (if not already there)
+[20:00] <durkham> i do not know if this is behaviour as designed
+[20:00] * ChadF codes in the form of APIs.. how is something suppose to work, and only use it as such, making as few assumptions as possible otherwise (not always possible I realize), but a goal.
+[20:00] <hendrik> ((i have grouped the level 0 players account create time. They are about 300-400 per mounth from 2005-12 until 2007-04. So this is an ongoing issue))
+[20:00] <durkham> ok chad then how should Item(Item) constructor work?
+[20:01] <hendrik> kymara, yes, i mean large amounts of code.
+[20:02] <ChadF> durkham: things like this are what need to be formally defined, as right now devels have to look at how other code does it and how replicating it is the right way. But that's not a good thing. =|
+[20:02] <mblanch> ok
+[20:02] <mblanch> ...
+[20:02] <ChadF> rr.. and how = and hope
+[20:02] <mblanch> Maraurod 2.0 has been widely documented
+[20:02] <mblanch> I plan to do the same on stendhal and write test cases
+[20:02] <mblanch> But everyone should contribute too.
+[20:02] <mblanch> ok?
+[20:02] <hendrik> yes
+[20:02] <durkham> :)
+[20:02] <mblanch> ok, next topic :)
+[20:02] <mblanch> * RP features
+[20:02] <mblanch> * Monsters
+[20:02] <mblanch> * Maps
+[20:02] <mblanch> * Music
+[20:03] <mblanch> RP features at last :)
+[20:03] <hendrik> we should do something about camping.
+[20:03] <lenocas> yes :)
+[20:03] <mblanch> Yes
+[20:03] <mblanch> I think about changing the combat formula right now
+[20:03] <hendrik> now it is required to reach some parts of the world.
+[20:03] <mblanch> for example?
+[20:03] <hendrik> Two players with the stats of "hendrik" are unable to hurt vampire lord.
+[20:04] <kymara> they must work together, then?
+[20:04] <kymara> same with the dark elves, though
+[20:04] <kymara> i think lifesteal is a difficult one to balance (i have tried to rebalance the dark elves)
+[20:04] <hendrik> it heals to fast because it causes to much damage because i did not train my def.
+[20:04] <mblanch> ok, let me show my idea
+[20:04] <mblanch> target[DEF]^2 + 4 * target[DEF] * shield + 2 * target[DEF] * armor + target[DEF]* helmet + target[DEF] * legs + target[DEF] * boots
+[20:04] <lenocas> hendrik, i still remember our experience at your server, with vl!!! lol
+[20:04] <mblanch> This is actual formula for combat
+[20:04] * durkham hopefully back for music
+[20:05] <lenocas> good durkham :)
+[20:05] <mblanch> It claims for camping
+[20:05] <mblanch> a lvl 0 with DEF 50 is better than a lvl 50 with DEF 30
+[20:05] <mblanch> So my idea is to introduce Level in the formula
+[20:05] * ChadF things that items' atk/def shouldn't be scaled on where they're used (feet vs armor), that items should have the true def/atk they will provide, so that everything is consistent/comparable
+[20:05] <mblanch> so each level makes you automatically stronger
+[20:06] <mblanch> everyone agree with ChadF?
+[20:06] * hendrik does not object.
+[20:06] <danter> yes, it's better to have the actual def value
+[20:07] <mblanch> ok, so we will change it.
+[20:07] <danter> since we are using higher values on armor pieces that should have higher def in the defenition already
+[20:07] <mblanch> as I were saying, by adding level on the formula you are less encouraged to camping and more to play and level up
+[20:07] <ChadF> now in a better rp system, certain items might have specific atk/def.. like boots would def well against rats (that attack your feet), but not help alot against a dragon. =)
+[20:07] <mblanch> Do you think it is a good change?
+[20:08] <kymara> i think so mblanch but it would take some explaining to players :P
+[20:08] <hendrik> mblanch, yes
+[20:08] <mblanch> kymara: they won't know :P
+[20:08] <kymara> some people want camping made impossible
+[20:08] <danter> so making some pieces stronger, would be a double strenghtening
+[20:08] <kymara> like after 5 minutes idle, any creatures attacking you become demon skeletons ...
+[20:08] <mblanch> :)
+[20:08] <kymara> but others quite enjoy being able to still play, while idle.
+[20:09] <hendrik> danter, ChadF is not talking about altering the effective status but adjust the "look" value to the one used internally.
+[20:09] <mblanch> I wanted items to be good against some types of damages
+[20:09] <mblanch> For example ice sword will hurt a lot to the ice giant ( you will love it :P )
+[20:09] <mblanch> but won't do as much to another ice creature...
+[20:10] <mblanch> excuses...
+[20:10] <mblanch> fire giant
+[20:10] <mblanch> cold vs hot, dark vs light, etc... danter wrote about that on the wiki
+[20:10] <kymara> mblanch: athana loves that idea too, he's told me before
+[20:10] <ChadF> kymara: but camping is possible in RL (under equiv conditions).. one practices and practices in a semi-controlled combat condition. So elimiating it completely wouldn't seem right.
+[20:10] <mblanch> Also racial bonus
+[20:10] <mblanch> ChadF: with change on the formula it won't be eliminated
+[20:10] <danter> heh, actually I created some formulas for that aswell
+[20:11] <mblanch> ChadF: I will just make it to be not so important
+[20:11] <ChadF> mblanch: right.. I was just saying how removing it outright wouldn't seem right
+[20:11] <kymara> mblanch/ ChadF - i really like that idea
+[20:11] <danter> http://arianne.sourceforge.net/wiki/index.php?title=StendhalRefactoringRP&a1111_wiki_session=b9646059e93b80ed9d1eaf4371f2f91e#Magic
+[20:12] <hendrik> danter, please logout NOW.
+[20:12] <ChadF> mblanch: that's what I've been saying about the new rp system eventually elimiting the need for
+[20:12] <hendrik> danter, wiki i mean.
+[20:12] <danter> ?
+[20:12] <danter> ow... ok
+[20:12] <hendrik> you posted your session id.
+[20:12] <danter> ...
+[20:12] <kymara> that allows people to edit the wiki, i suspect
+[20:12] <mblanch> edit on danter's name :)
+[20:12] <danter> yeah...
+[20:13] <ChadF> in it's skills/atk/def are specialized.. so camping with some enemies doesn't translate skills to all eneimies (thus making it less useful or abusable)
+[20:13] <danter> I thought the link was a bit different... hrm..
+[20:13] * durkham back
+[20:13] <Oslsachem> quick thought: If camping equals to staying still in one place then characters could have an odometer which incremented some new attribute like agility which was thrown into the defense formula.
+[20:14] * ronwalf (n=ronwalf@pool-71-127-59-64.washdc.east.verizon.net) has joined #arianne
+[20:14] * timothyb89 likes Oslsachem's idea
+[20:14] <mblanch> On new RP, def value will drop when you are attacked by more of a creature
+[20:14] <mblanch> so even rats may damage :)
+[20:14] <danter> http://arianne.sourceforge.net/wiki/index.php?title=StendhalRefactoringRP#Magic
+[20:14] <ChadF> Oslsachem: that's basically the general basis of a itemizes skill syste,
+[20:14] <ChadF> m
+[20:14] <danter> there, that link is more appropriate... lol...
+[20:15] <mblanch> I have posted many features request to SF feature tracker
+[20:15] <mblanch> they are very related to RP.
+[20:15] <mblanch> BTW I am adding new creatures
+[20:16] <mblanch> ( i have added around 40 new since 0.58 )
+[20:16] <mblanch> and plan to add new items
+[20:16] <lenocas> :)
+[20:16] <mblanch> I am building an GUI-app to create creatures XML
+[20:16] <hendrik> players should die more often
+[20:16] <mblanch> hendrik, you told about some areas not accessible
+[20:16] <mblanch> we have a real problem on server
+[20:16] <mblanch> with levels
+[20:16] <mblanch> There is no way to balance a lvl 10 player with a lvl 100 ( or above )
+[20:17] <kymara> hendrik: even my highly trained character can't kill some of the new creatures
+[20:17] <kymara> (ones with level comparable to my own)
+[20:17] <ChadF> a RL example: a body builder should be able to lift and lift and lift weights constantly to build up their strength. But if they then try to do running, it doesn't help (so why concentrate your training on one thing). That person could do lifting and running, but in trade for it taking more effort all over.
+[20:18] <mblanch> hendrik: may you paste the query about players per level? Into no paste better.
+[20:18] <mblanch> I am working right now on the range 40 to 90 of creatures
+[20:19] <mblanch> as you reach a point where there are no really interesting areas to visit
+[20:19] <mblanch> Kobolds are too easy
+[20:19] <mblanch> Elves are easy
+[20:19] <mblanch> death knigh it a moth.........
+[20:19] <mblanch> So I find myself having to train to do something else
+[20:20] <hendrik> Atlan, could you give me permission to write select statements directly into files?
+[20:20] <ChadF> possibly (to some very limited amount).. as a player doesn't use a certain skill, it gets deminished slightly. But just like riding a bike, it isn't all lost.. just rusty. So camping in one situation would have some negative impact on their character.
+[20:20] <mblanch> BTW I am going to port maps to our new tileset formats
+[20:20] <hendrik> Atlan, it may be a good idea that the stendhal is not allowed to do
+[20:21] <mblanch> I were thinking about removing all the monsters on world and place them again thinking in lvl 0 to 30
+[20:21] <Oslsachem> maybe introducing a penalty for staying still: sedentarism makes you lose points somewhere every certain number of turns
+[20:21] <mblanch> I remember to have run a lot the first time I saw an elf
+[20:22] <ChadF> Oslsachem: that would fit into what I just said: your walking skill would be lessened and anything else that logically would be reduced from lack of that particular activity.
+[20:22] <hendrik> mblanch, http://cut.and.paste.org/index.php?id=1031
+[20:22] <ChadF> of course if they're in combat, while still, that would be certain types of activity
+[20:23] <hendrik> i think it is important that the players are able to understand the basic rules.
+[20:24] <ChadF> mblanch: btw, have you tried /away ... on a fresh client build? Speeking of staying still. =)
+[20:25] <mblanch> hendrik: I agree
+[20:26] * ChadF wonders how many of those accounts where created and abandoned
+[20:26] <ChadF> is there a # of login times field?
+[20:27] <ChadF> that could be divided by the time since created (to get an average gave usage)
+[20:27] <ChadF> then ignore anything below a certain threshold
+[20:27] <durkham> last login older than XXXX
+[20:28] <mblanch> umm
+[20:28] <ChadF> (actually their total logged in time could be better, rather than the login counts)
+[20:28] <durkham> or newer
+[20:28] <ChadF> I guess that's in the player object themselves as the age field
+[20:28] <mblanch> 80% of players are below level 3
+[20:28] <ChadF> but that would be harder to extract from sql
+[20:28] * durkham sorry this is off topix
+[20:29] <hendrik> We should work on the getting started issues.
+[20:29] * ChadF sees that the poor has to brunt most of the work in the stendhal world like in RL. =)
+[20:29] <mblanch> These numbers talk about newbies not being able to play
+[20:30] <hendrik> yes, and this issue is very old and still not solved.
+[20:30] <mblanch> Anyway, my idea with reseting creatures is to place them again so world is more friendly to newbies
+[20:30] <durkham> would this be a nice entry in our just decided planning tracking feature ? :P
+[20:30] <hendrik> i am going to post the number of created accounts which are still level 0 per month as soon as mysql is ready.
+[20:30] <mblanch> ok
+[20:31] <ChadF> mblanch: the higher level creatures could be seperated by natural world boundaries.. so you have to go to the "bad side of town" to be in any real danger
+[20:31] <hendrik> http://cut.and.paste.org/index.php?id=1032
+[20:31] <mblanch> ChadF: what is high level?
+[20:31] <ChadF> and even in those regions, having different levels of risk
+[20:32] <mblanch> ChadF: according to these numbers high level is lvl 10 :P
+[20:32] <mblanch> hendrik: what was the query? I don't understand the data
+[20:33] <hendrik> SELECT level, concat(year(timedate), month(timedate)), count(*) FROM avatars,player WHERE name=username AND level < 1 GROUP BY level, concat(year(timedate), month(timedate));
+[20:33] <hendrik> so the second column is year+month.
+[20:34] <ChadF> mblanch: some defined areas would be limited to level 5, others to 10, then other start to transition to 10-20, and so one. So a nice chunk of the world could be explored by players < 10 without high level creatures
+[20:34] <mblanch> ChadF: yes, that's why I ask about reseting creatures, ok?
+[20:34] <ChadF> but if they stray off the same path too much, they risk higher ones increasingly
+[20:35] <durkham> there is 1 player created in nov 2005 that is still level 0 <--- thats it?
+[20:35] <hendrik> reformated: http://cut.and.paste.org/index.php?id=1033
+[20:36] <hendrik> yes
+[20:36] * durkham was right yay
+[20:36] <mblanch> ok
+[20:36] <mblanch> Email validation will fix that :)
+[20:36] <ChadF> We need to mark on the overall map (maybe colorcoded) areas that limit the player risk. Then all existing/future maps can be made to fit.
+[20:37] <mblanch> ChadF: ok
+[20:37] <mblanch> ChadF: we talk about this with kymara and dine when she is back
+[20:37] <Oslsachem> A well thought set of meaningful server statistics would help in this case to understand what's happening with new and old users: e.g. if they find the beginnings too difficult of if they have become bored.
+[20:37] <ChadF> maybe have dead bodies near the boundaries of increasily dangurous areas to let players know things aren't soo peaceful =)
+[20:38] <kymara> ChadF: i used signs
+[20:38] <kymara> for exmaple when i added bandits on an otherwise safe road, right be a zone change
+[20:38] <mblanch> ChadF: I used that for black_death
+[20:38] <Kawn> kymara: nobody read signs xD
+[20:38] <mblanch> Kawn: that's the fun part :D
+[20:38] <kymara> Kawn: then their fault if they die
+[20:38] <Kawn> ok ok :P
+[20:38] <durkham> or have RIP - gravestones wherever a player died and let it stay her until a certain time has passed?
+[20:38] <kymara> anyway, i did when i was a newbie
+[20:39] <kymara> durkham: for somethings it would be too late
+[20:39] <ChadF> kymara: but if you go to certain bad areas in RL, their aren't signs general warning you.. and if they were added, the bad ppl would probably destroy them anyway
+[20:39] <durkham> yes
+[20:39] <kymara> like if you enter the small giant room you're dead as soon as you go in
+[20:39] <kymara> if your'e a newbie
+[20:39] <danter> hmm, 2005... could be when I created my GM char :P
+[20:39] <durkham> but that is how it is if you are an adventurer that is not pampered
+[20:39] <kymara> ChadF: how can bad people destroy signs?
+[20:39] <kymara> oh you mean in rl sorry
+[20:40] <mblanch> About map development?
+[20:40] <ChadF> kymara: right.. and the game should be intuative to what one might be used to in RL
+[20:40] <mblanch> We have four ( at least ) areas to develop
+[20:40] <mblanch> north of Ados
+[20:40] <mblanch> Around of Fado
+[20:40] <mblanch> Athos western sea
+[20:41] <kymara> yes, like a dark portal might contain evil creatures. but until the 'doors shift you aside' bug is fixed we musttake care to be considerate
+[20:41] <mblanch> Northwest of semos
+[20:41] <kymara> in rl you can back out. you don't get teleported 3 'steps' to the right as you go in
+[20:41] <kymara> and underground, mblanch
+[20:41] <durkham> when i think of rp-games in general i think danger increases the farer aaway from home town the deeper in a dungeon and the higher in a mountain
+[20:41] <ChadF> kymara: like the underground connection.. have that "sign" be something scratched in the ground/rock by a previous unfortunet traveler, as opposed to some formal sign
+[20:41] <mblanch> Yes, underground too.
+[20:41] * |timothyb89| (n=timothyb@c-67-161-204-99.hsd1.co.comcast.net) has joined #arianne
+[20:42] <kymara> sure ChadF, ideally. till then 'here be giants!' or similar is better than nothing
+[20:42] <ChadF> durkham: that would be the natural worl boundarys I mentioned
+[20:42] <|timothyb89|> oops...
+[20:42] <|timothyb89|> arianne[eye]_ help
+[20:42] <kymara> mblanch: i think all developers need encouragement to use the maps wiki
+[20:43] <mblanch> :)
+[20:43] <kymara> i didn't follow exactly but it seemed that you were talkign about plans for below ados and dine was disappointed because she had plans too
+[20:43] <mblanch> I will, I promised.
+[20:43] <kymara> double trouble, neither use it :P
+[20:43] <kymara> hehe ok. it could be better organised, i amdit
+[20:43] <mblanch> No, Dine is going to do canalizations there, isn't it?
+[20:43] <mblanch> http://www.speedyshare.com/795897625.html
+[20:43] <durkham> mblanch was right you cannot force devlopers to use a tool :P
+[20:43] <mblanch> I have created a big new area under the semos mine
+[20:44] * timothyb89 (n=timothyb@c-67-161-204-99.hsd1.wa.comcast.net) Quit (Nick collision from services.)
+[20:44] * durkham gd&r
+[20:44] * |timothyb89| is now known as timothyb89
+[20:45] <mblanch> In the mine there are going to be mithril to make armors and weapons
+[20:45] <mblanch> mithril is exported a town above the mine
+[20:45] <ChadF> kymara: and if I add the examine client option, rather than only having a sketchy row of pixels on the tile and a computer font message, you could see a nice picture of a hand carved sign for that realistic effect =)
+[20:45] <mblanch> and that town move it using a train to a proper place ( ados or another city )
+[20:45] <kymara> interesting, ChadF - that feature could have many uses for things me and lenocas are planning
+[20:46] <kymara> if you put the plans for it on wiki with possible max dimensions of images, that woudl be good ChadF
+[20:46] <kymara> what topic are we on now? iwent away and came back. are we still on RP Features?
+[20:46] * durkham finds this evening more productive than the last week in sum
+[20:47] <mblanch> yes
+[20:47] <kymara> that was monsters, music, soemthing else?
+[20:47] <Oslsachem> where would you see that image ChadF? overlaid?
+[20:47] <ChadF> mblanch: also at what level did you expect the cherubs to all be found? Right now you probably need ~lvl 30 to get the the one in the city
+[20:47] * ChadF couldn't get past the forest alive until about that level
+[20:47] <ChadF> Oslsachem: just in a window.. like doing inspect on a corpse
+[20:47] <ChadF> only a single picture image in a dialog
+[20:47] <mblanch> ChadF: problem is that things are unbalanced
+[20:48] <durkham> i think it is ok to have a certain level before you can dare to go farer away,
+[20:48] <hendrik> back in the old days it was this: Get togther 5 players, run for the angle in Nalwor, say "hi", die.
+[20:48] <kymara> does 'you can only use items with a certain level' come under this topic?
+[20:48] <mblanch> kymara: yes, why not :)
+[20:49] <kymara> hendrik: yes and keep to the north :P btw we thought about moving teh angels positions for reset. or even sooner
+[20:49] <hendrik> i have noticed that players tend to walk alone nowadays.
+[20:49] <ChadF> maybe we could also impl an AI response that gives pity to some lower level players.. like bring them to an inch of their life and then let them go, teaching them a lessone for entering their teritoty
+[20:49] <kymara> ok then, well about the items, hendirk has requested this feature. hendrik is it ready to be coded?
+[20:49] <mblanch> ChadF: I thought too about that.
+[20:49] <durkham> kymara give a short explain on what it is ?
+[20:49] <mblanch> ChadF: but I think some players are not inteligent enough for understanding :)
+[20:50] <ChadF> yeah, then they could sample the dangerous places and live to be the wiser (rather than die to be the wiser)
+[20:50] <kymara> durkham: Each item has a required level, below which you can't use it as a weapon
+[20:50] <mblanch> I like to equip whatever thing
+[20:50] <mblanch> and I don't like bound items
+[20:50] <kymara> durkham: i promised ages ago that i'd make a sketch of some values for this
+[20:50] <mblanch> ( me speaking as player )
+[20:50] <lenocas> i dont like bound items either, mblanch :(
+[20:51] <ChadF> hendrik: partly because there's not a great insentive to team. DM was the only place that really brought players together, because they had too to survive without a ton of GPs.
+[20:51] <kymara> mblanch: as a player, i'd be really annoyed if your char got a immortal sword on the cheap because another level 100+ player sold you a bunch of giant hearts
+[20:51] <durkham> i like having a needed level before usin the really dangerous (knifes and forks) things
+[20:51] <kymara> ChadF: the new creatures are fulfilling this again
+[20:51] <mblanch> Athana_ posted some ideas about team play
+[20:51] <mblanch> I will try to make them real on the new RP
+[20:51] * durkham o o fire , haaa hot
+[20:51] <hendrik> kymara >>>
+[20:51] <hendrik> if (entity.has("minimum_level") && player.getLevel() < entity.getInt("minimum_level")) {
+[20:52] <hendrik> player.sendPrivateText("You are not experienced enough to use this item");
+[20:52] <ChadF> durkham: in a new rp system, this would probably be enheirent
+[20:52] <hendrik> return;
+[20:52] <hendrik> }
+[20:52] <hendrik> <<<
+[20:52] <durkham> chadf yes
+[20:52] <Oslsachem> I'd think about more creative alternatives to bounding items like make powerful weapons harmful to the user if she isn't skillful enough.
+[20:52] <kymara> i brought up the topic because it will take some time for me to chosoe these values and ask other players to help me. so if people dont' like the idea, i shoul;dnt' do it :P
+[20:53] <hendrik> the old stupid creature AI propagated teamplay.
+[20:53] * durkham wants to have the most dangerous pudding spoon atk +1000
+[20:53] <hendrik> Because it was possible to kill 1 creature with 2 players withou getting hurt at all.
+[20:54] <mblanch> Finally, the last topic is server replication
+[20:54] * Atlan_ (n=mm@p50909226.dip0.t-ipconnect.de) has joined #arianne
+[20:54] <mblanch> timothyb89 pointed that in the USA he is having a lot of lag to Atlan's server
+[20:54] <durkham> chadf couldnt this be then a nice little step in direction of the new RP?
+[20:55] <mblanch> I want to code something in marauroa to *link* server
+[20:55] <timothyb89> Being half the globe away from the server make things pretty slow :)
+[20:55] <ChadF> Also: I would like the creatures atk/def and weapons they drop to be tied together. I mean if a high level creature dies and only leaves some pitiful weapon in their corpse, what were they fighting with? Of course they might have some built-in atk/def (like tough skin/high strength), but this should be more predictable for balancing (and realism)
+[20:55] <kymara> ChadF: i think that's already the case
+[20:55] <Atlan_> hi
+[20:55] <mblanch> hi Atlan
+[20:55] <kymara> ChadF: when we create creatures, we think about that.
+[20:55] <durkham> i wuld like to have the creature drop less weapon and armor
+[20:55] <ChadF> durkham: I see you've played knifey-spoony before! ;)
+[20:56] * durkham ouch
+[20:56] <kymara> durkham: me too :) we already made them start to drop poisons, and more food. but i think we could do more. some can drop antidotes possibly even scrolls
+[20:56] <durkham> or just die
+[20:56] <kymara> hehe. then disappointment follows
+[20:56] <kymara> mblanch: to your topic, servers
+[20:57] <kymara> mblanch: could timothyb89 say run a server in the US which has the same db as atlans?
+[20:57] <mblanch> kymara: thanks, I really have my eyes hurted :) 3 hours reading :P
+[20:57] * durkham GIVE ME MY ICE :DDDD
+[20:57] <ChadF> kymara: right now creatures just have a fixed atk/def value. But that doesn't have any direct coorilation to the things they drop (which they had on them). Only someone setting the atk/def to [hopefully] match does.
+[20:57] <kymara> so it's not like the german server? but linked to the main one?
+[20:57] <mblanch> My idea is two have two approaches
+[20:58] <mblanch> 1) Database replication, so we keep a copy of the database on another place too.
+[20:58] <ChadF> With my idea.. instead of having a creature drop items after it dies... items are randomly picked when it's spawned, and that partiuclar creature had the atk/def given as a result
+[20:58] <mblanch> 2) Server linkage, so you can jump from one server to another skipping the loggins stage
+[20:58] <ChadF> rr.. had=has
+[20:59] <danter> i think "monster throphies" is a good idea for drops
+[20:59] <mblanch> Of course, it is still to be implemeted, and the link would only be possible between trusted servers.
+[20:59] <hendrik> that would split the comunity.
+[20:59] <danter> now how many wolfs are carrying a chain mail in reality?
+[20:59] <timothyb89> It wouldn't if they are linked :)
+[20:59] <kymara> i dont' like to split the community
+[20:59] <mblanch> hendrik: community is already splitted
+[20:59] <kymara> danter, ChadF, lets continue creatures/drops on a wiki page
+[21:00] <ChadF> danter: that's another unrealitic thing =)
+[21:00] <durkham> hendrik i think mblanch wnat realtime online server replica
+[21:00] <kymara> i would thoroughly support that. i'm less keen on splitting the player base with separate db on each server.
+[21:00] <danter> offcourse you could get a nice pelt from a wolf thou, that you later can use to craft a nice fur coat
+[21:00] <mblanch> durkham: online won't be useful
+[21:00] <danter> or sell to the shops instead, and get money
+[21:00] <hendrik> as the traffic between two servers is higher than between one client and a server, it would be much slower than now.
+[21:01] <mblanch> hendrik: no, it won't
+[21:01] <mblanch> hendrik: traffic between server will happen as when you cross a zone
+[21:01] <mblanch> hendrik: so you just tell miguel is crossing and send it miguel data
+[21:01] <mblanch> ( I still have to design all this :P )
+[21:02] <ChadF> mblanch: if you're talking distributed active servers, the tricky part is sync. while mostly things can be contained in zones.. but certain things might try to touch players objects indirectly for impl (they way some things are curently impl'd).
+[21:02] <kymara> mblanch: why might you switch server in game?
+[21:02] <mblanch> Perhaps they will need a common database.
+[21:02] <hendrik> but which zones are handled in europe and which zones are handled in us?
+[21:02] <kymara> that doesn't happen for, say, irc, does it?
+[21:02] <hendrik> kymara, the irc servers have a very good internet connection.
+[21:02] <kymara> wouldn't you just log out and log back in again if you wanted to switch?
+[21:02] <ChadF> have some form a common "object lock manager" ?
+[21:02] <hendrik> kymara, not just some abused home connections.
+[21:02] <mblanch> hendrik: no, no, the case of timothyb89 is simple, he need to run a US server that is replica of European one ( the code and data, not the accounts )
+[21:02] <Oslsachem> hehe abused
+[21:03] * kymara pats server so it doesn't feel maligned
+[21:03] <timothyb89> :)
+[21:03] * durkham irc lag as 131 ms
+[21:04] <hendrik> what data?
+[21:04] <mblanch> hendrik: the RPOBject
+[21:04] <mblanch> hendrik: so obviously servers need to trust each other.
+[21:04] <mblanch> oops
+[21:04] <mblanch> sorry
+[21:05] <mblanch> data=maps, quests, creatures, ...
+[21:05] <hendrik> ok, now i am totally confused.
+[21:05] <mblanch> On steve website, we may have links to play on some servers.
+[21:05] <mblanch> hendrik: what data do you mean?
+[21:05] <hendrik> 21:01 <@mblanch> hendrik: no, no, the case of timothyb89 is simple, he need to run a US server that is replica of European one ( the code and data, not the accounts )
+[21:06] <mblanch> data=maps, quests, creatures, ...
+[21:06] <hendrik> ok, so this is community split?
+[21:06] <mblanch> Yes, US community that can't play on UE because of lag
+[21:07] <kymara> oh, that's not so good :( i was hoping you'd have a way to make them both read and write to the same player database at once
+[21:07] <Oslsachem> so they could only play with other us players?
+[21:07] <durkham> can we then have the tomis send to usa ?
+[21:07] <timothyb89> I can't see why people can't have accoutns on two servers until there is a link between them :)
+[21:07] <ChadF> mblanch: I guess with a common management server that keeps track of "where" all active objects are, and the game servers keep it updated/query it. Then when a server wants an object, it asks it where it is (and instanciates/registers it if non-active). Then if one server wants to access an object elsewhere, it is told where server to contact and then does some form of proxy object protocol.
+[21:07] <mblanch> timothyb89: they can
+[21:07] <kymara> timothyb89: the german server meant we lost a lot of players
+[21:07] <kymara> timothyb89: i was quite sad, they were friendly. they didnt keep up with their old accouns
+[21:08] <Oslsachem> durkham: don't be cruel, US players have their rights too. tomi needs a server for himself ;P
+[21:08] <mblanch> :D
+[21:08] <durkham> :D
+[21:08] <mblanch> Well, I need fresh air :)
+[21:08] <mblanch> It has been a nice meeting
+[21:08] <mblanch> Lots of ideas
+[21:08] <mblanch> I have written them down
+[21:08] <kymara> we postpone the unfinished topics for later?
+[21:08] <hendrik> we have a turn time of 300ms, why are 200ms of ping-response-time so bad?
+[21:09] <mblanch> No, keep talking :)
+[21:09] <kymara> lenocas wanted to discuss music and i thought there was more on the list
+[21:09] <mblanch> I just can't read anymore :P
+[21:09] <mblanch> lenocas: ping
+[21:09] <durkham> oh i thought of start moving
+[21:09] <lenocas> yes, mblanch?
+[21:09] <mblanch> lenocas: music :)
+[21:09] <mblanch> lenocas: your turn :)
+[21:09] <kymara> lenocas: you wanted to speak about music, i think you had questions to ask durkham too
+[21:09] <durkham> music my turn
+[21:10] <lenocas> oh, i will have some files already ready, in my hands, next wednesday :)
+[21:10] <kymara> these are for background music, lenocas?
+[21:10] <hendrik> oh, 150ms of that 200ms are before the ocean.
+[21:10] <lenocas> it is fado music : 3 files only guitar, and other 3 guitar and singer
+[21:11] <hendrik> within Europe.
+[21:11] <hendrik> this is even within the network of the German Telekom.
+[21:11] <lenocas> kymara: i though it would be nice to use 1 of them (fado´s music files) at the bridge to fado´s city ;)
+[21:12] <kymara> lenocas: if i understand you, you want to be able to have different background music start, depnding where you walk within the same zone?
+[21:12] <kymara> e.g. when you start to cross that bridge, new music starts, even though you didnt' change zone
+[21:12] <kymara> and you want to ask durkham, is it possible?
+[21:13] <durkham> yes it is definately
+[21:13] <lenocas> when we are at the bridge we hear fado music :)
+[21:13] <durkham> if you walk to the east of semos there is a bridge andd you have water sounds there and only ther
+[21:13] <lenocas> and when in fado´s city, we heaqr other fado´s music, files, i guess
+[21:14] <lenocas> yes, durkham, i heard them : nice :)
+[21:14] <durkham> i am still redoing the underlying system
+[21:14] <ChadF> kymara: basically if all sound has a source point, range, and falloff rate.. just placing/configuring the sound spots would let one do that (or almost anything lese).
+[21:14] <kymara> good, so having one big map for all of fado outside city is not going to restrict what lenocas wants to do with the background music
+[21:14] <durkham> anyone interested in what i am doing ?
+[21:14] <lenocas> and my work about music is only starting...
+[21:14] <lenocas> durkham: YES :)
+[21:15] <durkham> ok i am redoing the sound stuff
+[21:15] <lenocas> i mean: there is still lots to do , about music and recordings!!!
+[21:15] <durkham> so everything anyone of the coders know about how sounds are played have changed or will change
+[21:16] <lenocas> and u are adding sounds that were not used, right, durkham?
+[21:16] <Oslsachem> ChadF: wouldn't it be less CPU intensive just having collision tiles that trigger the different music?
+[21:16] <durkham> what i want to achieve is the following:
+[21:16] <durkham> lenocas : no
+[21:16] <lenocas> tell me , durkham ;)
+[21:16] <lenocas> no??
+[21:16] <timothyb89> mblanch (or anyone for that matter): Was there a definite decision for the additional server, or was this a topic to be talked further about later?
+[21:17] <durkham> i want it be possible for our designer and pixel pushers to have the sounds defined on the map/ zones level, /creatures / item whatever level
+[21:17] <ChadF> Oslsachem: but then it's far less flexable. But nothing is stopping the impl from precaclulating sound tiles a that are check when a player enters them
+[21:17] <durkham> so they could be changed without touching the code again
+[21:17] <kymara> timothyb89: i dont' recall a definite decision being made. some information came from hendrik which indicated that most of the 200ms lag comes already in germany and thus perhaps the US lag isnt' so bad
+[21:17] <lenocas> durkham : that´s fantastic!!! wonderful!!! :DDDDD
+[21:17] <Oslsachem> more hardcoded you mean ChadF, right?
+[21:17] <durkham> i woud like to have an ok for using something else than javax.sound.sampled
+[21:18] <lenocas> what u mean, durkham?
+[21:18] <mblanch> timothyb89: Let's wait for steve page and we add it officially.
+[21:18] <durkham> even if this would mean to have another depency on another extern *.jar
+[21:18] <timothyb89> ok :)
+[21:19] <lenocas> i dont understand u, durkham :S....
+[21:19] <durkham> lenocas i mean using other sounds than *wav and *au
+[21:19] <ChadF> Oslsachem: yeah. You want to be able to add sound on the fly ideally.. so if a raid or something is going on, a GM could add an appropriete background music object to the location while the raid is in efefct
+[21:19] <Oslsachem> but then, what is going to be replicated? the DBs?
+[21:19] <lenocas> u mean "ogg" files?
+[21:19] <durkham> lenocas that is a coders decision
+[21:19] <durkham> fro example ogg
+[21:19] <lenocas> ok, that i can easilly get ;)
+[21:19] <durkham> chadf understood me , yay
+[21:20] <Oslsachem> ChadF: well, at least you can reuse the same code to implement lighting :)
+[21:20] <lenocas> i record real sounds in "wav" and i transform wav files in ogg
+[21:20] <durkham> at the moment ogg files cannot be played
+[21:20] <kymara> durkham: could a devel even make it so that a new sound happens when a different quest slot is fulfilled?
+[21:20] <lenocas> what can be played for now, durkham?
+[21:20] <durkham> and i wont be able to make it until i may use another *jar
+[21:20] <lenocas> wav, only??
+[21:21] <durkham> kymara i assume yes, but there is still al ong way to go
+[21:21] <lenocas> durkham: i have still lots to do, u will have plenty of time to do all changes u need
+[21:21] <hendrik> durkham, how large is it?
+[21:21] <Oslsachem> mblanch: so both servers would keep its DBs synced? Or they would be totally independent?
+[21:22] <durkham> mblanch,chadf, hendrik any contra against another dependency in favour of more flexible sound handling?
+[21:22] <hendrik> as the sound files are large anyway, this should not be a problem
+[21:22] <timothyb89> Oslsachem: We could probably sync them once a wekk or something like that
+[21:22] <hendrik> durkham, no, if it is very huge, it would be nice if it is only included with the sound client.
+[21:23] <hendrik> "no" as "no objections"
+[21:23] <Oslsachem> and what happens if there are cvs-like conflicts?
+[21:23] <durkham> just forgot the name
+[21:23] <mblanch> Oslsachem: independients
+[21:23] <durkham> jjjj.... äähhmmm
+[21:24] <mblanch> timothyb89: you can't sync servers because there is no way to "merge" data
+[21:24] <durkham> openal !! was the one i looked at, and i would be happy for any alternatives
+[21:24] <timothyb89> Oh :(
+[21:24] * mblanch is now known as mblanch_away
+[21:25] <durkham> mblanch : triggers ?
+[21:25] <mblanch_away> timothyb89: think of it as a great oportunity to see how good is stendhal when everyone starts from the same level
+[21:25] <durkham> mblanch doesnt have mysql a replica feature?
+[21:25] <timothyb89> :)
+[21:25] <timothyb89> hehe
+[21:25] <mblanch_away> durkham: an easy way of doing it :)
+[21:25] <durkham> oh KISS i forgot :P
+[21:26] * kymara doesn't want to lsoe friends again by splitting community!
+[21:27] <durkham> until i switch from javax to whatever there is still a bit of work to do , so if anyone finds a tiny *.jar for more and better sound play please tell me
+[21:28] <mblanch_away> durkham: http://lwjgl.org/
+[21:28] * mblanch_away now really away
+[21:28] <Oslsachem> maybe a middle-term solution would be offering the feature of jumping between servers hosting different parts of the same stendhal world...
+[21:29] <Oslsachem> *middle-ground
+[21:29] <lenocas> bye mblanch_away :)
+[21:30] * timothyb89 was running ping tests and found that the game server was around 3 to 6 times slower to respond than google or sourceforge.net. I thought sourceforge was slow, so...
+[21:30] <hendrik> this feature would require some sort of cooldown which is twice as large as the longest respawn time.
+[21:30] <hendrik> timothyb89, please make a traceroute and post it on paste.org
+[21:31] * kymara doesn't know what topic was after RPFeatures
+[21:31] <Oslsachem> server replication kymara
+[21:31] <Oslsachem> it's the last one
+[21:31] <kymara> oh i see, ok, so we are on topic still?
+[21:31] <Oslsachem> there are simply no more topics
+[21:32] <kymara> ok
+[21:32] <Oslsachem> so you can say what you wish at this point
+[21:33] <kymara> hendrik: what did you think of Oslsachem's idea about a creative solution to limiting weapon use by level?
+[21:33] <Oslsachem> hendrik: cooldown? :/ I can't follow you... can you give more details?
+[21:34] <Oslsachem> not necessarily by level. In fact, I'd opt more for limiting by skills
+[21:35] <ChadF> hendrik: is this any better (ref to your comment)?: http://arianne.sourceforge.net/wiki/index.php?title=HowToAddMapsServerStendhal#Create_a_map_file
+[21:35] <Oslsachem> what I mean is that any weapons should be able to be handled by anyone independently of the effectivity of the use they can make of it
+[21:37] <ChadF> Oslsachem: right.. you let them use a weapon they can't really handle.. only badly =)
+[21:38] <Oslsachem> having weapons that get sticked to the ground for everybody but its owner like excalibur to the stone it's too restrictive
+[21:38] <Oslsachem> *stuck!!
+[21:39] <kymara> Oslsachem: atthe moment we don't have skills
+[21:39] <kymara> till then, we could limit by level
+[21:39] <kymara> or atk level gained
+[21:39] <Oslsachem> ChadF: in fact I was thinking in "so bad" as in "harmful for their own health"
+[21:40] <ChadF> Oslsachem: so you want items that only certain players that have proven their worthy (via level or skill or whatever) can acquire, instead of by a quest like usual?
+[21:40] <Oslsachem> not acquire, but use without hurting themselves more than their enemies
+[21:40] <ChadF> Oslsachem: ok, the excalibur ref sounded like what I said
+[21:40] <kymara> ChadF: part of the problem is that its difficult to make sure that a player has complated the questand done the work for it themsleves
+[21:40] * ChadF still thinks an excalibur thing wiuld be nice to also have
+[21:41] <kymara> i jumped through hoops to get the vampire quest like that and it worked fine. but not all will
+[21:41] * durkham agrees chadf
+[21:41] <Oslsachem> yes, but as a quest ChadF, not as common use :)
+[21:41] <timothyb89> hendrik: http://cut.and.paste.org/index.php?id=1035 I got 186 ms response time with a 12 Mb/s connection. I'd guess others would be slower. I might be wrong, but...
+[21:41] <hendrik> kymara, we should get the item level limitation to work soon and then make it better.
+[21:42] <ChadF> Oslsachem: this could also be reasonably done in my vision of an rp system. In mine, players could use more than one weapon. But they obviously can physically do that (with 100% effect).
+[21:42] <kymara> ok hendrik, i'm going to go with that because i prefer it and you prefer it, at least for now, and we ignore the others till skills comes in :)
+[21:42] <hendrik> Oslsachem, i mean that the time between two server transfers must be at least twice the longest respawn time
+[21:42] <kymara> Oslsachem: else you could kill the lich and think wahey! i'll go kill another lich?
+[21:42] * ChadF had the idea that using a weapon uses a certain amount of "per turn energy". So a player could use a weapon mostly, but have deminished use of their shield in the same turn (or vise-versa)
+[21:42] <kymara> i guess that was more aimed as a question to hendrik sorry
+[21:43] <kymara> ChadF: all these ideas are great! but i wanted a solution soon
+[21:43] <ChadF> if a weapon is rated to use more energy than the player had, the strain it players on the player would cost HP orsomething
+[21:43] <ChadF> rr.. players on the player = plays on the player
+[21:44] <Oslsachem> no, kymara, because in this case there would be only one lich that either would live in USA or in Europe
+[21:44] <ChadF> (or plays = places)
+[21:45] <Oslsachem> it's not a perfect solution because there would still be places in stendhal with low performance for US player and viceversa but at least they would share a common world...
+[21:46] <Oslsachem> the problem is when a US player decides to hoop and visit the European server but her database is left behind :/
+[21:46] <Oslsachem> hendrik: and that is to prevent what kind of problems?
+[21:47] <Oslsachem> yes, ChadF like a weak character trying to lift and use a heavy axe
+[21:48] <hendrik> Oslsachem, the current plan is not to have a per zone server split.
+[21:49] <hendrik> timothyb89, in this way the delay is really between ATT and German Telekom.
+[21:49] <danter> o_O
+[21:49] <danter> I surely should spend more time ingame I realise...
+[21:50] <danter> how long has stallman been in the game? :P
+[21:50] <Oslsachem> hehehe, it's new in this release danter
+[21:50] <danter> ok ;)
+[21:50] <ChadF> Oslsachem: I also had some ideas of how player combat wisdom would play into how they act in combat. In this case, a wise player wouldn't try to lift it unless desperate.. but a novice player might choose/use their weapons more randomly (and suffer the consequences). When I say the actions done, I mean automatically be the server as an implied simulation of their reactions based on their wisdom.
+[21:50] <timothyb89> I think that, either way, we should try to find a way to reduce lag. Many other games (3D and such) are much less laggy. Lag does tend to 'ruin it' for players, and we can probably find a faster way to get data from point a to point B...
+[21:51] <hendrik> timothyb89, the problem is that the server is behind a DSL connection.
+[21:51] <Oslsachem> timothyb89: perhaps the problem is in the network capacity not in the software
+[21:52] <ChadF> Maybe using some form of caching proxy servers might work. It acts like a full server from the client's point of view, but relays player commands and objects updates get broadcasted from the real server back (which are cached to send to players connected). Closer to IRC's impl.
+[21:52] <hendrik> but it has fastpath because Google can be pinged in about 20ms.
+[21:52] <timothyb89> Hm... and I'm guessing everything is already compressed...
+[21:52] <hendrik> timothyb89, do you have lag within a zone or only on zone change?
+[21:53] <ChadF> while reaction lag (based on actions) might still be slow, at least everything with little changes should be fast.
+[21:53] <Oslsachem> yes, ChadF I had thought about having the character giving hints automatically to the player like "I think I shouldn't do that"
+[21:53] <hendrik> timothyb89, btw: i don't understand why there is any network related lag as long as the ping time is less than 300ms.
+[21:54] <hendrik> there is some game related lag, but i have this even on my localhost server.
+[21:55] <timothyb89> Can it be the server processing things?
+[21:55] <hendrik> we need a way to verify that the lag is larget from the US than from Germany.
+[21:55] <ChadF> Oslsachem: well.. not a hint per say, because this basically is the server taking on the role of a player telling themself something they should know better.. but if the character is novice, they shouldn't implcitely know this. Maybe have some general feedback, like "you feel pain from using <weapon>".
+[21:55] <lenocas> BBL
+[21:55] <ChadF> then let the human player decide if they should stop using it
+[21:56] * timothyb89 has an account on freeshell.org he can ping with
+[21:58] <kymara> i'm away for a while
+[21:58] <timothyb89> oh I tihnks its a europeian server... hehe
