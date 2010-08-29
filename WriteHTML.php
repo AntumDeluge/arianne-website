@@ -84,8 +84,8 @@ function WriteNewsItemHtml($item)
 function getNiceURL($title)
   {
   $res = strtolower($title);
-  $res = preg_replace('/[ _,;.:<>|!?\'"()] /', ' ', $res);
-  $res = preg_replace('/[ _,;.:<>|!?\'"()]/', '-', $res);
+  $res = preg_replace('/[ _,;.:<>|!?\'"()\/*] /', ' ', $res);
+  $res = preg_replace('/[ _,;.:<>|!?\'"()\/*]/', '-', $res);
   return urlencode($res);
   }
 
