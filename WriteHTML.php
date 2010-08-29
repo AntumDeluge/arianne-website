@@ -52,8 +52,8 @@ function WriteNewsHTMLForNamedItem($website, $title)
 function WriteNewsItemHtml($item)
   {
   	$strippedTitle = getNiceURL($item['title'][0]);
-    echo '<li><div class="newsitem"><div class="newstitle">'
-    	.'<a class="newsitemtitle" href="/news/'.$strippedTitle.'.html">'.$item['title'][0].'</a>'
+    echo '<li class="clearright"><div class="newsitem"><div class="newstitle">'
+    	.'<a class="newsitemtitle" href="/news/'.$strippedTitle.'.html"><h2 style="padding:0; margin:0; margin-top:1em">'.$item['title'][0].'</h2></a>'
     	.'</div><p class="itemdate">'.$item['date'][0].'</p>';
 
     if(isset($item['images']))
@@ -67,13 +67,11 @@ function WriteNewsItemHtml($item)
           }
         }
         echo '<div class="newscontent_image">'.$item['content'][0].'</div>';
-        echo '<div class="clearright">&nbsp;</div></div>';
-      
-      
+        echo '</div>';
       }
       else
       {
-        echo '<div class="newscontent_noimage">'.$item['content'][0].'</div><div class="clearright">&nbsp;</div></div>';
+        echo '<div class="newscontent_noimage">'.$item['content'][0].'</div></div>';
       }
       echo '</li>';
   }
