@@ -826,9 +826,9 @@ Talking of ships, if you're on the Athor ferry, remember to fish for mackerel. Y
     <title>Raid: Cities under attack!</title>
     <date>Sun 27 May 2007 21:58:03</date>
     <images>
-      <image url="/images/articles/20070527_raid_0.jpg"/>
-      <image url="/images/articles/20070527_raid_1.jpg"/>
-      <image url="/images/articles/20070527_raid_2.jpg"/>
+      <image url="images/articles/20070527_raid_0.jpg"/>
+      <image url="images/articles/20070527_raid_1.jpg"/>
+      <image url="images/articles/20070527_raid_2.jpg"/>
     </images>
     <content>
       <![CDATA[
@@ -920,8 +920,8 @@ High level players have had a boost recently. With the level cap of 99 removed, 
     <title>Stendhal 0.58: Vampires roam Semos Catacombs!</title>
     <date>Sat, 10 March 2007 20:41:39</date>
     <images>
-      <image url="/images/articles/THM_stendhal_058.png"/>
-      <image url="/images/articles/THM_stendhal_058_1.png"/>
+      <image url="images/articles/THM_stendhal_058.png"/>
+      <image url="images/articles/THM_stendhal_058_1.png"/>
     </images>
 
     <content>
@@ -937,8 +937,8 @@ More than trouble lurks beneath the graveyard in Semos Plains North ... vampires
     <title>Pub Quiz in Semos tavern</title>
     <date>Sun, 04 March 2007 18:49:12</date>
     <images>
-      <image url="/images/articles/THM_quizgame_20070304.png"/>
-      <image url="/images/articles/THM_quizgame_20070304_1.png"/>
+      <image url="images/articles/THM_quizgame_20070304.png"/>
+      <image url="images/articles/THM_quizgame_20070304_1.png"/>
     </images>
     <content>
       <![CDATA[
@@ -1412,7 +1412,7 @@ A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalM
     <title>Marauroa 1.00: First major milestone released</title>
     <date>Mon, 30 May 2005 17:59:34</date>
       <images> 
-        <image url="/images/articles/eventrelease.jpg"/>
+        <image url="images/articles/eventrelease.jpg"/>
       </images>
     <content>
       <![CDATA[This release is a very important milestone in the development of Arianne goals: creating a flexible open source multiplayer games middleware.<p/>
@@ -1597,7 +1597,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Stendhal gets a GUI</title>
     <date>Mon, 7 Mar 2005 15:04:36</date>
       <images> 
-        <image url="/images/articles/stendhal_gui.jpg"/>
+        <image url="images/articles/stendhal_gui.jpg"/>
       </images>
     <content>
       <![CDATA[After a full weekend of work, I have added a GUI to Stendhal. It is a bit basic but useful enough to make the game playable.<p/>
@@ -1653,7 +1653,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Stendhal development shows first results</title>
     <date>Sat, 29 Jan 2005 13:41:51</date>
       <images> 
-        <image url="/images/articles/THM_stendhal_003.jpg"/>
+        <image url="images/articles/THM_stendhal_003.jpg"/>
       </images>
     <content>
       <![CDATA[Stendhal is our next game to test the new exciting features in Arianne: multizones and content transfer. <p/>The idea behind Stendhal is a small multiplayer action game very similar to Nintendo's Zelda.<br/> There is going to be no argument at all on it for a while, but it is a start to show that it works and works correctly.<p/>Once the development is stabilized we are going to need new GFX, music and some people to write something like a plot for the game, but that time is still a bit far. <p/> I will show more info when we have it working.]]>
@@ -1692,7 +1692,7 @@ of Stendhal, which has already been started.<p/> Soon I will write more about it
     <title>mapacman 1.00 released</title>
     <date>Wed, 28 Jul 2004 18:34:48</date>
       <images> 
-        <image url="/images/articles/mapacman_gui.jpg"/>
+        <image url="images/articles/mapacman_gui.jpg"/>
       </images>
     <content>
       <![CDATA[Thanks to the HUGE amount of bugs report about mapacman I have been able to do this release. Mainly I have fixed the issue that many of you pointed about GUI and I have recoded the GUI from scratch to meet the requirements.<br>
@@ -1899,7 +1899,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>Marauroa speeded up</title>
     <date>Tue, 14 May 2004 21:19:54 GMT</date>
       <images> 
-        <image url="/images/articles/THM_Marauroa_100Clients.png"/>
+        <image url="images/articles/THM_Marauroa_100Clients.png"/>
       </images>
     <content>
       <![CDATA[
@@ -2017,7 +2017,7 @@ Backtracking detected --> Rotating
     <title>MrPacman to come into Arianne :)</title>
     <date>Tue, 20 Apr 2004 20:56:02 GMT</date>
       <images> 
-        <image url="/images/articles/real_pacman.jpg"/>
+        <image url="images/articles/real_pacman.jpg"/>
       </images>
     <content>
       <![CDATA[
