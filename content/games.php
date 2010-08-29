@@ -1,6 +1,14 @@
 <?php
 class Games extends Page {
 
+	public function writeHtmlHeader() {
+		if (!isset($_REQUEST["show_archive"])) {
+			echo '<title>Games using Arianne'.ARIANNE_TITLE.'</title>';
+		} else {
+			echo '<title>Games using Arianne (including old games)'.ARIANNE_TITLE.'</title>';
+		}
+	}
+
 	public function writeContent() {
 ?>
 <h2>Games</h2>

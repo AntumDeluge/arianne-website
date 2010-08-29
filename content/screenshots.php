@@ -1,6 +1,14 @@
 <?php
 class Screenshots extends Page {
 
+	public function writeHtmlHeader() {
+		if (!isset($_REQUEST["archived"])) {
+			echo '<title>Screenshots'.ARIANNE_TITLE.'</title>';
+		} else {
+			echo '<title>Old Screenshots'.ARIANNE_TITLE.'</title>';
+		}
+	}
+
 	public function writeContent() {
 ?>
 <h1>Screenshots</h1>

@@ -1,6 +1,11 @@
 <?php
 class Documentation extends Page {
 
+	public function writeHtmlHeader() {
+		echo '<title>Documentation'.ARIANNE_TITLE.'</title>';
+		
+	}
+
 	public function writeContent() {
 ?>
 <div class="section"><h1>Documentation</h1>

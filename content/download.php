@@ -1,6 +1,14 @@
 <?php
 class Download extends Page {
 
+	public function writeHtmlHeader() {
+		if (!isset($_REQUEST["show_archive"])) {
+			echo '<title>Downloads'.ARIANNE_TITLE.'</title>';
+		} else {
+			echo '<title>Downloads (including old games)'.ARIANNE_TITLE.'</title>';
+		}
+	}
+
 	public function writeContent() {
 ?>
 <h1>Downloads</h1>

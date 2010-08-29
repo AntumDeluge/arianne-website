@@ -1,6 +1,6 @@
 <?php
 class News extends Page {
-
+	
 	public function writeContent() {
 		$all = isset($_REQUEST['all']) || (isset($_REQUEST['title']) && $_REQUEST['title'] == 'all');
 		$title = $_REQUEST['title'];
