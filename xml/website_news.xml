@@ -143,9 +143,9 @@ There's much more news than can fit here, so to read about the many other change
     <date>27th March 2010</date>
     <content>
       <![CDATA[We had a big party in Ados to celebrate Spring. Maria was on hand to sell party food and drinks, and there was a Tournament where players challenged each other to prove their strength. The party got a huge number of guests! 
-      <div align="center"><a href="screens/stendhal/party20100327.jpg"><img src="screens/stendhal/party20100327_small.jpg" alt="Spring Tournament" width="100%" height="100%"/></a></div>
-<p>bell13 and snakevip were chosen as first place winners, with killerm, love_puppet and emily  in second place. Well done all! You can read the full results from the Tournament, with details of every fight, at <a href="http://stendhalgame.org/wiki/index.php/Stendhal_Events/SpringFestival201003">our wiki</a>.
-      <div align="center"><img src="screens/stendhal/winners20100327.jpg"></div>
+      <div align="center"><a href="/screens/stendhal/party20100327.jpg"><img src="/screens/stendhal/party20100327_small.jpg" alt="Spring Tournament" width="100%" height="100%"/></a></div>
+<p>bell13 and snakevip were chosen as first place winners, with killerm, love_puppet and emily  in second place. Well done all! You can read the full results from the Tournament, with details of every fight, at <a href="http://stendhalgame.org/wiki/Stendhal_Events/SpringFestival201003">our wiki</a>.
+      <div align="center"><img src="/screens/stendhal/winners20100327.jpg"></div>
 ]]>
       </content>
   </item>
@@ -213,7 +213,7 @@ The telepath Io Flotto has strengthened the /ignore instruction for you. Now, wh
 Did you sometimes have problems with holes in your bag when you moved items around in it? Well, Ida the seamstress has very kindly sewed them all up for you. We think that <a href="http://stendhalgame.org/character/kiheru.html">kiheru</a> taught her a new technique, and now you should accidentally drop items less. 
 <p>
 Finally for those of you who love playing so much that you would like your own server to play on, the installation process has been <a 
-href="http://stendhalgame.org/wiki/index.php/Easy_Stendhal_Installation_On_Windows">vastly 
+href="http://stendhalgame.org/wiki/Easy_Stendhal_Installation_On_Windows">vastly 
 simplified</a>. Remember, Stendhal is software released under an open source license, the <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a>!
 ]]>
       </content>
@@ -251,7 +251,7 @@ Semos tavern and was rewarded with ingredients for
 and a marked scroll to Wofol bakery where he could make the pizzas! A 
 wonderful reward and a really great event, many thanks to geomac for 
 organising this. 
-      <div align="center"><img src="screens/stendhal/deenie.jpeg" alt="Deenie safe"/></div>
+      <div align="center"><img src="/screens/stendhal/deenie.jpeg" alt="Deenie safe"/></div>
 ]]>
       </content>
   </item>
@@ -296,9 +296,9 @@ Marauroa 3.3 introduces new features: RPEvents can have RPSlots. This means that
     <content>
       <![CDATA[
 Xhiphin Zohos, from Fado, called for help, because somehow many caged creatures had been let loose. The bandits who did this were in disguise. Luckily, there was a lot of help to kill the creatures, which had gone wild after being captive for so long. 
-      <div align="center"><img src="screens/stendhal/raid060110.png" alt="Fado under siege!" width="100%" height="100%"/></div>
+      <div align="center"><img src="/screens/stendhal/raid060110.png" alt="Fado under siege!" width="100%" height="100%"/></div>
 <p>Once Fado was safe and the creatures were dead, Xhiphin Zohos begged for anyone to help look for Harold, who had been the keeper of the animals. He had been kidnapped by the bandits! Every building in Fado was thoroughly searched and Harold was eventually found, safe, in the shepherd house. 
-      <div align="center"><img src="screens/stendhal/harold.png" alt=Harold safe and sound" width="100%" height="100%"/></div>
+      <div align="center"><img src="/screens/stendhal/harold.png" alt=Harold safe and sound" width="100%" height="100%"/></div>
 <p>Harold explained to his saviours what had happened, how he had been kidnapped, and he thanked them for saving him. He also told them that the whole experience had made him realise that his job was much too dangerous, and now he is going to look for a different job. Lets wish him luck in this!]]>
       </content>
   </item>
@@ -314,14 +314,14 @@ Semos was in danger this New Year, from creatures which threatened to invade.
 Legions of creatures started to appear in the Semos Mine Towns, and a cast of blackness fell over the island.
 Mayor Sakhs had been forewarned of the disaster, and he called warriors to help defend Semos. 
 He also begged them to find a number of ancient relics which may help protect against the evil.
-      <div align="center"><img src="screens/stendhal/raid010110.png" alt="New Year Revolt" width="100%" height="100%"/></div>
+      <div align="center"><img src="/screens/stendhal/raid010110.png" alt="New Year Revolt" width="100%" height="100%"/></div>
 <p>It was not easy for the brave warriors, they had to seek out the creatures, which were smart and tried to attack from many places.
 Although the revolt started in the Mine Town, it spread across the mountain ridges, through the plains, 
 and then south west around Semos Jail. Many of the creatures had enhanced strength and health, and the warriors worked as teams
 to destroy each and every one. Once all the creatures were killed and all ankhs had been found, the warriors journeyed back to the 
 townhall and presented the ankhs for the safety of Semos. 
 <p>Those intrepid warriors who found ankhs were: shadon, jesco, giovanote (2), kezman, kiyosh, moritzger and madmetzger.
-      <div align="center"><img src="screens/stendhal/townhall010110.png" alt="Townhall" width="100%" height="100%"/></div>
+      <div align="center"><img src="/screens/stendhal/townhall010110.png" alt="Townhall" width="100%" height="100%"/></div>
 <p>Thanks to all who help to defend Semos, whether from the New Year Revolt or the day by day threats. Happy New Year!]]>
       </content>
   </item>
@@ -396,7 +396,7 @@ We're really happy to announce that the Stendhal client is now <b>compatible wit
     <title>Marauroa 3.0: multithreading and extended database support</title>
     <date>2 August 2009 23:16:00</date>
     <content>
-      <![CDATA[With Marauroa 3.0, the game engine now supports multithreading, and it is possible to run parallel transactions in different threads. JDBCDatabase has been split into several small *DAO (Data Access Object) classes. Low level database operations are now in the new package marauroa.server.db. These changes will require you to port any application using Marauroa, so for help on how to port your application see <a href="http://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Marauroa">Refactoring Database Access in Marauroa</a>. Additionally, we have begun work on supporting other database systems beside MySQL. 
+      <![CDATA[With Marauroa 3.0, the game engine now supports multithreading, and it is possible to run parallel transactions in different threads. JDBCDatabase has been split into several small *DAO (Data Access Object) classes. Low level database operations are now in the new package marauroa.server.db. These changes will require you to port any application using Marauroa, so for help on how to port your application see <a href="http://stendhalgame.org/wiki/Refactoring_Database_Access_in_Marauroa">Refactoring Database Access in Marauroa</a>. Additionally, we have begun work on supporting other database systems beside MySQL. 
 ]]>
       </content>
   </item> 
@@ -433,7 +433,7 @@ instead. They are quite tricky so if you can't solve it, you can still leave the
 other players. It's not the kind of thing to ask help on, either try to solve it or don't bother, just asking for the answer is cheating. 
 <p>
 Eight more ados houses have opened for sale and all existing houses images have been updated on 
-<a href="http://stendhalgame.org/wiki/index.php/StendhalHouses">StendhalHouses</a>
+<a href="http://stendhalgame.org/wiki/StendhalHouses">StendhalHouses</a>
  - on that wiki page you will find all the updated information about how player houses got improved in the previous release of 0.73 so you may 
 find it worth reading. Don't forget older houses will become available all the time as their owners resell them or they become reclaimed by the 
 state. There are also some special apartments available in an exciting holiday location, a limited number only. 
@@ -869,7 +869,7 @@ The bridge to Fado is open! Discover the delights of the city known across the l
     <date>Sun 22 April 2007 12:28:03</date>
     <content>
       <![CDATA[The log of our online meeting is available at <a href="http://arianne.sourceforge.net/docs/200704_meeting.txt">http://arianne.sourceforge.net/docs/200704_meeting.txt</a>.<br>
-      You can check at <a href="http://arianne.sourceforge.net/wiki/index.php?title=ArianneMeeting200704">Wiki</a> decisions taken and matters that are still to be decided.]]>
+      You can check at <a href="http://stendhalgame.org/wiki/ArianneMeeting200704">Wiki</a> decisions taken and matters that are still to be decided.]]>
       </content>
   </item>
 
@@ -897,7 +897,7 @@ The bridge to Fado is open! Discover the delights of the city known across the l
 Ados has expanded! The city dwellers are getting desperate for supplies, so the mayor begs your help. As you return, beware of getting drawn into the great caves under Ados Rock. The brave who venture there talk of giants, red dragons and black death. You'll need to face the giants if you want to earn the immortal sword, and anyone who can defeat the black death may loot some rare shadow armament. If the ados caves don't scare you enough, try the drow tunnels. Are the dark elves planning an attack on Nalwor?<p>
 If you want to get away from it all, take a break on Athor Island. It's got it all: sun, sea, sand, oh and cannibals, crocodiles and minotaurs ... Both hard workers and holiday makers can help out Leander. He needs pizza delivered across Faiumoni. Get it there on time and you'll get a tidy tip. Perhaps you'll choose to store your cash in Nalwor bank - once you've earned the key, that is. Are you fed up of all those keys jangling in your bag? Then get your keyring fixed, a blacksmith should be able to help.<p>
 Thanks to some dedicated cleaning, the waters of Faiumoni are now fresh and full of life. Fish have come back to the surface, and if you look carefully you may see glints of gold. Even the air has had a spring clean, so that sounds travel to your ear fresher, and clearer. Enjoy! And fight bravely ... 
-<p>If you are a hardcore player or if on the other hand you are new to Stendhal you will find helpful the <a href="http://arianne.sourceforge.net/wiki/index.php?title=StendhalAtlas">Atlas</a>   ]]>
+<p>If you are a hardcore player or if on the other hand you are new to Stendhal you will find helpful the <a href="http://stendhalgame.org/wiki/StendhalAtlas">Atlas</a>   ]]>
  </content>
   </item>
 
@@ -1053,7 +1053,7 @@ complete client on every new version)
     <title>Stendhal 0.52 and Marauroa 1.32</title>
     <date>Mon, 14 August 2006 17:44:23</date>
     <content>
-      <![CDATA[Thanks to all the hard work of the Arianne team (go to server: irc.freenode.net channel : arianne to meet some of them) there is a new version of both the client and server.These versions fix a large number of issues, improve performance, introduce some new maps, a new quest and even some new features. A manual is found at http://arianne.sourceforge.net/wiki/index.php?title=StendhalManual. ]]>
+      <![CDATA[Thanks to all the hard work of the Arianne team (go to server: irc.freenode.net channel : arianne to meet some of them) there is a new version of both the client and server.These versions fix a large number of issues, improve performance, introduce some new maps, a new quest and even some new features. A manual is found at http://stendhalgame.org/wiki/StendhalManual. ]]>
     </content>
   </item>    
   <item>
@@ -1254,7 +1254,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
     <content>
       <![CDATA[Due to the huge amount ( thanks everybody! ) of bug reports recieved, we have decided to publish this bug fixed version.<p>
          Next release is going to delay for at least two weeks because we are in process of changing several things on Stendhal.<br>
-         Have a look at changes at: <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalRefactoring">new items, creatures and actions guide</a>]]>
+         Have a look at changes at: <a href="http://stendhalgame.org/wiki/StendhalRefactoring">new items, creatures and actions guide</a>]]>
     </content>
   </item>  
   <item>
@@ -1267,7 +1267,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
       <![CDATA[As you can read on our previous news item, we have added money to game, so now in addition of gaining XP by killing monsterm you can inspect them to obtain too money. You can by now spend your money on the tavern weapon's seller.<p>
          This release is pretty stable, but many of the features are hacked, so we are going to enter in a refactoring to increase code quality that will surely delay a new release for at least 2-3 weeks. But in case you find any problem or a bug please <a href="https://sourceforge.net/tracker/?func=add&group_id=1111&atid=101111">tell us</a>.<p>
          We have decide to skip the addition of the new zones and the addition of chests ( but on the city ) because we need this version to be released as soon as possible, so we can start the refactoring today. So in order to speed up the development we would need help completing the maps and adding items and chests.<p>
-         Please help us create content, items, monsters, maps and quest for Stendhal. Have a tour around our <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalRefactoring">new items, creatures and actions guide</a>.<p>
+         Please help us create content, items, monsters, maps and quest for Stendhal. Have a tour around our <a href="http://stendhalgame.org/wiki/StendhalRefactoring">new items, creatures and actions guide</a>.<p>
          This release of stendhal is also (again) together with a release of Marauroa: 1.11, that adds capacity limit to slots and fix a bug at slot assignID procedure.]]>
     </content>
   </item>  
@@ -1320,7 +1320,7 @@ Unfortunately some of these changes are server related and we are right now unab
 Meanwhile we will keep developing new areas and the inventory system.<br>
 As before please report problems or suggestions.<p>
 IMHO I find the actual combat system too easy to kill monsters, so perhaps I do a rebalance again. Combat system is going to be replaced by a skill based system.<p>
-A complete game manual exists at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.]]>
+A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>.]]>
     </content>
   </item>  
   <item>
@@ -1333,7 +1333,7 @@ A complete game manual exists at <a href="http://arianne.sourceforge.net/wiki/in
       <![CDATA[Muahahaha! ok!, 0.30 is here! I know you have been waiting it. We have added finally the long awaited items system and you can wear them, by now only a club, a sword, a shield and a leather armor. We will add more on next releases.<br>
       To get new items you need to buy them from Xin Blanca at the tavern.<p>This release unfortunately doesn't adds inventory support because we need a GUI framework to do it. I am actually working on it and hope to have it designed in one week so we can write a specification and start coding it.<p>
       This release also features a new RP system where weapons have effect in combat, so don't forget to wear them.<br> We will really love to read from any problem you may have with the game or any suggestion you may have.<p>
-A complete game manual exists at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.]]>
+A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>.]]>
     </content>
   </item>  
   <item>
@@ -1379,14 +1379,14 @@ What's your Top Score ? Try it out at <a href="http://jmapacman.mpc-donkey.de">h
     <content>
       <![CDATA[Hello Barrapunteros!. We have been <i>forced</i> to release a bug fixes version of Stendhal due the amount of players that are going to try it.<br> This release fixs the corpses problem and other majot problems like Creatures AI.<br>
        Also this release adds a initial support for items: a shield ( that you can't wear ) and corpses that can be moved.<p>
-A complete game manual exists at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.]]>
+A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>.]]>
     </content>
   </item>  
   <item>
     <title>Stendhal Mapeditor 1.00 available</title>
     <date>Thu, 2 Jun 2005 16:01:52</date>
     <content>
-      <![CDATA[I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps">http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p/>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
+      <![CDATA[I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps">http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p/>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
       </content>
   </item>
   <item>
@@ -1398,14 +1398,14 @@ A complete game manual exists at <a href="http://arianne.sourceforge.net/wiki/in
     <content>
       <![CDATA[Yes! We are back!. This release adds the set outfit feature, so that you can personalize your character. On next releases we are going to change the graphics, so please wait for content submitions. Some of you have been complaining about wolves are easy, so we have added boars, trolls, cobras, orcs, kobolds, goblins and ogres. We have added also added a new dungeon, four times bigger than the actual one, where lives a NPC what will give you 2000 XP points for your full grow sheep.<p/>
 This release also fix a nasty bug on linux that makes the gameplay awful, now it works perfect.<br>We need now players, dozens of players to test the server stability and limits. We know game <i>"works"</i> and we know it is fun, but we need to know how many players can we handle ( actually there is a soft limit of 64 ).<p/>
-A complete game manual exists at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.<p/>
+A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>.<p/>
 <i>PS:</i> Don't forget to dress yourself. <br/>We are talking about replacing RP system with D20. We would love to listen to your opinion at Forums.]]>
     </content>
   </item>  <item>
     <title>Stendhal Mapeditor 1.00 available</title>
     <date>Thu, 2 Jun 2005 16:01:52</date>
     <content>
-      <![CDATA[I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps">http://arianne.sourceforge.net/wiki/index.php/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p/>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
+      <![CDATA[I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps">http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p/>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
       </content>
   </item>
   <item>
@@ -1419,7 +1419,7 @@ A complete game manual exists at <a href="http://arianne.sourceforge.net/wiki/in
 We have managed to build a system that is able to run several types of games: turn based and adventures games with a awesome performance. Send state of the game to players with a minimum bandwidth usage, storing players on database with a easy to query SQL tables.
 The actual system is able to manage thousands of zones and so create an almost limitless world.<p/>
 Now ariannexp will be ported to this 1.00 technology and soon Gladiators and mapacman will be ported and online again.<p/>
-All the documentation is updated to this new branch, and we are in process of completing our 2nd book: <a href="http://arianne.sourceforge.net/wiki/index.php/HowToWriteAdventureGamesUsingArianne">How to write adventure games using Arianne</a>.<p/>
+All the documentation is updated to this new branch, and we are in process of completing our 2nd book: <a href="http://stendhalgame.org/wiki/HowToWriteAdventureGamesUsingArianne">How to write adventure games using Arianne</a>.<p/>
 This milestone completes inmediate Marauroa goals, so now we will now center all our efforts on clients: stendhal, mapacman and gladiators. By developing more these new needs will appear that will be done on next releases. Let's know what you need of Marauroa!.]]>
     </content>
   </item>
@@ -1428,7 +1428,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <date>Mon, 30 May 2005 17:56:01</date>
     <content>
       <![CDATA[This release is another bug fixes over 0.11 release. But we have also some things you have been asking for:
-      <br><b>-</b> A game manual at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>      
+      <br><b>-</b> A game manual at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>      
       <br><b>-</b> A small GUI</a>      
       <br><b>-</b> Three new zones: forest, tavern and afterlive</a>      
       <br><b>-</b> Changed RP values for Rat, Cave Rat and Wolf to make game more fun</a>      
@@ -1473,8 +1473,8 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
         <br><b>-</b> Better Sheep AI and Creature AI
         <br><b>-</b> A map editor <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-0.01.zip?download">here</a>. Please help us create maps for stendhal ( maps shouldn't be bigger than 128x128 ). Use the existing maps or template as a way to learn. Your help makes Stendhal better!.
 
-        <p/>Finally the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> written on the previous news item are still open and needing attention.<br>
-        Also if you can write properly English we would really love help to write a game manual at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.
+        <p/>Finally the <a href="http://stendhalgame.org/wiki/StendhalOpenTasks">tasks</a> written on the previous news item are still open and needing attention.<br>
+        Also if you can write properly English we would really love help to write a game manual at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>.
          ]]>
     </content>
   </item>
@@ -1493,8 +1493,8 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
         <br><b>-</b> Better Sheep AI
         <br><b>-</b> Compiled map editor <a href="http://prdownloads.sourceforge.net/arianne/stendhal-mapeditor-0.00.zip?download">here</a>. Please help us create maps for stendhal ( maps shouldn't be bigger than 128x128 ). Use the existing maps as a way to learn. Your help makes Stendhal better!.
 
-        <p/>Finally the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> written on the previous news item are still open and needing attention.<br>
-        Also if you can write properly English we would really love help to write a game manual at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>.
+        <p/>Finally the <a href="http://stendhalgame.org/wiki/StendhalOpenTasks">tasks</a> written on the previous news item are still open and needing attention.<br>
+        Also if you can write properly English we would really love help to write a game manual at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>.
          ]]>
     </content>
   </item>
@@ -1510,7 +1510,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
          On the near future <i>(1 month or so)</i> I will stabilize Stendhal development and start again all the documentation process that means:
         <br><b>-</b> Document all the code.
         <br><b>-</b> Fix, update and improve Wiki Documents.
-        <br><b>-</b> Complete <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalDesign">Stendhal Design</a> document
+        <br><b>-</b> Complete <a href="http://stendhalgame.org/wiki/StendhalDesign">Stendhal Design</a> document
         <br><b>-</b> Complete and release our new Stendhal book.
          ]]>
     </content>
@@ -1542,10 +1542,10 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
       <![CDATA[This is the first release of Stendhal that has the tag playable (PLAYABLE).<br> You can walk, chat, attack, buy and sell sheeps, change zones, request help, etc...<p/>
          I am actually in need of someone with RP gaming experience that wants to help me to create a simple game system based on S6S and give correct values to entities values.<p/>
          There are three open tasks that are of vital importance for Stendhal:
-         <br><b>-</b> Create a game manual at <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalManual">http://arianne.sourceforge.net/wiki/index.php/StendhalManual</a>
+         <br><b>-</b> Create a game manual at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>
          <br><b>-</b> Define the entities RP values and the RP general guidelines, like how to attack, how fast, how fast to move, how is allowed to attack to, etc...</a>
          <br><b>-</b> Complete the manual about how to use Tiled to create maps for stendhal and add screenshots to it.</a>
-         <p/>Perhaps you would like to help us close some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalDesign">design document</a>.<p/>
+         <p/>Perhaps you would like to help us close some <a href="http://stendhalgame.org/wiki/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://stendhalgame.org/wiki/StendhalDesign">design document</a>.<p/>
          ]]>
     </content>
   </item>
@@ -1554,7 +1554,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <date>Wed, 17 Apr 2005 13:21:01</date>
     <content>
       <![CDATA[This release adds secure login feature as well as fixs a bug at JDBC Database class that didn't allowed a RPObject to be correctly stored.<p/> 
-         You have a complete step by step guide at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa</a>
+         You have a complete step by step guide at <a href="http://stendhalgame.org/wiki/HowToBuildMarauroa">http://stendhalgame.org/wiki/HowToBuildMarauroa</a>
          ]]>
     </content>
   </item>
@@ -1563,7 +1563,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <date>Wed, 8 Apr 2005 20:31:01</date>
     <content>
       <![CDATA[A new emergency release of Marauroa that fix several important bugs, the main one is the 100% CPU usage due to multithread send feature.<p/> 
-         You have a complete step by step guide at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa</a>
+         You have a complete step by step guide at <a href="http://stendhalgame.org/wiki/HowToBuildMarauroa">http://stendhalgame.org/wiki/HowToBuildMarauroa</a>
          ]]>
     </content>
   </item>
@@ -1578,7 +1578,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
          This release also features a new map editor using <a href="http://tiled.rpgdx.net/index.html">Tiled</a> with a write only plugin to create Stendhal maps, on CVS you can access our actual maps and the tileset used to create them... help is appreciated to build bigger and better maps :) We also added a GUI to Stendhal that makes simpler to login to server, and there is a Java Webstart feature.<p/>
 	 We are working 110% on creating new GFX: samoa is creating a sheep and a wolf ( you can see it at Forums ).<br>
          Next steps are towards completing the RP system, and increasing the NPC interaction, and also fixing a strange bug that make game to work only sometimes ( most of them ).
-         On the meanwhile you would like to help us close some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalDesign">design document</a>.<p/>
+         On the meanwhile you would like to help us close some <a href="http://stendhalgame.org/wiki/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://stendhalgame.org/wiki/StendhalDesign">design document</a>.<p/>
          There is still no public server for Stendhal...
          ]]>
     </content>
@@ -1589,7 +1589,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <content>
       <![CDATA[This release changes some interfaces to suit in a better way the game development.<br>
          If you plan to use Marauroa, you should update to this release in order to get it working. Soon I will update the API guides to show these changes.<p/>
-         You have a complete step by step guide at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa</a>
+         You have a complete step by step guide at <a href="http://stendhalgame.org/wiki/HowToBuildMarauroa">http://stendhalgame.org/wiki/HowToBuildMarauroa</a>
          ]]>
     </content>
   </item>
@@ -1601,8 +1601,8 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
       </images>
     <content>
       <![CDATA[After a full weekend of work, I have added a GUI to Stendhal. It is a bit basic but useful enough to make the game playable.<p/>
-         Next step is about adding attack and heal actions and make multizone works in a more intuitive way.<br>The point is to add <i>*slowly*</i> new features to build a complete game as soon as possible. You can read the complete plan at our Wiki in <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalObjectives">StendhalObjectives</a><br>
-         BTW I keep begging for help to close these <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> :)<p/>
+         Next step is about adding attack and heal actions and make multizone works in a more intuitive way.<br>The point is to add <i>*slowly*</i> new features to build a complete game as soon as possible. You can read the complete plan at our Wiki in <a href="http://stendhalgame.org/wiki/StendhalObjectives">StendhalObjectives</a><br>
+         BTW I keep begging for help to close these <a href="http://stendhalgame.org/wiki/StendhalOpenTasks">tasks</a> :)<p/>
          The most important task to complete now it 100% related to GFX; we do need new GFX as explained in the Stendhal tasks.
          ]]>
     </content>
@@ -1613,7 +1613,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <content>
       <![CDATA[This release of Marauroa closes a few bug fixes that make server work abnormally: a bug at RPServerManager, a bug at PlayerEntryContainer and a important bug at RPWorld.<br>
          If you plan to use Marauroa, you should update to this release in order to get it working.<p/>
-         You have a complete step by step guide at <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa</a>
+         You have a complete step by step guide at <a href="http://stendhalgame.org/wiki/HowToBuildMarauroa">http://stendhalgame.org/wiki/HowToBuildMarauroa</a>
          ]]>
     </content>
   </item>
@@ -1626,7 +1626,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <content>
       <![CDATA[This is the first relese of Stendhal. It is not intended to be playable (<b>NO PLAYABLE</b>), it is just a tech demo of where you can walk, collide and change of zone.<p/>
          As you know we drive our development by the guideline:<i>release small, release often</i>. Now we will start the development of the GUI ( anyone wanna help? ) and the rest of actions to make it playable. In around 1 month the game could be really playable.<p/>
-         On the meanwhile you would like to help us close some <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://arianne.sourceforge.net/wiki/index.php/StendhalDesign">design document</a>.<br>
+         On the meanwhile you would like to help us close some <a href="http://stendhalgame.org/wiki/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://stendhalgame.org/wiki/StendhalDesign">design document</a>.<br>
          I can't really handle all by myself :)
          ]]>
     </content>
@@ -1861,7 +1861,7 @@ that may be added on the next release of marauroa: no promises.]]>
 		Today a major step has been taken on the Arianne development. <br>
 		ariannexp has reach it second iteration and finally pyarianne is also working on Linux.
  		So developing new clients and games is easier than ever, you can check it at Wiki at 
- 		<a href="http://arianne.sourceforge.net/wiki/index.php/HowToWriteGamesUsingArianne">here</a>.<p/>
+ 		<a href="http://stendhalgame.org/wiki/HowToWriteGamesUsingArianne">here</a>.<p/>
 		marauroa has also being released with this version featuring support for an initial mapacman 
 		server side game and in a few days a version of mapacman client will be released.<p/>
 		I am very insterested on problems with ariannexp at linux side, and would be extremly 
