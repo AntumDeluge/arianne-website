@@ -28,16 +28,18 @@ here to submit a Bug</a></p>
 <p>We use CVS extensively:</p>
 <p>
   cvs -d:pserver:anonymous@arianne.cvs.sourceforge.net:/cvsroot/arianne login<br>
-  cvs -z3 -d:pserver:anonymous@arianne.cvs.sourceforge.net:/cvsroot/arianne co modulename
+  cvs -z3 -d:pserver:anonymous@arianne.cvs.sourceforge.net:/cvsroot/arianne co -P modulename
 </p>
-<p>Browse online the repository <a href="http://ariane.cvs.sourceforge.net/">here</a>
-Relevant modules are:</p>
+<p>Browse online the repository <a href="http://arianne.cvs.sourceforge.net/">here.</a>
+<br>Relevant modules are:</p>
 <ul>
-<li>ariannexp</li>
-<li>marauroa</li>
 <li>gladiators</li>
+<li>jmapacman</li>
 <li>mapacman</li>
-<li>stendhal</li>
+<li><b>marauroa</b></li>
+<li>marboard</li>
+<li><b>stendhal</b></li>
+<li>stendhal_website</li>
 <li>website</li>
 </ul>
 
