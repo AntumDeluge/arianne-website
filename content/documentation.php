@@ -1,3 +1,8 @@
+<?php
+class Documentation extends Page {
+
+	public function writeContent() {
+?>
 <div class="section"><h1>Documentation</h1>
 <p>Documentation for Arianne is mainly in project packages as text docs and 
 javadocs comments but we also keep other online live documentation on our 
@@ -42,6 +47,8 @@ here to submit a Bug</a></p>
 <li>stendhal_website</li>
 <li>website</li>
 </ul>
-
-
 </div>
+<?php
+	}
+}
+$page = new Documentation();

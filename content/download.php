@@ -1,3 +1,8 @@
+<?php
+class Download extends Page {
+
+	public function writeContent() {
+?>
 <h1>Downloads</h1>
 <p>Use these links to find the download section for each game/server etc.</p>
 <ul class="menubar">
@@ -42,3 +47,7 @@ If you need to grab the latest copy of Arianne and you can't wait for a release,
 You can use a CVS client to <a href="http://sourceforge.net/scm/?type=cvs&group_id=1111">download our source code</a> 
 or you can browse the <a href="http://arianne.cvs.sourceforge.net/arianne">web-based CVS repository</a>
 
+<?php
+	}
+}
+$page = new Download();

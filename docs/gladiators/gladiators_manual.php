@@ -1,3 +1,8 @@
+<?php
+class GladiatorsManual extends Page {
+
+	public function writeContent() {
+?>
 <span style="font-weight: bold;">Gladiators</span>
 <p><font size="2">Authors: Stephen I.</font></p>
 <h5>Contents</h5>
@@ -274,4 +279,7 @@ files\gladiators\gladiators.exe" -w)</li>
     </p>
   </li>
 </ul>
-
+<?php
+	}
+}
+$page = new GladiatorsManual();

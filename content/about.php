@@ -1,3 +1,8 @@
+<?php
+class About extends Page {
+
+	public function writeContent() {
+?>
 <div class="section"><h1>What is Arianne?</h1>
 
 <p>Arianne comprises a <i>multiplayer online games</i> framework and engine to develop 
@@ -50,3 +55,7 @@ what are you trying to do, allowing a great freedom to create any game type.</p>
 
 <p>If you'd like any more information, try our <a href="http://stendhalgame.org/wiki/index.php/Main_Page">wiki</a>.
 </div>
+<?php
+	}
+}
+$page = new About();

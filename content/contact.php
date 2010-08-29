@@ -1,3 +1,8 @@
+<?php
+class Contact extends Page {
+
+	public function writeContent() {
+?>
 <div class="section"><h1>Contact information</h1>
 <p>You can contact the project leaders, nhnb or kymara, at: NAME <i>at</i> users <i>tod</i> sourceforge <i>tod</i> net<br/>
 
@@ -33,3 +38,7 @@ You can also contact the whole group at the mailing list. There are several mail
 <li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-devel">arianne-devel</a> development talk mailing list</li>
 <li><a href="http://lists.sourceforge.net/mailman/listinfo/arianne-announce">arianne-announce</a> read-only release announces mailing list</li>
 </ul>
+<?php
+	}
+}
+$page = new Contact();
