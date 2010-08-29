@@ -558,7 +558,7 @@ function WriteScreenshotsHTML( $game, $base, $archived=false )
       // line up thumbnails
         
       if( !$archived ) {
-        echo '<div class="screenshots_entry"><div class="link_title"><h2><a href="/'.$base.'/'.$game[$base]['0 attr']['name'].'.html">'.ucfirst($game[$base]['0 attr']['name']).'</a></h2><p><a href="/'.$base.'/'.$game[$base]['0 attr']['name'].'.html">Click here to see information about this package</a></p></div>';
+        echo '<div class="screenshots_entry"><div class="link_title"><h2><a name="'.$game[$base]['0 attr']['name'].'" href="/'.$base.'/'.$game[$base]['0 attr']['name'].'.html">'.ucfirst($game[$base]['0 attr']['name']).'</a></h2><p><a href="/'.$base.'/'.$game[$base]['0 attr']['name'].'.html">Click here to see information about this package</a></p></div>';
         $val = "screens/".$game[$base]['0 attr']['name'];
       } else {
         echo '<div class="screenshots_entry"><div class="link_title"><h2>Archived</h2></div>';      
