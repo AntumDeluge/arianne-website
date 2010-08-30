@@ -9,8 +9,6 @@
     <div id="topmenubar">
      <ul class="menubar">
                <?php 
-            include_once('WriteHTML.php');
-            
             $content=implode("",file('xml/website_menu.xml'));
             $xml = XML_unserialize($content);
             WriteMenuHTML($xml);
