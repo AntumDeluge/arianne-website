@@ -1,5 +1,5 @@
 /***************************************************************************
- *                      (C) Copyright 2005 - Arianne Website               *
+ *              (C) Copyright 2005-2010 - The Arianne Project              *
  ***************************************************************************
  ***************************************************************************
  *                                                                         *
@@ -26,16 +26,16 @@
 	background-repeat: no-repeat;
 }
 
-#pagefooter { 
-    clear: both; 
+#pagefooter {
+	clear: both;
 	padding:0;
 	margin:0;
 	display:block;
-    }
-#pagefooter p.footer{   
-	color:#fff; 
+}
+#pagefooter p.footer {
+	color:#fff;
 	background-color: #2a0;
-    font-size: 8pt; text-align: center;
+	font-size: 8pt; text-align: center;
 }
 #pagefooter img.extremedm { border-style:none; border-width:0;}
 #pagefooter p.footerimages { text-align: right; }
@@ -47,59 +47,58 @@ a.footer:hover{ text-decoration: underline; color: #000000;}
 /* Base Tags                        */
 
 body { 
-    font-family: Arial, Helvetica, Geneva, Sans-serif; 
-    background-color: #fff;
-    margin:0; padding:0; 
-    }
-    
-    
+	font-family: Arial, Helvetica, Geneva, Sans-serif; 
+	background-color: #fff;
+	margin:0; padding:0; 
+}
+
+
 .center { text-align: center; }
 .right { text-align: right; }
 .left { text-align: left; }
 .inline {display: inline; }
 .clearright {clear:right;margin:0;padding:0;}
 .code{ font-family: courier, monospaced; }
-.update_image { 
-    position:relative; 
-    left:10px;
-    }
-    
+.update_image {
+	position:relative; 
+	left:10px;
+}
+
 .statustag {
-    border: 1px solid gray;
-    background-color: #99CCFF;
-    margin:10px;padding:0;
-    position:relative;
-    margin-left: auto;
-    margin-right:auto;
-    display:block;
-    }
-    
+	border: 1px solid gray;
+	background-color: #99CCFF;
+	margin:10px;padding:0;
+	position:relative;
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
+}
+
 .statustag p {
-    font-weight: normal;	
-    font-size:9pt;
-    text-align: center;      
-    margin:0;
-    padding:5px;
-    } 
+	font-weight: normal;
+	font-size:9pt;
+	text-align: center;
+	margin:0;
+	padding:5px;
+}
 
-p{ 
-    font-family: Arial, Helvetica, Geneva, Sans-Serif;
-    }
-p.abstract{ 
-    font-family: Arial, Helvetica, Geneva, Sans-Serif;
-    }
+p {
+	font-family: Arial, Helvetica, Geneva, Sans-Serif;
+}
+p.abstract {
+	font-family: Arial, Helvetica, Geneva, Sans-Serif;
+}
 
-    
-table { 
-    width: 100%; 
-    vertical-align:top;
-    }
-    
-img { 
-    border-style:solid;
-    border-width:1px; 
-    border-color: #000000;
-    }
+table {
+	width: 100%; 
+	vertical-align:top;
+}
+
+img {
+	border-style:solid;
+	border-width:1px; 
+	border-color: #000000;
+}
 
 strong{ font-weight: bold;}
 
@@ -108,32 +107,32 @@ a:visited{color: #334dd1;}
 
 
 H1{
-    font-family: Arial,Helvetica,Geneva,Sans-Serif; 
-    font-size: 16pt; 
-    font-weight: lighter; 
-    color: #000; 
-    border-bottom: 1px solid gray;
-    }
-    
+	font-family: Arial,Helvetica,Geneva,Sans-Serif; 
+	font-size: 16pt; 
+	font-weight: lighter; 
+	color: #000; 
+	border-bottom: 1px solid gray;
+}
+
 H2{
-    font-family: Arial,Helvetica,Geneva,Sans-Serif; 
-    font-size: 14pt; 
-    font-weight: lighter; 
-    color: #000; 
-    
-    }
+	font-family: Arial,Helvetica,Geneva,Sans-Serif; 
+	font-size: 14pt; 
+	font-weight: lighter; 
+	color: #000; 
+
+}
 H3{
-    font-family: Arial,Helvetica,Geneva,Sans-Serif; 
-    font-size: 13pt; 
-    font-weight: lighter; 
-    color: #000;
-    }
+	font-family: Arial,Helvetica,Geneva,Sans-Serif; 
+	font-size: 13pt; 
+	font-weight: lighter; 
+	color: #000;
+}
 H4{
-    font-family: Arial,Helvetica,Geneva,Sans-Serif; 
-    font-size: 12pt; 
-    font-weight: lighter; 
-    color: #000;
-    }
+	font-family: Arial,Helvetica,Geneva,Sans-Serif; 
+	font-size: 12pt; 
+	font-weight: lighter; 
+	color: #000;
+}
 
 ul{ font-family: Arial, Helvetica, Geneva, Sans-Serif; }
 li{ font-family: Arial, Helvetica, Geneva, Sans-Serif;}
@@ -174,60 +173,53 @@ ul.rating li p { }
 /************************************/
 /* our menu bar list standard class */
 
-ul.menubar
-{
+ul.menubar {
 	background-color:#2a0;
-margin: 0;
-margin-left: 25px;
-padding: 3px 0; 
+	margin: 0;
+	margin-left: 25px;
+	padding: 3px 0; 
 
-white-space: nowrap;
+	white-space: nowrap;
 }
 
-ul.menubar li
-{
-display: inline;
-list-style-type: none;
-margin: 10px;
-border: 1px solid black;
+ul.menubar li {
+	display: inline;
+	list-style-type: none;
+	margin: 10px;
+	border: 1px solid black;
 }
 
 ul.menubar li a { padding: 0px 10px; margin: 3px 0 3px 0; }
 
-ul.menubar li a:hover
-{
-color: #000;
-background-color: #fff;
-text-decoration: underline;
+ul.menubar li a:hover {
+	color: #000;
+	background-color: #fff;
+	text-decoration: underline;
 }
 
-ul.menubar li a:visited
-{
-color: #000;
-background-color: #fff;
-text-decoration: none;
-} 
-
-ul.menubar li a:visited:hover
-{
-color: #000;
-background-color: #fff;
-text-decoration: underline;
+ul.menubar li a:visited {
+	color: #000;
+	background-color: #fff;
+	text-decoration: none;
 }
- 
-ul.menubar li a:link
-{
-color: #000;
-background-color: #fff;
-text-decoration: none;
-}  
 
-ul.menubar li a:link:hover
-{
-color: #000;
-background-color: #fff;
-text-decoration: underline;
-} 
+ul.menubar li a:visited:hover {
+	color: #000;
+	background-color: #fff;
+	text-decoration: underline;
+}
+
+ul.menubar li a:link {
+	color: #000;
+	background-color: #fff;
+	text-decoration: none;
+}
+
+ul.menubar li a:link:hover {
+	color: #000;
+	background-color: #fff;
+	text-decoration: underline;
+}
 /************************************/  
 
 /************************************/
@@ -235,12 +227,12 @@ text-decoration: underline;
 
 #left_menu a { color: #000; text-decoration: none; font-weight:bold; }
 #left_menu img { 
-    padding:0px; margin:2px;     
-    border-width:1px; 
-    border-color: gray; 
-    border-style:solid;
-    }
-    
+	padding:0px; margin:2px;
+	border-width:1px; 
+	border-color: gray; 
+	border-style:solid;
+}
+
 #left_menu ul {list-style:none;
 	border: 2px solid #000;
 	/*background:#fff url("../images/menubg_blue.png") no-repeat;*/
@@ -255,8 +247,8 @@ text-decoration: underline;
 #left_menu { float: left; width: 170px;  padding:0; clear:none; margin:0; margin-top: 0px; }
 #left_menu ul li.menu_title {background-color:#2a0;}
 #left_menu ul li.menu_title img {
-    border:none;
-    }
+	border:none;
+}
 
 /* if you want you can use images as backgrounds to these divs instead */        
 #game-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;}  /*background-image: url("/images/gameLogo.gif"); background-repeat:no-repeat; } */
@@ -277,8 +269,7 @@ text-decoration: underline;
 	width:95%;
 	font-weight:bold;
 }
-#pagecontent ul.menubar li
-{
+#pagecontent ul.menubar li {
 	font-size: 10pt;
 	margin:2px;
 	padding:0;
@@ -289,20 +280,18 @@ text-decoration: underline;
 
 #pagecontent ul.menubar li a:hover
 {
-color: #000;
-background-color: #fff;
+	color: #000;
+	background-color: #fff;
 }
 
-#pagecontent ul.menubar li a:visited
-{
-color: #000;
-background-color: #fff;
-}  
-#pagecontent ul.menubar li a:link
-{
-color: #000;
-background-color: #fff;
-}  
+#pagecontent ul.menubar li a:visited {
+	color: #000;
+	background-color: #fff;
+}
+#pagecontent ul.menubar li a:link {
+	color: #000;
+	background-color: #fff;
+}
 
 /************************************/
 /* game list div on game page (unnecessary?)*/
@@ -312,36 +301,36 @@ background-color: #fff;
 /* Each DIV entry in the list of games on games page*/
 .game_entry { padding:0; margin:0; clear:right; padding-bottom:20px;}
 .game_entry img { margin:10px; padding:0; border-width: 1px; border-color:black; display:block; 
-    float: right;
-    clear:right;
-    position:relative;
-    margin-right:0;
+	float: right;
+	clear:right;
+	position:relative;
+	margin-right:0;
 }
 .game_entry h1 a {text-decoration: none; }
 .game_entry .update_image { float:right; clear:right; margin:10px; padding:0; border:0; position:relative; top:-40px;}
 .game_entry .statustag {
-    border: 1px solid gray;
-    background-color: #99CCFF;
-    margin:0px;
-    margin-left: 10px;
-    padding:0;
-    float: right;
-    clear:right;
-    position:relative;
-    width: 120px;
-    display:block;
-    }
-    
+	border: 1px solid gray;
+	background-color: #99CCFF;
+	margin:0px;
+	margin-left: 10px;
+	padding:0;
+	float: right;
+	clear:right;
+	position:relative;
+	width: 120px;
+	display:block;
+}
+
 .game_entry .statustag p {
-    font-weight: bold;	
-    font-size:10pt;
-    text-align: center;      
-    margin:0;
-    padding:5px;
-    } 
-    
+	font-weight: bold;	
+	font-size:10pt;
+	text-align: center;
+	margin:0;
+	padding:5px;
+}
+
 /************************************/
-/* game page */    
+/* game page */
 
 .game_description { border-bottom: 1px solid gray; padding-bottom:10px;}
 
@@ -395,50 +384,47 @@ ul.gamepagemenu li
 
 ul.gamepagemenu li a { padding: 0px 10px; margin: 3px 0 3px 0; text-decoration:none; }
 
-ul.gamepagemenu li a:hover
-{
-color: #000;
-background-color: #fff;
-text-decoration:underline;
+ul.gamepagemenu li a:hover {
+	color: #000;
+	background-color: #fff;
+	text-decoration:underline;
 }
 
-ul.gamepagemenu li a:visited
-{
-color: #000;
-background-color: #fff;
-}  
-ul.gamepagemenu li a:link
-{
-color: #000;
-background-color: #fff;
-}  
+ul.gamepagemenu li a:visited {
+	color: #000;
+	background-color: #fff;
+}
+ul.gamepagemenu li a:link {
+	color: #000;
+	background-color: #fff;
+}
 
 
 .download { 
 	font-size: 10pt;
 	margin:0;padding:0;margin-bottom:5px;
-    display:block; 
-    }
+	display:block; 
+}
 
 .download ul { 
-    list-style:none; 
-    margin:0; 
-    padding:0; 
-    text-align:left; 
-    border:none;
-    }
+	list-style:none; 
+	margin:0; 
+	padding:0; 
+	text-align:left; 
+	border:none;
+}
 .download li {
-    padding:0;margin:0;margin-bottom:10px; 
-    }
-    
+	padding:0;margin:0;margin-bottom:10px; 
+}
+
 .download div.filedesc {
 	text-align:center;
 	margin:0;padding:7px 0px;
 	font-size:11pt;
 	color: #fff;
 	background-color:#2a0;
-    border-bottom:2px solid gray;
-    }
+	border-bottom:2px solid gray;
+}
 
 .download div.link {
 	padding:10px; margin:0;
@@ -457,152 +443,148 @@ background-color: #fff;
 	width:200px;
 	text-align:right;
 	padding:5px;margin:0;
-    list-style:none; 
-    border:none; 
-    position:relative;
-    }
+	list-style:none; 
+	border:none; 
+	position:relative;
+}
 .download ul.OS_images li { 
-    border:none; 
-    display:inline;
-    }
+	border:none; 
+	display:inline;
+}
 .download ul.OS_images img {
-    border-width: 1px; 
-    border-color: black; 
-    border-style:solid; 
-    }
-    
+	border-width: 1px; 
+	border-color: black; 
+	border-style:solid; 
+}
+
 .download .dependancies { margin:0; padding:5px; font-size:9pt;}
 .download .dependancies ul li {
-    border:none; 
-    margin-right:5px;
-    display:inline;
-    }
-    
+	border:none; 
+	margin-right:5px;
+	display:inline;
+}
+
 .download .dependancies ul  {
 	padding:5px;margin:0;
-    list-style:none; 
-    }
+	list-style:none; 
+}
 
-    
+
 /************************************/
 /* standard grey background around textual pages */
 
 .section { 
-    padding:0; 
-    margin:0;
-    }
+	padding:0; 
+	margin:0;
+}
 
 /************************************/
 /* screenshots.php page render tags */
 
 .screenshots_entry ul { 
-    list-style:none; 
-    margin:0; 
-    padding:0; 
-    text-align:center;
-    }
+	list-style:none; 
+	margin:0; 
+	padding:0; 
+	text-align:center;
+}
 
 .screenshots_entry ul li.thumbnail {
-    display:inline;
-    padding: 5px;
-    height:120px;
-    }
-    
+	display:inline;
+	padding: 5px;
+	height:120px;
+}
+
 .screenshots_entry ul li.thumbnail img {
-    width:125px;
-    height:100px;
-    }
-    
+	width:125px;
+	height:100px;
+}
+
 .screenshots_entry ul li.thumbnail a {
-    text-decoration: none;  
-    }
+	text-decoration: none;  
+}
 
 .screenshots_entry ul li.thumbnail p { 
-    text-align:center;
-    display:inline;
-    width:125px;
-    margin:0px;
-    position:relative;
-    bottom:3px;
+	text-align:center;
+	display:inline;
+	width:125px;
+	margin:0px;
+	position:relative;
+	bottom:3px;
 }
 .screenshots_entry p.archive {
-    text-align:center;
-    width:99%;
-    margin-left:auto;
-    margin-right:auto;
+	text-align:center;
+	width:99%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 /************************************/
 /* news.php page render tags        */
 
 ul.newslist { 
-    position: relative;
-    list-style:none; 
-    margin:0; 
-    padding:0; 
-    text-align:left; 
-    width:99%; 
-    }
-    
+	position: relative;
+	list-style:none; 
+	margin:0; 
+	padding:0; 
+	text-align:left; 
+	width:99%; 
+}
+
 ul.newslist li { 
 	margin:0;
-    padding:5px;
-    }
-   
+	padding:5px;
+}
+
 .newsitem p.itemdate { 
 	padding:0;margin:0;
-    color:#090; 
-    text-align:left; 
-    float:left; clear:right;
-    position:relative; 
-    left:10px; 
-    margin-top:-17px;
-    font-size:70%;
-    
-    }
-    
+	color:#090; 
+	text-align:left; 
+	float:left; clear:right;
+	position:relative; 
+	left:10px; 
+	margin-top:-17px;
+	font-size:70%;
+}
+
 div.newstitle {
 	border-bottom: 1px solid gray;
 	margin:0;
 	padding:0;
 	margin-bottom:7px;
 	font-size:12pt;
-    color:#000;
-    margin-bottom:18px;  
-    font-weight:bold;  
-    }
+	color:#000;
+	margin-bottom:18px;
+	font-weight:bold;
+}
 
 .newsitem img.news_image {
 	padding:0; margin:10px; margin-right:0px;
-    clear:right;
-    float:right;
-    border: 1px solid black;
-    display:block;
-    position:relative;
-    }
+	clear:right;
+	float:right;
+	border: 1px solid black;
+	display:block;
+	position:relative;
+}
 .newsitem .newscontent_image {
 	padding:0;margin:0;
-    padding-left:20px; 
-    margin-top:0px; 
-    margin-right:20px;
-    }
+	padding-left:20px; 
+	margin-top:0px; 
+	margin-right:20px;
+}
 .newsitem .newscontent_noimage {
 	padding:0;margin:0;
-    padding-left:20px; 
-    padding-top:10px; 
-    margin-top:0px; 
-    margin-right:20px;
-    }
-
-a.newsitemtitle
-{
-    text-decoration: none;
-    color: black;
+	padding-left:20px; 
+	margin-top:0px; 
+	margin-right:20px;
 }
 
-a.newsitemtitle:hover
-{
-    text-decoration: underline;
+a.newsitemtitle {
+	text-decoration: none;
+	color: black;
+}
+
+a.newsitemtitle:hover {
+	text-decoration: underline;
 }
 
 /************************************/
@@ -611,13 +593,12 @@ a.newsitemtitle:hover
 .downloadpagesection {margin:0; padding:0; height: 150px; } 
 .downloadpagesection h2 { border-bottom: 1px solid gray; }
 .downloadpagesection .linktodownload {margin:0; padding:0; font-size: 10pt; text-decoration:none; }
-/*.download img { display:block; margin:5px; padding:0; position: relative; left: 10px; top: -5px;}*/
 .downloadpagesection img { float: right; display:block; clear:right;}
 .downloadpagesection .linktodownload a { 
-    text-decoration:none; 
-    font-size: 12pt;
-    border-bottom: 1px solid #368;
-    margin: 10px;
-    padding: 3px;
+	text-decoration:none; 
+	font-size: 12pt;
+	border-bottom: 1px solid #368;
+	margin: 10px;
+	padding: 3px;
 }
 
