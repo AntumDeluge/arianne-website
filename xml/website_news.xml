@@ -9,7 +9,7 @@
       <image url=""/>
     </images>
     <content>
-      <![CDATA[]]>
+      <![CDATA[<p>]]>
       </content>
   </item>
  -->
@@ -25,7 +25,7 @@
       <image url="screens/stendhal/park86.png"/>
  </images>
     <content>
-      <![CDATA[Have you noticed the graceful round tower in Semos Mountains and wondered what goes on in that lofty spire? The guardian of the tower, Zekiel, has prepared a quest for you - complete the Wizards Circle and access will be granted. 
+      <![CDATA[<p>Have you noticed the graceful round tower in Semos Mountains and wondered what goes on in that lofty spire? The guardian of the tower, Zekiel, has prepared a quest for you - complete the Wizards Circle and access will be granted. 
 <p>
 Perhaps the sorceress Sarzina visited the Wizards Circle, for she has a new power also; she can enable you to visualise your karma: good, or bad, at any time. 
 <p>
@@ -41,7 +41,7 @@ You'll find heightened awareness of the world around you, for example pathways w
     <title>Marauroa 3.8.1 released</title>
     <date>25th July 2010</date>
     <content>
-      <![CDATA[Marauroa 3.8.1 is released. Marauroa 3.8.1 is mostly a bug fix release, with some additional work around characters. For full details please see <a href="/engine/marauroa.html#changes">marauroa's
+      <![CDATA[<p>Marauroa 3.8.1 is released. Marauroa 3.8.1 is mostly a bug fix release, with some additional work around characters. For full details please see <a href="/engine/marauroa.html#changes">marauroa's
 changelog</a>.]]>
       </content>
   </item>
@@ -55,7 +55,7 @@ changelog</a>.]]>
       <image url="screens/stendhal/choose_character85.png"/>
  </images>
     <content>
-      <![CDATA[Farmers like Karl have learnt a more efficient sowing technique. Each small patch of grain in the fields is planted closer together, so it will slow you down when you walk over that patch, but you can walk more easily between grain rows than before. After you harvested all your grain, you'd take it to Jenny to be milled. Do you sometimes forget that you left an order with her, or for how much? Well, now you can use /listproducers to be reminded of all your orders you placed with Jenny and other workers who cast, make and bake for you. You may use that to remember to collect some sandwiches you made with Leander, for Phalk. The dwarf guardian is hungry at his station in Semos mines and would appreciate some food and drink.
+      <![CDATA[<p>Farmers like Karl have learnt a more efficient sowing technique. Each small patch of grain in the fields is planted closer together, so it will slow you down when you walk over that patch, but you can walk more easily between grain rows than before. After you harvested all your grain, you'd take it to Jenny to be milled. Do you sometimes forget that you left an order with her, or for how much? Well, now you can use /listproducers to be reminded of all your orders you placed with Jenny and other workers who cast, make and bake for you. You may use that to remember to collect some sandwiches you made with Leander, for Phalk. The dwarf guardian is hungry at his station in Semos mines and would appreciate some food and drink.
 <p>
 Stendhal 0.85 has some changes you'll notice as you start the client, too. There is a new wooden panel theme and now it is used for all the parts of the Stendhal client including the buttons on the first screen. When you login to your account you'll notice a dialog with your character, you need to click on that to login. If you have more than one account, you can merge them, so that when you login you can choose between your characters. Please read <a href = "http://stendhalgame.org/wiki/Stendhal_Account_Merging">http://stendhalgame.org/wiki/Stendhal_Account_Merging</a> for more details. This is optional, it does not affect gameplay, and you can still play more than one character at the same time. ]]>
       </content>
@@ -65,7 +65,7 @@ Stendhal 0.85 has some changes you'll notice as you start the client, too. There
     <title>Marauroa 3.8 released</title>
     <date>26th June 2010</date>
     <content>
-      <![CDATA[Marauroa 3.8 is released! Marauroa 3.8 adds version compatibility between client and server of different protocol versions. There are two kinds of extensions to the protocol: details in the character list, and maps attributes. Performance is also optimised, with asynchronous login, and 'baking' of RPClasses. Full details are at <a href = "http://stendhalgame.org/wiki/Marauroa_3.8">http://stendhalgame.org/wiki/Marauroa_3.8</a>, and you can also refer to <a href
+      <![CDATA[<p>Marauroa 3.8 is released! Marauroa 3.8 adds version compatibility between client and server of different protocol versions. There are two kinds of extensions to the protocol: details in the character list, and maps attributes. Performance is also optimised, with asynchronous login, and 'baking' of RPClasses. Full details are at <a href = "http://stendhalgame.org/wiki/Marauroa_3.8">http://stendhalgame.org/wiki/Marauroa_3.8</a>, and you can also refer to <a href
 ="/engine/marauroa.html#changes">marauroa's
 changelog</a>.]]>
       </content>
@@ -81,7 +81,7 @@ changelog</a>.]]>
       <image url="screens/stendhal/icons84.png"/>
     </images>
     <content>
-      <![CDATA[       Are you an obsessive hoarder of rare items? Do you pay high sums for a durin axe (just because it is rare) or camp hours to win a nihonto? Balduin is just like you. If, and only if, you've completed every other quest to collect special items, he'll challenge you to find one more... but don't bother asking your friends what he challenged them with, your quest could well be different.
+      <![CDATA[<p>       Are you an obsessive hoarder of rare items? Do you pay high sums for a durin axe (just because it is rare) or camp hours to win a nihonto? Balduin is just like you. If, and only if, you've completed every other quest to collect special items, he'll challenge you to find one more... but don't bother asking your friends what he challenged them with, your quest could well be different.
   <p>
       Despot Halb Errvl has been sitting alone in the Mithrilbourgh Throne Room for too long. He's become really paranoid about rival armies, and is asking for help killing hundreds of enemies. He doesn't care where you find them, so long as you kill as many as possible. Others who ask for your help in for example cleaning a cellar of spiders, really will check now that you killed spiders from their cellar and not just any old spider. They realised that we've been deceiving them a little in the past with our proof of kills!
 <p>      The pizza baker Leander is now more responsible: he sends his employees only to locations that he is confident they can survive in. But the food situation at Ados Wild Life Refuge has got worse: they are now in need of weekly supplies. Katinka will ask you to bring food they need for the animals in the zoo, and to thank you Dr. Feelgood will heal your pets and sheep and might sell you some cheap medicine. If you are not interested in feeding the animals to get cheap potions you can still buy them elsewhere. There is Carmen in Semos, and in Fado is Sarzina, who joined the potion market, selling mega potions.
@@ -93,7 +93,7 @@ changelog</a>.]]>
     <title>Marauroa 3.7 released</title>
     <date>1st June 2010</date>
     <content>
-      <![CDATA[Marauroa 3.7 is released, with changes to handling of characters. Full details are at <a href 
+      <![CDATA[<p>Marauroa 3.7 is released, with changes to handling of characters. Full details are at <a href 
 ="/engine/marauroa.html#changes">marauroa's 
 changelog</a>.]]>
       </content>
@@ -110,7 +110,7 @@ changelog</a>.]]>
       <image url="screens/stendhal/cursor83.png"/>
     </images>
     <content>
-      <![CDATA[The forces of the elements have lain dormant in the world for a long time. 
+      <![CDATA[<p>The forces of the elements have lain dormant in the world for a long time. 
 But now, fire, ice, dark and light magic is awakening. Those wielding a fire sword will find excellent results
  when fighting for example an ice elemental, while fire elementals resist fire weapons very well. Likewise, magical defensive items can aid, or can hinder, when fighting magical creatures. A black shield gives extra protection against the dark power of a black death, but is vulnerable to the light magic emanating from an angel.
 <p>
@@ -133,7 +133,7 @@ There's much more news than can fit here, so to read about the many other change
     <images>
      </images>
     <content>
-      <![CDATA[Stendhal 0.82.1 adds the command /clickmode to toggle between single click walk and double click walk. It also fixes a bug in owning pets, /mute being remembered across restart, and an issue for Microsoft Windows users when moving corpses. For full details please see <a href="/game/stendhal.html#changes">the Stendhal changelog.</a>
+      <![CDATA[<p>Stendhal 0.82.1 adds the command /clickmode to toggle between single click walk and double click walk. It also fixes a bug in owning pets, /mute being remembered across restart, and an issue for Microsoft Windows users when moving corpses. For full details please see <a href="/game/stendhal.html#changes">the Stendhal changelog.</a>
 ]]>
       </content>
   </item>
@@ -142,7 +142,7 @@ There's much more news than can fit here, so to read about the many other change
     <title>Spring Festival and Tournament</title>
     <date>27th March 2010</date>
     <content>
-      <![CDATA[We had a big party in Ados to celebrate Spring. Maria was on hand to sell party food and drinks, and there was a Tournament where players challenged each other to prove their strength. The party got a huge number of guests! 
+      <![CDATA[<p>We had a big party in Ados to celebrate Spring. Maria was on hand to sell party food and drinks, and there was a Tournament where players challenged each other to prove their strength. The party got a huge number of guests! 
       <div align="center"><a href="/screens/stendhal/party20100327.jpg"><img src="/screens/stendhal/party20100327_small.jpg" alt="Spring Tournament" width="100%" height="100%"/></a></div>
 <p>bell13 and snakevip were chosen as first place winners, with killerm, love_puppet and emily  in second place. Well done all! You can read the full results from the Tournament, with details of every fight, at <a href="http://stendhalgame.org/wiki/Stendhal_Events/SpringFestival201003">our wiki</a>.
       <div align="center"><img src="/screens/stendhal/winners20100327.jpg"></div>
@@ -159,7 +159,7 @@ There's much more news than can fit here, so to read about the many other change
       <image url="screens/stendhal/rats82.png"/>
     </images>
     <content>
-      <![CDATA[Is that a giant soap bubble which has landed in Kalavan City? No, it's a magical orb, and provided that Ilisa has taught you the art of scrying, you can use this magical orb to take you ... erm ... who knows! Somewhere fun, that's for sure. While you're in the Kalavan area, if you can brave the castle, you'll find someone with a favour to ask you.
+      <![CDATA[<p>Is that a giant soap bubble which has landed in Kalavan City? No, it's a magical orb, and provided that Ilisa has taught you the art of scrying, you can use this magical orb to take you ... erm ... who knows! Somewhere fun, that's for sure. While you're in the Kalavan area, if you can brave the castle, you'll find someone with a favour to ask you.
 <p>If you get around using automatic walking, you should notice smoother movement, and that you can start walking with only one click, not two. 
 Hopefully you've been enjoying the rich variety of sounds and music around recently. Now you have ability to set the overall sound volume, and even adjust creature volume independently of the background music volume, for example.  
 <p>Rats are particularly noisy little critters, and Ados is starting to have a bit of a rat problem. When you hear the Ados mayor shout for help, would you please go kill some rats in buildings inside Ados? The city is getting overrun and he'll reward you well.
@@ -172,7 +172,7 @@ Hopefully you've been enjoying the rich variety of sounds and music around recen
     <title>Stendhal Client Quality Week</title>
     <date>5th March 2010</date>
      <content>
-      <![CDATA[
+      <![CDATA[<p>
 Our <a href="http://stendhalgame.org/news/client-quality-week-43.html">Client Quality Week</a> has already resulted in useful bug 
 reports from helpful players. Thanks to this we have been able to make bugfix releases Stendhal 0.81.1 and 0.81.2 
 which fix a couple of issues with the latest release, 
@@ -187,7 +187,7 @@ Thanks everyone for uploading your error log files and please continue to do so.
     <title>Marauroa 3.5 released</title>
     <date>23rd February 2010</date>
     <content>
-      <![CDATA[Marauroa 3.5 adds the ability to limit parallel connections and account creation, and these limits are configurable. Full details can be found at <a href="/engine/marauroa.html#changes">the Marauroa changelog</a>.]]>
+      <![CDATA[<p>Marauroa 3.5 adds the ability to limit parallel connections and account creation, and these limits are configurable. Full details can be found at <a href="/engine/marauroa.html#changes">the Marauroa changelog</a>.]]>
       </content>
   </item>
 
@@ -200,7 +200,7 @@ Thanks everyone for uploading your error log files and please continue to do so.
       <image url="screens/stendhal/statspanel81.png"/> 
    </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 Did you know that one of your friends from Semos is a composer of music? <a 
 href="http://stendhalgame.org/character/storyteller.html">Storyteller</a> wrote some songs and they're playing now in various places. <a 
 href="http://stendhalgame.org/character/plassy.html">Plassy</a> created the system to play the music and <a 
@@ -223,7 +223,7 @@ simplified</a>. Remember, Stendhal is software released under an open source lic
     <title>Marauroa 3.4 released</title>
     <date>19th February 2010</date>
     <content>
-      <![CDATA[Marauroa 3.4 adds support for the H2 serverless database system, as an alternative to MySQL. There are a number of other new features, relating to setting the max number of players, temporary bans and inactive accounts. Full details can be found at <a href="/engine/marauroa.html#changes">the Marauroa changelog</a>.]]>
+      <![CDATA[<p>Marauroa 3.4 adds support for the H2 serverless database system, as an alternative to MySQL. There are a number of other new features, relating to setting the max number of players, temporary bans and inactive accounts. Full details can be found at <a href="/engine/marauroa.html#changes">the Marauroa changelog</a>.]]>
       </content>
   </item>
 
@@ -231,7 +231,7 @@ simplified</a>. Remember, Stendhal is software released under an open source lic
     <title>Event: Hunt for the lost cat!</title>
     <date>24th January 2010</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 On Friday 22nd January a sign appeared in Semos:
 <br><i>"I hid my cat somewhere in Fauimoni. Find and bring her to semos tavern 
 and totaling up to 48,500 HP and a few scrolls. You 
@@ -268,7 +268,7 @@ organising this.
       <image url="screens/stendhal/ignore80.png"/>
     </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 Budding salesmen, there is help at hand for make your trading smooth! Harold will be your middle-man, you tell him what price you want to sell your item for, and he will take it from you. Anyone who comes to ask him what offers he has recorded has the chance to buy your item. Once your item is sold, Harold will give you the price that you asked for it. He's new to the job, so he's only accepting 3 offers per person, so that he doesn't overload himself with work. 
 <p>If you prefer to deal direct with tradesmen, barmaids, and suppliers, then you'll find that easier now too. A kind artist has painted each shop blackboard (or book) with a picture, price, and description of each item for sale. Just look closely at the sign by each shop, and you will see something like the picture on the right here. 
 <p>Do you remember Haizen, the wizard who sells scrolls? He's learnt some new tricks recently. If you ask him, he'll create a fiendishly difficult maze for you. Can you be the fastest maze runner? You can try a new maze once a day. If that isn't enough to keep you occupied, some of the female population of the island need your help; Carmen, Jenny and Mrs. Yeti would all be happy to hear from you.
@@ -280,7 +280,7 @@ Budding salesmen, there is help at hand for make your trading smooth! Harold wil
     <title>Marauroa 3.3 released</title>
     <date>8th January 2010</date>
      <content>
-      <![CDATA[Marauroa is Arianne's Multiplayer Online Engine Server, which you can use to build your own online games.
+      <![CDATA[<p>Marauroa is Arianne's Multiplayer Online Engine Server, which you can use to build your own online games.
 Marauroa 3.3 introduces new features: RPEvents can have RPSlots. This means that events sent from the server to the
                 client can contain more complex data. Games using Marauroa can now check the structure of the database using
                 doesTableExist and doesColumnExist in order to update it.
@@ -294,7 +294,7 @@ Marauroa 3.3 introduces new features: RPEvents can have RPSlots. This means that
     <title>Raid: Harold was kidnapped!</title>
     <date>6th January 2010</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 Xhiphin Zohos, from Fado, called for help, because somehow many caged creatures had been let loose. The bandits who did this were in disguise. Luckily, there was a lot of help to kill the creatures, which had gone wild after being captive for so long. 
       <div align="center"><img src="/screens/stendhal/raid060110.png" alt="Fado under siege!" width="100%" height="100%"/></div>
 <p>Once Fado was safe and the creatures were dead, Xhiphin Zohos begged for anyone to help look for Harold, who had been the keeper of the animals. He had been kidnapped by the bandits! Every building in Fado was thoroughly searched and Harold was eventually found, safe, in the shepherd house. 
@@ -309,7 +309,7 @@ Xhiphin Zohos, from Fado, called for help, because somehow many caged creatures 
     <title>Raid: New Year Revolt</title>
     <date>1st January 2010</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 Semos was in danger this New Year, from creatures which threatened to invade. 
 Legions of creatures started to appear in the Semos Mine Towns, and a cast of blackness fell over the island.
 Mayor Sakhs had been forewarned of the disaster, and he called warriors to help defend Semos. 
@@ -333,7 +333,7 @@ townhall and presented the ankhs for the safety of Semos.
       <image url="screens/stendhal/stendhal79.png"/>
     </images>
     <content>
-      <![CDATA[The Mine Town celebrations are over for another year; the outfits must be folded away and the games packed into boxes. But don't be sad, you can look forward to Christmas now! 
+      <![CDATA[<p>The Mine Town celebrations are over for another year; the outfits must be folded away and the games packed into boxes. But don't be sad, you can look forward to Christmas now! 
 <p>
 While you are playing you may notice an improvement in your client's performance, particularly if you run Ubuntu 9.10 with nvidia drivers on Sun JDK. Client improvements have been the major changes of 0.79, so if you had trouble before we hope that it is better now.
 ]]>
@@ -348,7 +348,7 @@ While you are playing you may notice an improvement in your client's performance
       <image url="screens/stendhal/outfits78.png"/>
     </images>
     <content>
- <![CDATA[Come join Susi this year at the Semos Mine Town Revival Weeks - you can  
+ <![CDATA[<p>Come join Susi this year at the Semos Mine Town Revival Weeks - you can  
 play tic tac toe, try a puzzle, play a treasure hunt game, hire a fun outfit and most importantly, make friends with Susi.
 <p>In case you don't know the story, three years ago Susi was 
 captured on her way back from the Semos Mine Town revival party. She was missing for two years and there was no 
@@ -366,7 +366,7 @@ pirate attack. Mein_Dino, IschBing, Maja and Peka were heroes at that raid! This
       <image url="screens/stendhal/adventure77.png"/>
     </images>
     <content>
-      <![CDATA[This is the beginning of a very great change - the game menus and windows are being moved off the main screen. Initially, the buddies list and minimap panel have both been moved off your world screen and onto their own side panel, attached to the screen. Also, the chat log is no longer a separate floating window, but a resizeable panel attached to the screen. It's a major step forward and something players have wanted for a long time, soon we hope to be able to move the Bag and Character panels out of the world screen too. It gives you plenty more space to see ...
+      <![CDATA[<p>This is the beginning of a very great change - the game menus and windows are being moved off the main screen. Initially, the buddies list and minimap panel have both been moved off your world screen and onto their own side panel, attached to the screen. Also, the chat log is no longer a separate floating window, but a resizeable panel attached to the screen. It's a major step forward and something players have wanted for a long time, soon we hope to be able to move the Bag and Character panels out of the world screen too. It gives you plenty more space to see ...
 <p>
 ... terrifying creatures. Do you love to fight these? Then go to the magic city and find the Challenger Haastaja and his pet chaos green dragonrider inside his house. He will summon an adventure island for you, with creatures chosen just for you to kill. (And chosen to be a challenge ... ) It's expensive, and you can only go to the adventure island once every 3 days, but it is well worth the money and the wait. 
 <p>
@@ -383,7 +383,7 @@ If you started the adventure called marriage, you'll notice a change in wedding 
      <image url="screens/stendhal/corpses76.png"/>
     </images>
     <content>
-      <![CDATA[Everything has changed but nothing is different. So, what's happened? The engine Marauroa which runs Stendhal and controls the database has had major refactoring; mainly to how it accesses the databases. Things are now possible which weren't before, but these all go on 'behind the scenes'. So, in the world of Stendhal, our NPCs, players, creatures, fighting, banks, items, farming, houses, zones and quests, are all unchanged. Stendhal has been ported to use the newly rewritten engine but everything should look exactly as before.*
+      <![CDATA[<p>Everything has changed but nothing is different. So, what's happened? The engine Marauroa which runs Stendhal and controls the database has had major refactoring; mainly to how it accesses the databases. Things are now possible which weren't before, but these all go on 'behind the scenes'. So, in the world of Stendhal, our NPCs, players, creatures, fighting, banks, items, farming, houses, zones and quests, are all unchanged. Stendhal has been ported to use the newly rewritten engine but everything should look exactly as before.*
 <p>
 We're really happy to announce that the Stendhal client is now <b>compatible with OpenJDK</b>! This is great as OpenJDK is the default Java with many Linux distributions now, so we are happy to have this compatibility. Thanks to omair who provided the fix. 
 <p>
@@ -396,7 +396,7 @@ We're really happy to announce that the Stendhal client is now <b>compatible wit
     <title>Marauroa 3.0: multithreading and extended database support</title>
     <date>2 August 2009 23:16:00</date>
     <content>
-      <![CDATA[With Marauroa 3.0, the game engine now supports multithreading, and it is possible to run parallel transactions in different threads. JDBCDatabase has been split into several small *DAO (Data Access Object) classes. Low level database operations are now in the new package marauroa.server.db. These changes will require you to port any application using Marauroa, so for help on how to port your application see <a href="http://stendhalgame.org/wiki/Refactoring_Database_Access_in_Marauroa">Refactoring Database Access in Marauroa</a>. Additionally, we have begun work on supporting other database systems beside MySQL. 
+      <![CDATA[<p>With Marauroa 3.0, the game engine now supports multithreading, and it is possible to run parallel transactions in different threads. JDBCDatabase has been split into several small *DAO (Data Access Object) classes. Low level database operations are now in the new package marauroa.server.db. These changes will require you to port any application using Marauroa, so for help on how to port your application see <a href="http://stendhalgame.org/wiki/Refactoring_Database_Access_in_Marauroa">Refactoring Database Access in Marauroa</a>. Additionally, we have begun work on supporting other database systems beside MySQL. 
 ]]>
       </content>
   </item> 
@@ -410,7 +410,7 @@ We're really happy to announce that the Stendhal client is now <b>compatible wit
       <image url="screens/stendhal/clone75.png"/>
     </images>
     <content>
-      <![CDATA[It's all about beauty at this time of year. You'll see it if you buy daisies seeds or lilia seeds from Jenny and watch them grow into fabulous flowers. Be sure you plant them on the patch of fertile ground in Semos Plains North. Anyone can pick your fully grown flower, so you're doing a public service by planting them for all to watch and for some lucky person to pick. Perhaps they're most beautiful left in the ground, though. 
+      <![CDATA[<p>It's all about beauty at this time of year. You'll see it if you buy daisies seeds or lilia seeds from Jenny and watch them grow into fabulous flowers. Be sure you plant them on the patch of fertile ground in Semos Plains North. Anyone can pick your fully grown flower, so you're doing a public service by planting them for all to watch and for some lucky person to pick. Perhaps they're most beautiful left in the ground, though. 
 <p>
 You'll see it too in the improved looks of many items and creatures, not to mention the amazing new stendhal splashscreen as voted by YOU the players! If you enjoyed that competition, keep looking out for the next one, you can take part by entering or voting, or both.  
 <p>
@@ -425,7 +425,7 @@ Do you ever see players who should not yet have mastered the black arts, but som
       <image url="screens/stendhal/arachne74.png"/>
     </images>
     <content>
-      <![CDATA[Finding the 10%* death penalty hard? If you have good karma you could lose a lot less skills now - but if you have bad karma you 
+      <![CDATA[<p>Finding the 10%* death penalty hard? If you have good karma you could lose a lot less skills now - but if you have bad karma you 
 could lose up to 20%**. If you want to know more ways to get karma just go and ask Sarzina, the wizardess in fado hut, she will tell you.
 <p>
 If you are a regular visitor to hell and the karma 'hit' when you left hell was getting you down, now you have the option to answer a riddle 
@@ -454,7 +454,7 @@ Last but not least, another fearsome new creature to face in battle - arachne - 
       <image url="screens/stendhal/tax73.png"/>
     </images>
     <content>
-      <![CDATA[Player houses have just got even better! Each house comes with a storage chest, it's not like a player chest where each player sees 
+      <![CDATA[<p>Player houses have just got even better! Each house comes with a storage chest, it's not like a player chest where each player sees 
 their own items - it's like the Semos community chest, but inside the house! Everyone with a key can access it, so if you're worried and can't 
 remember who you gave a key to, or if you die and lose your key, hurry to your house seller and ask to get your locks changed. When you're stood 
 outside a house door you can see who owns the house, or if it's for sale, and you can also knock so that anyone inside the house knows you are there. 
@@ -479,7 +479,7 @@ more magic outfits, these we leave to you to explore! ]]>
   
     </images>
     <content>
-      <![CDATA[The Semos Mine Town Revival Weeks Party is over and Susi and her daddy are safe at home now in Ados City. Liliana the magic costume maker has opened a boutique in the magic city, her outfits now last for longer but cost a little more to buy. A new outfit is a great way to express yourself so it is well worth it! Another new way to express yourself is by using the /me command. Just try typing for example '/me loves Stendhal' or '/me thinks kymara is awesome' and you will get the idea!
+      <![CDATA[<p>The Semos Mine Town Revival Weeks Party is over and Susi and her daddy are safe at home now in Ados City. Liliana the magic costume maker has opened a boutique in the magic city, her outfits now last for longer but cost a little more to buy. A new outfit is a great way to express yourself so it is well worth it! Another new way to express yourself is by using the /me command. Just try typing for example '/me loves Stendhal' or '/me thinks kymara is awesome' and you will get the idea!
 <p>
 
 Do you enter the Ados Deathmatch often? Next time before you go in, try asking Thonatus which heroes are already battling inside. You'd be surprised how accurately he remembers who has recently taken the challenge. Just in case you have trouble finding him, you should know that he has become tired of dodging the dangerous fallen high priests and walking amongst the smelly fallen warriors. He now sticks to the upper (northern) parts of the swamp, it is safer there. 
@@ -500,7 +500,7 @@ So, players have learnt a number of new abilities - what about creatures? Not to
       <image url="screens/stendhal/outfit71.png"/>
     </images>
     <content>
-      <![CDATA[To celebrate the lost girl Susi being found safe and well, the tradition of celebrating Semos Mine Town Revival Weeks has returned! 
+      <![CDATA[<p>To celebrate the lost girl Susi being found safe and well, the tradition of celebrating Semos Mine Town Revival Weeks has returned! 
 For a short time only, visit the Semos Mine Town and get an exciting magic outfit, try a puzzle or chat with the centre of the party, Susi. 
 <p>
 Another piece of very good news is about Thanatos, the Death match Assistant. Any of you who have done a Deathmatch will know that Thanatos has suffered from hallucinations for a long time - he sometimes saw live creatures, even when there were none, and wouldn't let you claim your Deathmatch victory! The best doctors in the land have treated him and we're happy to say he's shown a huge improvement in his ability to do his job. He's also had a chat with Mayor Sakhs of Semos, and explained to him that if a player has helped another kill a creature in Deathmatch, even if they didn't start it, then the Mayor should really reward the helper duly. Have fun!]]>
@@ -516,7 +516,7 @@ Another piece of very good news is about Thanatos, the Death match Assistant. An
       <image url="screens/stendhal/pk70.png"/>
     </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 <p>Warriors, take note! For the rules of combat have changed, and to be ignorant of them is to be in mortal danger!!
 <p>The Revised Battle Creed, applying to all beings, creature and human:
 <ul>
@@ -542,7 +542,7 @@ Another piece of very good news is about Thanatos, the Death match Assistant. An
       <image url="screens/stendhal/choke69.png"/>
     </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 <p>The threats of Blordrough's dark legion forces cooperation between citizens. Believe it or not, scientists and magicians set aside their beliefs and differences. 
 They combine efforts to make an awesome piece of equipment that can be used to <i>your</i> advantage. Hmmm, or perhaps they are just doing it for the love of Ida. It is a mission for which you will need to ask for help from many types of people, and you will have plenty you need to collect on the way.
 
@@ -560,7 +560,7 @@ They combine efforts to make an awesome piece of equipment that can be used to <
       <image url="screens/stendhal/hideandseek.png"/>
     </images>
     <content>
-      <![CDATA[Grannie played a game of hide and seek with the players tonight. She shouted clues and waited hidden to see who would turn up. Those who solved the clues were rewarded with chocolate, pizza, licorice and more treats! 
+      <![CDATA[<p>Grannie played a game of hide and seek with the players tonight. She shouted clues and waited hidden to see who would turn up. Those who solved the clues were rewarded with chocolate, pizza, licorice and more treats! 
 <p>Congratulations to ladymacbeth for solving every clue and going to the correct places. Thanks to all who took part!
 
 <p>Here are the clues for you to try at home:
@@ -586,7 +586,7 @@ They combine efforts to make an awesome piece of equipment that can be used to <
       <image url="screens/stendhal/house681.png"/>
     </images>
     <content>
-      <![CDATA[There's always work to do in Faiumoni. Recently we've been fixing leaks, patching up holes and oiling rusty mechanisms. With all these problems solved, you'll notice less bugs scuttling around. Another change you'll notice is that the number in brackets on your character panel after the ATK and DEF levels now shows the skills needed to level up to the next level. It will count down as you fight instead of counting up.
+      <![CDATA[<p>There's always work to do in Faiumoni. Recently we've been fixing leaks, patching up holes and oiling rusty mechanisms. With all these problems solved, you'll notice less bugs scuttling around. Another change you'll notice is that the number in brackets on your character panel after the ATK and DEF levels now shows the skills needed to level up to the next level. It will count down as you fight instead of counting up.
 
 <p>Linda from Fado Hotel has been on a training course. She now sends couples together to their honeymoon, first checking they are 'just married', of course. She explains about the invitation scroll a bit better now, and is so clever she doesn't even let you go if you don't have space in your bag for the scroll!
 
@@ -605,7 +605,7 @@ They combine efforts to make an awesome piece of equipment that can be used to <
       <image url="screens/stendhal/liljohnnnny68.png"/>
       </images>
     <content>
-      <![CDATA[Gossip has been spreading about the precious nuggets of mithril found deep in ados mountains. Some say there is a man who can cast them into mithril bars, which are yet more precious. Some even say that a shield can be forged out of this amazing metal. It's up to you to discover if there is any truth in these rumours.
+      <![CDATA[<p>Gossip has been spreading about the precious nuggets of mithril found deep in ados mountains. Some say there is a man who can cast them into mithril bars, which are yet more precious. Some even say that a shield can be forged out of this amazing metal. It's up to you to discover if there is any truth in these rumours.
 <p>
 The chatterboxes of Faiumoni have had plenty more to talk about, from the controversial new ados barman, to the new attractions on Athor, and yet more fantastical rumours, of huge trees in female shapes that roam the earth ... For those with less mouth, more action, seek out the assassins' tower and pit your strengths against the best of the villains. Beware of the dragons!
 <p>
@@ -622,7 +622,7 @@ Have you money to spend? The traders of you will be delighted to hear of the mea
       <image url="screens/stendhal/heart67.png"/>
     </images>
     <content>
-      <![CDATA[Mr and Mrs Yeti have a sweet little ice cave below Semos Mountain. Be like Mr Yeti, keep your loved one sweet, with a red rose from Fleur in Kirdneh. While you're there, why not visit the museum, drink in the inn, go to the bank or even buy a house!
+      <![CDATA[<p>Mr and Mrs Yeti have a sweet little ice cave below Semos Mountain. Be like Mr Yeti, keep your loved one sweet, with a red rose from Fleur in Kirdneh. While you're there, why not visit the museum, drink in the inn, go to the bank or even buy a house!
 <p>
 Perhaps your loved one likes cute cuddly animals? Then take a stroll around the farm east of Semos. It's full of cute piglets, goats, cows and little tiny mice. 
 <p>
@@ -640,7 +640,7 @@ Enough of the blood and guts and back to a love story. Princess Esclara on Amazo
       <image url="screens/stendhal/map66.png"/>
     </images>
     <content>
-      <![CDATA[Three months ago a major new version of our engine Marauroa was released. With it came potential for new, exciting features for Stendhal. In this release we are testing the possibilities.
+      <![CDATA[<p>Three months ago a major new version of our engine Marauroa was released. With it came potential for new, exciting features for Stendhal. In this release we are testing the possibilities.
 <p>New kinds of data storage are possible, using a zone for storage and not just the player. Examples now in game are signs which can be rented in Semos City. Also that admin can jail players who are offline, and they can be freed even if the server is restarted inbetween. Finally there is now a way to view an image from the game client, and the first image in game is a map of Semos, which Monogenes can show any player needing help with directions.
 ]]>
       </content>
@@ -653,7 +653,7 @@ Enough of the blood and guts and back to a love story. Princess Esclara on Amazo
       <image url="screens/stendhal/dead_lich.png"/>
     </images>
     <content>
-      <![CDATA[Semos is decorated for Christmas! Santa feels right at home when he drops in, on his travels around the island. Find him to get your Christmas gift. With such lovely rewards you shouldn't need our latest new feature, which is called 'grumpy' because it allows you to ignore messages from anyone but your buddies. Do /help to find out more.
+      <![CDATA[<p>Semos is decorated for Christmas! Santa feels right at home when he drops in, on his travels around the island. Find him to get your Christmas gift. With such lovely rewards you shouldn't need our latest new feature, which is called 'grumpy' because it allows you to ignore messages from anyone but your buddies. Do /help to find out more.
 <p>
 The extra cold winter has brought out the ice and air elementals, and they've taught the fire, water and earth elementals to toughen up as they have always been a little weak. How about you, do you wish to learn new secrets? Perhaps the secret of how to get past the lich and his lair? You will need a new skill for that, and the cunning to discover it yourself.
 <p>
@@ -671,7 +671,7 @@ Merry Christmas!
       <image url="screens/stendhal/dragon64.png"/>
     </images>
     <content>
-      <![CDATA[Do you yearn for a faithful companion, a little beast who can stand up for himself? And just needs the occasional bit of meat to keep him happy? Then get your very own baby dragon and watch him grow wings. Of course, you'll need to find an egg from someone first... perhaps someone who lives or works amongst magicians?
+      <![CDATA[<p>Do you yearn for a faithful companion, a little beast who can stand up for himself? And just needs the occasional bit of meat to keep him happy? Then get your very own baby dragon and watch him grow wings. Of course, you'll need to find an egg from someone first... perhaps someone who lives or works amongst magicians?
 <p>
 Many houses have now been redecorated in Ados, ready to sell. Just make sure you're on good terms with the Ados residents, then talk to the estate agent in the Townhall. For those who own houses in Kalavan, and those who don't, will be able to enjoy the beautiful new city gardens. Perhaps you'll even make a new friend there.]]>
       </content>
@@ -686,7 +686,7 @@ Many houses have now been redecorated in Ados, ready to sell. Just make sure you
       <image url="screens/stendhal/amazon63.png"/>
     </images>
     <content>
-      <![CDATA[There's something 'huge' been happening in the world ... huge Fado
+      <![CDATA[<p>There's something 'huge' been happening in the world ... huge Fado
 great caves were discovered, full of cave trolls, madarams, and dragons. Huge
 creatures like dragons seem even bigger now that you can walk behind them.
 But nothing is so huge as the Imperial Army, with the huge Kalavan Castle and the
@@ -720,7 +720,7 @@ you will have fought as much as him ...]]>
       <image url="screens/stendhal/20070813_fairies.png"/> 
     </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 Prison breakout! Duergars swarmed the prison below the dwarven kingdom of Kanmararn. Will you join the dwarves or leave them to their fate?
 
 <p>Explorers coming from the west are talking about new places they have found. They say that if you get past the Devil Queen, you will find yourself in a place called Kikareukin which is floating in the sky! But be careful as Kikareukin
@@ -735,7 +735,7 @@ is not just a walk in the clouds...
     <title>Server up</title>
     <date>28 Jul 2007 20:32:32</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 The Server is now back up and running again.<p>
 We are still recovering functionality of postman, and of admin scripts. Thanks for your continuing patience and 
 support.]]>
@@ -746,7 +746,7 @@ support.]]>
     <title>Server Problems</title>
     <date>26 Jul 2007 23:45:02</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 We're currently experiencing some hardware problems. The server is temporarily down.
 <p>
 We are sorry for the inconvenience. We are working on the problem.]]>
@@ -757,7 +757,7 @@ We are sorry for the inconvenience. We are working on the problem.]]>
     <title>Is your client is slow AND you use Linux/X11?</title>
     <date>29 Jun 2007 23:32:02</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 You can try this for a quick fix.<p>
 Download stendhal client and start it with the following command line:
 <pre>java -Dsun.java2d.pmoffscreen=false -Xmx200m -jar stendhal-XX.jar</pre>
@@ -781,7 +781,7 @@ We are working on a solution and will inform you when the issue is solved and th
     </images>
 
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 The houses in Kobold City (known to the Kobolds as Wofol) have opened their doors. Meet Wrvil the weapons trader, and a mountain dwarf who needs errands running. You had better hope noone asks you for anything which requires going to the swamps outside Ados - the creatures there have mutated into things much nastier. The resident ghost over in Ados haunted house is just the opposite - very friendly and she wants to know about other spirits like her. Just make sure you don't get caught in giant webs in the basement ... <p>
 Elsewhere in Ados, the barracks buy some of the very best equipment around, and pay good prices. There must be a general shortage of armor, because the Quartermaster of Mithrilbourgh army also requires boots and helmets. Or if you find mainly cloaks in your travels, don't waste them, take them to a seamstress who uses them to make sails for ships. <p>
 Talking of ships, if you're on the Athor ferry, remember to fish for mackerel. You need that to make tasty fish pies! Find out the other ingredients from Linzo in Fado. And if you're a fan of fishing, why not try wishing? Look for wells with a sparkle to them, and make a wish. Good luck!]]>
@@ -793,7 +793,7 @@ Talking of ships, if you're on the Athor ferry, remember to fish for mackerel. Y
     <title>Dwarves revolt</title>
     <date>Mon 04 Jun 2007 11:53:11</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
       We have had another raid this weekend, this time dwarves raised their arms on the coast of Or'ril. Even poor Lich was scared.<p>
       We have recorded all the event so you can see it and know what you miss :).<br>
       <br>
@@ -812,7 +812,7 @@ Talking of ships, if you're on the Athor ferry, remember to fish for mackerel. Y
     <title>Balrog 0wn3d!</title>
     <date>Tue 29 May 2007 17:25:06</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
       Between many they were able to defeat our Balrog <small>( a weak version )</small>.
       Some people say there is one player that can defeat Balrog solo...<br/>
       <div align="center"><img src="/images/articles/balrog_poster.jpg" alt="Balrog defeated"/></div>
@@ -831,7 +831,7 @@ Talking of ships, if you're on the Athor ferry, remember to fish for mackerel. Y
       <image url="images/articles/20070527_raid_2.jpg"/>
     </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 Today, it has been a long day.
 <p>
 Ados, Semos and Nalwor have been under attack, but our brave warriors have saved them again.
@@ -858,7 +858,7 @@ You can be our next hero! :)]]>
     </images>
 
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 Semos mines have been excavated deeper, producing new rocks and stones which were used to rebuild many tired looking buildings. All the citizens think it looks much better and even redecorated indoors as a result. However, digging the mines has opened up new passages and caverns ... they are no longer just the home of cute and cuddly kobolds, as here dwell the Chaos warriors! Also swarming the mines is a whole outpost of the Mithrilborough army, not to mention the mountain dwarves and a much, much, much greater beast. The mountain dwarves are famed blacksmiths - so all the creatures and monsters in Fauimoni traded in the things they fight with - clubs, armor and shields - for better versions. You may find that a monster drops something better than you expected - but he will not want to drop it often.<p>
 The bridge to Fado is open! Discover the delights of the city known across the land as the home of celebrations - of good food and marriage. Find a pretty maiden with a quest for you, and learn about karma from a wizardess. Over in Nalwor, it is less peaceful. The dark elves are still making trouble, and the mayor needs your help. Do what he asks and a special protective prize will be yours. You can fear less from death - but remember, there are now many more who wish to take life from you.]]>
 	</content>
@@ -868,7 +868,7 @@ The bridge to Fado is open! Discover the delights of the city known across the l
     <title>Developer's meeting log</title>
     <date>Sun 22 April 2007 12:28:03</date>
     <content>
-      <![CDATA[The log of our online meeting is available at <a href="http://arianne.sourceforge.net/docs/200704_meeting.txt">http://arianne.sourceforge.net/docs/200704_meeting.txt</a>.<br>
+      <![CDATA[<p>The log of our online meeting is available at <a href="http://arianne.sourceforge.net/docs/200704_meeting.txt">http://arianne.sourceforge.net/docs/200704_meeting.txt</a>.<br>
       You can check at <a href="http://stendhalgame.org/wiki/ArianneMeeting200704">Wiki</a> decisions taken and matters that are still to be decided.]]>
       </content>
   </item>
@@ -877,7 +877,7 @@ The bridge to Fado is open! Discover the delights of the city known across the l
     <title>Stendhal Server Connection Problem (FIXED)</title>
     <date>Tue, 19 April 2007 09:21:23</date>
     <content>
-      <![CDATA[ Dear Stendhal gamers,<br>our public server is suffering from internet connection problems today and so is down. However, we expect the issues to 
+      <![CDATA[<p> Dear Stendhal gamers,<br>our public server is suffering from internet connection problems today and so is down. However, we expect the issues to 
       be resolved within the next 12 to 24 hours so keep checking back here to keep updated!<p><b>NOTE: As 20:12 GMT+1 the problem has been fixed. Thanks you for your patience</b>.
       ]]>
       </content>
@@ -893,7 +893,7 @@ The bridge to Fado is open! Discover the delights of the city known across the l
     </images>
 
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 Ados has expanded! The city dwellers are getting desperate for supplies, so the mayor begs your help. As you return, beware of getting drawn into the great caves under Ados Rock. The brave who venture there talk of giants, red dragons and black death. You'll need to face the giants if you want to earn the immortal sword, and anyone who can defeat the black death may loot some rare shadow armament. If the ados caves don't scare you enough, try the drow tunnels. Are the dark elves planning an attack on Nalwor?<p>
 If you want to get away from it all, take a break on Athor Island. It's got it all: sun, sea, sand, oh and cannibals, crocodiles and minotaurs ... Both hard workers and holiday makers can help out Leander. He needs pizza delivered across Faiumoni. Get it there on time and you'll get a tidy tip. Perhaps you'll choose to store your cash in Nalwor bank - once you've earned the key, that is. Are you fed up of all those keys jangling in your bag? Then get your keyring fixed, a blacksmith should be able to help.<p>
 Thanks to some dedicated cleaning, the waters of Faiumoni are now fresh and full of life. Fish have come back to the surface, and if you look carefully you may see glints of gold. Even the air has had a spring clean, so that sounds travel to your ear fresher, and clearer. Enjoy! And fight bravely ... 
@@ -906,7 +906,7 @@ Thanks to some dedicated cleaning, the waters of Faiumoni are now fresh and full
     <title>Stendhal 0.58.1: Abracadabra fixed</title>
     <date>Mon, 09 April 2007 10:56:47</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 There was great joy recently in Semos Town Square when Carmen got a bit confused and started selling large amounts of potions for negative amounts of money. All sellers have been given new instructions and bigger abacuses to calculate on. 
 <p>
 Any adventurers who profited from the confusion have returned their extra items, as they are all honest players. (No players were harmed in the enforcement of this rule...)
@@ -925,7 +925,7 @@ High level players have had a boost recently. With the level cap of 99 removed, 
     </images>
 
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 <font color=red><b>NOTE:</b> We are having problems lately with DNS of our game server, so if it doesn't work for you, please try <b><a href="http://mblanch.homeip.net/ip.txt">IP here</a></b></font><p>
 The elves are back to their homes and businesses in Nalwor City, and they're pretty mad that humans have been visiting! Tread carefully next time you make a trip. Maybe you'll be tempted to travel far, now that walking long distance is enabled by double clicking your minimap. Perhaps you'll visit the Rat City? A careless ratman has left a door open...<p>
 For those who just want a quiet life, they'll find that ctrl+r clears all those annoying chat bubbles. That's not recommended in the middle of a trade on the new trading table in Semos Town Hall. You want to have your wits about you for bargaining the best prices. While you're in the Town Hall - go chat to the Mayor, as he now tells you exactly how long to wait till your next daily monster quest. He might ask you to kill some of the troublesome bandits on the road from Semos to Ados?<p>
@@ -941,7 +941,7 @@ More than trouble lurks beneath the graveyard in Semos Plains North ... vampires
       <image url="images/articles/THM_quizgame_20070304_1.png"/>
     </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 The adventurers met for a pub quiz tonight in Semos Tavern. 16 people played, from level 10 up to level 91, led by quizmaster superkym. vesper is the brain box of the evening, he certainly had the fastest fingers, and Cutler deserves an honourable mention. Someone1234 impressed us by getting the final question right. We celebrated with a group photo and beers all round!
 <p>Here are the questions for you to try at home:
 <br><small>
@@ -971,7 +971,7 @@ The adventurers met for a pub quiz tonight in Semos Tavern. 16 people played, fr
       <image url="screens/stendhal/THM_20070130_stendhal.jpg"/>
     </images>
     <content>
-      <![CDATA[The Mayor of Semos made a tour of Faumoni recently to discuss administrative issues. He has deemed that any rewards bestowed upon an adventurer should be used only by he who earned them. In the Mayor's tour he noticed some irregularities in the terrain: gardeners and architects have been employed to fix these. He also taught better use of language to many of his citizens.<p>
+      <![CDATA[<p>The Mayor of Semos made a tour of Faumoni recently to discuss administrative issues. He has deemed that any rewards bestowed upon an adventurer should be used only by he who earned them. In the Mayor's tour he noticed some irregularities in the terrain: gardeners and architects have been employed to fix these. He also taught better use of language to many of his citizens.<p>
 Thanatos got approval for some changes to the deathmatch. He thinks it should only reward the player who starts it. He complained of cowards who disappear mid match, without the proper procedure of begging 'bail' from him. These might experience problems in future. Frequent visitors to the arena may have noticed the improved intelligence of black dragons and been relieved they don't fight them themselves. Well, the dragons have taught their secrets to every creature on the island, even the smallest and slowest, so now everything is a lot smarter.<p>
 Mayor Sakhs' visit didn't cover every spot on the island. He'd heard reports of a heathen outdoor temple on the mountain pass between Orril and Semos, but he claims religion is not his business. Perhaps he was afraid of powerful demons there? He also didn't venture past the 'Keep Out' sign in Ados after hearing strange wails and bangs inside. The children in Ados park also keep away from that house, although they did complain of boredom. Maybe they'd like something to play with ... Someone else who is keen for new 'toys' is Balduin. He's been told about new kinds of monster and he wants to add their weapons to his collection.  ]]>
     </content>
@@ -983,7 +983,7 @@ Mayor Sakhs' visit didn't cover every spot on the island. He'd heard reports of 
     <title>Stendhal 0.56: Merry Christmas!</title>
     <date>Thu, 19 December 2006 17:38:12</date>
     <content>
-      <![CDATA[It is one year since the first adventurers arrived on the Island of Faiumoni and explored the town of Semos, Or'ril Castle and the elvish Nalwor Forest. Now, the road to Ados City is open!<p>
+      <![CDATA[<p>It is one year since the first adventurers arrived on the Island of Faiumoni and explored the town of Semos, Or'ril Castle and the elvish Nalwor Forest. Now, the road to Ados City is open!<p>
 Everyone is invited to come meet the population of Ados. With the knowledge from these new people, Zynn Iwuhos the librarian has been hard at work. He's made detailed descriptions of all weapons and armor listed in his library, and a roll of honor which mentions all important people on Faiumoni.<p>
 Ados City has bakers who make pies, to sustain heroes in battle. These will be needed, as an experiment of Haizen's has gone wrong and dragons seem much more cunning than they've ever been! At the deathmatch arena in Ados, there is no place to hide .... ]]>
     </content>
@@ -995,7 +995,7 @@ Ados City has bakers who make pies, to sustain heroes in battle. These will be n
     <title>Stendhal 0.55: Halloween night!</title>
     <date>Tue, 31 October 2006 19:58:47</date>
     <content>
-      <![CDATA[The deserted Semos Mine Town is remembered regularly with a big celebration: 
+      <![CDATA[<p>The deserted Semos Mine Town is remembered regularly with a big celebration: 
 the Semos Mine Town Revival Weeks! Come and join in, get a costume and play 
 puzzles! Don't forget that kobolds and slime still lurk in the mines, so 
 don't have too much fun...<p/>
@@ -1020,7 +1020,7 @@ complete client on every new version)
         <image url="screens/stendhal/THM_20061001_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[The latest version of our game is ready! This version introduces the following new features:
+      <![CDATA[<p>The latest version of our game is ready! This version introduces the following new features:
 <br>- added dice gambling in Semos Tavern with golden trousers as the jackpot
 <br>- fixed lag because of broken key handling on X11 (Linux)
 <br>- display other players on minimap
@@ -1039,28 +1039,28 @@ complete client on every new version)
         <image url="screens/stendhal/THM_20060903_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[The latest version of our game is ready! This version introduces the following new features:<br>- added regrowing grain fields which can be harvested<br>- added a windmill and an NPC who mills flour from grain<br>- added a bakery and an NPC who bakes bread from flour<br>- gave archer elf and archer kobold something to shoot<br>- made iron casting take time<br><br>Enjoy!]]>
+      <![CDATA[<p>The latest version of our game is ready! This version introduces the following new features:<br>- added regrowing grain fields which can be harvested<br>- added a windmill and an NPC who mills flour from grain<br>- added a bakery and an NPC who bakes bread from flour<br>- gave archer elf and archer kobold something to shoot<br>- made iron casting take time<br><br>Enjoy!]]>
     </content>
   </item> 
   <item>
     <title>Marauroa 1.32.1</title>
     <date>Mon, 26 August 2006 19:10:02</date>
     <content>
-      <![CDATA[A small update to Marauroa (the server) which fixes a problem with socket.write() blocking for several minutes.]]>
+      <![CDATA[<p>A small update to Marauroa (the server) which fixes a problem with socket.write() blocking for several minutes.]]>
     </content>
   </item> 
   <item>
     <title>Stendhal 0.52 and Marauroa 1.32</title>
     <date>Mon, 14 August 2006 17:44:23</date>
     <content>
-      <![CDATA[Thanks to all the hard work of the Arianne team (go to server: irc.freenode.net channel : arianne to meet some of them) there is a new version of both the client and server.These versions fix a large number of issues, improve performance, introduce some new maps, a new quest and even some new features. A manual is found at http://stendhalgame.org/wiki/StendhalManual. ]]>
+      <![CDATA[<p>Thanks to all the hard work of the Arianne team (go to server: irc.freenode.net channel : arianne to meet some of them) there is a new version of both the client and server.These versions fix a large number of issues, improve performance, introduce some new maps, a new quest and even some new features. A manual is found at http://stendhalgame.org/wiki/StendhalManual. ]]>
     </content>
   </item>    
   <item>
     <title>Stendhal 0.51: Deathmatch happiness</title>
     <date>Fri, 21 June 2006 20:01:51</date>
     <content>
-      <![CDATA[This release close several bugs that have arise after 0.50 release. Mainly, we speeded up client start time and connect will take now just between one and three seconds. Also we fixed strange cases where avatars keep on game after logout and a worse bug that lead to personal chests robbery.<br>
+      <![CDATA[<p>This release close several bugs that have arise after 0.50 release. Mainly, we speeded up client start time and connect will take now just between one and three seconds. Also we fixed strange cases where avatars keep on game after logout and a worse bug that lead to personal chests robbery.<br>
 On the good side we have also closed a bug that allowed item duplication and improved the deathmatch for not to be so easy.<br>Also we added a new quest called Wood on the forest.<p>
 Hope you enjoy it. Visit us at irc.freenode.net#arianne for a chat.
 ]]>
@@ -1070,7 +1070,7 @@ Hope you enjoy it. Visit us at irc.freenode.net#arianne for a chat.
     <title>Server returns to stendhal.ath.cx</title>
     <date>Sun, 18 Jun 2006 23:59:12</date>
     <content>
-      <![CDATA[We have been informed that Murpe is not able to host our server anymore so we return it to stendhal.ath.cx.<br>
+      <![CDATA[<p>We have been informed that Murpe is not able to host our server anymore so we return it to stendhal.ath.cx.<br>
       Keep in mind that the server may go down in seven days as I go on holidays.]]>
       </content>
   </item>
@@ -1078,7 +1078,7 @@ Hope you enjoy it. Visit us at irc.freenode.net#arianne for a chat.
     <title>Stendhal 0.50: major release since December</title>
     <date>Fri, 16 June 2006 21:02:34</date>
     <content>
-      <![CDATA[Two months without a release! OMG! My excuses for the delay <i>;-)</i>. But we are here back again and with a very special release for all you: 0.50.<br>
+      <![CDATA[<p>Two months without a release! OMG! My excuses for the delay <i>;-)</i>. But we are here back again and with a very special release for all you: 0.50.<br>
 This release is very important because we consolidate all the work of the previous versions. We have finally fixed the MacOS display bug <i>( welcome Mac players! )</i>, added magic scrolls for returning to Semos, added several new interesting quests and added Groovy scripts for some quests <i>( very interesting possibilities here )</i>.<br>
 Also we have fixed many bugs that you complained about and added some new areas on the map.<p>
 We still need your <b>help to add content to world as items, creatures, quests, maps, bugs, suggestions or simply as a hardcore player</b>. Please write <a href="mailto:arianne-general@lists.sf.net">us</a> if you are interested in helping.]]>
@@ -1088,7 +1088,7 @@ We still need your <b>help to add content to world as items, creatures, quests, 
     <title>Server down for one week</title>
     <date>Wed, 24 May 2006 12:44:17</date>
     <content>
-      <![CDATA[I get marrried in two days so I will turn off my computer, so from May, 24 to May, 29 the server will be down, and it may go down again until June, 12.<br>
+      <![CDATA[<p>I get marrried in two days so I will turn off my computer, so from May, 24 to May, 29 the server will be down, and it may go down again until June, 12.<br>
 We do need someone that can host the server 24/7 during summer because it is prone that I won't be able to handle it.<p>
 All it is needed for server hosting is: 
 <br><b>-</b> Java 1.5
@@ -1105,7 +1105,7 @@ Anyone willing to help please email me to arianne_rpg _at_ users _dot_ sourcefor
     <title>Stendhal 0.48: Buddies</title>
     <date>Tue, 18 April 2006 14:13:00</date>
     <content>
-      <![CDATA[This release should have happened two weeks above, but Sourceforge CVS failure and holidays took it out of schedule. We have added a buddy system so you can keep in touch with your friends, blood pools as a result of fights, player age :), new items and a new area near Ados called the swamp.<br>
+      <![CDATA[<p>This release should have happened two weeks above, but Sourceforge CVS failure and holidays took it out of schedule. We have added a buddy system so you can keep in touch with your friends, blood pools as a result of fights, player age :), new items and a new area near Ados called the swamp.<br>
 We also removed some offending GFX, hide admin commands, fixed sheeps and simplified Xin Blanca items list.<p>
 Next version is prone to take a few weeks of time because I really want to work now on GUI as most issues now are fixed and working.
 ]]>
@@ -1118,7 +1118,7 @@ Next version is prone to take a few weeks of time because I really want to work 
         <image url="screens/stendhal/THM_20060324_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[This release fix LOTS of bugs that we have recieve from and add some new interesting features like doors and keys, add two new big game areas: Wofol, the kobold's city that is suitable for team play of players around level 10-20 and N'mon, the lich fortress under the Orril castle, that is only for the most brave players.<p>
+      <![CDATA[<p>This release fix LOTS of bugs that we have recieve from and add some new interesting features like doors and keys, add two new big game areas: Wofol, the kobold's city that is suitable for team play of players around level 10-20 and N'mon, the lich fortress under the Orril castle, that is only for the most brave players.<p>
 Another feature that has been requested and has been added is a storage to safely place items: you can have a look to it at bank.<p>
 After this version we will work now on fixing minor details and improving GUI, so that we can finally introduce a new RP system and reach 0.50.<br>
 We still need your <b>help to add content to world as items, creatures, quests, maps, bugs, suggestions or simply as a hardcore player</b>. Please write <a href="mailto:arianne-general@lists.sf.net">us</a> if you are interested in helping.<p>
@@ -1130,7 +1130,7 @@ We still need your <b>help to add content to world as items, creatures, quests, 
     <title>Vote Arianne for Sourceforge Community Choice Awards</title>
     <date></date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
          <a href="http://sourceforge.net/awards/cca/"><span style="float: left; padding: 0 .5em 1.5em 0" ><img src="https://images-ssl.sourceforge.net/images/sfx/cca/sf_cca_2006_icon.png" alt="CCA - Nominee" width="32" height="32" /></span><strong> 2006 Community Choice Awards</strong><br />Vote for this project in the Games category!</a>
       ]]>
       </content>
@@ -1142,7 +1142,7 @@ We still need your <b>help to add content to world as items, creatures, quests, 
         <image url="screens/stendhal/THM_20060310_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[Again,  on our weekly releases approach we present Stendhal 0.46. This version mostly fixs bugs and add a new interesting quest. We have fixed the sheep bug that made sheep to be transparent. All animations are now fixed, so if you see a strange area please report it as a bug.<p>
+      <![CDATA[<p>Again,  on our weekly releases approach we present Stendhal 0.46. This version mostly fixs bugs and add a new interesting quest. We have fixed the sheep bug that made sheep to be transparent. All animations are now fixed, so if you see a strange area please report it as a bug.<p>
 I have also rebalanced again creatures, please complain if you find them to hard. For top level players we have added Dragons and liches so they can party and enjoy :).<p>
 There are some new items to fight against these formidable enemies: plate armors, golden armors, hammers, scythe, fire sword, ...<p>
 Also per request Quests has been made simpler, so saying hi once you have started the quest trigger it.<p>
@@ -1161,7 +1161,7 @@ We still need your help to add content to world as items, creatures, quests, map
         <image url="screens/stendhal/THM_20060304_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[Welcome to the biggest better ever release of Arianne.<p>
+      <![CDATA[<p>Welcome to the biggest better ever release of Arianne.<p>
 This release of stendhal features the biggest map we have ever had on the seven years of development. It has around 70 zones, many of them still to be populated. We also added around 50 new monsters so the monsters now range from level 0 to level 100.<p>
 We added ranged combat with bow and arrows, and monsters can also use it.<br>
 Stendhal now has a Quest and Scripts system <i>(done in java)</i> to create interesting Quests and make important game effects using the scripts. Be sure to give a try to Tad and Ceryl about their quests. We need your help to code more and more quests, so if you write Java contact <a href="mailto:arianne-devel@lists.sf.net">us</a>.<p>
@@ -1181,7 +1181,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
     <title>Stendhal 0.44 released</title>
     <date>Sun, 29 Jan 2006 20:29:28</date>
     <content>
-      <![CDATA[Again, we are releasing our weekly bug fixes release. This release adds:
+      <![CDATA[<p>Again, we are releasing our weekly bug fixes release. This release adds:
 <br><b>.</b> Fixed Drink and food queue so you can consume potions even if full.
 <br><b>.</b> Speed up client
 <br><b>.</b> Changed sync event management so game is less laggy.
@@ -1207,7 +1207,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
     <title>Stendhal 0.43 released</title>
     <date>Sun, 22 Jan 2006 23:01:15</date>
     <content>
-      <![CDATA[Just one week after the 0.42 release we have done another bug fixes release.<br>To make the release interesting again we have added four new zones and eight new monsters that will make happy to our powergamers.<p>Keep sharing with us your opinions.]]>
+      <![CDATA[<p>Just one week after the 0.42 release we have done another bug fixes release.<br>To make the release interesting again we have added four new zones and eight new monsters that will make happy to our powergamers.<p>Keep sharing with us your opinions.]]>
     </content>
   </item>  
   <item>
@@ -1217,7 +1217,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
         <image url="screens/stendhal/THM_20060115_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[Thanks to all of you for the bugs reports.<br>
+      <![CDATA[<p>Thanks to all of you for the bugs reports.<br>
         This release is the add some exciting features as different food pieces that heals at different rates, add potions to heal yourself fast on deep dungeons, venom creatures and poisons, add a new sound system. But this release is very important because of what it fixs: we have fixed the Timeout synchronization request that was due to ISP UDP packet size limits, we have also improved anticheaters features and dead is now something to take more serious.<p>
         The bad news is that we don't feature new zones on this release. We need help with map making to make more areas and improve existing ones, also if you have reached level 15 or above your gameplay experience won't be as good because almost nothing will give xp now. Please if it is the case, help up to create new creatures and new exciting areas. Join #arianne at irc.freenode.net to talk about this.<p>
         Have fun with this release and report bugs you may find. There is still a known bug at players inventory, so if you drag an item and drop on the same position the inventory will be incorrect and you won't be able to use it unless you change the zone or drop all the items on the floor and equip it again.]]>
@@ -1230,7 +1230,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
         <image url="screens/stendhal/THM_20051220_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[Ok, don't panic!<br>
+      <![CDATA[<p>Ok, don't panic!<br>
          This release of Stendhal is seriously the best one we have ever release. No hype really!. All of our beta testers have agree that the game is <i>even fun!</i>.<br>
          So join Stendhal, create an account <i>(you can do it now using the client itself)</i> and give it a try. Our beta process has take down several bugs, but surely there are tons of them waiting for you to find them.<p>
          This release adds many things: several new monsters, several new zones ( three times bigger map ), new RP system, new Items, better way of interacting with NPC, less bugs and a new GUI!.<p>
@@ -1242,7 +1242,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
     <title>Stendhal 0.40 BETA: join us in finding bugs before the release</title>
     <date>Wed, 18 Dec 2005 11:00:18</date>
     <content>
-      <![CDATA[It has been a long month, but finally thanks to the efforts of Anders, Steve and Matthias the 0.40 release is almost here!.<br>
+      <![CDATA[<p>It has been a long month, but finally thanks to the efforts of Anders, Steve and Matthias the 0.40 release is almost here!.<br>
          To avoid problems that we have had in the past, we are going to run a private ( but open ) BETA server of the game. Please join us,
          create an account and play the game at <a href="http://stendhal.game-server.cc/template_site/">BETA server</a> and in case you find a problem, please 
          report it at <a href="https://sourceforge.net/tracker/?func=browse&group_id=1111&atid=101111">https://sourceforge.net/tracker/?func=browse&group_id=1111&atid=101111</a>]]>
@@ -1252,7 +1252,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
     <title>Stendhal 0.39,1 released</title>
     <date>Wed, 26 Oct 2005 17:17:03</date>
     <content>
-      <![CDATA[Due to the huge amount ( thanks everybody! ) of bug reports recieved, we have decided to publish this bug fixed version.<p>
+      <![CDATA[<p>Due to the huge amount ( thanks everybody! ) of bug reports recieved, we have decided to publish this bug fixed version.<p>
          Next release is going to delay for at least two weeks because we are in process of changing several things on Stendhal.<br>
          Have a look at changes at: <a href="http://stendhalgame.org/wiki/StendhalRefactoring">new items, creatures and actions guide</a>]]>
     </content>
@@ -1264,7 +1264,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
         <image url="screens/stendhal/THM_20051023_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[As you can read on our previous news item, we have added money to game, so now in addition of gaining XP by killing monsterm you can inspect them to obtain too money. You can by now spend your money on the tavern weapon's seller.<p>
+      <![CDATA[<p>As you can read on our previous news item, we have added money to game, so now in addition of gaining XP by killing monsterm you can inspect them to obtain too money. You can by now spend your money on the tavern weapon's seller.<p>
          This release is pretty stable, but many of the features are hacked, so we are going to enter in a refactoring to increase code quality that will surely delay a new release for at least 2-3 weeks. But in case you find any problem or a bug please <a href="https://sourceforge.net/tracker/?func=add&group_id=1111&atid=101111">tell us</a>.<p>
          We have decide to skip the addition of the new zones and the addition of chests ( but on the city ) because we need this version to be released as soon as possible, so we can start the refactoring today. So in order to speed up the development we would need help completing the maps and adding items and chests.<p>
          Please help us create content, items, monsters, maps and quest for Stendhal. Have a tour around our <a href="http://stendhalgame.org/wiki/StendhalRefactoring">new items, creatures and actions guide</a>.<p>
@@ -1278,7 +1278,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
         <image url="images/articles/money_and_corpses.jpg"/>
       </images>
     <content>
-      <![CDATA[We have been idling for a few months, but in a few weeks we are doing again great improvements on the game and the gameplay. Matthias added a minimap so you can now orientate yourself on our
+      <![CDATA[<p>We have been idling for a few months, but in a few weeks we are doing again great improvements on the game and the gameplay. Matthias added a minimap so you can now orientate yourself on our
         dungeons and not get lost again. Also I completed the inventory stuff, so now you can use chests and move items between slots, chests and floor freely.<p>
         But the star feature of this upcoming release is the addition of corpses that contains items like shields, swords, armors and money. Yes! you read it correctly! Money. At last we have money in game to 
         buy new stuff, to buy sheep or simply to show off :P.<p>
@@ -1296,14 +1296,14 @@ Have a try to Stendhal! If you like it you will really love helping us to create
     <title>Marauroa 1.10 and Stendhal 0.32 released</title>
     <date>Sun, 25 Sep 2005 11:42:53</date>
     <content>
-      <![CDATA[After our summer holiday, we are back with a bug fixed releases of Marauroa and Stendhal. No estimation of next release but we do really hope to do again another big release per month.<p>We would love to get some feeback on any problem you may have. Inventory support is quite experimental though.]]>
+      <![CDATA[<p>After our summer holiday, we are back with a bug fixed releases of Marauroa and Stendhal. No estimation of next release but we do really hope to do again another big release per month.<p>We would love to get some feeback on any problem you may have. Inventory support is quite experimental though.]]>
     </content>
   </item>  
   <item>
     <title>Summer Sweet Summer!</title>
     <date>Sat, 17 Sep 2005 02:41:12</date>
     <content>
-      <![CDATA[Holidays are over as summer is right now. During this two months, Stendhal and Marauroa has shown little progress, although a really nice effort has been done to port our logging system to log4j and to create an API in order to reuse Stendhal code base for other games.<br>
+      <![CDATA[<p>Holidays are over as summer is right now. During this two months, Stendhal and Marauroa has shown little progress, although a really nice effort has been done to port our logging system to log4j and to create an API in order to reuse Stendhal code base for other games.<br>
         The first task is complete and the results are simply awesome. Moving to log4j should have been done a great time before.<br>
         Unfortunately our second task; create an API for Stendhal is not so advanced, anyway we are sure and proud that soon we will show some very interesting results.<p>
         Meanwhile I am considering to release a 0.35 version that will add a basic inventory support and fix the ton of bugs most of you have pointed: mainly our lag problem. This release should happen along the next week if everything keeps working as it is now.]]>
@@ -1313,7 +1313,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
     <title>Stendhal 0.31 release: bug fixes</title>
     <date>Fri, 08 Jul 2005 12:30:16</date>
     <content>
-      <![CDATA[This release is a bug fixes over 0.30. We have fixed a bug at statistics system, speed up combat, ease creature killing, no more drop item bug, move item in inventory, 
+      <![CDATA[<p>This release is a bug fixes over 0.30. We have fixed a bug at statistics system, speed up combat, ease creature killing, no more drop item bug, move item in inventory, 
 fixed bug at Weapon seller, fix render order, added Giant rat, added three new areas: valley and rat dungeon (two levels), fixed a problem with long sentences, 
 changed sprites to PNG, added Bag slot (1 item only) and modifiable server name at login text area.<br>
 Unfortunately some of these changes are server related and we are right now unable to reset stendhal server, so we will need to wait up to Jul, 20 for the real update.<br>
@@ -1330,7 +1330,7 @@ A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalM
         <image url="screens/stendhal/THM_20050703_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[Muahahaha! ok!, 0.30 is here! I know you have been waiting it. We have added finally the long awaited items system and you can wear them, by now only a club, a sword, a shield and a leather armor. We will add more on next releases.<br>
+      <![CDATA[<p>Muahahaha! ok!, 0.30 is here! I know you have been waiting it. We have added finally the long awaited items system and you can wear them, by now only a club, a sword, a shield and a leather armor. We will add more on next releases.<br>
       To get new items you need to buy them from Xin Blanca at the tavern.<p>This release unfortunately doesn't adds inventory support because we need a GUI framework to do it. I am actually working on it and hope to have it designed in one week so we can write a specification and start coding it.<p>
       This release also features a new RP system where weapons have effect in combat, so don't forget to wear them.<br> We will really love to read from any problem you may have with the game or any suggestion you may have.<p>
 A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>.]]>
@@ -1343,7 +1343,7 @@ A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalM
         <image url="screens/jmapacman/THM_20050702_jmapacman.jpg"/>
       </images>
     <content>
-      <![CDATA[Version 0.3 of JMaPacman has been released. Now you can eat Powerpills
+      <![CDATA[<p>Version 0.3 of JMaPacman has been released. Now you can eat Powerpills
 which give you the power to eat ghosts for a short time. Also there are
 fruits which give much more points than anything else. Some Bugs have
 been fixed and there are 2 new maps on the public server to play on.
@@ -1362,7 +1362,7 @@ href="http://jmapacman.mpc-donkey.de/">our Public Server</a>]]>
         <image url="screens/jmapacman/THM_20050623_jmapacman.jpg"/>
       </images>
     <content>
-      <![CDATA[Yes, it's Version 0.2 ;)<br> If you missed 0.1 : JMaPacman is a Java-Port of MaPacman which is a Multiplayer Pacman Game.<br>
+      <![CDATA[<p>Yes, it's Version 0.2 ;)<br> If you missed 0.1 : JMaPacman is a Java-Port of MaPacman which is a Multiplayer Pacman Game.<br>
 With 0.2 different Zones have been added. Now you can hide from the Ghosts by moving to another zone. Also there are superdots which give more points than normal ones.<p> Download JMaPacman <a href="http://prdownloads.sourceforge.net/arianne/jmapacman-0.02.zip?download">here</a>.<p>
 
 What's your Top Score ? Try it out at <a href="http://jmapacman.mpc-donkey.de">http://jmapacman.mpc-donkey.de</a> 
@@ -1377,7 +1377,7 @@ What's your Top Score ? Try it out at <a href="http://jmapacman.mpc-donkey.de">h
         <image url="screens/stendhal/THM_20050604_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[Hello Barrapunteros!. We have been <i>forced</i> to release a bug fixes version of Stendhal due the amount of players that are going to try it.<br> This release fixs the corpses problem and other majot problems like Creatures AI.<br>
+      <![CDATA[<p>Hello Barrapunteros!. We have been <i>forced</i> to release a bug fixes version of Stendhal due the amount of players that are going to try it.<br> This release fixs the corpses problem and other majot problems like Creatures AI.<br>
        Also this release adds a initial support for items: a shield ( that you can't wear ) and corpses that can be moved.<p>
 A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>.]]>
     </content>
@@ -1386,7 +1386,7 @@ A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalM
     <title>Stendhal Mapeditor 1.00 available</title>
     <date>Thu, 2 Jun 2005 16:01:52</date>
     <content>
-      <![CDATA[I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps">http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p/>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
+      <![CDATA[<p>I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps">http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p/>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
       </content>
   </item>
   <item>
@@ -1396,7 +1396,7 @@ A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalM
         <image url="screens/stendhal/THM_20050605_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[Yes! We are back!. This release adds the set outfit feature, so that you can personalize your character. On next releases we are going to change the graphics, so please wait for content submitions. Some of you have been complaining about wolves are easy, so we have added boars, trolls, cobras, orcs, kobolds, goblins and ogres. We have added also added a new dungeon, four times bigger than the actual one, where lives a NPC what will give you 2000 XP points for your full grow sheep.<p/>
+      <![CDATA[<p>Yes! We are back!. This release adds the set outfit feature, so that you can personalize your character. On next releases we are going to change the graphics, so please wait for content submitions. Some of you have been complaining about wolves are easy, so we have added boars, trolls, cobras, orcs, kobolds, goblins and ogres. We have added also added a new dungeon, four times bigger than the actual one, where lives a NPC what will give you 2000 XP points for your full grow sheep.<p/>
 This release also fix a nasty bug on linux that makes the gameplay awful, now it works perfect.<br>We need now players, dozens of players to test the server stability and limits. We know game <i>"works"</i> and we know it is fun, but we need to know how many players can we handle ( actually there is a soft limit of 64 ).<p/>
 A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>.<p/>
 <i>PS:</i> Don't forget to dress yourself. <br/>We are talking about replacing RP system with D20. We would love to listen to your opinion at Forums.]]>
@@ -1405,7 +1405,7 @@ A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalM
     <title>Stendhal Mapeditor 1.00 available</title>
     <date>Thu, 2 Jun 2005 16:01:52</date>
     <content>
-      <![CDATA[I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps">http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p/>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
+      <![CDATA[<p>I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps">http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p/>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
       </content>
   </item>
   <item>
@@ -1415,7 +1415,7 @@ A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalM
         <image url="images/articles/eventrelease.jpg"/>
       </images>
     <content>
-      <![CDATA[This release is a very important milestone in the development of Arianne goals: creating a flexible open source multiplayer games middleware.<p/>
+      <![CDATA[<p>This release is a very important milestone in the development of Arianne goals: creating a flexible open source multiplayer games middleware.<p/>
 We have managed to build a system that is able to run several types of games: turn based and adventures games with a awesome performance. Send state of the game to players with a minimum bandwidth usage, storing players on database with a easy to query SQL tables.
 The actual system is able to manage thousands of zones and so create an almost limitless world.<p/>
 Now ariannexp will be ported to this 1.00 technology and soon Gladiators and mapacman will be ported and online again.<p/>
@@ -1427,7 +1427,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Stendhal 0.13 release: Better RP than before</title>
     <date>Mon, 30 May 2005 17:56:01</date>
     <content>
-      <![CDATA[This release is another bug fixes over 0.11 release. But we have also some things you have been asking for:
+      <![CDATA[<p>This release is another bug fixes over 0.11 release. But we have also some things you have been asking for:
       <br><b>-</b> A game manual at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>      
       <br><b>-</b> A small GUI</a>      
       <br><b>-</b> Three new zones: forest, tavern and afterlive</a>      
@@ -1441,7 +1441,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Stendhal 0.12 bug fixes release</title>
     <date>Wed, 23 May 2005 16:10:01</date>
     <content>
-      <![CDATA[Thanks everyone for the extensive bug reports. I have done a release that fix most of your complains:
+      <![CDATA[<p>Thanks everyone for the extensive bug reports. I have done a release that fix most of your complains:
       <br><b>-</b> Fixed a severe bug that happens when a creature respawn over a player.
       <br><b>-</b> Disabled the attack yourself feature
       <br><b>-</b> Added reward for player killing
@@ -1462,7 +1462,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
         <image url="screens/stendhal/THM_20050520_3_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[Another great release of Stendhal!. Don't get it wrong! This release is playable and fun. We just need to make the world bigger and add new monsters and here your collaboration is a MUST. Help us to create new levels and add new monsters and quests.<p/>
+      <![CDATA[<p>Another great release of Stendhal!. Don't get it wrong! This release is playable and fun. We just need to make the world bigger and add new monsters and here your collaboration is a MUST. Help us to create new levels and add new monsters and quests.<p/>
         This release implements a better path finding, add more NPCs and a new level: dungeon.
         <br><b>-</b> Add Rat and Cave Rat entity
         <br><b>-</b> Added a balanced RP values
@@ -1485,7 +1485,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
         <image url="screens/stendhal/THM_20050512_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[This new release of Stendhal adds very important features like:
+      <![CDATA[<p>This new release of Stendhal adds very important features like:
         <br><b>-</b> Add wolf entity
         <br><b>-</b> Make real combat system
         <br><b>-</b> Creatures can die
@@ -1505,7 +1505,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
         <image url="screens/stendhal/THM_20050507_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[A new week, almost a new release :)<br>I have added combat to Stendhal and HP bars, and a basic in game GUI.<br>Release should happen soon, exactly at the same moment I assign <i>coherent</i> RP values to entities.<p/>
+      <![CDATA[<p>A new week, almost a new release :)<br>I have added combat to Stendhal and HP bars, and a basic in game GUI.<br>Release should happen soon, exactly at the same moment I assign <i>coherent</i> RP values to entities.<p/>
          Also the CVS code has been cleaned and refactored, so Client is now clearer than ever. If you plan to create a game using Arianne, Stendhal would be a great base for your client. :)<p/>
          On the near future <i>(1 month or so)</i> I will stabilize Stendhal development and start again all the documentation process that means:
         <br><b>-</b> Document all the code.
@@ -1519,7 +1519,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Marauroa 0.95 and Stendhal 0.03 bug fixes release</title>
     <date>Thu, 28 Apr 2005 16:33:54</date>
     <content>
-      <![CDATA[These are two small releases but very important in the development of Arianne.<p/>
+      <![CDATA[<p>These are two small releases but very important in the development of Arianne.<p/>
         On Marauroa we have fix a bug that has been there since 0.30 release and that was related to the way MySQL managed transactions, also we added a method to request synchronization from a unsynced client so you should expect now a better gameplay.<p/>
         On Stendhal we have added A*, fixed a bug with Sheep weight due to signed/unsigned, improved Sheep movement, added Patrol and  follow path action, fixed collision detection area, changed Game Chat dialog so that it opens with Ctrl+L, NPC counts sheeps sold and bought, client reconnect on out of sync, a single text line is visible now, now combat icon is centered on the bottom right corner and finally optional collision detection boxes.<p/>
         Out next steps are:
@@ -1539,7 +1539,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
         <image url="screens/stendhal/THM_20050417_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[This is the first release of Stendhal that has the tag playable (PLAYABLE).<br> You can walk, chat, attack, buy and sell sheeps, change zones, request help, etc...<p/>
+      <![CDATA[<p>This is the first release of Stendhal that has the tag playable (PLAYABLE).<br> You can walk, chat, attack, buy and sell sheeps, change zones, request help, etc...<p/>
          I am actually in need of someone with RP gaming experience that wants to help me to create a simple game system based on S6S and give correct values to entities values.<p/>
          There are three open tasks that are of vital importance for Stendhal:
          <br><b>-</b> Create a game manual at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>
@@ -1553,7 +1553,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Marauroa 0.94 bug fixes release</title>
     <date>Wed, 17 Apr 2005 13:21:01</date>
     <content>
-      <![CDATA[This release adds secure login feature as well as fixs a bug at JDBC Database class that didn't allowed a RPObject to be correctly stored.<p/> 
+      <![CDATA[<p>This release adds secure login feature as well as fixs a bug at JDBC Database class that didn't allowed a RPObject to be correctly stored.<p/> 
          You have a complete step by step guide at <a href="http://stendhalgame.org/wiki/HowToBuildMarauroa">http://stendhalgame.org/wiki/HowToBuildMarauroa</a>
          ]]>
     </content>
@@ -1562,7 +1562,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Marauroa 0.93 bug fixes release</title>
     <date>Wed, 8 Apr 2005 20:31:01</date>
     <content>
-      <![CDATA[A new emergency release of Marauroa that fix several important bugs, the main one is the 100% CPU usage due to multithread send feature.<p/> 
+      <![CDATA[<p>A new emergency release of Marauroa that fix several important bugs, the main one is the 100% CPU usage due to multithread send feature.<p/> 
          You have a complete step by step guide at <a href="http://stendhalgame.org/wiki/HowToBuildMarauroa">http://stendhalgame.org/wiki/HowToBuildMarauroa</a>
          ]]>
     </content>
@@ -1574,7 +1574,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
         <image url="screens/stendhal/THM_20050405_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[Our second release of Stendhal, and again it is not intended to be playable (<b>NO PLAYABLE</b>). You can walk, chat, collide, move from one zone to another, talk to NPC, attack other players and our dummy, but it lacks of the quality to consider it playable.<p/>
+      <![CDATA[<p>Our second release of Stendhal, and again it is not intended to be playable (<b>NO PLAYABLE</b>). You can walk, chat, collide, move from one zone to another, talk to NPC, attack other players and our dummy, but it lacks of the quality to consider it playable.<p/>
          This release also features a new map editor using <a href="http://tiled.rpgdx.net/index.html">Tiled</a> with a write only plugin to create Stendhal maps, on CVS you can access our actual maps and the tileset used to create them... help is appreciated to build bigger and better maps :) We also added a GUI to Stendhal that makes simpler to login to server, and there is a Java Webstart feature.<p/>
 	 We are working 110% on creating new GFX: samoa is creating a sheep and a wolf ( you can see it at Forums ).<br>
          Next steps are towards completing the RP system, and increasing the NPC interaction, and also fixing a strange bug that make game to work only sometimes ( most of them ).
@@ -1587,7 +1587,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Marauroa 0.92 released</title>
     <date>Wed, 3 Apr 2005 20:31:01</date>
     <content>
-      <![CDATA[This release changes some interfaces to suit in a better way the game development.<br>
+      <![CDATA[<p>This release changes some interfaces to suit in a better way the game development.<br>
          If you plan to use Marauroa, you should update to this release in order to get it working. Soon I will update the API guides to show these changes.<p/>
          You have a complete step by step guide at <a href="http://stendhalgame.org/wiki/HowToBuildMarauroa">http://stendhalgame.org/wiki/HowToBuildMarauroa</a>
          ]]>
@@ -1600,7 +1600,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
         <image url="images/articles/stendhal_gui.jpg"/>
       </images>
     <content>
-      <![CDATA[After a full weekend of work, I have added a GUI to Stendhal. It is a bit basic but useful enough to make the game playable.<p/>
+      <![CDATA[<p>After a full weekend of work, I have added a GUI to Stendhal. It is a bit basic but useful enough to make the game playable.<p/>
          Next step is about adding attack and heal actions and make multizone works in a more intuitive way.<br>The point is to add <i>*slowly*</i> new features to build a complete game as soon as possible. You can read the complete plan at our Wiki in <a href="http://stendhalgame.org/wiki/StendhalObjectives">StendhalObjectives</a><br>
          BTW I keep begging for help to close these <a href="http://stendhalgame.org/wiki/StendhalOpenTasks">tasks</a> :)<p/>
          The most important task to complete now it 100% related to GFX; we do need new GFX as explained in the Stendhal tasks.
@@ -1611,7 +1611,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Marauroa 0.91 released: critical bug fixes</title>
     <date>Wed, 3 Mar 2005 20:31:01</date>
     <content>
-      <![CDATA[This release of Marauroa closes a few bug fixes that make server work abnormally: a bug at RPServerManager, a bug at PlayerEntryContainer and a important bug at RPWorld.<br>
+      <![CDATA[<p>This release of Marauroa closes a few bug fixes that make server work abnormally: a bug at RPServerManager, a bug at PlayerEntryContainer and a important bug at RPWorld.<br>
          If you plan to use Marauroa, you should update to this release in order to get it working.<p/>
          You have a complete step by step guide at <a href="http://stendhalgame.org/wiki/HowToBuildMarauroa">http://stendhalgame.org/wiki/HowToBuildMarauroa</a>
          ]]>
@@ -1624,7 +1624,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
         <image url="screens/stendhal/THM_20050303_stendhal.jpg"/>
       </images>
     <content>
-      <![CDATA[This is the first relese of Stendhal. It is not intended to be playable (<b>NO PLAYABLE</b>), it is just a tech demo of where you can walk, collide and change of zone.<p/>
+      <![CDATA[<p>This is the first relese of Stendhal. It is not intended to be playable (<b>NO PLAYABLE</b>), it is just a tech demo of where you can walk, collide and change of zone.<p/>
          As you know we drive our development by the guideline:<i>release small, release often</i>. Now we will start the development of the GUI ( anyone wanna help? ) and the rest of actions to make it playable. In around 1 month the game could be really playable.<p/>
          On the meanwhile you would like to help us close some <a href="http://stendhalgame.org/wiki/StendhalOpenTasks">tasks</a> related to Stendhal or review with us the <a href="http://stendhalgame.org/wiki/StendhalDesign">design document</a>.<br>
          I can't really handle all by myself :)
@@ -1635,7 +1635,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Marauroa 0.90 released</title>
     <date>Wed, 19 Feb 2005 14:09:34</date>
     <content>
-      <![CDATA[After more than six months we have at last another release of Marauroa.<br>
+      <![CDATA[<p>After more than six months we have at last another release of Marauroa.<br>
          This release sucessfully implements multizone features into Marauroa and has been splitted in several different packages: client, common and server.<br>
          Also this release features the new content streaming system that is being used in Stendhal.<p/>
          This release is <font color=red>incompatible</font> with mapacman and gladiator. We are working to recover them as soon as possible.
@@ -1646,7 +1646,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Stendhal: Player can move and collide with world</title>
     <date>Mon, 16 Feb 2005 10:10:13</date>
     <content>
-      <![CDATA[As I said, development is showing some interesting results in a short period of time. The actual <i>client</i> allows the player to move and collide with objects that exists on world. Problem is that the client is a development work thing, and need to be refactored in order to be released, but I think that around 2 weeks could be something available.<p/>AS preview, just a video: <a href="http://stendhal.game-server.cc/Stendhal_0.00_Video.avi">Stendhal 0.00 video</a> (24") 266KB]]>
+      <![CDATA[<p>As I said, development is showing some interesting results in a short period of time. The actual <i>client</i> allows the player to move and collide with objects that exists on world. Problem is that the client is a development work thing, and need to be refactored in order to be released, but I think that around 2 weeks could be something available.<p/>AS preview, just a video: <a href="http://stendhal.game-server.cc/Stendhal_0.00_Video.avi">Stendhal 0.00 video</a> (24") 266KB]]>
     </content>
   </item>
   <item>
@@ -1656,28 +1656,28 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
         <image url="images/articles/THM_stendhal_003.jpg"/>
       </images>
     <content>
-      <![CDATA[Stendhal is our next game to test the new exciting features in Arianne: multizones and content transfer. <p/>The idea behind Stendhal is a small multiplayer action game very similar to Nintendo's Zelda.<br/> There is going to be no argument at all on it for a while, but it is a start to show that it works and works correctly.<p/>Once the development is stabilized we are going to need new GFX, music and some people to write something like a plot for the game, but that time is still a bit far. <p/> I will show more info when we have it working.]]>
+      <![CDATA[<p>Stendhal is our next game to test the new exciting features in Arianne: multizones and content transfer. <p/>The idea behind Stendhal is a small multiplayer action game very similar to Nintendo's Zelda.<br/> There is going to be no argument at all on it for a while, but it is a start to show that it works and works correctly.<p/>Once the development is stabilized we are going to need new GFX, music and some people to write something like a plot for the game, but that time is still a bit far. <p/> I will show more info when we have it working.]]>
     </content>
   </item>
   <item>
     <title>Big change coming in Marauroa</title>
     <date>Fri, 14 Jan 2005 14:27:16</date>
     <content>
-      <![CDATA[Again, a few months without news of the development. Again, sorry. Development keeps moving and marauroa advances at a slow but constant speed. <br/>Waldemar ported all the code to Java 5.0 and I finally completed the change to multizone code. We both have changed the package structure of marauroa so that now it is clearer how to port it to J2ME or another language, as the server, client and commons parts are now independient packages.<p/>On the client side, I will begin to write a new Java2D client for our new game, Stendhal, so I will not update ariannexp for a while.<br/> I will try also to post more news if I have spare time.]]>
+      <![CDATA[<p>Again, a few months without news of the development. Again, sorry. Development keeps moving and marauroa advances at a slow but constant speed. <br/>Waldemar ported all the code to Java 5.0 and I finally completed the change to multizone code. We both have changed the package structure of marauroa so that now it is clearer how to port it to J2ME or another language, as the server, client and commons parts are now independient packages.<p/>On the client side, I will begin to write a new Java2D client for our new game, Stendhal, so I will not update ariannexp for a while.<br/> I will try also to post more news if I have spare time.]]>
       </content>
   </item>
   <item>
     <title>I am still here</title>
     <date>Wed, 11 Nov 2004 17:23:42</date>
     <content>
-      <![CDATA[I am really sorry for being away so much time. During this 3 months development of Arianne has been idle. I am going to do my best to get the multizone feature working <i>(as it only needs testing and test cases to be written of them)</i>.<br>All the games have been taken down too because I have changed of computer and I prefer to move to the new Arianne. No timelines by now, but expect around january to see something interesting again. Sorry,<br>Miguel]]>
+      <![CDATA[<p>I am really sorry for being away so much time. During this 3 months development of Arianne has been idle. I am going to do my best to get the multizone feature working <i>(as it only needs testing and test cases to be written of them)</i>.<br>All the games have been taken down too because I have changed of computer and I prefer to move to the new Arianne. No timelines by now, but expect around january to see something interesting again. Sorry,<br>Miguel]]>
       </content>
   </item>
   <item>
     <title>Arianne's 5th birthday</title>
     <date>Sat, 28 Aug 2004 20:11:54</date>
     <content>
-      <![CDATA[Arianne has reached the age of 5 years. The way has been hard and full of unproductive periods. The multizone feature is being added now and should be complete in 1-2 weeks allowing us the development
+      <![CDATA[<p>Arianne has reached the age of 5 years. The way has been hard and full of unproductive periods. The multizone feature is being added now and should be complete in 1-2 weeks allowing us the development
 of Stendhal, which has already been started.<p/> Soon I will write more about it.]]>
       </content>
   </item>
@@ -1685,7 +1685,7 @@ of Stendhal, which has already been started.<p/> Soon I will write more about it
     <title>game servers are going to be down up to Aug, 15</title>
     <date>Thu, 03 Aug 2004 16:41:16</date>
     <content>
-      <![CDATA[Hehehe, you know, holidays!, I will shutdown the computer that run that arianne's server up to Aug, 15.<br> We are still looking for a 24/7 hoster of our servers so we can avoid this situations.<p/>As a follow up, our next game is going to be called Stendhal, surely around Aug, 15 you will be able to read more about it.]]>
+      <![CDATA[<p>Hehehe, you know, holidays!, I will shutdown the computer that run that arianne's server up to Aug, 15.<br> We are still looking for a 24/7 hoster of our servers so we can avoid this situations.<p/>As a follow up, our next game is going to be called Stendhal, surely around Aug, 15 you will be able to read more about it.]]>
       </content>
   </item>
   <item>
@@ -1695,7 +1695,7 @@ of Stendhal, which has already been started.<p/> Soon I will write more about it
         <image url="images/articles/mapacman_gui.jpg"/>
       </images>
     <content>
-      <![CDATA[Thanks to the HUGE amount of bugs report about mapacman I have been able to do this release. Mainly I have fixed the issue that many of you pointed about GUI and I have recoded the GUI from scratch to meet the requirements.<br>
+      <![CDATA[<p>Thanks to the HUGE amount of bugs report about mapacman I have been able to do this release. Mainly I have fixed the issue that many of you pointed about GUI and I have recoded the GUI from scratch to meet the requirements.<br>
 Also Many of you had problems with timeouts, so now mapacman 
 doesn't handle timeouts, when you feel something is not working
 press ESC and you will be returned to the previous screen.<p/>
@@ -1710,7 +1710,7 @@ that may be added on the next release of marauroa: no promises.]]>
         <image url="screens/mapacman/THM_20040712_mapacman.jpg"/>
       </images>
     <content>
-      <![CDATA[mapacman, our multiplayer online pacman clone, reaches its 0.90 version.
+      <![CDATA[<p>mapacman, our multiplayer online pacman clone, reaches its 0.90 version.
       <br/>This is the last release of mapacman because as you know our goal is to 
       create a real online multiplayer RPG and not a pacman game :)<p/>
       Now I will start working again on gladiators to make it a real game much like a
@@ -1724,7 +1724,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>Marauroa 0.41 released</title>
     <date>Tue, 13 Jul 2004 00:45:12 GMT</date>
     <content>
-      <![CDATA[This version of Marauroa is a bug fixes release over 0.40 version, that
+      <![CDATA[<p>This version of Marauroa is a bug fixes release over 0.40 version, that
        consolidate our work on RPClasses and per player synchronization. Also I have
        fixed a few bugs on the mapacman script so game will be better.<p/>This release
        creates base work for multizone system that will move us to Marauroa 1.0<br>As
@@ -1735,7 +1735,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>Our new website is up and running</title>
     <date>Fri, 09 Jul 2004 12:56:53 GMT</date>
     <content>
-      <![CDATA[It has been around 6 months and our website got outdated again.<br/>
+      <![CDATA[<p>It has been around 6 months and our website got outdated again.<br/>
         So after hiring an artist for website creation guidelines we have come with 
         this design, that reuses mostly the previous website code<p/>
         Our goal has been to make the website clear, informative and easy to read, so 
@@ -1750,7 +1750,7 @@ that may be added on the next release of marauroa: no promises.]]>
         <image url="screens/mapacman/THM_20040705_mapacman.jpg"/>
       </images>
     <content>
-      <![CDATA[This version of mapacman features the new walls done by 
+      <![CDATA[<p>This version of mapacman features the new walls done by 
       zzorn and adds correct scrolling. You still need to create an account at 
       <a href="http://mapacman.game-server.cc">mapacman server</a>.<p/>I still 
       need your bugs reports, as it is the only way of improving the game.]]>
@@ -1759,7 +1759,7 @@ that may be added on the next release of marauroa: no promises.]]>
   <item>
     <title>Marauroa 0.40 released</title>
     <date>Mon, 5 Jul 2004 13:09:37 GMT</date>
-    <content><![CDATA[Marauroa is the arianne game server coded using Java and 
+    <content><![CDATA[<p>Marauroa is the arianne game server coded using Java and 
       Python.<br>This release is very important for us as it consolidate all 
       the development of the last 9 months on a very stable and advanced release
       that adds per player synchronization, correct delta^2 perception system, 
@@ -1771,14 +1771,14 @@ that may be added on the next release of marauroa: no promises.]]>
   <item>
     <title>mapacman server will be down 24-48 hours</title>
     <date>Thu, 1 Jul 2004 12:56:13 GMT</date>
-    <content><![CDATA[I will shutdown server to develop the next versions of both 
+    <content><![CDATA[<p>I will shutdown server to develop the next versions of both 
       marauroa and mapacman. They should be out before Monday.<p/>Sorry for the 
       inconvenience.]]></content>
   </item>
   <item>
     <title>mapacman 0.03 released</title>
     <date>Tue, 18 Jun 2004 16:14:02 GMT</date>
-    <content><![CDATA[This new version of mapacman features a bigger map, that is 
+    <content><![CDATA[<p>This new version of mapacman features a bigger map, that is 
       around 8 times bigger than the 0.02 map, a scrollable view and new animations
        and graphics for mapacman done by zzorn. On server side there are some changes 
        on the way that will be released perhaps over July, 1. The most important 
@@ -1792,7 +1792,7 @@ that may be added on the next release of marauroa: no promises.]]>
         <image url="screens/mapacman/THM_20040608_mapacman.jpg"/>
       </images>
     <content>
-      <![CDATA[The bug about background clearing and the bug about TAB on the
+      <![CDATA[<p>The bug about background clearing and the bug about TAB on the
       main screen were fixed. The player is now different than the rest of the pacmans,
       and they now have animations. You can see your score at the bottom of the screen.
       <br>By the way, take extra care with ghost it is too dangerous.<p/>Next version of
@@ -1803,7 +1803,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>Macro release!: Marauroa, ariannexp, gladiators and mapacman</title>
     <date>Fri, 4 Jun 2004 20:53:37 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
         It has been a lot of work, but finally everything is up and running:<ul>
 		<li><i>Marauroa 0.36</i> Real pacman support, improved the way password are 
 		  stored in database, speeded up marauroa to make clients see their actions 
@@ -1829,7 +1829,7 @@ that may be added on the next release of marauroa: no promises.]]>
         <image url="screens/mapacman/THM_20040603_mapacman.jpg"/>
       </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		Although I were sure that it runs on Linux it is fun to see that it really does.<br>
 		Here you can see the screenshot as taken by keiner. In a few days I hope to be able to 
 		release a first version, that is, when I complete the GUI.<p/>
@@ -1846,7 +1846,7 @@ that may be added on the next release of marauroa: no promises.]]>
         <image url="screens/mapacman/THM_20040601_mapacman.jpg"/>
       </images>
     <content>
-      <![CDATA[mapacman continues evolving.<br>Now it is able to render the original
+      <![CDATA[<p>mapacman continues evolving.<br>Now it is able to render the original
         pacman map, but with the extra thing that each object in screen is an Arianne RPObject,
         so everything is handled by Python code on the server using real Arianne RPObjects. 
         We are using right now around 300 dots and 600 blocks representing walls. Turn times 
@@ -1857,7 +1857,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>Marauroa 0.35 and ariannexp 0.10.0 released</title>
     <date>Tue, 25 May 2004 21:48:32 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		Today a major step has been taken on the Arianne development. <br>
 		ariannexp has reach it second iteration and finally pyarianne is also working on Linux.
  		So developing new clients and games is easier than ever, you can check it at Wiki at 
@@ -1876,7 +1876,7 @@ that may be added on the next release of marauroa: no promises.]]>
         <image url="screens/mapacman/THM_20040517_mapacman.jpg"/>
       </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		No, mapacman is not vaporware. Simply that I don't have enough free time lately to work 
 		on it as much as I would need, anyway you can see here a preview of it.<br>
 		On the mean time I have documented on the <a href="/wiki">Wiki</a> the tiny API used 
@@ -1890,7 +1890,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>Marauroa 0.34 released</title>
     <date>Tue, 18 May 2004 17:15:32 GMT</date>
     <content>
-      <![CDATA[server now execute turns on a soft timelimit of 64-100 ms almost with around
+      <![CDATA[<p>server now execute turns on a soft timelimit of 64-100 ms almost with around
          128 players inside, and we have added an out of sync message so that players can 
          request synchronization with server in case of network problems.]]>
       </content>
@@ -1902,7 +1902,7 @@ that may be added on the next release of marauroa: no promises.]]>
         <image url="images/articles/THM_Marauroa_100Clients.png"/>
       </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		Today I have improved the speed of Marauroa for around 10 times faster than 
 		before by adding a cache of the static part of the perception that is send to each player.<br>
 		This improvement allows Marauroa to be able to handle now hundred of players on a dedicated system.<br>
@@ -1914,7 +1914,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>pyarianne, wiki and some minor things</title>
     <date>Wed, 12 May 2004 14:59:24 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		There are several things moving on arianne right now:<br>
 		pyarianne is a python wrapper module for arianne clients, so you can now develop 
 		arianne clients using Python and surely pygame :)<p/>
@@ -1931,7 +1931,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>Marauroa 0.33 and Gladiators 0.08.4 released</title>
     <date>Sat, 1 May 2004 17:37:12 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		A little big step have been taken with Marauroa, this release integrate so many hot fixes 
 		and features that the list is long:<ul>
 		<li>Static part of the perception, that one that doesn't change depending of the player is
@@ -1950,7 +1950,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>IRC meeting</title>
     <date>Fri, 30 Apr 2004 20:26:16 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		At May, 1 - <a href="http://www.timeanddate.com/worldclock/">18:00 UTC</a> we will have 
 		an IRC meeting to talk about Arianne, Marauroa, Gladiators and mapacman state, and future 
 		path. The meeting is expected to last one hour. See you tomorrow at 
@@ -1962,7 +1962,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>First progresses with mapacman</title>
     <date>Tue, 28 Apr 2004 16:36:47 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		On a very experimental framework, I got a pacman to run the laberinth in a more or less 
 		''inteligent'' way.<br> Now that I see that is working, I will start to port our designated 
 		existing game to use Arianne technology, and the winner is ... Njam. Njam is a a full-featured
@@ -1991,7 +1991,7 @@ Backtracking detected --> Rotating
     <title>Gladiators manual written</title>
     <date>Tue, 27 Apr 2004 18:07:03 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		Thanks to Steve I. , we all now have a manual for Gladiators. Please check it 
 		and as usual report any kind of problems that you may find.<p/>
 		Manual is at Documentation: 
@@ -2003,7 +2003,7 @@ Backtracking detected --> Rotating
     <title>Marauroa 0.32 and Gladiators 0.08.3 released</title>
     <date>Wed, 21 Apr 2004 15:25:46 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		This version of marauroa, the arianne's server, fix the bug that happens when an object 
 		is added and deleted on the same turn from a slot, adds modification of the network 
 		protocol to send our RPObject only when changed, fixed a path related problem with the 
@@ -2020,7 +2020,7 @@ Backtracking detected --> Rotating
         <image url="images/articles/real_pacman.jpg"/>
       </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		As you know we are reaching the begining of another iteration in the Marauroa 
 		server ( you know... this is an XP development ). This new iterations add several
  		great things as:<ul>
@@ -2039,7 +2039,7 @@ Backtracking detected --> Rotating
     <title>Marauroa 0.31, Gladiators 0.08.2 and ariannexp 0.08.2 released</title>
     <date>Wed, 14 Apr 2004 12:23:02 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 	 	 On my way of "release often, release big" I have released a new version of 
 	 	 Marauroa that adds the infamous delta-delta algorithm that allows to send only 
 	 	 the differences of the objects that have changed, improving so the bandwidth usage.
@@ -2063,7 +2063,7 @@ Backtracking detected --> Rotating
     <title>Gladiators 0.08 and ariannexp 0.08 released</title>
     <date>Mon, 05 Apr 2004 19:34:52 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		I have released a new version of Gladiators and ariannexp that keep in sync with 
 		changes on Marauroa. There aren't any gameplay improvements, but I am setting the 
 		base for a improved game that should happen soon. BTW now ariannexp is totally compilable and 
@@ -2078,7 +2078,7 @@ Backtracking detected --> Rotating
     <title>Marauroa joined Arianne!</title>
     <date>Sat, 27 Mar 2004 16:24:39 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		Today Marauroa and Arianne have joined on the task for creating a high quality 
 		free and open source multiplayer online game. From this union we can all expect a 
 		increment in productivity that will result in more ambitious, and faster achieved
@@ -2090,7 +2090,7 @@ Backtracking detected --> Rotating
     <title>Gladiators 0.07 released</title>
     <date>Fri, 26 Mar 2004 20:25:41 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		This is also an update version of Gladiators 0.06 that add support for Marauroa's 
 		updated version of the network protocol and that fix the bug related to text output.
 		I also have changed per request the location of the text at login time so now it is
@@ -2102,7 +2102,7 @@ Backtracking detected --> Rotating
     <title>Gladiators 0.06 released</title>
     <date>Sat, 06 Mar 2004 13:59:12 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
       	This is an update version of Gladiators 0.05 that add compression to the network 
       	layer so that the bandwidth usage is smaller. Also it is the only version that 
       	will connect to the actual server. Please test and report.]]>
@@ -2115,7 +2115,7 @@ Backtracking detected --> Rotating
         <image url="screens/gladiators/THM_20040226_Gladiators.jpg"/>
       </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		Again, a new version of Gladiators ( and again for windows only ).<br>This one
 		doesn't crash. I have stressed it for 4 hours and I have not been able to crash
 		it.<br>So I am really interesting on anyone's story about gladiators  problem.<p/>
@@ -2132,7 +2132,7 @@ Backtracking detected --> Rotating
         <image url="screens/gladiators/THM_20040220_Gladiators.jpg"/>
       </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		It has been a long time since the last release but finally I have been able to 
 		add Chat and the client is stabler than ever. My new goals are to add a shop to
 		buy/sell items so that combat can be less random and more interesting.<br>
@@ -2143,7 +2143,7 @@ Backtracking detected --> Rotating
     <title>New website online</title>
     <date>Sat, 20 Feb 2004 13:31:48 GMT</date>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
       I have written a new website with in invaluable of Steve. We would really love to listen
       to comments and friendly hands to help improve even more the webpage]]>
       </content>
@@ -2155,7 +2155,7 @@ Backtracking detected --> Rotating
         <image url="screens/gladiators/THM_20040210_2_Gladiators.jpg"/>
       </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
       	A new week, a new release! :)<br> This version of Gladiators works for sure 
       	( I have tested it several times). Please give it a try and report problems 
       	you have and mainly features you want. <i>Yes, chat, I know. Chat is complex 
@@ -2169,7 +2169,7 @@ Backtracking detected --> Rotating
         <image url="screens/gladiators/THM_20040206_Gladiators.jpg"/>
       </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
       	This release features better error handling, a music, a nicer mouse pointer 
       	and traces to be able to debug the application remotely. ]]>
       </content>
@@ -2181,7 +2181,7 @@ Backtracking detected --> Rotating
         <image url="screens/gladiators/THM_20040126_Gladiators.jpg"/>
       </images>
     <content>
-      <![CDATA[
+      <![CDATA[<p>
 		Gladiators is a game where you are the player, and you OWN several characters,
 		each characters is a gladiator. As a gladiator your task is to fight and survive
 		in the Arena.<br>
