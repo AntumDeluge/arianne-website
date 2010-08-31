@@ -166,8 +166,8 @@ ul.rating li p { }
 /************************************/
 /* Title section DIV                */
 #title_section { margin:0;padding:0; }
-#title_section div.left-title-image { width:800px; height:90px; border: 0; margin:0; padding:0; background-image:url("../images/jmapacman_title.png"); background-repeat:no-repeat;}
-#title_section div.right-title-image { display:none;}
+#title_section .left-title-image {display: block; width:800px; height:90px; border: 0; margin:0; padding:0; background-image:url("../images/jmapacman_title.png"); background-repeat:no-repeat;}
+#title_section .right-title-image { display:none;}
 #title_section p { display:none; }
 
 #menubarcontainer { margin:0 0 20px 0; height: 20px; padding:0; clear: both; display:block;  background-color:#22b; font-size:9pt; font-weight: bold; }
