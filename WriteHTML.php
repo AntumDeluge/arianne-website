@@ -38,8 +38,14 @@ function WriteNewsHTMLHeaderForFirstItem($website, $title) {
 	foreach($website['website'][0]['item'] as $key=>$item) {
 		if ($title == getNiceURL($item['title'][0])) {
 			echo '<title>'.$item['title'][0].ARIANNE_TITLE.'</title>';
-			//echo '<meta name="keywords" content="arianne, java, python, jython, multiplayer, play, online, game, engine, framework, content creation, C, portable, free, open source, gpl, MySQL, documentation, design">';
-			//echo '<meta name="description" content="Arianne is a multiplayer online games framework and engine to develop turn based and real time games. It provides a simple way of creating games on a portable and robust server architecture. The server is coded in Java and uses Python for your game description, provides a MySQL backend and uses an UDP transport channel to communicate with dozens of players.">';
+			// meta title is for facebook
+			echo '<meta name="title" content="'.$item['title'][0].'">';
+			$description = trim($item['content'][0]);
+			$pos = strpos($description, '<p>', 4);
+			if ($pos) {
+				$description = preg_replace('/<[^>]*>/', '', substr($description, 0, $pos));
+			}
+			echo '<meta name="description" content="'.$description.'">';
 			
 			if(isset($item['images'])) {
 				foreach($item['images'][0]['image'] as $key=>$image) {
@@ -49,6 +55,8 @@ function WriteNewsHTMLHeaderForFirstItem($website, $title) {
 					}
 				}
 			}
+
+			break;
 		}
 	}
 }
