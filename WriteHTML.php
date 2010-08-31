@@ -44,7 +44,7 @@ function WriteNewsHTMLHeaderForFirstItem($website, $title) {
 			if(isset($item['images'])) {
 				foreach($item['images'][0]['image'] as $key=>$image) {
 					if(is_array($image)) {
-						echo '<link rel="image_src" href="/'.$image['url'].'">';
+						echo '<link rel="image_src" href="http://arianne.sourceforge.net/'.$image['url'].'">';
 						return;
 					}
 				}
