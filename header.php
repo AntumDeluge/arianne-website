@@ -1,7 +1,7 @@
 
   <div id="title_section">
-  <div class="left-title-image"></div>
-  <a href="/"><div class="right-title-image"></div></a>
+  <span class="left-title-image"></span>
+  <a href="/"><span class="right-title-image"></span></a>
   <p>an open source multiplayer online framework to easily create games!</p>
   </div>
 
