@@ -14,7 +14,7 @@
       </ul>
 
       <ul>
-        <li class="menu_title"><div id="game-menu-image">Tools</div></li>
+        <li class="menu_title"><div id="tool-menu-image">Tools</div></li>
             <?php
 	include_once("renderContent.php");
         renderGameBriefing(false,tool);
