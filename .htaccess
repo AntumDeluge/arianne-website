@@ -13,6 +13,8 @@ RewriteRule ^(.*)-all.html$ /index.php?show_archive=1&arianne_url=content/$1&rew
 RewriteRule ^(.*)-archived.html$ /index.php?show_archive=1&arianne_url=content/$1&archived=1&rewrite=3QivnzcY [L]
 RewriteRule ^(.*).html$ /index.php?arianne_url=content/$1&rewrite=3QivnzcY [L]
 
+RewriteRule ^download/(.*)$ /download.php?file=$1&rewrite=3QivnzcY [L]
+
 
 RewriteCond %{QUERY_STRING} rewrite=3QivnzcY
 RewriteRule .* - [L]

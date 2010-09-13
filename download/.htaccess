@@ -1,2 +1,0 @@
-RewriteEngine On
-RewriteRule ^(.*)$ ../download.php?file=$1 [L]
