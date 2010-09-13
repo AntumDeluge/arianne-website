@@ -18,8 +18,8 @@ $file = $_REQUEST['file'];
 preg_match('/^([^-.]*)/', $file, $matches, PREG_OFFSET_CAPTURE);
 $product = $matches[0][0];
 
-if (in_array($product, array('stendhal'))) {
-	$version = file_get_contents(dirname(__FILE__).'/'.$product.'.version');
+if (in_array($product, $products)) {
+	$version = trim(file_get_contents(dirname(__FILE__).'/'.$product.'.version'));
 }
 
 if (!isset($version) || $version == '') {
