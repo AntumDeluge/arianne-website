@@ -28,6 +28,6 @@ if (!isset($version) || $version == '') {
 } else {
 	$rewrittenFilename = str_replace($filesShort, $filesLong, $file);
 	$rewrittenFilename = str_replace('(version)', $version, $rewrittenFilename);
-	header('Location: https://sourceforge.net/projects/arianne/files/'.$product.'/'.$version.'/'.$rewrittenFilename.'/download');
+	header('Location: http://sourceforge.net/projects/arianne/files/'.$product.'/'.$version.'/'.$rewrittenFilename.'/download');
 }
 ?>
