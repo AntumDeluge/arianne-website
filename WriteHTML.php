@@ -669,6 +669,7 @@ function scan_dir($dirname,$recurse=FALSE,$sort_flag=SORT_REGULAR)
   while (false !== ($file = readdir($handle)))
     {
     if($file=='.'||$file=='..') continue;
+    if(strpos($file, '~')!==false) continue;
     if(is_dir($dirname.$file))
       {
       $dir_array[]=$dirname.$file;
