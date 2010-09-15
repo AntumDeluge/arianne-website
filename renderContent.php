@@ -37,6 +37,7 @@ function renderDownloads($type)
   while (false !== ($file = readdir($handle)))
     {
     if($file=='.'||$file=='..') continue;
+    if(strpos($file, '~')!==false) continue;
     if(!is_dir("xml/".$file))
       {
       if(strpos($file,$type.'_')!==false)
