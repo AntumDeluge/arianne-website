@@ -1,6 +1,7 @@
 RewriteEngine On
 Options -multiviews
 
+RewriteRule ^googlebac.* - [L]
 
 RewriteRule ^docs/(.*).html$ /index.php?arianne_url=docs/$1&rewrite=3QivnzcY [L]
 RewriteRule ^engine/(.*).html$ /index.php?arianne_url=servers/server_$1&rewrite=3QivnzcY [L]
