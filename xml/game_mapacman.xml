@@ -4,7 +4,7 @@
   <status value="archived"/>
   <type value="game"/>
   <version id="1.00"/>
-  <rated>
+  <!--  <rated>
     <entry>
       <![CDATA[
       <a href="http://happypenguin.org/show?mapacman">
@@ -12,7 +12,7 @@
       </a>
       ]]>    
     </entry>
-  </rated>  
+  </rated>  -->
   <description><![CDATA[ 
     mapacman is a <b>multiplayer</b> online clone of pacman.
     The goal of mapacman is to score as high as possible by eating the pills around the map.
