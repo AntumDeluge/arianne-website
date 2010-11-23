@@ -163,8 +163,8 @@ function WriteShortGameDesc($game)
     $type = $game['game'][0]['type']['0 attr']['value'];
 	echo '<li class="text">';
     echo '<a href="/'.$type.'/'.$game['game']['0 attr']['name'].'.html" class="naviLight">'.ucfirst($game['game']['0 attr']['name']).'</a>';
-    $time=explode("/",GameUpdateTime($game,"game"));
-    if(time()-mktime(0,0,0,$time[2],$time[1],$time[0])<15*24*60*60)
+    $time=explode("-",GameUpdateTime($game,"game"));
+    if(time()-mktime(0,0,0,$time[1],$time[2],$time[0])<15*24*60*60)
       {
       echo '<img src="/images/updated.gif" class="update_image" alt="Recently Updated">';
       }
@@ -199,8 +199,8 @@ function WriteLongGameDesc($game)
     echo '<div class="link_title"><a name="'.$game['game']['0 attr']['name'].'"></a><h1><a href="/'.$type.'/'.$game['game']['0 attr']['name'].'.html">'.ucfirst($game['game']['0 attr']['name']).'</a></h1><p><a href="/'.$type.'/'.$game['game']['0 attr']['name'].'.html">Click here to see information about this package</a></p></div>';
     echo '<h2>'.$game['game']['0 attr']['shortdescription'].'</h2>';
 
-    $time=explode("/",GameUpdateTime($game,"game"));
-    if(time()-mktime(0,0,0,$time[2],$time[1],$time[0])<15*24*60*60)
+    $time=explode("-",GameUpdateTime($game,"game"));
+    if(time()-mktime(0,0,0,$time[1],$time[2],$time[0])<15*24*60*60)
       {
       echo '<img src="/images/updated.gif" class="update_image" alt="Recently Updated!">';
       }
