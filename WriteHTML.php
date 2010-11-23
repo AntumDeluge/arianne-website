@@ -201,7 +201,7 @@ function WriteLongGameDesc($game)
     echo '<h2>'.$game['game']['0 attr']['shortdescription'].'</h2>';
 
     $time=explode("-",GameUpdateTime($game,"game"));
-    if(time()-mktime(0,0,0,$time[1],$time[2],$time[0])<45*24*60*60)
+    if(time()-mktime(0,0,0,$time[1],$time[2],$time[0])<30*24*60*60)
       {
       echo '<img src="/images/updated.gif" class="update_image" alt="Recently Updated!">';
       }
