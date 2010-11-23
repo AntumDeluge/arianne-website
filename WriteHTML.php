@@ -41,7 +41,11 @@ function WriteNewsHTMLHeaderForFirstItem($website, $title) {
 			// meta title is for facebook
 			echo '<meta name="title" content="'.$item['title'][0].'">'."\r\n";
 			$description = trim($item['content'][0]);
-			$description = preg_replace('/(\r\n|\r|\n|")/s',' ', preg_replace('/<[^>]*>/', '', $description));
+			$pos = strpos($description, '<p>', 10);
+			if ($pos) {
+				$description = substr($description, 0, $pos);
+			}
+			$description = preg_replace('/(\r\n|\r|\n|")/s',' ', preg_replace('/<[^>]*>/', '', preg_replace('/</p>.*/', '', $description)));
 			echo '<meta name="description" content="'.$description.'">'."\r\n";
 
 			if(isset($item['images'])) {
