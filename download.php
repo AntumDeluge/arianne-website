@@ -13,6 +13,7 @@ $filesLong = array(
 	'marboard-client-(version).zip', 'marboard-server-(version).zip', 'marboard-src-(version).zip', 'marboard-(version)-changes.txt',
 	'stendhal-(version).zip', 'stendhal-FULL-(version).zip', 'stendhal-server-(version).zip', 'stendhal-(version)-src.tar.gz', 'stendhal-(version)-changes.txt'); 
 
+
 $file = $_REQUEST['file'];
 
 preg_match('/^([^-.]*)/', $file, $matches, PREG_OFFSET_CAPTURE);
@@ -28,6 +29,10 @@ if (!isset($version) || $version == '') {
 } else {
 	$rewrittenFilename = str_replace($filesShort, $filesLong, $file);
 	$rewrittenFilename = str_replace('(version)', $version, $rewrittenFilename);
-	header('Location: http://sourceforge.net/projects/arianne/files/'.$product.'/'.$version.'/'.$rewrittenFilename.'/download');
+	$target = 'http://sourceforge.net/projects/arianne/files/'.$product.'/'.$version;
+	if (strpos($file, '.')) {
+		$target = $target . '/'.$rewrittenFilename.'/download';
+	}
+	header('Location: ' . $target);
 }
 ?>
