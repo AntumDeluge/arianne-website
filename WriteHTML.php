@@ -534,7 +534,7 @@ function WriteGameHTML($game,$base)
       {
       if(is_array($image))
         {
-        echo '<li><a href="screens/'.$game[$base]['0 attr']['name'].'/'.$image['name'].'"><img src="/screens/'.$game[$base]['0 attr']['name'].'/THM_'.$image['name'].'" alt="Game screenshot"></a></li>';
+        echo '<li><a href="/screens/'.$game[$base]['0 attr']['name'].'/'.$image['name'].'"><img src="/screens/'.$game[$base]['0 attr']['name'].'/THM_'.$image['name'].'" alt="Game screenshot"></a></li>';
         $i++;
         }
       if( $i > 3) break;
