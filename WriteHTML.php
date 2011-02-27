@@ -105,7 +105,7 @@ function WriteNewsItemHtml($item)
       // the sharing buttons should go here
       $urlToPost = 'http://arianne.sourceforge.net/news/'.$strippedTitle.'.htm';
       echo buildTweetButton($urlToPost, '@stendhalgame');
-      //echo buildFacebookButton($urlToPost);
+      echo buildFacebookButton($item['title'][0], $urlToPost);
       //echo buildGoogleBuzzButton($urlToPost);
       echo '</li>';
   }

@@ -14,8 +14,12 @@ function buildTweetButton($url, $toMention) {
 	return $res;
 }
 
-function buildFacebookButton($url) {
+function buildFacebookButton($title, $url) {
+	$res = '<a href="http://facebook.com/sharer.php?u='.urlencode($url);
+	$res = $res.urlencode('&t='.$title);
+	$res = $res.'" target="_blank" title="Facebook">';
 	$res = $res.'<img src="images/buttons/facebook_button.png" width="24" height="24" border="0" hspace="0" alt="Facebook">';
+	$res = $res.'</a>';
 	return  $res;
 }
 
