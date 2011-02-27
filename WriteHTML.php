@@ -1,5 +1,6 @@
 <?php
 include_once('xml.php');
+include_once 'share_buttons.php';
 
 function GameUpdateTime($game, $base)
   {
@@ -101,6 +102,11 @@ function WriteNewsItemHtml($item)
       {
         echo '<div class="newscontent_noimage">'.$item['content'][0].'</div></div>';
       }
+      // the sharing buttons should go here
+      $urlToPost = 'http://arianne.sourceforge.net/news/'.$strippedTitle.'.htm';
+      echo buildTweetButton($urlToPost, '@stendhalgame');
+      //echo buildFacebookButton($urlToPost);
+      //echo buildGoogleBuzzButton($urlToPost);
       echo '</li>';
   }
 
