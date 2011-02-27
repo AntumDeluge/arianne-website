@@ -14,6 +14,12 @@ function buildTweetButton($url, $toMention) {
 	return $res;
 }
 
+/**
+ * Function to provide a button for sharing a news item on facebook
+ * 
+ * @param $title title of the news item
+ * @param $url the url to link to
+ */
 function buildFacebookButton($title, $url) {
 	$res = '<a href="http://facebook.com/sharer.php?u='.urlencode($url);
 	$res = $res.urlencode('&t='.$title);
