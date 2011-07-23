@@ -1,3 +1,6 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+<head>
 <?php
 
 if ($_REQUEST['product'] != 'stendhal') {
@@ -14,9 +17,6 @@ if ($_REQUEST['from'] == 'null') {
 
 
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
-<html>
-<head>
 <!-- <meta http-equiv="refresh" content="30; url=http://arianne.sf.net/"> --> 
 <title>Stendhal</title>
 <style type="text/css">
@@ -72,9 +72,6 @@ img {
 
 
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
-<html>
-<head>
 <title>Stendhal</title>
 <style type="text/css">
 body {
