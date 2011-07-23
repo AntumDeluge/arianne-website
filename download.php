@@ -6,12 +6,12 @@ $filesShort = array(
 	'jmapacman.zip', 'jmapacman-server.zip', 'jmapacman-src.tar.gz', 'jmapacman-changes.txt',
 	'marauroa.zip', 'marauroa-src.tar.gz', 'marauroa-docs.zip', 'marauroa-changes.txt',
 	'marboard-client.zip', 'marboard-server.zip', 'marboard-src.zip', 'marboard-changes.txt',
-	'stendhal.zip', 'stendhal-FULL.zip', 'stendhal-server.zip', 'stendhal-src.tar.gz', 'stendhal-changes.txt');
+	'stendhal.zip', "stendhal-FULL.zip", 'stendhal-server.zip', 'stendhal-src.tar.gz', 'stendhal-changes.txt');
 $filesLong = array(
 	'jmapacman-(version).zip', 'jmapacman-server-(version).zip', 'jmapacman-(version)-src.tar.gz', 'jmapacman-(version)-changes.txt',
 	'marauroa-(version).zip', 'marauroa-(version)-src.tar.gz', 'marauroa-(version)-docs.zip', 'marauroa-(version)-changes.txt',
 	'marboard-client-(version).zip', 'marboard-server-(version).zip', 'marboard-src-(version).zip', 'marboard-(version)-changes.txt',
-	'stendhal-(version).zip', 'stendhal-FULL-(version).zip', 'stendhal-server-(version).zip', 'stendhal-(version)-src.tar.gz', 'stendhal-(version)-changes.txt'); 
+	'stendhal-(version).zip', 'stendhal-(version).zip', 'stendhal-server-(version).zip', 'stendhal-(version)-src.tar.gz', 'stendhal-(version)-changes.txt'); 
 
 
 $file = $_REQUEST['file'];
