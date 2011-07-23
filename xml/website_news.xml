@@ -41,6 +41,7 @@ A full list of changes can be read at our <a href = "http://arianne.sourceforge.
       <image url="screens/stendhal/help94.png"/>
       <image url="screens/stendhal/question94.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>
 <b>Update</b>: The server migration was successful and fast. Our case study document <b><a href = "http://stendhalgame.org/wiki/Moving_the_Stendhal_server_to_a_new_host">'Moving the Stendhal server to a new host'</a></b> explains the details and would act as a good introduction to some game engine and database concepts.<p>
@@ -62,6 +63,7 @@ Mostly this month has been behind the scenes work - to prepare for a server migr
       <image url="screens/stendhal/waterspring93.png"/>
       <image url="screens/stendhal/corpses93.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Easter is coming, and we celebrate the cycle of birth, life and death. Flowers are flourishing and our favourite Easter Bunny will 
 be dropping small chocolate eggs as he roams the island. Did you know that eggs are a symbol of new life?
@@ -92,6 +94,7 @@ Please join us for this celebration at Easter time, and feel free to check out t
       <image url="screens/stendhal/jef92.png"/>
       <image url="screens/stendhal/groups92.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>
 Being a true hero is about much more than just killing creatures, it's even more than completing quests and gaining experience. A true hero is alive to the opportunities offered to him, he explores the world's furthest reaches, samples everything he can try and collects rare items. Your challenge is to reach all <a href="http://stendhalgame.org/achievement.html">possible achievements</a>! Compare to your friends, too, here is <a href="http://stendhalgame.org/character/madmetzger.html#achievements">madmetzger</a>, who developed achievements, as an example.
@@ -130,6 +133,7 @@ If you think you've done all the quests here's a least one new one for you: help
       <image url="screens/stendhal/elisabeth90.png"/>
       <image url="screens/stendhal/findbugs90.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Merry Christmas everyone! Semos is decorated for Christmas and soon Santa could be delivering presents on a street near you. There's plenty of treats available for Christmas, try crepes from a ratty chef, take chocolate to a hungry little girl, or to continue the theme of goodwill, help a scared man in the Kirdneh region. 
 <p>
@@ -153,6 +157,7 @@ Please see the <a href = "http://arianne.sourceforge.net/game/stendhal.html#chan
       <image url="screens/stendhal/selector89.png"/>
       <image url="screens/stendhal/orb89.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Mmmm.... are you hungry? Faiumoni is having quite some food festival, with sisters Gertha and Martha baking pies packed with cherries and apples. There's new fish to angle for on Amazon island, and elsewhere you'll find garlic and artichokes growing. You can harvest sugar cane, and collect eggs from hen's nests. To wash down all this food you'll need a tasty drink, perhaps koboldish torcibud? For that you'd need fierywater, which is where sugar cane will come in handy. You can meet the distiller in Ados market. 
 <p>
@@ -182,6 +187,7 @@ There's a whole lot more changes to read about at the <a href = "http://arianne.
       <image url="screens/stendhal/florence88.png"/>
       <image url="screens/stendhal/trade88.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>
 Autumn, tis the season for migration. And Ados seems to be the city to migrate to, with many new dwellers arriving here. Undeterred by the food shortages, these entrepreneurs will cook for you if you bring them what they need. If you visit Ados market, to the north of the city, you can try a tasty fish soup or a perfectly grilled steak. Elsewhere in Ados you'll find other newcomers, so please be sure to stop for a chat and welcome them here.
@@ -223,7 +229,8 @@ As you can see we're pictured above with postman. Sometimes it's nice to read me
       <image url="screens/stendhal/circle86.png"/>
       <image url="screens/stendhal/settings86.png"/>
       <image url="screens/stendhal/park86.png"/>
- </images>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Have you noticed the graceful round tower in Semos Mountains and wondered what goes on in that lofty spire? The guardian of the tower, Zekiel, has prepared a quest for you - complete the Wizards Circle and access will be granted. 
 <p>
@@ -253,7 +260,8 @@ changelog</a>.]]>
       <image url="screens/stendhal/producers85.png"/>
       <image url="screens/stendhal/phalk85.png"/>
       <image url="screens/stendhal/choose_character85.png"/>
- </images>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Farmers like Karl have learnt a more efficient sowing technique. Each small patch of grain in the fields is planted closer together, so it will slow you down when you walk over that patch, but you can walk more easily between grain rows than before. After you harvested all your grain, you'd take it to Jenny to be milled. Do you sometimes forget that you left an order with her, or for how much? Well, now you can use /listproducers to be reminded of all your orders you placed with Jenny and other workers who cast, make and bake for you. You may use that to remember to collect some sandwiches you made with Leander, for Phalk. The dwarf guardian is hungry at his station in Semos mines and would appreciate some food and drink.
 <p>
@@ -280,6 +288,7 @@ changelog</a>.]]>
       <image url="screens/stendhal/arrows84.png"/>
       <image url="screens/stendhal/icons84.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>       Are you an obsessive hoarder of rare items? Do you pay high sums for a durin axe (just because it is rare) or camp hours to win a nihonto? Balduin is just like you. If, and only if, you've completed every other quest to collect special items, he'll challenge you to find one more... but don't bother asking your friends what he challenged them with, your quest could well be different.
   <p>
@@ -309,6 +318,7 @@ changelog</a>.]]>
       <image url="screens/stendhal/ratcity83.png"/>
       <image url="screens/stendhal/cursor83.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>The forces of the elements have lain dormant in the world for a long time. 
 But now, fire, ice, dark and light magic is awakening. Those wielding a fire sword will find excellent results
@@ -358,6 +368,7 @@ There's much more news than can fit here, so to read about the many other change
       <image url="screens/stendhal/sound82.png"/>
       <image url="screens/stendhal/rats82.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Is that a giant soap bubble which has landed in Kalavan City? No, it's a magical orb, and provided that Ilisa has taught you the art of scrying, you can use this magical orb to take you ... erm ... who knows! Somewhere fun, that's for sure. While you're in the Kalavan area, if you can brave the castle, you'll find someone with a favour to ask you.
 <p>If you get around using automatic walking, you should notice smoother movement, and that you can start walking with only one click, not two. 
@@ -399,7 +410,8 @@ Thanks everyone for uploading your error log files and please continue to do so.
       <image url="screens/stendhal/ignore81.png"/>
       <image url="screens/stendhal/statspanel81.png"/> 
    </images>
-    <content>
+   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+   <content>
       <![CDATA[<p>
 Did you know that one of your friends from Semos is a composer of music? <a 
 href="http://stendhalgame.org/character/storyteller.html">Storyteller</a> wrote some songs and they're playing now in various places. <a 
@@ -467,6 +479,7 @@ organising this.
       <image url="screens/stendhal/maze80.png"/>   
       <image url="screens/stendhal/ignore80.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>
 Budding salesmen, there is help at hand for make your trading smooth! Harold will be your middle-man, you tell him what price you want to sell your item for, and he will take it from you. Anyone who comes to ask him what offers he has recorded has the chance to buy your item. Once your item is sold, Harold will give you the price that you asked for it. He's new to the job, so he's only accepting 3 offers per person, so that he doesn't overload himself with work. 
@@ -532,6 +545,7 @@ townhall and presented the ankhs for the safety of Semos.
     <images> 
       <image url="screens/stendhal/stendhal79.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>The Mine Town celebrations are over for another year; the outfits must be folded away and the games packed into boxes. But don't be sad, you can look forward to Christmas now! 
 <p>
@@ -547,6 +561,7 @@ While you are playing you may notice an improvement in your client's performance
       <image url="screens/stendhal/tictactoegame78.png"/>
       <image url="screens/stendhal/outfits78.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
  <![CDATA[<p>Come join Susi this year at the Semos Mine Town Revival Weeks - you can  
 play tic tac toe, try a puzzle, play a treasure hunt game, hire a fun outfit and most importantly, make friends with Susi.
@@ -565,6 +580,7 @@ pirate attack. Mein_Dino, IschBing, Maja and Peka were heroes at that raid! This
       <image url="screens/stendhal/client77.png"/>
       <image url="screens/stendhal/adventure77.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>This is the beginning of a very great change - the game menus and windows are being moved off the main screen. Initially, the buddies list and minimap panel have both been moved off your world screen and onto their own side panel, attached to the screen. Also, the chat log is no longer a separate floating window, but a resizeable panel attached to the screen. It's a major step forward and something players have wanted for a long time, soon we hope to be able to move the Bag and Character panels out of the world screen too. It gives you plenty more space to see ...
 <p>
@@ -582,6 +598,7 @@ If you started the adventure called marriage, you'll notice a change in wedding 
       <image url="screens/stendhal/jdk76.png"/>
      <image url="screens/stendhal/corpses76.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Everything has changed but nothing is different. So, what's happened? The engine Marauroa which runs Stendhal and controls the database has had major refactoring; mainly to how it accesses the databases. Things are now possible which weren't before, but these all go on 'behind the scenes'. So, in the world of Stendhal, our NPCs, players, creatures, fighting, banks, items, farming, houses, zones and quests, are all unchanged. Stendhal has been ported to use the newly rewritten engine but everything should look exactly as before.*
 <p>
@@ -609,6 +626,7 @@ We're really happy to announce that the Stendhal client is now <b>compatible wit
       <image url="screens/stendhal/artwork75.png"/>
       <image url="screens/stendhal/clone75.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>It's all about beauty at this time of year. You'll see it if you buy daisies seeds or lilia seeds from Jenny and watch them grow into fabulous flowers. Be sure you plant them on the patch of fertile ground in Semos Plains North. Anyone can pick your fully grown flower, so you're doing a public service by planting them for all to watch and for some lucky person to pick. Perhaps they're most beautiful left in the ground, though. 
 <p>
@@ -624,6 +642,7 @@ Do you ever see players who should not yet have mastered the black arts, but som
      <image url="screens/stendhal/hell74.png"/>
       <image url="screens/stendhal/arachne74.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Finding the 10%* death penalty hard? If you have good karma you could lose a lot less skills now - but if you have bad karma you 
 could lose up to 20%**. If you want to know more ways to get karma just go and ask Sarzina, the wizardess in fado hut, she will tell you.
@@ -653,6 +672,7 @@ Last but not least, another fearsome new creature to face in battle - arachne - 
       <image url="screens/stendhal/house73.png"/>
       <image url="screens/stendhal/tax73.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Player houses have just got even better! Each house comes with a storage chest, it's not like a player chest where each player sees 
 their own items - it's like the Semos community chest, but inside the house! Everyone with a key can access it, so if you're worried and can't 
@@ -674,10 +694,10 @@ more magic outfits, these we leave to you to explore! ]]>
     <title>Stendhal 0.72: New abilities</title>
     <date>22 February 2009 23:55:00</date>
     <images>
-        <image url="screens/stendhal/dm72.png"/>
+      <image url="screens/stendhal/dm72.png"/>
       <image url="screens/stendhal/vault72.png"/>
-  
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>The Semos Mine Town Revival Weeks Party is over and Susi and her daddy are safe at home now in Ados City. Liliana the magic costume maker has opened a boutique in the magic city, her outfits now last for longer but cost a little more to buy. A new outfit is a great way to express yourself so it is well worth it! Another new way to express yourself is by using the /me command. Just try typing for example '/me loves Stendhal' or '/me thinks kymara is awesome' and you will get the idea!
 <p>
@@ -699,6 +719,7 @@ So, players have learnt a number of new abilities - what about creatures? Not to
     <images> 
       <image url="screens/stendhal/outfit71.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>To celebrate the lost girl Susi being found safe and well, the tradition of celebrating Semos Mine Town Revival Weeks has returned! 
 For a short time only, visit the Semos Mine Town and get an exciting magic outfit, try a puzzle or chat with the centre of the party, Susi. 
@@ -715,6 +736,7 @@ Another piece of very good news is about Thanatos, the Death match Assistant. An
       <image url="screens/stendhal/damage70.png"/>
       <image url="screens/stendhal/pk70.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>
 <p>Warriors, take note! For the rules of combat have changed, and to be ignorant of them is to be in mortal danger!!
@@ -741,6 +763,7 @@ Another piece of very good news is about Thanatos, the Death match Assistant. An
       <image url="screens/stendhal/angel69.png"/>
       <image url="screens/stendhal/choke69.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>
 <p>The threats of Blordrough's dark legion forces cooperation between citizens. Believe it or not, scientists and magicians set aside their beliefs and differences. 
@@ -759,6 +782,7 @@ They combine efforts to make an awesome piece of equipment that can be used to <
     <images>
       <image url="screens/stendhal/hideandseek.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Grannie played a game of hide and seek with the players tonight. She shouted clues and waited hidden to see who would turn up. Those who solved the clues were rewarded with chocolate, pizza, licorice and more treats! 
 <p>Congratulations to ladymacbeth for solving every clue and going to the correct places. Thanks to all who took part!
@@ -785,6 +809,7 @@ They combine efforts to make an awesome piece of equipment that can be used to <
       <image url="screens/stendhal/balrog681.png"/>
       <image url="screens/stendhal/house681.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>There's always work to do in Faiumoni. Recently we've been fixing leaks, patching up holes and oiling rusty mechanisms. With all these problems solved, you'll notice less bugs scuttling around. Another change you'll notice is that the number in brackets on your character panel after the ATK and DEF levels now shows the skills needed to level up to the next level. It will count down as you fight instead of counting up.
 
@@ -804,6 +829,7 @@ They combine efforts to make an awesome piece of equipment that can be used to <
       <image url="screens/stendhal/gnomevillage68.png"/>
       <image url="screens/stendhal/liljohnnnny68.png"/>
       </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Gossip has been spreading about the precious nuggets of mithril found deep in ados mountains. Some say there is a man who can cast them into mithril bars, which are yet more precious. Some even say that a shield can be forged out of this amazing metal. It's up to you to discover if there is any truth in these rumours.
 <p>
@@ -821,6 +847,7 @@ Have you money to spend? The traders of you will be delighted to hear of the mea
       <image url="screens/stendhal/hayunn67.png"/>
       <image url="screens/stendhal/heart67.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Mr and Mrs Yeti have a sweet little ice cave below Semos Mountain. Be like Mr Yeti, keep your loved one sweet, with a red rose from Fleur in Kirdneh. While you're there, why not visit the museum, drink in the inn, go to the bank or even buy a house!
 <p>
@@ -839,6 +866,7 @@ Enough of the blood and guts and back to a love story. Princess Esclara on Amazo
       <image url="screens/stendhal/signs66.png"/>
       <image url="screens/stendhal/map66.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Three months ago a major new version of our engine Marauroa was released. With it came potential for new, exciting features for Stendhal. In this release we are testing the possibilities.
 <p>New kinds of data storage are possible, using a zone for storage and not just the player. Examples now in game are signs which can be rented in Semos City. Also that admin can jail players who are offline, and they can be freed even if the server is restarted inbetween. Finally there is now a way to view an image from the game client, and the first image in game is a map of Semos, which Monogenes can show any player needing help with directions.
@@ -852,6 +880,7 @@ Enough of the blood and guts and back to a love story. Princess Esclara on Amazo
       <image url="screens/stendhal/xmas07.png"/>
       <image url="screens/stendhal/dead_lich.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Semos is decorated for Christmas! Santa feels right at home when he drops in, on his travels around the island. Find him to get your Christmas gift. With such lovely rewards you shouldn't need our latest new feature, which is called 'grumpy' because it allows you to ignore messages from anyone but your buddies. Do /help to find out more.
 <p>
@@ -870,6 +899,7 @@ Merry Christmas!
       <image url="screens/stendhal/annie64.png"/>
       <image url="screens/stendhal/dragon64.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Do you yearn for a faithful companion, a little beast who can stand up for himself? And just needs the occasional bit of meat to keep him happy? Then get your very own baby dragon and watch him grow wings. Of course, you'll need to find an egg from someone first... perhaps someone who lives or works amongst magicians?
 <p>
@@ -885,6 +915,7 @@ Many houses have now been redecorated in Ados, ready to sell. Just make sure you
       <image url="screens/stendhal/wizard63.png"/>
       <image url="screens/stendhal/amazon63.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>There's something 'huge' been happening in the world ... huge Fado
 great caves were discovered, full of cave trolls, madarams, and dragons. Huge
@@ -919,6 +950,7 @@ you will have fought as much as him ...]]>
       <image url="screens/stendhal/20070813_angel.png"/>
       <image url="screens/stendhal/20070813_fairies.png"/> 
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>
 Prison breakout! Duergars swarmed the prison below the dwarven kingdom of Kanmararn. Will you join the dwarves or leave them to their fate?
@@ -979,6 +1011,7 @@ We are working on a solution and will inform you when the issue is solved and th
       <image url="screens/stendhal/THM_20070622_2_stendhal.jpg"/>
       <image url="screens/stendhal/THM_20070622_3_stendhal.jpg"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
 
     <content>
       <![CDATA[<p>
@@ -1030,6 +1063,7 @@ Talking of ships, if you're on the Athor ferry, remember to fish for mackerel. Y
       <image url="images/articles/20070527_raid_1.jpg"/>
       <image url="images/articles/20070527_raid_2.jpg"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>
 Today, it has been a long day.
@@ -1056,6 +1090,7 @@ You can be our next hero! :)]]>
       <image url="screens/stendhal/THM_20070522_1_stendhal.jpg"/>
       <image url="screens/stendhal/THM_20070522_2_stendhal.jpg"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
 
     <content>
       <![CDATA[<p>
@@ -1091,6 +1126,7 @@ The bridge to Fado is open! Discover the delights of the city known across the l
       <image url="screens/stendhal/THM_stendhal_20070414.png"/>
       <image url="screens/stendhal/THM_stendhal_20070414_1.jpg"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
 
     <content>
       <![CDATA[<p>
@@ -1123,6 +1159,7 @@ High level players have had a boost recently. With the level cap of 99 removed, 
       <image url="images/articles/THM_stendhal_058.png"/>
       <image url="images/articles/THM_stendhal_058_1.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
 
     <content>
       <![CDATA[<p>
@@ -1140,6 +1177,7 @@ More than trouble lurks beneath the graveyard in Semos Plains North ... vampires
       <image url="images/articles/THM_quizgame_20070304.png"/>
       <image url="images/articles/THM_quizgame_20070304_1.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>
 The adventurers met for a pub quiz tonight in Semos Tavern. 16 people played, from level 10 up to level 91, led by quizmaster superkym. vesper is the brain box of the evening, he certainly had the fastest fingers, and Cutler deserves an honourable mention. Someone1234 impressed us by getting the final question right. We celebrated with a group photo and beers all round!
