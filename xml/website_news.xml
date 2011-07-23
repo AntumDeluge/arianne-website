@@ -12,8 +12,207 @@
       <![CDATA[<p>]]>
       </content>
   </item>
- -->
+-->
 
+  <item>
+    <title>Stendhal 0.95: Fixing the updater</title>
+    <date>14th July 2011</date>
+    <images>
+      <image url="screens/stendhal/text_box95.png"/>
+      <image url="screens/stendhal/andy95.png"/>
+    </images>
+    <content>
+	<![CDATA[<p>Stendhal's innovative client updates mean that our players don't have to do a new download for every new release. This requires that the packages are signed with a security certificate, and those expire once per year - requiring all players to download again! The updater has been rewritten to avoid this in the future while keeping secure, signed packages.</p>
+<p>Note: Webstart will automatically do a fresh download. The download-client will ask you to do a new <a href="http://arianne.sourceforge.net/download/stendhal.zip">download</a>.
+<p>
+In game, you'll notice changes to the Stendhal client text boxes which now attach to the bottom of the screen instead of obscuring game play. (If you didn't know, you can always click on them or hit ctrl-r to remove all text boxes on the screen). There are also two new quests to enjoy - head to Athor to help out John and Jane, or Ados Cemetery where you'll find Andy. 
+<p>
+Stendhal's server has been updated to Marauroa 3.8.7 which greatly improves performance, especially for games with very large numbers of players. Also, any slowness in the database no longer causes the client to timeout on login.
+<p>
+A full list of changes can be read at our <a href = "http://arianne.sourceforge.net/game/stendhal.html#changes">change log.</a>]]>
+      </content>
+  </item>
+ <item>
+    <title>Stendhal 0.94: Preparing for server migration</title>
+    <date>4th June 2011</date>
+    <images>
+      <image url="screens/stendhal/servermove94.jpg"/>
+      <image url="screens/stendhal/help94.png"/>
+      <image url="screens/stendhal/question94.png"/>
+    </images>
+    <content>
+      <![CDATA[<p>
+<b>Update</b>: The server migration was successful and fast. Our case study document <b><a href = "http://stendhalgame.org/wiki/Moving_the_Stendhal_server_to_a_new_host">'Moving the Stendhal server to a new host'</a></b> explains the details and would act as a good introduction to some game engine and database concepts.<p>
+It's not always easy to know what people want to hear, in conversation. As Monogenes explains, safe topics of conversation you can always try for an NPC who is listening to you include keywords like job, help, offer, quest. In this case, a small 'ear' icon shows that the NPC is listening. Sometimes a question is asked which requires a yes/no answer, or a specific other trigger word is expected. In this case, the small 'ear' icon will now have a '?' sign over it. This is to indicate that a special response is expected - so read what the NPC has said, carefully! 
+<p>
+The response to role play <a href="http://stendhalgame.org/wiki/Stendhal_Achievements">achievements</a> has been overwhelmingly positive and we have added a few new achievements to aim for. Login and check out your character page on the website to see what you are missing! As before, the aim of these achievements is to encourage richness and variety of role playing experience. 
+<p>There are a few other changes and bug fixes which you can get more details on at the <a href = "http://arianne.sourceforge.net/game/stendhal.html#changes">change log</a>.
+<p>
+Mostly this month has been behind the scenes work - to prepare for a server migration, which will happen soon. Extensive preparation means that the downtime for the game itself should be very short. The server name <a href="http://stendhalgame.org">stendhalgame.org</a> will not change. Except for a short downtime, the migration will not have any visible effects. A write-up will follow, for those interested in the technical details of how we would manage a server migrate with only a short downtime, when we need to transfer huge quantities of persistent game data and logged events.
+]]>
+      </content>
+  </item>
+
+ <item>
+    <title>Stendhal 0.93: Birth, life and death</title>
+    <date>12th April 2011</date>
+    <images>
+      <image url="screens/stendhal/easter93.png"/>
+      <image url="screens/stendhal/waterspring93.png"/>
+      <image url="screens/stendhal/corpses93.png"/>
+    </images>
+    <content>
+      <![CDATA[<p>Easter is coming, and we celebrate the cycle of birth, life and death. Flowers are flourishing and our favourite Easter Bunny will 
+be dropping small chocolate eggs as he roams the island. Did you know that eggs are a symbol of new life?
+<p>
+Water, the elixir of life, bubbles fresh from a waterfall south of Nal'wor, and you can collect it if you bring something to catch it. A certain thirsty Fado dweller would be happy if you could take him some.
+<p>
+Do you find life gets particularly exciting in battles to the death? Then try the Ados Deathmatch. As your level increases you now get more time to kill each creature, especially if you are fighting alone. 
+<p>
+At the end of the life cycle is death, and for those who kill many creatures, corpse looting got more convenient. Corpses will open immediately for loot as you kill a creature, and close when it is empty. This means even if another creature (or player) got in the way, you can still claim what is rightfully yours. A helpful legend lets you know which poor critter died, and for a short time your corpses can't be thrown too far by others, as though they were weighed down by protective magic.
+<p>
+Please join us for this celebration at Easter time, and feel free to check out the other changes at the <a href = "http://arianne.sourceforge.net/game/stendhal.html#changes">change log</a>.]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Marauroa 3.8.6 released</title>
+    <date>12th April 2011</date>
+    <content>
+      <![CDATA[<p>Marauroa 3.8.6 features performance optimisations for RPObject, by reducing the number of instantiations and creating internal maps and lists only on demand. More changes at the <a href = "http://arianne.sourceforge.net/engine/marauroa.html#changes">change log.</a>]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 0.92: Achievements and Expedition Groups</title>
+    <date>26th February 2011</date>
+    <images>
+      <image url="screens/stendhal/achievement92.png"/>
+      <image url="screens/stendhal/jef92.png"/>
+      <image url="screens/stendhal/groups92.png"/>
+    </images>
+    <content>
+      <![CDATA[<p>
+Being a true hero is about much more than just killing creatures, it's even more than completing quests and gaining experience. A true hero is alive to the opportunities offered to him, he explores the world's furthest reaches, samples everything he can try and collects rare items. Your challenge is to reach all <a href="http://stendhalgame.org/achievement.html">possible achievements</a>! Compare to your friends, too, here is <a href="http://stendhalgame.org/character/madmetzger.html#achievements">madmetzger</a>, who developed achievements, as an example.
+<p>
+One quest related achievement is to complete all quests for those living in Semos City and Village - and there's a new one for you to try - grow a sheep for Nishiya! Another is to help all children in the world, as they need extra special help. Jef in Kirdneh has lost his mom, could you help find her? 
+<p>
+Adventures and expeditions can be fun with your friends around you. If you agree with this sentiment, try forming an <a href = "http://stendhalgame.org/wiki/Stendhal_Groups">expedition group</a> the next time you all go out to fight. All group members can then immediately access corpses for looting, no matter who from the expedition group killed the creature. You get a group chatting channel, and can see the health of your friends in the group in a dedicated groups tab. Our vision is that these groups are quite dynamic in nature, where players will leave and join new expedition groups as each adventure requires. A longer term plan is the creation of a guild system, for lasting groupings of players and with different features, existing alongside expedition groups.
+]]>
+      </content>
+  </item>
+
+ <item>
+    <title>Stendhal 0.91: Quest progress</title>
+    <date>2nd January 2011</date>
+    <content>
+      <![CDATA[<p>
+Did you know how many people are in the world and what quests you have completed for them?
+What tasks have you been asked to do that you've forgotten about ...? With <b>over 250 NPCs</b> to meet and <b>nearly 100 quests</b> to complete it can be easy to forget the details!
+<p>
+This progress log shows your quest history, with details on both open and completed quests, for every quest in the game. This is experimental - so we welcome your feedback* - perhaps we have put in too many details, or too few? Is anything unexpected? <a href ="http://stendhalgame.org/character/kymara.html">kymara</a> did the huge task of filling the possible logs that can be generated for each quest, with help from <a href = "http://stendhalgame.org/character/Bluelads4.html">Bluelads4</a> especially for testing. <a href ="http://stendhalgame.org/character/kiheru.html">kiheru</a> made the very nice dialog, which our beta <a href = "http://stendhalgame.org/wiki/Stendhal_Testing">testers</a> commented was better to have as a separate window so that it can be left open while playing without covering the game screen.
+   <div align="center"><a href="/screens/stendhal/questlog91.png"><img src="/screens/stendhal/questlog91.png" alt="Stendhal 0.91 Progress Log screenshot" width="100%" height="100%"/></a></div>
+<p>
+If you think you've done all the quests here's a least one new one for you: help Anastasia, who lives on Ados farm, to heal her son. To read about all the other changes please see our <a href = "http://arianne.sourceforge.net/game/stendhal.html#changes">change log.</a>
+<p>
+*Feel free to use <i>/support</i> to provide your feedback in game, or open a <a href="http://stendhalgame.org/development/bug.html">bug report</a>. Thank you and Happy New Year to all!
+   ]]>
+   </content>
+  </item>
+ 
+
+  <item>
+    <title>Stendhal 0.90: Seasons Greetings</title>
+    <date>10th December 2010</date>
+    <images>
+      <image url="screens/stendhal/santa90.png"/>
+      <image url="screens/stendhal/elisabeth90.png"/>
+      <image url="screens/stendhal/findbugs90.png"/>
+    </images>
+    <content>
+      <![CDATA[<p>Merry Christmas everyone! Semos is decorated for Christmas and soon Santa could be delivering presents on a street near you. There's plenty of treats available for Christmas, try crepes from a ratty chef, take chocolate to a hungry little girl, or to continue the theme of goodwill, help a scared man in the Kirdneh region. 
+<p>
+Jynath and Katerina decided to compromise for Christmas and both change their healing prices, as Katerina was undercutting Jynath's market! Now they charge the same. The magic of corpse protection is also working in a fairer way, thanks to some magic wand waving.
+<p>
+The team actively deal with bugs (which are, after all, a fact of life) and implement feature requests on an ongoing basis. Recently a one man drive by <a href = "http://stendhalgame.org/character/axelf.html">martinf</a> to reduce the number of <a href = "http://stendhalgame.org/hudson/job/stendhal_HEAD/">code warnings</a> has resulted in the graph you see right. Although not affecting your gameplay in Stendhal, fixing all these warnings means better code and therefore a better future!
+<p>
+Please see the <a href = "http://arianne.sourceforge.net/game/stendhal.html#changes">change log</a>  for all changes, and happy Christmas!
+]]>
+      </content>
+  </item>
+ 
+  <item>
+    <title>Stendhal 0.89: Food, flowers and fights!</title>
+    <date>24th November 2010</date>
+    <images>
+      <image url="screens/stendhal/pies89.png"/>
+      <image url="screens/stendhal/torcibud89.png"/>
+      <image url="screens/stendhal/bobby89.png"/>
+      <image url="screens/stendhal/flowers89.png"/>
+      <image url="screens/stendhal/selector89.png"/>
+      <image url="screens/stendhal/orb89.png"/>
+    </images>
+    <content>
+      <![CDATA[<p>Mmmm.... are you hungry? Faiumoni is having quite some food festival, with sisters Gertha and Martha baking pies packed with cherries and apples. There's new fish to angle for on Amazon island, and elsewhere you'll find garlic and artichokes growing. You can harvest sugar cane, and collect eggs from hen's nests. To wash down all this food you'll need a tasty drink, perhaps koboldish torcibud? For that you'd need fierywater, which is where sugar cane will come in handy. You can meet the distiller in Ados market. 
+<p>
+Did you get a balloon from the game at the Semos Mine Town Revival Weeks? If so then perhaps you can make a small boy, Bobby from Fado, really happy. He'll reward you kindly, if you give it to him. Another friendly thing you could do for others would be to plant flowers in the plains north of Semos. Jenny's selling new seeds and bulbs, there's never been a better time to beautify the world. House owners can also plant flowers on a patch in their home.
+<p>
+Flowers and food not interesting you? Perhaps you're a hard core slayer of dragons, goblins, orcs and demons? Then you'll be happy to hear that if YOU were the one to take the hits from a creature YOU'll have first chance to loot the corpse. Others will have to wait! Still, if you do want to share the winnings perhaps the control-drag-and-drop quantity selector will be useful. For those who watch others battle in exciting matches to the death, there's been a fun new addition to the Deathmatch arena. Thanatos has installed scrying orbs, which allow the viewer to see right inside the arena, just perfect for seeing all the action.
+<p>
+There's a whole lot more changes to read about at the <a href = "http://arianne.sourceforge.net/game/stendhal.html#changes">change log</a> so do check it out.]]>
+      </content>
+</item>
+
+
+  <item>
+    <title>Marauroa 3.8.4 released</title>
+    <date>23rd November 2010</date>
+    <content>
+      <![CDATA[<p>Marauroa 3.8.4 is released. Marauroa 3.8.4 adds features for supporting a game test server sharing a database with a production game server. We're making use of this for <a href = "http://stendhalgame.org/wiki/Stendhal_Testing">Stendhal testing</a> and if you want to try the same you can follow our <a href = "http://stendhalgame.org/wiki/Testserver_with_shared_database">guide</a>. For more changes please see <a href="/engine/marauroa.html#changes">marauroa's changelog</a>.]]>
+      </content>
+  </item>
+
+
+  <item>
+    <title>Stendhal 0.88: Newcomers and new trading</title>
+    <date>15th October 2010</date>
+    <images>
+      <image url="screens/stendhal/barbarus88.jpg"/>
+      <image url="screens/stendhal/florence88.png"/>
+      <image url="screens/stendhal/trade88.png"/>
+    </images>
+    <content>
+      <![CDATA[<p>
+Autumn, tis the season for migration. And Ados seems to be the city to migrate to, with many new dwellers arriving here. Undeterred by the food shortages, these entrepreneurs will cook for you if you bring them what they need. If you visit Ados market, to the north of the city, you can try a tasty fish soup or a perfectly grilled steak. Elsewhere in Ados you'll find other newcomers, so please be sure to stop for a chat and welcome them here.
+<p>
+We'd like to commend Harold who recently started his job as a Trading Manager and has been doing ever so well <a href="http://twitter.com/stendhaltrade">advertising the trades.</a> Still, if two players already want to trade, they don't need to use Harold ... but the days of the old trading table in Semos Bank are over. Now you can complete a direct trade by standing with your trading partner and right clicking on them to bring up a Trading Window. Try it out, but don't forget poor Harold for those tentative sales where you're still looking for a buyer ... <small>The makers of <a href="http://stendhalgame.org">Stendhal</a> would like to apologise to Harold for any loss in sales the new Trading Window could cause.</small>
+<p>
+You can learn more about these changes and read about all the rest at the <a href = "http://arianne.sourceforge.net/game/stendhal.html#changes">change log.</a>
+]]>
+      </content>
+  </item>
+
+
+  <item>
+    <title>Stendhal 0.87.1: Bug fix release</title>
+    <date>14th September 2010</date>
+    <content>
+      <![CDATA[<p>Some issues with the 0.87 client for Windows users were reported after release. We hope that with 0.87.1 they are fixed, but if you still have issues please contact /support in game with your Operating System, Java version and Graphics card details. Thank you for your understanding.]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 0.87: New client!</title>
+    <date>13th September 2010</date>
+    <content>
+      <![CDATA[<p>Thanks to a lot of hard work from <a href ="http://stendhalgame.org/character/kiheru.html">kiheru</a> we're happy to announce the fulfilment of our most frequently requested feature enhancement - floating windows off the main game screen. Your bag, keyrings, settings and character panel will no longer obscure the game view!
+   <div align="center"><a href="/screens/stendhal/client87.png"><img src="/screens/stendhal/client87.png" alt="Stendhal 0.87 client screenshot" width="100%" height="100%"/></a></div>
+<p>
+As you can see we're pictured above with postman. Sometimes it's nice to read messages you received a while ago, or even ones you sent. Now you can check your old postman messages and read new ones by checking online at  <a href="https://stendhalgame.org/account/messages/to-me.html">stendhalgame.org</a>. Postman will also now take messages for you when you are marked away in game, and when you return from being away he'll send you any messages left for you in that time. You can learn more about these changes and read about all the rest at the <a href = "http://arianne.sourceforge.net/game/stendhal.html#changes">change log.</a>
+<p>
+<a href="http://arianne.sourceforge.net/download/stendhal-FULL.zip">Download the new client now!</a>]]>
+      </content>
+  </item>
 
 <item>
     <title>Stendhal 0.86: The Wizards Circle</title>
@@ -495,7 +694,7 @@ So, players have learnt a number of new abilities - what about creatures? Not to
 
  <item>
     <title>Stendhal 0.71: Semos Mine Town Revival Weeks!</title>
-    <date>30 November 17:03:00</date>
+    <date>30 November 2008 17:03:00</date>
     <images> 
       <image url="screens/stendhal/outfit71.png"/>
     </images>
@@ -510,7 +709,7 @@ Another piece of very good news is about Thanatos, the Death match Assistant. An
 
   <item>
     <title>Stendhal 0.70: Rules of War</title>
-    <date>3 October 13:30:05</date>
+    <date>3 October 2008 13:30:05</date>
     <images> 
       <image url="screens/stendhal/damage70.png"/>
       <image url="screens/stendhal/pk70.png"/>
@@ -536,7 +735,7 @@ Another piece of very good news is about Thanatos, the Death match Assistant. An
   </item>
  <item>
     <title>Stendhal 0.69: Wrath of Angels</title>
-    <date>12 August 17:55:00</date>
+    <date>12 August 2008 17:55:00</date>
     <images>
       <image url="screens/stendhal/angel69.png"/>
       <image url="screens/stendhal/choke69.png"/>
@@ -555,7 +754,7 @@ They combine efforts to make an awesome piece of equipment that can be used to <
 
   <item>
     <title>Hide and Seek!</title>
-    <date>3 July 22:00:00</date>
+    <date>3 July 2008 22:00:00</date>
     <images>
       <image url="screens/stendhal/hideandseek.png"/>
     </images>
@@ -578,7 +777,7 @@ They combine efforts to make an awesome piece of equipment that can be used to <
 
   <item>
     <title>Stendhal 0.68.1: Fix it and tidy up</title>
-    <date>30 June 20:45:00</date>
+    <date>30 June 2008 20:45:00</date>
     <images>
       <image url="screens/stendhal/coast681.png"/>
       <image url="screens/stendhal/honeymoon681.png"/>
@@ -598,7 +797,7 @@ They combine efforts to make an awesome piece of equipment that can be used to <
 
  <item>
     <title>Stendhal 0.68: Gnome Sweet Gnome</title>
-    <date>29 May 21:04:00</date>
+    <date>29 May 2008 21:04:00</date>
     <images>
       <image url="screens/stendhal/dragonlair68.png"/>
       <image url="screens/stendhal/gnomevillage68.png"/>
@@ -614,7 +813,7 @@ Have you money to spend? The traders of you will be delighted to hear of the mea
   </item>
  <item>
     <title>Stendhal 0.67: Happy Valentines</title>
-    <date>14 Feb 11:59:00</date>
+    <date>14 Feb 2008 11:59:00</date>
     <images>
       <image url="screens/stendhal/yeti67.png"/>
       <image url="screens/stendhal/keep67.png"/>

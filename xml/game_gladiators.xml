@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <game name="gladiators" shortdescription="A multiplayer online gladiators combat game">
-  <updated date="2004/07/06"/>
+  <updated date="2004-07-06"/>
   <status value="archived"/>
   <type value="game"/>
   <version id="0.08.5.3"/>  

@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <game name="marboard" shortdescription="Marboard is an early prototype of an easy to use vector graphics program allowing live collaboration">
-  <updated date="2010/02/23"/>
+  <updated date="2010-02-23"/>
   <version id="0.12"/>
   <type value="tool"/>
   <status value="beta"/>

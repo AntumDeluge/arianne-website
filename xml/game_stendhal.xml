@@ -1,15 +1,15 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2010/07/28"/>
-  <version id="0.86.1"/>
+  <updated date="2011-07-14"/>
+  <version id="0.95"/>
   <status value="stable"/>
   <type value="game"/>
   <cssdoc url="css/stendhal.css"/>
   <rated>
-    <entry>
-      <![CDATA[
+<!-- broken link   
+    <entry><![CDATA[
       <a href="http://happypenguin.org/show?stendhal"><img src="http://happypenguin.org/rateomatic?stendhal"></a>]]>    
-    </entry>
+    </entry> -->
     <entry>
       <![CDATA[<a href="http://freshmeat.net/projects/stendhal/"><img src="/images/fm_logo.png"></a>]]>    
     </entry>
@@ -51,6 +51,263 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://stendhalgame.org/wiki/StendhalManual"/>  
   <changelog><![CDATA[
+<p><b>0.95</b>
+<br><b>**** IMPORTANT****
+<br>If you package Stendhal or have forked your own game based on it
+<br>read http://stendhalgame.org/wiki/Automatic_Software_Updater
+<br>******************</b>
+
+<br>- rewrote the updater so that it will not break onces a year anymore because the certificate expires
+<br>- on Unix/Linux the home folder now defaults to $HOME/.config/stendhal for new installs
+<br>- improved the best player score for low level players: http://stendhalgame.org/wiki/Fixing_RP_Score_2011
+
+<br><b>* Marauroa*</b>
+<br>- updated to Marauroa 3.8.7 which greatly improves server side performance
+
+<br><b>*client*</b>
+<br>- text boxes are now attached to the bottom of the screen
+<br>- renamed the stendhal-FULL-0.xx.zip to stendhal-0.xx.zip. 
+  the extra client without sound made sense a long time ago
+  when the full client had twice the size of the soundless client.
+
+<br><b>*world*</b>
+<br>- John and Jane on Athor island have a disrupted holiday
+<br>- Andy, at Ados cemetery, seeks revenge
+<br>- Harold pays owed earnings instantly on start of dialogue
+
+
+
+<br><b>*fixes*</b>
+<br>- fixed not showing zone achievements
+<br>- fixed webstart which did not work on the most recent OpenJDK version (Ubuntu 11.04, SuSE)
+
+<p><b>0.94</b>
+<br>- new achievements active: interior zones, DM points, completed quests, red armor set
+<br>- increased time for expired items and earnings on the market at Harold
+<br>- over<br>-eating clears the food list and makes the player sick, instead of killing them
+<br>- empty corpses are not automatically inspected
+<br>- NPCs who await a specific response (e.g. for a question) have a special icon
+
+<br><b>*bugfixes*</b>
+<br>- fixed right clicking on sources, fishing spots, etc.
+<br>- On Mac cmd+dragging opens the item split window
+<br>- client error log now works in the webstart client, too
+<br>- a number of small map fixes
+
+<br><b>*admin*</b>
+<br>- added new zone int_abstract_admin_investigation for investigation of account issues
+<br>- added new zone int_abstract_server_down for operating Stendhal on a read only database copy
+
+<br><b>*website*</b>
+<br>- achievements on character pages now have a mouse over box
+<br>- nicer layout for chat logs and log selection
+<br>- improved performance of Recent Events page
+<br>- improved performance of pages with many images
+
+<p><b>0.93</b>
+
+<br><b>*world*</b>
+<br>- added ghost hound (rare) to Semos mountain cemetery
+<br>- Imorgen and her mother Mircea moved into a house in Fado forest
+<br>- deathmatch creature spawn time dependent on player level and (inversely) on number of players in ring
+<br>- get fresh water at some hidden new springs
+<br>- Kill Enemy Army quest history with more detail and records number of completions
+<br>- Xhiphin Zohos is thirsty and asks for water 
+<br>- decorated Semos for Easter
+<br>- Easter Bunny drops small easter eggs as he walks
+
+<br><b>*features*</b>
+<br>- Easter Bunny launchable via script
+<br>- corpse auto inspect mode in settings panel
+<br>- inspected corpses auto close when empty
+<br>- corpse window title is the dead creature / player
+<br>- corpses cannot be thrown far by other players if they're protected
+
+<br><b>*website*</b>
+<br>- new rankings for best player and hall of fame using achievements
+<br>- My & My Friends view shows true rankings
+<br>- support for special achievements from one off events
+
+<br><b>*fixes*</b>
+<br>- Ambers way changed a bit for holding her back from Aldrin
+<br>- Jef answers to all keywords now he has information for
+<br>- death penalty rounded before application and reported as suitable precision to player
+<br>- daily/weekly quests are restarted immediately when aborted
+<br>- daily monster quest creature to kill can't be requested again by Mayor if it was aborted this time
+<br>- fix buying daisies seeds
+<br>- improvements in understanding item names when talking with merchandizers, e.g. "solid plate shields"
+<br>- fixed "porcino" singular and made NPC parser understand (some) misspelled words like "porcinis"
+<br>- non<br>-exact answer matching in the fishermans license quiz
+<br>- recognise the expressions "ice cream" and "teddy bear"
+<br>- fix display texts for "ice cream"
+<br>- Alrak and Pequod give the bobbin/oil directly when saying 'make' (as well as 'remind') if item is ready
+<br>- fix a memory hole in the market
+
+<p><b>0.92</b>
+
+<br><b>*features*</b>
+<br>- achievements system with notification in game of reached achievement and website integration
+<br>- group system for sharing loots and chatting
+<br>- show Production activity in the Travel Log
+<br>- settings dialog for sound, clickmode, decorative fonts
+
+<br><b>*world*</b>
+<br>- sheep growing quest from Nishiya
+<br>- Help Jef by finding his mom, Amber, in a new quest
+<br>- Caroline moved into her refurbished house in Ados 
+<br>- the required item to collect (if chosen from a list) is displayed in more quest histories
+<br>- message about where you died, on death
+<br>- sound on level up
+<br>- configurable archer range: orc spearman can throw further
+<br>- damage type of the arrows is used for archer players
+<br>- player killers pay more to get healed by NPCs
+<br>- NPCs who can list what produced items are available in the world. Katerina and Alice Farmer are examples
+
+<br><b>*client*</b>
+<br>- character selection screen has a grid layout
+<br>- a GUI to aid group management
+<br>- better multi-monitor behaviour
+
+<br><b>*fixes*</b>
+<br>- numerous small gui code fixes
+<br>- all defined achievements can now be reached
+<br>- simplified chest syncing to remove flicker
+<br>- NPC conversation with improved and unified responses of producers and merchandisers
+<br>- improved server side performance by changing Creature.getArea() to not create lots and lots of short lived objects
+
+<p><b>0.91</b>
+
+<br><b>*world*</b>
+<br>- full health bonus when you level up
+<br>- support answers via postman are orange
+<br>- Caroline (daughter of Fritz) is at Ados market
+<br>- greeting of NPCs by name
+<br>- NPCs can hear at different distances (e.g. you need to get closer to Harold but you can be further from the DM assistant)
+<br>- Stefan and Damon attend the Fado hotel
+<br>- progress log which opens in a separate window, giving detailed information about open and closed quests
+<br>- quest to help Anastasia's sick son
+
+<br><b>*fixes*</b>
+<br>- add buddies only once to the buddy list and display their canonical name
+<br>- removing buddies who weren't on your list gives correct message
+<br>- Herbs for Carmen quest simplified
+<br>- word list improvements
+<br>- NPC text matching improvements
+
+<p><b>0.90.1</b>
+<br>- fixed a bug which prevented logging in without at least one saved profile
+
+<p><b>0.90</b>
+
+<br><b>*world*</b>
+<br>- quest for Ortiv Milquetoast in Kirdneh River House
+<br>- Gaston, a Rat chef in Rat City bakery that will prepare the best crepes suzette au chocolate in town
+<br>- Erna lends kitchen equipment
+<br>- Karl sells sacks, Philomena sells butter
+<br>- Elisabeth and her mother Carey found their way to Kirdneh
+<br>- quest Chocolate For Elisabeth on Kirdneh playground
+<br>- Semos is decorated for Christmas
+<br>- Santa is visiting (and can now be made to leave after Christmas on time)
+<br>- changed corpse protection logic to be fairer
+<br>- Katerina and Jynath both heal at same price (they compromised on price, to have two locations of equally cheap healing)
+
+<br><b>*fixes*</b>
+<br>- Wikipedian follows redirects
+<br>- positioning of entities to fix character position, attacking circles, creature placement errors
+<br>- vaults and adventure island correctly flagged as interior zones so players shouldn't land in the wrong zone
+<br>- fixed some fish sources in amazon
+<br>- 70% of FindBugs warnings and most of all Eclipse warnings fixed
+<br>- all tests now pass using the Eclipse JUnit plugin
+
+<p><b>0.89</b>
+
+<br><b>*features*</b>
+<br>- quantity selector for control-drop
+<br>- corpses have resistance
+<br>- scrolls can be labelled with /markscroll command
+<br>- cancel client download if the user closes the progress bar window and confirms the dialog
+<br>- corpses have loot protection to anyone but the defender of the hits for a short time after death
+
+<br><b>*world*</b>
+<br>- Eheneumniranin, a half<br>-elf that lost his memories. He harvests the grain field in ados forest farm area
+<br>- Gertha and Martha in Kalavan city gardens, they'll bake delicious apple and cherry pies
+<br>- Wrviliza, a kobold barmaid in Wo'fol bar, she also provide new drinks (mild and strong koboldish torcibud)
+<br>- Kormic, a kobold regular in Wo'fol bar
+<br>- Uncle Dag in Ados market, he runs a distillery stand there and produces fierywater
+<br>- Gaston, a Rat chef in Rat City bakery 
+<br>- quest in Wo'fol (the reward is V.S.O.P. koboldish torcibud)
+<br>- artichoke, garlic, mandragora (a magical herb) and zantedeschia (a flower) and cane fields are growing in Faiumoni
+<br>- hen nests spawn eggs
+<br>- new types of empty bottles
+<br>- sickles can be used to harvest sugar cane
+<br>- a new fish<br>-source on Amazon island
+<br>- red lionfish can be sold on the Athor ferry
+<br>- ados swamp and surroundings has a new landscape
+<br>- Bobby, a small boy in Fado, waits for some visitors
+<br>- scrying orbs around the deathmatch arena
+<br>- dead gnarled and twisted trees and bushes in the Orcs pit
+
+<br><b>*code*</b>
+<br>- fixed calculation of player ages (it assumed that a second was 3*300ms)
+<br>- all NPCs defined with a zone configurator (standardisation across code)
+<br>- old style quests refactored to use standard conditions and actions
+<br>- drawing of the ground layers sped up
+
+<p><b>0.88</b>
+
+<br><b>*features*</b>
+<br>- right click on a player to start trading with them using a GUI
+<br>- corpse and chest windows raise themselves if one with an already open window is inspected
+<br>- buddies are sorted first by online status, then by name
+<br>- don't reset to townhall on minor releases
+<br>- deathmatch assistant announces completion and player can directly claim victory
+
+<br><b>*world*</b>
+<br>- new NPC Andy in Ados near the church
+<br>- new NPC Haunchy Meatoch on Ados market with a new quest
+<br>- new NPC Florence Boullabaisse on Ados market who will make a tasty Fish Soup for you
+<br>- new NPC Fritz on Ados market
+<br>- new NPC Barbarus in Semos Mine
+<br>- new NPC Ortiv Milquetoast in Kirdneh River House 
+<br>- new music in Orril Castle
+<br>- new items fish soup, garlic, grilled steak, coal, pick, red lionfish
+<br>- coal sources for extracting coal
+<br>- added garlic to Sues sales list
+<br>- new game for Semos Mine Town Revival Weeks: 9 switches
+<br>- Mayor Chalmers enlisted the Pied Piper to help with the rat problem
+
+<br><b>*website*</b>
+<br>- animated/large NPCs like tomi and vulcanus now have an image
+<br>- display ranks on character page 
+
+<p><b>0.87.1</b>
+<br>- fixed issue making client unresponsive for Windows users
+
+<p><b>0.87</b>
+<br><b>*world*</b>
+<br>- NPCs have an 'ear' icon when they are attending a player
+<br>- private messages can't be sent to an /away player - use postman
+<br>- players returning from /away automatically get stored postman messages sent to them
+<br>- own pets and sheep drawn on minimap
+<br>- hoeing NPC in Semos Plains North East
+<br>- added new NPC Marla to Ados
+<br>- added some new descriptions to NPCs
+
+<br><b>*website*</b>
+<br>- read postman messages to and from your characters
+<br>- redesign character page layout, with equipment arranged like in stendhal client
+<br>- 'Recent Events' shows what has been happening in the world
+<br>- added mouse over tips for items and monsters
+
+<br><b>*client*</b>
+<br>- Game screen ported to swing
+<br>- Drag and drop drawn to a layer above everything
+<br>- Bag, character, keyring and settings moved out of the game screen
+
+<br><b>*code*</b>
+<br>- improved performance of pathfinder
+<br>- use external program for twitter access instead of disabled http basic auth API
+
 <p><b>0.86.1</b>
 <br><b>*bugfixes*</b>
 <br>- If floating windows were saved under settings panel, move them on login
@@ -315,14 +572,6 @@ your error log files and please continue to do so.
     <image name="20051023_stendhal.jpg"/>
   </screenshots>
   <files>
-    <file type="FULL binary with sounds" name="stendhal-FULL-XXX.zip">
-      <description>This file contains the FULL stendhal client with sounds. Download this to play online.</description>
-      <os>
-        <entry name="win32" status="100"/>
-        <entry name="linux" status="100"/>
-        <entry name="macosx" status="100"/>
-      </os>
-    </file>
     <file type="binary" name="stendhal-XXX.zip">
       <description>This file contains the stendhal client. Download this to play online.</description>
       <os>

@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <client name="ariannexp">
-  <updated date="2004/07/06"/>
+  <updated date="2004-07-06"/>
   <version id="0.12"/>  
   <description><![CDATA[ 
 	ariannexp is arianne's framework for client developing.

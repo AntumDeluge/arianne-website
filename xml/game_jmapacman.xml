@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <game name="jmapacman" shortdescription="A multiplayer online Pacman game">
-  <updated date="2005/07/02"/>
+  <updated date="2005-07-02"/>
   <version id="0.3"/>
   <type value="game"/>
   <cssdoc url="css/jmapacman.css"/>

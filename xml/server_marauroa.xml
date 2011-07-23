@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <server name="marauroa">
-  <updated date="2010/07/25"/>
-  <version id="3.8.1"/>  
+  <updated date="2011-07-14"/>
+  <version id="3.8.7"/>  
   <status value="complete"/>
   <rated>
    <entry>
@@ -65,11 +65,48 @@ For (lots) more information on Marauroa please see <a href = "http://stendhalgam
     <a href="http://arianne.sourceforge.net/wiki/index.php/InitialStepsWithMarauroa">Initial steps with Marauroa</a> for detailed,
     simple instructions about how to build and use marauroa.
     
-    Remember that Marauroa is just a server middleware and so you need a game to do anything with Marauroa.
+    Remember that Marauroa is server middleware and so you need a game to do anything with Marauroa.
     ]]>
   </extended>
   <changelog><![CDATA[
 
+<br><b>3.8.7</b>
+<br>- performance improvement by not deep copying all player objects every turn.
+<br>- performance improvement by skipping RPObject.id validation during cloning of RPSlots
+<br>- performance improvement by removing redundant calls to Attribute.has() and RPObject.getID()
+<br>- increased client side timeout while the server is processing the login (may do slow database queries)
+<br>- defined better indices for loginEvent designed to answer the number of recently failed logins question fast
+
+
+<br><b>3.8.6</b>
+<br>- performance optimization in RPObject.getDifference() by drastically reducing the number of RPobject instantiations
+<br>- performance optimization in RPObject to create internal list/map objects only on demand
+<br>- build script now creates an additional minized jar file for clients: marauroa-client-only.jar
+<br>- improved messages on errors in server.ini
+
+<br><b>3.8.5</b>
+<br>- fixed an issue on account renaming
+<br>- fixed an issue with special characters in character names
+<br>- zones are now stored asynchronously to the database
+<br>- fixed a co-modification issue in Attributes.clone() and Statistics.clone()
+
+
+<br><b>3.8.4</b>
+<br>- fixed "Replacing content to transfer"
+<br>- added configurations parameters allow_account_creation and allow_character_creation
+<br>- added new Result.FAILED_CREATE_ON_MAIN_INSTEAD of account/character if it was disabled
+<br>- fixed bogus error message about accessing available transactions on closing the TransactionPool
+
+<br><b>3.8.3</b>
+<br>- security fix preventing multiple logins of the same character on MySQL
+<br>- increased visibility of RPSlot.getOwner() to protected
+
+<br><b>3.8.2</b>
+<br>- always call rewriteSql
+<br>- speed up first connection time on servers with low entropy
+<br>- increased visibility of RPSlot.add(RPObject object, boolean assignId) to protected
+<br>- add method to check the length of a column during database update
+<br>- added new Result.FAILED_OFFLINE of account/character creation to be used when the server is not reachable
 <br><b>3.8.1</b>
 <br>- added new method ClientFrameWork.sendKeepAlive for keeping the connection open more than 10 minutes in the character selection state pre game
 <br>- added new method DBCommandQueue.getOneResult
