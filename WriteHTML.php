@@ -96,7 +96,7 @@ function WriteNewsItemHtml($item)
           }
         }
         if (isset($item['playnow'])) {
-          echo '<a href="'.$item['playnow']['0 attr']['url'].'" style="display:block;float:right;width:250px;clear:right">';
+          echo '<a href="'.$item['playnow']['0 attr']['url'].'" style="display:block;float:right;width:250px;height:42;clear:right">';
           echo '<img style="margin-right:40px; width:170px; height:42" class="news_image" src="/'.$item['playnow']['0 attr']['image'].'"></a>'."\r\n";
         }
         echo '<div class="newscontent_image">'.$item['content'][0].'</div>';
