@@ -21,6 +21,7 @@
       <image url="screens/stendhal/text_box95.png"/>
       <image url="screens/stendhal/andy95.png"/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
 	<![CDATA[<p>Stendhal's innovative client updates mean that our players don't have to do a new download for every new release. This requires that the packages are signed with a security certificate, and those expire once per year - requiring all players to download again! The updater has been rewritten to avoid this in the future while keeping secure, signed packages.</p>
 <p>Note: Webstart will automatically do a fresh download. The download-client will ask you to do a new <a href="http://arianne.sourceforge.net/download/stendhal.zip">download</a>.

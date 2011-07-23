@@ -92,8 +92,12 @@ function WriteNewsItemHtml($item)
         {
         if(is_array($image))
           {
-          echo '<img class="news_image" src="/'.$image['url'].'" alt="Game screenshot">';
+          echo '<img class="news_image" src="/'.$image['url'].'" alt="Game screenshot">'."\r\n";
           }
+        }
+        if (isset($item['playnow'])) {
+          echo '<a href="'.$item['playnow']['0 attr']['url'].'" style="display:block;float:right;width:250px;clear:right">';
+          echo '<img style="margin-right:40px; width:170px; height:42" class="news_image" src="/'.$item['playnow']['0 attr']['image'].'"></a>'."\r\n";
         }
         echo '<div class="newscontent_image">'.$item['content'][0].'</div>';
         echo '</div>';
@@ -105,9 +109,9 @@ function WriteNewsItemHtml($item)
       // the sharing buttons should go here
       echo '<div id="social_buttons">';
       $urlToPost = 'http://arianne.sourceforge.net/news/'.$strippedTitle.'.htm';
-      echo buildTweetButton($urlToPost, '@stendhalgame');
-      echo buildFacebookButton($item['title'][0], $urlToPost);
-      //echo buildGoogleBuzzButton($urlToPost);
+      // echo buildTweetButton($urlToPost, '@stendhalgame');
+      // echo buildFacebookButton($item['title'][0], $urlToPost);
+      // echo buildGoogleBuzzButton($urlToPost);
       echo '</div>';
       echo '</li>';
   }
