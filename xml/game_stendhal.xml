@@ -44,18 +44,15 @@ So what are you waiting for?! A whole new world awaits...]]>
   We would really love to get your help <a href="http://stendhalgame.org/wiki/Navigation_for_Stendhal_Contributors">contributing</a> and if you are interested you can learn a lot more about Stendhal at <a href="http://stendhalgame.org/wiki/Stendhal">Stendhal's wiki</a>.
 
   <p/><h2>Play now!</h2>
-  Stendhal uses Java Webstart technology that enables you to use always the latest version available without having to worry about updates.<br>
-  Just click on the button to play.
-  <p/><a href="http://arianne.sourceforge.net/jws/stendhal.jnlp"><img src="/images/webstart.png" alt="Click here to play"></a>
+  Just click on the button to play:
+  <p/><a href="https://stendhalgame.org/account/mycharacters.html"><img src="/images/webstart.png" alt="Click here to play"></a>
   ]]>
   </extended>
   <manual url="http://stendhalgame.org/wiki/StendhalManual"/>  
   <changelog><![CDATA[
 <p><b>0.95</b>
-<br><b>**** IMPORTANT****
 <br>If you package Stendhal or have forked your own game based on it
 <br>read http://stendhalgame.org/wiki/Automatic_Software_Updater
-<br>******************</b>
 
 <br>- rewrote the updater so that it will not break onces a year anymore because the certificate expires
 <br>- on Unix/Linux the home folder now defaults to $HOME/.config/stendhal for new installs
