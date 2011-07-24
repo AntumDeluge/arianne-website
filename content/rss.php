@@ -30,7 +30,7 @@ class RssPage extends Page {
 		$this->writeHeader();
 		$maxNewsItems = 20;
 		$content = implode("",file('xml/website_news.xml'));
-		$this->xml = XML_unserialize($content);
+		$website = XML_unserialize($content);
 		foreach($website['website'][0]['item'] as $key=>$item) {
 			if ($maxNewsItems == 0) {
 				break;
