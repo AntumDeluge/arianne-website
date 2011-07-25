@@ -72,7 +72,13 @@ class RssPage extends Page {
 		$strippedTitle = getNiceURL($item['title'][0]);
 		echo '<item>';
 			echo '<title>'.htmlspecialchars($item['title'][0]).'</title>';
-			echo '<description>'.$this->renderText(trim($item['content'][0])).'</description>';
+			$content = $item['content'][0];
+			foreach($item['images'][0]['image'] as $key=>$image) {
+				if(is_array($image)) {
+					$content .= '<img class="news_image" src="/'.$image['url'].'" alt="Game screenshot">'."\r\n";
+				}
+			}
+			echo '<description>'.$this->renderText(trim($content)).'</description>';
 			echo '<link>http://arianne.sourceforge.net/news/'.$strippedTitle.'.html</link>';
 			echo '<author>newsfeed@stendhalgame.org (Arianne Project)</author>';
 			echo '<pubDate>'.date("D, d M Y H:i:s O", strtotime($item['date'][0])).'</pubDate>';
