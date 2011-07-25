@@ -16,7 +16,7 @@
 
   <item>
     <title>Stendhal 0.95: Fixing the updater</title>
-    <date>14th July 2011</date>
+    <date>2011-07-14</date>
     <images>
       <image url="screens/stendhal/text_box95.png"/>
       <image url="screens/stendhal/andy95.png"/>
@@ -35,7 +35,7 @@ A full list of changes can be read at our <a href = "http://arianne.sourceforge.
   </item>
  <item>
     <title>Stendhal 0.94: Preparing for server migration</title>
-    <date>4th June 2011</date>
+    <date>2011-06-04</date>
     <images>
       <image url="screens/stendhal/servermove94.jpg"/>
       <image url="screens/stendhal/help94.png"/>
@@ -57,7 +57,7 @@ Mostly this month has been behind the scenes work - to prepare for a server migr
 
  <item>
     <title>Stendhal 0.93: Birth, life and death</title>
-    <date>12th April 2011</date>
+    <date>2011-04-12</date>
     <images>
       <image url="screens/stendhal/easter93.png"/>
       <image url="screens/stendhal/waterspring93.png"/>
@@ -80,7 +80,7 @@ Please join us for this celebration at Easter time, and feel free to check out t
 
   <item>
     <title>Marauroa 3.8.6 released</title>
-    <date>12th April 2011</date>
+    <date>2011-04-12</date>
     <content>
       <![CDATA[<p>Marauroa 3.8.6 features performance optimisations for RPObject, by reducing the number of instantiations and creating internal maps and lists only on demand. More changes at the <a href = "http://arianne.sourceforge.net/engine/marauroa.html#changes">change log.</a>]]>
       </content>
@@ -88,7 +88,7 @@ Please join us for this celebration at Easter time, and feel free to check out t
 
   <item>
     <title>Stendhal 0.92: Achievements and Expedition Groups</title>
-    <date>26th February 2011</date>
+    <date>2011-02-26</date>
     <images>
       <image url="screens/stendhal/achievement92.png"/>
       <image url="screens/stendhal/jef92.png"/>
@@ -108,7 +108,7 @@ Adventures and expeditions can be fun with your friends around you. If you agree
 
  <item>
     <title>Stendhal 0.91: Quest progress</title>
-    <date>2nd January 2011</date>
+    <date>2011-01-02</date>
     <content>
       <![CDATA[<p>
 Did you know how many people are in the world and what quests you have completed for them?
@@ -127,7 +127,7 @@ If you think you've done all the quests here's a least one new one for you: help
 
   <item>
     <title>Stendhal 0.90: Seasons Greetings</title>
-    <date>10th December 2010</date>
+    <date>2010-12-10</date>
     <images>
       <image url="screens/stendhal/santa90.png"/>
       <image url="screens/stendhal/elisabeth90.png"/>
@@ -148,7 +148,7 @@ Please see the <a href = "http://arianne.sourceforge.net/game/stendhal.html#chan
  
   <item>
     <title>Stendhal 0.89: Food, flowers and fights!</title>
-    <date>24th November 2010</date>
+    <date>2010-11-24</date>
     <images>
       <image url="screens/stendhal/pies89.png"/>
       <image url="screens/stendhal/torcibud89.png"/>
@@ -172,7 +172,7 @@ There's a whole lot more changes to read about at the <a href = "http://arianne.
 
   <item>
     <title>Marauroa 3.8.4 released</title>
-    <date>23rd November 2010</date>
+    <date>2010-11-23</date>
     <content>
       <![CDATA[<p>Marauroa 3.8.4 is released. Marauroa 3.8.4 adds features for supporting a game test server sharing a database with a production game server. We're making use of this for <a href = "http://stendhalgame.org/wiki/Stendhal_Testing">Stendhal testing</a> and if you want to try the same you can follow our <a href = "http://stendhalgame.org/wiki/Testserver_with_shared_database">guide</a>. For more changes please see <a href="/engine/marauroa.html#changes">marauroa's changelog</a>.]]>
       </content>
@@ -181,7 +181,7 @@ There's a whole lot more changes to read about at the <a href = "http://arianne.
 
   <item>
     <title>Stendhal 0.88: Newcomers and new trading</title>
-    <date>15th October 2010</date>
+    <date>2010-10-15</date>
     <images>
       <image url="screens/stendhal/barbarus88.jpg"/>
       <image url="screens/stendhal/florence88.png"/>
@@ -202,7 +202,7 @@ You can learn more about these changes and read about all the rest at the <a hre
 
   <item>
     <title>Stendhal 0.87.1: Bug fix release</title>
-    <date>14th September 2010</date>
+    <date>2010-09-14</date>
     <content>
       <![CDATA[<p>Some issues with the 0.87 client for Windows users were reported after release. We hope that with 0.87.1 they are fixed, but if you still have issues please contact /support in game with your Operating System, Java version and Graphics card details. Thank you for your understanding.]]>
       </content>
@@ -210,7 +210,7 @@ You can learn more about these changes and read about all the rest at the <a hre
 
   <item>
     <title>Stendhal 0.87: New client!</title>
-    <date>13th September 2010</date>
+    <date>2010-09-13</date>
     <content>
       <![CDATA[<p>Thanks to a lot of hard work from <a href ="http://stendhalgame.org/character/kiheru.html">kiheru</a> we're happy to announce the fulfilment of our most frequently requested feature enhancement - floating windows off the main game screen. Your bag, keyrings, settings and character panel will no longer obscure the game view!
    <div align="center"><a href="/screens/stendhal/client87.png"><img src="/screens/stendhal/client87.png" alt="Stendhal 0.87 client screenshot" width="100%" height="100%"/></a></div>
@@ -223,7 +223,7 @@ As you can see we're pictured above with postman. Sometimes it's nice to read me
 
 <item>
     <title>Stendhal 0.86: The Wizards Circle</title>
-    <date>26th July 2010</date>
+    <date>2010-07-26</date>
     <images>
       <image url="screens/stendhal/tower86.png"/>
       <image url="screens/stendhal/circle86.png"/>
@@ -246,7 +246,7 @@ You'll find heightened awareness of the world around you, for example pathways w
 
   <item>
     <title>Marauroa 3.8.1 released</title>
-    <date>25th July 2010</date>
+    <date>2010-07-25</date>
     <content>
       <![CDATA[<p>Marauroa 3.8.1 is released. Marauroa 3.8.1 is mostly a bug fix release, with some additional work around characters. For full details please see <a href="/engine/marauroa.html#changes">marauroa's
 changelog</a>.]]>
@@ -255,7 +255,7 @@ changelog</a>.]]>
 
   <item>
     <title>Stendhal 0.85: Wood, wood everywhere</title>
-    <date>27th June 2010</date>
+    <date>2010-06-27</date>
     <images>
       <image url="screens/stendhal/producers85.png"/>
       <image url="screens/stendhal/phalk85.png"/>
@@ -271,7 +271,7 @@ Stendhal 0.85 has some changes you'll notice as you start the client, too. There
  
   <item>
     <title>Marauroa 3.8 released</title>
-    <date>26th June 2010</date>
+    <date>2010-06-26</date>
     <content>
       <![CDATA[<p>Marauroa 3.8 is released! Marauroa 3.8 adds version compatibility between client and server of different protocol versions. There are two kinds of extensions to the protocol: details in the character list, and maps attributes. Performance is also optimised, with asynchronous login, and 'baking' of RPClasses. Full details are at <a href = "http://stendhalgame.org/wiki/Marauroa_3.8">http://stendhalgame.org/wiki/Marauroa_3.8</a>, and you can also refer to <a href
 ="/engine/marauroa.html#changes">marauroa's
@@ -281,7 +281,7 @@ changelog</a>.]]>
 
   <item>
     <title>Stendhal 0.84: Don't deny the desperate Despot</title>
-    <date>2nd June 2010</date>
+    <date>2010-06-02</date>
     <images>
       <image url="screens/stendhal/army84.png"/>
       <image url="screens/stendhal/heal84.png"/>
@@ -300,7 +300,7 @@ changelog</a>.]]>
   </item>
   <item>
     <title>Marauroa 3.7 released</title>
-    <date>1st June 2010</date>
+    <date>2010-06-01</date>
     <content>
       <![CDATA[<p>Marauroa 3.7 is released, with changes to handling of characters. Full details are at <a href 
 ="/engine/marauroa.html#changes">marauroa's 
@@ -311,7 +311,7 @@ changelog</a>.]]>
 
  <item>
     <title>Stendhal 0.83: Dark or Light, Fire or Ice?</title>
-    <date>30th April 2010</date>
+    <date>2010-04-30</date>
     <images>
       <image url="screens/stendhal/damage83.png"/>
       <image url="screens/stendhal/careful83.png"/>
@@ -339,7 +339,7 @@ There's much more news than can fit here, so to read about the many other change
 
   <item>
     <title>Stendhal 0.82.1 released</title>
-    <date>28th March 2010</date>
+    <date>2010-03-28</date>
     <images>
      </images>
     <content>
@@ -350,7 +350,7 @@ There's much more news than can fit here, so to read about the many other change
 
  <item>
     <title>Spring Festival and Tournament</title>
-    <date>27th March 2010</date>
+    <date>2010-03-27</date>
     <content>
       <![CDATA[<p>We had a big party in Ados to celebrate Spring. Maria was on hand to sell party food and drinks, and there was a Tournament where players challenged each other to prove their strength. The party got a huge number of guests! 
       <div align="center"><a href="/screens/stendhal/party20100327.jpg"><img src="/screens/stendhal/party20100327_small.jpg" alt="Spring Tournament" width="100%" height="100%"/></a></div>
@@ -362,7 +362,7 @@ There's much more news than can fit here, so to read about the many other change
 
   <item>
     <title>Stendhal 0.82: Spring is coming!</title>
-    <date>26th March 2010</date>
+    <date>2010-03-26</date>
     <images>
       <image url="screens/stendhal/orb82.png"/>
       <image url="screens/stendhal/sound82.png"/>
@@ -381,7 +381,7 @@ Hopefully you've been enjoying the rich variety of sounds and music around recen
 
  <item>
     <title>Stendhal Client Quality Week</title>
-    <date>5th March 2010</date>
+    <date>2010-03-05</date>
      <content>
       <![CDATA[<p>
 Our <a href="http://stendhalgame.org/news/client-quality-week-43.html">Client Quality Week</a> has already resulted in useful bug 
@@ -396,7 +396,7 @@ Thanks everyone for uploading your error log files and please continue to do so.
 
   <item>
     <title>Marauroa 3.5 released</title>
-    <date>23rd February 2010</date>
+    <date>2010-02-23</date>
     <content>
       <![CDATA[<p>Marauroa 3.5 adds the ability to limit parallel connections and account creation, and these limits are configurable. Full details can be found at <a href="/engine/marauroa.html#changes">the Marauroa changelog</a>.]]>
       </content>
@@ -404,7 +404,7 @@ Thanks everyone for uploading your error log files and please continue to do so.
 
 <item>
     <title>Stendhal 0.81: Music to your ears</title>
-    <date>20th February 2010</date>
+    <date>2010-02-20</date>
     <images>
       <image url="screens/stendhal/music81.png"/>
       <image url="screens/stendhal/ignore81.png"/>
@@ -433,7 +433,7 @@ simplified</a>. Remember, Stendhal is software released under an open source lic
 
   <item>
     <title>Marauroa 3.4 released</title>
-    <date>19th February 2010</date>
+    <date>2010-02-19</date>
     <content>
       <![CDATA[<p>Marauroa 3.4 adds support for the H2 serverless database system, as an alternative to MySQL. There are a number of other new features, relating to setting the max number of players, temporary bans and inactive accounts. Full details can be found at <a href="/engine/marauroa.html#changes">the Marauroa changelog</a>.]]>
       </content>
@@ -441,7 +441,7 @@ simplified</a>. Remember, Stendhal is software released under an open source lic
 
  <item>
     <title>Event: Hunt for the lost cat!</title>
-    <date>24th January 2010</date>
+    <date>2010-01-24</date>
     <content>
       <![CDATA[<p>
 On Friday 22nd January a sign appeared in Semos:
@@ -472,7 +472,7 @@ organising this.
 
  <item>
     <title>Stendhal 0.80: Harold's new job, Trade Manager!</title>
-    <date>8th January 2010</date>
+    <date>2010-01-08</date>
    <images>
       <image url="screens/stendhal/trade80.png"/>
       <image url="screens/stendhal/shopsign80.png"/>
@@ -491,7 +491,7 @@ Budding salesmen, there is help at hand for make your trading smooth! Harold wil
 
   <item>
     <title>Marauroa 3.3 released</title>
-    <date>8th January 2010</date>
+    <date>2010-01-08</date>
      <content>
       <![CDATA[<p>Marauroa is Arianne's Multiplayer Online Engine Server, which you can use to build your own online games.
 Marauroa 3.3 introduces new features: RPEvents can have RPSlots. This means that events sent from the server to the
@@ -505,7 +505,7 @@ Marauroa 3.3 introduces new features: RPEvents can have RPSlots. This means that
 
  <item>
     <title>Raid: Harold was kidnapped!</title>
-    <date>6th January 2010</date>
+    <date>2010-01-06</date>
     <content>
       <![CDATA[<p>
 Xhiphin Zohos, from Fado, called for help, because somehow many caged creatures had been let loose. The bandits who did this were in disguise. Luckily, there was a lot of help to kill the creatures, which had gone wild after being captive for so long. 
@@ -520,7 +520,7 @@ Xhiphin Zohos, from Fado, called for help, because somehow many caged creatures 
 
   <item>
     <title>Raid: New Year Revolt</title>
-    <date>1st January 2010</date>
+    <date>2010-01-01</date>
     <content>
       <![CDATA[<p>
 Semos was in danger this New Year, from creatures which threatened to invade. 
@@ -541,7 +541,7 @@ townhall and presented the ankhs for the safety of Semos.
 
   <item>
     <title>Stendhal 0.79: Back to reality</title>
-    <date>13 November 2009</date>
+    <date>2009-11-13</date>
     <images> 
       <image url="screens/stendhal/stendhal79.png"/>
     </images>
@@ -556,7 +556,7 @@ While you are playing you may notice an improvement in your client's performance
 
   <item>
     <title>Stendhal 0.78: Semos Mine Town Revival Weeks</title>
-    <date>22 October 2009</date>
+    <date>2009-10-22</date>
     <images>
       <image url="screens/stendhal/tictactoegame78.png"/>
       <image url="screens/stendhal/outfits78.png"/>
@@ -575,7 +575,7 @@ pirate attack. Mein_Dino, IschBing, Maja and Peka were heroes at that raid! This
 
   <item>
     <title>Stendhal 0.77: Adventure Island Awaits</title>
-    <date>2 September 2009 21:33:35</date>
+    <date>2009-09-02 21:33:35</date>
     <images>
       <image url="screens/stendhal/client77.png"/>
       <image url="screens/stendhal/adventure77.png"/>
@@ -593,7 +593,7 @@ If you started the adventure called marriage, you'll notice a change in wedding 
 
   <item>
     <title>Stendhal 0.76: Ported to Marauroa 3.0</title>
-    <date>2 August 2009 23:16:00</date>
+    <date>2009-08-02 23:16:00</date>
     <images> 
       <image url="screens/stendhal/jdk76.png"/>
      <image url="screens/stendhal/corpses76.png"/>
@@ -611,7 +611,7 @@ We're really happy to announce that the Stendhal client is now <b>compatible wit
  
   <item>
     <title>Marauroa 3.0: multithreading and extended database support</title>
-    <date>2 August 2009 23:16:00</date>
+    <date>2009-08-02 23:16:00</date>
     <content>
       <![CDATA[<p>With Marauroa 3.0, the game engine now supports multithreading, and it is possible to run parallel transactions in different threads. JDBCDatabase has been split into several small *DAO (Data Access Object) classes. Low level database operations are now in the new package marauroa.server.db. These changes will require you to port any application using Marauroa, so for help on how to port your application see <a href="http://stendhalgame.org/wiki/Refactoring_Database_Access_in_Marauroa">Refactoring Database Access in Marauroa</a>. Additionally, we have begun work on supporting other database systems beside MySQL. 
 ]]>
@@ -621,7 +621,7 @@ We're really happy to announce that the Stendhal client is now <b>compatible wit
 
 <item>
     <title>Stendhal 0.75: Beauty and Balance</title>
-    <date>12 July 2009 22:50:00</date>
+    <date>2009-07-12 22:50:00</date>
     <images>
       <image url="screens/stendhal/artwork75.png"/>
       <image url="screens/stendhal/clone75.png"/>
@@ -637,7 +637,7 @@ Do you ever see players who should not yet have mastered the black arts, but som
   </item> 
   <item>
     <title>Stendhal 0.74: What goes around comes around</title>
-    <date>23 May 2009 23:25:00</date>
+    <date>2009-05-23 23:25:00</date>
     <images>
      <image url="screens/stendhal/hell74.png"/>
       <image url="screens/stendhal/arachne74.png"/>
@@ -666,7 +666,7 @@ Last but not least, another fearsome new creature to face in battle - arachne - 
 
   <item>
     <title>Stendhal 0.73: Houses sweet houses</title>
-    <date>31 March 2009 16:41:00</date>
+    <date>2009-03-31 16:41:00</date>
     <images>
       <image url="screens/stendhal/availablility73.png"/>
       <image url="screens/stendhal/house73.png"/>
@@ -692,7 +692,7 @@ more magic outfits, these we leave to you to explore! ]]>
 
   <item>
     <title>Stendhal 0.72: New abilities</title>
-    <date>22 February 2009 23:55:00</date>
+    <date>2009-02-22 23:55:00</date>
     <images>
       <image url="screens/stendhal/dm72.png"/>
       <image url="screens/stendhal/vault72.png"/>
@@ -715,7 +715,7 @@ So, players have learnt a number of new abilities - what about creatures? Not to
 
  <item>
     <title>Stendhal 0.71: Semos Mine Town Revival Weeks!</title>
-    <date>30 November 2008 17:03:00</date>
+    <date>2008-11-30 17:03:00</date>
     <images> 
       <image url="screens/stendhal/outfit71.png"/>
     </images>
@@ -731,7 +731,7 @@ Another piece of very good news is about Thanatos, the Death match Assistant. An
 
   <item>
     <title>Stendhal 0.70: Rules of War</title>
-    <date>3 October 2008 13:30:05</date>
+    <date>2008-10-03 13:30:05</date>
     <images> 
       <image url="screens/stendhal/damage70.png"/>
       <image url="screens/stendhal/pk70.png"/>
@@ -758,7 +758,7 @@ Another piece of very good news is about Thanatos, the Death match Assistant. An
   </item>
  <item>
     <title>Stendhal 0.69: Wrath of Angels</title>
-    <date>12 August 2008 17:55:00</date>
+    <date>2008-08-12 17:55:00</date>
     <images>
       <image url="screens/stendhal/angel69.png"/>
       <image url="screens/stendhal/choke69.png"/>
@@ -778,7 +778,7 @@ They combine efforts to make an awesome piece of equipment that can be used to <
 
   <item>
     <title>Hide and Seek!</title>
-    <date>3 July 2008 22:00:00</date>
+    <date>2008-07-03 22:00:00</date>
     <images>
       <image url="screens/stendhal/hideandseek.png"/>
     </images>
@@ -802,7 +802,7 @@ They combine efforts to make an awesome piece of equipment that can be used to <
 
   <item>
     <title>Stendhal 0.68.1: Fix it and tidy up</title>
-    <date>30 June 2008 20:45:00</date>
+    <date>2008-06-30 20:45:00</date>
     <images>
       <image url="screens/stendhal/coast681.png"/>
       <image url="screens/stendhal/honeymoon681.png"/>
@@ -823,7 +823,7 @@ They combine efforts to make an awesome piece of equipment that can be used to <
 
  <item>
     <title>Stendhal 0.68: Gnome Sweet Gnome</title>
-    <date>29 May 2008 21:04:00</date>
+    <date>2008-05-29 21:04:00</date>
     <images>
       <image url="screens/stendhal/dragonlair68.png"/>
       <image url="screens/stendhal/gnomevillage68.png"/>
@@ -840,7 +840,7 @@ Have you money to spend? The traders of you will be delighted to hear of the mea
   </item>
  <item>
     <title>Stendhal 0.67: Happy Valentines</title>
-    <date>14 Feb 2008 11:59:00</date>
+    <date>2008-02-14 11:59:00</date>
     <images>
       <image url="screens/stendhal/yeti67.png"/>
       <image url="screens/stendhal/keep67.png"/>
@@ -861,7 +861,7 @@ Enough of the blood and guts and back to a love story. Princess Esclara on Amazo
   </item>
 <item>
     <title>Stendhal 0.66: Embracing Marauroa 2.x</title>
-    <date>8 Jan 2008 19:35:00</date>
+    <date>2008-01-08 19:35:00</date>
     <images>
       <image url="screens/stendhal/signs66.png"/>
       <image url="screens/stendhal/map66.png"/>
@@ -875,7 +875,7 @@ Enough of the blood and guts and back to a love story. Princess Esclara on Amazo
   </item>
   <item>
     <title>Stendhal 0.65: Christmas is coming!</title>
-    <date>3 Dec 2007 21:30:00</date>
+    <date>2007-12-03 21:30:00</date>
     <images>
       <image url="screens/stendhal/xmas07.png"/>
       <image url="screens/stendhal/dead_lich.png"/>
@@ -894,7 +894,7 @@ Merry Christmas!
   </item>
   <item>
     <title>Stendhal 0.64: *grr* Baby Dragons! *grr* </title>
-    <date>15 Nov 2007 21:50:00</date>
+    <date>2007-11-15 21:50:00</date>
     <images>
       <image url="screens/stendhal/annie64.png"/>
       <image url="screens/stendhal/dragon64.png"/>
@@ -908,7 +908,7 @@ Many houses have now been redecorated in Ados, ready to sell. Just make sure you
   </item>
   <item>
     <title>Stendhal 0.63: Huge, strange, sweet, wild, safe</title>
-    <date>18 Oct 2007 19:51:00</date>
+    <date>2007-10-18 19:51:00</date>
     <images>
       <image url="screens/stendhal/kalavan63.png"/>
       <image url="screens/stendhal/revi63.png"/>
@@ -944,7 +944,7 @@ you will have fought as much as him ...]]>
   </item>
  <item>
     <title>Stendhal 0.62: Sky towers and deep dungeons</title>
-    <date>13 Aug 2007 20:15:00</date>
+    <date>2007-08-13 20:15:00</date>
     <images>
       <image url="screens/stendhal/20070813_elf.png"/>
       <image url="screens/stendhal/20070813_angel.png"/>
@@ -965,7 +965,7 @@ is not just a walk in the clouds...
 
 <item>
     <title>Server up</title>
-    <date>28 Jul 2007 20:32:32</date>
+    <date>2007-07-28 20:32:32</date>
     <content>
       <![CDATA[<p>
 The Server is now back up and running again.<p>
@@ -976,7 +976,7 @@ support.]]>
 
 <item>
     <title>Server Problems</title>
-    <date>26 Jul 2007 23:45:02</date>
+    <date>2007-07-26 23:45:02</date>
     <content>
       <![CDATA[<p>
 We're currently experiencing some hardware problems. The server is temporarily down.
@@ -987,7 +987,7 @@ We are sorry for the inconvenience. We are working on the problem.]]>
 
   <item>
     <title>Is your client is slow AND you use Linux/X11?</title>
-    <date>29 Jun 2007 23:32:02</date>
+    <date>2007-06-29 23:32:02</date>
     <content>
       <![CDATA[<p>
 You can try this for a quick fix.<p>
@@ -1005,7 +1005,7 @@ We are working on a solution and will inform you when the issue is solved and th
 
   <item>
     <title>Stendhal 0.61: Wofol opens its doors</title>
-    <date>Fri, 22 Jun 2007 18:53:09</date>
+    <date>2007-06-22 18:53:09</date>
     <images>
       <image url="screens/stendhal/THM_20070622_1_stendhal.jpg"/>
       <image url="screens/stendhal/THM_20070622_2_stendhal.jpg"/>
@@ -1024,7 +1024,7 @@ Talking of ships, if you're on the Athor ferry, remember to fish for mackerel. Y
 
   <item>
     <title>Dwarves revolt</title>
-    <date>Mon 04 Jun 2007 11:53:11</date>
+    <date>2007-06-04 11:53:11</date>
     <content>
       <![CDATA[<p>
       We have had another raid this weekend, this time dwarves raised their arms on the coast of Or'ril. Even poor Lich was scared.<p>
@@ -1043,7 +1043,7 @@ Talking of ships, if you're on the Athor ferry, remember to fish for mackerel. Y
 
   <item>
     <title>Balrog 0wn3d!</title>
-    <date>Tue 29 May 2007 17:25:06</date>
+    <date>2007-05-29 17:25:06</date>
     <content>
       <![CDATA[<p>
       Between many they were able to defeat our Balrog <small>( a weak version )</small>.
@@ -1057,7 +1057,7 @@ Talking of ships, if you're on the Athor ferry, remember to fish for mackerel. Y
 
   <item>
     <title>Raid: Cities under attack!</title>
-    <date>Sun 27 May 2007 21:58:03</date>
+    <date>2007-05-27 21:58:03</date>
     <images>
       <image url="images/articles/20070527_raid_0.jpg"/>
       <image url="images/articles/20070527_raid_1.jpg"/>
@@ -1084,7 +1084,7 @@ You can be our next hero! :)]]>
 
   <item>
     <title>Stendhal 0.60: A Marriage of Beauty and Chaos</title>
-    <date>Tue, 22 May 2007 21:03:56</date>
+    <date>2007-05-22 21:03:56</date>
     <images>
       <image url="screens/stendhal/THM_20070522_stendhal.jpg"/>
       <image url="screens/stendhal/THM_20070522_1_stendhal.jpg"/>
@@ -1101,7 +1101,7 @@ The bridge to Fado is open! Discover the delights of the city known across the l
 
   <item>
     <title>Developer's meeting log</title>
-    <date>Sun 22 April 2007 12:28:03</date>
+    <date>2007-04-22 12:28:03</date>
     <content>
       <![CDATA[<p>The log of our online meeting is available at <a href="http://arianne.sourceforge.net/docs/200704_meeting.txt">http://arianne.sourceforge.net/docs/200704_meeting.txt</a>.<br>
       You can check at <a href="http://stendhalgame.org/wiki/ArianneMeeting200704">Wiki</a> decisions taken and matters that are still to be decided.]]>
@@ -1110,7 +1110,7 @@ The bridge to Fado is open! Discover the delights of the city known across the l
 
     <item>
     <title>Stendhal Server Connection Problem (FIXED)</title>
-    <date>Tue, 19 April 2007 09:21:23</date>
+    <date>2007-04-19 09:21:23</date>
     <content>
       <![CDATA[<p> Dear Stendhal gamers,<br>our public server is suffering from internet connection problems today and so is down. However, we expect the issues to 
       be resolved within the next 12 to 24 hours so keep checking back here to keep updated!<p><b>NOTE: As 20:12 GMT+1 the problem has been fixed. Thanks you for your patience</b>.
@@ -1121,7 +1121,7 @@ The bridge to Fado is open! Discover the delights of the city known across the l
   
   <item>
     <title>Stendhal 0.59: Beach or Battle? Pizza or Perish? You decide ...</title>
-    <date>Sat, 14 April 2007 19:45:14</date>
+    <date>2007-04-14 19:45:14</date>
     <images>
       <image url="screens/stendhal/THM_stendhal_20070414.png"/>
       <image url="screens/stendhal/THM_stendhal_20070414_1.jpg"/>
@@ -1140,7 +1140,7 @@ Thanks to some dedicated cleaning, the waters of Faiumoni are now fresh and full
 
   <item>
     <title>Stendhal 0.58.1: Abracadabra fixed</title>
-    <date>Mon, 09 April 2007 10:56:47</date>
+    <date>2007-04-09 10:56:47</date>
     <content>
       <![CDATA[<p>
 There was great joy recently in Semos Town Square when Carmen got a bit confused and started selling large amounts of potions for negative amounts of money. All sellers have been given new instructions and bigger abacuses to calculate on. 
@@ -1154,7 +1154,7 @@ High level players have had a boost recently. With the level cap of 99 removed, 
  
   <item>
     <title>Stendhal 0.58: Vampires roam Semos Catacombs!</title>
-    <date>Sat, 10 March 2007 20:41:39</date>
+    <date>2007-03-10 20:41:39</date>
     <images>
       <image url="images/articles/THM_stendhal_058.png"/>
       <image url="images/articles/THM_stendhal_058_1.png"/>
@@ -1172,7 +1172,7 @@ More than trouble lurks beneath the graveyard in Semos Plains North ... vampires
 
   <item>
     <title>Pub Quiz in Semos tavern</title>
-    <date>Sun, 04 March 2007 18:49:12</date>
+    <date>2007-03-04 18:49:12</date>
     <images>
       <image url="images/articles/THM_quizgame_20070304.png"/>
       <image url="images/articles/THM_quizgame_20070304_1.png"/>
@@ -1204,7 +1204,7 @@ The adventurers met for a pub quiz tonight in Semos Tavern. 16 people played, fr
 
     <item>
     <title>Stendhal 0.57: big changes for a little world!</title>
-    <date>Thu, 30 January 2007 22:53:21</date>
+    <date>2007-01-30 22:53:21</date>
    <images>
       <image url="screens/stendhal/THM_20070130_stendhal.jpg"/>
     </images>
@@ -1219,7 +1219,7 @@ Mayor Sakhs' visit didn't cover every spot on the island. He'd heard reports of 
 
     <item>
     <title>Stendhal 0.56: Merry Christmas!</title>
-    <date>Thu, 19 December 2006 17:38:12</date>
+    <date>2006-12-19 17:38:12</date>
     <content>
       <![CDATA[<p>It is one year since the first adventurers arrived on the Island of Faiumoni and explored the town of Semos, Or'ril Castle and the elvish Nalwor Forest. Now, the road to Ados City is open!<p>
 Everyone is invited to come meet the population of Ados. With the knowledge from these new people, Zynn Iwuhos the librarian has been hard at work. He's made detailed descriptions of all weapons and armor listed in his library, and a roll of honor which mentions all important people on Faiumoni.<p>
@@ -1231,7 +1231,7 @@ Ados City has bakers who make pies, to sustain heroes in battle. These will be n
 
     <item>
     <title>Stendhal 0.55: Halloween night!</title>
-    <date>Tue, 31 October 2006 19:58:47</date>
+    <date>2006-10-31 19:58:47</date>
     <content>
       <![CDATA[<p>The deserted Semos Mine Town is remembered regularly with a big celebration: 
 the Semos Mine Town Revival Weeks! Come and join in, get a costume and play 
@@ -1253,7 +1253,7 @@ complete client on every new version)
 
     <item>
     <title>Stendhal 0.54 and Marauroa 1.34: Dice Gambling</title>
-    <date>Sun, 01 October 2006 18:57:19</date>
+    <date>2006-10-01 18:57:19</date>
       <images>
         <image url="screens/stendhal/THM_20061001_stendhal.jpg"/>
       </images>
@@ -1272,7 +1272,7 @@ complete client on every new version)
  
    <item>
     <title>Stendhal 0.53 and Marauroa 1.33: Archers and Farmers</title>
-    <date>Sun, 03 September 2006 15:47:29</date>
+    <date>2006-09-03 15:47:29</date>
       <images> 
         <image url="screens/stendhal/THM_20060903_stendhal.jpg"/>
       </images>
@@ -1282,21 +1282,21 @@ complete client on every new version)
   </item> 
   <item>
     <title>Marauroa 1.32.1</title>
-    <date>Mon, 26 August 2006 19:10:02</date>
+    <date>2006-08-26 19:10:02</date>
     <content>
       <![CDATA[<p>A small update to Marauroa (the server) which fixes a problem with socket.write() blocking for several minutes.]]>
     </content>
   </item> 
   <item>
     <title>Stendhal 0.52 and Marauroa 1.32</title>
-    <date>Mon, 14 August 2006 17:44:23</date>
+    <date>2006-08-14 17:44:23</date>
     <content>
       <![CDATA[<p>Thanks to all the hard work of the Arianne team (go to server: irc.freenode.net channel : arianne to meet some of them) there is a new version of both the client and server.These versions fix a large number of issues, improve performance, introduce some new maps, a new quest and even some new features. A manual is found at http://stendhalgame.org/wiki/StendhalManual. ]]>
     </content>
   </item>    
   <item>
     <title>Stendhal 0.51: Deathmatch happiness</title>
-    <date>Fri, 21 June 2006 20:01:51</date>
+    <date>2006-06-21 20:01:51</date>
     <content>
       <![CDATA[<p>This release close several bugs that have arise after 0.50 release. Mainly, we speeded up client start time and connect will take now just between one and three seconds. Also we fixed strange cases where avatars keep on game after logout and a worse bug that lead to personal chests robbery.<br>
 On the good side we have also closed a bug that allowed item duplication and improved the deathmatch for not to be so easy.<br>Also we added a new quest called Wood on the forest.<p>
@@ -1306,7 +1306,7 @@ Hope you enjoy it. Visit us at irc.freenode.net#arianne for a chat.
   </item>  
   <item>
     <title>Server returns to stendhal.ath.cx</title>
-    <date>Sun, 18 Jun 2006 23:59:12</date>
+    <date>2006-06-18 23:59:12</date>
     <content>
       <![CDATA[<p>We have been informed that Murpe is not able to host our server anymore so we return it to stendhal.ath.cx.<br>
       Keep in mind that the server may go down in seven days as I go on holidays.]]>
@@ -1314,7 +1314,7 @@ Hope you enjoy it. Visit us at irc.freenode.net#arianne for a chat.
   </item>
   <item>
     <title>Stendhal 0.50: major release since December</title>
-    <date>Fri, 16 June 2006 21:02:34</date>
+    <date>2006-06-16 21:02:34</date>
     <content>
       <![CDATA[<p>Two months without a release! OMG! My excuses for the delay <i>;-)</i>. But we are here back again and with a very special release for all you: 0.50.<br>
 This release is very important because we consolidate all the work of the previous versions. We have finally fixed the MacOS display bug <i>( welcome Mac players! )</i>, added magic scrolls for returning to Semos, added several new interesting quests and added Groovy scripts for some quests <i>( very interesting possibilities here )</i>.<br>
@@ -1324,7 +1324,7 @@ We still need your <b>help to add content to world as items, creatures, quests, 
   </item>  
   <item>
     <title>Server down for one week</title>
-    <date>Wed, 24 May 2006 12:44:17</date>
+    <date>2006-05-06 12:44:17</date>
     <content>
       <![CDATA[<p>I get marrried in two days so I will turn off my computer, so from May, 24 to May, 29 the server will be down, and it may go down again until June, 12.<br>
 We do need someone that can host the server 24/7 during summer because it is prone that I won't be able to handle it.<p>
@@ -1341,7 +1341,7 @@ Anyone willing to help please email me to arianne_rpg _at_ users _dot_ sourcefor
   </item>  
   <item>
     <title>Stendhal 0.48: Buddies</title>
-    <date>Tue, 18 April 2006 14:13:00</date>
+    <date>2006-04-18 14:13:00</date>
     <content>
       <![CDATA[<p>This release should have happened two weeks above, but Sourceforge CVS failure and holidays took it out of schedule. We have added a buddy system so you can keep in touch with your friends, blood pools as a result of fights, player age :), new items and a new area near Ados called the swamp.<br>
 We also removed some offending GFX, hide admin commands, fixed sheeps and simplified Xin Blanca items list.<p>
@@ -1351,7 +1351,7 @@ Next version is prone to take a few weeks of time because I really want to work 
   </item>  
   <item>
     <title>Stendhal 0.47: Liches and Kobolds</title>
-    <date>Fri, 24 March 2006 00:01:54</date>
+    <date>2006-03-24 00:01:54</date>
       <images> 
         <image url="screens/stendhal/THM_20060324_stendhal.jpg"/>
       </images>
@@ -1363,19 +1363,10 @@ We still need your <b>help to add content to world as items, creatures, quests, 
 <b>NOTE:</b> Create account has been broken. If you have had problems, please create a new account now. We have done a server side only release that fixs the bug, just in case you are interested in running your own server: <a href="https://sourceforge.net/project/showfiles.php?group_id=1111&package_id=145790">Server side only 0.47</a>
 ]]>
     </content>
-  </item>  
-  <item>
-    <title>Vote Arianne for Sourceforge Community Choice Awards</title>
-    <date></date>
-    <content>
-      <![CDATA[<p>
-         <a href="http://sourceforge.net/awards/cca/"><span style="float: left; padding: 0 .5em 1.5em 0" ><img src="https://images-ssl.sourceforge.net/images/sfx/cca/sf_cca_2006_icon.png" alt="CCA - Nominee" width="32" height="32" /></span><strong> 2006 Community Choice Awards</strong><br />Vote for this project in the Games category!</a>
-      ]]>
-      </content>
   </item>
   <item>
     <title>Stendhal 0.46: getting there...</title>
-    <date>Fri, 10 March 2006 16:26:38</date>
+    <date>2006-03-10 16:26:38</date>
       <images> 
         <image url="screens/stendhal/THM_20060310_stendhal.jpg"/>
       </images>
@@ -1393,7 +1384,7 @@ We still need your help to add content to world as items, creatures, quests, map
   </item>  
   <item>
     <title>Stendhal 0.45: Diplodocus!</title>
-    <date>Fri, 03 March 2006 18:48:19</date>
+    <date>2006-03-03 18:48:19</date>
       <images> 
         <image url="screens/stendhal/THM_20060303_stendhal.jpg"/>
         <image url="screens/stendhal/THM_20060304_stendhal.jpg"/>
@@ -1417,7 +1408,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
   </item>  
   <item>
     <title>Stendhal 0.44 released</title>
-    <date>Sun, 29 Jan 2006 20:29:28</date>
+    <date>2006-01-29 20:29:28</date>
     <content>
       <![CDATA[<p>Again, we are releasing our weekly bug fixes release. This release adds:
 <br><b>.</b> Fixed Drink and food queue so you can consume potions even if full.
@@ -1443,14 +1434,14 @@ Have a try to Stendhal! If you like it you will really love helping us to create
   </item>  
   <item>
     <title>Stendhal 0.43 released</title>
-    <date>Sun, 22 Jan 2006 23:01:15</date>
+    <date>2006-01-22 23:01:15</date>
     <content>
       <![CDATA[<p>Just one week after the 0.42 release we have done another bug fixes release.<br>To make the release interesting again we have added four new zones and eight new monsters that will make happy to our powergamers.<p>Keep sharing with us your opinions.]]>
     </content>
   </item>  
   <item>
     <title>Stendhal 0.42: Venom rats are bad!</title>
-    <date>Sun, 15 Jan 2006 14:30:51</date>
+    <date>2006-01-06 14:30:51</date>
       <images> 
         <image url="screens/stendhal/THM_20060115_stendhal.jpg"/>
       </images>
@@ -1463,7 +1454,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
   </item>  
   <item>
     <title>Stendhal 0.40: Remember it is a BETA!</title>
-    <date>Tue, 20 Dec 2005 12:36:19</date>
+    <date>2005-12-20 12:36:19</date>
       <images> 
         <image url="screens/stendhal/THM_20051220_stendhal.jpg"/>
       </images>
@@ -1478,7 +1469,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
   </item>  
   <item>
     <title>Stendhal 0.40 BETA: join us in finding bugs before the release</title>
-    <date>Wed, 18 Dec 2005 11:00:18</date>
+    <date>2005-12-18 11:00:18</date>
     <content>
       <![CDATA[<p>It has been a long month, but finally thanks to the efforts of Anders, Steve and Matthias the 0.40 release is almost here!.<br>
          To avoid problems that we have had in the past, we are going to run a private ( but open ) BETA server of the game. Please join us,
@@ -1488,7 +1479,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
   </item>  
   <item>
     <title>Stendhal 0.39,1 released</title>
-    <date>Wed, 26 Oct 2005 17:17:03</date>
+    <date>2005-10-26 17:17:03</date>
     <content>
       <![CDATA[<p>Due to the huge amount ( thanks everybody! ) of bug reports recieved, we have decided to publish this bug fixed version.<p>
          Next release is going to delay for at least two weeks because we are in process of changing several things on Stendhal.<br>
@@ -1497,7 +1488,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
   </item>  
   <item>
     <title>Stendhal 0.39: money!</title>
-    <date>Sun, 23 Oct 2005 12:36:19</date>
+    <date>2005-10-23 12:36:19</date>
       <images> 
         <image url="screens/stendhal/THM_20051023_stendhal.jpg"/>
       </images>
@@ -1511,7 +1502,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
   </item>  
   <item>
     <title>Corpses contains items and at last money!</title>
-    <date>Thu, 20 Oct 2005 19:22:38</date>
+    <date>2005-10-20 19:22:38</date>
       <images> 
         <image url="images/articles/money_and_corpses.jpg"/>
       </images>
@@ -1532,14 +1523,14 @@ Have a try to Stendhal! If you like it you will really love helping us to create
   </item>  
   <item>
     <title>Marauroa 1.10 and Stendhal 0.32 released</title>
-    <date>Sun, 25 Sep 2005 11:42:53</date>
+    <date>2005-09-25 11:42:53</date>
     <content>
       <![CDATA[<p>After our summer holiday, we are back with a bug fixed releases of Marauroa and Stendhal. No estimation of next release but we do really hope to do again another big release per month.<p>We would love to get some feeback on any problem you may have. Inventory support is quite experimental though.]]>
     </content>
   </item>  
   <item>
     <title>Summer Sweet Summer!</title>
-    <date>Sat, 17 Sep 2005 02:41:12</date>
+    <date>2005-09-17 02:41:12</date>
     <content>
       <![CDATA[<p>Holidays are over as summer is right now. During this two months, Stendhal and Marauroa has shown little progress, although a really nice effort has been done to port our logging system to log4j and to create an API in order to reuse Stendhal code base for other games.<br>
         The first task is complete and the results are simply awesome. Moving to log4j should have been done a great time before.<br>
@@ -1549,7 +1540,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
   </item>  
   <item>
     <title>Stendhal 0.31 release: bug fixes</title>
-    <date>Fri, 08 Jul 2005 12:30:16</date>
+    <date>2005-07-08 12:30:16</date>
     <content>
       <![CDATA[<p>This release is a bug fixes over 0.30. We have fixed a bug at statistics system, speed up combat, ease creature killing, no more drop item bug, move item in inventory, 
 fixed bug at Weapon seller, fix render order, added Giant rat, added three new areas: valley and rat dungeon (two levels), fixed a problem with long sentences, 
@@ -1563,7 +1554,7 @@ A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalM
   </item>  
   <item>
     <title>Stendhal 0.30 release: Items system and new RP Combat system</title>
-    <date>Sun, 03 Jul 2005 13:29:51</date>
+    <date>2005-07-03 13:29:51</date>
       <images> 
         <image url="screens/stendhal/THM_20050703_stendhal.jpg"/>
       </images>
@@ -1576,7 +1567,7 @@ A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalM
   </item>  
   <item>
     <title>JMaPacman 0.3 released</title>
-    <date>Sun, 02 Jul 2005 15:26:14</date>
+    <date>2005-07-02 15:26:14</date>
       <images> 
         <image url="screens/jmapacman/THM_20050702_jmapacman.jpg"/>
       </images>
@@ -1595,7 +1586,7 @@ href="http://jmapacman.mpc-donkey.de/">our Public Server</a>]]>
   </item>  
   <item>
     <title>JMaPacman 0.2 released</title>
-    <date>Sun, 27 Jun 2005 14:19:52</date>
+    <date>2005-06-27 14:19:52</date>
       <images> 
         <image url="screens/jmapacman/THM_20050623_jmapacman.jpg"/>
       </images>
@@ -1610,7 +1601,7 @@ What's your Top Score ? Try it out at <a href="http://jmapacman.mpc-donkey.de">h
   </item>  
   <item>
     <title>Stendhal 0.25 release: bugs fixes and initial support for items</title>
-    <date>Sun, 05 Jun 2005 00:57:35</date>
+    <date>2005-06-05 00:57:35</date>
       <images> 
         <image url="screens/stendhal/THM_20050604_stendhal.jpg"/>
       </images>
@@ -1622,14 +1613,14 @@ A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalM
   </item>  
   <item>
     <title>Stendhal Mapeditor 1.00 available</title>
-    <date>Thu, 2 Jun 2005 16:01:52</date>
+    <date>2005-06-02 16:01:52</date>
     <content>
       <![CDATA[<p>I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps">http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p/>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
       </content>
   </item>
   <item>
     <title>Stendhal 0.20 release: new Monsters, more dungeons and better eXPerience</title>
-    <date>Sun, 05 Jun 2005 00:57:35</date>
+    <date>2005-06-05 00:57:35</date>
       <images> 
         <image url="screens/stendhal/THM_20050605_stendhal.jpg"/>
       </images>
@@ -1641,14 +1632,14 @@ A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalM
     </content>
   </item>  <item>
     <title>Stendhal Mapeditor 1.00 available</title>
-    <date>Thu, 2 Jun 2005 16:01:52</date>
+    <date>2005-06-02 16:01:52</date>
     <content>
       <![CDATA[<p>I have complete the <a href="http://prdownloads.sourceforge.net/arianne/stendhal_mapeditor-1.01.zip?download">map editor package</a>. I release it with several tilesets and several examples maps, as well as a tutorial about how to use it at <a href="http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps">http://stendhalgame.org/wiki/HowToUseTiledToCreateStendhalMaps</a>. Tilesets are not complete, so please if you need a new tile, draw it and send it to us.<br>Happy hacking!<p/>PS: Dungeon 001 is uncompleted and I am working on it. We need dungeons, many dungeons!!!<br>Also Tiled 0.5 has a bug so you need to close and open it again to load a new file. ]]>
       </content>
   </item>
   <item>
     <title>Marauroa 1.00: First major milestone released</title>
-    <date>Mon, 30 May 2005 17:59:34</date>
+    <date>2005-05-30 17:59:34</date>
       <images> 
         <image url="images/articles/eventrelease.jpg"/>
       </images>
@@ -1663,7 +1654,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Stendhal 0.13 release: Better RP than before</title>
-    <date>Mon, 30 May 2005 17:56:01</date>
+    <date>2005-05-30 17:56:01</date>
     <content>
       <![CDATA[<p>This release is another bug fixes over 0.11 release. But we have also some things you have been asking for:
       <br><b>-</b> A game manual at <a href="http://stendhalgame.org/wiki/StendhalManual">http://stendhalgame.org/wiki/StendhalManual</a>      
@@ -1677,7 +1668,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Stendhal 0.12 bug fixes release</title>
-    <date>Wed, 23 May 2005 16:10:01</date>
+    <date>2005-05-23 16:10:01</date>
     <content>
       <![CDATA[<p>Thanks everyone for the extensive bug reports. I have done a release that fix most of your complains:
       <br><b>-</b> Fixed a severe bug that happens when a creature respawn over a player.
@@ -1695,7 +1686,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Stendhal 0.11 release: Monsters, dungeons and eXPerience</title>
-    <date>Thu, 20 May 2005 14:28:23</date>
+    <date>2005-05-20 14:28:23</date>
       <images> 
         <image url="screens/stendhal/THM_20050520_3_stendhal.jpg"/>
       </images>
@@ -1718,7 +1709,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Stendhal 0.10 release</title>
-    <date>Thu, 12 May 2005 13:56:23</date>
+    <date>2005-05-12 13:56:23</date>
       <images> 
         <image url="screens/stendhal/THM_20050512_stendhal.jpg"/>
       </images>
@@ -1738,7 +1729,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Major changes on Stendhal: combat implemented</title>
-    <date>Sat, 07 May 2005 20:03:55</date>
+    <date>2005-05-07 20:03:55</date>
       <images> 
         <image url="screens/stendhal/THM_20050507_stendhal.jpg"/>
       </images>
@@ -1755,7 +1746,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Marauroa 0.95 and Stendhal 0.03 bug fixes release</title>
-    <date>Thu, 28 Apr 2005 16:33:54</date>
+    <date>2005-04-28 16:33:54</date>
     <content>
       <![CDATA[<p>These are two small releases but very important in the development of Arianne.<p/>
         On Marauroa we have fix a bug that has been there since 0.30 release and that was related to the way MySQL managed transactions, also we added a method to request synchronization from a unsynced client so you should expect now a better gameplay.<p/>
@@ -1772,7 +1763,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Stendhal 0.02 released: Sheeps and food</title>
-    <date>Thu, 17 Apr 2005 13:21:01</date>
+    <date>2005-04-17 13:21:01</date>
       <images> 
         <image url="screens/stendhal/THM_20050417_stendhal.jpg"/>
       </images>
@@ -1789,7 +1780,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Marauroa 0.94 bug fixes release</title>
-    <date>Wed, 17 Apr 2005 13:21:01</date>
+    <date>2005-04-17 13:21:01</date>
     <content>
       <![CDATA[<p>This release adds secure login feature as well as fixs a bug at JDBC Database class that didn't allowed a RPObject to be correctly stored.<p/> 
          You have a complete step by step guide at <a href="http://stendhalgame.org/wiki/HowToBuildMarauroa">http://stendhalgame.org/wiki/HowToBuildMarauroa</a>
@@ -1798,7 +1789,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Marauroa 0.93 bug fixes release</title>
-    <date>Wed, 8 Apr 2005 20:31:01</date>
+    <date>2005-04-08 20:31:01</date>
     <content>
       <![CDATA[<p>A new emergency release of Marauroa that fix several important bugs, the main one is the 100% CPU usage due to multithread send feature.<p/> 
          You have a complete step by step guide at <a href="http://stendhalgame.org/wiki/HowToBuildMarauroa">http://stendhalgame.org/wiki/HowToBuildMarauroa</a>
@@ -1807,7 +1798,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Stendhal 0.01 released</title>
-    <date>Thu, 5 Apr 2005 20:12:01</date>
+    <date>2005-04-05 20:12:01</date>
       <images> 
         <image url="screens/stendhal/THM_20050405_stendhal.jpg"/>
       </images>
@@ -1823,7 +1814,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Marauroa 0.92 released</title>
-    <date>Wed, 3 Apr 2005 20:31:01</date>
+    <date>2005-04-03 20:31:01</date>
     <content>
       <![CDATA[<p>This release changes some interfaces to suit in a better way the game development.<br>
          If you plan to use Marauroa, you should update to this release in order to get it working. Soon I will update the API guides to show these changes.<p/>
@@ -1833,7 +1824,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Stendhal gets a GUI</title>
-    <date>Mon, 7 Mar 2005 15:04:36</date>
+    <date>2005-03-07 15:04:36</date>
       <images> 
         <image url="images/articles/stendhal_gui.jpg"/>
       </images>
@@ -1847,7 +1838,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Marauroa 0.91 released: critical bug fixes</title>
-    <date>Wed, 3 Mar 2005 20:31:01</date>
+    <date>2005-03-03 20:31:01</date>
     <content>
       <![CDATA[<p>This release of Marauroa closes a few bug fixes that make server work abnormally: a bug at RPServerManager, a bug at PlayerEntryContainer and a important bug at RPWorld.<br>
          If you plan to use Marauroa, you should update to this release in order to get it working.<p/>
@@ -1857,7 +1848,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Stendhal 0.00 released</title>
-    <date>Mon, 1 Mar 2005 20:52:47</date>
+    <date>2005-03-01 20:52:47</date>
       <images> 
         <image url="screens/stendhal/THM_20050303_stendhal.jpg"/>
       </images>
@@ -1871,7 +1862,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Marauroa 0.90 released</title>
-    <date>Wed, 19 Feb 2005 14:09:34</date>
+    <date>2005-02-19 14:09:34</date>
     <content>
       <![CDATA[<p>After more than six months we have at last another release of Marauroa.<br>
          This release sucessfully implements multizone features into Marauroa and has been splitted in several different packages: client, common and server.<br>
@@ -1882,14 +1873,14 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Stendhal: Player can move and collide with world</title>
-    <date>Mon, 16 Feb 2005 10:10:13</date>
+    <date>2005-02-16 10:10:13</date>
     <content>
       <![CDATA[<p>As I said, development is showing some interesting results in a short period of time. The actual <i>client</i> allows the player to move and collide with objects that exists on world. Problem is that the client is a development work thing, and need to be refactored in order to be released, but I think that around 2 weeks could be something available.<p/>AS preview, just a video: <a href="http://stendhal.game-server.cc/Stendhal_0.00_Video.avi">Stendhal 0.00 video</a> (24") 266KB]]>
     </content>
   </item>
   <item>
     <title>Stendhal development shows first results</title>
-    <date>Sat, 29 Jan 2005 13:41:51</date>
+    <date>2005-01-29 13:41:51</date>
       <images> 
         <image url="images/articles/THM_stendhal_003.jpg"/>
       </images>
@@ -1899,21 +1890,21 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   </item>
   <item>
     <title>Big change coming in Marauroa</title>
-    <date>Fri, 14 Jan 2005 14:27:16</date>
+    <date>2005-01-14 14:27:16</date>
     <content>
       <![CDATA[<p>Again, a few months without news of the development. Again, sorry. Development keeps moving and marauroa advances at a slow but constant speed. <br/>Waldemar ported all the code to Java 5.0 and I finally completed the change to multizone code. We both have changed the package structure of marauroa so that now it is clearer how to port it to J2ME or another language, as the server, client and commons parts are now independient packages.<p/>On the client side, I will begin to write a new Java2D client for our new game, Stendhal, so I will not update ariannexp for a while.<br/> I will try also to post more news if I have spare time.]]>
       </content>
   </item>
   <item>
     <title>I am still here</title>
-    <date>Wed, 11 Nov 2004 17:23:42</date>
+    <date>2004-11-11 17:23:42</date>
     <content>
       <![CDATA[<p>I am really sorry for being away so much time. During this 3 months development of Arianne has been idle. I am going to do my best to get the multizone feature working <i>(as it only needs testing and test cases to be written of them)</i>.<br>All the games have been taken down too because I have changed of computer and I prefer to move to the new Arianne. No timelines by now, but expect around january to see something interesting again. Sorry,<br>Miguel]]>
       </content>
   </item>
   <item>
     <title>Arianne's 5th birthday</title>
-    <date>Sat, 28 Aug 2004 20:11:54</date>
+    <date>2004-08-28 20:11:54</date>
     <content>
       <![CDATA[<p>Arianne has reached the age of 5 years. The way has been hard and full of unproductive periods. The multizone feature is being added now and should be complete in 1-2 weeks allowing us the development
 of Stendhal, which has already been started.<p/> Soon I will write more about it.]]>
@@ -1921,14 +1912,14 @@ of Stendhal, which has already been started.<p/> Soon I will write more about it
   </item>
   <item>
     <title>game servers are going to be down up to Aug, 15</title>
-    <date>Thu, 03 Aug 2004 16:41:16</date>
+    <date>2004-08-03 16:41:16</date>
     <content>
       <![CDATA[<p>Hehehe, you know, holidays!, I will shutdown the computer that run that arianne's server up to Aug, 15.<br> We are still looking for a 24/7 hoster of our servers so we can avoid this situations.<p/>As a follow up, our next game is going to be called Stendhal, surely around Aug, 15 you will be able to read more about it.]]>
       </content>
   </item>
   <item>
     <title>mapacman 1.00 released</title>
-    <date>Wed, 28 Jul 2004 18:34:48</date>
+    <date>2004-07-28 18:34:48</date>
       <images> 
         <image url="images/articles/mapacman_gui.jpg"/>
       </images>
@@ -1943,7 +1934,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>mapacman 0.90 released: final release of mapacman</title>
-    <date>Tue, 13 Jul 2004 17:23:25 GMT</date>
+    <date>2004-07-13 17:23:25</date>
       <images> 
         <image url="screens/mapacman/THM_20040712_mapacman.jpg"/>
       </images>
@@ -1960,7 +1951,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>Marauroa 0.41 released</title>
-    <date>Tue, 13 Jul 2004 00:45:12 GMT</date>
+    <date>2004-07-13 00:45:12</date>
     <content>
       <![CDATA[<p>This version of Marauroa is a bug fixes release over 0.40 version, that
        consolidate our work on RPClasses and per player synchronization. Also I have
@@ -1971,7 +1962,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>Our new website is up and running</title>
-    <date>Fri, 09 Jul 2004 12:56:53 GMT</date>
+    <date>2004-07-09 12:56:53</date>
     <content>
       <![CDATA[<p>It has been around 6 months and our website got outdated again.<br/>
         So after hiring an artist for website creation guidelines we have come with 
@@ -1983,7 +1974,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>mapacman 0.10 released</title>
-    <date>Tue, 06 Jul 2004 12:56:53 GMT</date>
+    <date>2004-07-06 12:56:53</date>
       <images>
         <image url="screens/mapacman/THM_20040705_mapacman.jpg"/>
       </images>
@@ -1996,7 +1987,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>Marauroa 0.40 released</title>
-    <date>Mon, 5 Jul 2004 13:09:37 GMT</date>
+    <date>2004-07-05 13:09:37</date>
     <content><![CDATA[<p>Marauroa is the arianne game server coded using Java and 
       Python.<br>This release is very important for us as it consolidate all 
       the development of the last 9 months on a very stable and advanced release
@@ -2008,14 +1999,14 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>mapacman server will be down 24-48 hours</title>
-    <date>Thu, 1 Jul 2004 12:56:13 GMT</date>
+    <date>2004-07-01 12:56:13</date>
     <content><![CDATA[<p>I will shutdown server to develop the next versions of both 
       marauroa and mapacman. They should be out before Monday.<p/>Sorry for the 
       inconvenience.]]></content>
   </item>
   <item>
     <title>mapacman 0.03 released</title>
-    <date>Tue, 18 Jun 2004 16:14:02 GMT</date>
+    <date>2004-06-18 16:14:02</date>
     <content><![CDATA[<p>This new version of mapacman features a bigger map, that is 
       around 8 times bigger than the 0.02 map, a scrollable view and new animations
        and graphics for mapacman done by zzorn. On server side there are some changes 
@@ -2025,7 +2016,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>mapacman 0.02 released</title>
-    <date>Tue, 8 Jun 2004 20:11:02 GMT</date>
+    <date>2004-06-08 20:11:02</date>
       <images> 
         <image url="screens/mapacman/THM_20040608_mapacman.jpg"/>
       </images>
@@ -2039,7 +2030,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>Macro release!: Marauroa, ariannexp, gladiators and mapacman</title>
-    <date>Fri, 4 Jun 2004 20:53:37 GMT</date>
+    <date>2004-06-04 20:53:37</date>
     <content>
       <![CDATA[<p>
         It has been a lot of work, but finally everything is up and running:<ul>
@@ -2062,7 +2053,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>mapacman is running on linux</title>
-    <date>Tue, 3 Jun 2004 16:03:24 GMT</date>
+    <date>2004-06-03 16:03:24</date>
       <images> 
         <image url="screens/mapacman/THM_20040603_mapacman.jpg"/>
       </images>
@@ -2079,7 +2070,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>mapacman is near 0.01</title>
-    <date>Tue, 1 Jun 2004 01:05:41 GMT</date>
+    <date>2004-06-01 01:05:41</date>
       <images> 
         <image url="screens/mapacman/THM_20040601_mapacman.jpg"/>
       </images>
@@ -2093,7 +2084,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>Marauroa 0.35 and ariannexp 0.10.0 released</title>
-    <date>Tue, 25 May 2004 21:48:32 GMT</date>
+    <date>2004-05-25 21:48:32</date>
     <content>
       <![CDATA[<p>
 		Today a major step has been taken on the Arianne development. <br>
@@ -2109,7 +2100,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>mapacman is progressing</title>
-    <date>Tue, 18 May 2004 17:53:54 GMT</date>
+    <date>2004-05-18 17:53:54</date>
       <images> 
         <image url="screens/mapacman/THM_20040517_mapacman.jpg"/>
       </images>
@@ -2126,7 +2117,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>Marauroa 0.34 released</title>
-    <date>Tue, 18 May 2004 17:15:32 GMT</date>
+    <date>2004-05-18 17:15:32</date>
     <content>
       <![CDATA[<p>server now execute turns on a soft timelimit of 64-100 ms almost with around
          128 players inside, and we have added an out of sync message so that players can 
@@ -2135,7 +2126,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>Marauroa speeded up</title>
-    <date>Tue, 14 May 2004 21:19:54 GMT</date>
+    <date>2004-05-14 21:19:54</date>
       <images> 
         <image url="images/articles/THM_Marauroa_100Clients.png"/>
       </images>
@@ -2150,7 +2141,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>pyarianne, wiki and some minor things</title>
-    <date>Wed, 12 May 2004 14:59:24 GMT</date>
+    <date>2004-05-12 14:59:24</date>
     <content>
       <![CDATA[<p>
 		There are several things moving on arianne right now:<br>
@@ -2167,7 +2158,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>Marauroa 0.33 and Gladiators 0.08.4 released</title>
-    <date>Sat, 1 May 2004 17:37:12 GMT</date>
+    <date>2004-05-01 17:37:12</date>
     <content>
       <![CDATA[<p>
 		A little big step have been taken with Marauroa, this release integrate so many hot fixes 
@@ -2186,7 +2177,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>IRC meeting</title>
-    <date>Fri, 30 Apr 2004 20:26:16 GMT</date>
+    <date>2004-04-30 20:26:16</date>
     <content>
       <![CDATA[<p>
 		At May, 1 - <a href="http://www.timeanddate.com/worldclock/">18:00 UTC</a> we will have 
@@ -2198,7 +2189,7 @@ that may be added on the next release of marauroa: no promises.]]>
   </item>
   <item>
     <title>First progresses with mapacman</title>
-    <date>Tue, 28 Apr 2004 16:36:47 GMT</date>
+    <date>2004-04-28 16:36:47</date>
     <content>
       <![CDATA[<p>
 		On a very experimental framework, I got a pacman to run the laberinth in a more or less 
@@ -2227,7 +2218,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>Gladiators manual written</title>
-    <date>Tue, 27 Apr 2004 18:07:03 GMT</date>
+    <date>2004-04-27 18:07:03</date>
     <content>
       <![CDATA[<p>
 		Thanks to Steve I. , we all now have a manual for Gladiators. Please check it 
@@ -2239,7 +2230,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>Marauroa 0.32 and Gladiators 0.08.3 released</title>
-    <date>Wed, 21 Apr 2004 15:25:46 GMT</date>
+    <date>2004-04-21 15:25:46</date>
     <content>
       <![CDATA[<p>
 		This version of marauroa, the arianne's server, fix the bug that happens when an object 
@@ -2253,7 +2244,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>MrPacman to come into Arianne :)</title>
-    <date>Tue, 20 Apr 2004 20:56:02 GMT</date>
+    <date>2004-04-20 20:56:02</date>
       <images> 
         <image url="images/articles/real_pacman.jpg"/>
       </images>
@@ -2275,7 +2266,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>Marauroa 0.31, Gladiators 0.08.2 and ariannexp 0.08.2 released</title>
-    <date>Wed, 14 Apr 2004 12:23:02 GMT</date>
+    <date>2004-04-14 12:23:02</date>
     <content>
       <![CDATA[<p>
 	 	 On my way of "release often, release big" I have released a new version of 
@@ -2299,7 +2290,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>Gladiators 0.08 and ariannexp 0.08 released</title>
-    <date>Mon, 05 Apr 2004 19:34:52 GMT</date>
+    <date>2004-04-05 19:34:52</date>
     <content>
       <![CDATA[<p>
 		I have released a new version of Gladiators and ariannexp that keep in sync with 
@@ -2314,7 +2305,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>Marauroa joined Arianne!</title>
-    <date>Sat, 27 Mar 2004 16:24:39 GMT</date>
+    <date>2004-03-27 16:24:39</date>
     <content>
       <![CDATA[<p>
 		Today Marauroa and Arianne have joined on the task for creating a high quality 
@@ -2326,7 +2317,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>Gladiators 0.07 released</title>
-    <date>Fri, 26 Mar 2004 20:25:41 GMT</date>
+    <date>2004-03-26 20:25:41</date>
     <content>
       <![CDATA[<p>
 		This is also an update version of Gladiators 0.06 that add support for Marauroa's 
@@ -2338,7 +2329,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>Gladiators 0.06 released</title>
-    <date>Sat, 06 Mar 2004 13:59:12 GMT</date>
+    <date>2004-03-06 13:59:12</date>
     <content>
       <![CDATA[<p>
       	This is an update version of Gladiators 0.05 that add compression to the network 
@@ -2348,7 +2339,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>Gladiators 0.05 released</title>
-    <date>Thu, 26 Feb 2004 19:40:26 GMT</date>
+    <date>2004-02-26 19:40:26</date>
       <images> 
         <image url="screens/gladiators/THM_20040226_Gladiators.jpg"/>
       </images>
@@ -2365,7 +2356,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>Gladiators 0.04 released</title>
-    <date>Sun, 22 Feb 2004 20:28:32 GMT</date>
+    <date>2004-02-22 20:28:32</date>
       <images> 
         <image url="screens/gladiators/THM_20040220_Gladiators.jpg"/>
       </images>
@@ -2379,7 +2370,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>New website online</title>
-    <date>Sat, 20 Feb 2004 13:31:48 GMT</date>
+    <date>2004-02-20 13:31:48</date>
     <content>
       <![CDATA[<p>
       I have written a new website with in invaluable of Steve. We would really love to listen
@@ -2388,7 +2379,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>Gladiators 0.03 released</title>
-    <date>Wed, 11 Feb 2004 18:12:48 GMT</date>
+    <date>2004-02-11 18:12:48</date>
       <images> 
         <image url="screens/gladiators/THM_20040210_2_Gladiators.jpg"/>
       </images>
@@ -2402,7 +2393,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>Gladiators 0.02 and ariannexp 0.02: Arianne 0.4.2 released</title>
-    <date>Fri, 06 Feb 2004 20:18:48 GMT</date>
+    <date>2004-02-06 20:18:48</date>
       <images> 
         <image url="screens/gladiators/THM_20040206_Gladiators.jpg"/>
       </images>
@@ -2414,7 +2405,7 @@ Backtracking detected --> Rotating
   </item>
   <item>
     <title>Gladiators 0.01 released</title>
-    <date>Sun, 01 Feb 2004 01:53:29 GMT</date>
+    <date>2004-02-01 01:53:29</date>
       <images> 
         <image url="screens/gladiators/THM_20040126_Gladiators.jpg"/>
       </images>
