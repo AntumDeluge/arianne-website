@@ -75,7 +75,7 @@ class RssPage extends Page {
 			echo '<description>'.$this->renderText(trim($item['content'][0])).'</description>';
 			echo '<link>http://arianne.sourceforge.net/news/'.$strippedTitle.'.html</link>';
 			echo '<author>newsfeed@stendhalgame.org (Arianne Project)</author>';
-			// TODO: echo '<pubDate><?php echo date("D, d M Y H:i:s O", strtotime($entry->date)).'</pubDate>';
+			echo '<pubDate>'.date("D, d M Y H:i:s O", strtotime($item['date'][0])).'</pubDate>';
 			echo '<category>Arianne Accounement</category>';
 			echo '<guid>http://arianne.sourceforge.net/news/'.$strippedTitle.'.html</guid>';
 		echo '</item>'."\r\n";
