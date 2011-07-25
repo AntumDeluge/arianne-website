@@ -72,7 +72,7 @@ class RssPage extends Page {
 		$strippedTitle = getNiceURL($item['title'][0]);
 		echo '<item>';
 			echo '<title>'.htmlspecialchars($item['title'][0]).'</title>';
-			$content = $item['content'][0];
+			$content = $item['content'][0].'<p>';
 			foreach($item['images'][0]['image'] as $key=>$image) {
 				if(is_array($image)) {
 					$content .= '<img class="news_image" src="/'.$image['url'].'" alt="Game screenshot">'."\r\n";
