@@ -20,6 +20,8 @@ RewriteRule ^stendhal/greeting/(.*)/(.*).html$ /greeting.php?product=stendhal&fr
 
 RewriteRule ^(.*).html$ /index.php?arianne_url=content/$1&rewrite=3QivnzcY [L]
 
+RewriteRule ^/rss/news.rss$ /index.php?arianne_url=content/rss&rewrite=3QivnzcY [L]
+
 
 RewriteCond %{QUERY_STRING} rewrite=3QivnzcY
 RewriteRule .* - [L]
