@@ -1007,8 +1007,10 @@ We are working on a solution and will inform you when the issue is solved and th
     <title>Stendhal 0.61: Wofol opens its doors</title>
     <date>2007-06-22 18:53:09</date>
     <images>
+    <!-- 
       <image url="screens/stendhal/THM_20070622_1_stendhal.jpg"/>
       <image url="screens/stendhal/THM_20070622_2_stendhal.jpg"/>
+    -->
       <image url="screens/stendhal/THM_20070622_3_stendhal.jpg"/>
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
@@ -1162,9 +1164,9 @@ High level players have had a boost recently. With the level cap of 99 removed, 
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
 
     <content>
-      <![CDATA[<p>
-<font color=red><b>NOTE:</b> We are having problems lately with DNS of our game server, so if it doesn't work for you, please try <b><a href="http://mblanch.homeip.net/ip.txt">IP here</a></b></font><p>
-The elves are back to their homes and businesses in Nalwor City, and they're pretty mad that humans have been visiting! Tread carefully next time you make a trip. Maybe you'll be tempted to travel far, now that walking long distance is enabled by double clicking your minimap. Perhaps you'll visit the Rat City? A careless ratman has left a door open...<p>
+    <!--<p><font color=red><b>NOTE:</b> We are having problems lately with DNS of our game server, so if it doesn't work for you, please try <b><a href="http://mblanch.homeip.net/ip.txt">IP here</a></b></font>-->
+      <![CDATA[
+<p>The elves are back to their homes and businesses in Nalwor City, and they're pretty mad that humans have been visiting! Tread carefully next time you make a trip. Maybe you'll be tempted to travel far, now that walking long distance is enabled by double clicking your minimap. Perhaps you'll visit the Rat City? A careless ratman has left a door open...<p>
 For those who just want a quiet life, they'll find that ctrl+r clears all those annoying chat bubbles. That's not recommended in the middle of a trade on the new trading table in Semos Town Hall. You want to have your wits about you for bargaining the best prices. While you're in the Town Hall - go chat to the Mayor, as he now tells you exactly how long to wait till your next daily monster quest. He might ask you to kill some of the troublesome bandits on the road from Semos to Ados?<p>
 More than trouble lurks beneath the graveyard in Semos Plains North ... vampires roam the Catacombs. If you want to hear the stories, go to the ancient dwarf blacksmith in the mines of Or'ril mountain. And if you're brave enough, begin the quest for the Vampire Sword.       ]]>
       </content>
@@ -1353,7 +1355,7 @@ Next version is prone to take a few weeks of time because I really want to work 
     <title>Stendhal 0.47: Liches and Kobolds</title>
     <date>2006-03-24 00:01:54</date>
       <images> 
-        <image url="screens/stendhal/THM_20060324_stendhal.jpg"/>
+        <!-- <image url="screens/stendhal/THM_20060324_stendhal.jpg"/> -->
       </images>
     <content>
       <![CDATA[<p>This release fix LOTS of bugs that we have recieve from and add some new interesting features like doors and keys, add two new big game areas: Wofol, the kobold's city that is suitable for team play of players around level 10-20 and N'mon, the lich fortress under the Orril castle, that is only for the most brave players.<p>
@@ -1385,9 +1387,11 @@ We still need your help to add content to world as items, creatures, quests, map
   <item>
     <title>Stendhal 0.45: Diplodocus!</title>
     <date>2006-03-03 18:48:19</date>
-      <images> 
+      <images>
+      <!-->
         <image url="screens/stendhal/THM_20060303_stendhal.jpg"/>
         <image url="screens/stendhal/THM_20060304_stendhal.jpg"/>
+      -->
       </images>
     <content>
       <![CDATA[<p>Welcome to the biggest better ever release of Arianne.<p>
@@ -1455,8 +1459,8 @@ Have a try to Stendhal! If you like it you will really love helping us to create
   <item>
     <title>Stendhal 0.40: Remember it is a BETA!</title>
     <date>2005-12-20 12:36:19</date>
-      <images> 
-        <image url="screens/stendhal/THM_20051220_stendhal.jpg"/>
+      <images>
+        <!-- <image url="screens/stendhal/THM_20051220_stendhal.jpg"/> -->
       </images>
     <content>
       <![CDATA[<p>Ok, don't panic!<br>
@@ -1602,8 +1606,8 @@ What's your Top Score ? Try it out at <a href="http://jmapacman.mpc-donkey.de">h
   <item>
     <title>Stendhal 0.25 release: bugs fixes and initial support for items</title>
     <date>2005-06-05 00:57:35</date>
-      <images> 
-        <image url="screens/stendhal/THM_20050604_stendhal.jpg"/>
+      <images>
+       <!-- <image url="screens/stendhal/THM_20050604_stendhal.jpg"/>  -->
       </images>
     <content>
       <![CDATA[<p>Hello Barrapunteros!. We have been <i>forced</i> to release a bug fixes version of Stendhal due the amount of players that are going to try it.<br> This release fixs the corpses problem and other majot problems like Creatures AI.<br>
@@ -1622,7 +1626,7 @@ A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalM
     <title>Stendhal 0.20 release: new Monsters, more dungeons and better eXPerience</title>
     <date>2005-06-05 00:57:35</date>
       <images> 
-        <image url="screens/stendhal/THM_20050605_stendhal.jpg"/>
+        <!--  <image url="screens/stendhal/THM_20050605_stendhal.jpg"/> -->
       </images>
     <content>
       <![CDATA[<p>Yes! We are back!. This release adds the set outfit feature, so that you can personalize your character. On next releases we are going to change the graphics, so please wait for content submitions. Some of you have been complaining about wolves are easy, so we have added boars, trolls, cobras, orcs, kobolds, goblins and ogres. We have added also added a new dungeon, four times bigger than the actual one, where lives a NPC what will give you 2000 XP points for your full grow sheep.<p/>
@@ -1711,7 +1715,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Stendhal 0.10 release</title>
     <date>2005-05-12 13:56:23</date>
       <images> 
-        <image url="screens/stendhal/THM_20050512_stendhal.jpg"/>
+        <!-- <image url="screens/stendhal/THM_20050512_stendhal.jpg"/> -->
       </images>
     <content>
       <![CDATA[<p>This new release of Stendhal adds very important features like:
@@ -1731,7 +1735,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Major changes on Stendhal: combat implemented</title>
     <date>2005-05-07 20:03:55</date>
       <images> 
-        <image url="screens/stendhal/THM_20050507_stendhal.jpg"/>
+         <!-- <image url="screens/stendhal/THM_20050507_stendhal.jpg"/> -->
       </images>
     <content>
       <![CDATA[<p>A new week, almost a new release :)<br>I have added combat to Stendhal and HP bars, and a basic in game GUI.<br>Release should happen soon, exactly at the same moment I assign <i>coherent</i> RP values to entities.<p/>
@@ -1765,7 +1769,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Stendhal 0.02 released: Sheeps and food</title>
     <date>2005-04-17 13:21:01</date>
       <images> 
-        <image url="screens/stendhal/THM_20050417_stendhal.jpg"/>
+        <!-- <image url="screens/stendhal/THM_20050417_stendhal.jpg"/> -->
       </images>
     <content>
       <![CDATA[<p>This is the first release of Stendhal that has the tag playable (PLAYABLE).<br> You can walk, chat, attack, buy and sell sheeps, change zones, request help, etc...<p/>
@@ -1800,7 +1804,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Stendhal 0.01 released</title>
     <date>2005-04-05 20:12:01</date>
       <images> 
-        <image url="screens/stendhal/THM_20050405_stendhal.jpg"/>
+        <!-- <image url="screens/stendhal/THM_20050405_stendhal.jpg"/> -->
       </images>
     <content>
       <![CDATA[<p>Our second release of Stendhal, and again it is not intended to be playable (<b>NO PLAYABLE</b>). You can walk, chat, collide, move from one zone to another, talk to NPC, attack other players and our dummy, but it lacks of the quality to consider it playable.<p/>
@@ -1850,7 +1854,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Stendhal 0.00 released</title>
     <date>2005-03-01 20:52:47</date>
       <images> 
-        <image url="screens/stendhal/THM_20050303_stendhal.jpg"/>
+        <!-- <image url="screens/stendhal/THM_20050303_stendhal.jpg"/> -->
       </images>
     <content>
       <![CDATA[<p>This is the first relese of Stendhal. It is not intended to be playable (<b>NO PLAYABLE</b>), it is just a tech demo of where you can walk, collide and change of zone.<p/>
