@@ -8,11 +8,50 @@
     <images>
       <image url=""/>
     </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>]]>
       </content>
   </item>
 -->
+
+
+
+  <item>
+    <title>Stendhal 0.97: Wear a Rainbow</title>
+    <date>2011-10-12</date>
+    <images>
+      <image url="screens/stendhal/colours_97.png"/>
+      <image url="screens/stendhal/minetown_97.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>Would you love to wear a rainbow every day, and tell the world that everything's okay? Now, you can. Choose a bright colour when you select your outfit, you can shade your hair and clothes. All the colour may help you get in the party mood for Semos Mine Town Revival Weeks. Check out Semos and the Mine Town, newly decorated for Hallowe'en and with games to play. 
+<p>
+It's not just clothes that changed their look, but the ground around you too - take a trip to Kikareukin Caves or to the Northern mountain ranges - it really seems like Autumn has brought many changes. To read about these and more, please take a look at 
+ the full <a href = "http://arianne.sourceforge.net/game/stendhal.html#changes">change log.</a>
+]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 0.96: Welcoming new adventurers</title>
+    <date>2011-08-25</date>
+    <images>
+      <image url="screens/stendhal/semos96.png"/>
+      <image url="screens/stendhal/atlas96.png"/>
+   </images>
+   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>Those who first arrive on Faiumoni to experience adventure should be welcomed by all, and find the place easy to navigate. Semos has had a problem with wild creatures nearby and newcomers wandering easily into the forest instead of the city, so friendly citizens <a href ="http://stendhalgame.org/character/storyteller.html">storyteller</a> and <a href ="http://stendhalgame.org/character/kiheru.html">kiheru</a> have built a palisade wall for protection and guidance. Various animal pens, including the wolves in the park north of Semos, have working gates. For learning the way around, everyone now has easy access to a clever <a href ="http://stendhalgame.org/world/atlas.html">atlas</a> created by <a href ="http://stendhalgame.org/character/hendrik.html">hendrik</a> and <a href ="http://stendhalgame.org/character/monsterdhal.html">monsterdhal</a>, and a friendly <a href ="http://stendhalgame.org/wiki/BeginnersGuide">beginners guide</a>.
+<p>
+New visitors are often keen to start out helping others. The little boy Tad that many newcomers meet and help, has moved from his lonely spot in the Town hall, into Semos Hostel, and if anyone forgets to help him, Ketteh Wehoh, who is now in the Town Hall, will remind them! For tasks which a newcomer might like to help with (or not) there are warnings in the popular 'Travel Log' if the quest is not suitable yet. And tasks from Barbarus and Haunchy Meatoch are now more rewarding. After all this work, perhaps you'd like to relax in Fado hotel's sunny new beer garden?
+<p>
+If you'd like to find out about all the other changes please read the full <a href = "http://arianne.sourceforge.net/game/stendhal.html#changes">change log.</a>
+]]>
+      </content>
+  </item>
+
 
   <item>
     <title>Stendhal 0.95: Fixing the updater</title>

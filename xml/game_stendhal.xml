@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <game name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2011-07-14"/>
-  <version id="0.95"/>
+  <updated date="2011-10-12"/>
+  <version id="0.97"/>
   <status value="stable"/>
   <type value="game"/>
   <cssdoc url="css/stendhal.css"/>
@@ -50,6 +50,78 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://stendhalgame.org/wiki/StendhalManual"/>  
   <changelog><![CDATA[
+
+<b>0.97</b>
+
+<br><b>* Revival Weeks*</b>
+<br>- Faiumonis inhabitans are excited for the Mine Town Revival Weeks already and decorated Semos City and the Mine Town area
+<br>- Caroline finally found her way to the Mine Town for selling snacks and drinks
+<br>- NPCs and games have been moved in relation to the former years 
+
+<br><b>*world*</b>
+<br>- More Semos NPCs help players now if they need some advise of what to do next
+<br>- The duration of special outfits is now based on online time
+<br>- More minimum levels for items
+<br>- Semos inhabitants decided to open the new palisade wall a bit and added a new way to the south and west
+<br>- Semos city tavern/INN owners rebuild their front garden and made it quite comfortable
+<br>- New playground next to Plink at Semos_Plains_n
+<br>- Creatures of Kikareukin changed their environment on level 4 and 5
+<br>- Some mountain maps in Semos and Ados mountains changed their look
+<br>- Semos Mine Town map has a new look: the tower is gone and a new miner hut built up
+<br>- New achievements active: mainio armor set "Excellent Stuff", harvest vegetables and become a "Farmer"
+
+<br><b>*website*</b>
+<br>- New coloured outfits can be seen on the website
+
+<br><b>*client*</b>
+<br>- Outfit parts can be coloured
+<br>- Dialogs can be closed by pressing ESC
+<br>- Buddies can be invited to group directly from the buddy list
+<br>- Other players can be invited to group via right click menu
+
+<br><b>*fixes*</b>
+<br>- Fixed descriptions for Ketteh Wehoh
+<br>- Fixed quest history for MedicineForTad and mentions new place of Tad in Semos Village
+<br>- Fixed some spaces which went into Tads dialogue
+<br>- Fixed missing collision in Semos ciy with rebuilding the palisade wall
+<br>- Blood on gates can't block these anymore
+<br>- Login dialog gets re<br>-enabled after a failed login
+<br>- Players can not attack others from protected areas
+<br>- Working on some maps fixed layer errors
+<br>- Decreased number of sheep to eight in Semos city (they were starving before)
+
+
+<br><b>*internal code changes*</b>
+<br>- table itemid was replaced with table item.
+
+
+<p><b>0.96</b>
+<br><b>*world*</b>
+<br>- Barbarus moved his work place a bit closer to the Mines entrance and reduced the pick price to 400 money each
+<br>- Haunchy Meatoch is really thankful for the help he gets each time from players and gives them some XP now
+<br>- various animal pens have gates now. Also wolves in the park are behind a gate
+<br>- Semos has a palisade wall now to protect the city against the creatures outside
+<br>- there is a nice new beer garden in front of the Fado hotel
+<br>- Tad moved to Semos Hostel and Ketteh Wehoh, in the town hall, will remind about his quest
+<br>- the quest log hints if a quest which has been started isn't suitable for the current level
+<br>- danger signs are more prominent
+
+<br><b>*website*</b>
+<br>- added an interactive Atlas to the website
+<br>- improvements to the arianne.sourceforge.net website including an rss feed
+<br>- achievements for Semos and Ados daily quests are in their own categories
+
+<br><b>*client*</b>
+<br>- support and tutorial textboxes stay on top
+<br>- Atlas command now focuses on the current position
+<br>- added Beginner's guide to help menu
+<br>- healing messages don't spam the chat log anymore (but can be enabled in the setting dialog)
+<br>- "where" command in the group menu
+
+<br><b>*fixes*</b>
+<br>- fixed kill enemy army quest (load again + added madaram archer and windwalker to kill<br>-list)
+<br>- harold now understands plural words properly
+
 <p><b>0.95</b>
 <br>If you package Stendhal or have forked your own game based on it
 <br>read http://stendhalgame.org/wiki/Automatic_Software_Updater
