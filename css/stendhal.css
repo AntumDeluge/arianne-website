@@ -193,6 +193,9 @@ ul.rating li p { }
 #left_menu li.text { padding:5px 0px 0px 16px; text-align:left;}
 #left_menu { float: left; width: 170px;  padding:0; clear:none; margin:0; margin-top: 0px; }
 
+#left_menu ul li.menu_title {
+	background-color: transparent;
+}
 #left_menu ul li.menu_title img {
     border:none;
     }
@@ -290,6 +293,7 @@ ul.rating li p { }
 
 ul.gamepagemenu
 {
+	background-color: transparent;
 	font-size: 9pt;
 	font-weight: bold;
 text-align: center;
