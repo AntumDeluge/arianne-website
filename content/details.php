@@ -56,6 +56,7 @@ class DetailPage extends Page {
 			WriteGameHTML($this->xml, $this->category);
 		} else {
 			echo 'Unfortunately this page does not exist.';
+			echo '<!-- '.htmlspecialchars($_REQUEST['name']).'-->';
 		}
 	}
 }
