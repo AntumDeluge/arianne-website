@@ -6,11 +6,13 @@ RewriteRule ^stendhal/updates/.* - [L]
 RewriteRule ^stendhal/greeting/.* - [L]
 
 RewriteRule ^docs/(.*).html$ /index.php?arianne_url=docs/$1&rewrite=3QivnzcY [L]
-RewriteRule ^engine/(.*).html$ /index.php?arianne_url=servers/server_$1&rewrite=3QivnzcY [L]
 RewriteRule ^game/index.html$ /index.php?arianne_url=content/games&rewrite=3QivnzcY [L]
-RewriteRule ^game/(.*).html$ /index.php?arianne_url=games/game_$1&rewrite=3QivnzcY [L]
-RewriteRule ^tool/(.*).html$ /index.php?arianne_url=tools/tool_$1&rewrite=3QivnzcY [L]
-RewriteRule ^client/(.*).html$ /index.php?arianne_url=clients/client_$1&rewrite=3QivnzcY [L]
+
+RewriteRule ^engine/(.*).html$ /index.php?arianne_url=content/details&name=engine/$1&rewrite=3QivnzcY [L]
+RewriteRule ^game/(.*).html$ /index.php?arianne_url=content/details&name=game/$1&rewrite=3QivnzcY [L]
+RewriteRule ^tool/(.*).html$ /index.php?arianne_url=content/details&name=tool/$1&rewrite=3QivnzcY [L]
+RewriteRule ^client/(.*).html$ /index.php?arianne_url=content/details&name=client/$1&rewrite=3QivnzcY [L]
+
 RewriteRule ^news/(.*).html$ /index.php?arianne_url=content/news&title=$1&rewrite=3QivnzcY [L]
 RewriteRule ^(.*)-all.html$ /index.php?show_archive=1&arianne_url=content/$1&rewrite=3QivnzcY [L]
 RewriteRule ^(.*)-archived.html$ /index.php?show_archive=1&arianne_url=content/$1&archived=1&rewrite=3QivnzcY [L]
