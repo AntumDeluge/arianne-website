@@ -42,6 +42,12 @@ class DetailPage extends Page {
 		return true;
 	}
 
+	public function writeHtmlHeader() {
+		if (isset($this->xml['game']) && isset($this->xml['game'][0]['cssdoc']) && ($this->xml['game'][0]['cssdoc']['0 attr']['url'] != "")) {
+			echo '<link rel="stylesheet" type="text/css" href="/'.$this->xml['game'][0]['cssdoc']['0 attr']['url'].'">';
+		}
+	}
+
 	/**
 	 * writes the content of the sub project page
 	 */

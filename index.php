@@ -72,23 +72,9 @@ if ($page->writeHttpHeader()) {
 <head>
 <LINK REL="SHORTCUT ICON" HREF="/favicon.ico">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-
 <?php
-$page->writeHtmlHeader();
-
-$name = substr($page_url,strpos($page_url,"/")+1, strlen($page_url));
-if (file_exists('xml/'.$name.'.xml')) {
-	$content=implode("",file('xml/'.$name.'.xml'));
-	$xml = XML_unserialize($content);
-
-	if($xml['game'][0]['cssdoc']['0 attr']['url'] != "") {
-		echo '<link rel="stylesheet" type="text/css" href="/'.$xml['game'][0]['cssdoc']['0 attr']['url'].'">';
-	} else {
-		echo '<link rel="stylesheet" type="text/css" href="/css/cssdef.css">';
-	}
-} else {
 	echo '<link rel="stylesheet" type="text/css" href="/css/cssdef.css">';
-}
+	$page->writeHtmlHeader();
 ?>
 
 </head>
