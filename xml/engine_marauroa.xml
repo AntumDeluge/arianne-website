@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<engine name="marauroa">
+<page name="marauroa">
   <updated date="2011-07-14"/>
   <version id="3.8.7"/>  
   <status value="complete"/>
@@ -303,4 +303,4 @@ href="http://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Mara
     <entry name="Stephen Ierodiaconou" url="http://arianne.sourceforge.net/wiki/index.php/StephenIerodiaconou"/>
     <entry name="Hendrik" url=""/>
   </authors>
-</engine>
+</page>

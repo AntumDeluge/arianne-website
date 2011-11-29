@@ -12,7 +12,7 @@ class Download extends Page {
 	public function writeContent() {
 ?>
 <h1>Downloads</h1>
-<p>Use these links to find the download section for each game/server etc.</p>
+<p>Use these links to find the download section for each game etc.</p>
 <ul class="menubar">
 <li><a href="#games">Games</a></li>
 <li><a href="#engine">Engine</a></li>
@@ -34,7 +34,7 @@ class Download extends Page {
 <a name="engine"></a><h1>Engine</h1>
 If you want to create your own Arianne game you need to download Marauroa.
 <?php
-	renderDownloads("server");
+	renderDownloads("engine");
 
   /* echo '<a name="engine"></a><h1>Client engine</h1>';
    echo 'If you are developing your own game, or if you want to compile Arianne, grab the following files.';

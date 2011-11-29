@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<tool name="marboard" shortdescription="Marboard is an early prototype of an easy to use vector graphics program allowing live collaboration">
+<page name="marboard" shortdescription="Marboard is an early prototype of an easy to use vector graphics program allowing live collaboration">
   <updated date="2010-02-23"/>
   <version id="0.12"/>
   <type value="tool"/>
@@ -130,4 +130,4 @@ While it is not ready for production use yet, it is a good proof that Marauroa i
     <entry name="madmetzger" url="http://www.ohloh.net/accounts/madmetzger"/>
     <entry name="kiheru" url="http://www.ohloh.net/accounts/kiheru"/>
   </authors>
-</tool>
+</page>

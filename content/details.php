@@ -43,8 +43,8 @@ class DetailPage extends Page {
 	}
 
 	public function writeHtmlHeader() {
-		if (isset($this->xml['game']) && isset($this->xml['game'][0]['cssdoc']) && ($this->xml['game'][0]['cssdoc']['0 attr']['url'] != "")) {
-			echo '<link rel="stylesheet" type="text/css" href="/'.$this->xml['game'][0]['cssdoc']['0 attr']['url'].'">';
+		if (isset($this->xml['page']) && isset($this->xml['page'][0]['cssdoc']) && ($this->xml['page'][0]['cssdoc']['0 attr']['url'] != "")) {
+			echo '<link rel="stylesheet" type="text/css" href="/'.$this->xml['page'][0]['cssdoc']['0 attr']['url'].'">';
 		}
 	}
 
@@ -53,7 +53,7 @@ class DetailPage extends Page {
 	 */
 	public function writeContent() {
 		if (isset($this->xml)) {
-			WriteGameHTML($this->xml, $this->category);
+			WriteGameHTML($this->xml, 'page');
 		} else {
 			echo 'Unfortunately this page does not exist.';
 			echo '<!-- '.htmlspecialchars($_REQUEST['name']).'-->';

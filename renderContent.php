@@ -14,8 +14,7 @@ function sortByDate($files) {
 	foreach ($files as $file) {
 		$content=implode("",file($file));
 		$xml = XML_unserialize($content);
-		$base=(explode("_",substr($file,strlen('xml_'))));
-		$result[GameUpdateTime($xml,$base[0])]=$file;
+		$result[GameUpdateTime($xml)]=$file;
 	}
 
 	usort($result,"cmp");
@@ -66,7 +65,7 @@ function renderGameList($type) {
 			continue;
 		}
 		if (!is_dir("xml/".$file)) {
-			if (strpos($file,$type.'_')!==false) {
+			if (strpos($file, $type.'_')!==false) {
 				$gameList[]="xml/".$file;
 			}
 		}

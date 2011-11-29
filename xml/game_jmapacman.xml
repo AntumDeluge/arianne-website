@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<game name="jmapacman" shortdescription="A multiplayer online Pacman game">
+<page name="jmapacman" shortdescription="A multiplayer online Pacman game">
   <updated date="2005-07-02"/>
   <version id="0.3"/>
   <type value="game"/>
@@ -81,4 +81,4 @@ There is not currently a JMaPacman server active.</b> ]]></description>
     <entry name="Hendrik Brummermann" url=""/>
     <entry name="Pavlo Shelyazhenko" url=""/> 
  </authors>
-</game>
+</page>

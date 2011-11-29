@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<game name="stendhal" shortdescription="A multiplayer online adventures game">
+<page name="stendhal" shortdescription="A multiplayer online adventures game">
   <updated date="2011-10-12"/>
   <version id="0.97"/>
   <status value="stable"/>
@@ -702,4 +702,4 @@ your error log files and please continue to do so.
     <entry name="TheGeneral" url=""/>
 
   </authors>
-</game>
+</page>

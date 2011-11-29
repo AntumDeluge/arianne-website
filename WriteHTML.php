@@ -3,8 +3,8 @@ include_once('xml.php');
 include_once 'share_buttons.php';
 
 
-function GameUpdateTime($game, $base) {
-	return $game[$base][0]['updated']['0 attr']['date'];
+function GameUpdateTime($game) {
+	return $game['page'][0]['updated']['0 attr']['date'];
 }
 
 
@@ -142,37 +142,37 @@ function imageResize($width, $height, $target) {
 
 // Create the list of games on the Games page
 function WriteGamePageListHTML($game) {
-	if (($game['game'][0]['status']['0 attr']['value'] === 'archived')) {
+	if (($game['page'][0]['status']['0 attr']['value'] === 'archived')) {
 		$showarchive=0;
 		if (isset($_REQUEST["show_archive"])) {
 			$showarchive=$_REQUEST["show_archive"];
 		}
 		if ($showarchive == 1) {
-			echo '<li><a href="#'.$game['game']['0 attr']['name'].'">'.ucfirst($game['game']['0 attr']['name']).'</a></li>';
+			echo '<li><a href="#'.$game['page']['0 attr']['name'].'">'.ucfirst($game['page']['0 attr']['name']).'</a></li>';
 		}
 	} else {
-		echo '<li><a href="#'.$game['game']['0 attr']['name'].'">'.ucfirst($game['game']['0 attr']['name']).'</a></li>';
+		echo '<li><a href="#'.$game['page']['0 attr']['name'].'">'.ucfirst($game['page']['0 attr']['name']).'</a></li>';
 	}
 }
 
 
 function WriteShortGameDesc($game) {
-	$type = $game['game'][0]['type']['0 attr']['value'];
+	$type = $game['page'][0]['type']['0 attr']['value'];
 	echo '<li class="text">';
-	echo '<a href="/'.$type.'/'.$game['game']['0 attr']['name'].'.html" class="naviLight">'.ucfirst($game['game']['0 attr']['name']).'</a>';
-	$time=explode("-",GameUpdateTime($game,"game"));
+	echo '<a href="/'.$type.'/'.$game['page']['0 attr']['name'].'.html" class="naviLight">'.ucfirst($game['page']['0 attr']['name']).'</a>';
+	$time=explode("-",GameUpdateTime($game));
 	if (time()-mktime(0,0,0,$time[1],$time[2],$time[0])<30*24*60*60) {
 		echo '<img src="/images/updated.gif" class="update_image" alt="Recently Updated">';
 	}
 	echo '</li>';
 	echo '<li>';
-	if (isset($game['game'][0]['screenshots'])) {
-		foreach ($game['game'][0]['screenshots'] as $key=>$image) {
+	if (isset($game['page'][0]['screenshots'])) {
+		foreach ($game['page'][0]['screenshots'] as $key=>$image) {
 			if (is_array($image)) {
-				$image_size = getimagesize(dirname(__FILE__).'/screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
+				$image_size = getimagesize(dirname(__FILE__).'/screens/'.$game['page']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
 				$html_size = imageResize($image_size[0], $image_size[1], 130);
 
-				echo '<a href="/'.$type.'/'.$game['game']['0 attr']['name'].'.html"><img src="/screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
+				echo '<a href="/'.$type.'/'.$game['page']['0 attr']['name'].'.html"><img src="/screens/'.$game['page']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
 			}
 		}
 	} else {
@@ -183,31 +183,31 @@ function WriteShortGameDesc($game) {
 
 
 function WriteLongGameDesc($game) {
-	$type = $game['game'][0]['type']['0 attr']['value'];
+	$type = $game['page'][0]['type']['0 attr']['value'];
 
 	echo '<div class="game_entry">';
 
-	echo '<div class="link_title"><a name="'.$game['game']['0 attr']['name'].'"></a><h1><a href="/'.$type.'/'.$game['game']['0 attr']['name'].'.html">'.ucfirst($game['game']['0 attr']['name']).'</a></h1><p><a href="/'.$type.'/'.$game['game']['0 attr']['name'].'.html">Click here to see information about this package</a></p></div>';
-	echo '<h2>'.$game['game']['0 attr']['shortdescription'].'</h2>';
+	echo '<div class="link_title"><a name="'.$game['page']['0 attr']['name'].'"></a><h1><a href="/'.$type.'/'.$game['page']['0 attr']['name'].'.html">'.ucfirst($game['page']['0 attr']['name']).'</a></h1><p><a href="/'.$type.'/'.$game['page']['0 attr']['name'].'.html">Click here to see information about this package</a></p></div>';
+	echo '<h2>'.$game['page']['0 attr']['shortdescription'].'</h2>';
 
-	$time=explode("-",GameUpdateTime($game,"game"));
+	$time=explode("-",GameUpdateTime($game));
 	if (time()-mktime(0,0,0,$time[1],$time[2],$time[0])<30*24*60*60) {
 		echo '<img src="/images/updated.gif" class="update_image" alt="Recently Updated!">';
 	}
 	WriteGameStatusTag($game);
 
-	if (isset($game['game'][0]['screenshots'])) {
-		foreach ($game['game'][0]['screenshots'] as $key=>$image) {
+	if (isset($game['page'][0]['screenshots'])) {
+		foreach ($game['page'][0]['screenshots'] as $key=>$image) {
 			if (is_array($image)) {
-				$image_size = getimagesize(dirname(__FILE__).'/screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
+				$image_size = getimagesize(dirname(__FILE__).'/screens/'.$game['page']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
 				$html_size = imageResize($image_size[0], $image_size[1], 120);
 
-				echo '<a href="/'.$type.'/'.$game['game']['0 attr']['name'].'.html"><img src="/screens/'.$game['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
+				echo '<a href="/'.$type.'/'.$game['page']['0 attr']['name'].'.html"><img src="/screens/'.$game['page']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
 			}
 		}
 	}
-	echo '<p>'.$game['game'][0]['description'][0].'</p>';
-	echo '<p><a href="/'.$type.'/'.$game['game']['0 attr']['name'].'.html">'.ucfirst($game['game']['0 attr']['name']).' - Click here to see information about this package</a></p>';
+	echo '<p>'.$game['page'][0]['description'][0].'</p>';
+	echo '<p><a href="/'.$type.'/'.$game['page']['0 attr']['name'].'.html">'.ucfirst($game['page']['0 attr']['name']).' - Click here to see information about this package</a></p>';
 
 	echo '</div>';
 }
@@ -215,7 +215,7 @@ function WriteLongGameDesc($game) {
 
 function WriteGameBriefingHTML($game,$long_briefing) {
 	if ($long_briefing) {
-		if (($game['game'][0]['status']['0 attr']['value'] === 'archived')) {
+		if (($game['page'][0]['status']['0 attr']['value'] === 'archived')) {
 			$showarchive=0;
 			if (isset($_REQUEST["show_archive"])) {
 				$showarchive=$_REQUEST["show_archive"];
@@ -228,7 +228,7 @@ function WriteGameBriefingHTML($game,$long_briefing) {
 		}
 
 	} else {
-		if (($game['game'][0]['status']['0 attr']['value'] === 'archived')) {
+		if (($game['page'][0]['status']['0 attr']['value'] === 'archived')) {
 			$showarchive=0;
 			if (isset($_REQUEST["show_archive"])) {
 				$showarchive=$_REQUEST["show_archive"];
@@ -244,11 +244,11 @@ function WriteGameBriefingHTML($game,$long_briefing) {
 
 
 function WriteGameStatusTag($game,$length=false) {
-	if ($game['game'][0]['status']) {
+	if ($game['page'][0]['status']) {
 		echo '<div class="statustag">';
-		$type = $game['game'][0]['type']['0 attr']['value'];
+		$type = $game['page'][0]['type']['0 attr']['value'];
 		if ($length) {
-			switch($game['game'][0]['status']['0 attr']['value']) {
+			switch($game['page'][0]['status']['0 attr']['value']) {
 			case "broken":
 				echo '<p>This '.$type.' is marked as BROKEN. This implies it does not work with the current server version and is therefore unsupported. We are working towards restoring the broken '.$type.'s. Sorry for any inconvenience.</p>';
 				break;
@@ -269,7 +269,7 @@ function WriteGameStatusTag($game,$length=false) {
 				break;
 			}
 		} else {
-			switch($game['game'][0]['status']['0 attr']['value']) {
+			switch($game['page'][0]['status']['0 attr']['value']) {
 				case "broken":
 					echo '<p>This '.$type.' is marked as BROKEN. </p>';
 					break;
@@ -296,7 +296,7 @@ function WriteGameStatusTag($game,$length=false) {
 
 
 function WriteLinkDownloadHTML($xml, $type) {
-	if (($xml['game'][0]['status']['0 attr']['value'] === 'archived')) {
+	if (($xml['page'][0]['status']['0 attr']['value'] === 'archived')) {
 		$showarchive=0;
 		if (isset($_REQUEST["show_archive"])) {
 			$showarchive=$_REQUEST["show_archive"];
@@ -314,12 +314,12 @@ function WriteDownloadLink($xml, $type) {
 
 	echo '<div class="downloadpagesection"><h2>'.ucfirst($xml[$type]['0 attr']['name']).'</h2>';
 
-	if (isset($xml['game'][0]['screenshots'])) {
-		foreach ($xml['game'][0]['screenshots'] as $key=>$image) {
+	if (isset($xml['page'][0]['screenshots'])) {
+		foreach ($xml['page'][0]['screenshots'] as $key=>$image) {
 			if (is_array($image)) {
-				$image_size = getimagesize(dirname(__FILE__).'/screens/'.$xml['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
+				$image_size = getimagesize(dirname(__FILE__).'/screens/'.$xml['page']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
 				$html_size = imageResize($image_size[0], $image_size[1], 130);
-				echo '<a href="/'.$type.'/'.$xml['game']['0 attr']['name'].'.html#downloadsection"><img src="/screens/'.$xml['game']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
+				echo '<a href="/'.$type.'/'.$xml['page']['0 attr']['name'].'.html#downloadsection"><img src="/screens/'.$xml['page']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
 			}
 		}
 	} else {
@@ -327,13 +327,13 @@ function WriteDownloadLink($xml, $type) {
 	}
 
 	if ($type === 'game') {
-		echo '<p class="linktodownload"><a href="/game/'.$xml['game']['0 attr']['name'].'.html#downloadsection">Click here to go to this games download links</a></p>';
+		echo '<p class="linktodownload"><a href="/game/'.$xml['page']['0 attr']['name'].'.html#downloadsection">Click here to go to this games download links</a></p>';
 	} else if ($type === 'server') {
-		echo '<p class="linktodownload"><a href="/engine/'.$xml['server']['0 attr']['name'].'.html#downloadsection">Click here to go to the engine download links</a></p>';
+		echo '<p class="linktodownload"><a href="/engine/'.$xml['page']['0 attr']['name'].'.html#downloadsection">Click here to go to the engine download links</a></p>';
 	} else if ($type === 'client') {
-		echo '<p class="linktodownload"><a href="/client/'.$xml['client']['0 attr']['name'].'.html#downloadsection">Click here to go to this clients download links</a></p>';
+		echo '<p class="linktodownload"><a href="/client/'.$xml['page']['0 attr']['name'].'.html#downloadsection">Click here to go to this clients download links</a></p>';
 	} else if ($type === 'tool') {
-		echo '<p class="linktodownload"><a href="/tool/'.$xml['game']['0 attr']['name'].'.html#downloadsection">Click here to go to this tools download links</a></p>';
+		echo '<p class="linktodownload"><a href="/tool/'.$xml['page']['0 attr']['name'].'.html#downloadsection">Click here to go to this tools download links</a></p>';
 	}
 
 	echo '</div>';
@@ -344,23 +344,23 @@ function WriteDownloadHTML($game, $base, $section=false) {
 
 	// section specifies if this is being called from download page or from games page
 	if ($section === false) {
-		echo '<div class="downloads"><div class="link_title"><h2><a href="/game/'.$game[$base]['0 attr']['name'].'.html">'.ucfirst($game[$base]['0 attr']['name']).'</a></h2><p><a href="/game/'.$game[$base]['0 attr']['name'].'.html">Click here to see information about this package</a></p></div>';
+		echo '<div class="downloads"><div class="link_title"><h2><a href="/game/'.$game['page']['0 attr']['name'].'.html">'.ucfirst($game['page']['0 attr']['name']).'</a></h2><p><a href="/game/'.$game['page']['0 attr']['name'].'.html">Click here to see information about this package</a></p></div>';
 	} else {
 		echo '<h2>Download</h2><div class="download"><a name="downloadsection"></a>';
 	}
 
 	echo '<ul>';
-	foreach (array_keys($game[$base][0]['files'][0]['file']) as $key) {
+	foreach (array_keys($game['page'][0]['files'][0]['file']) as $key) {
 		if (strpos($key,"attr")!=FALSE) {
 			continue;
 		}
 
-		$file=$game[$base][0]['files'][0]['file'][$key];
-		foreach ($game[$base][0]['files'][0]['file'][$key.' attr'] as $akey=>$avalue) {
+		$file=$game['page'][0]['files'][0]['file'][$key];
+		foreach ($game['page'][0]['files'][0]['file'][$key.' attr'] as $akey=>$avalue) {
 			$file[$akey]=$avalue;
 		}
 
-		$filename=str_replace("XXX",$game[$base][0]['version']['0 attr']['id'],$file['name']);
+		$filename=str_replace("XXX",$game['page'][0]['version']['0 attr']['id'],$file['name']);
 		if ($section === false) {
 			echo '<li>';
 		} else {
@@ -368,7 +368,7 @@ function WriteDownloadHTML($game, $base, $section=false) {
 		}
 
 		echo '<div class="filedesc">'.$file['description'][0].'</div>';
-		echo '<div class="releaseinfo">('.$file['type'].') released on '.$game[$base][0]['updated']['0 attr']['date'].'</div>';
+		echo '<div class="releaseinfo">('.$file['type'].') released on '.$game['page'][0]['updated']['0 attr']['date'].'</div>';
 		echo '<div class="link"><a href="http://prdownloads.sourceforge.net/arianne/'.$filename.'?download" class="download_file">'.$filename.'</a></div>';
 
 		echo '<ul class="OS_images">';
@@ -400,30 +400,30 @@ function WriteDownloadHTML($game, $base, $section=false) {
 
 
 function WriteChangeLogHTML($game,$base) {
-	if (isset($game[$base][0]['changelog'])) {
+	if (isset($game['page'][0]['changelog'])) {
 		echo '<div class="section"><h2>Change Log</h2>';
-		echo $game[$base][0]['changelog'][0];
+		echo $game['page'][0]['changelog'][0];
 		echo '</div>';
 	}
 }
 
 
 function WriteGameHTML($game,$base) {
-	echo '<h1>'.ucfirst($game[$base]['0 attr']['name']).'</h1>';
+	echo '<h1>'.ucfirst($game['page']['0 attr']['name']).'</h1>';
 	echo '<p>&copy; 2005-2010 (See Authors list). Released under GNU/GPL license.</p>';
 
 	echo '<ul class="gamepagemenu">';
 
 	echo '<li><a href="#about">About</a></li>';
-	if (isset($game[$base][0]['manual'])) {
+	if (isset($game['page'][0]['manual'])) {
 		echo '<li><a href="#manual">Manual</a></li>';
-	} else if (isset($game[$base][0]['screenshots'])) {
+	} else if (isset($game['page'][0]['screenshots'])) {
 		echo '<li><a href="#screens">Screenshots</a></li>';
-	} else if (isset($game[$base][0]['servers'])) {
+	} else if (isset($game['page'][0]['servers'])) {
 		echo '<li><a href="#servers">Servers</a></li>';
 	}
 	echo '<li><a href="#downloads">Downloads</a></li>';
-	if (isset($game[$base][0]['changelog'])) {
+	if (isset($game['page'][0]['changelog'])) {
 		echo '<li><a href="#changes">ChangeLog</a></li>';
 	}
 	echo '<li><a href="#authors">Authors</a></li>';
@@ -433,32 +433,32 @@ function WriteGameHTML($game,$base) {
 
 	echo '<div id="game_topimage"></div>';
 
-	if (isset($game[$base][0]['rated'])) {
+	if (isset($game['page'][0]['rated'])) {
 		echo '<div class="rategame"><p>Rate us at:</p> ';
-		foreach ($game[$base][0]['rated'][0]['entry'] as $tag=>$rated) {
+		foreach ($game['page'][0]['rated'][0]['entry'] as $tag=>$rated) {
 			echo $rated;
 		}
 		echo '</div>';
 	}
 
-	echo '<div class="game_description"><a name="about"></a><h2>What is '.$game[$base]['0 attr']['name'].'?</h2>'.$game[$base][0]['description'][0];
-	if (isset($game[$base][0]['extended'])) {
-		echo $game[$base][0]['extended'][0];
+	echo '<div class="game_description"><a name="about"></a><h2>What is '.$game['page']['0 attr']['name'].'?</h2>'.$game['page'][0]['description'][0];
+	if (isset($game['page'][0]['extended'])) {
+		echo $game['page'][0]['extended'][0];
 	}
 
 	echo '</div>';
 
-	if (isset($game[$base][0]['manual'])) {
-		echo '<div class="game_manual"><a name="manual"></a><h2>Manual</h2>You can read '.$game[$base]['0 attr']['name'].'\'s manual <a href="'.$game[$base][0]['manual']['0 attr']['url'].'">here</a>';
+	if (isset($game['page'][0]['manual'])) {
+		echo '<div class="game_manual"><a name="manual"></a><h2>Manual</h2>You can read '.$game['page']['0 attr']['name'].'\'s manual <a href="'.$game['page'][0]['manual']['0 attr']['url'].'">here</a>';
 		echo '</div>';
 	}
 
-	if (isset($game[$base][0]['screenshots'])) {
+	if (isset($game['page'][0]['screenshots'])) {
 		echo '<div class="game_screens"><a name="screens"></a><h2>Screenshots</h2><ul class="screenshots">';
 		$i = 0;
-		foreach ($game[$base][0]['screenshots'][0]['image'] as $key=>$image) {
+		foreach ($game['page'][0]['screenshots'][0]['image'] as $key=>$image) {
 			if (is_array($image)) {
-				echo '<li><a href="/screens/'.$game[$base]['0 attr']['name'].'/'.$image['name'].'"><img src="/screens/'.$game[$base]['0 attr']['name'].'/THM_'.$image['name'].'" alt="Game screenshot"></a></li>';
+				echo '<li><a href="/screens/'.$game['page']['0 attr']['name'].'/'.$image['name'].'"><img src="/screens/'.$game['page']['0 attr']['name'].'/THM_'.$image['name'].'" alt="Game screenshot"></a></li>';
 				$i++;
 			}
 			if ($i > 3) break;
@@ -466,11 +466,11 @@ function WriteGameHTML($game,$base) {
 		echo '</ul></div>';
 	}
 
-	if (isset($game[$base][0]['servers'])) {
+	if (isset($game['page'][0]['servers'])) {
 		echo '<div class="game_servers"><a name="servers"></a><h2>Online servers</h2>';
-		echo $game[$base]['0 attr']['name'].' is a online game, so you need to connect to a server in order to be able to play.</p>';
+		echo $game['page']['0 attr']['name'].' is a online game, so you need to connect to a server in order to be able to play.</p>';
 		echo '<p>Choose any of the followings and read the instructions there about how to get an account and connect:<ul>';
-		foreach ($game[$base][0]['servers'][0]['server'] as $key=>$server) {
+		foreach ($game['page'][0]['servers'][0]['server'] as $key=>$server) {
 			if (is_array($server)) {
 				echo '<li><a href="'.$server['url'].'">'.$server['name'].'</a></li>';
 			}
@@ -482,14 +482,14 @@ function WriteGameHTML($game,$base) {
 	WriteDownloadHTML($game, $base, true);
 	echo '</div>';
 
-	if (isset($game[$base][0]['changelog'])) {
+	if (isset($game['page'][0]['changelog'])) {
 		echo '<div class="game_changelog"><a name="changes"></a>';
 		WriteChangeLogHTML($game,$base);
 		echo '</div>';
 	}
 
-	echo '<div class="game_authors"><a name="authors"></a><h2>Authors</h2><p>'.$game[$base]['0 attr']['name'].' has been developed by:</p><ul>';
-	foreach ($game[$base][0]['authors'][0]['entry'] as $author) {
+	echo '<div class="game_authors"><a name="authors"></a><h2>Authors</h2><p>'.$game['page']['0 attr']['name'].' has been developed by:</p><ul>';
+	foreach ($game['page'][0]['authors'][0]['entry'] as $author) {
 		if (is_array($author)) {
 			echo '<li><a href="'.$author['url'].'">'.$author['name'].'</a></li>';
 		}
@@ -502,8 +502,8 @@ function WriteScreenshotsHTML($game, $base, $archived=false) {
 	// load shots from dir by name
 	// line up thumbnails
 	if (!$archived) {
-		echo '<div class="screenshots_entry"><div class="link_title"><h2><a name="'.$game[$base]['0 attr']['name'].'" href="/'.$base.'/'.$game[$base]['0 attr']['name'].'.html">'.ucfirst($game[$base]['0 attr']['name']).'</a></h2><p><a href="/'.$base.'/'.$game[$base]['0 attr']['name'].'.html">Click here to see information about this package</a></p></div>';
-		$val = "screens/".$game[$base]['0 attr']['name'];
+		echo '<div class="screenshots_entry"><div class="link_title"><h2><a name="'.$game['page']['0 attr']['name'].'" href="/'.$base.'/'.$game['page']['0 attr']['name'].'.html">'.ucfirst($game['page']['0 attr']['name']).'</a></h2><p><a href="/'.$base.'/'.$game['page']['0 attr']['name'].'.html">Click here to see information about this package</a></p></div>';
+		$val = "screens/".$game['page']['0 attr']['name'];
 	} else {
 		echo '<div class="screenshots_entry"><div class="link_title"><h2>Archived</h2></div>';
 		$val = "screens/archived";

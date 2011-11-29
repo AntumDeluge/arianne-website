@@ -18,8 +18,8 @@ So here are the games! <a href="/games-all.html">(Show Archived Games Too...)</a
 <?php
 		// Render game list and then games
 		include_once("renderContent.php");
-		renderGameList(game);
-		renderGameBriefing(TRUE,game);
+		renderGameList('game');
+		renderGameBriefing(TRUE, 'game');
 	}
 }
 $page = new Games();

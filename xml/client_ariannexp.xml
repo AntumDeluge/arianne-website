@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<client name="ariannexp">
+<page name="ariannexp">
   <updated date="2004-07-06"/>
   <version id="0.12"/>  
   <description><![CDATA[ 
@@ -41,4 +41,4 @@
     <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>
     <entry name="Andre Bubel" url=""/>
   </authors>
-</client>
+</page>
