@@ -3,6 +3,34 @@ include_once('xml.php');
 define('ARIANNE_TITLE', ' &ndash; The Arianne Project');
 $page_url="content/news";
 
+/**
+ * checks a file name parameter to prevent directory traversing or remote includes
+ * 
+ * @param string $filename
+ */
+function checkFilenameParameter($filename) {
+	if(strpos($url,"/")===0) {
+		return false;
+	}
+	if(strpos($url,"\0")!==false) {
+		return false;
+	}
+	
+	if(strpos($url,".")!==false) {
+		return false;
+	}
+	
+	if(strpos($url,"//")!==false) {
+		return false;
+	}
+	
+	if(strpos($url,":")!==false) {
+		// http://, https://, ftp://
+		return false;
+	}
+	
+	return true;
+}
 
 /**
  * Scan the name module to load and reset it to safe default if something strange appears.
@@ -11,30 +39,9 @@ $page_url="content/news";
  * @return string the name of the module to load.
  */
 function decidePageToLoad($url) {
-	$ERROR="content/news";
+	$ERROR = "content/news";
 
-	if(strpos($url,"/")===0) {
-		return $ERROR;
-	}
-
-	if(strpos($url,"\0")!==false) {
-		return $ERROR;
-	}
-
-	if(strpos($url,".")!==false) {
-		return $ERROR;
-	}
-
-	if(strpos($url,"//")!==false) {
-		return $ERROR;
-	}
-
-	if(strpos($url,":")!==false) {
-		// http://, https://, ftp://
-		return $ERROR;
-	}
-
-	if(strpos($url,"/")==0) {
+	if (!checkFilenameParameter($url)) {
 		return $ERROR;
 	}
 
