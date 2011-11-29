@@ -27,14 +27,14 @@ class Download extends Page {
 <a name="games"></a><h1>Games</h1>
 <b>NOTE:</b>To play an arianne game you need to create an account for it. Get more info at each game page.
 <?php
-  include_once("renderContent.php");
-  renderDownloads("game");
+	include_once("renderContent.php");
+	renderDownloads("game");
 ?>
 
 <a name="engine"></a><h1>Engine</h1>
 If you want to create your own Arianne game you need to download Marauroa.
 <?php
-  renderDownloads("server");
+	renderDownloads("server");
 
   /* echo '<a name="engine"></a><h1>Client engine</h1>';
    echo 'If you are developing your own game, or if you want to compile Arianne, grab the following files.';
@@ -43,10 +43,7 @@ If you want to create your own Arianne game you need to download Marauroa.
 ?>
 <a name="tool"></a><h1>Tools</h1>
 Tools downloads
-<?php
-renderDownloads("tool");
-
-?>
+<?php renderDownloads("tool"); ?>
 
 
 <a name="CVS"></a><h1>CVS</h1>
