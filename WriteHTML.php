@@ -18,99 +18,6 @@ function WriteMenuHTML($website) {
 }
 
 
-function WriteNewsHTML($website, $all) {
-	$maxNewsItems=5;
-
-	echo '<ul class="newslist">';
-
-	foreach ($website['website'][0]['item'] as $key=>$item) {
-		if ($maxNewsItems==0) {
-			break;
-		}
-		if (!$all) {
-			$maxNewsItems--;
-		}
-		WriteNewsItemHtml($item);
-	}
-
-	echo '</ul>';
-}
-
-
-function WriteNewsHTMLHeaderForFirstItem($website, $title) {
-	foreach ($website['website'][0]['item'] as $key=>$item) {
-		if ($title == getNiceURL($item['title'][0])) {
-			echo '<title>'.$item['title'][0].ARIANNE_TITLE.'</title>'."\r\n";
-			// meta title is for facebook
-			echo '<meta name="title" content="'.$item['title'][0].'">'."\r\n";
-			$description = trim($item['content'][0]);
-			$pos = strpos($description, '<p>', 10);
-			if ($pos) {
-				$description = substr($description, 0, $pos);
-			}
-			$description = preg_replace('/(\r\n|\r|\n|")/s',' ', preg_replace('/<[^>]*>/', '', $description));
-			echo '<meta name="description" content="'.$description.'">'."\r\n";
-
-			if (isset($item['images'])) {
-				foreach ($item['images'][0]['image'] as $key=>$image) {
-					if (is_array($image)) {
-						echo '<link rel="image_src" href="http://arianne.sourceforge.net/'.$image['url'].'">';
-						return;
-					}
-				}
-			}
-
-			break;
-		}
-	}
-}
-
-
-function WriteNewsHTMLForNamedItem($website, $title) {
-	echo '<ul class="newslist">';
-
-	foreach ($website['website'][0]['item'] as $key=>$item) {
-		if ($title == getNiceURL($item['title'][0])) {
-			WriteNewsItemHtml($item);
-		}
-	}
-
-	echo '</ul>';
-}
-
-function WriteNewsItemHtml($item)
-{
-	$strippedTitle = getNiceURL($item['title'][0]);
-	echo '<li class="clearright"><div class="newsitem"><div class="newstitle">'
-	.'<h2 style="padding:0; margin:0; margin-top:1em; font-weight: bold"><a class="newsitemtitle" href="/news/'.$strippedTitle.'.html">'.$item['title'][0].'</a></h2>'
-	.'</div><p class="itemdate">'.$item['date'][0].'</p>';
-
-	if (isset($item['images'])) {
-
-		foreach ($item['images'][0]['image'] as $key=>$image) {
-			if (is_array($image)) {
-				echo '<img class="news_image" src="/'.$image['url'].'" alt="Game screenshot">'."\r\n";
-			}
-		}
-		if (isset($item['playnow'])) {
-			echo '<a href="'.$item['playnow']['0 attr']['url'].'" style="display:block;float:right;width:250px;height:42;clear:right">';
-			echo '<img style="margin-right:40px; width:170px; height:42" class="news_image" src="/'.$item['playnow']['0 attr']['image'].'"></a>'."\r\n";
-		}
-		echo '<div class="newscontent_image">'.$item['content'][0].'</div>';
-		echo '</div>';
-	} else {
-		echo '<div class="newscontent_noimage">'.$item['content'][0].'</div></div>';
-	}
-	// the sharing buttons should go here
-	echo '<div id="social_buttons">';
-	$urlToPost = 'http://arianne.sourceforge.net/news/'.$strippedTitle.'.htm';
-	// echo buildTweetButton($urlToPost, '@stendhalgame');
-	// echo buildFacebookButton($item['title'][0], $urlToPost);
-	// echo buildGoogleBuzzButton($urlToPost);
-	echo '</div>';
-	echo '</li>';
-}
-
 /**
  * gets a nice url
  *
@@ -122,6 +29,7 @@ function getNiceURL($title) {
 	$res = preg_replace('/[ _,;.:<>|!?\'"()\/*]/', '-', $res);
 	return urlencode($res);
 }
+
 
 function imageResize($width, $height, $target) {
 	//takes the larger size of the width and height and applies the formula accordingly...this is so this script will work dynamically with any size image
