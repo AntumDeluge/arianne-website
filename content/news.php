@@ -89,7 +89,6 @@ function WriteNewsItemHtml($item)
 	$urlToPost = 'http://arianne.sourceforge.net/news/'.$strippedTitle.'.htm';
 	// echo buildTweetButton($urlToPost, '@stendhalgame');
 	// echo buildFacebookButton($item['title'][0], $urlToPost);
-	// echo buildGoogleBuzzButton($urlToPost);
 	echo '</div>';
 	echo '</li>';
 }

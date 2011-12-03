@@ -28,10 +28,3 @@ function buildFacebookButton($title, $url) {
 	$res = $res.'</a>';
 	return  $res;
 }
-
-function buildGoogleBuzzButton($url) {
-	$res = $res.'<img src="images/buttons/google_buzz_button.png" width="24" height="24" border="0" hspace="0" alt="Google Buzz">';
-	return $res;
-}
-
-?>
