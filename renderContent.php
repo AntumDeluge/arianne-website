@@ -86,7 +86,7 @@ function renderGameList($type) {
 
 }
 
-function renderGameBriefing($long_briefing=TRUE,$type) {
+function renderGameBriefing($long_briefing=TRUE, $type) {
 	$gameList=array();
 	$handle=opendir("xml/");
 

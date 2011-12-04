@@ -6,7 +6,6 @@ require_once("page.php");
 require_once("share_buttons.php");
 
 define('ARIANNE_TITLE', ' &ndash; The Arianne Project');
-$page_url="content/news";
 
 /**
  * checks a file name parameter to prevent directory traversing or remote includes
@@ -119,7 +118,7 @@ if ($page->writeHttpHeader()) {
 				<ul>
 					<li class="menu_title"><div id="game-menu-image">Games</div></li>
 					<?php
-						renderGameBriefing(false, game);
+						renderGameBriefing(false, 'game');
 					?>
 					<li><p><i>(Add your game here!)</i></p></li>
 				</ul>
@@ -127,7 +126,7 @@ if ($page->writeHttpHeader()) {
 				<ul>
 					<li class="menu_title"><div id="tool-menu-image">Tools</div></li>
 						<?php
-						renderGameBriefing(false, tool);
+						renderGameBriefing(false, 'tool');
 						?>
 					<li><p><i>(Add your tool here!)</i></p></li>
 				</ul>
