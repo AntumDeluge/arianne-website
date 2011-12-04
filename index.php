@@ -1,7 +1,4 @@
 <?php
-$starttime = explode(' ', microtime());
-$starttime = $starttime[1] + $starttime[0];
-
 include_once('xml.php');
 define('ARIANNE_TITLE', ' &ndash; The Arianne Project');
 $page_url="content/news";
@@ -150,19 +147,6 @@ if ($page->writeHttpHeader()) {
 			echo '<div id="pagecontent">';
 			$page->writeContent();
 			echo '</div>'; ?>
-		</div>
-
-
-
-		<div id="pagefooter">
-			<p class="footer">
-			&copy; 1999-2012 <a href="http://arianne.sourceforge.net" class="navi">Arianne RPG</a>
-			<?php
-			$mtime = explode(' ', microtime());
-			$totaltime = $mtime[0] + $mtime[1] - $starttime;
-			printf(' (Page loaded in %.3f seconds.)', $totaltime);
-			?>
-			</p>
 		</div>
 	</div>
 </body>

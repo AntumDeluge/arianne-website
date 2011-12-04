@@ -26,22 +26,6 @@
 	background-repeat: no-repeat;
 }
 
-#pagefooter { 
-    clear: both; 
-	padding:0;
-	margin:0;
-	display:block;
-    }
-#pagefooter p.footer{    
-	background-color: #484;
-    font-size: 8pt; text-align: center;
-}
-#pagefooter img.extremedm { border-style:none; border-width:0;}
-#pagefooter p.footerimages { text-align: right; }
-
-a.footer{ text-decoration: none; color: #000000;}
-a.footer:hover{ text-decoration: underline; color: #000000;}
-
 /************************************/
 /* Base Tags                        */
 
