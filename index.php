@@ -87,8 +87,10 @@ if ($page->writeHttpHeader()) {
 	<div id="main_contain">
 		<div id="pageheader">
 			<div id="title_section">
-				<span class="left-title-image"></span> <a href="/"><span
-					class="right-title-image"></span> </a>
+				<a href="/">
+					<span class="left-title-image"></span>
+					<span class="right-title-image"></span>
+				</a>
 				<p>an open source multiplayer online framework to easily create games!</p>
 			</div>
 
