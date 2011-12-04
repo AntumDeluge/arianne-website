@@ -1,7 +1,4 @@
 <?php
-include_once('xml.php');
-include_once 'share_buttons.php';
-
 
 function GameUpdateTime($game) {
 	return $game['page'][0]['updated']['0 attr']['date'];

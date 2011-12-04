@@ -17,7 +17,6 @@ class Games extends Page {
 So here are the games! <a href="/games-all.html">(Show Archived Games Too...)</a></p>
 <?php
 		// Render game list and then games
-		include_once("renderContent.php");
 		renderGameList('game');
 		renderGameBriefing(TRUE, 'game');
 	}

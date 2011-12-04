@@ -1,5 +1,10 @@
 <?php
-include_once('xml.php');
+require_once('xml.php');
+require_once("WriteHTML.php");
+require_once("renderContent.php");
+require_once("page.php");
+require_once("share_buttons.php");
+
 define('ARIANNE_TITLE', ' &ndash; The Arianne Project');
 $page_url="content/news";
 
@@ -60,8 +65,6 @@ $page_url="content/news";
 if(isset($_REQUEST["arianne_url"])) {
 	$page_url=decidePageToLoad($_REQUEST["arianne_url"]);
 }
-include 'page.php';
-include_once('WriteHTML.php');
 include($page_url.".php");
 
 if ($page->writeHttpHeader()) {
@@ -116,7 +119,6 @@ if ($page->writeHttpHeader()) {
 				<ul>
 					<li class="menu_title"><div id="game-menu-image">Games</div></li>
 					<?php
-						include_once("renderContent.php");
 						renderGameBriefing(false, game);
 					?>
 					<li><p><i>(Add your game here!)</i></p></li>
@@ -125,7 +127,6 @@ if ($page->writeHttpHeader()) {
 				<ul>
 					<li class="menu_title"><div id="tool-menu-image">Tools</div></li>
 						<?php
-						include_once("renderContent.php");
 						renderGameBriefing(false, tool);
 						?>
 					<li><p><i>(Add your tool here!)</i></p></li>

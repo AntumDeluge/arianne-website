@@ -27,7 +27,6 @@ class Download extends Page {
 <a name="games"></a><h1>Games</h1>
 <b>NOTE:</b>To play an arianne game you need to create an account for it. Get more info at each game page.
 <?php
-	include_once("renderContent.php");
 	renderDownloads("game");
 ?>
 

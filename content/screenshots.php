@@ -18,7 +18,6 @@ have been created using Arianne and represent some of what Arianne can do. </p><
 </p><p>Some of these screenshots are taken from the developers versions accessible through CVS.</p><div id="clearright"></div>
 
 <?php
-		include_once("renderContent.php");
 		$do_arch = true;
 		if( !isset($_REQUEST['archived']) ) {
 			renderGameList("game");

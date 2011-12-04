@@ -1,5 +1,4 @@
 <?php
-include_once('WriteHTML.php');
 
 function cmp($a,$b) {
 	if ($a == $b) {
