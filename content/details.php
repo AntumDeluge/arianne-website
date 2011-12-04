@@ -154,9 +154,15 @@ class DetailPage extends Page {
 
 		// authors
 		echo '<div class="game_authors"><a name="authors"></a><h2>Authors</h2><p>'.$game['page']['0 attr']['name'].' has been developed by:</p><ul>';
+		$first = true;
 		foreach ($game['page'][0]['authors'][0]['entry'] as $author) {
 			if (is_array($author)) {
-				echo '<li><a href="'.$author['url'].'">'.$author['name'].'</a></li>';
+				if ($first) {
+					$first = false;
+				} else {
+					echo ', ';
+				}
+				echo '<a href="'.$author['url'].'">'.$author['name'].'</a>';
 			}
 		}
 		echo '</ul></div>';
