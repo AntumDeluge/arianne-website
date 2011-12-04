@@ -8,16 +8,6 @@ function GameUpdateTime($game) {
 }
 
 
-function WriteMenuHTML($website) {
-	foreach ($website['website'][0]['menu'][0]['entry'] as $key=>$item) {
-		if (is_array($item)) {
-			$len=strlen($item['name']);
-			echo '<li><a href="'.$item['url'].'">'.$item['name'].'</a></li>';
-		}
-	}
-}
-
-
 /**
  * gets a nice url
  *

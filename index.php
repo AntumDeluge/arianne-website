@@ -97,15 +97,17 @@ if ($page->writeHttpHeader()) {
 			<div id="menubarcontainer">
 				<div id="topmenubar">
 					<ul class="menubar">
-					<?php
-					$content=implode("",file('xml/website_menu.xml'));
-					$xml = XML_unserialize($content);
-					WriteMenuHTML($xml);
-					?>
+						<li><a href="/">News</a></li>
+						<li><a href="/about.html">About</a></li>
+						<li><a href="/download.html">Downloads</a></li>
+						<li><a href="/engine/marauroa.html">Engine</a></li>
+						<li><a href="/games.html">Games</a></li>
+						<li><a href="/screenshots.html">Screenshots</a></li>
+						<li><a href="/documentation.html">Documentation</a></li>
+						<li><a href="/contact.html">Contact</a></li>
 					</ul>
 				</div>
 			</div>
-
 
 
 		</div>
@@ -145,10 +147,10 @@ if ($page->writeHttpHeader()) {
 			</div>
 			
 			<?php
-			
 			echo '<div id="pagecontent">';
 			$page->writeContent();
-			echo '</div>'; ?>
+			echo '</div>';
+			?>
 		</div>
 	</div>
 </body>
