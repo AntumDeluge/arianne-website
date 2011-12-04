@@ -316,6 +316,10 @@ So what are you waiting for?! A whole new world awaits...]]>
 <br>- 70% of FindBugs warnings and most of all Eclipse warnings fixed
 <br>- all tests now pass using the Eclipse JUnit plugin
 
+<p><b>See <a href="http://arianne.cvs.sourceforge.net/viewvc/*checkout*/arianne/stendhal/doc/CHANGES.txt">all past changes</a></b>
+]]>
+<!-- 
+<![CDATA[
 <p><b>0.89</b>
 
 <br><b>*features*</b>
@@ -651,6 +655,7 @@ your error log files and please continue to do so.
 <br>- adminlevel shown
 
 <p><b>See <a href="http://arianne.cvs.sourceforge.net/viewvc/*checkout*/arianne/stendhal/doc/CHANGES.txt">all past changes</a></b>]]>
+-->
   </changelog>
   <screenshots>
     <image name="raid65.png"/>
