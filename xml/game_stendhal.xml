@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2011-10-12"/>
-  <version id="0.97"/>
+  <updated date="2011-12-02"/>
+  <version id="0.98"/>
   <status value="stable"/>
   <type value="game"/>
   <cssdoc url="css/stendhal.css"/>
@@ -50,8 +50,36 @@ So what are you waiting for?! A whole new world awaits...]]>
   </extended>
   <manual url="http://stendhalgame.org/wiki/StendhalManual"/>  
   <changelog><![CDATA[
+<b>0.98</b>
 
-<b>0.97</b>
+<br><b>*client*</b>
+<br>- Zones can be colored according to hour, and otherwise
+<br>- Outfit dialog resets to current outfit, when opened
+<br>- Three new outfits available
+<br>- Relative zone danger level is shown below the map
+
+<br><b>*world*</b>
+<br>- Garlic grows in the Kalavan City Gardens
+<br>- Introducing new NPC Rachel in Ados bank
+<br>- Kalavan City houses and Athor holiday apartments have usable tables now
+<br>- Fado hotel beergarden style changed a bit
+<br>- Reworked Ados interiors in some houses
+<br>- Ados Bank got more bank chests
+<br>- Semos and Ados mountain got more vegetation
+<br>- Semos Mine Town Revival weeks ended
+<br>- Athor cocktail bar got a new style
+<br>- Ortiv Milquetoast interior reworked
+<br>- Semos mine maps at level -2 got a new ground style
+<br>- New Guess Kills quest in Nalwor City with new NPC, Crearid
+<br>- New fruits which can be collected around Faiumoni (bananas, grapes, pomegranate, watermelons)
+<br>- Coralia needs some fruit for her hat in a new quest
+
+<br><b>*fixes*</b>
+<br>- Farmer achievement can be reached due to garlic grower implementation
+<br>- Stop player vs player attack if either player move into a protection zone
+<br>- Fixed descriptions for items that can be picked 
+
+<p><b>0.97</b>
 
 <br><b>* Revival Weeks*</b>
 <br>- Faiumonis inhabitans are excited for the Mine Town Revival Weeks already and decorated Semos City and the Mine Town area

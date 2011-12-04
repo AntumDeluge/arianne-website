@@ -14,6 +14,48 @@
       </content>
   </item>
 -->
+ <item>
+    <title>Stendhal 0.98: Day turns into night</title>
+    <date>2011-12-02</date>
+    <images>
+      <image url="screens/stendhal/semos98.png"/>
+      <image url="screens/stendhal/zonedanger98.png"/>
+      <image url="screens/stendhal/guesskills98.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>
+<b>As the day turns into night, keep your worries out of sight.</b>
+<br>Faiumoni's eternal daylight curse has been lifted, and once again the
+sun sets and rises.
+Don't be concerned about the darkness: nights are short, and lamps
+light busier streets.
+However, for those afraid of the dark, there is <a href="http://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings#Settings_dialog">help</a>.
+<p>
+But what about the worry of real danger, how do you know what lurks to
+attack you even in daylight?
+Some warriors get a sense of danger for a new area by looking
+at the surroundings, but appearances can be deceiving.
+This sense of danger has now been honed. Warning skulls appear for places beyond your
+experience or that could be danger to linger long in.
+Of course, it is up to you, whether you heed the white warning skulls...
+<p>
+For those who can get to Nalwor city without much danger, a fun new
+guessing game awaits.
+Crearid will challenge you to guess how many creatures you have killed!
+Take a trip too, to Ados, where builders and decorators have been busy.
+Chat with the new Ados banker, Rachel, and visit Coralia next door -
+she may have a fruity feat for you.
+<p>
+As <a href="http://stendhalgame.org/news/social-and-rp-balancing-issues-related-to-training-near-healer-npcs-79.html">previously announced</a>, you can't fight in the
+areas around healers any more - Jynath and Katerina both cast
+protection spells near them,
+being fed up of listening to petty problems related to fighting nearby.
+<p>
+To read about all the changes including any not summarised here,
+please see the full <a href = "http://arianne.sourceforge.net/game/stendhal.html#changes">change log</a>.]]>
+      </content>
+  </item>
 
 
 
