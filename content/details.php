@@ -63,8 +63,9 @@ class DetailPage extends Page {
 	
 	function writeDetails($game, $base) {
 		echo '<h1>'.ucfirst($game['page']['0 attr']['name']).'</h1>';
-		echo '<p>&copy; 2005-2011 (See Authors list). Released under GNU/GPL license.</p>';
-	
+		echo '<p>&copy; 2005-2011 (See Authors list). Released under GNU-GPL license.</p>';
+
+		// in page navigation
 		echo '<ul class="gamepagemenu">';
 	
 		echo '<li><a href="#about">About</a></li>';
@@ -83,7 +84,8 @@ class DetailPage extends Page {
 		echo '</ul>';
 	
 		WriteGameStatusTag($game,true);
-	
+
+		// right column
 		echo '<div id="game_topimage"></div>';
 	
 		if (isset($game['page'][0]['rated'])) {
@@ -93,19 +95,21 @@ class DetailPage extends Page {
 			}
 			echo '</div>';
 		}
-	
+
+		// long description
 		echo '<div class="game_description"><a name="about"></a><h2>What is '.$game['page']['0 attr']['name'].'?</h2>'.$game['page'][0]['description'][0];
 		if (isset($game['page'][0]['extended'])) {
 			echo $game['page'][0]['extended'][0];
 		}
-	
 		echo '</div>';
-	
+
+		// manual
 		if (isset($game['page'][0]['manual'])) {
 			echo '<div class="game_manual"><a name="manual"></a><h2>Manual</h2>You can read '.$game['page']['0 attr']['name'].'\'s manual <a href="'.$game['page'][0]['manual']['0 attr']['url'].'">here</a>';
 			echo '</div>';
 		}
-	
+
+		// screenshots
 		if (isset($game['page'][0]['screenshots'])) {
 			echo '<div class="game_screens"><a name="screens"></a><h2>Screenshots</h2><ul class="screenshots">';
 			$i = 0;
@@ -118,7 +122,8 @@ class DetailPage extends Page {
 			}
 			echo '</ul></div>';
 		}
-	
+
+		// game server links
 		if (isset($game['page'][0]['servers'])) {
 			echo '<div class="game_servers"><a name="servers"></a><h2>Online servers</h2>';
 			echo $game['page']['0 attr']['name'].' is a online game, so you need to connect to a server in order to be able to play.</p>';
@@ -130,17 +135,24 @@ class DetailPage extends Page {
 			}
 			echo '</ul></div>';
 		}
-	
+
+		// downloads
 		echo '<div class="game_downloads"><a name="downloads"></a>';
-		WriteDownloadHTML($game, $base, true);
+		$this->writeDownloadSection($game, true);
 		echo '</div>';
-	
+
+		// change log
 		if (isset($game['page'][0]['changelog'])) {
 			echo '<div class="game_changelog"><a name="changes"></a>';
-			WriteChangeLogHTML($game,$base);
+			if (isset($game['page'][0]['changelog'])) {
+				echo '<div class="section"><h2>Change Log</h2>';
+				echo $game['page'][0]['changelog'][0];
+				echo '</div>';
+			}
 			echo '</div>';
 		}
-	
+
+		// authors
 		echo '<div class="game_authors"><a name="authors"></a><h2>Authors</h2><p>'.$game['page']['0 attr']['name'].' has been developed by:</p><ul>';
 		foreach ($game['page'][0]['authors'][0]['entry'] as $author) {
 			if (is_array($author)) {
@@ -149,5 +161,66 @@ class DetailPage extends Page {
 		}
 		echo '</ul></div>';
 	}
+	
+	
+	
+	function writeDownloadSection($game, $section=false) {
+	
+		// section specifies if this is being called from download page or from games page
+		if ($section === false) {
+			echo '<div class="downloads"><div class="link_title"><h2><a href="/game/'.$game['page']['0 attr']['name'].'.html">'.ucfirst($game['page']['0 attr']['name']).'</a></h2><p><a href="/game/'.$game['page']['0 attr']['name'].'.html">Click here to see information about this package</a></p></div>';
+		} else {
+			echo '<h2>Download</h2><div class="download"><a name="downloadsection"></a>';
+		}
+	
+		echo '<ul>';
+		foreach (array_keys($game['page'][0]['files'][0]['file']) as $key) {
+			if (strpos($key,"attr")!=FALSE) {
+				continue;
+			}
+	
+			$file=$game['page'][0]['files'][0]['file'][$key];
+			foreach ($game['page'][0]['files'][0]['file'][$key.' attr'] as $akey=>$avalue) {
+				$file[$akey]=$avalue;
+			}
+	
+			$filename=str_replace("XXX",$game['page'][0]['version']['0 attr']['id'],$file['name']);
+			if ($section === false) {
+				echo '<li>';
+			} else {
+				echo '<li class="gamepage">';
+			}
+	
+			echo '<div class="filedesc">'.$file['description'][0].'</div>';
+			echo '<div class="releaseinfo">('.$file['type'].') released on '.$game['page'][0]['updated']['0 attr']['date'].'</div>';
+			echo '<div class="link"><a href="http://prdownloads.sourceforge.net/arianne/'.$filename.'?download" class="download_file">'.$filename.'</a></div>';
+	
+			echo '<ul class="OS_images">';
+	
+			foreach ($file['os'][0]['entry'] as $key=>$worksOnOS) {
+				if (is_array($worksOnOS)) {
+					echo '<li><img src="/images/platforms/'.$worksOnOS['name'].'.png" alt="Operating System Logo"></li>';
+				}
+			}
+			echo '</ul>';
+			if (isset($file['dependencies'])) {
+				echo '<div class="dependancies"><b>Dependencies</b>: (This file depends on)<ul>';
+				foreach ($file['dependencies'][0]['entry'] as $key=>$dependsOn) {
+					if (is_array($dependsOn)) {
+						echo '<li><a href="'.$dependsOn['url'].'">'.$dependsOn['name'].'</a></li>';
+					}
+				}
+				echo '</ul></div>';
+			} else {
+				echo ' ';
+			}
+			echo '<div class="clearright">&nbsp;</div></li>';
+		}
+		echo '</ul>';
+	
+		//echo '</div>';
+		echo '<div class="clearright">&nbsp;</div></div>';
+	}
+	
 }
 $page = new DetailPage();
