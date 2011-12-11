@@ -5,6 +5,7 @@ RewriteRule ^googlebac.* - [L]
 RewriteRule ^stendhal/updates/.* - [L]
 RewriteRule ^stendhal/greeting/.* - [L]
 
+RewriteRule ^docs/(gpl.*).html$ /index.php?arianne_url=content/$1&rewrite=3QivnzcY [L]
 RewriteRule ^docs/(.*).html$ /index.php?arianne_url=docs/$1&rewrite=3QivnzcY [L]
 RewriteRule ^game/index.html$ /index.php?arianne_url=content/games&rewrite=3QivnzcY [L]
 
