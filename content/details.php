@@ -81,8 +81,7 @@ class DetailPage extends Page {
 		}
 
 		// right column
-		echo '<div id="game_topimage"></div>';
-	
+
 		if (isset($game['page'][0]['rated'])) {
 			echo '<div class="rategame"><p>Rate us at:</p> ';
 			foreach ($game['page'][0]['rated'][0]['entry'] as $tag=>$rated) {
