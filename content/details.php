@@ -63,7 +63,6 @@ class DetailPage extends Page {
 	
 	function writeDetails($game, $base) {
 		echo '<h1>'.ucfirst($game['page']['0 attr']['name']).'</h1>';
-		echo '<p>&copy; 2005-2011 (See Authors list). Released under GNU-GPL license.</p>';
 
 		// in page navigation
 		echo '<ul class="gamepagemenu">';
@@ -153,7 +152,7 @@ class DetailPage extends Page {
 		}
 
 		// authors
-		echo '<div class="game_authors"><a name="authors"></a><h2>Authors</h2><p>'.$game['page']['0 attr']['name'].' has been developed by:</p><ul>';
+		echo '<div class="game_authors"><a name="authors"></a><h2>Authors</h2><p>'.ucfirst($game['page']['0 attr']['name']).' has been developed by:</p><p>';
 		$first = true;
 		foreach ($game['page'][0]['authors'][0]['entry'] as $author) {
 			if (is_array($author)) {
@@ -165,7 +164,7 @@ class DetailPage extends Page {
 				echo '<a href="'.$author['url'].'">'.$author['name'].'</a>';
 			}
 		}
-		echo '</ul></div>';
+		echo '</p>&copy; 2005-2011. Released under <a href="/docs/gpl-2.0.html">GNU General Public License</a>.</p></div>';
 	}
 	
 	
