@@ -63,25 +63,9 @@ class DetailPage extends Page {
 	
 	function writeDetails($game, $base) {
 		echo '<h1>'.ucfirst($game['page']['0 attr']['name']).'</h1>';
-		
-		// in page navigation
-		echo '<ul class="gamepagemenu">';
-	
-		echo '<li><a href="#about">About</a></li>';
-		if (isset($game['page'][0]['manual'])) {
-			echo '<li><a href="#manual">Manual</a></li>';
-		}
-		if (isset($game['page'][0]['servers'])) {
-			echo '<li><a href="#servers">Servers</a></li>';
-		}
-		echo '<li><a href="#downloads">Downloads</a></li>';
-		if (isset($game['page'][0]['changelog'])) {
-			echo '<li><a href="#changes">ChangeLog</a></li>';
-		}
-		echo '<li><a href="#authors">Authors</a></li>';
-		echo '</ul>';
+
 		WriteGameStatusTag($game,true);
-		
+
 			// screenshots
 		if (isset($game['page'][0]['screenshots'])) {
 			echo '<div class="game_screens"><ul class="screenshots">';
