@@ -3,12 +3,13 @@
   <updated date="2011-07-14"/>
   <version id="3.8.7"/>  
   <status value="complete"/>
+  <!-- 
   <rated>
    <entry>
       <![CDATA[<script type="text/javascript" src="http://www.ohloh.net/projects/4434/widgets/project_users?style=gray"></script>]]>
     </entry>
   </rated>
- 
+ -->
  <description><![CDATA[ 
 Marauroa is Arianne's Multiplayer Online Engine, which you can use to build
 your own online games using Marauroa for object management, database persistence
