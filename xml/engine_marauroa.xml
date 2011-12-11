@@ -281,20 +281,12 @@ href="http://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Mara
       <os>
         <entry name="java" status="100"/>
       </os>
-      <dependencies>
-        <entry name="jython" url="http://www.jython.org"/>
-        <entry name="junit" url="http://junit.org"/>
-        <entry name="MySQL" url="http://mysql.com"/>
-      </dependencies>
     </file>
     <file type="binary" name="marauroa-XXX.zip">
       <description>This file contains the compiled version of marauroa plus all the dependencies but MySQL.</description>
       <os>
         <entry name="java" status="100"/>
       </os>
-      <dependencies>
-        <entry name="MySQL" url="http://mysql.com"/>
-      </dependencies>
     </file>
   </files>
   <authors>
