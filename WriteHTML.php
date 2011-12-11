@@ -140,10 +140,14 @@ function WriteGameBriefingHTML($game,$long_briefing) {
 
 function WriteGameStatusTag($game,$length=false) {
 	if ($game['page'][0]['status']) {
+		$status = $game['page'][0]['status']['0 attr']['value'];
+		if (($status == 'complete') || ($status == 'stable')) {
+			return;
+		}
 		echo '<div class="statustag">';
 		$type = $game['page'][0]['type']['0 attr']['value'];
 		if ($length) {
-			switch($game['page'][0]['status']['0 attr']['value']) {
+			switch ($status) {
 			case "broken":
 				echo '<p>This '.$type.' is marked as BROKEN. This implies it does not work with the current server version and is therefore unsupported. We are working towards restoring the broken '.$type.'s. Sorry for any inconvenience.</p>';
 				break;
@@ -164,7 +168,7 @@ function WriteGameStatusTag($game,$length=false) {
 				break;
 			}
 		} else {
-			switch($game['page'][0]['status']['0 attr']['value']) {
+			switch($status) {
 				case "broken":
 					echo '<p>This '.$type.' is marked as BROKEN. </p>';
 					break;
