@@ -4,7 +4,7 @@
   <version id="0.98"/>
   <status value="stable"/>
   <type value="game"/>
-  <cssdoc url="css/stendhal.css"/>
+  <!-- <cssdoc url="css/stendhal.css"/> -->
   <rated>
 <!-- broken link   
     <entry><![CDATA[

@@ -3,7 +3,7 @@
   <updated date="2005-07-02"/>
   <version id="0.3"/>
   <type value="game"/>
-  <cssdoc url="css/jmapacman.css"/>
+  <!-- <cssdoc url="css/jmapacman.css"/> -->
   <status value="beta"/>
   <rated>
     <entry>
