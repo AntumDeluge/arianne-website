@@ -120,7 +120,7 @@ class DetailPage extends Page {
 
 		// downloads
 		echo '<div class="game_downloads"><a name="downloads"></a>';
-		$this->writeDownloadSection($game, true);
+		$this->writeDownloadSection($game);
 		echo '</div>';
 
 		// change log
@@ -152,14 +152,9 @@ class DetailPage extends Page {
 	
 	
 	
-	function writeDownloadSection($game, $section=false) {
+	function writeDownloadSection($game) {
 	
-		// section specifies if this is being called from download page or from games page
-		if ($section === false) {
-			echo '<div class="downloads"><div class="link_title"><h2><a href="/game/'.$game['page']['0 attr']['name'].'.html">'.ucfirst($game['page']['0 attr']['name']).'</a></h2><p><a href="/game/'.$game['page']['0 attr']['name'].'.html">Click here to see information about this package</a></p></div>';
-		} else {
-			echo '<h2>Download</h2><div class="download"><a name="downloadsection"></a>';
-		}
+		echo '<h2>Download</h2><div class="download"><a name="downloadsection"></a>';
 	
 		echo '<ul>';
 		foreach (array_keys($game['page'][0]['files'][0]['file']) as $key) {
@@ -183,26 +178,7 @@ class DetailPage extends Page {
 			echo '<div class="releaseinfo">('.$file['type'].') released on '.$game['page'][0]['updated']['0 attr']['date'].'</div>';
 			echo '<div class="link"><a href="http://prdownloads.sourceforge.net/arianne/'.$filename.'?download" class="download_file">'.$filename.'</a></div>';
 	
-			echo '<ul class="OS_images">';
-	
-			foreach ($file['os'][0]['entry'] as $key=>$worksOnOS) {
-				if (is_array($worksOnOS)) {
-					echo '<li><img src="/images/platforms/'.$worksOnOS['name'].'.png" alt="Operating System Logo"></li>';
-				}
-			}
-			echo '</ul>';
-			if (isset($file['dependencies'])) {
-				echo '<div class="dependancies"><b>Dependencies</b>: (This file depends on)<ul>';
-				foreach ($file['dependencies'][0]['entry'] as $key=>$dependsOn) {
-					if (is_array($dependsOn)) {
-						echo '<li><a href="'.$dependsOn['url'].'">'.$dependsOn['name'].'</a></li>';
-					}
-				}
-				echo '</ul></div>';
-			} else {
-				echo ' ';
-			}
-			echo '<div class="clearright">&nbsp;</div></li>';
+			echo '</li>';
 		}
 		echo '</ul>';
 	
