@@ -45,30 +45,12 @@ There is not currently a JMaPacman server active.</b> ]]></description>
   <files>
     <file type="binary" name="jmapacman-XXX.zip">
       <description>This file contains the JMaPacman client. Download this to play online.</description>
-      <os>
-        <entry name="win32" status="100"/>
-        <entry name="linux" status="100"/>
-        <entry name="macosx" status="100"/>
-      </os>
     </file>
     <file type="server script binary" name="jmapacman-server-XXX.zip">
       <description>This file contains the JMaPacman server plugin. You need marauroa in order to play correctly.</description>
-      <os>
-        <entry name="win32" status="100"/>
-        <entry name="linux" status="100"/>
-        <entry name="macosx" status="100"/>
-      </os>
     </file>
     <file type="source" name="jmapacman-XXX-src.tar.gz">
       <description>This file contains the source code to build JMaPacman.</description>
-      <os>
-        <entry name="win32" status="100"/>
-        <entry name="linux" status="100"/>
-        <entry name="macosx" status="100"/>
-      </os>
-      <dependencies>
-        <entry name="marauroa" url="/download.html#server"/>
-      </dependencies>
     </file>
   </files>
   <servers>

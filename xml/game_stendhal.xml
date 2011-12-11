@@ -677,35 +677,15 @@ your error log files and please continue to do so.
   <files>
     <file type="binary" name="stendhal-XXX.zip">
       <description>This file contains the stendhal client. Download this to play online.</description>
-      <os>
-        <entry name="win32" status="100"/>
-        <entry name="linux" status="100"/>
-        <entry name="macosx" status="100"/>
-      </os>
     </file>
     <file type="map editor binary" name="stendhal_mapeditor-2.00.zip">
       <description>This file contains the stendhal map editor. Download this to create new maps. Send them to us if you want them to appear on next releases. Use the tmx file format.</description>
-      <os>
-        <entry name="win32" status="100"/>
-        <entry name="linux" status="100"/>
-        <entry name="macosx" status="100"/>
-      </os>
     </file>
     <file type="server script binary" name="stendhal-server-XXX.zip">
       <description>This file contains the stendhal server files. See http://stendhalgame.org/wiki/Host_a_Stendhal_Server</description>
-      <os>
-        <entry name="win32" status="100"/>
-        <entry name="linux" status="100"/>
-        <entry name="macosx" status="100"/>
-      </os>
     </file>
     <file type="source" name="stendhal-XXX-src.tar.gz">
       <description>This file contains the source code to build stendhal. See http://stendhalgame.org/wiki/Stendhal#Build_information </description>
-      <os>
-        <entry name="win32" status="100"/>
-        <entry name="linux" status="100"/>
-        <entry name="macosx" status="100"/>
-      </os>
     </file>
   </files>
   <servers>
