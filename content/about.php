@@ -58,7 +58,7 @@ what are you trying to do, allowing a great freedom to create any game type.</p>
 <p>At Arianne we care about code quality so code is fully tested using Test Units with <i>JUnit</i>, so modules are tested for most common cases, allowing a better quality software to be deployed.
 </p><p><b>Your</b> cooperation reporting problems is invaluable: <i>You are our best developer and we want to hear from you</i>.</p>
 
-<p>If you'd like any more information, try our <a href="http://stendhalgame.org/wiki/index.php/Main_Page">wiki</a>.
+<p>If you'd like any more information, try our <a href="http://stendhalgame.org/wiki/Main_Page">wiki</a>.
 </div>
 <?php
 	}
