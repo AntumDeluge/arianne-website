@@ -218,12 +218,12 @@ function WriteDownloadLink($xml, $type) {
 			}
 		}
 	} else {
-		echo '<a href="/'.$type.'/'.$xml[$type]['0 attr']['name'].'.html#downloadsection"><img src="/images/oneszeros.png" alt=ones zeros"></a>';
+		echo '<a href="/'.$type.'/'.$xml['page']['0 attr']['name'].'.html#downloadsection"><img src="/images/oneszeros.png" alt=ones zeros"></a>';
 	}
 
 	if ($type === 'game') {
 		echo '<p class="linktodownload"><a href="/game/'.$xml['page']['0 attr']['name'].'.html#downloadsection">Click here to go to this games download links</a></p>';
-	} else if ($type === 'server') {
+	} else if ($type === 'engine') {
 		echo '<p class="linktodownload"><a href="/engine/'.$xml['page']['0 attr']['name'].'.html#downloadsection">Click here to go to the engine download links</a></p>';
 	} else if ($type === 'client') {
 		echo '<p class="linktodownload"><a href="/client/'.$xml['page']['0 attr']['name'].'.html#downloadsection">Click here to go to this clients download links</a></p>';
