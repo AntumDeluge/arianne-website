@@ -3,6 +3,9 @@
   <updated date="2011-07-14"/>
   <version id="3.8.7"/>  
   <status value="complete"/>
+  <short-description>Marauroa is Arianne's Multiplayer Online Engine, which you can use to build
+your own online games. Marauroa handles object management, asynchronous database
+persistence and perception based client-server communication.</short-description>
   <!-- 
   <rated>
    <entry>
@@ -11,10 +14,6 @@
   </rated>
  -->
  <description><![CDATA[ 
-Marauroa is Arianne's Multiplayer Online Engine, which you can use to build
-your own online games using Marauroa for object management, database persistence
-and perception based client-server communication.<p/>
-
 Marauroa is completely written in Java using a multithreaded server architecture
 with a TCP oriented network protocol, a MySQL or H2 based persistence engine and a 
 flexible game system based on open systems totally expandible and modifiable 
@@ -274,6 +273,9 @@ href="http://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Mara
 -->
       ]]>
   </changelog>
+  <screenshots>
+    <image name="oneszeros.png"/>
+  </screenshots>
   <files>
     <file type="source" name="marauroa-XXX-src.tar.gz">
       <description>This file contains the source code to build marauroa.</description>
