@@ -61,15 +61,10 @@ function WriteShortGameDesc($game) {
 	}
 	echo '</li>';
 	echo '<li>';
-	if (isset($game['page'][0]['screenshots'])) {
-		foreach ($game['page'][0]['screenshots'] as $key=>$image) {
-			if (is_array($image)) {
-				$image_size = getimagesize(dirname(__FILE__).'/screens/'.$game['page']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name']);
-				$html_size = imageResize($image_size[0], $image_size[1], 130);
-
-				echo '<a href="/'.$type.'/'.$game['page']['0 attr']['name'].'.html"><img src="/screens/'.$game['page']['0 attr']['name'].'/THM_'.$image['image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
-			}
-		}
+	if (isset($game['page'][0]['navigation-image'])) {
+		$image_size = getimagesize(dirname(__FILE__).'/screens/'.$game['page']['0 attr']['name'].'/THM_'.$game['page'][0]['navigation-image']['0 attr']['name']);
+		$html_size = imageResize($image_size[0], $image_size[1], 130);
+		echo '<a href="/'.$type.'/'.$game['page']['0 attr']['name'].'.html"><img src="/screens/'.$game['page']['0 attr']['name'].'/THM_'.$game['page'][0]['navigation-image']['0 attr']['name'].'" alt="Screenshot" '.$html_size.'></a>';
 	} else {
 		echo '&nbsp;';
 	}

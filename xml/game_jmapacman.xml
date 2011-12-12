@@ -40,6 +40,7 @@ There is not currently a JMaPacman server active.</b> ]]></description>
 <br/><b>-</b> fixed Bug when other Player changes Zone or disapears
       ]]>
   </changelog>
+  <navigation-image name="20050702_jmapacman.jpg" />
   <screenshots>
     <image name="20050702_jmapacman.jpg"/>    <image name="20050623_jmapacman.jpg"/>  </screenshots>
   <files>

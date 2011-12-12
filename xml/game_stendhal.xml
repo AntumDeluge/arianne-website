@@ -653,6 +653,7 @@ your error log files and please continue to do so.
 <p><b>See <a href="http://arianne.cvs.sourceforge.net/viewvc/*checkout*/arianne/stendhal/doc/CHANGES.txt">all past changes</a></b>]]>
 -->
   </changelog>
+  <navigation-image name="raid65.png" />
   <screenshots>
     <image name="Stendhal98.jpg"/>
     <image name="Achievement_Stendhal98.jpg"/>

@@ -13,6 +13,7 @@
   </description>
 
   <manual url="/docs/gladiators/gladiators_manual.html"/>  
+  <navigation-image name="20040220_Gladiators.jpg" />
   <screenshots>
     <image name="20040220_Gladiators.jpg"/>
   </screenshots>

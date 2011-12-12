@@ -124,6 +124,10 @@ waiting to connect or waiting to logout)
 <br><b>Please see <a href = "http://stendhalgame.org/wiki/Marauroa_3.8">http://stendhalgame.org/wiki/Marauroa_3.8</a> for details on 
 those features</b>
 
+]]>
+<!-- 
+<![CDATA[
+
 <br><b>3.7.9</b>
 <br>- all the features of 3.8 but with the client protocol version set to 32, so disabling the requesting of maps
 
@@ -214,7 +218,7 @@ href="http://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Mara
 <br>- Fixed problem with bogus network message.
 <br/>- Added additional results to enum Result (for account/character creation)
 <br/>- Added UnicodeSupportingInputStream and -Reader which automatically detect unicode type (and even support UTF-8Y) 
-<!--<b>-</b> Fixed MySQL 4.0 incompatibility.
+<b>-</b> Fixed MySQL 4.0 incompatibility.
 <br/><b>-</b> Fixed bug at IRPZone.ID
 <br/><b>-</b> Fixed problem with RPObject.hashCode.
 <br/><b>-</b> Fixed memory leak because of Sun bug: http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6460501
@@ -270,10 +274,12 @@ href="http://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Mara
 <br/><b>-</b> Simplified build script
 <br/><b>-</b> Generated java docs as a new file
 <br/><b>-</b> Split account and character. Now you can have really several characters per account.
--->
       ]]>
+-->
   </changelog>
+  <navigation-image name="oneszeros.png" />
   <screenshots>
+    <image name="messages.png"/>
     <image name="oneszeros.png"/>
   </screenshots>
   <files>
