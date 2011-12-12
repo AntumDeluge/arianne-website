@@ -4,7 +4,9 @@
   <version id="0.98"/>
   <status value="stable"/>
   <type value="game"/>
+  <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
   <!-- <cssdoc url="css/stendhal.css"/> -->
+  <short-description>Stendhal is a fully fledged multiplayer online adventure game (MORPG) developed using the Arianne game development system.</short-description>
   <rated>
 <!-- broken link   
     <entry><![CDATA[
@@ -24,32 +26,25 @@ MMORPG & MPOG" border="0"></a>]]>
 
   </rated>
   <description><![CDATA[ 
-Are you looking for adventure? Want to fight for riches?<br>
+<p>Stendhal features a new, rich and expanding world in which you can explore towns, buildings, plains, caves and dungeons. 
+You will meet NPCs and acquire tasks and quests for valuable experience and cold hard cash.</p>
+<p>Your character will develop and grow and with each new level up become stronger and better.
+With the money you acquire you can buy new items and improve your armour and weapons.
+And for the blood thirsty of you; satisfy your killing desires by roaming the world in search of evil monsters!</p>
+
+<blockquote> Are you looking for adventure? Want to fight for riches?<br>
 Develop yourself and your social standing? Meet new people?<br>
-Do you want to be part of a brave new world?
-<p/>
-<a href="http://stendhalgame.org">Stendhal</a> is a fully fledged <b>multiplayer</b> online adventures game (MMORPG) developed using the Arianne game development system.
-<p/>
-Stendhal features a new, rich and expanding world in which you can explore towns, buildings, plains, caves and dungeons. <br>
-You will meet NPCs and acquire tasks and quests for valuable experience and cold hard cash.<br>
-Your character will develop and grow and with each new level up become stronger and better. With the money you acquire you can buy new items and improve your armour and weapons.<br>
-And for the blood thirsty of you; satisfy your killing desires by roaming the world in search of evil monsters!
-<p/>
-Stendhal is totally platform independent, written using Java 1.5 and the Java2D environment.
-<p/>
-So what are you waiting for?! A whole new world awaits...]]>
+Do you want to be part of a brave new world?</blockquote>
+
+<p>So what are you waiting for?! A whole new world awaits...</p>]]>
   </description>
   <extended><![CDATA[
-  <p/><h2>Want to help us?</h2>
-  The game is right now <b>PLAYABLE</b> and <b>FUN</b>.<p/>
-  We would really love to get your help <a href="http://stendhalgame.org/wiki/Navigation_for_Stendhal_Contributors">contributing</a> and if you are interested you can learn a lot more about Stendhal at <a href="http://stendhalgame.org/wiki/Stendhal">Stendhal's wiki</a>.
-
-  <p/><h2>Play now!</h2>
-  Just click on the button to play:
-  <p/><a href="https://stendhalgame.org/account/mycharacters.html"><img src="/images/webstart.png" alt="Click here to play"></a>
+  <h2>Want to help us?</h2>
+  <p>Stendhal is right now <b>playable</b> and <b>fun</b>. It is platform independent and completely open source.</p>
+  <p>We would really love to get your help <a href="http://stendhalgame.org/wiki/Navigation_for_Stendhal_Contributors">contributing</a> and if you are interested you can learn a lot more about Stendhal at <a href="http://stendhalgame.org/wiki/Stendhal">Stendhal's wiki</a>.</p>
   ]]>
   </extended>
-  <manual url="http://stendhalgame.org/wiki/StendhalManual"/>  
+  <manual url="http://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
 <b>0.98</b>
 
@@ -123,7 +118,9 @@ So what are you waiting for?! A whole new world awaits...]]>
 <br><b>*internal code changes*</b>
 <br>- table itemid was replaced with table item.
 
-
+]]>
+<!-- 
+<![CDATA[
 <p><b>0.96</b>
 <br><b>*world*</b>
 <br>- Barbarus moved his work place a bit closer to the Mines entrance and reduced the pick price to 400 money each
@@ -318,9 +315,7 @@ So what are you waiting for?! A whole new world awaits...]]>
 <br>- all tests now pass using the Eclipse JUnit plugin
 
 <p><b>See <a href="http://arianne.cvs.sourceforge.net/viewvc/*checkout*/arianne/stendhal/doc/CHANGES.txt">all past changes</a></b>
-]]>
-<!-- 
-<![CDATA[
+
 <p><b>0.89</b>
 
 <br><b>*features*</b>

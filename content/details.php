@@ -66,9 +66,20 @@ class DetailPage extends Page {
 
 		WriteGameStatusTag($game,true);
 
+		if (isset($game['page'][0]['playnow'])) {
+			echo '<a href="'.$game['page'][0]['playnow']['0 attr']['url'].'" style="display:block;float:right;clear:right">';
+			echo '<img style="margin-right:40px; width:170px; height:42" class="news_image" src="/'.$game['page'][0]['playnow']['0 attr']['image'].'"></a>'."\r\n";
+		}
+		
+		if (isset($game['page'][0]['short-description'])) {
+			echo '<p>'.$game['page'][0]['short-description'][0].'</p>';
+		}
+
 			// screenshots
 		if (isset($game['page'][0]['screenshots'])) {
-			echo '<div class="game_screens"><ul class="screenshots">';
+			echo '<div class="game_screens">';
+			echo '<a name="screenshots"></a><h2>Screenshots</h2>';
+			echo '<ul class="screenshots">';
 			$i = 0;
 			foreach ($game['page'][0]['screenshots'][0]['image'] as $key=>$image) {
 				if (is_array($image)) {
