@@ -405,6 +405,10 @@ ul.gamepagemenu li a:link {
 	margin-bottom: 1em;
 }
 
+.download div.filedesc a {
+	color: #000
+}
+
 
 .download div.link {
 	font-size: 12pt;
