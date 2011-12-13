@@ -5,20 +5,21 @@
   <type value="game"/>
   <!-- <cssdoc url="css/jmapacman.css"/> -->
   <status value="beta"/>
+<short-description>JMaPacman is a multi player clone of the old Arcade Game Pacman.</short-description>
   <rated>
     <entry>
       <![CDATA[<a href="http://freshmeat.net/projects/jmapacman/"><img src="/images/fm_logo.png"></a>]]>    
     </entry>
   </rated>
   <description><![CDATA[ 
-<br>
-JMaPacman is a clone of the old Arcade Game Pacman with new features and news design.<br>
-Now you can play Pacman with many of your friends together in one Game. You have many levels to explore and many dots to eat ;)<br>
-Who will reach the Top Score ?
-<p/>
-JMaPacman is totally platform independent, written using Java 1.5 and the Java2D environment.
-<p> <b>
-There is not currently a JMaPacman server active.</b> ]]></description>
+<p>JMaPacman is a clone of the old Arcade Game Pacman with new features and news design.<br>
+Now you can play Pacman with your friends together in one game. You have many levels to explore and many dots to eat ;)<br>
+Who will reach the Top Score?</p>
+
+<p>JMaPacman is platform independent, written using Java and the Java2D environment.</p>
+
+<b>There is no JMaPacman server at this time.</b>]]></description>
+  <!-- 
   <extended><![CDATA[
   <p/><h2>Webstart</h2>
   JMaPacman uses Java Webstart technology that enables you to use always the latest version available without having to worry about updates.<br>
@@ -26,6 +27,7 @@ There is not currently a JMaPacman server active.</b> ]]></description>
   <p/><a href="http://arianne.sourceforge.net/jws/jmapacman.jnlp"><img src="/images/webstart.png" alt="Click here to play"></a>
   ]]>
   </extended>
+   -->
   <manual url="http://arianne.sourceforge.net/wiki/index.php/JMaPacmanManual"/>  
   <changelog><![CDATA[ 
 <b>-</b> added Killed-Splash when Ghost or Player is killed
@@ -54,9 +56,6 @@ There is not currently a JMaPacman server active.</b> ]]></description>
       <description>This file contains the source code to build JMaPacman.</description>
     </file>
   </files>
-  <servers>
-    <server name="No Server Currently" url= ""/>
-  </servers>
   <authors>
     <entry name="Martin Spüler" url=""/>
     <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>
