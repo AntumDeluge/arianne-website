@@ -287,7 +287,7 @@ href="http://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Mara
       <description>This file contains the source code to build marauroa.</description>
     </file>
     <file type="binary" name="marauroa-XXX.zip">
-      <description>This file contains the compiled version of marauroa plus all the dependencies but MySQL.</description>
+      <description>This file contains the compiled version of marauroa plus all the dependencies.</description>
     </file>
   </files>
   <authors>
