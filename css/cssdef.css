@@ -398,21 +398,17 @@ ul.gamepagemenu li a:link {
 	border:none;
 }
 .download li {
-	padding:0;margin:0;margin-bottom:10px; 
+	padding:0; margin:0; margin-bottom:10px; 
 }
 
 .download div.filedesc {
-	text-align:center;
-	margin:0;padding:7px 0px;
-	font-size:11pt;
-	color: #fff;
-	background-color:#2a0;
-	border-bottom:2px solid gray;
+	margin-bottom: 1em;
 }
 
+
 .download div.link {
-	padding:10px; margin:0;
 	font-size: 12pt;
+	font-weight: bold;
 }
 
 .download div.releaseinfo {
