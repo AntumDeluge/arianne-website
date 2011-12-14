@@ -25,12 +25,40 @@ can ask server to do any action in their names using actions.
 Marauroa is totally game agnostic and makes very little assumptions about what 
 are you trying to do, allowing a great freedom to create whatever type of game 
 you want.<p/>
-For (lots) more information on Marauroa please see <a href = "http://stendhalgame.org/wiki/index.php/Marauroa">Marauroa's wiki pages</a>.
 
 ]]>
   </description>
   <extended><![CDATA[
-	<p>Marauroa is based on very simple principles:<ul>
+	<p><h2>Instructions</h2>
+	<ul>
+	<li><a href="http://stendhalgame.org/wiki/Marauroa">Marauroa Wiki</a></li>
+	<li><a href="http://stendhalgame.org/wiki/Marauroa_Core_API">Core API Overview</a></li>
+	<li><a href="http://stendhalgame.org/wiki/Marauroa_Chat_Tutorial">Marauroa Chat Tutorial</a></li>
+	<li><a href="http://stendhalgame.org/wiki/HowToWriteAdventureGamesUsingArianne">Adventure Games Concepts</a></li>
+	</ul>
+
+	<p><h2>Features</h2>
+	Marauroa features state-of-art technologies as:
+	<ul>
+	<li>Java 1.5 and higher compatible</li>
+	<li>Persistent objects</li>
+	<li>Transactional relational database support</li>
+	<li>Asynchronous database access</li>
+	<li>Delta and Delta<sup>2</sup> Perceptions to reduce bandwidth usage</li>
+	<li>Multiple independent zones of gameplay</li>
+	<li>Server content streaming</li>
+	<li>Turn based or real time gameplay</li>
+	<li>Nicely documented: Design and specifications available</li>
+	<li>Based on a XP development model</li>
+	<li>Follows KISS principle: <i>Keep it simply stupid</i></li>
+	<li>True Open Source Software: GNU/GPL</li>
+	</ul>
+
+
+	Remember that Marauroa is programming framework and so you need a game to do anything with Marauroa.
+	
+	<p><h2>Marauroa is based on very simple principles:</h2>
+	<ul>
 	<li>Clients communicate with the server, and vice-versa, using a TCP portable network protocol with reliability in mind to allow a stabler experience when online game lag occurs. </li>
 	<li>To play a game every player needs an account on the server that is identified by an username and a password. </li>
 	<li>Players use their account to login into the server and then choose a 'player' stored under their account to play with. The server then checks the login information using the MySQL backend and loads the player into the game using the persistence engine. </li>
@@ -42,32 +70,9 @@ For (lots) more information on Marauroa please see <a href = "http://stendhalgam
 	<li>The server generates statistics of usage which are stored in a MySQL or H2 database (so you can later generate fancy statistics from them). Or in case you don't require them, they can be disabled to save CPU cycles and disk space. Marauroa features a modular structure that means modules can be changed and disabled without affecting the operation of other modules. </li>
 	<li>Both the server and clients are fully and wisely documented, with documentation about specification and design and not just API documentation. </li>
 	</ul>
-
-	<p><h2>Features</h2>
-	Marauroa features state-of-art technologies as:
-	<ul>
-	<li>Java 1.5 compatible</li>
-	<li>Persistent objects</li>
-	<li>Transactional relational database support</li>
-	<li>Delta and Delta<sup>2</sup> Perceptions to reduce bandwidth usage</li>
-    <li>Multiple independent zones of gameplay</li>
-    <li>Server content streaming</li>
-	<li>Turn based gameplay</li>
-	<li>Nicely documented: Design and specifications available</li>
-	<li>Based on a XP development model</li>
-	<li>Follows KISS principle: <i>Keep it simply stupid</i></li>
-	<li>True Open Source Software: GNU/GPL</li>
-	</ul>
-    
-    <p><h2>Instructions</h2>
-    You should read <a href="http://arianne.sourceforge.net/wiki/index.php/HowToBuildMarauroa">HOWTO build Marauroa</a> and
-    <a href="http://arianne.sourceforge.net/wiki/index.php/InitialStepsWithMarauroa">Initial steps with Marauroa</a> for detailed,
-    simple instructions about how to build and use marauroa.
-    
-    Remember that Marauroa is server middleware and so you need a game to do anything with Marauroa.
-    ]]>
-  </extended>
-  <changelog><![CDATA[
+]]>
+	</extended>
+<changelog><![CDATA[
 
 <br><b>3.8.7</b>
 <br>- performance improvement by not deep copying all player objects every turn.
