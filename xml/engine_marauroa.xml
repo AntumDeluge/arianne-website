@@ -284,6 +284,7 @@ href="http://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Mara
   </changelog>
   <navigation-image name="oneszeros.png" />
   <screenshots>
+    <image name="games.png"/>
     <image name="messages.png"/>
     <image name="oneszeros.png"/>
   </screenshots>
