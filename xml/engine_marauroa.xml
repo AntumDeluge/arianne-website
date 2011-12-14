@@ -288,11 +288,11 @@ href="http://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Mara
     <image name="oneszeros.png"/>
   </screenshots>
   <files>
-    <file type="source" name="marauroa-XXX-src.tar.gz">
-      <description>This file contains the source code to build marauroa.</description>
-    </file>
     <file type="binary" name="marauroa-XXX.zip">
       <description>This file contains the compiled version of marauroa plus all the dependencies.</description>
+    </file>
+    <file type="source" name="marauroa-XXX-src.tar.gz">
+      <description>This file contains the source code to build marauroa.</description>
     </file>
   </files>
   <authors>
