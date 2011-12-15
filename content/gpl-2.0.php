@@ -3,7 +3,7 @@ class Documentation extends Page {
 
 	public function writeHtmlHeader() {
 		echo '<title>GNU General Public License'.ARIANNE_TITLE.'</title>';
-		
+		echo '<meta name="robots" content="noindex">';
 	}
 
 	public function writeContent() {
