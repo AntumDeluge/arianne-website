@@ -118,14 +118,14 @@ class DetailPage extends Page {
 		// game server links
 		if (isset($game['page'][0]['servers'])) {
 			echo '<div class="game_servers"><a name="servers"></a><h2>Online servers</h2>';
-			echo $game['page']['0 attr']['name'].' is a online game, so you need to connect to a server in order to be able to play.</p>';
-			echo '<p>Choose any of the followings and read the instructions there about how to get an account and connect:<ul>';
 			foreach ($game['page'][0]['servers'][0]['server'] as $key=>$server) {
 				if (is_array($server)) {
-					echo '<li><a href="'.$server['url'].'">'.$server['name'].'</a></li>';
+					echo '<a href="'.$server['url'].'" style="display:block;float:right;clear:right">';
+					echo '<img src="/images/buttons/Game_server_button.png" title="'.$server['url'].'"></a>';
 				}
 			}
-			echo '</ul></div>';
+			echo '<p>'.$game['page']['0 attr']['name'].' is a online game, so you need to connect to a server in order to be able to play:</p>';
+			echo '</div>';
 		}
 
 		// downloads
@@ -192,8 +192,7 @@ class DetailPage extends Page {
 		}
 		echo '</ul>';
 	
-		//echo '</div>';
-		echo '<div class="clearright">&nbsp;</div></div>';
+		echo '</div>';
 	}
 	
 }
