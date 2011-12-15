@@ -3,7 +3,6 @@ class About extends Page {
 
 	public function writeHtmlHeader() {
 		echo '<title>About'.ARIANNE_TITLE.'</title>';
-		
 	}
 
 	public function writeContent() {

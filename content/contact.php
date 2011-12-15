@@ -2,9 +2,8 @@
 class Contact extends Page {
 	public function writeHtmlHeader() {
 		echo '<title>Contact'.ARIANNE_TITLE.'</title>';
-		
 	}
-	
+
 	public function writeContent() {
 ?>
 <div class="section"><h1>Contact information</h1>
