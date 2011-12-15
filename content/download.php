@@ -7,6 +7,7 @@ class Download extends Page {
 		} else {
 			echo '<title>Downloads (including old games)'.ARIANNE_TITLE.'</title>';
 		}
+		echo '<meta name="robots" content="noindex">';
 	}
 
 	public function writeContent() {

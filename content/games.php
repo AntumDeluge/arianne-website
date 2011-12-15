@@ -7,6 +7,7 @@ class Games extends Page {
 		} else {
 			echo '<title>Games using Arianne (including old games)'.ARIANNE_TITLE.'</title>';
 		}
+		echo '<meta name="robots" content="noindex">';
 	}
 
 	public function writeContent() {

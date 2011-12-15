@@ -7,6 +7,7 @@ class Screenshots extends Page {
 		} else {
 			echo '<title>Old Screenshots'.ARIANNE_TITLE.'</title>';
 		}
+		echo '<meta name="robots" content="noindex">';
 	}
 
 	public function writeContent() {
