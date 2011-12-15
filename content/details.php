@@ -185,7 +185,11 @@ class DetailPage extends Page {
 			}
 	
 			echo '<div class="releaseinfo">('.$file['type'].') released on '.$game['page'][0]['updated']['0 attr']['date'].'</div>';
-			echo '<div class="link"><a href="http://prdownloads.sourceforge.net/arianne/'.$filename.'?download" class="download_file">'.$filename.'</a></div>';
+			echo '<div class="link"><a href="http://prdownloads.sourceforge.net/arianne/'.$filename.'?download" class="download_file">'.$filename.'</a>';
+			if ($file['suggest']) {
+				echo '&nbsp; <img style="border:0" src="/images/star.png" title="Suggested download">';
+			}
+			echo '</div>';
 			echo '<div class="filedesc">'.$file['description'][0].'</div>';
 			
 			echo '</li>';

@@ -675,7 +675,7 @@ your error log files and please continue to do so.
     <image name="20051023_stendhal.jpg"/>
   </screenshots>
   <files>
-    <file type="binary" name="stendhal-XXX.zip">
+    <file type="binary" name="stendhal-XXX.zip" suggest="true">
       <description>This file contains the stendhal client. Download this to play online.</description>
     </file>
     <file type="map editor binary" name="stendhal_mapeditor-2.00.zip">
