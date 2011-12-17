@@ -511,12 +511,13 @@ ul.newslist {
 	margin:0; 
 	padding:0; 
 	text-align:left; 
-	width:99%; 
+	width:99%;
+	clear:right;
 }
 
 ul.newslist li { 
 	margin:0;
-	padding:5px;
+	padding-bottom:5px;
 }
 
 .newsitem p.itemdate { 
@@ -551,7 +552,7 @@ div.newstitle {
 }
 .newsitem .newscontent_image {
 	padding:0;margin:0;
-	padding-left:20px; 
+	padding-left:10px; 
 	margin-top:0px; 
 	margin-right:20px;
 }

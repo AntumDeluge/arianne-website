@@ -61,8 +61,7 @@ function WriteNewsHTMLForNamedItem($website, $title) {
 	echo '</ul>';
 }
 
-function WriteNewsItemHtml($item)
-{
+function WriteNewsItemHtml($item) {
 	$strippedTitle = getNiceURL($item['title'][0]);
 	echo '<li class="clearright"><div class="newsitem"><div class="newstitle">'
 	.'<h2 style="padding:0; margin:0; margin-top:1em; font-weight: bold"><a class="newsitemtitle" href="/news/'.$strippedTitle.'.html">'.$item['title'][0].'</a></h2>'
@@ -118,6 +117,7 @@ class News extends Page {
 	}
 
 	public function writeContent() {
+		echo '<a href="http://arianne.sourceforge.net/rss/news.rss" style="float:right; z-index:1000"><img src="/images/buttons/feed-icon-28x28.png" width="28px" height="28px" style="border:none"></a>';
 		if (!$this->all && isset($this->title)) {
 			WriteNewsHTMLForNamedItem($this->xml, $this->title);
 			echo '<p><a href="/">Read recent news items</a></p>';
