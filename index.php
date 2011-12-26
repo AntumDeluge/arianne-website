@@ -97,14 +97,14 @@ if ($page->writeHttpHeader()) {
 					<span class="left-title-image"></span>
 					<span class="right-title-image"></span>
 				</a>
-				<p>an open source multiplayer online framework to easily create games!</p>
+				<p>Arianne is an open source multiplayer online framework to easily create games!</p>
 			</div>
 
 			<div id="menubarcontainer">
 				<div id="topmenubar">
 					<ul class="menubar">
 						<li><a href="/">News</a></li>
-						<li><a href="/about.html">About</a></li>
+						<li><a href="/about.html">About Arianne</a></li>
 						<li><a href="/game/stendhal.html">Stendhal MORPG</a></li>
 						<li><a href="/game/jmapacman.html">jMacPacman</a></li>
 						<li><a href="/engine/marauroa.html">Marauroa Engine</a></li>
