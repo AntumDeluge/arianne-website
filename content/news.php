@@ -110,7 +110,7 @@ class News extends Page {
 			WriteNewsHTMLHeaderForFirstItem($this->xml, $this->title);
 		} else {
 			echo '<title>A Multiplayer Online Role Playing Framework to develop games'.ARIANNE_TITLE.'</title>';
-			echo '<meta name="keywords" content="arianne, java, python, jython, multiplayer, play, online, game, engine, framework, content creation, C, portable, free, open source, gpl, MySQL, documentation, design">';
+			echo '<meta name="keywords" content="arianne, java, python, jython, multiplayer, play, online, game, engine, framework, content creation, free, open source, gpl, MySQL, documentation, design, MMORPG">';
 			echo '<meta name="description" content="Arianne is a multiplayer online games framework and engine to develop turn based and real time games. It provides a simple way of creating games on a portable and robust server architecture. The server is coded in Java and you may use Python for your game description, provides a MySQL or H2 database backend and uses an TCP transport channel to communicate with hundreds of players.">';
 		}
 		echo '<link rel="alternate" type="application/rss+xml" title="Arianne News" href="http://arianne.sourceforge.net/rss/news.rss" >'."\n";
