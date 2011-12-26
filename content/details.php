@@ -48,10 +48,10 @@ class DetailPage extends Page {
 			echo '<link rel="stylesheet" type="text/css" href="/'.$this->xml['page'][0]['cssdoc']['0 attr']['url'].'">';
 		}
 			if (isset($this->xml['page'][0]['short-description'])) {
-			echo '<meta name="description" content="'.htmlspeicalchars($this->xml['page'][0]['short-description'][0]).'">';
+			echo '<meta name="description" content="'.htmlspecialchars($this->xml['page'][0]['short-description'][0]).'">';
 		}
 		if (isset($this->xml['page'][0]['keywords'])) {
-			echo '<meta name="keywords" content="'.htmlspeicalchars($this->xml['page'][0]['keywords'][0]).'">';
+			echo '<meta name="keywords" content="'.htmlspecialchars($this->xml['page'][0]['keywords'][0]).'">';
 		}
 	}
 
