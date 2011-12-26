@@ -4,6 +4,8 @@
   <status value="archived"/>
   <type value="game"/>
   <version id="0.08.5.3"/>  
+  <keywords>Gladiators, fighting gladiators, </keywords>
+  <short-description>As a Gladiator, your task is to survive in the Arena and grow stronger.</short-description>
   <description><![CDATA[ 
     You are the player, and you OWN several characters, each characters is a gladiator. 
     As a gladiator your task is to fight and survive in the Arena. You can also play as a spectator,
@@ -26,7 +28,7 @@
     </file>
   </files>
   <servers>
-    <server name="Public Developers Server" url="http://gladiators.game-server.cc"/>
+<!-- <server name="Public Developers Server" url="http://gladiators.game-server.cc"/>-->
   </servers>
   <authors>
     <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>

@@ -5,7 +5,8 @@
   <type value="game"/>
   <!-- <cssdoc url="css/jmapacman.css"/> -->
   <status value="beta"/>
-<short-description>JMaPacman is a multi player clone of the old Arcade Game Pacman.</short-description>
+  <keywords>Multiplayer pacman, pacman game</keywords>
+  <short-description>JMaPacman is a multi player version of the classical Pacman.</short-description>
   <rated>
     <entry>
       <![CDATA[<a href="http://freshmeat.net/projects/jmapacman/"><img src="/images/fm_logo.png"></a>]]>    
