@@ -152,6 +152,7 @@ if ($page->writeHttpHeader()) {
 			<?php
 			echo '<div id="pagecontent">';
 			$page->writeContent();
+			echo '<div style="clear:both"></div>';
 			echo '</div>';
 			?>
 		</div>
