@@ -47,6 +47,12 @@ class DetailPage extends Page {
 		if (isset($this->xml['page']) && isset($this->xml['page'][0]['cssdoc']) && ($this->xml['page'][0]['cssdoc']['0 attr']['url'] != "")) {
 			echo '<link rel="stylesheet" type="text/css" href="/'.$this->xml['page'][0]['cssdoc']['0 attr']['url'].'">';
 		}
+			if (isset($game['page'][0]['short-description'])) {
+			echo '<meta name="description" content="'.htmlspeicalchars($game['page'][0]['short-description'][0]).'">';
+		}
+		if (isset($game['page'][0]['keywords'])) {
+			echo '<meta name="keywords" content="'.htmlspeicalchars($game['page'][0]['keywords'][0]).'">';
+		}
 	}
 
 	/**
