@@ -11,14 +11,15 @@ class About extends Page {
 
 <p>Arianne comprises a <i>multiplayer online games</i> framework and engine to develop 
 turn based and real time games, and the various games which use it.</p>
-The main subprojects active now are the framework/engine, called Marauroa, and a multiplayer online adventures game called Stendhal. 
+The main subprojects active now are the framework/engine, called <a href="/engine/marauroa.html">Marauroa</a>,
+and a multiplayer online adventures game called <a href="/game/stendhal.html">Stendhal</a>. 
 Some of the original subprojects are inactive now, you will find archived information about them on this site. 
 
 <p>Arianne has been in development since <i>1999</i> and has evolved from a 
 tiny application written in pseudo-C++ to a powerful, expandable but simple 
-server framework called Marauroa, running on the <i>Java</i> platform. 
-Marauroa is totally <i>client agnostic</i>.</p>
-<p>Our reference client engines are coded using <i>Java</i> in order to achieve maximum portability.</p>
+framework called Marauroa, running on the <i>Java</i> platform. 
+Marauroa is totally <i>game agnostic</i>.</p>
+<p>Our reference engines are coded using <i>Java</i> in order to achieve maximum portability.</p>
 
 
 <p>Since the beginning, the key concept at the heart of Arianne's development 
@@ -35,7 +36,7 @@ has been <i>KISS</i>: Keep it simple, stupid! </p>
 <p>Arianne has always been an <b>Open source</b> project, written and released
 under the <i>GNU GPL</i> license. We believe the right way is the open source 
 way and we want you to have the power to change, edit and configure whatever 
-you want, both on the clients and server. Arianne <i>always welcomes</i> your 
+you want, both on the <i>clients and server</i>. Arianne <i>always welcomes</i> your 
 contributions and modifications to the code to create the best possible 
 <i>open source reference platform</i> for game content providers.</p>
 
