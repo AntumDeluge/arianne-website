@@ -21,7 +21,7 @@ RewriteRule ^(.*)-archived.html$ /index.php?show_archive=1&arianne_url=content/$
 RewriteRule ^download/(.*)$ /download.php?file=$1&rewrite=3QivnzcY [L]
 RewriteRule ^stendhal/greeting/(.*)/(.*).html$ /greeting.php?product=stendhal&from=$1&to=$2&rewrite=3QivnzcY [L]
 
-RewruiteRule ^versioncheck/(.*)/(.*)/(.*)/(.*) /versioncheck.php?gamename=$1&server=$2&port=$3&version=$4&rewrite=3QivnzcY [L]
+RewriteRule ^versioncheck/(.*)/(.*)/(.*)/(.*) /versioncheck.php?gamename=$1&server=$2&port=$3&version=$4&rewrite=3QivnzcY [L]
 
 RewriteRule ^(.*).html$ /index.php?arianne_url=content/$1&rewrite=3QivnzcY [L]
 
