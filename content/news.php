@@ -67,16 +67,15 @@ function WriteNewsItemHtml($item) {
 	.'<h2 style="padding:0; margin:0; margin-top:1em; font-weight: bold"><a class="newsitemtitle" href="/news/'.$strippedTitle.'.html">'.$item['title'][0].'</a></h2>'
 	.'</div><p class="itemdate">'.$item['date'][0].'</p>';
 
+	if (isset($item['playnow'])) {
+		echo '<a href="'.$item['playnow']['0 attr']['url'].'" style="display:block;float:right;width:250px;height:42;clear:right">';
+		echo '<img style="margin-right:40px; width:170px; height:42" class="news_image" src="/'.$item['playnow']['0 attr']['image'].'"></a>'."\r\n";
+	}
 	if (isset($item['images'])) {
-
 		foreach ($item['images'][0]['image'] as $key=>$image) {
 			if (is_array($image)) {
 				echo '<img class="news_image" src="/'.$image['url'].'" alt="Game screenshot">'."\r\n";
 			}
-		}
-		if (isset($item['playnow'])) {
-			echo '<a href="'.$item['playnow']['0 attr']['url'].'" style="display:block;float:right;width:250px;height:42;clear:right">';
-			echo '<img style="margin-right:40px; width:170px; height:42" class="news_image" src="/'.$item['playnow']['0 attr']['image'].'"></a>'."\r\n";
 		}
 		echo '<div class="newscontent_image">'.$item['content'][0].'</div>';
 		echo '</div>';
