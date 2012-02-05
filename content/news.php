@@ -84,7 +84,7 @@ function WriteNewsItemHtml($item) {
 		echo '<div class="newscontent_noimage">'.$item['content'][0].'</div></div>';
 	}
 	// the sharing buttons should go here
-	echo '<div id="social_buttons">';
+	echo '<div class="social_buttons">';
 	$urlToPost = 'http://arianne.sourceforge.net/news/'.$strippedTitle.'.htm';
 	// echo buildTweetButton($urlToPost, '@stendhalgame');
 	// echo buildFacebookButton($item['title'][0], $urlToPost);
