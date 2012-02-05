@@ -20,15 +20,16 @@ function sortByDate($files) {
 	return array_values($result);
 }
 
-/** This function renders the Download section related to games
- $type should be "game_","server_" or "client_"
+/** 
+ * This function renders the Download section related to games
+ * $type should be "game_","server_" or "client_"
  */
 function renderDownloads($type) {
 	$gameList=array();
 	$handle=opendir("xml/");
 
 	while (false !== ($file = readdir($handle))) {
-		if ($file=='.'||$file=='..') {
+		if (strpos($file, '.') === 0) {
 			continue;
 		}
 		if (strpos($file, '~')!==false) {
@@ -55,9 +56,8 @@ function renderDownloads($type) {
 function renderGameList($type) {
 	$gameList=array();
 	$handle=opendir("xml/");
-	while (false !== ($file = readdir($handle)))
-	{
-		if ($file=='.'||$file=='..') {
+	while (false !== ($file = readdir($handle))) {
+		if (strpos($file, '.') === 0) {
 			continue;
 		}
 		if (strpos($file, '~')!==false) {
@@ -88,17 +88,17 @@ function renderGameList($type) {
 
 function renderGameBriefing($long_briefing=TRUE, $type) {
 	$gameList=array();
-	$handle=opendir("xml/");
+	$handle = opendir("xml/");
 
 	while (false !== ($file = readdir($handle))) {
-		if ($file=='.'||$file=='..') {
+		if (strpos($file, '.') === 0) {
 			continue;
 		}
-		if (strpos($file, '~')!==false) {
+		if (strpos($file, '~') !== false) {
 			continue;
 		}
 		if (!is_dir("xml/".$file)) {
-			if (strpos($file,$type.'_')!==false) {
+			if (strpos($file,$type.'_') !== false) {
 				$gameList[]="xml/".$file;
 			}
 		}
@@ -120,10 +120,10 @@ function renderScreenshots($type, $archived=FALSE) {
 	$handle=opendir("xml/");
 
 	while (false !== ($file = readdir($handle))) {
-		if ($file=='.'||$file=='..') {
+		if (strpos($file, '.') === 0) {
 			continue;
 		}
-		if (strpos($file, '~')!==false) {
+		if (strpos($file, '~') !== false) {
 			continue;
 		}
 		if (!is_dir("xml/".$file)) {
