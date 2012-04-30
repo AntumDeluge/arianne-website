@@ -27,9 +27,9 @@ has been <i>KISS</i>: Keep it simple, stupid! </p>
 <p><b>Arianne example game screenshots:</b></p>
 <ul class="screenshots">
 <!-- TODO: link to full size screenshots e. g.: http://localhost/screens/gladiators/20040220_Gladiators.jpg -->
-<li><img src="/screens/gladiators/example.jpg" alt="Screenshot"></li>
-<li><img src="/screens/mapacman/example.jpg" alt="Screenshot"></li>
-<li><img src="/screens/stendhal/map66.png" alt="Screenshot"></li>
+<li><img src="/screens/mapacman/example.jpg" alt="Screenshot of MaPacman"></li>
+<li><img src="/screens/stendhal/map66.png" alt="Screenshot of Stendhal"></li>
+<li><img src="/screens/marboard/THM_marboard_dot.png" alt="Screenshot of Marboard"></li>
 </ul>
 
 <h2>How is it licensed?</h2>
