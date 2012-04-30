@@ -123,7 +123,6 @@ if ($page->writeHttpHeader()) {
 					<?php
 						renderGameBriefing(false, 'game');
 					?>
-					<li><p><i>(Add your game here!)</i></p></li>
 				</ul>
 			
 				<ul>
@@ -131,7 +130,6 @@ if ($page->writeHttpHeader()) {
 						<?php
 						renderGameBriefing(false, 'tool');
 						?>
-					<li><p><i>(Add your tool here!)</i></p></li>
 				</ul>
 			
 			
