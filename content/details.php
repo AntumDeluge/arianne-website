@@ -109,7 +109,7 @@ class DetailPage extends Page {
 		}
 
 		// long description
-		echo '<div class="game_description"><a name="about"></a><h2>What is '.$game['page']['0 attr']['name'].'?</h2>'.$game['page'][0]['description'][0];
+		echo '<div class="game_description"><a name="about"></a><h2>What is '.ucfirst($game['page']['0 attr']['name']).'?</h2>'.$game['page'][0]['description'][0];
 		if (isset($game['page'][0]['extended'])) {
 			echo $game['page'][0]['extended'][0];
 		}
@@ -117,7 +117,7 @@ class DetailPage extends Page {
 
 		// manual
 		if (isset($game['page'][0]['manual'])) {
-			echo '<div class="game_manual"><a name="manual"></a><h2>Manual</h2>You can read '.$game['page']['0 attr']['name'].'\'s manual <a href="'.$game['page'][0]['manual']['0 attr']['url'].'">here</a>';
+			echo '<div class="game_manual"><a name="manual"></a><h2>Manual</h2>You can read '.ucfirst($game['page']['0 attr']['name']).'\'s manual <a href="'.$game['page'][0]['manual']['0 attr']['url'].'">here</a>';
 			echo '</div>';
 		}
 
@@ -131,7 +131,7 @@ class DetailPage extends Page {
 					echo '<img src="/images/buttons/Game_server_button.png" title="'.$server['url'].'"></a>';
 				}
 			}
-			echo '<p>'.$game['page']['0 attr']['name'].' is a online game, so you need to connect to a server in order to be able to play:</p>';
+			echo '<p>'.ucfirst($game['page']['0 attr']['name']).' is a online game, so you need to connect to a server in order to be able to play:</p>';
 			echo '</div>';
 		}
 
