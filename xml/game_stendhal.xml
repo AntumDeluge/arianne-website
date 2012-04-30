@@ -1,13 +1,13 @@
-<?xml version='1.0'?>
+<?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2011-12-02"/>
-  <version id="0.98"/>
+  <updated date="2012-02-05"/>
+  <version id="0.99"/>
   <status value="stable"/>
   <type value="game"/>
-  <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+  <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
   <!-- <cssdoc url="css/stendhal.css"/> -->
   <keywords>Stendhal, game, online game, online games, multiplayer game, adventure game, multiplayer online games, MMORGP, RPG, role playing game, arianne</keywords>
-  <short-description>Stendhal is a fully fledged multiplayer online adventure game (MORPG) developed using the Arianne game development system.</short-description>
+  <short-description>Stendhal is a fun friendly and completely free multiplayer online adventure game with an old school feel.</short-description>
   <rated>
 <!-- broken link   
     <entry><![CDATA[
@@ -27,27 +27,56 @@ MMORPG & MPOG" border="0"></a>]]>
 
   </rated>
   <description><![CDATA[ 
-<p>Stendhal features a new, rich and expanding world in which you can explore towns, buildings, plains, caves and dungeons. 
-You will meet NPCs and acquire tasks and quests for valuable experience and cold hard cash.</p>
-<p>Your character will develop and grow and with each new level up become stronger and better.
-With the money you acquire you can buy new items and improve your armour and weapons.
-And for the blood thirsty of you; satisfy your killing desires by roaming the world in search of evil monsters!</p>
-
-<blockquote> Are you looking for adventure? Want to fight for riches?<br>
-Develop yourself and your social standing? Meet new people?<br>
-Do you want to be part of a brave new world?</blockquote>
-
-<p>So what are you waiting for?! A whole new world awaits...</p>]]>
+<p>Stendhal has a huge and rich world. You can explore cities, forest, mountains, mines, plains, caves and dungeons.</p>
+<p>
+You could meet over 250 NPCs, many will give you tasks and quests for valuable experience, shiny gold, but mainly a warm fuzzy feeling. You may be asked to help protect land or people from danger, feed the hungry, heal the sick, make someone happy, solve a puzzle, play a game or simply lend a hand. You can keep track of your progress using a Travel Log.</p>
+<p>
+Your character will develop and grow and with each new level up become stronger and better. With the money you acquire you can buy new items and improve your armour and weapons, trade with friends, or look for what other players are giving away in the 'community chest'.</p>
+<p>
+If you just want to fight that helps too - the cities could get overrun by monsters without you!</p>
+<blockquote>
+Start playing, get hooked... and if you like, get the source code, and add your own ideas!</blockquote>
+<p>So what are you waiting for? A whole new world awaits...</p>
+]]>
   </description>
   <extended><![CDATA[
-  <h2>Want to help us?</h2>
-  <p>Stendhal is right now <b>playable</b> and <b>fun</b>. It is platform independent and completely open source.</p>
-  <p>We would really love to get your help <a href="http://stendhalgame.org/wiki/Navigation_for_Stendhal_Contributors">contributing</a> and if you are interested you can learn a lot more about Stendhal at <a href="http://stendhalgame.org/wiki/Stendhal">Stendhal's wiki</a>.</p>
+  <h2>Start playing, get hooked...</h2>
+  <p>With Java installed, playing is as simple as clicking Play Now on <a href="http://stendhalgame.org">stendhalgame.org</a>. You can play Stendhal on Windows, Mac and Linux, it is completely free and all open source.
+</p>
+<p>There is an ingame tutorial, a <a href="http://stendhalgame.org/wiki/Stendhal_Manual">manual</a> and a <a href="http://stendhalgame.org/wiki/Beginners_Guide">beginners guide</a>.
+<h2>Get the source code, and add your own ideas!</h2>
+  <p>Stendhal is part of the Arianne project and framework for developing games. It's a great project to get involved in, if you are interested in learning to develop Java for example. If you don't want to code you can help with graphics, history, dialogue, quest ideas, music and more. Join a team of developers from all over the world who create the game just for fun, and of course for free, in our spare time. We would really love to get your help <a href="http://stendhalgame.org/development.html">contributing</a>.</p>
   ]]>
   </extended>
   <manual url="http://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
-<b>0.98</b>
+<b>0.99</b>
+<br><b>*world*</b>
+<br>- bridal outfit includes a veil
+<br>- admin names are anonymised in support answer
+<br>- many more outside zones with lighting
+<br>- producers npcs tell the player how long a task will take before starting it
+<br>- scroll eraser which cleans empty scrolls as a rare drop from some wizards
+<br>- Inactive: New achievements for the weekly item quest
+<br>- outfit image improvements, more depth and differentiation of some duplicates
+<br>- allow pushing of players with items under them by moving the items with the player
+<br>- alternative dreamscape map (on rotation)
+<br>- introducing new NPC Marie<br>-Henri in Ados library
+<br>- dry grass at mountain areas
+<br>- include ATK and DEF to the player strenght calculation when checking if attacking is allowed
+<br>- corpse owner timer of protected corpses is restarted when the corpse is moved
+
+<br><b>*fixes*</b>
+<br>- allow Supplies for Phalk to be continued if the special armor or cloak was accidentally sold
+
+<br><b>*client*</b>
+<br>- Animated blends are much faster than before
+<br>- A menu item for taking screenshots
+<br>- Bleach mode supports colored light
+<br>- Blend layers can use any available blend mode
+
+
+<p><b>0.98</b>
 
 <br><b>*client*</b>
 <br>- Zones can be colored according to hour, and otherwise
@@ -654,7 +683,7 @@ your error log files and please continue to do so.
 <p><b>See <a href="http://arianne.cvs.sourceforge.net/viewvc/*checkout*/arianne/stendhal/doc/CHANGES.txt">all past changes</a></b>]]>
 -->
   </changelog>
-  <navigation-image name="raid65.png" />
+  <navigation-image name="raid65.png"/>
   <screenshots>
     <image name="MagicTower98.jpg"/>
     <image name="Stendhal98.jpg"/>
