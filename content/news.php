@@ -67,11 +67,12 @@ function WriteNewsItemHtml($item) {
 	.'<h2 style="padding:0; margin:0; margin-top:1em; font-weight: bold"><a class="newsitemtitle" name="'.$strippedTitle.'" href="/news/'.$strippedTitle.'.html">'.$item['title'][0].'</a></h2>'
 	.'</div><p class="itemdate">'.$item['date'][0].'</p>';
 
-	if (isset($item['images'])) {
-
-		foreach ($item['images'][0]['image'] as $key=>$image) {
-			if (is_array($image)) {
-				echo '<img class="news_image" src="/'.$image['url'].'" alt="Game screenshot">'."\r\n";
+	if (isset($item['images']) || isset($item['playnow'])) {
+		if (isset($item['images'])) {
+			foreach ($item['images'][0]['image'] as $key=>$image) {
+				if (is_array($image)) {
+					echo '<img class="news_image" src="/'.$image['url'].'" alt="Game screenshot">'."\r\n";
+				}
 			}
 		}
 		if (isset($item['playnow'])) {
