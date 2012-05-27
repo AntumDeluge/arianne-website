@@ -1155,10 +1155,6 @@ We are working on a solution and will inform you when the issue is solved and th
     <title>Stendhal 0.61: Wofol opens its doors</title>
     <date>2007-06-22 18:53:09</date>
     <images>
-    <!-- 
-      <image url="screens/stendhal/THM_20070622_1_stendhal.jpg"/>
-      <image url="screens/stendhal/THM_20070622_2_stendhal.jpg"/>
-    -->
       <image url="screens/stendhal/THM_20070622_3_stendhal.jpg"/>
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
@@ -1209,7 +1205,6 @@ Talking of ships, if you're on the Athor ferry, remember to fish for mackerel. Y
     <title>Raid: Cities under attack!</title>
     <date>2007-05-27 21:58:03</date>
     <images>
-      <image url="images/articles/20070527_raid_0.jpg"/>
       <image url="images/articles/20070527_raid_1.jpg"/>
       <image url="images/articles/20070527_raid_2.jpg"/>
     </images>
@@ -1404,9 +1399,6 @@ complete client on every new version)
     <item>
     <title>Stendhal 0.54 and Marauroa 1.34: Dice Gambling</title>
     <date>2006-10-01 18:57:19</date>
-      <images>
-        <image url="screens/stendhal/THM_20061001_stendhal.jpg"/>
-      </images>
     <content>
       <![CDATA[<p>The latest version of our game is ready! This version introduces the following new features:
 <br>- added dice gambling in Semos Tavern with golden trousers as the jackpot
@@ -1423,9 +1415,6 @@ complete client on every new version)
    <item>
     <title>Stendhal 0.53 and Marauroa 1.33: Archers and Farmers</title>
     <date>2006-09-03 15:47:29</date>
-      <images> 
-        <image url="screens/stendhal/THM_20060903_stendhal.jpg"/>
-      </images>
     <content>
       <![CDATA[<p>The latest version of our game is ready! This version introduces the following new features:<br>- added regrowing grain fields which can be harvested<br>- added a windmill and an NPC who mills flour from grain<br>- added a bakery and an NPC who bakes bread from flour<br>- gave archer elf and archer kobold something to shoot<br>- made iron casting take time<br><br>Enjoy!]]>
     </content>
@@ -1502,9 +1491,6 @@ Next version is prone to take a few weeks of time because I really want to work 
   <item>
     <title>Stendhal 0.47: Liches and Kobolds</title>
     <date>2006-03-24 00:01:54</date>
-      <images> 
-        <!-- <image url="screens/stendhal/THM_20060324_stendhal.jpg"/> -->
-      </images>
     <content>
       <![CDATA[<p>This release fix LOTS of bugs that we have recieve from and add some new interesting features like doors and keys, add two new big game areas: Wofol, the kobold's city that is suitable for team play of players around level 10-20 and N'mon, the lich fortress under the Orril castle, that is only for the most brave players.<p>
 Another feature that has been requested and has been added is a storage to safely place items: you can have a look to it at bank.<p>
@@ -1535,12 +1521,6 @@ We still need your help to add content to world as items, creatures, quests, map
   <item>
     <title>Stendhal 0.45: Diplodocus!</title>
     <date>2006-03-03 18:48:19</date>
-      <images>
-      <!-->
-        <image url="screens/stendhal/THM_20060303_stendhal.jpg"/>
-        <image url="screens/stendhal/THM_20060304_stendhal.jpg"/>
-      -->
-      </images>
     <content>
       <![CDATA[<p>Welcome to the biggest better ever release of Arianne.<p>
 This release of stendhal features the biggest map we have ever had on the seven years of development. It has around 70 zones, many of them still to be populated. We also added around 50 new monsters so the monsters now range from level 0 to level 100.<p>
@@ -1607,9 +1587,6 @@ Have a try to Stendhal! If you like it you will really love helping us to create
   <item>
     <title>Stendhal 0.40: Remember it is a BETA!</title>
     <date>2005-12-20 12:36:19</date>
-      <images>
-        <!-- <image url="screens/stendhal/THM_20051220_stendhal.jpg"/> -->
-      </images>
     <content>
       <![CDATA[<p>Ok, don't panic!<br>
          This release of Stendhal is seriously the best one we have ever release. No hype really!. All of our beta testers have agree that the game is <i>even fun!</i>.<br>
@@ -1641,9 +1618,6 @@ Have a try to Stendhal! If you like it you will really love helping us to create
   <item>
     <title>Stendhal 0.39: money!</title>
     <date>2005-10-23 12:36:19</date>
-      <images> 
-        <image url="screens/stendhal/THM_20051023_stendhal.jpg"/>
-      </images>
     <content>
       <![CDATA[<p>As you can read on our previous news item, we have added money to game, so now in addition of gaining XP by killing monsterm you can inspect them to obtain too money. You can by now spend your money on the tavern weapon's seller.<p>
          This release is pretty stable, but many of the features are hacked, so we are going to enter in a refactoring to increase code quality that will surely delay a new release for at least 2-3 weeks. But in case you find any problem or a bug please <a href="https://sourceforge.net/tracker/?func=add&group_id=1111&atid=101111">tell us</a>.<p>
@@ -1655,9 +1629,6 @@ Have a try to Stendhal! If you like it you will really love helping us to create
   <item>
     <title>Corpses contains items and at last money!</title>
     <date>2005-10-20 19:22:38</date>
-      <images> 
-        <image url="images/articles/money_and_corpses.jpg"/>
-      </images>
     <content>
       <![CDATA[<p>We have been idling for a few months, but in a few weeks we are doing again great improvements on the game and the gameplay. Matthias added a minimap so you can now orientate yourself on our
         dungeons and not get lost again. Also I completed the inventory stuff, so now you can use chests and move items between slots, chests and floor freely.<p>
@@ -1754,9 +1725,6 @@ What's your Top Score ? Try it out at <a href="http://jmapacman.mpc-donkey.de">h
   <item>
     <title>Stendhal 0.25 release: bugs fixes and initial support for items</title>
     <date>2005-06-05 00:57:35</date>
-      <images>
-       <!-- <image url="screens/stendhal/THM_20050604_stendhal.jpg"/>  -->
-      </images>
     <content>
       <![CDATA[<p>Hello Barrapunteros!. We have been <i>forced</i> to release a bug fixes version of Stendhal due the amount of players that are going to try it.<br> This release fixs the corpses problem and other majot problems like Creatures AI.<br>
        Also this release adds a initial support for items: a shield ( that you can't wear ) and corpses that can be moved.<p>
@@ -1773,9 +1741,6 @@ A complete game manual exists at <a href="http://stendhalgame.org/wiki/StendhalM
   <item>
     <title>Stendhal 0.20 release: new Monsters, more dungeons and better eXPerience</title>
     <date>2005-06-05 00:57:35</date>
-      <images> 
-        <!--  <image url="screens/stendhal/THM_20050605_stendhal.jpg"/> -->
-      </images>
     <content>
       <![CDATA[<p>Yes! We are back!. This release adds the set outfit feature, so that you can personalize your character. On next releases we are going to change the graphics, so please wait for content submitions. Some of you have been complaining about wolves are easy, so we have added boars, trolls, cobras, orcs, kobolds, goblins and ogres. We have added also added a new dungeon, four times bigger than the actual one, where lives a NPC what will give you 2000 XP points for your full grow sheep.<p/>
 This release also fix a nasty bug on linux that makes the gameplay awful, now it works perfect.<br>We need now players, dozens of players to test the server stability and limits. We know game <i>"works"</i> and we know it is fun, but we need to know how many players can we handle ( actually there is a soft limit of 64 ).<p/>
@@ -1839,9 +1804,6 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   <item>
     <title>Stendhal 0.11 release: Monsters, dungeons and eXPerience</title>
     <date>2005-05-20 14:28:23</date>
-      <images> 
-        <image url="screens/stendhal/THM_20050520_3_stendhal.jpg"/>
-      </images>
     <content>
       <![CDATA[<p>Another great release of Stendhal!. Don't get it wrong! This release is playable and fun. We just need to make the world bigger and add new monsters and here your collaboration is a MUST. Help us to create new levels and add new monsters and quests.<p/>
         This release implements a better path finding, add more NPCs and a new level: dungeon.
@@ -1862,9 +1824,6 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   <item>
     <title>Stendhal 0.10 release</title>
     <date>2005-05-12 13:56:23</date>
-      <images> 
-        <!-- <image url="screens/stendhal/THM_20050512_stendhal.jpg"/> -->
-      </images>
     <content>
       <![CDATA[<p>This new release of Stendhal adds very important features like:
         <br><b>-</b> Add wolf entity
@@ -1882,9 +1841,6 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   <item>
     <title>Major changes on Stendhal: combat implemented</title>
     <date>2005-05-07 20:03:55</date>
-      <images> 
-         <!-- <image url="screens/stendhal/THM_20050507_stendhal.jpg"/> -->
-      </images>
     <content>
       <![CDATA[<p>A new week, almost a new release :)<br>I have added combat to Stendhal and HP bars, and a basic in game GUI.<br>Release should happen soon, exactly at the same moment I assign <i>coherent</i> RP values to entities.<p/>
          Also the CVS code has been cleaned and refactored, so Client is now clearer than ever. If you plan to create a game using Arianne, Stendhal would be a great base for your client. :)<p/>
@@ -1916,9 +1872,6 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   <item>
     <title>Stendhal 0.02 released: Sheeps and food</title>
     <date>2005-04-17 13:21:01</date>
-      <images> 
-        <!-- <image url="screens/stendhal/THM_20050417_stendhal.jpg"/> -->
-      </images>
     <content>
       <![CDATA[<p>This is the first release of Stendhal that has the tag playable (PLAYABLE).<br> You can walk, chat, attack, buy and sell sheeps, change zones, request help, etc...<p/>
          I am actually in need of someone with RP gaming experience that wants to help me to create a simple game system based on S6S and give correct values to entities values.<p/>
@@ -1951,9 +1904,6 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   <item>
     <title>Stendhal 0.01 released</title>
     <date>2005-04-05 20:12:01</date>
-      <images> 
-        <!-- <image url="screens/stendhal/THM_20050405_stendhal.jpg"/> -->
-      </images>
     <content>
       <![CDATA[<p>Our second release of Stendhal, and again it is not intended to be playable (<b>NO PLAYABLE</b>). You can walk, chat, collide, move from one zone to another, talk to NPC, attack other players and our dummy, but it lacks of the quality to consider it playable.<p/>
          This release also features a new map editor using <a href="http://tiled.rpgdx.net/index.html">Tiled</a> with a write only plugin to create Stendhal maps, on CVS you can access our actual maps and the tileset used to create them... help is appreciated to build bigger and better maps :) We also added a GUI to Stendhal that makes simpler to login to server, and there is a Java Webstart feature.<p/>
@@ -2001,9 +1951,6 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   <item>
     <title>Stendhal 0.00 released</title>
     <date>2005-03-01 20:52:47</date>
-      <images> 
-        <!-- <image url="screens/stendhal/THM_20050303_stendhal.jpg"/> -->
-      </images>
     <content>
       <![CDATA[<p>This is the first relese of Stendhal. It is not intended to be playable (<b>NO PLAYABLE</b>), it is just a tech demo of where you can walk, collide and change of zone.<p/>
          As you know we drive our development by the guideline:<i>release small, release often</i>. Now we will start the development of the GUI ( anyone wanna help? ) and the rest of actions to make it playable. In around 1 month the game could be really playable.<p/>
@@ -2033,9 +1980,6 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
   <item>
     <title>Stendhal development shows first results</title>
     <date>2005-01-29 13:41:51</date>
-      <images> 
-        <image url="images/articles/THM_stendhal_003.jpg"/>
-      </images>
     <content>
       <![CDATA[<p>Stendhal is our next game to test the new exciting features in Arianne: multizones and content transfer. <p/>The idea behind Stendhal is a small multiplayer action game very similar to Nintendo's Zelda.<br/> There is going to be no argument at all on it for a while, but it is a start to show that it works and works correctly.<p/>Once the development is stabilized we are going to need new GFX, music and some people to write something like a plot for the game, but that time is still a bit far. <p/> I will show more info when we have it working.]]>
     </content>
