@@ -15,6 +15,64 @@
   </item>
 -->
 
+ <item>
+    <title>Stendhal 1.00 released: The next era begins!</title>
+    <date>2012-05-17</date>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>Stendhal 1.00 is a fun friendly and completely free multiplayer online adventure game with an old school feel. We're happy to announce the first stable release of this open source game at <a href="http://stendhalgame.org">stendhalgame.org</a>.
+<p>
+You can play Stendhal 1.00 on Windows, Mac and Linux. With Java installed, playing is as simple as clicking Play Now on <a href="http://stendhalgame.org">stendhalgame.org</a>.
+<p>
+Your character awakes in the house of an experienced guard, start a conversation and he'll teach you how to fight ... but even rats are probably a challenge at first, if you can catch them.
+<p>
+Stepping outside you'll appreciate the beauty of the simple village around you, but once you're strong enough, venture further afield for cities, dungeons, forests, mines, mountains and even tropical islands.
+<p>
+   <div align="center"><a href="/screens/stendhal/world.png"><img src="/screens/stendhal/worldsmall.png" alt="Stendhal World Map" width="100%" height="100%"/></a></div>
+<p>On your way you'll meet over 250 <a href="http://stendhalgame.org/npc/">NPCs</a> to chat to, and be tasked with over 100 complex and interesting quests. You may be asked to help protect land or people from danger, feed the hungry, heal the sick, make someone happy, solve a puzzle, play a game or simply lend a hand. You can keep track of your progress using a Travel Log.
+<p>
+Other <a href="http://stendhalgame.org/world/online.html">players</a> will help out and the often filled 'community chest' in the main city is a testament to the friendly groups we have here - though note that PVP is enabled, so if you're nervous, stay in protected areas!
+<p>
+<a href="http://stendhalgame.org/creature/">Monsters</a> are the real enemy, as if they are not kept in check, they threaten to plague the cities. You'll meet little crabs and mice right through to terrifying dark archangels and gashadokuro. Some fight with magical forces, so choose your weapons carefully. For elite warriors, the Death Match awaits...
+<p>
+As you play your level and stats will improve, and you'll be awarded achievements for completing quests, visiting places, looting items, killing monsters (and more!). You can compare yourself to your friends and see how close you are to the <a href="http://stendhalgame.org/world/hall-of-fame/active_overview.html">Hall of Fame</a>. The website also has stats on every item, creature, npc, quest, and achievement available in the game and a neat google maps-based <a href="http://stendhalgame.org/world/atlas.html">world atlas</a>.
+<p>
+It's all too easy to start playing, get hooked... and if you like, <a href ="http://stendhalgame.org/wiki/Stendhal_code_design">get the source code</a>, and add your own ideas</a>!
+<p>
+See you soon at <a href ="http://stendhalgame.org">stendhalgame.org</a>.]]>
+      </content>
+  </item>
+
+ <item>
+    <title>Stendhal 0.99: small change, big difference?</title>
+    <date>2012-02-05</date>
+    <images>
+      <image url="screens/stendhal/lights99.jpg"/>
+      <image url="screens/stendhal/mariehenri99.jpg"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>In Stendhal 0.99, small, effective changes include allowing players with items under them to be pushed (the item moves with the player so stays safe). This should mean less possibility of being blocked in by another player as now you can push them out the way even if they have an item underneath.
+Similarly, reports of new players being attacked by a low level character with very high attack and defence skills, showed us that a PVP check on level alone, wasn't enough. Now attack and defence are compared too when deciding if a player attack would be a fair fight. 
+<p>
+You can't miss the lit up cities at night time. With more lamps lit, it is a brighter world outdoors and even coloured lights are possible. If you'd like to save images of any of these pretty changes, there is a menu item to capture screenshots. 
+<p>
+Admin names are now anonymised when answering support. Admins help with technical issues and bug reports, and support is logged to be answered, without needing to be in game to answer it. Admins are not glory hunters :) Speaking of anonymous names, have you met Marie-Henri? He challenges you to find out his pen name ...
+<p>
+To read about the other changes please see the complete <a 
+href="http://arianne.sourceforge.net/game/stendhal.html#changes">change log</a>. If you find any bugs, old or new, while playing please contact <i>/support</i> in game or <a href = "http://stendhalgame.org/wiki/SubmitBug">submit a bug report</a> directly. We want the next release, Stendhal 1.00, to be as stable as possible. It will not include any new untested features, and you are our best testers :)
+]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Marauroa 3.9 released</title>
+    <date>2012-02-05</date>
+    <content>
+      <![CDATA[<p>Marauroa 3.9 supports SOCKS-proxy, much longer ban messages and hashes in content transfer offers. The changes are described in detail at <a href ="http://stendhalgame.org/wiki/Marauroa_3.9">the change document</a>.]]>
+      </content>
+  </item>
+
   <item>
     <title>Arianne Podcast: Interview with SourceForge</title>
     <date>2011-12-16</date>
@@ -22,6 +80,7 @@
       <![CDATA[<p>Listen to <a href="http://stendhalgame.org/character/kymara.html">kymara</a> talking about Arianne at <a href="http://sourceforge.net/blog/podcast-arianne/">this podcast</a>. Topics include an exciting plan for the future - HTML5 support!]]>
       </content>
   </item>
+
  <item>
     <title>Stendhal 0.98: Day turns into night</title>
     <date>2011-12-02</date>
