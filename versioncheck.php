@@ -12,4 +12,9 @@ if ($_REQUEST['gamename'] == 'stendhal') {
 		echo 'But you are using '.htmlspecialchars($_REQUEST['version']).'. <br>';
 		echo "Download from http://arianne.sourceforge.net";
 	}
+
+	if ($version == '1.01.5') {
+		echo '<html><body>You are using an outdated test version with disabled updater.<br>';
+		echo 'Please use the official client to get the bugfix update.';
+	}
 }
