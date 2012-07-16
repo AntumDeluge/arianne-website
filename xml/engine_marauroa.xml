@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
 <page name="marauroa">
-  <updated date="2011-07-14"/>
-  <version id="3.8.7"/>  
+  <updated date="2012-07-01"/>
+  <version id="3.9.2"/>  
   <status value="complete"/>
-  <keywords>online gmae development, game framework, game engine, network communication, asynchronous database access, msql, h2, java, perceptions and actions</keywords>
+  <keywords>online game development, game framework, game engine, network communication, asynchronous database access, mysql, h2, java, perceptions and actions</keywords>
   <short-description>Marauroa is Arianne's Multiplayer Online Engine, which you can use to build your own online games. Marauroa handles object management, asynchronous database persistence and perception based client-server communication.</short-description>
   <!-- 
   <rated>
@@ -72,6 +72,27 @@ you want.<p/>
 ]]>
 	</extended>
 <changelog><![CDATA[
+<b>3.9.2</b>
+<br>- workaround for IllegalArgumentException in proxy check (see <a href="http://icedtea.classpath.org/bugzilla/show_bug.cgi?id=1055">http://icedtea.classpath.org/bugzilla/show_bug.cgi?id=1055</a> ) 
+<br>
+<b>3.9.1</b>
+<br>- added support for Sha512Crypt with salt and pepper
+<br>- fixed cacheable flag being ignored (e.g. map content may be cached)
+<br>
+<b>3.9</b>
+<br>- failed logins are now logged with distinct status values
+<br>- client support for skippable empty perceptions
+<br>- ban messages are no longer restricted 256,
+  if both server and client use the new protocol version 34
+<br>- added RPClass support (type checks and transfer compression) to RPAction
+<br>- content transfer includes a md5 hash of the content,
+  if both server and client use the new protocol version 34
+<br>- fixed a bug which caused the server to use the client protocol version in its messages, even if it was higher than the version supported by the server
+<br>- automatically try to use a configured SOCKS-proxy. If it cannot be used, Marauroa falls back to direct connections
+<br>- RPRuleProcessorImpl provides a default implementation for IRPRuleProcessor
+<br>- new server.ini variable server_abuseContact to add a sentence with contact information to the ban dialog.
+<br>- use ENGINE instead of TYPE on table creation to be compatible with MySQL 5.5
+See also <a href ="http://stendhalgame.org/wiki/Marauroa_3.9">the change document</a>.
 
 <br><b>3.8.7</b>
 <br>- performance improvement by not deep copying all player objects every turn.

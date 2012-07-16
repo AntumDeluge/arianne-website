@@ -15,6 +15,54 @@
   </item>
 -->
 
+  <item>
+    <title>Stendhal 1.01.1 released: client bug fix for slow zone changes</title>
+    <date>2012-07-05</date>
+    <images>
+      <image url="screens/stendhal/will1011.jpg"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>We've released a bug fix to the client, which solves the problem of a delay on zone change. Please help us continue to keep the client quality 
+high by 
+<a href="http://stendhalgame.org/wiki/SubmitBug">reporting bugs</a> and <a href="http://stendhalgame.org/wiki/Stendhal_Testing">testing</a> the 
+development versions in advance of each release. Thank you to those who reported the problem and helped us test this fix!<p>
+For developers: the code change is <a 
+href="http://arianne.cvs.sf.net/viewvc/arianne/stendhal/src/games/stendhal/client/sound/manager/SoundFile.java?r1=1.17&r2=1.17.2.1">in SoundFile.java</a>.]]>
+      </content>
+  </item>
+
+ <item>
+    <title>Stendhal 1.01 released: Community spirit</title>
+    <date>2012-07-01</date>
+    <images>
+      <image url="screens/stendhal/tabs101.jpg"/>
+      <image url="screens/stendhal/quests101.jpg"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p><small>We believe in the strength of the community spirit and that people are essentially good. We're helping that along with social functions, and also fixing problems where we can. We need <a href ="http://stendhalgame.org/wiki/Stendhal_Helper_Role">your help</a> in this too, but here's what we've been working on:</small>
+<p>
+Many of you love an interesting conversation, and now private messages are easier to keep track of, in your Personal chat tab. To find out more about a friend, use <i>/profile &lt;name&gt;</i> to open their character page. Still, we know that not everyone is friendly and if you did happen to drop a precious quest reward item under another player, you can now pick it up from under them (but it's still better never to put your items on the ground!)
+<p>
+A recent problem was players monopolizing the trapped chaos green dragonrider by <a href="http://stendhalgame.org/npc/Haastaja.html">Haastaja</a> and using nasty tactics to keep others away. That seemed really unfair. Luckily, that dragon has got his revenge, he's learnt how to breathe fire and can fight back even when trapped. Watch out, because other fierce dragons have picked up the fire breathing trick too! You'll need to stand well back to stay out of range.
+<p>
+Perhaps you'd also like to know how to help the residents of Faiumoni. You can ask the sisters <a href="http://stendhalgame.org/npc/Zinnia.html">Zinnia</a>, <a href="http://stendhalgame.org/npc/Calla.html">Calla</a>, <a href="http://stendhalgame.org/npc/Lobelia.html">Lobelia</a> and <a href="http://stendhalgame.org/npc/Periwinkle.html">Periwinkle</a>. They'll tell you which dwellers nearby need help, but only if their tasks are suitable for your experience. Another friend for you is little <a href="http://stendhalgame.org/npc/Will.html">Will</a>, standing guard to warn newbies leaving Semos that they need to take care.
+<p>
+To read about even more changes, see the complete <a href="http://arianne.sourceforge.net/game/stendhal.html#changes">change log</a>. ]]>
+      </content>
+  </item>
+
+
+  <item>
+    <title>Marauroa 3.9.2 released</title>
+    <date>2012-07-01</date>
+    <content>
+      <![CDATA[<p>Marauroa 3.9.2 introduces a better algorithm to store hashed passwords (it can be disabled with <i>password_hash=md5</i> in the configuration file <i>server.ini</i> for compatibility). It fixes an issue that prevented clients from caching transferable content. Finally, it works around <a href="http://icedtea.classpath.org/bugzilla/show_bug.cgi?id=1055" target="_blank">a bug</a> in OpenJDK webstart which prevents clients from connecting to a server if a http proxy, without a socks proxy, is configured in Firefox.]]>
+      </content>
+  </item>
+
+
  <item>
     <title>Stendhal 1.00 released: The next era begins!</title>
     <date>2012-05-17</date>

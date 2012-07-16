@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2012-02-05"/>
-  <version id="0.99"/>
+  <updated date="2012-07-01"/>
+  <version id="1.01"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,50 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="http://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+
+<b>1.01</b>
+<br><b>*world*</b>
+<br>- Venethiel teaches players about Haizen's maze
+<br>- Will warns players leaving Semos city 
+<br>- reworked Fado hotel restaurant 
+<br>- more creature descriptions added
+<br>- moved Semos city wall into the city
+<br>- Monogenes is now next to the bird station in Semos city
+<br>- Users can grab items bound to them even if they are under another player
+<br>- Player bound items do not move under pushed player, unless they belong to the said player
+<br>- Mixed creature fighting profiles. Used mainly for dragons, who will attack at a distance if they can't get close to player
+<br>- killer bees are a new creature in fado forest
+<br>- Zinnia, Calla, Lobelia and Periwinkle hint which nearby quests you still need to start (that fit your level) 
+
+<br><b>*other*</b>
+<br>- added /profile <name> to open the webprofile of a character
+<br>- reworked the in-game spam protection
+<br>- admin command (*) inspect includes Java class name
+
+<br><b>*website*</b>
+<br>- Navigation box shows number of unread messages after login
+<br>- Statistics on number of active accounts and characters
+
+<br><b>*client*</b>
+<br>- private messages are shown in their own tab in addition to the main chat log
+<br>- new images for cherub and golden trees
+<br>- users can reorder items in bag and chests
+<br>- prefer user owned items when trying dragging from under other players
+<br>- added a new outfit
+
+<br><b>*note to forks*</b>
+<br>- UpdateSigner now looks for a parameter keystore.update-alias instead of keystore.alias
+
+<p>
+<b>1.00</b>
+<br><b>First officially stable release :)</b>
+
+<br>- lots of testing
+<br>- nice descriptions for many NPCs
+<br>- fixed map bugs
+<br>- added social buttons to website 
+
+<p>
 <b>0.99</b>
 <br><b>*world*</b>
 <br>- bridal outfit includes a veil
