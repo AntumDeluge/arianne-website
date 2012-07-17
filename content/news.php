@@ -77,7 +77,7 @@ function WriteNewsItemHtml($item) {
 		}
 		if (isset($item['playnow'])) {
 			echo '<a href="'.$item['playnow']['0 attr']['url'].'" style="display:block;float:right;width:250px;height:42;clear:right">';
-			echo '<img style="margin-right:40px; width:170px; height:42" class="news_image" src="/'.$item['playnow']['0 attr']['image'].'"></a>'."\r\n";
+			echo '<img style="margin-right:40px; width:170px; height:42" class="news_image" src="/'.$item['playnow']['0 attr']['image'].' alt="" title="Play now"></a>'."\r\n";
 		}
 		echo '<div class="newscontent_image">'.$item['content'][0].'</div>';
 		echo '</div>';
@@ -118,7 +118,7 @@ class News extends Page {
 	}
 
 	public function writeContent() {
-		echo '<a href="http://arianne.sourceforge.net/rss/news.rss" style="float:right; z-index:1000"><img src="/images/buttons/feed-icon-28x28.png" width="28px" height="28px" style="border:none"></a>';
+		echo '<a href="http://arianne.sourceforge.net/rss/news.rss" style="float:right; z-index:1000"><img src="/images/buttons/feed-icon-28x28.png" width="28px" height="28px" alt="" title="News Feed" style="border:none"></a>';
 		if (!$this->all && isset($this->title)) {
 			WriteNewsHTMLForNamedItem($this->xml, $this->title);
 			echo '<p><a href="/">Read recent news items</a></p>';
