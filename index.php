@@ -118,21 +118,8 @@ if ($page->writeHttpHeader()) {
 		</div>
 		<div id="pagemain">
 			<div id="left_menu">
-				<ul>
-					<li class="menu_title"><div id="game-menu-image">Games</div></li>
-					<?php
-						renderGameBriefing(false, 'game');
-					?>
-				</ul>
-			
-				<ul>
-					<li class="menu_title"><div id="tool-menu-image">Tools</div></li>
-						<?php
-						renderGameBriefing(false, 'tool');
-						?>
-				</ul>
-			
-			
+				<?php renderSideBarNavigationTop(); ?>
+
 				<ul>
 					<li class="menu_title"><div id="pw-menu-image">Powered By...</div></li>
 					<li><a href="http://sourceforge.net/projects/arianne"><IMG SRC="http://sourceforge.net/sflogo.php?group_id=1111&amp;type=1" ALT="SourceForge Logo"></a></li>

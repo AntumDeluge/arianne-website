@@ -83,7 +83,26 @@ function renderGameList($type) {
 	}
 
 	echo '</ul></div>';
+}
 
+function renderSideBarNavigationTopEntry($type, $name, $updated) {
+	echo '<li class="text">';
+	echo '<a href="/'.$type.'/'.$name.'.html" class="naviLight">'.ucfirst($name).'</a>';
+	if ($updated) {
+		echo '<img src="/images/updated.gif" class="update_image" alt="Recently Updated">';
+	}
+	echo '</li><li>';
+	echo '<a href="/'.$type.'/'.$name.'.html"><img src="/images/navigation/'.$name.'.png" alt="Screenshot"></a>';
+	echo '</li>';
+}
+
+function renderSideBarNavigationTop() {
+	echo '<ul><li class="menu_title"><div id="game-menu-image">Games</div></li>';
+	renderSideBarNavigationTopEntry('game', 'stendhal', true);
+	renderSideBarNavigationTopEntry('game', 'jmapacman', false);
+	echo '</ul><ul><li class="menu_title"><div id="tool-menu-image">Tools</div></li>';
+	renderSideBarNavigationTopEntry('tool', 'marboard', false);
+	echo '</ul>';
 }
 
 function renderGameBriefing($long_briefing=TRUE, $type) {
