@@ -28,7 +28,7 @@ high by
 <a href="http://stendhalgame.org/wiki/SubmitBug">reporting bugs</a> and <a href="http://stendhalgame.org/wiki/Stendhal_Testing">testing</a> the 
 development versions in advance of each release. Thank you to those who reported the problem and helped us test this fix!<p>
 For developers: the code change is <a 
-href="http://arianne.cvs.sf.net/viewvc/arianne/stendhal/src/games/stendhal/client/sound/manager/SoundFile.java?r1=1.17&r2=1.17.2.1">in SoundFile.java</a>.]]>
+href="http://arianne.cvs.sf.net/viewvc/arianne/stendhal/src/games/stendhal/client/sound/manager/SoundFile.java?r1=1.17&amp;r2=1.17.2.1">in SoundFile.java</a>.]]>
       </content>
   </item>
 
@@ -76,7 +76,7 @@ Your character awakes in the house of an experienced guard, start a conversation
 <p>
 Stepping outside you'll appreciate the beauty of the simple village around you, but once you're strong enough, venture further afield for cities, dungeons, forests, mines, mountains and even tropical islands.
 <p>
-   <div align="center"><a href="/screens/stendhal/world.png"><img src="/screens/stendhal/worldsmall.png" alt="Stendhal World Map" width="100%" height="100%"/></a></div>
+   <div align="center"><a href="/screens/stendhal/world.png"><img src="/screens/stendhal/worldsmall.png" alt="Stendhal World Map" width="100%" height="100%"></a></div>
 <p>On your way you'll meet over 250 <a href="http://stendhalgame.org/npc/">NPCs</a> to chat to, and be tasked with over 100 complex and interesting quests. You may be asked to help protect land or people from danger, feed the hungry, heal the sick, make someone happy, solve a puzzle, play a game or simply lend a hand. You can keep track of your progress using a Travel Log.
 <p>
 Other <a href="http://stendhalgame.org/world/online.html">players</a> will help out and the often filled 'community chest' in the main city is a testament to the friendly groups we have here - though note that PVP is enabled, so if you're nervous, stay in protected areas!
@@ -85,7 +85,7 @@ Other <a href="http://stendhalgame.org/world/online.html">players</a> will help 
 <p>
 As you play your level and stats will improve, and you'll be awarded achievements for completing quests, visiting places, looting items, killing monsters (and more!). You can compare yourself to your friends and see how close you are to the <a href="http://stendhalgame.org/world/hall-of-fame/active_overview.html">Hall of Fame</a>. The website also has stats on every item, creature, npc, quest, and achievement available in the game and a neat google maps-based <a href="http://stendhalgame.org/world/atlas.html">world atlas</a>.
 <p>
-It's all too easy to start playing, get hooked... and if you like, <a href ="http://stendhalgame.org/wiki/Stendhal_code_design">get the source code</a>, and add your own ideas</a>!
+It's all too easy to start playing, get hooked... and if you like, <a href ="http://stendhalgame.org/wiki/Stendhal_code_design">get the source code</a>, and add your own ideas!
 <p>
 See you soon at <a href ="http://stendhalgame.org">stendhalgame.org</a>.]]>
       </content>
