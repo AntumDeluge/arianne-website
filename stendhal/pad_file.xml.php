@@ -13,7 +13,7 @@
 		<State_Province />
 		<Zip_Postal_Code />
 		<Country />
-		<Company_WebSite_URL />
+		<Company_WebSite_URL>http://arianne.sf.net</Company_WebSite_URL>
 		<Contact_Info>
 			<Author_First_Name />
 			<Author_Last_Name />
@@ -34,10 +34,15 @@
 	</Company_Info>
 	<Program_Info>
 		<Program_Name>Stendhal</Program_Name>
-		<Program_Version>1.09</Program_Version>
-		<Program_Release_Month>07</Program_Release_Month>
-		<Program_Release_Day>25</Program_Release_Day>
-		<Program_Release_Year>2013</Program_Release_Year>
+		<Program_Version><?php
+		$file = dirname(__FILE__).'/../stendhal.version';
+		$version = trim(file_get_contents(file));
+		$modified = filemtime($file);
+		echo htmlspecialchars($version);
+		?></Program_Version>
+		<Program_Release_Month><?php echo date('m', $modified)?></Program_Release_Month>
+		<Program_Release_Day><?php echo date('d', $modified)?></Program_Release_Day>
+		<Program_Release_Year><?php echo date('Y', $modified)?></Program_Release_Year>
 		<Program_Cost_Dollars />
 		<Program_Cost_Other_Code />
 		<Program_Cost_Other />
@@ -78,11 +83,11 @@
 	</Program_Descriptions>
 	<Web_Info>
 		<Application_URLs>
-			<Application_Info_URL />
+			<Application_Info_URL>http://arianne.sourceforge.net/game/stendhal.html</Application_Info_URL>
 			<Application_Order_URL />
 			<Application_Screenshot_URL>http://arianne.sourceforge.net/screens/stendhal/raid20110105.jpg</Application_Screenshot_URL>
 			<Application_Icon_URL>https://stendhalgame.org/favicon.ico</Application_Icon_URL>
-			<Application_XML_File_URL />
+			<Application_XML_File_URL>http://arianne.sourceforge.net/stendhal/pad_file.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
 			<Primary_Download_URL>http://arianne.sourceforge.net/download/stendhal.zip</Primary_Download_URL>
