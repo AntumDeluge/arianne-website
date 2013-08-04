@@ -1,2 +1,3 @@
-RewriteRule greeting2/(.*)$ greeting.php?product=stendhal&from=$1&to=$2&rewrite=3QivnzcY [L]
-RewriteRule pad_file.xml pad_file.xml.php?rewrite=3QivnzcY [L]
+RewriteEngine On
+RewriteRule greeting2/(.*)/(.*)\.html$ /stendhal/greeting.php?product=stendhal&from=$1&to=$2&rewrite=3QivnzcY [L]
+RewriteRule pad_file.xml$ /stendhal/pad_file.xml.php?rewrite=3QivnzcY [L]
