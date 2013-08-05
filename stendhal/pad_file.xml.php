@@ -24,8 +24,8 @@
 		</Contact_Info>
 		<Support_Info>
 			<Sales_Email />
-			<Support_Email />
-			<General_Email />
+			<Support_Email>arianne-general@lists.sourceforge.net</Support_Email>
+			<General_Email>arianne-general@lists.sourceforge.net</General_Email>
 			<Sales_Phone />
 			<Support_Phone />
 			<General_Phone />
@@ -74,11 +74,11 @@
 	<Program_Descriptions>
 		<English>
 			<Keywords>MMORPG, RPG, game, Stendhal, Adventure, role-playing</Keywords>
-			<Char_Desc_45 />
-			<Char_Desc_80 />
+			<Char_Desc_45>A free multiplayer online adventure game</Char_Desc_45>
+			<Char_Desc_80>Stendhal is a fun friendly and free multiplayer online adventure game.</Char_Desc_80>
 			<Char_Desc_250>Stendhal is a fun friendly and free multiplayer online adventure game. Start playing, get hooked... Get the source code, and add your own ideas...</Char_Desc_250>
-			<Char_Desc_450 />
-			<Char_Desc_2000 />
+			<Char_Desc_450>Stendhal is a fun friendly and free multiplayer online adventure game. Start playing, get hooked... Get the source code, and add your own ideas...</Char_Desc_450>
+			<Char_Desc_2000>Stendhal is a fun friendly and free multiplayer online adventure game. Start playing, get hooked... Get the source code, and add your own ideas...</Char_Desc_2000>
 		</English>
 	</Program_Descriptions>
 	<Web_Info>
