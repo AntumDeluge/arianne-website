@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2012-07-01"/>
-  <version id="1.01"/>
+  <updated date="2013-07-25"/>
+  <version id="1.09"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,7 +50,242 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="http://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<b>1.09</b>
 
+<br><b>*world*</b>
+<br>- New quest: Traps for Klaas
+<br>- New quest: Help with the Harvest
+<br>- New achievement: A Bit Xenophobic (inactive)
+<br>- New item: xeno helmet dropped by xenocium
+<br>- Captain of Athor Ferry named Captain Brownbeard now
+<br>- Sprite fixes:
+<br>-- Ogre soldier's front & back facing helmet fixed to match side view
+<br>-- All dark elves now have elf ears, Elf ears on many elves made more visible and cleaned up
+<br>-- Re-drew/touched up many creature sprites including Grobble monster and Winged blurble
+<br>- Added new harmless corpses to the following creatures:
+    ice giant, elder giant, lord durin, cave troll, imperial general giant, master giant,
+    black giant, amazoness giant, kasarkutominubat
+<br>- Sound effect played when player dies
+<br>- Added to list of maps where Rose Leigh will not teleport
+<br>- Most blue items moved from Daily Item Quest to Weekly
+<br>- Added dwarvish legs to Femme Fatale's shop
+<br>- Sound effects for fishing source and water spring source
+
+<br><b>*client*</b>
+<br>- Karma indicator bar flashes for karma change
+<br>- Movement prediction when using keyboard adapts to network latency
+
+<br><b>*fixes*</b>
+<br>- Alice Farmer answers to "crepes suzette"
+<br>- TeleporterBehaviour badZones table updated
+<br>- Replaced tilesets:
+    table_white_round tileset with table_white, bench_white, orb_table, skull_post
+<br>- Marked apothecary's lab and cabin as inaccessible
+<br>- Player's head no longer shows when walking in minecart tunnels in -2_semos_mine_n_e2
+<br>- Item names in shop lists are now properly underlined
+<br>- Spurious double click usages on items not meant to be usable removed
+
+<br><b>*code*</b>
+<br>- PassiveNPCs using random paths can be set to have a maximum movement radius
+<br>- NPCs can be set to reverse their path on collision
+<br>- QuestCheckingPortal can now check quest state
+
+<p><b>1.08</b>
+<br><b>*world*</b>
+<br>- New NPC and quest in Nalwor Flower Shop: Restock Flower Shop
+<br>- New achievements: Nalwor's Bane and Feeling Blue
+<br>- New puppy NPC in Semos City
+<br>- Rodent trap added to Daily Item Quest
+<br>- Some new creature sound effects
+<br>- Some new creature corpses
+<br>- New NPC type: PassiveNPC
+<br>- Warning messages for dangerous areas now show up in client display
+<br>- Sound plays when player/creature blocks an attack
+<br>- Item names have a new highlighting mode
+<br>- Twin swords have a bit of DEF again
+<br>- Teddies can be hugged
+<br>- Food and drinks have "Eat" and "Drink" menu items, instead of "Use"
+<br>- House keys are no longer dropped on death
+<br>- Bufferflies added to Semos Plains North
+<br>- Rabbits added to Fado City
+<br>- Fish added to fountain in Ados City
+<br>- 3 kitten added to Felina's house
+
+
+<br><b>*client*</b>
+<br>- Option to turn off creature speech bubbles
+<br>- Fixed accidental looting on drag by deactivating ctrl-click as looting command
+<br>- Immediate response when starting to move with arrow keys
+<br>- Attack sprites are scaled according to attacker size
+<br>- Player now faces attack target if not doing so on each turn
+
+
+<br><b>*fixes*</b>
+<br>- quest log of EmotionCrystals fixed
+<br>- Removed background noise from many sound effects
+<br>- Pressing an arrow key always tries to move one tile
+<br>- Producers don't ask to come back in the past under certain conditions anymore
+<br>- Hayunn won't give more than one task at a time
+<br>- Stone style for client fixed
+
+<br><b>*code*</b>
+<br>- @Override added where applicable
+<br>- Reduced visibility of several classes, methods and fields
+<br>- Unused old code removed
+
+<p><b>1.07</b>
+
+<br><b>*world*</b>
+<br>- New quest from Julius: Emotion Crystals
+<br>- New items required by Mayor Chalmers and Hazel
+<br>- New food requirements for Katinka's animals
+<br>- Snake pit beneath Ados caves
+<br>- New dropped items: elvish hat
+<br>- New quest items: stone legs
+<br>- More lights on Ados market, around Athor island and more light effects 
+<br>- New look for mountain orc 
+<br>- Dwarves rebuilt rails in Semos Mine
+<br>- New creatures: Mimics, cobra, king cobra, and lamia 
+<br>- More sounds and descriptions for creatures
+<br>- Creatures added to the mountains
+<br>- Pdiddi warns first customers about the risk of his pills
+<br>- Pianos and clocks have sound effects
+<br>- Toilets and sinks have running water sound effects
+<br>- Athor's ferry has "creaking" sound effects
+<br>- Jef feels better but still wants to hear from his mom
+<br>- Pushable stone blocks 
+<br>- Background music in hell 
+<br>- Growing cherry trees on Orril Mountain
+
+<br><b>*client*</b>
+<br>- A lot of redrawn tilesets
+<br>- style changeable from settings menu
+
+<br><b>*fixes*</b>
+<br>- Special character in offline messages (postman messages) work now
+<br>- Fixed imperial defender sprite
+<br>- Map fixes (e.g. collision errors and layers)
+<br>- Slightly increasing drop rates for blue items
+
+<p><b>1.06</b>
+<br><b>*world*</b>
+<br>- more light in Ados city
+<br>- some creatures drop blue items now
+<br>- more creature descriptions added
+<br>- new sprite shown when blood and corpses setting is turned off
+<br>- new sound effects for multiple creatures
+<br>- Leander explains his task better 
+<br>- new corpses for slimes, ents and stone golems
+<br>- dwarvish legs now available
+<br><b>*fixes*</b>
+<br>- Alice Farmer understands players better
+<br>- Vincento Price can count correctly
+<br>- Collision touchups around trees on many maps
+<br>- Elementals in hell can't collide any longer
+<br>- "Far South" achievement reachable again
+
+<p><b>1.05</b>
+<br><b>*world*</b>
+<br>- added Rudolph and a quest for goodies
+<br>- added reindeer moss as a seasonal goody
+<br>- Santa is out for Christmas
+
+<br><b>*client*</b>
+<br>- A lot of redrawn images
+<br>- The game screen can be scaled. The scaling can be turned off in settings to get the old 
+behaviour
+<br>- Karma bar fits to the width of the left panel
+<br>- Travel log updates to font preference change immediately
+<br>- Font size used in the client can be changed
+
+<br><b>*fixes*</b>
+<br>- fixed tic-tac-toe board not being drawn when the top left corner is not on screen
+<br>- fixed a bug that could cause items being lost in trade
+<br>- fixed the automatic scrolling of the chat log sometimes turning off by itself
+<br>- several small fixes to entity views sometimes missing changes
+
+<p><b>1.04</b>
+
+<br><b>*world*</b>
+<br>- Mine Town Revival Weeks!
+<br>- Semos and the Mine Town are decorated for the celebrations
+<br>- new paper chase quest which leads players all over the world
+<br>- Ketteh now gets help from the guards, if players without any clothes(!) ignore her warning
+<br>- jail exit is straight to outside the cell
+
+<br><b>*client*</b>
+<br>- replaced the separate menu buttons with one large menu 
+<br>- HP bar of ignored players is drawn in full color to make them visible at night
+<br>- chat spam filter takes the length of the messages into account
+
+<br><b>*fixes*</b>
+<br>- webstart client now uses a styled font (e. g. for the quest log)
+<br>- fixed players becoming invisible because of broken attack target reference
+<br>- trading stack items properly
+<br>- map fixes
+<br><b>*website*</b>
+<br>- added a little pumpkin
+<p>
+<b>1.03</b>
+<br><b>*world*</b>
+<br>- Ados Botanical Gardens
+<br>- new lamps 
+<br>- map layering and collisions fixes
+<br>- new blend mode for enabling lighting in any zone
+<br>- Monogenes informs players about public chest
+<br>- 3 achievements activated 
+<br><b>*fixes*</b>
+<br>- don't accidently pick the first item on click spam on an item which was used up
+<br>- fixed return from adventure island into the wall
+<br>- Monogenes map is up to date now
+<br>- Ados market signs more specific now
+<br>- Adena got vegetables from farms near Semos
+<br><b>*internal*</b>
+<br>- creates selenium test for the stendhal website
+<br>- actions use item paths where applicable
+<br>- journal for merchants
+<br><b>*website*</b>
+<br>- email-address can now be changed
+
+<p><b>1.02</b>
+<br><b>*world*</b>
+<br>- clocks around the world show the server time
+<br>- vampires change their appearance depending on their attack status
+<br>- boy guardian in Semos Road East warns new player who miss a shield
+<br>- reduce Starkad's cost for lower level creatures and increase for higher level
+<br>- ninjas use shurikens for ranged attack
+<br>- more dragons breath fire
+<br>- lamps and lights effects added to ados market, gnome village, catacombs, haunted house, amazon island and more
+<br>- zone colouring added to hell, new dreamscape map, maze (randomised), adventure island, afterlife, drow tunnels, rat city
+<br>- semos temple and tavern upstairs maps reworked
+<br>- new npc food seller and signs for ados market
+
+<br><b>*client*</b>
+<br>- fancy tutorial speech bubbles
+<br>- nicer look of the attack circles
+<br>- slash commands have tab completion, suggestions of close matches for misstyped commands
+<br>- a second splitter between the left panel and the game screen
+<br>- added textual description to the karma bar tooltip
+<br>- away and grumpy indicators show the reason in their tooltips
+<br>- the client gets ranged attack information from the server instead of trying to guess which attacks are ranged
+<br>- quit dialog gets keyboard focus so that it is possible to exit the game without a mouse
+<br>- improved key handling and font sizes on Mac
+<br>- refined money and cheese sprites
+
+<br><b>*fixes*</b>
+<br>- automatic walking behind a slow creature or npc will now properly try to find the way around it
+<br>- lucky charms are bound to the player at loot time
+<br>- fixed removal of choking, away and grumpy icons that failed to be removed under certain conditions
+<br>- make killer bees less dangerous(!)
+<br>- various NPC, quest and map fixes
+
+<br><b>*code*</b>
+<br>- added script for adding/removing/alter/list of NPC's transitions.
+<br>- creatures can have different nature for ranged attacks than in melee
+<br>- events can trigger animations
+<br>- some dependency cleanup
+
+<p>
 <b>1.01</b>
 <br><b>*world*</b>
 <br>- Venethiel teaches players about Haizen's maze

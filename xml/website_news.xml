@@ -16,6 +16,191 @@
 -->
 
   <item>
+    <title>Stendhal 1.09: Strong helpers needed</title>
+    <date>2013-07-25</date>
+    <images>
+      <image url="screens/stendhal/harvest109.png"/>
+      <image url="screens/stendhal/klaas109.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>Are you strong, and like to push things? Now you can test your muscles against heavy straw carts. Eheneumniranin, the half elf, will thank you for helping him.
+<p>You'll earn karma for doing this good deed, and it's now easier to see when your karma changes - whether earning it, consuming it or losing it - look for the blinking white indicator!
+<p>You can also help Klaas, if your stomach is strong enough for all the rats near him! He needs some rodent traps.
+<p>
+Look out for these new quests and lots of other changes including sprite fixes, a new xeno helmet, new sounds effects for fishing and much more - the <a href="http://arianne.sourceforge.net/game/stendhal.html#changes">full change log</a> is here.]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 1.08: Spend Summer outdoors</title>
+    <date>2013-06-05</date>
+    <images>
+      <image url="screens/stendhal/puppy108.png"/>
+      <image url="screens/stendhal/flowershop108.png"/>
+      <image url="screens/stendhal/balrog108.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>With Summer approaching, it's a perfect time to be outside. Look out for beautiful butterflies, hopping rabbits, and even a friendly puppy wagging his tail. These are not pets, not foes, just natural creatures to admire. 
+<p>
+If you gather some flowers on your summer stroll, be sure to keep them for the girl elf Seremela, who needs to restock her shop. Jenny will be busy!
+<p>
+While outside, be aware of new sounds and sights, especially from creatures. Although, take care, the big ones look a little scarier when you attack them (but they are no more mighty than before). 
+<p>
+To read about lots and lots of other changes including item name highlighting, smarter context menu, new client options and more, check out the <a href="http://arianne.sourceforge.net/game/stendhal.html#changes">full change log</a>.]]>
+      </content>
+  </item>
+
+
+  <item>
+    <title>Stendhal 1.07: Traps and Puzzles</title>
+    <date>2013-04-18</date>
+    <images>
+      <image url="screens/stendhal/blocks107.png"/>
+      <image url="screens/stendhal/cobras107.png"/>
+      <image url="screens/stendhal/emotioncrystals107.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>
+With stone blocks you can push around, you better be careful not to get trapped! You can puzzle over what kind of games you 
+want play with them. Another trap to be wary of is the giant snake pit beneath Ados caves, with king cobras and other scary reptiles you may never have seen before. 
+<p>
+Here's a puzzle for you: how do you collect emotion crystals? The answer: by answering more puzzles!
+If you like the sound of this, go see Julius. There's other new items too (like a rodent trap!), 
+some have got the attention of Mayor Chalmers and Hazel. Keep an eye out incase you are asked to 
+collect them! While your eyes are open, keep an ear open too - there are plenty of sounds to pick up. Can you hear running water in the bathrooms, creaking ships and musical pianos? Just don't listen out too long for all the new sounds from creatures ... or they may trap you themselves! To read the rest of the changes, take a look at the <a
+href="http://arianne.sourceforge.net/game/stendhal.html#changes">full change log</a>. 
+<p>p.s. please welcome <a href="http://stendhalgame.org/character/deluge.html">AntumDeluge</a>, a new developer to the team! Thanks a lot for all your work on this release and to <a href="http://stendhalgame.org/character/Bluelads4.html">Bluelads4</a> for extra special support.
+]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 1.06: A bit of toil but little trouble</title>
+    <date>2013-02-12</date>
+    <images>
+      <image url="screens/stendhal/newcorpses106.jpg"/>
+      <image url="screens/stendhal/bluebootsdrop106.jpg"/>
+      <image url="screens/stendhal/dwarvishlegs106.jpg"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p><br><i>hiss of snake and oink of pig, squeak of mouse and roar of lion...</i></p>
+<p>
+This witchy incantation has released the trapped sounds of many creatures in the wildlife. Some creatures' spirits have been released too, with 
+the dead corpses of slimes, ents and stone golems now representing their true form. Even the trees have seen some change, with branches trimmed 
+for better uniformity across the land.</p>
+<p>
+Noone is sure if it's related, but those blue items that were sold by some orcs can now also be found in certain creature corpses, and could be a 
+bonus for mid level players. It's also rumoured that certain dwarves are being careless and dropping their leg protection ...</p>
+<p>To read about other changes please see the <a href="http://arianne.sourceforge.net/game/stendhal.html#changes">change log</a>.</p>]]>
+      </content>
+  </item>
+
+  <item>
+    <title>Stendhal 1.05: Ready to meet Rudolph?</title>
+    <date>2012-12-15</date>
+    <images>
+      <image url="screens/stendhal/xmas105.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" 
+image="images/playbutton.png" />   
+    <content>
+      <![CDATA[<p>Christmas is coming! Santa is out to deliver presents (if you have been 
+good!) and you can make friends with Rudolph the Red-Nosed Reindeer too! 
+<p>
+It's been snowing in Semos so the city is covered with white, and there are decorations up. 
+Want to stretch out the view across your whole screen? Now you can! Maximising and minimising 
+will scale all our lovely graphics to fit, and you can also choose a different font size to 
+match. 
+<p>
+If you'd like to read about other changes please check our <a href = 
+"http://arianne.sourceforge.net/game/stendhal.html#changes">log</a>.
+<p>Merry Christmas and Happy 
+New Year from the whole team!]]>
+      </content>
+  </item>
+
+
+  <item>
+    <title>Stendhal 1.04: Hallowe'en means Mine Town Revival Weeks!</title>
+    <date>2012-10-22</date>
+    <images>
+      <image url="screens/stendhal/halloween104.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>Welcome to the 5th year of Semos Mine Town Revival Weeks! They've actually been running since <a 
+href="http://arianne.sourceforge.net/news/stendhal-0-55-halloween-night-.html">2006</a>, but in that year Susi from Ados went missing. So, it was 
+abandoned in 2007, but by <a href ="http://arianne.sourceforge.net/news/stendhal-0-71-semos-mine-town-revival-weeks-.html">2008</a> Susi was found 
+safe and well, just living with pirates! <a href="http://arianne.sourceforge.net/news/stendhal-0-78-semos-mine-town-revival-weeks.html">Every</a> <a 
+href="http://arianne.sourceforge.net/news/stendhal-0-89-food-flowers-and-fights-.html">year</a> <a 
+href="http://arianne.sourceforge.net/news/stendhal-0-97-wear-a-rainbow.html">since</a> there has been a celebration. This year's is different, with 
+spooky lights for Halloween and a brand new Paper Chase quest which will take you all around the huge world in search of the next clue. There are 
+also games, costumes to rent, and of course you can say hello to Susi.
+<p>
+The party isn't the only update to tell you about, to read the rest of the changes, take a look at the <a 
+href="http://arianne.sourceforge.net/game/stendhal.html#changes">full change log</a> ]]>
+      </content>
+  </item>
+
+
+<item>
+<title>Stendhal 1.03: Records</title>
+<date>2012-09-12</date>
+<images>
+<image url="screens/stendhal/gardens103.jpg"/>
+<image url="screens/stendhal/email103.png"/>
+</images>
+ <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+<content>
+<![CDATA[<p>
+Why bother keeping records? Well, it can be informative or it can be 
+helpful. Take the example of Sue the gardener, she's been cataloguing 
+every plant she's ever found on the island! She's recently joined up 
+with Ados City to help create Ados Botanical Gardens. What a beautiful 
+example of record keeping. 
+<p>
+Records can bring us a sense of achievement. Three new achievements have 
+been unlocked - how many times have you completed the Kirdneh Musuem 
+quest, and can you kill every creature, not alone but with the help of 
+another? These achievements can only be awarded through careful record 
+keeping.
+<p>
+Outside of the game world, the server admins want to help you preserve 
+access to your account if you lose it. The registered email address is 
+usually used for this. Now, if you needed to change your registered 
+email address, this is possible after logging on at <a 
+href="http://stendhalgame.org">stendhalgame.org</a>. To see the record of all the other updates please check our <a 
+href="http://arianne.sourceforge.net/game/stendhal.html#changes">change log</a>. 
+]]></content>
+</item>
+
+
+  <item>
+    <title>Stendhal 1.02 released: Overcoming darkness</title>
+    <date>2012-08-07</date>
+    <images>
+      <image url="screens/stendhal/vampires102.png"/>
+      <image url="screens/stendhal/clock102.png"/>
+      <image url="screens/stendhal/tutorial102.jpg"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>A spooky atmosphere has settled, with casts of colour appearing over some deep tunnels and magical areas. Vampires hiding in the dim shadows in Semos Catacombs have even added to their disguise - looking normal and friendly right up until they attack you, transforming into their terrifying form.
+<p>
+Perhaps in response to the darkness, more ground dwellers have been installing lamps. Ados Market and the gnome village in particular are still busy after hours and they need the light. If you're worried about darkness falling, you can keep an eye on the time by checking the clocks around the world.
+<p>
+Visitors new to our world are now guided by the friendly face of Io Flotto. Her telepathic tutorials are timed to give information just when needed. Will, the guardian of Semos Road East, also has helpful tips for newbies, especially those who don't wear a shield. Starkad, the expert on all creatures, also now charges a lot less to give hints to those with little experience.
+<p>
+To find out about more improvements, including making the client more playable on small netbooks, Macs, and without a mouse, please see the complete <a href="http://arianne.sourceforge.net/game/stendhal.html#changes">change log</a>.
+]]>
+      </content>
+  </item>
+
+  <item>
     <title>Stendhal 1.01.1 released: client bug fix for slow zone changes</title>
     <date>2012-07-05</date>
     <images>
