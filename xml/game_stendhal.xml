@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2013-07-25"/>
-  <version id="1.09"/>
+  <updated date="2013-09-09"/>
+  <version id="1.10"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,7 +50,36 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="http://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
-<b>1.09</b>
+
+<b>1.10</b>
+<br><b>*world*</b>
+<br>- More creature descriptions
+<br>- Added 3rd frame to cyclops and cave troll for smoother walking effect
+<br>- Animated sprite for diamond
+<br>- Touched up sprites for some creatures
+<br>- NPC Seremela has a new sprite
+<br>- Touched up elf ears for some NPCs
+<br>- Added reversible path on collision to Eheneumniranin
+<br>- Added achievement "A Bit Xenophobic"
+<br>- Reworked area around ghost in Ados city_n
+
+<br><b>*client*</b>
+<br>- Now handles images for multiple status effect icons/animations
+<br>- On multi-screen systems updater windows open on the screen with the mouse pointer
+<br>- Shop signs can have animated item images
+<br>- Game opens in the initial window
+
+<br><b>*fixes*</b>
+<br>- Fixing table entities in Kalavan houses
+<br>- Exchanging white round tables in fado city
+<br>- Clicking the menu button when the menu is open, closes it
+
+<br><b>*code*</b>
+<br>- NPC sound effects are handled by server
+<br>- Sheep sounds are generated server side
+<br>- Domestic animals and NPCs use the same idea handling code in the client
+
+<p><b>1.09</b>
 
 <br><b>*world*</b>
 <br>- New quest: Traps for Klaas

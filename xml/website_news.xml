@@ -16,6 +16,27 @@
 -->
 
   <item>
+    <title>Stendhal 1.10: More than cosmetic change</title>
+    <date>2013-09-09</date>
+    <images>
+      <image url="screens/stendhal/seremela110.png"/>
+      <image url="screens/stendhal/shoplist110.gif"/>
+      <image url="screens/stendhal/harold110.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>The creatures and elves in Faiumoni might be self conscious, as they have been making some cosmetic changes. Seremela in Nalwor flowershop started a trend by dyeing her hair a beautiful violet. Many creatures followed her example and improved their appearance as well; but not as drastically. And all the shop owners have improved the look of their signs, so that sparkly items also sparkle on the signs!
+<p>
+Not to be out-done, Harold has found a new way to announce new offers from players 
+by making his own page at <a href="https://stendhalgame.org/trade/">https://stendhalgame.org/trade/</a>. There is a feed available, so that you can subscribe and find out about offers as they happen!
+<p>
+Not all the changes in Stendhal 1.10 are visible, though. Some invisible changes will make it easier
+for developers to add new content in the future. For example, the handling of status icons (like poisoned) is now controlled by the server and supports multiple indicators. To read about all the other changes see the <a href="http://arianne.sourceforge.net/game/stendhal.html#changes">full change log</a>.
+]]>
+      </content>
+  </item>
+
+  <item>
     <title>Stendhal 1.09: Strong helpers needed</title>
     <date>2013-07-25</date>
     <images>
