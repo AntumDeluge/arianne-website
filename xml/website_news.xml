@@ -14,6 +14,30 @@
       </content>
   </item>
 -->
+  <item>
+    <title>Stendhal 1.11: Let's party</title>
+    <date>2013-10-15</date>
+    <images>
+      <image url="screens/stendhal/table111.png"/>
+      <image url="screens/stendhal/sokoban111.png"/>
+      <image url="screens/stendhal/caroline111.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>Stendhal 1.11 was released with a big party. Join the festival at the abandoned mine town in the north. Celebrate with costumes and food, quests and puzzles. But don't forget, that kobolds and slime still lurk in the mines.
+
+<p>The Mine Town Revival Weeks have a long tradition in Stendhal, but there is something new every year.
+
+<p>Since a girl called Susi was rescued five years ago, the Mine Town Revival Weeks became very popular with lots of spooky decorations. Many characters from all around the world got interested in the events. Those, who have to stay at home, joined in to organize a gigantic paper-chase all over the world.
+
+<p>On a side note, NPCs who trade items or heal can now be spotted easily by watching out for little icons next to them.
+
+<p>With all the partying going on, it is important to stay safe and secure. On login, you will be informed of your last successful and failed login attempts. You can see a complete <a href="https://stendhalgame.org/account/history.html">login history</a> for the last 7 days on the Stendhal website.
+
+<p>To read about all the other changes see the <a href="http://arianne.sourceforge.net/game/stendhal.html#changes">full change log</a>.</p>
+]]>
+      </content>
+  </item>
 
   <item>
     <title>Stendhal 1.10: More than cosmetic change</title>
