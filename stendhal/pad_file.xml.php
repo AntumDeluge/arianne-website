@@ -36,7 +36,7 @@
 		<Program_Name>Stendhal</Program_Name>
 		<Program_Version><?php
 		$file = dirname(__FILE__).'/../stendhal.version';
-		$version = trim(file_get_contents(file));
+		$version = trim(file_get_contents($file));
 		$modified = filemtime($file);
 		echo htmlspecialchars($version);
 		?></Program_Version>
