@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2013-10-15"/>
-  <version id="1.11"/>
+  <updated date="2013-12-12"/>
+  <version id="1.12"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,28 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="http://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<b>1.12</b>
+<br><b>*world*</b>
+<br>- New Christmas maps for bank, townhall, storage (Eonnas house, all Semos)
+<br>- Meet Santa and Rudolph
+<br>- Dragon now notice small players right in front
+<br>- Reworked normal storage interior
+<br>- More creature descriptions
+<br>- Mew stocking items, deleting coal
+<br>- New sounds and images
+
+<br><b>*fixes*</b>
+<br>- Fixing tiles on several maps
+<br>- Sometimes xp reward for killing creatures was too low, if the player logged out during the fight
+<br>- On expire of a special outift, a message was displayed, even when the outfit has been removed beforehand
+
+<br><b>*website*</b>
+<br>- Display name of ip-address on login history
+
+<br><b>*developer*</b>
+<br>- Replaced commons-lang.jar with guava.jar (needs to be changed in Eclise: Project | Properties | Build Path | Libraries)
+
+
 <b>1.11</b>
 <br><b>*world*</b>
 <br>- Mine Town Weeks are celebrated
@@ -303,6 +325,10 @@ behaviour
 <br><b>*website*</b>
 <br>- email-address can now be changed
 
+]]>
+<!-- 
+<![CDATA[
+
 <p><b>1.02</b>
 <br><b>*world*</b>
 <br>- clocks around the world show the server time
@@ -409,9 +435,6 @@ behaviour
 <br>- A menu item for taking screenshots
 <br>- Bleach mode supports colored light
 <br>- Blend layers can use any available blend mode
-]]>
-<!-- 
-<![CDATA[
 
 <p><b>0.98</b>
 
