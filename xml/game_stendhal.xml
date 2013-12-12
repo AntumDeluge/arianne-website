@@ -50,54 +50,63 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="http://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
-<b>1.12</b>
-<br><b>*world*</b>
-<br>- New Christmas maps for bank, townhall, storage (Eonnas house, all Semos)
-<br>- Meet Santa and Rudolph
-<br>- Dragon now notice small players right in front
-<br>- Reworked normal storage interior
-<br>- More creature descriptions
-<br>- Mew stocking items, deleting coal
-<br>- New sounds and images
+<h3 id="v1.12">1.12</h3>
+<p><b>World</b><ul>
+<li> New Christmas maps for bank, townhall, storage (Eonnas house, all Semos)
+<li> Meet Santa and Rudolph
+<li> Dragon now notice small players right in front
+<li> Reworked normal storage interior
+<li> More creature descriptions
+<li> Mew stocking items, deleting coal
+<li> New sounds and images
+</ul></p>
 
-<br><b>*fixes*</b>
-<br>- Fixing tiles on several maps
-<br>- Sometimes xp reward for killing creatures was too low, if the player logged out during the fight
-<br>- On expire of a special outift, a message was displayed, even when the outfit has been removed beforehand
+<p><b>Fixes</b><ul>
+<li> Fixing tiles on several maps
+<li> Sometimes xp reward for killing creatures was too low, if the player logged out during the fight
+<li> On expire of a special outift, a message was displayed, even when the outfit has been removed beforehand
+</ul></p>
 
-<br><b>*website*</b>
-<br>- Display name of ip-address on login history
+<p><b>Website</b><ul>
+<li> Display name of ip-address on login history
+</ul></p>
 
-<br><b>*developer*</b>
-<br>- Replaced commons-lang.jar with guava.jar (needs to be changed in Eclise: Project | Properties | Build Path | Libraries)
+<p><b>Developers</b><ul>
+<li> Replaced commons-lang.jar with guava.jar (needs to be changed in Eclise: Project | Properties | Build Path | Libraries)
+</ul></p>
 
 
-<b>1.11</b>
-<br><b>*world*</b>
-<br>- Mine Town Weeks are celebrated
+<h3 id="v1.11">1.11</h3>
+<p><b>World</b><ul>
+<li> Mine Town Weeks are celebrated
 <br>  -- New Paper chase quest
 <br>  -- New Sokoban game
 <br>  -- all the games from last years festival are back
-<br>- Margaret accepts coupons
-<br>- New look for Semos plains
-<br>- More creature descriptions
-<br>- Added fairy cakes to daily item quest
-<br>- Icons to indicate healer and merchant NPCs
-<br>- Pebbles sprite replaced by rocks in some collision areas on maps
-<br>- New achievement: Fisherman
+<li> Margaret accepts coupons
+<li> New look for Semos plains
+<li> More creature descriptions
+<li> Added fairy cakes to daily item quest
+<li> Icons to indicate healer and merchant NPCs
+<li> Pebbles sprite replaced by rocks in some collision areas on maps
+<li> New achievement: Fisherman
+</ul></p>
 
-<br><b>*client*</b>
-<br>- Notifies player of last login attempt
-<br>- Subwindows on the right side panel can be arranged by the user
+<p><b>Client</b><ul>
+<li> Notifies player of last login attempt
+<li> Subwindows on the right side panel can be arranged by the user
+</ul></p>
 
-<br><b>*fixes*</b>
-<br>- Screen flashing during zone colouring change has been fixed
-<br>- Resizing karma bar no longer causes it to flash
-<br>- Font setting changes opening travel log window has been fixed
+<p><b>Fixes</b><ul>
+<li> Screen flashing during zone colouring change has been fixed
+<li> Resizing karma bar no longer causes it to flash
+<li> Font setting changes opening travel log window has been fixed
+</ul></p>
 
-<br><b>*code*</b>
-<br>- Status icon positions are automatically arranged
-<br>- Poisoning and new status effects handled with new system
+<p><b>Code</b><ul>
+<li> Status icon positions are automatically arranged
+<li> Poisoning and new status effects handled with new system
+</ul></p>
+
 
 
 <p><b>1.10</b>
