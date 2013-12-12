@@ -41,14 +41,14 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </description>
   <extended><![CDATA[
   <h2>Start playing, get hooked...</h2>
-  <p>With Java installed, playing is as simple as clicking Play Now on <a href="http://stendhalgame.org">stendhalgame.org</a>. You can play Stendhal on Windows, Mac and Linux, it is completely free and all open source.
+  <p>With Java installed, playing is as simple as clicking Play Now on <a href="https://stendhalgame.org">stendhalgame.org</a>. You can play Stendhal on Windows, Mac and Linux, it is completely free and all open source.
 </p>
-<p>There is an ingame tutorial, a <a href="http://stendhalgame.org/wiki/Stendhal_Manual">manual</a> and a <a href="http://stendhalgame.org/wiki/Beginners_Guide">beginners guide</a>.
+<p>There is an ingame tutorial, a <a href="https://stendhalgame.org/wiki/Stendhal_Manual">manual</a> and a <a href="https://stendhalgame.org/wiki/Beginners_Guide">beginners guide</a>.
 <h2>Get the source code, and add your own ideas!</h2>
-  <p>Stendhal is part of the Arianne project and framework for developing games. It's a great project to get involved in, if you are interested in learning to develop Java for example. If you don't want to code you can help with graphics, history, dialogue, quest ideas, music and more. Join a team of developers from all over the world who create the game just for fun, and of course for free, in our spare time. We would really love to get your help <a href="http://stendhalgame.org/development.html">contributing</a>.</p>
+  <p>Stendhal is part of the Arianne project and framework for developing games. It's a great project to get involved in, if you are interested in learning to develop Java for example. If you don't want to code you can help with graphics, history, dialogue, quest ideas, music and more. Join a team of developers from all over the world who create the game just for fun, and of course for free, in our spare time. We would really love to get your help <a href="https://stendhalgame.org/development.html">contributing</a>.</p>
   ]]>
   </extended>
-  <manual url="http://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
+  <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
 <h3 id="v1.12">1.12</h3>
 <p><b>World</b><ul>
@@ -546,11 +546,11 @@ behaviour
 
 <p><b>0.95</b>
 <br>If you package Stendhal or have forked your own game based on it
-<br>read http://stendhalgame.org/wiki/Automatic_Software_Updater
+<br>read https://stendhalgame.org/wiki/Automatic_Software_Updater
 
 <br>- rewrote the updater so that it will not break onces a year anymore because the certificate expires
 <br>- on Unix/Linux the home folder now defaults to $HOME/.config/stendhal for new installs
-<br>- improved the best player score for low level players: http://stendhalgame.org/wiki/Fixing_RP_Score_2011
+<br>- improved the best player score for low level players: https://stendhalgame.org/wiki/Fixing_RP_Score_2011
 
 <br><b>* Marauroa*</b>
 <br>- updated to Marauroa 3.8.7 which greatly improves server side performance
@@ -1075,14 +1075,14 @@ your error log files and please continue to do so.
       <description>This file contains the stendhal client. Download this to play online.</description>
     </file>
     <file type="server script binary" name="stendhal-server-XXX.zip">
-      <description><![CDATA[This file contains the stendhal server files.<br>See <a href="http://stendhalgame.org/wiki/Host_a_Stendhal_Server">hosting information</a>.]]></description>
+      <description><![CDATA[This file contains the stendhal server files.<br>See <a href="https://stendhalgame.org/wiki/Host_a_Stendhal_Server">hosting information</a>.]]></description>
     </file>
     <file type="source" name="stendhal-XXX-src.tar.gz">
-      <description><![CDATA[This file contains the source code to build stendhal.<br>See <a href="http://stendhalgame.org/wiki/Navigation_for_Stendhal_Builders_and_Hosters">build information</a>.]]></description>
+      <description><![CDATA[This file contains the source code to build stendhal.<br>See <a href="https://stendhalgame.org/wiki/Navigation_for_Stendhal_Builders_and_Hosters">build information</a>.]]></description>
     </file>
   </files>
   <servers>
-    <server name="Game server" url="http://stendhalgame.org/"/>
+    <server name="Game server" url="https://stendhalgame.org/"/>
   </servers>
   <authors>
     <entry name="kymara" url="http://www.ohloh.net/accounts/kymara"/>
