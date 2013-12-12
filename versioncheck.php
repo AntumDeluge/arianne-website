@@ -17,4 +17,12 @@ if ($_REQUEST['gamename'] == 'stendhal') {
 		echo '<html><body>You are using an outdated test version with disabled updater.<br>';
 		echo 'Please use the official client to get the bugfix update.';
 	}
+
+	if (strtolower($_REQUEST['server']) == 'stendhalgame.org') {
+		if ($_REQUEST['version'] >= '2.') {
+			echo '<html><body>Your client is out of date. The latest version is '.$version.'<br>';
+			echo 'You are using an unofficial client which will not update automatically.<br>';
+			echo 'Please download the most recent version of the offical client from  http://arianne.sourceforge.net ';
+		}
+	}
 }
