@@ -14,6 +14,34 @@
       </content>
   </item>
 -->
+
+  <item>
+    <title>Stendhal 1.12: Good tidings we bring</title>
+    <date>2013-12-12</date>
+    <images>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>Good tidings we bring<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>(There's a new release of Stendhal!)</i></p>
+<p>for you and your kin<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>(Please do spread the word!)</i></p>
+<p>We wish you a Merry Christmas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>(Find Santa! and treats for Rudolph!)</i></p>
+<p>and a Happy New Year.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>(Make your New Years Resolution <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to try <a href="https://www.stendhalgame.org/development.html">something new</a>.)</i></p>
+
+<p>Hope you liked our take on the classic Christmas verse. You can also read the full <a href="http://arianne.sourceforge.net/game/stendhal.html#changes">full change log</a>.</p>
+
+<p>Merry Christmas!</p>
+
+]]>
+      </content>
+  </item>
+
+
   <item>
     <title>Stendhal 1.11: Let's party</title>
     <date>2013-10-15</date>
