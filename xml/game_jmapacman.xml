@@ -3,7 +3,6 @@
   <updated date="2005-07-02"/>
   <version id="0.3"/>
   <type value="game"/>
-  <!-- <cssdoc url="css/jmapacman.css"/> -->
   <status value="beta"/>
   <keywords>Multiplayer pacman, pacman game</keywords>
   <short-description>JMaPacman is a multi player version of the classical Pacman.</short-description>
