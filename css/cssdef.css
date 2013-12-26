@@ -135,18 +135,19 @@ ul.rating li {display:inline; padding-left:20px;}
 
 .left-title-image,
 .right-title-image {
-	display: inline-block;
+	display: block;
 	height: 90px;
 	background-repeat: no-repeat;
 }
 .left-title-image {
 	width:476px;
 	background-image:url("../images/mainpage_title_a.png");
+	float: left;
 }
 .right-title-image {
 	width:286px;
 	background-image:url("../images/mainpage_title_b.png");
-	float: right;
+	margin-left: 477px;
 }
 #title_section p { display:none; }
 
@@ -626,7 +627,7 @@ a.newsitemtitle:hover {
 		display: none
 	}
 	.right-title-image {
-		float: none;
+		margin-left: 0
 	}
 }
 
