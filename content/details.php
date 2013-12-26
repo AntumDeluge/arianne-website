@@ -164,7 +164,7 @@ class DetailPage extends Page {
 				echo '<a href="'.$author['url'].'">'.$author['name'].'</a>';
 			}
 		}
-		echo '</p>&copy; 2005-2011. Released under <a href="/docs/gpl-2.0.html">GNU General Public License</a>.</p></div>';
+		echo '</p>&copy; 2005-2014. Released under <a href="/docs/gpl-2.0.html">GNU General Public License</a>.</p></div>';
 	}
 	
 	
