@@ -29,17 +29,19 @@ Who will reach the Top Score?</p>
   </extended>
    -->
   <manual url="http://arianne.sourceforge.net/wiki/index.php/JMaPacmanManual"/>  
-  <changelog><![CDATA[ 
-<b>-</b> added Killed-Splash when Ghost or Player is killed
-<br/><b>-</b> added Fruits and Powerpills
-<br/><b>-</b> added Dot-WrapperClasses clientside
-<br/><b>-</b> added and changed some Maps
-<br/><b>-</b> added 2 more Maps
-<br/><b>-</b> reduced Amount of Score Player loses on Death
-<br/><b>-</b> changed Scrolling, scrolls much faster now
-<br/><b>-</b> save CPU by not moving Ghosts when no Player is logged in for a long time
-<br/><b>-</b> Players respawn on a random free RespawnPoint
-<br/><b>-</b> fixed Bug when other Player changes Zone or disapears
+  <changelog><![CDATA[
+  <ul> 
+<li> added Killed-Splash when Ghost or Player is killed
+<li> added Fruits and Powerpills
+<li> added Dot-WrapperClasses clientside
+<li> added and changed some Maps
+<li> added 2 more Maps
+<li> reduced Amount of Score Player loses on Death
+<li> changed Scrolling, scrolls much faster now
+<li> save CPU by not moving Ghosts when no Player is logged in for a long time
+<li> Players respawn on a random free RespawnPoint
+<li> fixed Bug when other Player changes Zone or disapears
+</ul>
       ]]>
   </changelog>
   <navigation-image name="20050702_jmapacman.jpg" />

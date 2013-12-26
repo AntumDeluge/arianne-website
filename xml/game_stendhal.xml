@@ -50,7 +50,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
 <h3 id="v1.12">1.12</h3>
-<p><b>World</b><ul>
+<b>World</b><ul>
 <li> New Christmas maps for bank, townhall, storage (Eonnas house, all Semos)
 <li> Meet Santa and Rudolph
 <li> Dragon now notice small players right in front
@@ -58,25 +58,25 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> More creature descriptions
 <li> Mew stocking items, deleting coal
 <li> New sounds and images
-</ul></p>
+</ul>
 
-<p><b>Fixes</b><ul>
+<b>Fixes</b><ul>
 <li> Fixing tiles on several maps
 <li> Sometimes xp reward for killing creatures was too low, if the player logged out during the fight
 <li> On expire of a special outift, a message was displayed, even when the outfit has been removed beforehand
-</ul></p>
+</ul>
 
-<p><b>Website</b><ul>
+<b>Website</b><ul>
 <li> Display name of ip-address on login history
-</ul></p>
+</ul>
 
-<p><b>Developers</b><ul>
+<b>Developers</b><ul>
 <li> Replaced commons-lang.jar with guava.jar (needs to be changed in Eclise: Project | Properties | Build Path | Libraries)
-</ul></p>
+</ul>
 
 
 <h3 id="v1.11">1.11</h3>
-<p><b>World</b><ul>
+<b>World</b><ul>
 <li> Mine Town Weeks are celebrated
 <br>  -- New Paper chase quest
 <br>  -- New Sokoban game
@@ -88,25 +88,25 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> Icons to indicate healer and merchant NPCs
 <li> Pebbles sprite replaced by rocks in some collision areas on maps
 <li> New achievement: Fisherman
-</ul></p>
+</ul>
 
-<p><b>Client</b><ul>
+<b>Client</b><ul>
 <li> Notifies player of last login attempt
 <li> Subwindows on the right side panel can be arranged by the user
-</ul></p>
+</ul>
 
-<p><b>Fixes</b><ul>
+<b>Fixes</b><ul>
 <li> Screen flashing during zone colouring change has been fixed
 <li> Resizing karma bar no longer causes it to flash
 <li> Font setting changes opening travel log window has been fixed
-</ul></p>
+</ul>
 
-<p><b>Code</b><ul>
+<b>Code</b><ul>
 <li> Status icon positions are automatically arranged
 <li> Poisoning and new status effects handled with new system
-</ul></p>
+</ul>
 
-
+<div class="unimportant">
 
 <p><b>1.10</b>
 <br><b>*world*</b>
@@ -333,6 +333,7 @@ behaviour
 <br><b>*website*</b>
 <br>- email-address can now be changed
 
+</div>
 ]]>
 <!-- 
 <![CDATA[

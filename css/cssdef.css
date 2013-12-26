@@ -641,4 +641,11 @@ a.newsitemtitle:hover {
 	#pagecontent {
 		margin: 0;
 	}
+	.unimportant {
+		display: none;
+	}
+	
+	.download div.releaseinfo {
+		display: none
+	}
 }

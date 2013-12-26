@@ -73,81 +73,106 @@ you want.<p/>
 	</extended>
 <changelog><![CDATA[
 <b>3.9.2</b>
-<br>- workaround for IllegalArgumentException in proxy check (see <a href="http://icedtea.classpath.org/bugzilla/show_bug.cgi?id=1055">http://icedtea.classpath.org/bugzilla/show_bug.cgi?id=1055</a> ) 
-<br>
+<ul>
+<li> workaround for IllegalArgumentException in proxy check (see <a href="http://icedtea.classpath.org/bugzilla/show_bug.cgi?id=1055">http://icedtea.classpath.org/bugzilla/show_bug.cgi?id=1055</a> )
+</ul> 
+
 <b>3.9.1</b>
-<br>- added support for Sha512Crypt with salt and pepper
-<br>- fixed cacheable flag being ignored (e.g. map content may be cached)
-<br>
+<ul>
+<li> added support for Sha512Crypt with salt and pepper
+<li> fixed cacheable flag being ignored (e.g. map content may be cached)
+</ul> 
+
 <b>3.9</b>
-<br>- failed logins are now logged with distinct status values
-<br>- client support for skippable empty perceptions
-<br>- ban messages are no longer restricted 256,
+<ul>
+<li> failed logins are now logged with distinct status values
+<li> client support for skippable empty perceptions
+<li> ban messages are no longer restricted 256,
   if both server and client use the new protocol version 34
-<br>- added RPClass support (type checks and transfer compression) to RPAction
-<br>- content transfer includes a md5 hash of the content,
+<li> added RPClass support (type checks and transfer compression) to RPAction
+<li> content transfer includes a md5 hash of the content,
   if both server and client use the new protocol version 34
-<br>- fixed a bug which caused the server to use the client protocol version in its messages, even if it was higher than the version supported by the server
-<br>- automatically try to use a configured SOCKS-proxy. If it cannot be used, Marauroa falls back to direct connections
-<br>- RPRuleProcessorImpl provides a default implementation for IRPRuleProcessor
-<br>- new server.ini variable server_abuseContact to add a sentence with contact information to the ban dialog.
-<br>- use ENGINE instead of TYPE on table creation to be compatible with MySQL 5.5
+<li> fixed a bug which caused the server to use the client protocol version in its messages, even if it was higher than the version supported by the server
+<li> automatically try to use a configured SOCKS-proxy. If it cannot be used, Marauroa falls back to direct connections
+<li> RPRuleProcessorImpl provides a default implementation for IRPRuleProcessor
+<li> new server.ini variable server_abuseContact to add a sentence with contact information to the ban dialog.
+<li> use ENGINE instead of TYPE on table creation to be compatible with MySQL 5.5
+</ul> 
+
 See also <a href ="http://stendhalgame.org/wiki/Marauroa_3.9">the change document</a>.
 
-<br><b>3.8.7</b>
-<br>- performance improvement by not deep copying all player objects every turn.
-<br>- performance improvement by skipping RPObject.id validation during cloning of RPSlots
-<br>- performance improvement by removing redundant calls to Attribute.has() and RPObject.getID()
-<br>- increased client side timeout while the server is processing the login (may do slow database queries)
-<br>- defined better indices for loginEvent designed to answer the number of recently failed logins question fast
+<div class="unimportant">
+<b>3.8.7</b>
+<ul> 
+<li> performance improvement by not deep copying all player objects every turn.
+<li> performance improvement by skipping RPObject.id validation during cloning of RPSlots
+<li> performance improvement by removing redundant calls to Attribute.has() and RPObject.getID()
+<li> increased client side timeout while the server is processing the login (may do slow database queries)
+<li> defined better indices for loginEvent designed to answer the number of recently failed logins question fast
+</ul> 
 
 
-<br><b>3.8.6</b>
-<br>- performance optimization in RPObject.getDifference() by drastically reducing the number of RPobject instantiations
-<br>- performance optimization in RPObject to create internal list/map objects only on demand
-<br>- build script now creates an additional minized jar file for clients: marauroa-client-only.jar
-<br>- improved messages on errors in server.ini
+<b>3.8.6</b>
+<ul> 
+<li> performance optimization in RPObject.getDifference() by drastically reducing the number of RPobject instantiations
+<li> performance optimization in RPObject to create internal list/map objects only on demand
+<li> build script now creates an additional minized jar file for clients: marauroa-client-only.jar
+<li> improved messages on errors in server.ini
+</ul> 
 
-<br><b>3.8.5</b>
-<br>- fixed an issue on account renaming
-<br>- fixed an issue with special characters in character names
-<br>- zones are now stored asynchronously to the database
-<br>- fixed a co-modification issue in Attributes.clone() and Statistics.clone()
+<b>3.8.5</b>
+<ul> 
+<li> fixed an issue on account renaming
+<li> fixed an issue with special characters in character names
+<li> zones are now stored asynchronously to the database
+<li> fixed a co-modification issue in Attributes.clone() and Statistics.clone()
+</ul> 
 
 
-<br><b>3.8.4</b>
-<br>- fixed "Replacing content to transfer"
-<br>- added configurations parameters allow_account_creation and allow_character_creation
-<br>- added new Result.FAILED_CREATE_ON_MAIN_INSTEAD of account/character if it was disabled
-<br>- fixed bogus error message about accessing available transactions on closing the TransactionPool
+<b>3.8.4</b>
+<ul> 
+<li> fixed "Replacing content to transfer"
+<li> added configurations parameters allow_account_creation and allow_character_creation
+<li> added new Result.FAILED_CREATE_ON_MAIN_INSTEAD of account/character if it was disabled
+<li> fixed bogus error message about accessing available transactions on closing the TransactionPool
+</ul> 
 
-<br><b>3.8.3</b>
-<br>- security fix preventing multiple logins of the same character on MySQL
-<br>- increased visibility of RPSlot.getOwner() to protected
+<b>3.8.3</b>
+<ul> 
+<li> security fix preventing multiple logins of the same character on MySQL
+<li> increased visibility of RPSlot.getOwner() to protected
+</ul> 
 
-<br><b>3.8.2</b>
-<br>- always call rewriteSql
-<br>- speed up first connection time on servers with low entropy
-<br>- increased visibility of RPSlot.add(RPObject object, boolean assignId) to protected
-<br>- add method to check the length of a column during database update
-<br>- added new Result.FAILED_OFFLINE of account/character creation to be used when the server is not reachable
-<br><b>3.8.1</b>
-<br>- added new method ClientFrameWork.sendKeepAlive for keeping the connection open more than 10 minutes in the character selection state pre game
-<br>- added new method DBCommandQueue.getOneResult
-<br>- database: added id and status to characters table
-<br>- fixed an issue if a client with version 32 and a client with version 32 are in the same zone
+<b>3.8.2</b>
+<ul> 
+<li> always call rewriteSql
+<li> speed up first connection time on servers with low entropy
+<li> increased visibility of RPSlot.add(RPObject object, boolean assignId) to protected
+<li> add method to check the length of a column during database update
+<li> added new Result.FAILED_OFFLINE of account/character creation to be used when the server is not reachable
+
+<b>3.8.1</b>
+<li> added new method ClientFrameWork.sendKeepAlive for keeping the connection open more than 10 minutes in the character selection state pre game
+<li> added new method DBCommandQueue.getOneResult
+<li> database: added id and status to characters table
+<li> fixed an issue if a client with version 32 and a client with version 32 are in the same zone
+</ul> 
 
 <br><b>3.8</b>
-<br>- attributes of type map
-<br>- multi protocol version support for client server communication (from 
+<ul> 
+<li> attributes of type map
+<li> multi protocol version support for client server communication (from 
 version 31 to 40)
-<br>- multi protocol version support for database storage
-<br>- added ability to RPClass.bake() the RPClass to speed up performance.
-<br>- logins are now processed asynchronously to speed up performance
-<br>- only count clients that are in game in the statistics (not the ones 
+<li> multi protocol version support for database storage
+<li> added ability to RPClass.bake() the RPClass to speed up performance.
+<li> logins are now processed asynchronously to speed up performance
+<li> only count clients that are in game in the statistics (not the ones 
 waiting to connect or waiting to logout)
-<br><b>Please see <a href = "http://stendhalgame.org/wiki/Marauroa_3.8">http://stendhalgame.org/wiki/Marauroa_3.8</a> for details on 
+</ul> 
+
+<b>Please see <a href = "http://stendhalgame.org/wiki/Marauroa_3.8">http://stendhalgame.org/wiki/Marauroa_3.8</a> for details on 
 those features</b>
+</div>
 
 ]]>
 <!-- 
