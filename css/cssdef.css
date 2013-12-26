@@ -1,5 +1,5 @@
 /***************************************************************************
- *              (C) Copyright 2005-2010 - The Arianne Project              *
+ *              (C) Copyright 2005-2013 - The Arianne Project              *
  ***************************************************************************
  ***************************************************************************
  *                                                                         *
@@ -32,7 +32,8 @@
 body { 
 	font-family: Arial, Helvetica, Geneva, Sans-serif; 
 	background-color: #fff;
-	margin:0; padding:0; 
+	margin:0;
+	padding:0; 
 }
 
 
@@ -65,13 +66,6 @@ body {
 	padding:5px;
 }
 
-p {
-	font-family: Arial, Helvetica, Geneva, Sans-Serif;
-}
-p.abstract {
-	font-family: Arial, Helvetica, Geneva, Sans-Serif;
-}
-
 table {
 	width: 100%; 
 	vertical-align:top;
@@ -90,7 +84,6 @@ a:visited{color: #334dd1;}
 
 
 H1{
-	font-family: Arial,Helvetica,Geneva,Sans-Serif; 
 	font-size: 16pt; 
 	font-weight: lighter; 
 	color: #000; 
@@ -98,29 +91,21 @@ H1{
 }
 
 H2{
-	font-family: Arial,Helvetica,Geneva,Sans-Serif; 
 	font-size: 14pt; 
 	font-weight: lighter; 
 	color: #000; 
 
 }
 H3{
-	font-family: Arial,Helvetica,Geneva,Sans-Serif; 
 	font-size: 13pt; 
 	font-weight: lighter; 
 	color: #000;
 }
 H4{
-	font-family: Arial,Helvetica,Geneva,Sans-Serif; 
 	font-size: 12pt; 
 	font-weight: lighter; 
 	color: #000;
 }
-
-ul{ font-family: Arial, Helvetica, Geneva, Sans-Serif; }
-li{ font-family: Arial, Helvetica, Geneva, Sans-Serif;}
-
-blockquote{ font-family: Arial, Helvetica, Geneva, Sans-Serif;}
 
 /************************************/
 /* Titles For sections with link and 'Click Here For Page Details ' */
@@ -150,8 +135,16 @@ ul.rating li p { }
 #title_section .right-title-image { float:right; width:324px; height:90px; border: 0; margin:0; padding:0; background-image:url("../images/mainpage_title_b.png"); background-repeat:no-repeat;}
 #title_section p { display:none; }
 
-#menubarcontainer { margin:0 0 20px 0; height: 21px; padding:0; clear: both; display:block;  background-color:#2a0; font-size:9pt; font-weight: bold; }
-/*#topmenubar p { margin:0;padding:0; display:block; clear:both; }*/
+#menubarcontainer {
+	margin:0 0 20px 0;
+	height: 21px;
+	padding:0;
+	clear: both;
+	display:block;
+	background-color:#2a0;
+	font-size:9pt;
+	font-weight: bold;
+}
 
 /************************************/
 /* our menu bar list standard class */
@@ -172,7 +165,10 @@ ul.menubar li {
 	border: 1px solid black;
 }
 
-ul.menubar li a { padding: 0px 10px; margin: 3px 0 3px 0; }
+ul.menubar li a {
+	padding: 0px 10px; 
+	margin: 3px 0 3px 0;
+}
 
 ul.menubar li a:hover {
 	color: #000;
@@ -235,9 +231,16 @@ ul.menubar li a:link:hover {
 
 /* if you want you can use images as backgrounds to these divs instead */        
 #tool-menu-image,
-#game-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;}  /*background-image: url("/images/gameLogo.gif"); background-repeat:no-repeat; } */
-#pw-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;} 
-#rate-menu-image { font-size: 12pt; font-family: sans-serif; font-weight:bold; padding:3px; margin:0; border-bottom:1px solid gray; color:#fff;} 
+#game-menu-image,
+#pw-menu-image, 
+#rate-menu-image {
+	font-size: 12pt;
+	font-weight:bold;
+	padding:3px;
+	margin:0;
+	border-bottom:1px solid gray;
+	color:#fff;
+} 
 
 /************************************/
 /* Page content (DIV right of left menu ) */
@@ -316,22 +319,18 @@ ul.menubar li a:link:hover {
 /************************************/
 /* game page */
 
-.game_description { border-bottom: 1px solid gray; padding-bottom:10px;}
-
-.game_downloads{ border-bottom: 1px solid gray;  padding-bottom:10px;}
-
-.game_authors{ border-bottom: 1px solid gray; padding-bottom:10px; }
-
-.game_manual{ border-bottom: 1px solid gray;  padding-bottom:10px;}
-
-.game_screens{ border-bottom: 1px solid gray; padding-bottom:10px; }
-
-.game_servers{ border-bottom: 1px solid gray; padding-bottom:10px; }
-
-.game_changelog{ border-bottom: 1px solid gray; padding-bottom:10px; }
+.game_description,
+.game_downloads
+.game_authors,
+.game_manual,
+.game_screens,
+.game_servers,
+.game_changelog {
+	border-bottom: 1px solid gray;
+	padding-bottom:10px;
+}
 
 #game_topimage {
-	
 	position:relative;
 	float: right;
 	clear:right;
