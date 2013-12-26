@@ -82,6 +82,7 @@ if ($page->writeHttpHeader()) {
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 <?php
 	echo '<link rel="stylesheet" type="text/css" href="/css/cssdef.css">';
+	echo '<meta name="viewport" content="width=device-width, initial-scale=1" />';
 	$page->writeHtmlHeader();
 ?>
 
