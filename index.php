@@ -104,10 +104,10 @@ if ($page->writeHttpHeader()) {
 			<div id="menubarcontainer">
 				<a href="/">News</a>
 				<a href="/about.html">About</a>
-				<a href="/game/stendhal.html">Stendhal</a>
-				<a href="/game/jmapacman.html">jMacPacman</a>
+				<a href="/game/stendhal.html">Stendhal MORPG</a>
+				<a href="/game/jmapacman.html">jMaPacman</a>
 				<a href="/engine/marauroa.html">Marauroa</a>
-				<a href="/tool/marboard.html">Marboard</a>
+				<a href="/tool/marboard.html">Marboard Engine</a>
 				<a href="/contact.html">Contact</a>
 				<div class="clear"></div>
 			</div>
