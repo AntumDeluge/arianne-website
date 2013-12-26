@@ -146,6 +146,7 @@ ul.rating li {display:inline; padding-left:20px;}
 .right-title-image {
 	width:286px;
 	background-image:url("../images/mainpage_title_b.png");
+	float: right;
 }
 #title_section p { display:none; }
 
@@ -623,6 +624,9 @@ a.newsitemtitle:hover {
 @media screen and (max-width: 800px) {
 	.left-title-image {
 		display: none
+	}
+	.right-title-image {
+		float: none;
 	}
 }
 
