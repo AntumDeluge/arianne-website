@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule cssdef.*\.css /css/cssdef.css
+#RewriteRule cssdef.*\.css /css/cssdef.css
