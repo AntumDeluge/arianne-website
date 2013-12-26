@@ -151,7 +151,6 @@ ul.rating li {display:inline; padding-left:20px;}
 
 #menubarcontainer {
 	margin:0 0 20px 0;
-	height: 21px;
 	padding:0;
 	clear: both;
 	display:block;
@@ -159,6 +158,28 @@ ul.rating li {display:inline; padding-left:20px;}
 	font-size:9pt;
 	font-weight: bold;
 }
+
+#menubarcontainer a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	float: left;
+	padding: 2px 0.5em 2px 0.5em;
+	color: #000;
+	border: 1px solid #000;
+	background-color: #FFF;
+	margin: 2px 1em 2px 1em;
+	width: 6em;	
+}
+
+.clear {
+	clear: both;
+}
+
+#menubarcontainer a:hover {
+	text-decoration: underline;
+}
+
 
 /************************************/
 /* our menu bar list standard class */

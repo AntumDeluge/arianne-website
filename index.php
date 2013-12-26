@@ -101,17 +101,14 @@ if ($page->writeHttpHeader()) {
 			</div>
 
 			<div id="menubarcontainer">
-				<div id="topmenubar">
-					<ul class="menubar">
-						<li><a href="/">News</a></li>
-						<li><a href="/about.html">About Arianne</a></li>
-						<li><a href="/game/stendhal.html">Stendhal MORPG</a></li>
-						<li><a href="/game/jmapacman.html">jMacPacman</a></li>
-						<li><a href="/engine/marauroa.html">Marauroa Engine</a></li>
-						<li><a href="/tool/marboard.html">Marboard</a></li>
-						<li><a href="/contact.html">Contact</a></li>
-					</ul>
-				</div>
+				<a href="/">News</a>
+				<a href="/about.html">About</a>
+				<a href="/game/stendhal.html">Stendhal</a>
+				<a href="/game/jmapacman.html">jMacPacman</a>
+				<a href="/engine/marauroa.html">Marauroa</a>
+				<a href="/tool/marboard.html">Marboard</a>
+				<a href="/contact.html">Contact</a>
+				<div class="clear"></div>
 			</div>
 
 
