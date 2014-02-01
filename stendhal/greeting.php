@@ -18,7 +18,7 @@ body {
 	width: 600px;
 	color: #000000;
 	background-repeat: no-repeat;
-	background-image: url("https://stendhalgame.org/images/header_background.jpg");
+	background-image: url("/images/stendhal_header_background.jpg");
 	overflow:hidden;
 }
 img.news_image {
