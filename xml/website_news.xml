@@ -15,6 +15,25 @@
   </item>
 -->
 
+<item>
+    <title>Stendhal 1.13: Hellish repainting</title>
+    <date>2014-02-09</date>
+    <images>
+      <image url="screens/stendhal/hell113.png"/>
+      <image url="screens/stendhal/zonenames113.png"/>
+      </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>There have been reports that rats are more aggressive towards week people. Are they just hungry? Or is more going on? There are even rumors that hell itself has been repainted.</p> 
+
+<p>With the angst about unseen forces being active, the good wizards have worked restlessly to strengthen the defenses. As a byproduct of their work, mental abilities of ordinary people have increased: Your intuition of your current position on the world is much clearer now.</p> 
+
+<p>Postman will no longer accept message for you from people, who you have mentally blocked.</p>]]>
+      </content>
+  </item>
+
+
   <item>
     <title>Stendhal 1.12: Good tidings we bring</title>
     <date>2013-12-12</date>
