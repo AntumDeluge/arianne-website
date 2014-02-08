@@ -6,7 +6,7 @@ require_once("page.php");
 require_once("share_buttons.php");
 
 //header('X-Frame-Options: sameorigin');
-header("X-Content-Security-Policy: default-src 'self'; img-src 'self' data: stendhalgame.org arianne.sf.net arianne.sourceforge.net sflogo.sourceforge.net sourceforge.net");
+header("X-Content-Security-Policy: default-src 'self'; img-src 'self' * data: stendhalgame.org arianne.sf.net arianne.sourceforge.net sflogo.sourceforge.net sourceforge.net");
 
 
 define('ARIANNE_TITLE', ' &ndash; The Arianne Project');
