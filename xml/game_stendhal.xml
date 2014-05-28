@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2014-02-09"/>
-  <version id="1.13"/>
+  <updated date="2014-06-03"/>
+  <version id="1.14"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -13,7 +13,7 @@
       <a href="http://happypenguin.org/show?stendhal"><img src="http://happypenguin.org/rateomatic?stendhal"></a>]]>    
     </entry> -->
     <entry>
-      <![CDATA[<a href="http://freshmeat.net/projects/stendhal/"><img src="/images/fm_logo.png"></a>]]>    
+      <![CDATA[<a href="http://freecode.com/projects/stendhal/"><img src="/images/fm_logo.png"></a>]]>    
     </entry>
 <!-- broken link    <entry>
       <![CDATA[<a href="http://www.gamesites200.com/mpog/vote.php?id=1850"><img src="http://www.gamesites200.com/mpog/vote.gif" ALT="Paid and Free
@@ -49,7 +49,35 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
-<h3 id="v1.13">1.13</h3>
+<h3 id="v1.14">Stendhal 1.14</h3>
+<b>world</b><ul>
+<li> new park in Fado city, south of church
+<li> Easter map for Fado city
+</ul>
+
+<b>website</b><ul>
+<li> unified search: creatures, items, quests, achievements, players, world guide, player's guide
+<li> integration of wiki pages
+<li> detail pages for quests, regions and dungeons
+<li> links from NPC, items and creatures to related quests
+<li> new, cleaner layout with drop down menus
+<li> breadcrumbs for easier navigation
+<li> gallery for screenshots
+<li> website now works on small devices
+</ul>
+
+<b>fixes</b><ul>
+<li> length of text messages limited and line breaks fixed on Java 7/8
+<li> wedding ring supports double click
+<li> message on shocked
+<li> code cleanup and documentation improvements
+<li> excessly high atk and def level are capped for fighters with little experience 
+  (average players should not notice much of a difference)
+</ul>
+
+
+
+<h3 id="v1.13">Stendhal 1.13</h3>
 <b>World</b><ul>
 <li> Nice zone names
 <li> Dragon slayer achievement
@@ -76,7 +104,8 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 </ul>
 
 
-<h3 id="v1.12">1.12</h3>
+
+<h3 id="v1.12">Stendhal 1.12</h3>
 <b>World</b><ul>
 <li> New Christmas maps for bank, townhall, storage (Eonnas house, all Semos)
 <li> Meet Santa and Rudolph
@@ -102,7 +131,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 </ul>
 
 
-<h3 id="v1.11">1.11</h3>
+<h3 id="v1.11">Stendhal 1.11</h3>
 <b>World</b><ul>
 <li> Mine Town Weeks are celebrated
 <br>  -- New Paper chase quest
@@ -317,6 +346,13 @@ behaviour
 <br>- fixed the automatic scrolling of the chat log sometimes turning off by itself
 <br>- several small fixes to entity views sometimes missing changes
 
+
+</div>
+]]>
+<!-- 
+<![CDATA[
+
+
 <p><b>1.04</b>
 
 <br><b>*world*</b>
@@ -360,10 +396,6 @@ behaviour
 <br><b>*website*</b>
 <br>- email-address can now be changed
 
-</div>
-]]>
-<!-- 
-<![CDATA[
 
 <p><b>1.02</b>
 <br><b>*world*</b>
