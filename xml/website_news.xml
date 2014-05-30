@@ -6,7 +6,7 @@
     <title></title>
     <date></date>
     <images>
-      <image url=""/>
+      <image url="" large=""/>
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
@@ -16,6 +16,28 @@
 -->
 
 <item>
+    <title>Stendhal 1.14: Knowlege and Wisdom</title>
+    <date>2014-06-03</date>
+    <images>
+      <image url="screens/stendhal/fadogarden114.png"/>
+      <image url="screens/stendhal/website114.png" large="screens/stendhal/website114large.png" />
+      </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>The librarians haven been busy at work to make information easily accessible: Information about creatures and items, quests and achievements, as well as guides about the world and guides for players, even a register of residents is included.</p>
+
+<p>But knowledge alone is not wisdom. Experience is important, too. So a real warriors seeks out into the world to become a truly effective fighter. Warriors with very little experience but highly trained attack and defense skills will notice that they are less efficient, until they gain experience. (Average players will not be affected by the change).</p>
+
+<p>Need a break from studying and training? Join us in the new garden in Fado City and relax for a while.</p>
+
+<p>You can also read the full <a href="http://arianne.sourceforge.net/game/stendhal.html#changes">full change log</a>.</p>
+]]>
+      </content>
+  </item>
+
+
+  <item>
     <title>Stendhal 1.13: Hellish repainting</title>
     <date>2014-02-09</date>
     <images>
