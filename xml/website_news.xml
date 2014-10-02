@@ -14,6 +14,22 @@
       </content>
   </item>
 -->
+<item>
+    <title>Stendhal 1.15: Celebrating secrets</title>
+    <date>2014-06-04</date>
+    <images>
+      <image url="screens/stendhal/secrets115.png"/>
+      <image url="screens/stendhal/translucent115.png"/>
+      </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>Secrets, secrets everywhere.</p>
+
+<p>You can also read the full <a href="http://arianne.sourceforge.net/game/stendhal.html#changes">full change log</a>.</p>
+]]>
+      </content>
+  </item>
 
 <item>
     <title>Stendhal 1.14: Knowlege and Wisdom</title>
