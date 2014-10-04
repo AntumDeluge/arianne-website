@@ -16,7 +16,7 @@
 -->
 <item>
     <title>Stendhal 1.15: Celebrating secrets</title>
-    <date>2014-06-04</date>
+    <date>2014-10-05</date>
     <images>
       <image url="screens/stendhal/secrets115.png"/>
       <image url="screens/stendhal/translucent115.png"/>
@@ -24,7 +24,11 @@
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[
-<p>Secrets, secrets everywhere.</p>
+<p>Yay, it's time to party! Today the yearly celebration of the Mine Town Revival weeks start at the dungeon entrance north of Semos city. We have fun games, food and drinks. The popular Sokoban game and paper chase are back as well.
+
+<p>Semos is decorated in a mystic theme. But keep your eyes open, there may be real secrets hidden behind the scenes. For example, Ados children are passing cryptic messages forth and back about their observations.
+
+<p>There are, however, other forces at play, too, pushing hard for more transparency. If your computer is fast enough, that is.</p>
 
 <p>You can also read the full <a href="http://arianne.sourceforge.net/game/stendhal.html#changes">full change log</a>.</p>
 ]]>
