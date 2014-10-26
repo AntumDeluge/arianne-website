@@ -14,6 +14,26 @@
       </content>
   </item>
 -->
+
+<item>
+    <title>Stendhal 1.15.1: Poisoned Death</title>
+    <date>2014-10-26</date>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>Stendhal 1.15.1 is a server-only <b>security fix</b>. It fixes an issue resulting in multiple corpse from a single creature, 
+if this creature was poisoned by a summon-scroll creature.</p>
+<ul>
+<li> <a href="http://sourceforge.net/projects/arianne/files/stendhal/1.15.1/">Server download</a>
+<li> <a href="http://arianne.cvs.sourceforge.net/viewvc/arianne/stendhal/src/games/stendhal/server/entity/RPEntity.java?r1=1.440&ramp;2=1.440.4.1&amp;pathrev=VERSION_01_RELEASE_15_REVISION_01">Source code changes</a>
+</ul>
+
+<p>If you are curious about how such a bug happens, have a look at the <a href="https://stendhalgame.org/news/stendhal-1-15-1-poisoned-death-117.html">detailed analysis</a>.
+]]>
+      </content>
+  </item>
+
+
 <item>
     <title>Stendhal 1.15: Celebrating secrets</title>
     <date>2014-10-05</date>
