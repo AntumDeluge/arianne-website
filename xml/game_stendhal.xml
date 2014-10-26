@@ -1159,10 +1159,10 @@ your error log files and please continue to do so.
     <image name="20051023_stendhal.jpg"/>
   </screenshots>
   <files>
-    <file type="binary" name="stendhal-XXX.zip" suggest="true">
+    <file type="client" name="stendhal-XXX.zip" suggest="true">
       <description>This file contains the stendhal client. Download this to play online.</description>
     </file>
-    <file type="server script binary" name="stendhal-server-XXX.zip">
+    <file type="server" name="stendhal-server-XXX.zip">
       <description><![CDATA[This file contains the stendhal server files.<br>See <a href="https://stendhalgame.org/wiki/Host_a_Stendhal_Server">hosting information</a>.]]></description>
     </file>
     <file type="source" name="stendhal-XXX-src.tar.gz">
