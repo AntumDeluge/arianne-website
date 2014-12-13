@@ -15,6 +15,42 @@
   </item>
 -->
 
+  <item>
+    <title>Stendhal 1.16: Lil Snowflake</title>
+    <date>2014-12-13</date>
+    <images>
+      <image url="screens/stendhal/snowing116.png" large="screens/stendhal/snowing116large.png"/>
+      <image url="screens/stendhal/tree116.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>Semos is decorated for Christmas and everyone is really excited.
+<p>Two years ago, <i>Oh Tannenbaum</i> was the seasonal song, this year,
+we picked another old German carol:
+<blockquote><i>
+Schneefl&ouml;ckchen, Wei&szlig;r&ouml;ckchen,<br>
+wann kommst du geschneit?<br>
+Du wohnst in den Wolken,<br>
+dein Weg ist so weit.
+</i></blockquote>
+English version:
+<blockquote><i>
+Lil' Snowflake, Lil' White Skirt,<br>
+When will you snow?<br>
+You live in the clouds<br>
+Your way is so far.
+</i></blockquote>
+<p>Speaking of snowflakes, it's snowing peacefully in Semos for the first time 
+in Stendhal history. But be careful, the weather is not that nice high up in 
+the mountains. Let's hope, Santa won't get caught by surpise.
+<p>
+      ]]>
+      </content>
+  </item>
+
+
+
 <item>
     <title>Stendhal 1.15.1: Poisoned Death</title>
     <date>2014-10-26</date>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2014-10-26"/>
-  <version id="1.15.1"/>
+  <updated date="2014-12-13"/>
+  <version id="1.16"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -49,6 +49,17 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.16">Stendhal 1.16: Lil' Snowflake</h3>
+
+<b>world</b><ul>
+<li> Semos city is decorated for Christmas 
+<li> Falling snow 
+<li> Leaderhosen outfit
+</ul>
+<b>code</b><ul>
+<li> weather layer
+</ul>
+
 
 <h3 id="v1.15.1">Stendhal 1.15.1: Poisoned Death</h3>
 <ul><li><b>Security fix:</b> Summon scroll creatures poisoning a moster resulted in multiple corpse
