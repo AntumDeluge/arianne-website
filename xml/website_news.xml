@@ -19,7 +19,7 @@
     <title>Stendhal 1.16: Lil' Snowflake</title>
     <date>2014-12-13</date>
     <images>
-      <image url="screens/stendhal/snowing116.png" large="screens/stendhal/snowing116large.png"/>
+      <image url="screens/stendhal/snowing116.gif" large="screens/stendhal/snowing116large.gif"/>
       <image url="screens/stendhal/tree116.png"/>
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
