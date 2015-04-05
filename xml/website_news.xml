@@ -16,6 +16,25 @@
 -->
 
   <item>
+    <title>Stendhal: Bunny spotted</title>
+    <date>2015-04-05</date>
+    <images>
+      <image url="screens/stendhal/bunny116.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>According to popular rumors a bunny is roaming the world. 
+It is said that he is carrying a basket of chocolate and hands 
+out sweets to any person he meets. The citizens of Semos have 
+decorated their houses in an attempt to lure the generous bunny 
+into their town.
+      ]]>
+      </content>
+  </item>
+
+
+  <item>
     <title>Stendhal 1.16: Lil' Snowflake</title>
     <date>2014-12-13</date>
     <images>
