@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2014-12-13"/>
-  <version id="1.16"/>
+  <updated date="2015-04-19"/>
+  <version id="1.17"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -49,6 +49,53 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+  
+<h3 id="v1.17">Stendhal 1.17: Water from above and below</h3>
+<b>world</b><ul>
+<li> Varying weather at outside zones
+<li> A new fish swimming along the coast in Ados City
+<li> Clubs and swords are visible during fights
+<li> Added to Daily Item Quest list: 5 olives, 2 marbles
+<li> Drunken player speech is now more confusing and depends on the state of drunkenness
+<li> Different "elf" head for players and NPCs
+<li> New corpse for bone dragon
+<li> New item medicinal ring: Slightly protects against poisoning
+<li> Mainio boots reward instead of steel boots from Kanmararn Soldiers quest
+<li> Corpse descriptions state the creature name, instead of just the creature class
+<li> Animated flame tiles replaced in int_semos_wizards_tower_1
+</ul> 
+
+<b>chat</b><ul>
+<li> More visible new chat message indication
+<li> Links to stendhalgame.org in the chat log can be opened with a mouse click
+<li> Add hotkeys for cycling through chat log tabs: "Ctrl+Shift+left/right"
+<li> Alias "/status" for command "/sentence"
+<li> Alias "zucchini" for "courgette", Alias "armour" for "armor", Alias "color" for "colour", Alias "extend" for "prolong"
+<li> "sentence" is now displayed in player description when using "Look"
+</ul>
+
+<b>client</b><ul>
+<li> Can restore window width, height, and maximized state
+<li> Drawing weather can be disabled in settings
+<li> Active entities reset animated sprite index to 1 to appear standing when stopped
+<li> Zombie status is indicated by making the player green
+</ul>
+
+<b>fixes</b><ul>
+<li> Fix player cannot move after zombie status wears off
+<li> Karma reward for quests: Kill Dhohr Nuggetcutter, Coal for Haunchy
+<li> Refactored plant/cactus_2.png, object/row_boat.png
+<li> Reporting killers on an entity death no longer lists all attackers at the time of death
+<li> The server no longer sends perceptions for deleted entities
+</ul>
+
+<b>code</b><ul>
+<li> Organized outfit parts into subdirectories
+<li> Changed "player_base" outfit type to "body"
+<li> A new script for replacing maps on a running server
+</ul>
+  
+
 <h3 id="v1.16">Stendhal 1.16: Lil' Snowflake</h3>
 
 <b>world</b><ul>

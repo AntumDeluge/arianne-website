@@ -14,6 +14,33 @@
       </content>
   </item>
 -->
+  <item>
+    <title>Stendhal 1.17: Water from above and below</title>
+    <date>2015-04-19</date>
+    <images>
+      <image url="screens/stendhal/oceanfish117.png"/>
+      <image url="screens/stendhal/rain117.gif"/>
+      <image url="screens/stendhal/attacksprite117.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>Fish are jumping out of the water. Did they smell the rain?
+
+<p>The snow during this Christmas season was a harbinger for the new weather system. Now you can expect real and dynamic weather effects all around the world. It may start to rain. If it is hot outside, you may hear thunder. But if it is too cold, the rain will turn into snow.
+
+<p>Despite the bad weather, the great masters of melee combat have improved their style. Swords and clubs are now visible during fights. 
+
+<p>A new medicinal ring is said to offer some protection against being poisoned. Is it true or just imagination?
+
+<p>In the Stendhal client, the indication of new chat message is more visible now. If you are using a very old computer, you can disable weather effects to improve drawing performance. 
+
+<p>Please see the complete <a href="http://arianne.sourceforge.net/game/stendhal.html#changes">change log</a> for additional changes. 
+      ]]>
+      </content>
+  </item>
+
+
 
   <item>
     <title>Stendhal: Bunny spotted</title>
