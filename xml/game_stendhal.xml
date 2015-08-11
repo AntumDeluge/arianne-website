@@ -7,8 +7,9 @@
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
   <keywords>Stendhal, game, online game, online games, multiplayer game, adventure game, multiplayer online games, MMORGP, RPG, role playing game, arianne</keywords>
   <short-description>Stendhal is a fun friendly and completely free multiplayer online adventure game with an old school feel.</short-description>
+<!--
   <rated>
-<!-- broken link   
+   
     <entry><![CDATA[
       <a href="http://happypenguin.org/show?stendhal"><img src="http://happypenguin.org/rateomatic?stendhal"></a>]]>    
     </entry>
@@ -22,9 +23,9 @@ MMORPG & MPOG" border="0"></a>]]>
   <entry>
       <![CDATA[&nbsp;&nbsp; <script type="text/javascript" src="http://www.ohloh.net/projects/3711/widgets/project_users"></script>]]>
     </entry>
--->
-
   </rated>
+  -->
+  
   <description><![CDATA[ 
 <p>Stendhal has a huge and rich world. You can explore cities, forest, mountains, mines, plains, caves and dungeons.</p>
 <p>
