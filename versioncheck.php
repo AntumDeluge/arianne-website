@@ -10,7 +10,7 @@ if ($_REQUEST['gamename'] == 'stendhal') {
 	if ($_REQUEST['version'] < $version) {
 		echo '<html><body>Your client is out of date. The latest version is '.$version.'. <br>';
 		echo 'But you are using '.htmlspecialchars($_REQUEST['version']).'. <br>';
-		echo "Download from http://arianne.sourceforge.net";
+		echo "Download from https://arianne-project.org";
 	}
 
 	if ($_REQUEST['version'] == '1.01.5') {
@@ -22,7 +22,7 @@ if ($_REQUEST['gamename'] == 'stendhal') {
 		if ($_REQUEST['version'] >= '2.') {
 			echo '<html><body>Your client is out of date. The latest version is '.$version.'<br>';
 			echo 'You are using an unofficial client which will not update automatically.<br>';
-			echo 'Please download the most recent version of the offical client from  http://arianne.sourceforge.net ';
+			echo 'Please download the most recent version of the offical client from  https://arianne-project.org ';
 		}
 	}
 }

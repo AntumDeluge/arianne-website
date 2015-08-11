@@ -51,17 +51,17 @@ class RssPage extends Page {
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 	<title>Arianne News</title>
-	<link>http://arianne.sourceforge.net</link>
+	<link>https://arianne-project.org</link>
 	<description>A Multiplayer Online Role Playing Framework.</description>
 	<language>en</language>
 	<copyright>Arianne Project</copyright>
 	<pubDate><?php echo date("D, d M Y H:i:s O");?></pubDate>
 	<image>
-		<url>http://arianne.sourceforge.net/favicon.png</url>
+		<url>https://arianne-project.org/favicon.png</url>
 		<title>Arianne News</title>
-		<link>http://arianne.sourceforge.net</link>
+		<link>https://arianne-project.org</link>
 	</image>
-	<atom:link href="http://arianne.sourceforge.net/rss/news.rss" rel="self" type="application/rss+xml" />
+	<atom:link href="https://arianne-project.org/rss/news.rss" rel="self" type="application/rss+xml" />
 <?php
 	}
 
@@ -79,11 +79,11 @@ class RssPage extends Page {
 				}
 			}
 			echo '<description>'.$this->renderText(trim($content)).'</description>';
-			echo '<link>http://arianne.sourceforge.net/news/'.$strippedTitle.'.html</link>';
+			echo '<link>https://arianne-project.org/news/'.$strippedTitle.'.html</link>';
 			echo '<author>newsfeed@stendhalgame.org (Arianne Project)</author>';
 			echo '<pubDate>'.date("D, d M Y H:i:s O", strtotime($item['date'][0])).'</pubDate>';
 			echo '<category>Arianne Accounement</category>';
-			echo '<guid>http://arianne.sourceforge.net/news/'.$strippedTitle.'.html</guid>';
+			echo '<guid>https://arianne-project.org/news/'.$strippedTitle.'.html</guid>';
 		echo '</item>'."\r\n";
 	}
 

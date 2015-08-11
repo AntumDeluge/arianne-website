@@ -6,11 +6,12 @@
   <status value="beta"/>
   <keywords>Multiplayer pacman, pacman game</keywords>
   <short-description>JMaPacman is a multi player version of the classical Pacman.</short-description>
+  <!-- 
   <rated>
     <entry>
       <![CDATA[<a href="http://freshmeat.net/projects/jmapacman/"><img src="/images/fm_logo.png"></a>]]>    
     </entry>
-  </rated>
+  </rated> -->
   <description><![CDATA[ 
 <p>JMaPacman is a clone of the old Arcade Game Pacman with new features and news design.<br>
 Now you can play Pacman with your friends together in one game. You have many levels to explore and many dots to eat ;)<br>
@@ -24,11 +25,11 @@ Who will reach the Top Score?</p>
   <p/><h2>Webstart</h2>
   JMaPacman uses Java Webstart technology that enables you to use always the latest version available without having to worry about updates.<br>
   Just click on the button to launch the client.
-  <p/><a href="http://arianne.sourceforge.net/jws/jmapacman.jnlp"><img src="/images/webstart.png" alt="Click here to play"></a>
+  <p/><a href="/jws/jmapacman.jnlp"><img src="/images/webstart.png" alt="Click here to play"></a>
   ]]>
   </extended>
    -->
-  <manual url="http://arianne.sourceforge.net/wiki/index.php/JMaPacmanManual"/>  
+  <manual url="https://stendhalgame.org/wiki/JMaPacmanManual"/>  
   <changelog><![CDATA[
   <ul> 
 <li> added Killed-Splash when Ghost or Player is killed
@@ -60,7 +61,7 @@ Who will reach the Top Score?</p>
   </files>
   <authors>
     <entry name="Martin Spüler" url=""/>
-    <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>
+    <entry name="Miguel Angel Blanch Lardin" url="https://stendhalgame.org/wiki/User:MiguelAngelBlanchLardin"/>
     <entry name="Hans Haggstrom" url=""/>
     <entry name="Hendrik Brummermann" url=""/>
     <entry name="Pavlo Shelyazhenko" url=""/> 

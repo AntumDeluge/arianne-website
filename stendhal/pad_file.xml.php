@@ -13,7 +13,7 @@
 		<State_Province />
 		<Zip_Postal_Code />
 		<Country />
-		<Company_WebSite_URL>http://arianne.sf.net</Company_WebSite_URL>
+		<Company_WebSite_URL>https://arianne-project.org</Company_WebSite_URL>
 		<Contact_Info>
 			<Author_First_Name />
 			<Author_Last_Name />
@@ -83,14 +83,14 @@
 	</Program_Descriptions>
 	<Web_Info>
 		<Application_URLs>
-			<Application_Info_URL>http://arianne.sourceforge.net/game/stendhal.html</Application_Info_URL>
+			<Application_Info_URL>https://arianne-project.org/game/stendhal.html</Application_Info_URL>
 			<Application_Order_URL />
-			<Application_Screenshot_URL>http://arianne.sourceforge.net/screens/stendhal/raid20110105.jpg</Application_Screenshot_URL>
+			<Application_Screenshot_URL>https://arianne-project.org/screens/stendhal/raid20110105.jpg</Application_Screenshot_URL>
 			<Application_Icon_URL>https://stendhalgame.org/favicon.ico</Application_Icon_URL>
-			<Application_XML_File_URL>http://arianne.sourceforge.net/stendhal/pad_file.xml</Application_XML_File_URL>
+			<Application_XML_File_URL>https://arianne-project.org/stendhal/pad_file.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://arianne.sourceforge.net/download/stendhal.zip</Primary_Download_URL>
+			<Primary_Download_URL>https://arianne-project.org/download/stendhal.zip</Primary_Download_URL>
 			<Secondary_Download_URL>https://sourceforge.net/projects/arianne/files/stendhal</Secondary_Download_URL>
 			<Additional_Download_URL_1 />
 			<Additional_Download_URL_2 />

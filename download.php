@@ -29,7 +29,7 @@ if (!isset($version) || $version == '') {
 } else {
 	$rewrittenFilename = str_replace($filesShort, $filesLong, $file);
 	$rewrittenFilename = str_replace('(version)', $version, $rewrittenFilename);
-	$target = 'http://sourceforge.net/projects/arianne/files/'.$product.'/'.$version;
+	$target = 'https://sourceforge.net/projects/arianne/files/'.$product.'/'.$version;
 	if (strpos($file, '.')) {
 		$target = $target . '/'.$rewrittenFilename.'/download';
 	}

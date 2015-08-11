@@ -8,7 +8,7 @@
   <!-- 
   <rated>
    <entry>
-      <![CDATA[<script type="text/javascript" src="http://www.ohloh.net/projects/4434/widgets/project_users?style=gray"></script>]]>
+      <![CDATA[<script type="text/javascript" src="https://www.openhub.net/projects/4434/widgets/project_users?style=gray"></script>]]>
     </entry>
   </rated>
  -->
@@ -30,10 +30,10 @@ you want.<p/>
   <extended><![CDATA[
 	<p><h2>Instructions</h2>
 	<ul>
-	<li><a href="http://stendhalgame.org/wiki/Marauroa">Marauroa Wiki</a></li>
-	<li><a href="http://stendhalgame.org/wiki/Marauroa_Core_API">Core API Overview</a></li>
-	<li><a href="http://stendhalgame.org/wiki/Marauroa_Chat_Tutorial">Marauroa Chat Tutorial</a></li>
-	<li><a href="http://stendhalgame.org/wiki/HowToWriteAdventureGamesUsingArianne">Adventure Games Concepts</a></li>
+	<li><a href="https://stendhalgame.org/wiki/Marauroa">Marauroa Wiki</a></li>
+	<li><a href="https://stendhalgame.org/wiki/Marauroa_Core_API">Core API Overview</a></li>
+	<li><a href="https://stendhalgame.org/wiki/Marauroa_Chat_Tutorial">Marauroa Chat Tutorial</a></li>
+	<li><a href="https://stendhalgame.org/wiki/HowToWriteAdventureGamesUsingArianne">Adventure Games Concepts</a></li>
 	</ul>
 
 	<p><h2>Features</h2>
@@ -99,7 +99,7 @@ you want.<p/>
 <li> use ENGINE instead of TYPE on table creation to be compatible with MySQL 5.5
 </ul> 
 
-See also <a href ="http://stendhalgame.org/wiki/Marauroa_3.9">the change document</a>.
+See also <a href ="https://stendhalgame.org/wiki/Marauroa_3.9">the change document</a>.
 
 <div class="unimportant">
 <b>3.8.7</b>
@@ -170,7 +170,7 @@ version 31 to 40)
 waiting to connect or waiting to logout)
 </ul> 
 
-<b>Please see <a href = "http://stendhalgame.org/wiki/Marauroa_3.8">http://stendhalgame.org/wiki/Marauroa_3.8</a> for details on 
+<b>Please see <a href = "https://stendhalgame.org/wiki/Marauroa_3.8">http://stendhalgame.org/wiki/Marauroa_3.8</a> for details on 
 those features</b>
 </div>
 
@@ -241,7 +241,7 @@ RPObjectFactory.transform
 <br>- added a new package marauroa.server.db for low level database stuff
 <br>- started to work on supporting other database systems beside mysql
 <br>- for help on how to port your application see <a 
-href="http://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Marauroa">Refactoring database access in Marauroa</a>
+href="https://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Marauroa">Refactoring database access in Marauroa</a>
 <br>- fixed some compiler and javadoc warnings
 
 <br><b>2.6.3</b>
@@ -342,10 +342,10 @@ href="http://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Mara
     </file>
   </files>
   <authors>
-    <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>
-    <entry name="Waldemar Tribus" url="http://arianne.sourceforge.net/wiki/index.php/WaldemarTribus"/>
-    <entry name="Benjamin Lerman" url="http://arianne.sourceforge.net/wiki/index.php/BenjaminLerman"/>
-    <entry name="Stephen Ierodiaconou" url="http://arianne.sourceforge.net/wiki/index.php/StephenIerodiaconou"/>
-    <entry name="Hendrik" url=""/>
+    <entry name="Miguel Angel Blanch Lardin" url="https://stendhalgame.org/wiki/User:MiguelAngelBlanchLardin"/>
+    <entry name="Waldemar Tribus" url="https://stendhalgame.org/wiki/User:WaldemarTribus"/>
+    <entry name="Benjamin Lerman" url="https://stendhalgame.org/wiki/User:BenjaminLerman"/>
+    <entry name="Stephen Ierodiaconou" url="https://stendhalgame.org/wiki/User:StephenIerodiaconou"/>
+    <entry name="Hendrik" url="https://stendhalgame.org/wiki/User:Hendrik_Brummermann"/>
   </authors>
 </page>

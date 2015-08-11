@@ -37,7 +37,7 @@ function WriteNewsHTMLHeaderForFirstItem($website, $title) {
 			if (isset($item['images'])) {
 				foreach ($item['images'][0]['image'] as $key=>$image) {
 					if (is_array($image)) {
-						echo '<link rel="image_src" href="http://arianne.sourceforge.net/'.$image['url'].'">';
+						echo '<link rel="image_src" href="/'.$image['url'].'">';
 						return;
 					}
 				}
@@ -86,7 +86,7 @@ function WriteNewsItemHtml($item) {
 	}
 	// the sharing buttons should go here
 	echo '<div class="social_buttons">';
-	$urlToPost = 'http://arianne.sourceforge.net/news/'.$strippedTitle.'.htm';
+	$urlToPost = 'https://arianne-project.org/news/'.$strippedTitle.'.htm';
 	// echo buildTweetButton($urlToPost, '@stendhalgame');
 	// echo buildFacebookButton($item['title'][0], $urlToPost);
 	echo '</div>';
@@ -114,11 +114,11 @@ class News extends Page {
 			echo '<meta name="keywords" content="arianne, java, python, jython, multiplayer, play, online, game, engine, framework, content creation, free, open source, gpl, MySQL, documentation, design, MMORPG">';
 			echo '<meta name="description" content="Arianne is a multiplayer online games framework and engine to develop turn based and real time games. It provides a simple way of creating games on a portable and robust server architecture. The server is coded in Java and you may use Python for your game description, provides a MySQL or H2 database backend and uses an TCP transport channel to communicate with hundreds of players.">';
 		}
-		echo '<link rel="alternate" type="application/rss+xml" title="Arianne News" href="http://arianne.sourceforge.net/rss/news.rss" >'."\n";
+		echo '<link rel="alternate" type="application/rss+xml" title="Arianne News" href="https://arianne-project.org/rss/news.rss" >'."\n";
 	}
 
 	public function writeContent() {
-		echo '<a href="http://arianne.sourceforge.net/rss/news.rss" style="float:right; z-index:1000"><img src="/images/buttons/feed-icon-28x28.png" width="28px" height="28px" alt="" title="News Feed" style="border:none"></a>';
+		echo '<a href="https://arianne-project.org/rss/news.rss" style="float:right; z-index:1000"><img src="/images/buttons/feed-icon-28x28.png" width="28px" height="28px" alt="" title="News Feed" style="border:none"></a>';
 		if (!$this->all && isset($this->title)) {
 			WriteNewsHTMLForNamedItem($this->xml, $this->title);
 			echo '<p><a href="/">Read recent news items</a></p>';

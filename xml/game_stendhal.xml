@@ -11,11 +11,11 @@
 <!-- broken link   
     <entry><![CDATA[
       <a href="http://happypenguin.org/show?stendhal"><img src="http://happypenguin.org/rateomatic?stendhal"></a>]]>    
-    </entry> -->
+    </entry>
     <entry>
       <![CDATA[<a href="http://freecode.com/projects/stendhal/"><img src="/images/fm_logo.png"></a>]]>    
     </entry>
-<!-- broken link    <entry>
+    <entry>
       <![CDATA[<a href="http://www.gamesites200.com/mpog/vote.php?id=1850"><img src="http://www.gamesites200.com/mpog/vote.gif" ALT="Paid and Free
 MMORPG & MPOG" border="0"></a>]]>    
     </entry>
@@ -1244,11 +1244,11 @@ your error log files and please continue to do so.
     <entry name="durkham" url="http://www.ohloh.net/projects/stendhal/AstridSawatzky"/>
     <entry name="MartinF" url="http://www.ohloh.net/accounts/martinfuchs"/>
     <entry name="mort" url="http://www.ohloh.net/p/stendhal/contributors/15940771139175"/>
-    <entry name="Miguel Angel Blanch Lardin" url="http://arianne.sourceforge.net/wiki/index.php/MiguelAngelBlanchLardin"/>
+    <entry name="Miguel Angel Blanch Lardin" url="https://stendhalgame.org/wiki/User:MiguelAngelBlanchLardin"/>
     <entry name="Chad3f" url="http://www.ohloh.net/p/stendhal/contributors/15940771143729"/>
-    <entry name="Steve I." url="http://arianne.sourceforge.net/wiki/index.php/StephenIerodiaconou"/>
+    <entry name="Steve I." url="https://stendhalgame.org/wiki/User:StephenIerodiaconou"/>
     <entry name="Kim Purnell Samoa" url=""/>
-    <entry name="Danter" url="http://arianne.sourceforge.net/wiki/index.php/Danter"/>
+    <entry name="Danter" url="https://stendhalgame.org/wiki/User:Danter"/>
     <entry name="Laurent Soubrevilla" url=""/>
     <entry name="Hans Haggstrom" url="http://www.iki.fi/zzorn/"/>
     <entry name="Jonas aka Damosh" url=""/>

@@ -14,7 +14,7 @@ javadocs comments but we also keep other online live documentation on our
 Wiki.</p>
 
 <h2>Wiki</h2>
-<p>A Wiki is an editable website for creating documentation. <a href="http://stendhalgame.org/wiki/Marauroa" class="navi"><b>Framework documentation.</b></a>. 
+<p>A Wiki is an editable website for creating documentation. <a href="https://stendhalgame.org/wiki/Marauroa" class="navi"><b>Framework documentation.</b></a>. 
 </p>
 
 <h2>Reporting bugs</h2>
@@ -30,14 +30,14 @@ Reports on our Sourceforge pages.</p>
   <li>Any output log files generated</li>
   <li>The basic spec of your PC (processor, RAM, Graphics Card, Operating System)</li>
 </ul>
-<p><a href="http://sourceforge.net/tracker/?group_id=1111&amp;atid=101111">Click 
+<p><a href="https://sourceforge.net/p/arianne/bugs/">Click 
 here to submit a Bug</a></p>
 
 <h2>Source code</h2>
 <p>We use CVS and Git extensively to manage our source code. Please see the documentation and repository list at the
-<a href="http://stendhalgame.org/wiki/Arianne_Source_Code_Repositories">arianne source code repositories</a> article.</p>
+<a href="https://stendhalgame.org/wiki/Arianne_Source_Code_Repositories">arianne source code repositories</a> article.</p>
 
-<p>Browse online the repositories <a href="http://arianne.git.sourceforge.net/git/gitweb-index.cgi">git</a> and <a href="http://arianne.cvs.sourceforge.net/">CVS</a>.
+<p>Browse online the repositories in <a href="https://sourceforge.net/p/arianne/_list/git">git</a>.
 </div>
 <?php
 	}

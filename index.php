@@ -6,7 +6,7 @@ require_once("page.php");
 require_once("share_buttons.php");
 
 //header('X-Frame-Options: sameorigin');
-header("X-Content-Security-Policy: default-src 'self'; img-src 'self' * data: stendhalgame.org arianne.sf.net arianne.sourceforge.net sflogo.sourceforge.net sourceforge.net");
+header("X-Content-Security-Policy: default-src 'self'; img-src 'self' * data: stendhalgame.org arianne-project.org arianne.sf.net arianne.sourceforge.net sflogo.sourceforge.net sourceforge.net");
 
 
 define('ARIANNE_TITLE', ' &ndash; The Arianne Project');
@@ -120,13 +120,13 @@ if ($page->writeHttpHeader()) {
 
 				<ul>
 					<li class="menu_title"><div id="pw-menu-image">Powered By...</div></li>
-					<li><a href="http://sourceforge.net/projects/arianne"><IMG SRC="http://sourceforge.net/sflogo.php?group_id=1111&amp;type=1" ALT="SourceForge Logo"></a></li>
-					<li><a href="http://www.java.com"><IMG SRC="/images/partners/get_java_green_button.gif" ALT="Java Logo" ></a></li>
-					<li><a href="http://www.mysql.com"><IMG SRC="/images/partners/MySQLPowered.gif" ALT="MySQL Logo"></a></li>
+					<li><a href="https://sourceforge.net/projects/arianne"><IMG SRC="https://sourceforge.net/sflogo.php?group_id=1111&amp;type=1" ALT="SourceForge Logo"></a></li>
+					<li><a href="https://www.java.com"><IMG SRC="/images/partners/get_java_green_button.gif" ALT="Java Logo" ></a></li>
+					<li><a href="https://www.mysql.com"><IMG SRC="/images/partners/MySQLPowered.gif" ALT="MySQL Logo"></a></li>
 				</ul>
 				<ul>
 					<li class="menu_title"><div id="rate-menu-image">Rate Us</div></li>
-					<li><a href="http://sourceforge.net/projects/arianne/reviews/"><IMG SRC="http://sourceforge.net/sflogo.php?group_id=1111&amp;type=1" ALT="SourceForge Logo"></a></li>
+					<li><a href="http://sourceforge.net/projects/arianne/reviews/"><IMG SRC="https://sourceforge.net/sflogo.php?group_id=1111&amp;type=1" ALT="SourceForge Logo"></a></li>
 					<!-- <li><a href="http://happypenguin.org/show?Stendhal"><img src="http://happypenguin.org/rateomatic?Stendhal" alt="Happy Penguin Rate"></a></li>-->
 				</ul>
 			

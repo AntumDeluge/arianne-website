@@ -17,7 +17,7 @@ if ($_REQUEST['from'] == 'null') {
 
 
 ?>
-<!-- <meta http-equiv="refresh" content="30; url=http://arianne.sf.net/"> --> 
+<!-- <meta http-equiv="refresh" content="30; url=https://arianne-project.org/"> --> 
 <title>Stendhal</title>
 <style type="text/css">
 body {
@@ -26,7 +26,7 @@ body {
 	width: 600px;
 	color: #000000;
 	background-repeat: no-repeat;
-	background-image: url("http://stendhalgame.org/images/header_background.jpg");
+	background-image: url("https://stendhalgame.org/images/header_background.jpg");
 	overflow:hidden;
 }
 img.news_image {
@@ -80,7 +80,7 @@ body {
 	width: 600px;
 	color: #000000;
 	background-repeat: no-repeat;
-	background-image: url("http://stendhalgame.org/images/header_background.jpg");
+	background-image: url("https://stendhalgame.org/images/header_background.jpg");
 	overflow:hidden;
 }
 img.news_image {
