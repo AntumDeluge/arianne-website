@@ -38,6 +38,8 @@
 
 <p>Using our own domains allows us to change to another hosting provider in case of an extend outage. Further more, the website will use secure https connections, which are not supported by SourceForge at this time.
 
+<p>Old links will continue to work and redirected to the new site.
+
 <h3 style="font-weight: bold">Improve availability of Stendhal webstart</h3>
 
 <p>The recent one-week-downtime at SourceForge, made it very clear, that we are having a number of "single points of failure". When any one of these "singe points of failure" fails, most of the system becomes unusable. This is regardless of how much redundancy is available at other parts of the system.
