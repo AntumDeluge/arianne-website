@@ -24,7 +24,7 @@
     <content>
       <![CDATA[<p><i>Summary: Arianne has moved to arianne-project.org. Stendhal is available on GitHub, too, in addition to SourceForge.</i>
 
-<p>Recently we did some improvements to the Arianne and Stendhal infrastructure. Arianne has been on SourceForge for 15 years now and over all these years SourceForge has offered great services free of charge for Open Source projects and we will stay on SourceForge for the time being. But we are adding more redundancy.
+<p>Recently we did some improvements to the Arianne and Stendhal infrastructure. Arianne has been on SourceForge for 15 years now and over all these years SourceForge has offered great services and we will stay on SourceForge for the time being. But we are adding more redundancy.
 
 <h3 style="font-weight: bold">Mirroring to GitHub</h3>
 
@@ -38,17 +38,17 @@
 
 <p>Using our own domains allows us to change to another hosting provider in case of an extend outage. Further more, the website will use secure https connections, which are not supported by SourceForge at this time.
 
-<p>Old links will continue to work and redirected to the new site.
+<p>Old links will continue to work and redirect to the new site.
 
-<h3 style="font-weight: bold">Improve availability of Stendhal webstart</h3>
+<h3 style="font-weight: bold">Improved availability of Stendhal webstart and updates</h3>
 
-<p>The recent one-week-downtime at SourceForge, made it very clear, that we are having a number of "single points of failure". When any one of these "singe points of failure" fails, most of the system becomes unusable. This is regardless of how much redundancy is available at other parts of the system.
+<p>The recent one-week-downtime at SourceForge, made it very clear, that we are having a number of "single points of failure". When any one of these "singe points" fails, most of the system becomes unusable. This is regardless of how much redundancy is available at other parts of the system.
 
-<p>In our case Stendhal webstart is loaded from the Stendhal website, it checks an update-description file on the Arianne website to determine if additional files need to be downloaded. Those files are downloaded from the SourceForge mirror network.
+<p>In our case Stendhal webstart is loaded from the Stendhal website, it checks an update-description file on the Arianne website to determine what additional files need to be downloaded. Those files are downloaded from the SourceForge mirror network.
 
-<p>Both the Arianne website and the SourceForge mirror network consist of many servers. So if a download-server fails, everything will continue to work without issue. But when the mirror dispatcher failed, the complete mirror network became unavailable. SourceForge repaired it within a two days.
+<p>Both the Arianne website and the SourceForge mirror network consist of many servers. So if a download-server fails, everything will continue to work without issue. But when the mirror dispatcher failed, the complete mirror network became unavailable. SourceForge repaired it within two days.
 
-<p>But at this time, Stendhal webstart was still not working anymore because the SourceForge project web services, on which the Arianne website is hosted, was not fixed until about a week later. So the Stendhal webstart client did not know, what files to download.
+<p>But at this time, howver, Stendhal webstart was still not working again because the SourceForge project web services, on which the Arianne website is hosted, was not fixed until about a week later. So the Stendhal webstart client did not know, what files to download.
 
 <p>Starting with the upcoming Stendhal version 1.18 the Webstart starter will check arianne-project.org for the update description file. If that fails, it will try again on arianne.sourceforge.net. The update description file contains complete URLs, so in case the SourceForge mirror network fails again, we can change over to Github, for example.
 
