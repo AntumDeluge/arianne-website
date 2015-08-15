@@ -36,7 +36,7 @@
 
 <p>Another important step in improving availability is migrating arianne.sourceforge.net to <a href="https://arianne-project.org">arianne-project.org</a>.
 
-<p>Using our own domains allows us to change to another hosting provider in case of an extend outage. Further more, the website will use secure https connections, which are not supported by SourceForge at this time.
+<p>Using our own domains allows us to change to another hosting provider in case of an extended outage. Furthermore, the website will use secure https connections, which are not supported by SourceForge at this time.
 
 <p>Old links will continue to work and redirect to the new site.
 
