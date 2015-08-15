@@ -18,26 +18,19 @@
     <title>Infrastructure improvements</title>
     <date>2015-04-20</date>
     <images>
+      <image url="screens/arianne/occtocat.jpeg" />
       <image url="screens/arianne/arianne-project.png" large="screens/arianne/arianne-project-large.png" />
     </images>
     <content>
-      <![CDATA[
-<p><b>Arianne has moved from arianne.sourceforge.net to <a href="https://arianne-project.org">https://arianne-project.org</a>. <a href="https://stendhalgame.org">Stendhal</a> is available on <a href="https://github.com/arianne">GitHub</a>, too, in addition to <a href="https://sourceforge.net/projects/arianne/">SourceForge</a>.</b>
-
-
-<h3 style="font-weight: bold">Improve availability of Stendhal webstart</h3>
+      <![CDATA[<p><i>Summary: Arianne has moved to arianne-project.org. Stendhal is available on GitHub, too, in addition to SourceForge.</i>
 
 <p>Recently we did some improvements to the Arianne and Stendhal infrastructure. Arianne has been on SourceForge for 15 years now and over all these years SourceForge has offered great services free of charge for Open Source projects and we will stay on SourceForge for the time being. But we are adding more redundancy.
 
-<p>The recent one-week-downtime at SourceForge, however, made it very clear, that we are having a number of "single points of failure". When any one of these "singe points of failure" fails, most of the system becomes unusable. This is regardless of how much redundancy is available at other parts of the system.
+<h3 style="font-weight: bold">Mirroring to GitHub</h3>
 
-<p>In our case Stendhal webstart is loaded from the Stendhal website, it checks an update-description file on the Arianne website to determine if additional files need to be downloaded. Those files are downloaded from the SourceForge mirror network.
+<p>Arianne now exists as <a href="https://github.com/arianne">organisation on GitHub</a>. And we already have created the <a href="https://github.com/arianne/stendhal">Stendhal repository</a>. Marauroa and other subprojects will follow.
 
-<p>Both the Arianne website and the SourceForge mirror network consist of many servers. So if a download server fails, everything will continue to work without issue. But when the mirror dispatcher failed, the complete mirror network became unavailable. SourceForge repaired it within a two days.
-
-<p>But at this time, Stendhal webstart was still not working anymore because the SourceForge project web services, on which the Arianne website is hosted, was not fixed until about a week later. So the Stendhal webstart client did not know, what files to download.
-
-<p>Starting with the upcoming Stendhal version 1.18 the Webstart starter will check arianne-project.org for the update description file. If that fails, it will try again on arianne.sourceforge.net. The update description file contains complete URLs, so in case the SourceForge mirror network fails again, we can change over to Github, for example.
+<p>For now, SourceForge remains the primary site, and Postman (ariannebot) will mirror any commits.
 
 <h3 style="font-weight: bold">arianne-project.org</h3>
 
@@ -45,12 +38,21 @@
 
 <p>Using our own domains allows us to change to another hosting provider in case of an extend outage. Further more, the website will use secure https connections, which are not supported by SourceForge at this time.
 
+<h3 style="font-weight: bold">Improve availability of Stendhal webstart</h3>
 
-<h3 style="font-weight: bold">Mirroring to GitHub</h3>
+<p>The recent one-week-downtime at SourceForge, made it very clear, that we are having a number of "single points of failure". When any one of these "singe points of failure" fails, most of the system becomes unusable. This is regardless of how much redundancy is available at other parts of the system.
 
-<p>Arianne now exists as <a href="https://github.com/arianne">organisation on GitHub</a>. And we already have created the <a href="https://github.com/arianne/stendhal">Stendhal repository</a>. Marauroa and other subprojects will follow.
+<p>In our case Stendhal webstart is loaded from the Stendhal website, it checks an update-description file on the Arianne website to determine if additional files need to be downloaded. Those files are downloaded from the SourceForge mirror network.
 
-<p>For now, SourceForge remains the primary site, and <a href="https://stendhalgame.org/character/postman.html">Postman</a> (<a href="https://github.com/ariannebot">ariannebot</a>) will mirror any commits.      ]]>
+<p>Both the Arianne website and the SourceForge mirror network consist of many servers. So if a download-server fails, everything will continue to work without issue. But when the mirror dispatcher failed, the complete mirror network became unavailable. SourceForge repaired it within a two days.
+
+<p>But at this time, Stendhal webstart was still not working anymore because the SourceForge project web services, on which the Arianne website is hosted, was not fixed until about a week later. So the Stendhal webstart client did not know, what files to download.
+
+<p>Starting with the upcoming Stendhal version 1.18 the Webstart starter will check arianne-project.org for the update description file. If that fails, it will try again on arianne.sourceforge.net. The update description file contains complete URLs, so in case the SourceForge mirror network fails again, we can change over to Github, for example.
+
+      ]]>
+
+
       </content>
   </item>
 
@@ -67,7 +69,7 @@
       <![CDATA[
 <p>Fish are jumping out of the water. Did they smell the rain?
 
-<p>The .xxxsnow during this Christmas season was a harbinger for the new weather system. Now you can expect real and dynamic weather effects all around the world. It may start to rain. If it is hot outside, you may hear thunder. But if it is too cold, the rain will turn into snow.
+<p>The snow during this Christmas season was a harbinger for the new weather system. Now you can expect real and dynamic weather effects all around the world. It may start to rain. If it is hot outside, you may hear thunder. But if it is too cold, the rain will turn into snow.
 
 <p>Despite the bad weather, the great masters of melee combat have improved their style. Swords and clubs are now visible during fights. 
 
