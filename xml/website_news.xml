@@ -36,13 +36,13 @@
 
 <p>Another important step in improving availability is migrating arianne.sourceforge.net to <a href="https://arianne-project.org">arianne-project.org</a>.
 
-<p>Using our own domains allows us to change to another hosting provider in case of an extend outage. Further more, the website will use secure https connections, which are not supported by SourceForge at this time.
+<p>Using our own domains allows us to change to another hosting provider in case of an extended outage. Furthermore, the website will use secure https connections, which are not supported by SourceForge at this time.
 
-<p>Old links will continue to work and redirected to the new site.
+<p>Old links will continue to work and be redirected to the new site.
 
 <h3 style="font-weight: bold">Improve availability of Stendhal webstart</h3>
 
-<p>The recent one-week-downtime at SourceForge, made it very clear, that we are having a number of "single points of failure". When any one of these "singe points of failure" fails, most of the system becomes unusable. This is regardless of how much redundancy is available at other parts of the system.
+<p>The recent one-week-downtime at SourceForge, made it very clear, that we are having a number of "single points of failure". When any one of these "single points of failure" fails, most of the system becomes unusable. This is regardless of how much redundancy is available at other parts of the system.
 
 <p>In our case Stendhal webstart is loaded from the Stendhal website, it checks an update-description file on the Arianne website to determine if additional files need to be downloaded. Those files are downloaded from the SourceForge mirror network.
 
