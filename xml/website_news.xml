@@ -14,6 +14,28 @@
       </content>
   </item>
 -->
+
+  <item>
+    <title>Stendhal 1.18: Voyages</title>
+    <date>2015-08-18</date>
+    <images>
+      <image url="screens/stendhal/halfelf118.png" large="screens/stendhal/halfelf118large.png" />
+      <image url="screens/stendhal/maplabel118.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>Aerianna is a half elf girl who has travelled very far. She has been to the forests in the south, climbed the mountains in the north and even spend some time in the great desert in the south east. At the moment you can meet her at Ados market while you restock your supplies.
+
+<p>Inspired by the journey of this brave girl, the cartographers have added zone names to the <a href="https://stendhalgame.org/world/atlas.html">world map</a>. Saskia started to offer umbrellas in her Magic City boutique, so you don't get wet on your own journey.
+
+<p>Last but not least, Stendhal is now available on <a href="https://github.com/arianne/stendhal">Github</a> in addition to SourceForge. The Arianne project has moved to <a href="https://arianne-project.org">arianne-project.org</a> as part of our efforts to improve the infrastructure.
+
+<p>Please see the complete <a href="/game/stendhal.html#changes">change log</a> for additional changes. 
+      ]]>
+      </content>
+  </item>
+
   <item>
     <title>Infrastructure improvements</title>
     <date>2015-08-16</date>

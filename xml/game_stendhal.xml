@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2015-04-20"/>
-  <version id="1.17"/>
+  <updated date="2015-08-18"/>
+  <version id="1.18"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,30 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.18">Stendhal 1.18: Voyages</h2>
+<b>world</b><ul>
+<li> a half elf girl and an distillery customer share their stories at Ados market
+<li> Improving dialogue of Lil Johnnny
+<li> Saskia sells umbrellas
+</ul> 
+
+<b>website</b><ul>
+<li> zone names labels on world map
+<li> http://arianne.sourceforge.net is moving to https://arianne-project.org
+</ul> 
+
+<b>fixes</b><ul>
+<li> fixed status resistance items being forgetting their status value
+<li> fixed turning left and right of character on character creation web page
+<li> fixed map in Orril Dungeon -3
+<li> fixed kill enemy quests getting stuck
+</ul> 
+
+<b>code</b><ul>
+<li> Webstart starter will be able to check both arianne-project.org and arianne.sourceforge.net for additional files.
+  So if SourceForge goes down again for a week, webstart will still be able to download Stendhal
+<li> code quality improvements
+</ul> 
   
 <h3 id="v1.17">Stendhal 1.17: Water from above and below</h3>
 <b>world</b><ul>
