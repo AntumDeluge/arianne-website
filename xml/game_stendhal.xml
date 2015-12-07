@@ -50,6 +50,26 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.19">Stendhal 1.19: Deep Sea</h2>
+<b>world</b><ul>
+<li> new interesting under water zone
+<li> new quest for a scuba diving license
+<li> new Kraken creature
+<li> Zekiel can make enhanced lion shields
+<li> cats can drink milk now
+<li> map improvements
+</ul>
+
+<b>code</b><ul>
+<li> fixed compiler warnings and code cleanup
+</ul>
+
+<b>client</b><ul>
+<li> added cancel buttons on all dialog boxes (for window managers which do not add an X to the title bar)
+</ul>
+
+
+
 <h3 id="v1.18">Stendhal 1.18: Voyages</h2>
 <b>world</b><ul>
 <li> a half elf girl and an distillery customer share their stories at Ados market

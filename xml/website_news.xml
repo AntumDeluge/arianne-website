@@ -14,6 +14,25 @@
       </content>
   </item>
 -->
+  <item>
+    <title>Stendhal 1.19: Deep Sea Mysteries</title>
+    <date>2015-12-09</date>
+    <images>
+      <image url="screens/stendhal/kraken119.png" large="screens/stendhal/kraken119large.png" />
+      <image url="screens/stendhal/milk119.png" large="screens/stendhal/milk119large.png" />
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>There are legends and rumors about mysteries hidden in deep sea: Sunken ships and dangerous creatures. Does the Kraken really exist? Or was it just made up by drunken sailors? Find out yourself by going on a quest to explore the unknown.
+<p> But be careful! Good preparation before your diving trip is important. You may want to start by doing a scuba diving license.
+
+<p> Sometimes you don't have to wander far to discover interesting things. Cats for example have just learned that milk tastes really delicious.
+
+<p>Please see the complete <a href="/game/stendhal.html#changes">change log</a> for additional changes. 
+      ]]>
+      </content>
+  </item>
 
   <item>
     <title>Stendhal 1.18: Voyages</title>
