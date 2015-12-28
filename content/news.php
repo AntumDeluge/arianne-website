@@ -118,7 +118,7 @@ class News extends Page {
 	}
 
 	public function writeContent() {
-		echo '<a href="https://arianne-project.org/rss/news.rss" class="rss"><img src="/images/buttons/feed-icon-28x28.png" width="28px" height="28px" alt="" title="News Feed" style="border:none"></a>';
+		echo '<a href="https://arianne-project.org/rss/news.rss" class="rss"><img src="/images/buttons/feed-icon-28x28.png" width="28px" height="28px" alt="" title="News Feed" class="borderless"></a>';
 		if (!$this->all && isset($this->title)) {
 			WriteNewsHTMLForNamedItem($this->xml, $this->title);
 			echo '<p><a href="/">Read recent news items</a></p>';
