@@ -13,7 +13,7 @@ define('ARIANNE_TITLE', ' &ndash; The Arianne Project');
 
 /**
  * checks a file name parameter to prevent directory traversing or remote includes
- * 
+ *
  * @param string $filename
  */
 function checkFilenameParameter($filename) {
@@ -23,20 +23,20 @@ function checkFilenameParameter($filename) {
 	if(strpos($url,"\0")!==false) {
 		return false;
 	}
-	
+
 	if(strpos($url,".")!==false) {
 		return false;
 	}
-	
+
 	if(strpos($url,"//")!==false) {
 		return false;
 	}
-	
+
 	if(strpos($url,":")!==false) {
 		// http://, https://, ftp://
 		return false;
 	}
-	
+
 	return true;
 }
 
@@ -75,13 +75,13 @@ if ($page->writeHttpHeader()) {
 
 
 
-?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+	?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <LINK REL="SHORTCUT ICON" HREF="/favicon.ico">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 <?php
-	echo '<link rel="stylesheet" type="text/css" href="/css/cssdef.css">';
+	echo '<link rel="stylesheet" type="text/css" href="/css/cssdef.css?1">';
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1" />';
 	$page->writeHtmlHeader();
 ?>
@@ -135,7 +135,7 @@ if ($page->writeHttpHeader()) {
 			<?php
 			echo '<div id="pagecontent">';
 			$page->writeContent();
-			echo '<div style="clear:both"></div>';
+			echo '<div class="clear"></div>';
 			echo '</div>';
 			?>
 		</div>
