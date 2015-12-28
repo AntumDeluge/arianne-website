@@ -67,13 +67,13 @@
 
 <p>Recently we did some improvements to the Arianne and Stendhal infrastructure. Arianne has been on SourceForge for 15 years now and over all these years SourceForge has offered great services and we will stay on SourceForge for the time being. But we are adding more redundancy.
 
-<h3 style="font-weight: bold">Mirroring to GitHub</h3>
+<h3 class="important">Mirroring to GitHub</h3>
 
 <p>Arianne now exists as <a href="https://github.com/arianne">organisation on GitHub</a>. And we already have created the <a href="https://github.com/arianne/stendhal">Stendhal repository</a>. Marauroa and other subprojects will follow.
 
 <p>For now, SourceForge remains the primary site, and Postman (ariannebot) will mirror any commits.
 
-<h3 style="font-weight: bold">arianne-project.org</h3>
+<h3 class="important">arianne-project.org</h3>
 
 <p>Another important step in improving availability is migrating arianne.sourceforge.net to <a href="https://arianne-project.org">arianne-project.org</a>.
 
@@ -81,7 +81,7 @@
 
 <p>Old links will continue to work and redirect to the new site.
 
-<h3 style="font-weight: bold">Improved availability of Stendhal webstart and updates</h3>
+<h3 class="important">Improved availability of Stendhal webstart and updates</h3>
 
 <p>The recent one-week-downtime at SourceForge, made it very clear, that we are having a number of "single points of failure". When any one of these "singe points" fails, most of the system becomes unusable. This is regardless of how much redundancy is available at other parts of the system.
 

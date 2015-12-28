@@ -64,7 +64,7 @@ function WriteNewsHTMLForNamedItem($website, $title) {
 function WriteNewsItemHtml($item) {
 	$strippedTitle = getNiceURL($item['title'][0]);
 	echo '<li class="clearright"><div class="newsitem"><div class="newstitle">'
-	.'<h2 style="padding:0; margin:0; margin-top:1em; font-weight: bold"><a class="newsitemtitle" name="'.$strippedTitle.'" href="/news/'.$strippedTitle.'.html">'.$item['title'][0].'</a></h2>'
+	.'<h2 class="newsitemtitle"><a class="newsitemtitle" name="'.$strippedTitle.'" href="/news/'.$strippedTitle.'.html">'.$item['title'][0].'</a></h2>'
 	.'</div><p class="itemdate">'.$item['date'][0].'</p>';
 
 	if (isset($item['images']) || isset($item['playnow'])) {
@@ -76,8 +76,8 @@ function WriteNewsItemHtml($item) {
 			}
 		}
 		if (isset($item['playnow'])) {
-			echo '<a href="'.$item['playnow']['0 attr']['url'].'" style="display:block;float:right;width:250px;height:42;clear:right">';
-			echo '<img style="margin-right:40px; width:170px; height:42" class="news_image" src="/'.$item['playnow']['0 attr']['image'].'" alt="" title="Play now"></a>'."\r\n";
+			echo '<a href="'.$item['playnow']['0 attr']['url'].'" class="playnow>';
+			echo '<img class="news_image playnow" src="/'.$item['playnow']['0 attr']['image'].'" alt="" title="Play now"></a>'."\r\n";
 		}
 		echo '<div class="newscontent_image">'.$item['content'][0].'</div>';
 		echo '</div>';
@@ -118,7 +118,7 @@ class News extends Page {
 	}
 
 	public function writeContent() {
-		echo '<a href="https://arianne-project.org/rss/news.rss" style="float:right; z-index:1000"><img src="/images/buttons/feed-icon-28x28.png" width="28px" height="28px" alt="" title="News Feed" style="border:none"></a>';
+		echo '<a href="https://arianne-project.org/rss/news.rss" class="rss"><img src="/images/buttons/feed-icon-28x28.png" width="28px" height="28px" alt="" title="News Feed" style="border:none"></a>';
 		if (!$this->all && isset($this->title)) {
 			WriteNewsHTMLForNamedItem($this->xml, $this->title);
 			echo '<p><a href="/">Read recent news items</a></p>';

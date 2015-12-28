@@ -74,8 +74,8 @@ class DetailPage extends Page {
 		WriteGameStatusTag($game,true);
 
 		if (isset($game['page'][0]['playnow'])) {
-			echo '<a href="'.$game['page'][0]['playnow']['0 attr']['url'].'" style="display:block;float:right;clear:right">';
-			echo '<img style="margin-right:40px; width:170px; height:42" class="news_image" src="/'.$game['page'][0]['playnow']['0 attr']['image'].'"></a>'."\r\n";
+			echo '<a href="'.$game['page'][0]['playnow']['0 attr']['url'].'" class="playnow">';
+			echo '<img class="playnow news_image" src="/'.$game['page'][0]['playnow']['0 attr']['image'].'"></a>'."\r\n";
 		}
 		
 		if (isset($game['page'][0]['short-description'])) {
@@ -127,7 +127,7 @@ class DetailPage extends Page {
 			echo '<div class="game_servers"><a name="servers"></a><h2>Online servers</h2>';
 			foreach ($game['page'][0]['servers'][0]['server'] as $key=>$server) {
 				if (is_array($server)) {
-					echo '<a href="'.$server['url'].'" style="display:block;float:right;clear:right">';
+					echo '<a href="'.$server['url'].'" class="gameserver">';
 					echo '<img src="/images/buttons/Game_server_button.png" title="'.$server['url'].'"></a>';
 				}
 			}
@@ -194,7 +194,7 @@ class DetailPage extends Page {
 			echo '<div class="releaseinfo">('.$file['type'].') released on '.$game['page'][0]['updated']['0 attr']['date'].'</div>';
 			echo '<div class="link"><a href="https://prdownloads.sourceforge.net/arianne/'.$filename.'?download" class="download_file">'.$filename.'</a>';
 			if ($file['suggest']) {
-				echo '&nbsp; <img style="border:0" src="/images/star.png" title="Suggested download">';
+				echo '&nbsp; <img class="borderless" src="/images/star.png" title="Suggested download">';
 			}
 			echo '</div>';
 			echo '<div class="filedesc">'.$file['description'][0].'</div>';
