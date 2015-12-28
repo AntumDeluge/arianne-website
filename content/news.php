@@ -76,7 +76,7 @@ function WriteNewsItemHtml($item) {
 			}
 		}
 		if (isset($item['playnow'])) {
-			echo '<a href="'.$item['playnow']['0 attr']['url'].'" class="playnow>';
+			echo '<a href="'.$item['playnow']['0 attr']['url'].'" class="playnow">';
 			echo '<img class="news_image playnow" src="/'.$item['playnow']['0 attr']['image'].'" alt="" title="Play now"></a>'."\r\n";
 		}
 		echo '<div class="newscontent_image">'.$item['content'][0].'</div>';
