@@ -15,6 +15,24 @@
   </item>
 -->
   <item>
+    <title>Arianne Development Meeting 2016-01-06</title>
+    <date>2016-01-03</date>
+    <content>
+      <![CDATA[
+<p>There will be an Arianne Development Meeting on Wednesday, the 6<sup>th</sup> of January in #arianne, on irc.freenode.net. <a href="https://webchat.freenode.net/?channels=arianne">Web chat</a>
+<ul>
+<li> Sourceforge, Github, Travis
+<li> Prepaing release of Marauroa 4.0
+<li> Doing Sendhal releases
+<li> (Stendhal Web Client)
+</ul>
+<p> More details and minutes are avail on the Wiki page <a href="https://stendhalgame.org/wiki/Arianne_Development_Meeting_2016-01-06">Arianne Development Meeting 2016-01-06
+</a>]]>
+      </content>
+  </item>
+
+
+  <item>
     <title>Stendhal 1.19: Deep Sea Mysteries</title>
     <date>2015-12-09</date>
     <images>
