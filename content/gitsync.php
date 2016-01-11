@@ -23,7 +23,7 @@ if (!isset($_REQUEST['repository'])) {
 	die('repository not specified');
 }
 $repo = $_REQUEST['repository'];
-if (!preg_match('/^[a-zA-Z0-9]+$/', $repo)) {
+if (!preg_match('/^[a-zA-Z0-9\-]+$/', $repo)) {
 	die('invalid repository name');
 }
 header('HTTP/1.0 204 Found');
