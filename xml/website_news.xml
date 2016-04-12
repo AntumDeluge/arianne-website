@@ -14,6 +14,35 @@
       </content>
   </item>
 -->
+
+
+  <item>
+    <title>Stendhal 1.20: Trust and Confidence</title>
+    <date>2016-04-13</date>
+    <images>
+      <image url="screens/stendhal/archer120.png" large="screens/stendhal/archer120large.png" />
+      <image url="screens/stendhal/prolongall120.png" large="screens/stendhal/prolongall120large.png" />
+      <image url="screens/stendhal/drown120.png" large="screens/stendhal/drown120large.png" />
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p><span class="warning">Please <a href="https://arianne-project.org/download/stendhal.zip">download Stendhal</a> again as there will be no automatic update to version 1.20. We accidentally uploaded our private code signing key to an Open Source repository on GitHub.</span>
+<p><span class="warning">We take security very seriously, therefore the updater double checks every update by verifying the signature before installing it. With the second check not being trusted anymore, we decided to release an updater with a new set of keys.</span>
+<p><span class="warning">Please note that this is only a "security in depth" measurement: The updater downloads code from trusted source only in the first place.</span>
+
+<p>But the security of computer is not all that is important: When you are diving under water, make sure that your scuba gear is safely attached. If you lose it, you might get into serious trouble.
+
+<p>On a good note: Harold will be much more friendly to customers by allowing them to prolong all their offers without having to cut through red tape.
+
+<p>When archers use their bow, it will not be very visible for a boost of confidence.
+
+<p>Please see the complete <a href="/game/stendhal.html#changes">change log</a> for additional changes. 
+      ]]>
+      </content>
+  </item>
+
+
   <item>
     <title>Arianne Development Meeting 2016-01-06</title>
     <date>2016-01-03</date>

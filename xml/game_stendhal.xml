@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2015-08-18"/>
-  <version id="1.18"/>
+  <updated date="2016-04-13"/>
+  <version id="1.20"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,31 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.20">Stendhal 1.20: Trust and Confidence</h2>
+<b>world</b><ul>
+<li> Humans lose conscious when scuba gear is take off under water
+<li> Improved thunderstorms
+<li> Archer combat is now visible
+<li> Harold understands "prolong all" now
+</ul>
+
+<b>code</b><ul>
+<li> Support Postgres databases in addition to H2 (recommended) and MySQL
+<li> Setup Travis for continuous integration tests and fixed some order dependent tests 
+<li> Migrated test coverage analysis from Cobertura to Jacoco 
+<li> Git repository is mirrored instantaneously between Github and Sourceforge in both directions
+<li> Yearly special event quests now pick up the current year as part of their quest slot automatically
+<li> Backend for puzzles
+</ul>
+
+<b>fixes</b><ul>
+<li> Christmas quest "Goodies for Rudolph" is now repeatable next year
+<li> Fixed maximization state being sometimes saved incorrectly.
+<li> Database index are now created automatically
+</ul>
+
+  
+  
 <h3 id="v1.19">Stendhal 1.19: Deep Sea</h2>
 <b>world</b><ul>
 <li> new interesting under water zone
