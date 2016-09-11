@@ -15,6 +15,27 @@
   </item>
 -->
 
+  <item>
+    <title>Stendhal 1.21: Get the party ready</title>
+    <date>2016-09-13</date>
+    <images>
+      <image url="screens/stendhal/pictures121.png" large="screens/stendhal/pictures121large.png" />
+      <image url="screens/stendhal/mizuno121.png" large="screens/stendhal/mizuno121large.png" />
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>It's almost time to party! The annual Minetown Revival Weeks will start in early October. According to rumors, Kirla will join the festival with her own booth. She is famous for her ability to create pictures from your memories.
+
+<p>The citizen of Semos are still busy preparing the party. They are looking for a volunteer to help with this year’s paper chase. Will someone step up in time?
+
+<p>In other news: A trader called Mizuno has been spotted near Ados. He sells ice arrows for black pearls. They might come in handy, should you ever end up in hell.
+
+<p>Please see the complete <a href="/game/stendhal.html#changes">change log</a> for additional changes. 
+      ]]>
+      </content>
+  </item>
+
 
   <item>
     <title>Stendhal 1.20: Trust and Confidence</title>

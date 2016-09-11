@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2016-04-13"/>
-  <version id="1.20"/>
+  <updated date="2016-09-13"/>
+  <version id="1.21"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,32 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.21">Stendhal 1.21: Get the party ready</h3>
+
+<b>world</b><ul>
+<li> Pets can drink 'medicine' even when they aren't hungry. Making them easier to maintain in battle.
+<li> New trader NPC (Mizuno) travels around remote parts of Ados selling ice arrows for black pearls.
+<li> Rebalancing vampire, chaos swords.
+<li> Photo booth at Mine Town Revival festival
+<li> Small improvements to maps
+<li> Small improvements to item and monster descriptions
+</ul>
+
+<b>client</b><ul>
+<li> Default action of chest changed to open/inspect instead of look
+</ul>
+
+<b>fixes</b><ul>
+<li> Help For the Harvest quest works again.
+</ul>
+
+<b>code</b><ul>
+<li> In TeleporterBehaviour, zoneName.startsWith() now checks a variable so teleporting NPCs can be a little more customizable.
+<li> TeleporterBehaviour can now be passed an array of zones to choose from or leave null for the default list.
+</ul>
+
+
+
 <h3 id="v1.20">Stendhal 1.20: Trust and Confidence</h2>
 <b>world</b><ul>
 <li> Humans lose conscious when scuba gear is take off under water
