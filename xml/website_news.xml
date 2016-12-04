@@ -16,6 +16,29 @@
 -->
 
   <item>
+    <title>Stendhal 1.22: Joyful times</title>
+    <date>2016-12-04</date>
+    <images>
+      <image url="screens/stendhal/christmas122.png" large="screens/stendhal/christmas122.png" />
+      <image url="screens/stendhal/tally122.png" />
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>The year is coming to an end and the people are just starting to celebrate this time of the year.
+
+<p> Semos is nicely decorated for christmas. There are rumors out there telling Santa could be spotted soon.
+ 
+<p>The citizens of Semos have learned a new Christmas song: "O how joyfully". After "Snow Flake Little White Skirt" last year and "Oh Christmas Tree" the year before, is this the start of a tradition?
+ 
+<p>Imagine: No need to have an eraser at hand for book keeping of how many creatures were killed for your tasks. No erasing and new writing of kill counts anymore? Sounds good, yes? Luckily this imagination starts now to become true. The number of killed monks for the <a href="https://stendhalgame.org/quest/kill_monks.html">Kill Monks</a> quest is noted with tally marks in your travel log. Isn't that way easier than before?
+
+<p>Please see the complete <a href="/game/stendhal.html#changes">change log</a> for additional changes. 
+      ]]>
+      </content>
+  </item>
+
+  <item>
     <title>Stendhal 1.21: Get the party ready</title>
     <date>2016-09-13</date>
     <images>
