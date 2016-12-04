@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2016-09-13"/>
-  <version id="1.21"/>
+  <updated date="2016-12-04"/>
+  <version id="1.22"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,19 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.22">Stendhal 1.22: Joyful times</h3>
+<b>world</b><ul>
+<li> Winter has started and the weather shows it
+<li> Semos is decorated for Christmas
+<li> New Christmas song: "O how joyfully"  
+<li> KillMonks quest history shows tally marks
+</ul>
+
+<b>client</b><ul>
+<li> fixed "under the ocean" layer on clients without support for full alpha.
+</ul>
+
+
 <h3 id="v1.21">Stendhal 1.21: Get the party ready</h3>
 
 <b>world</b><ul>
@@ -190,6 +203,10 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> Changed "player_base" outfit type to "body"
 <li> A new script for replacing maps on a running server
 </ul>
+
+]]>
+<!-- 
+<![CDATA[
   
 
 <h3 id="v1.16">Stendhal 1.16: Lil' Snowflake</h3>
@@ -317,9 +334,9 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <h3 id="v1.11">Stendhal 1.11</h3>
 <b>World</b><ul>
 <li> Mine Town Weeks are celebrated
-<br>  -- New Paper chase quest
-<br>  -- New Sokoban game
-<br>  -- all the games from last years festival are back
+<br>  - New Paper chase quest
+<br>  - New Sokoban game
+<br>  - all the games from last years festival are back
 <li> Margaret accepts coupons
 <li> New look for Semos plains
 <li> More creature descriptions
@@ -384,9 +401,9 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <br>- New item: xeno helmet dropped by xenocium
 <br>- Captain of Athor Ferry named Captain Brownbeard now
 <br>- Sprite fixes:
-<br>-- Ogre soldier's front & back facing helmet fixed to match side view
-<br>-- All dark elves now have elf ears, Elf ears on many elves made more visible and cleaned up
-<br>-- Re-drew/touched up many creature sprites including Grobble monster and Winged blurble
+<br> - Ogre soldier's front & back facing helmet fixed to match side view
+<br> - All dark elves now have elf ears, Elf ears on many elves made more visible and cleaned up
+<br> - Re-drew/touched up many creature sprites including Grobble monster and Winged blurble
 <br>- Added new harmless corpses to the following creatures:
     ice giant, elder giant, lord durin, cave troll, imperial general giant, master giant,
     black giant, amazoness giant, kasarkutominubat
@@ -528,12 +545,6 @@ behaviour
 <br>- fixed a bug that could cause items being lost in trade
 <br>- fixed the automatic scrolling of the chat log sometimes turning off by itself
 <br>- several small fixes to entity views sometimes missing changes
-
-
-</div>
-]]>
-<!-- 
-<![CDATA[
 
 
 <p><b>1.04</b>
