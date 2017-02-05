@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2016-12-04"/>
-  <version id="1.22"/>
+  <updated date="2017-02-05"/>
+  <version id="1.23"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,13 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.23">Stendhal 1.22: Cursed</h3>
+<b>world</b><ul>
+<li> Mizuno sells ice, fire, and light arrows. 
+<li> Because of a bad curse, many creatures, animals and people have lost their appearance
+<li> Please join us at https://stendhalgame.org/chat/ if you want to help 
+</ul>
+
 <h3 id="v1.22">Stendhal 1.22: Joyful times</h3>
 <b>world</b><ul>
 <li> Winter has started and the weather shows it

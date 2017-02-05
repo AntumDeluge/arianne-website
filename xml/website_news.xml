@@ -14,12 +14,49 @@
       </content>
   </item>
 -->
+  <item>
+    <title>Stendhal 1.23: Cursed</title>
+    <date>2017-02-05</date>
+    <images>
+      <image url="screens/stendhal/cursed123.png" large="screens/stendhal/cursed123large.png" />
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p><i>The world of Stendhal was hit by a form-destroying curse. While Stendhal is stable now, 
+it will take a lot of work in another world to undo the effects of this curse.
+<p>Join us at <a href="https://stendhalgame.org/chat/">#arianne on freenode</a> if you like to contribute to Stendhal.</i>
+
+<p>It started slowly at first. Someone put up a sign in Semos city claiming that "the world is going to 
+end". Well, most people did not think much about it; just a confused person probably. Someone else even 
+answered with a philosophical question: "What did God do before he created the world?"
+
+<p>But then more and more strange reports came in: Gnome village was overrun by slime monsters and was 
+begging for help. Snakes appeared near witches, despite them having given up their summon magic more 
+than five years ago.
+
+<p>Some people still though about this as a practical joke. But the situation got worse by the minute. 
+The next sign said: "Zombies at Semos walls, a death in bank! Oh, my god?!" Confidential reports included 
+messages about a dangerous baby angel near Orril River and about something deadly happening to Stendhal 
+Financial Sphere, most notable in Magic Bank. Zombie rats in Semos Dungeon and on the ship to Athor.
+
+<p>Panic sat in. This is insane! More reports came in about Skeletons, Demons, Zombies and other deathly 
+creatures all over the world and even above the clouds. But there was hope: Slowly but surely courages 
+adventures fought back at many small battles all over the world. When the message hit home, that Gnome 
+Village was freed, the balance flipped and the good forces started their trip to win this war.
+
+<p>In an last desperate gasp, the powers of evil casted a dark curse: Many creatures, animals and even some 
+people lost their form and dissolved to sparkling dots. The world of Stendhal is safe for now, thanks to the 
+help of courages adventures. But the effects of the curse can only be undone by lots of work in another world. 
+      ]]>
+      </content>
+  </item>
 
   <item>
     <title>Stendhal 1.22: Joyful times</title>
     <date>2016-12-04</date>
     <images>
-      <image url="screens/stendhal/christmas122.png" large="screens/stendhal/christmas122.png" />
+      <image url="screens/stendhal/christmas122.png" large="screens/stendhal/christmas122large.png" />
       <image url="screens/stendhal/tally122.png" />
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
