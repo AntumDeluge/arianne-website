@@ -14,6 +14,35 @@
       </content>
   </item>
 -->
+
+  <item>
+    <title>Stendhal 1.24: Fighting the curse</title>
+    <date>2017-03-10</date>
+    <images>
+      <image url="screens/stendhal/greendragon124.png" large="screens/stendhal/greendragon124large.png" />
+      <image url="screens/stendhal/ghostslime124.png" large="screens/stendhal/ghostslime124large.png" />
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>Recently the world of Stendhal was hit by an evil curse: Despite a desperate battle, 
+some creatures, animals and even people lost their shape and dissolved into sparkling
+dots. 
+
+<p>Luckily the consequences of this curse seem to fade away slowly. Cows and Bulls, 
+green and red dragons, ghosts, slimes and death. All of them have completely recovered. 
+ 
+<p>Rumors are suggesting, however, that this is not just a matter of time passing.
+But the result of hard working heroes in another world.
+ 
+<p>The inhabitants of this world hope for more hard-working people to help
+shapeless creatures, animals or people to get back into shape!
+
+<p>Please see the complete <a href="/game/stendhal.html#changes">change log</a> for this release.]]>
+      </content>
+  </item>
+
+
   <item>
     <title>Stendhal 1.23: Cursed</title>
     <date>2017-02-05</date>

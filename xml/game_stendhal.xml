@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2017-02-05"/>
-  <version id="1.23"/>
+  <updated date="2017-03-10"/>
+  <version id="1.24"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,22 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.24">Stendhal 1.24: Fighting the curse</h3>
+<b>world</b><ul>
+<li> Mermaids linger around near the outer edge of grotto 
+<li> New images for farm animals: cow and bull
+<li> New images for dragons: green and red as well as green and red dragon riders
+<li> New images for ghost, death, black death and golden death
+<li> New images for brown, green and black slimes 
+</ul>
+
+<b>changes to the experimental client</b><ul>
+<li> fixed crash on missing images
+<li> updated polymer and webcomponentsjs, but MS Edge is still broken :-/
+<li> improved drag and drop of items from corpse and chest
+<li> added dragable PopupWindow (e. g. for corpse inventory, menus and dialogs)
+</ul>
+
 <h3 id="v1.23">Stendhal 1.23: Cursed</h3>
 <b>world</b><ul>
 <li> Mizuno sells ice, fire, and light arrows. 
@@ -140,6 +156,10 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 </ul>
 
 
+]]>
+<!-- 
+<![CDATA[
+
 
 <h3 id="v1.18">Stendhal 1.18: Voyages</h2>
 <b>world</b><ul>
@@ -211,10 +231,6 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> A new script for replacing maps on a running server
 </ul>
 
-]]>
-<!-- 
-<![CDATA[
-  
 
 <h3 id="v1.16">Stendhal 1.16: Lil' Snowflake</h3>
 
