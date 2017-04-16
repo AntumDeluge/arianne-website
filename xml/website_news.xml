@@ -16,6 +16,21 @@
 -->
 
   <item>
+    <title>Happy Easter</title>
+    <date>2017-03-10</date>
+    <images>
+      <image url="screens/stendhal/easter2017.png" large="screens/stendhal/easter2017large.png" />
+    </images>
+    <content>
+      <![CDATA[
+<p>Spring is coming. Beautiful flowers are growing in all colors. The citizen of Semos did a much overdue Spring cleaning and decorated their city for the Easter celebrations. According to rumors, a certain well known bunny has been spotted.
+
+<p>Happy Easter!</p>]]>
+      </content>
+  </item>
+
+
+  <item>
     <title>Stendhal 1.24: Fighting the curse</title>
     <date>2017-03-10</date>
     <images>
