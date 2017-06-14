@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2017-03-10"/>
-  <version id="1.24"/>
+  <updated date="2017-06-14"/>
+  <version id="1.25"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,30 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+
+<h3 id="v1.25">Stendhal 1.25: Ados Advancements</h3>
+<b>world</b><ul>
+<li> made new images for rams, lions 
+<li> made new images for pine, locust trees, new old ents
+<li> made new ship tiles
+<li> added soldiers to Ados wall
+<li> added city wall gate to Ados south
+<li> added a fisher hut south of ados city
+<li> widened pathways in hell
+</ul>
+
+<b>experimental webclient</b><ul>
+<li> use "ant compilejs" to invoke closure compiler
+<li> zone change by clicking near the zone boarder
+<li> performance optimisations
+<li> added growing spawner (grain, carrots, etc...)
+<li> right click popup menu
+<li> highlight npc triggers and item names in chatlog
+<li> removed dependency on polymer
+</ul>
+
+
+
 <h3 id="v1.24">Stendhal 1.24: Fighting the curse</h3>
 <b>world</b><ul>
 <li> Mermaids linger around near the outer edge of grotto 
