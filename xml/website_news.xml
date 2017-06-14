@@ -15,6 +15,25 @@
   </item>
 -->
 
+   <item>
+    <title>Stendhal 1.25: Ados Advancements</title>
+    <date>2017-06-14</date>
+    <images>
+      <image url="screens/stendhal/ados-wall-guard-125.png" large="screens/stendhal/ados-wall-guard-125.png"/>
+      <image url="screens/stendhal/locust-tree-ram-125.png" large="screens/stendhal/locust-tree-ram-125.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>Stendhal's inhabitants started to advance to new projects. Together they approach new perspectives for the whole world of Stendhal!</p>
+
+<p>Steps in advancement were taken in different areas of the world. Especially the city of Ados was busy. They hired a few more guards and opened a new city gate. These obviously good news seem to attract new people to Ados and its surroundings! Someone has spotted a new fisher hut. Will someone move there soon?</p>
+
+<p>Hell's pathes became broader. This makes them less likely to being clogged.</p>
+      ]]>
+      </content>
+  </item>
+
   <item>
     <title>Happy Easter</title>
     <date>2017-04-16</date>
