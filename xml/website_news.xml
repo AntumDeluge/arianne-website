@@ -16,19 +16,21 @@
 -->
 
   <item>
-    <title>Stendhal 1.26: Highway To Hell</title>
+    <title>Stendhal 1.26: Hell Bells</title>
     <date>2017-09-19</date>
     <images>
-      <image url="screens/stendhal/hell-reaper-125.png" large="screens/stendhal/hell-reaper-125.png"/>
+      <image url="screens/stendhal/hell-reaper-126.png"/>
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[
-      <p>It might seem a bit odd but Hell is quite a "hotspot" among some players. But players enjoying the heat of hell are causing trouble for Hell's sensitive ecosystem by heating Hell more and more up. This heating could not even be slowed down by the delivery of magical ice swords to Tomi. Thus the inhabitants of Hell decided to summon magical overseers helping to prevent a further overheating of Hell.
-      
-      <p>Some more of Stendhal's citizens and creatures magically found their shape again. For example Gashadokuro, Stone Golems and Chicken materialized again.
-      
-      <p>Please see the complete <a href="/game/stendhal.html#changes">change log</a> for this release.
+<p><span class="warning">This version includes an update to Marauroa 3.9.5 which fixes an item duplication bug on multiple logins. We like to thank pepsz for the report.</span></p>
+
+<p>The officials of hell got quite annoyed by seeing their home turn into a “hotspot” for tourists. Hell is already hot enough! Blatantly some tourists even bought ice swords to lighten Tomi’s tortures. Enough is Enough! Be prepared to end up in the pit of hell, when you are caught before your time has come.
+
+<p>Some more of Stendhal's citizens and creatures regained their shape. For example Gashadokuro, Stone Golems and Chicken materialized again.
+ 
+<p>Please see the complete <a href="/game/stendhal.html#changes">change log</a> for this release.
       ]]>
       </content>
   </item>

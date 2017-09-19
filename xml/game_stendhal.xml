@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2017-06-14"/>
-  <version id="1.25"/>
+  <updated date="2017-09-19"/>
+  <version id="1.26"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,33 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+
+<h3 id="v1.26">Stendhal 1.26: Hell Bells</h3>
+
+<b>world</b><ul>
+<li> made new image for Gashadokuro
+<li> made new image for Stone Golem
+<li> made new image for Chicken
+<li> made new image for mithrilforgernpc
+<li> limited time in Hell due to the heat
+<li> improved dialogues of some NPCs near Ados
+</ul>
+
+<b>experimental webclient</b><ul>
+<li> removed outdated text and admin clients
+<li> added popup windows
+<li> added group management commands
+<li> implemented stacked item management
+<li> display zone name
+<li> implemented gate, walk blocker and PassiveNPC
+</ul>
+ 
+<b>bugfixes</b><ul>
+<li> fixed a double login bug resulting in item duplication (thanks to pepsz for the report)
+<li> fixed a NullPointerException on quit dialog
+</ul>
+
+
 
 <h3 id="v1.25">Stendhal 1.25: Ados Advancements</h3>
 <b>world</b><ul>
@@ -134,6 +161,9 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> TeleporterBehaviour can now be passed an array of zones to choose from or leave null for the default list.
 </ul>
 
+]]>
+<!-- 
+<![CDATA[
 
 
 <h3 id="v1.20">Stendhal 1.20: Trust and Confidence</h2>
@@ -178,11 +208,6 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <b>client</b><ul>
 <li> added cancel buttons on all dialog boxes (for window managers which do not add an X to the title bar)
 </ul>
-
-
-]]>
-<!-- 
-<![CDATA[
 
 
 <h3 id="v1.18">Stendhal 1.18: Voyages</h2>
