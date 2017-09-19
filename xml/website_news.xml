@@ -16,6 +16,25 @@
 -->
 
   <item>
+    <title>Stendhal 1.26: Highway To Hell</title>
+    <date>2017-09-19</date>
+    <images>
+      <image url="screens/stendhal/hell-reaper-125.png" large="screens/stendhal/hell-reaper-125.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+      <p>It might seem a bit odd but Hell is quite a "hotspot" among some players. But players enjoying the heat of hell are causing trouble for Hell's sensitive ecosystem by heating Hell more and more up. This heating could not even be slowed down by the delivery of magical ice swords to Tomi. Thus the inhabitants of Hell decided to summon magical overseers helping to prevent a further overheating of Hell.
+      
+      <p>Some more of Stendhal's citizens and creatures magically found their shape again. For example Gashadokuro, Stone Golems and Chicken materialized again.
+      
+      <p>Please see the complete <a href="/game/stendhal.html#changes">change log</a> for this release.
+      ]]>
+      </content>
+  </item>
+
+
+  <item>
     <title>Marauroa 3.9.5: Security update</title>
     <date></date>
     <content>
