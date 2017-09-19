@@ -72,6 +72,42 @@ you want.<p/>
 ]]>
 	</extended>
 <changelog><![CDATA[
+<b>3.9.5</b>
+<ul>
+<li> fixed a race condition allowing double login which may result in item duplication (thanks to pepsz for the report)
+<li> added support for HTML clients
+
+<li>smaller features
+<ul>
+  <li> database indexes are created automatically on database creation or update
+  <li> added data type long
+  <li> support character creation while in game
+  <li> added multilanguage support (en, de, pl, uk)
+  <li> initial status of account and characters can be configured in server.ini
+</ul>
+
+<li> code
+<ul>
+  <li> converted CVS to Git
+  <li> https://github.com/arianne/marauroa
+  <li> junit tests use in memory database
+  <li> various performance and memory usage improvements
+  <li> fixed compiler warnings and improved code comments
+  <li> code cleanup and refactorings
+</ul>
+</ul>
+
+<b>3.9.3</b>
+
+- skipped version number
+
+<b>3.9.3</b>
+<ul>
+<li> retry database command on connection loss to the database server
+<li> marauroa can invoke an external command (email_command in server.ini) with the token and email-address on account creation
+<li> use a dedicated email table
+</ul>
+
 <b>3.9.2</b>
 <ul>
 <li> workaround for IllegalArgumentException in proxy check (see <a href="http://icedtea.classpath.org/bugzilla/show_bug.cgi?id=1055">http://icedtea.classpath.org/bugzilla/show_bug.cgi?id=1055</a> )

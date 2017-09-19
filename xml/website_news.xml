@@ -15,6 +15,22 @@
   </item>
 -->
 
+  <item>
+    <title>Marauroa 3.9.5: Security update</title>
+    <date></date>
+    <content>
+      <![CDATA[
+<p>We released Marauroa 3.9.5 with an important security fix.
+
+<p>It was possible to add a character multiple times to the world by logging in in parallel. Depending on the game, this may lead to item duplication or similar undesired effects.
+
+<p>We like to thank pepsz for the report of this issue.
+
+<p><a href="https://sourceforge.net/projects/arianne/files/marauroa/3.9.5/">Download</a> * <a href="https://github.com/arianne/marauroa/commit/95b5fda70f15bce06da12374e6c77031a2bbfb64">Source code patch</a> * <a href="/engine/marauroa.html#changes">Change log</a>
+       ]]>
+      </content>
+  </item>
+
    <item>
     <title>Stendhal 1.25: Ados Advancements</title>
     <date>2017-06-14</date>
