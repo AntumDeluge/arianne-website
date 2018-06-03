@@ -16,6 +16,83 @@
 -->
 
   <item>
+    <title>Stendhal 1.27: The Curse and the Cure</title>
+    <date>2018-06-03</date>
+    <images>
+      <image url="screens/stendhal/giant127.png"/>
+      <image url="screens/stendhal/shadynpc127.png"/>
+      <image url="screens/stendhal/skincolor127.png"/>
+      <image url="screens/stendhal/tallerorcs127.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>The curse of vanishing shapes returned to Stendhal. Since its last strike in the past a few shapes already restored. Due to another hit by the curse we now decided to cure the curse completly by a full overhaul of shapes based on new images from a more safe source. On the good side this cure made it possible to magically change the skin color for player avatars. Some shapes are still in a state of transition from the dots to a more natural form without details. The people of Stendhal like to give a special thanks people far outside the world of Stendhal:</br>
+<a href="https://opengameart.org/users/cabbit">Svetlana Kushnariova (Cabbit)</a>, 
+<a href="https://opengameart.org/users/diamonddmgirl">diamonddmgirl</a>, 
+<a href="https://opengameart.org/users/amaranthia">amaranthia</a>, 
+<a href="https://opengameart.org/users/angry-amish">Angry Amish</a>, 
+<a href="https://opengameart.org/users/artisticdude">artisticdude</a>, 
+<a href="https://opengameart.org/users/bagzie">bagzie</a>, 
+Barbara Rivera, 
+<a href="https://opengameart.org/users/bluecarrot16">bluecarrot16</a>, 
+<a href="https://opengameart.org/users/cnilsson">Casper Nilsson</a>, 
+<a href="https://opengameart.org/users/charlesgabriel">Charles Gabriel (Antifarea)</a>, 
+<a href="https://opengameart.org/users/bluevortexgames">Cobra Hubbard (BlueVortexGames)</a>, 
+<a href="https://opengameart.org/users/crisisworks">Crisisworks</a>, 
+<a href="https://opengameart.org/users/curt">Curt</a>, 
+<a href="https://opengameart.org/users/daneeklu">Daniel Eddeland (daneeklu)</a>, 
+<a href="https://opengameart.org/users/danielmahon">danielmahon</a>, 
+<a href="https://opengameart.org/users/dkucook">DkuCook</a>, 
+<a href="https://opengameart.org/users/ienze">Dominik Gmiterko (ienze)</a>, 
+<a href="https://opengameart.org/users/fabzy">Fabzy</a>, 
+<a href="https://opengameart.org/users/grumpydiamond">GrumpyDiamond</a>, 
+<a href="https://opengameart.org/users/hyptosis">Hyptosis</a>, 
+<a href="https://opengameart.org/users/isaiah658">isaiah658</a>, 
+<a href="https://opengameart.org/users/jetrel">Jetrel</a>, 
+<a href="https://opengameart.org/users/johann-c">Johann C</a>, 
+<a href="https://opengameart.org/users/kemono">Kemono</a>, 
+<a href="https://opengameart.org/users/tkz-productions">Kevin Smith (TKZ Productions)</a>, 
+<a href="https://opengameart.org/users/sharm">Lanea Zimmerman (Sharm)</a>, 
+<a href="https://opengameart.org/users/lawnjelly">lawnjelly</a>, 
+<a href="https://opengameart.org/users/leonard-pabin">Leonard Pabin</a>, 
+<a href="https://opengameart.org/users/lordneo">LordNeo</a>, 
+<a href="https://opengameart.org/users/jastiv">Lori Angela Nagel (Jastiv)</a>, 
+<a href="https://opengameart.org/users/bizmasterstudios">Michael Williams (BizmasterStudios)</a>, 
+<a href="https://opengameart.org/users/mold">mold</a>, 
+<a href="https://opengameart.org/users/nila122">Nila122</a>, 
+<a href="https://opengameart.org/users/nologogames">NoLogoGames</a>, 
+<a href="https://opengameart.org/users/rayaneflx">Rayane Félix (RayaneFLX)</a>, 
+<a href="https://opengameart.org/users/redvoxel">RedVoxel</a>, 
+<a href="https://opengameart.org/users/shepardskin">Shepardskin</a>, 
+<a href="https://opengameart.org/users/sollision">Sollision</a>, 
+<a href="https://opengameart.org/users/redshrike">Stephen Challener (Redshrike)</a>, 
+<a href="https://opengameart.org/users/reemax">Tuomo Untinen (Reemax)</a>, 
+<a href="https://opengameart.org/users/williamthompsonj">William Thompson</a>, 
+<a href="https://opengameart.org/users/therahedwig">Wolthera van Hövell tot Westerflier (TheraHedwig)</a>, 
+<a href="https://opengameart.org/users/wulax">wulax</a>, 
+<a href="https://opengameart.org/users/xenodora">Xenodora</a>, 
+<a href="https://opengameart.org/users/yamilian">Yamilian</a>, 
+<a href="https://opengameart.org/users/yar">Yar</a>, 
+<a href="https://opengameart.org/users/yolkati">yolkati</a>, 
+<a href="https://opengameart.org/users/zabin">Zachariah Husiar (Zabin)</a>, 
+<a href="https://opengameart.org/users/zapaper">ZaPaper</a>, 
+<a href="https://opengameart.org/users/ztn">ztn</a>, 
+<a href="http://www.lostgarden.com/">Daniel Cook</a>, 
+<a href="https://openclipart.org/user-detail/Firkin">Firkin</a>, 
+<a href="http://www.neorice.com/">Guido Bos</a> and,
+<a href="https://openclipart.org/user-detail/leangoro">leangoro</a>
+
+<p>Hell's overseers seemed to have a broken clock and threw people much too fast out of Hell... They should have fixed their timers and promise now to not repeat those mistakes. It also might look a little bit odd that Hell is such a popular place. What are the conclusions on Faiumoni's citizens if they like Hell that much? ;) 
+
+<p>Remember: There are few more interesting places than just Hell. Don't forget other interesting places around Stendhal like Adventure Island, Kikareukin or Dreamscape. 
+
+<p>Please see the complete <a href="/game/stendhal.html#changes">change log</a> for this release.
+      ]]>
+      </content>
+  </item>
+
+  <item>
     <title>Stendhal 1.26: Hell Bells</title>
     <date>2017-09-19</date>
     <images>
