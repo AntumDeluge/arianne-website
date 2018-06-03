@@ -20,9 +20,9 @@
     <date>2018-06-03</date>
     <images>
       <image url="screens/stendhal/giant127.png"/>
-      <image url="screens/stendhal/shadynpc127.png"/>
+      <!-- <image url="screens/stendhal/shadynpc127.png"/> -->
       <image url="screens/stendhal/skincolor127.png"/>
-      <image url="screens/stendhal/tallerorcs127.png"/>
+      <!-- <image url="screens/stendhal/tallerorcs127.png"/> -->
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
