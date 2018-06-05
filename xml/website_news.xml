@@ -17,7 +17,7 @@
 
   <item>
     <title>Stendhal 1.27: The Curse and the Cure</title>
-    <date>2018-06-03</date>
+    <date>2018-06-05</date>
     <images>
       <image url="screens/stendhal/giant127.png"/>
       <image url="screens/stendhal/skincolor127.png"/>
@@ -26,7 +26,14 @@
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[
-<p>The curse of vanishing shapes returned to Stendhal. Since its last strike in the past a few shapes already restored. Due to another hit by the curse we now decided to cure the curse completly by a full overhaul of shapes based on new images from a more safe source. On the good side this cure made it possible to magically change the skin color for player avatars. Some shapes are still in a state of transition from the dots to a more natural form without details. The people of Stendhal like to give a special thanks people far outside the world of Stendhal:</br>
+<p>Due to another hit by the curse of vanishing shapes, we decided on a full overhaul of shapes based
+on new images from safer sources. Some shapes are still in a state of transition from the dots to a 
+more natural form without details.
+
+<p>We like to give a special thanks to members of the OpenGameArt community who made their work available
+for games like Stendhal:</br>
+
+<small>
 <a href="https://opengameart.org/users/cabbit">Svetlana Kushnariova (Cabbit)</a>, 
 <a href="https://opengameart.org/users/diamonddmgirl">diamonddmgirl</a>, 
 <a href="https://opengameart.org/users/amaranthia">amaranthia</a>, 
@@ -76,17 +83,37 @@ Barbara Rivera,
 <a href="https://opengameart.org/users/yolkati">yolkati</a>, 
 <a href="https://opengameart.org/users/zabin">Zachariah Husiar (Zabin)</a>, 
 <a href="https://opengameart.org/users/zapaper">ZaPaper</a>, 
-<a href="https://opengameart.org/users/ztn">ztn</a>, 
+<a href="https://opengameart.org/users/ztn">ztn</a>, and other communities:
 <a href="http://www.lostgarden.com/">Daniel Cook</a>, 
 <a href="https://openclipart.org/user-detail/Firkin">Firkin</a>, 
-<a href="http://www.neorice.com/">Guido Bos</a> and,
-<a href="https://openclipart.org/user-detail/leangoro">leangoro</a>
+<a href="http://www.neorice.com/">Guido Bos</a>,
+<a href="https://openclipart.org/user-detail/leangoro">leangoro</a>,
+<a href="https://openclipart.org/user-detail/johnny_automatic">johnny_automatic</a>,
+<a href="https://openclipart.org/user-detail/leangoro">leangoro</a>,
+<a href="https://openclipart.org/user-detail/liftarn">liftarn</a>
 
-<p>Hell's overseers seemed to have a broken clock and threw people much too fast out of Hell... They should have fixed their timers and promise now to not repeat those mistakes. It also might look a little bit odd that Hell is such a popular place. What are the conclusions on Faiumoni's citizens if they like Hell that much? ;) 
+</small>
 
-<p>Remember: There are few more interesting places than just Hell. Don't forget other interesting places around Stendhal like Adventure Island, Kikareukin or Dreamscape. 
+<p>
+The Arianne project would like to give special thanks to 
+<a href="https://opengameart.org/users/cabbit">Svetlana Kushnariova (Cabbit)</a>
+who created the base template sprites that are used throughout
+this release, and <a href="https://opengameart.org/users/diamonddmgirl">diamonddmgirl</a>
+for her additions to the set. 
+And finally, thank you to the Stendhal project members Kimmo Rundelin (kiheru),
+olonu, & Jordan Irwin (AntumDeluge) who put in extra hours of work to take on
+the huge task of creating & replacing sprite & tileset images.
 
-<p>Please see the complete <a href="/game/stendhal.html#changes">change log</a> for this release.
+<p>On the good side this cure made it possible to change the skin color of player avatars.
+
+<p>Hell's overseers seemed to have a broken clock and threw people out of Hell much too fast... 
+They should have fixed their timers and promised not to repeat those mistakes. It also might 
+look a little bit odd that Hell is such a popular place. What are the conclusions on Faiumoni's 
+citizens if they like Hell that much? ;) 
+
+<p>Please remember: There are other interesting places like Adventure Island, Kikareukin or Dreamscape. 
+
+<p>See the complete <a href="/game/stendhal.html#changes">change log</a> for this release.
       ]]>
       </content>
   </item>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2017-09-19"/>
-  <version id="1.26"/>
+  <updated date="2018-06-05"/>
+  <version id="1.27"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,90 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.27">Stendhal 1.27: Rebirth</h3>
+<b>world</b><ul>
+<li> hell timer fixed
+<li> many new NPC and enemy sprite images
+<li> player outfits replaced
+<li> NPCs will now change direction after collision with another entity by default.
+</ul>
+
+<b>client</b><ul>
+<li> autowalk
+<li> players can change skin color
+</ul>
+
+<b>sprites</b><ul>
+<li>We like to give a special thanks to members of the OpenGameArt community who made their work available
+for games like Stendhal: <br><small> 
+<a href="https://opengameart.org/users/cabbit">Svetlana Kushnariova (Cabbit)</a>, 
+<a href="https://opengameart.org/users/diamonddmgirl">diamonddmgirl</a>, 
+<a href="https://opengameart.org/users/amaranthia">amaranthia</a>, 
+<a href="https://opengameart.org/users/angry-amish">Angry Amish</a>, 
+<a href="https://opengameart.org/users/artisticdude">artisticdude</a>, 
+<a href="https://opengameart.org/users/bagzie">bagzie</a>, 
+Barbara Rivera, 
+<a href="https://opengameart.org/users/bluecarrot16">bluecarrot16</a>, 
+<a href="https://opengameart.org/users/cnilsson">Casper Nilsson</a>, 
+<a href="https://opengameart.org/users/charlesgabriel">Charles Gabriel (Antifarea)</a>, 
+<a href="https://opengameart.org/users/bluevortexgames">Cobra Hubbard (BlueVortexGames)</a>, 
+<a href="https://opengameart.org/users/crisisworks">Crisisworks</a>, 
+<a href="https://opengameart.org/users/curt">Curt</a>, 
+<a href="https://opengameart.org/users/daneeklu">Daniel Eddeland (daneeklu)</a>, 
+<a href="https://opengameart.org/users/danielmahon">danielmahon</a>, 
+<a href="https://opengameart.org/users/dkucook">DkuCook</a>, 
+<a href="https://opengameart.org/users/ienze">Dominik Gmiterko (ienze)</a>, 
+<a href="https://opengameart.org/users/fabzy">Fabzy</a>, 
+<a href="https://opengameart.org/users/grumpydiamond">GrumpyDiamond</a>, 
+<a href="https://opengameart.org/users/hyptosis">Hyptosis</a>, 
+<a href="https://opengameart.org/users/isaiah658">isaiah658</a>, 
+<a href="https://opengameart.org/users/jetrel">Jetrel</a>, 
+<a href="https://opengameart.org/users/johann-c">Johann C</a>, 
+<a href="https://opengameart.org/users/kemono">Kemono</a>, 
+<a href="https://opengameart.org/users/tkz-productions">Kevin Smith (TKZ Productions)</a>, 
+<a href="https://opengameart.org/users/sharm">Lanea Zimmerman (Sharm)</a>, 
+<a href="https://opengameart.org/users/lawnjelly">lawnjelly</a>, 
+<a href="https://opengameart.org/users/leonard-pabin">Leonard Pabin</a>, 
+<a href="https://opengameart.org/users/lordneo">LordNeo</a>, 
+<a href="https://opengameart.org/users/jastiv">Lori Angela Nagel (Jastiv)</a>, 
+<a href="https://opengameart.org/users/bizmasterstudios">Michael Williams (BizmasterStudios)</a>, 
+<a href="https://opengameart.org/users/mold">mold</a>, 
+<a href="https://opengameart.org/users/nila122">Nila122</a>, 
+<a href="https://opengameart.org/users/nologogames">NoLogoGames</a>, 
+<a href="https://opengameart.org/users/rayaneflx">Rayane Félix (RayaneFLX)</a>, 
+<a href="https://opengameart.org/users/redvoxel">RedVoxel</a>, 
+<a href="https://opengameart.org/users/shepardskin">Shepardskin</a>, 
+<a href="https://opengameart.org/users/sollision">Sollision</a>, 
+<a href="https://opengameart.org/users/redshrike">Stephen Challener (Redshrike)</a>, 
+<a href="https://opengameart.org/users/reemax">Tuomo Untinen (Reemax)</a>, 
+<a href="https://opengameart.org/users/williamthompsonj">William Thompson</a>, 
+<a href="https://opengameart.org/users/therahedwig">Wolthera van Hövell tot Westerflier (TheraHedwig)</a>, 
+<a href="https://opengameart.org/users/wulax">wulax</a>, 
+<a href="https://opengameart.org/users/xenodora">Xenodora</a>, 
+<a href="https://opengameart.org/users/yamilian">Yamilian</a>, 
+<a href="https://opengameart.org/users/yar">Yar</a>, 
+<a href="https://opengameart.org/users/yolkati">yolkati</a>, 
+<a href="https://opengameart.org/users/zabin">Zachariah Husiar (Zabin)</a>, 
+<a href="https://opengameart.org/users/zapaper">ZaPaper</a>, 
+<a href="https://opengameart.org/users/ztn">ztn</a>, and other communities:
+<a href="http://www.lostgarden.com/">Daniel Cook</a>, 
+<a href="https://openclipart.org/user-detail/Firkin">Firkin</a>, 
+<a href="http://www.neorice.com/">Guido Bos</a>,
+<a href="https://openclipart.org/user-detail/leangoro">leangoro</a>,
+<a href="https://openclipart.org/user-detail/johnny_automatic">johnny_automatic</a>,
+<a href="https://openclipart.org/user-detail/leangoro">leangoro</a>,
+<a href="https://openclipart.org/user-detail/liftarn">liftarn</a></small>
+
+
+<li>The Arianne project would like to give special thanks to 
+<a href="https://opengameart.org/users/cabbit">Svetlana Kushnariova (Cabbit)</a>
+who created the base template sprites that are used throughout
+this release, and <a href="https://opengameart.org/users/diamonddmgirl">diamonddmgirl</a>
+for her additions to the set. And finally, thank you to the Stendhal project members 
+Kimmo Rundelin (kiheru), olonu, & Jordan Irwin (AntumDeluge) who put in extra hours of 
+work to take on the huge task of creating & replacing sprite & tileset images.
+</ul>
+
 
 <h3 id="v1.26">Stendhal 1.26: Hell Bells</h3>
 
@@ -137,6 +221,10 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 </ul>
 
 
+]]>
+<!-- 
+<![CDATA[
+
 <h3 id="v1.21">Stendhal 1.21: Get the party ready</h3>
 
 <b>world</b><ul>
@@ -160,10 +248,6 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> In TeleporterBehaviour, zoneName.startsWith() now checks a variable so teleporting NPCs can be a little more customizable.
 <li> TeleporterBehaviour can now be passed an array of zones to choose from or leave null for the default list.
 </ul>
-
-]]>
-<!-- 
-<![CDATA[
 
 
 <h3 id="v1.20">Stendhal 1.20: Trust and Confidence</h2>
