@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2018-06-05"/>
-  <version id="1.27"/>
+  <updated date="2018-10-10"/>
+  <version id="1.28"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,47 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.28">Stendhal 1.28: Let's play dress up!<h3>
+
+1.28
+<b>world</b><ul>
+<li> many new enemy & NPC sprites
+<li> some item sprites re-drawn
+<li> no longer required to have 1 money to use scroll eraser
+<li> added "venom gland" item to weekly item quest
+<li> more NPCs award karma for accepting quests
+<li> new "harmless" corpse sprite for spiders
+<li> more NPCs won't turn around after collision
+<li> new hair outfit sprite
+<li> new sedative item that cures/prevents shocked status
+</ul>
+
+<b>web client</b><ul>
+<li> added support for more entities (fishing, coal picking, wishing well, nine switches game, tic tac toe game board)
+<li> added support for event maps
+<li> fixed broken menu on empty buddy list
+<li> added detail outfit layer (e. g. balloon)
+</ul>
+
+<b>java client</b><ul>
+<li> sprites & tiles replaced with images suffixed with "-safe" when blood disabled
+<li> double direction key press is used instead of holding Alt. key to intitiate auto-walk
+<li> players can set continuous movement to continue walking after map change or teleport without releasing direction key
+<li> weapon nature is used to set combat sprite if available
+</ul>
+
+<b>code</b><ul>
+<li> portals can use "face" attribute to set player facing direction when used as a destination
+<li> portals can use "offset" attribute to offset player positioning in relation to destination
+<li> new implementation for antidotes & other status healing items
+</ul>
+
+<b>bugfixes</b><ul>
+<li> shock status effect cannot be overridden by auto-walk
+<li> pets can be walked over so as to not trap players
+</ul>
+
+
 <h3 id="v1.27">Stendhal 1.27: Rebirth</h3>
 <b>world</b><ul>
 <li> hell timer fixed
@@ -201,6 +242,12 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 <li> added dragable PopupWindow (e. g. for corpse inventory, menus and dialogs)
 </ul>
 
+
+
+]]>
+<!-- 
+<![CDATA[
+
 <h3 id="v1.23">Stendhal 1.23: Cursed</h3>
 <b>world</b><ul>
 <li> Mizuno sells ice, fire, and light arrows. 
@@ -219,11 +266,6 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 <b>client</b><ul>
 <li> fixed "under the ocean" layer on clients without support for full alpha.
 </ul>
-
-
-]]>
-<!-- 
-<![CDATA[
 
 <h3 id="v1.21">Stendhal 1.21: Get the party ready</h3>
 

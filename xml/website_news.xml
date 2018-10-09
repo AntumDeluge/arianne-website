@@ -14,6 +14,27 @@
       </content>
   </item>
 -->
+  <item>
+    <title>Stendhal 1.28: Let's play dress up</title>
+    <date>2018-10-10</date>
+    <images>
+      <image url="screen/stendhal/dressup128.png" large="screen/stendhal/dressup128large.png"/>
+      <image url="screen/stendhal/webclient128.png" large="screen/stendhal/webclient128large.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>Mine Town Revival Weeks have just started! It’s the annual event to remember and celebrate the old miners' town north of Semos city.
+
+<p>As every year, you can play games, hang our or enjoy the food. As a special treat Saskia and Liliana have opened a booth in Semos city selling costumes.
+
+<p>Traditionally Stendhal required you to download a Java client. But now you can play Stendhal directly from your 
+<a href="https://stendhalgame.org/account/login.html">browser</a> without installing anything. The web client is still missing features, 
+so you might want download the Java client. But give it a try and let us know about bugs and missing features, that are important to you.
+
+<p>See the complete <a href="/game/stendhal.html#changes">change log</a> for this release.
+]]>
+      </content>
+  </item>
 
   <item>
     <title>Stendhal 1.27: The Curse and the Cure</title>
