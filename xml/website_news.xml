@@ -18,18 +18,19 @@
     <title>Stendhal 1.28: Let's play dress up</title>
     <date>2018-10-10</date>
     <images>
-      <image url="screen/stendhal/dressup128.png" large="screen/stendhal/dressup128large.png"/>
-      <image url="screen/stendhal/webclient128.png" large="screen/stendhal/webclient128large.png"/>
+      <image url="screens/stendhal/dressup128.png" large="screens/stendhal/dressup128large.png"/>
+      <image url="screens/stendhal/webclient128.png" large="screens/stendhal/webclient128large.png"/>
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[<p>Mine Town Revival Weeks have just started! It’s the annual event to remember and celebrate the old miners' town north of Semos city.
 
-<p>As every year, you can play games, hang our or enjoy the food. As a special treat Saskia and Liliana have opened a booth in Semos city selling costumes.
+<p>As every year, you can play games, hang out or enjoy the food. As a special treat, Saskia and Liliana have opened a booth in Semos city to sell costumes.
 
-<p>Traditionally Stendhal required you to download a Java client. But now you can play Stendhal directly from your 
-<a href="https://stendhalgame.org/account/login.html">browser</a> without installing anything. The web client is still missing features, 
-so you might want download the Java client. But give it a try and let us know about bugs and missing features, that are important to you.
+<p>Traditionally, Stendhal required you to download a Java client. But now you can play Stendhal directly from your 
+<a href="https://stendhalgame.org/account/login.html">browser</a> without installing anything. The web client is still in heavy development, 
+so you might want download the Java client. But please give the web client a try. What bugs can you find? Which missing features are important to you?
+Please let us know on <a href="https://github.com/arianne/stendhal/issues">Github</a> or type <code>/support</code> in game.
 
 <p>See the complete <a href="/game/stendhal.html#changes">change log</a> for this release.
 ]]>
