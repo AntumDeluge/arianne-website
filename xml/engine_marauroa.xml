@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <page name="marauroa">
-  <updated date="2012-07-01"/>
-  <version id="3.9.2"/>  
+  <updated date="2018-10-17"/>
+  <version id="3.9.6"/>  
   <status value="complete"/>
   <keywords>online game development, game framework, game engine, network communication, asynchronous database access, mysql, h2, java, perceptions and actions</keywords>
   <short-description>Marauroa is Arianne's Multiplayer Online Engine, which you can use to build your own online games. Marauroa handles object management, asynchronous database persistence and perception based client-server communication.</short-description>
