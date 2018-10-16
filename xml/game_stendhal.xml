@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2018-10-10"/>
-  <version id="1.28"/>
+  <updated date="2018-10-17"/>
+  <version id="1.28.1"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,7 +50,12 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
-<h3 id="v1.28">Stendhal 1.28: Let's play dress up!<h3>
+<h3 id="v1.28.1">Stendhal 1.28.1: </h3>
+<ul><li> server only security update of Marauroa
+<li>Marauroa failed to verify username on client transfer
+</ul>
+  
+<h3 id="v1.28">Stendhal 1.28: Let's play dress up!</h3>
 
 1.28
 <b>world</b><ul>

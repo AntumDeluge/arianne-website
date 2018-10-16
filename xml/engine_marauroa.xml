@@ -72,6 +72,12 @@ you want.<p/>
 ]]>
 	</extended>
 <changelog><![CDATA[
+<b>3.9.6</b>
+<ul>
+<li>Security update (thanks to pepzs for the report)
+<li>Marauroa failed to verify username on client transfer
+</ul>
+
 <b>3.9.5</b>
 <ul>
 <li> fixed a race condition allowing double login which may result in item duplication (thanks to pepsz for the report)

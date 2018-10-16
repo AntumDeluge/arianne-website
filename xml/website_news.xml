@@ -15,6 +15,19 @@
   </item>
 -->
   <item>
+    <title>Marauroa 3.9.6 and Stendhal 1.28.1: Fixing client transfer</title>
+    <date>2018-10-17</date>
+    <content>
+      <![CDATA[<p class="warning">Marauroa 3.9.6 fixes a security bug which allowed an attacker to take over control of a foreign character. We would like to thank pepsz for the report.</p>
+<p>On login, Marauroa verifies your credentials (typically username and password) and offers you a list of your characters. You select one of your characters to start the game.
+
+<p>At this point Marauroa checks whether your character is already in game. In this case, your old client is disconnected and ownership of the character object is transferred to your new client. Otherwise Marauroa loads your character from the database.
+
+<p>In the second case, Marauroa ensures, that the character you requested, belongs to your account. In the first case, however, Marauroa did not verify the account. This bug is exploitable with both the traditional Java client and the new web client.</p>]]>
+      </content>
+  </item>
+
+  <item>
     <title>Stendhal 1.28: Let's play dress up</title>
     <date>2018-10-10</date>
     <images>
