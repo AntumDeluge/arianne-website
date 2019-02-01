@@ -14,6 +14,32 @@
       </content>
   </item>
 -->
+
+  <item>
+    <title>Big city casts it shadows</title>
+    <date>2019-01-31</date>
+    <images>
+      <image url="screens/stendhal/deniran129.png" large="screens/stendhal/deniran129large.png" />
+      <image url="screens/stendhal/webclientmenu129.png" large="screens/stendhal/webclientmenu129large.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p>The foundation of Deniran, the capital city, has been added to the world. It is still in early development, 
+but you can already explore it east of Orril castle by the river.
+
+<p>Do you have an idea of a NPC or shop to fill the place? Found a map issue? Want to write a quest? Please let us know on 
+<a href="https://stendhalgame.org/chat/">#arianne chat</a>
+or open a <a href="https://sourceforge.net/p/arianne/bugs/new/">ticket</a>.
+
+<p>The web client saw many improvements, including an outfit-dialog and a menu-button to easily access the most common commands.
+
+<p>Last but not least we worked around an issue in MySQL which caused trouble when Emojis were used. We added a stendhal-starter.exe
+file to make starting Stendhal more convenient on Microsoft Windows. 
+
+<p>See the complete <a href="/game/stendhal.html#changes">change log</a> for this release.]]>
+      </content>
+  </item>
+
   <item>
     <title>Marauroa 3.9.6 and Stendhal 1.28.1: Fixing client transfer</title>
     <date>2018-10-17</date>

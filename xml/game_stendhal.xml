@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2018-10-17"/>
-  <version id="1.28.1"/>
+  <updated date="2019-02-01"/>
+  <version id="1.29"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,13 +50,45 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.29">Stendhal 1.29: Big city casts it shadows</h3!
+
+<b>world</b><ul>
+<li> started to work on Deniran city
+</ul>
+
+<b>web client</b><ul>
+<li> implemented outfit selector
+<li> add a command menu
+<li> fixed handling of tileset files with an image width that is not an exact multiple of the tile width
+</ul>
+
+<b>classic client</b><ul>
+<li> stendhal-1.29.zip now contains a stendhal-starter.exe file to make it more convenient for MS Windows users.
+  It will prompt the user to install Java, if it is missing. Then it invokes stendhal-starter.jar as usual
+</ul>
+  
+<b>server</b><ul>
+<li> continue movement through portals
+<li> dedicated Archaeologist achievement
+<li> provided mysql database update script (mysql_charset_workaround.sql) which changes all tables to mysql specific charset "utf8wb4".
+  Important note: Using the standard conform charset "utf8" on >= MySQL 5.6 results in an item duplication bug
+</ul>
+
+<b>admin</b><ul>
+<li> admin can teleport to coordinates despite map collisions
+</ul>
+
+<b>sound</b><ul>
+<li> deleted sound files from sources which might have provided wrong license information
+</ul>
+  
+
 <h3 id="v1.28.1">Stendhal 1.28.1: </h3>
 <ul><li> server only security update of Marauroa
 <li>Marauroa failed to verify username on client transfer
 </ul>
-  
-<h3 id="v1.28">Stendhal 1.28: Let's play dress up!</h3>
 
+<h3 id="v1.28">Stendhal 1.28: Let's play dress up!</h3>
 1.28
 <b>world</b><ul>
 <li> many new enemy & NPC sprites
