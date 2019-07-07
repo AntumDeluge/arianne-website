@@ -14,6 +14,28 @@
       </content>
   </item>
 -->
+  <item>
+    <title>Stendhal 1.30: Cool Caves</title>
+    <date>2019-07-</date>
+    <images>
+      <image url="screens/stendhal/mill130.png" large="screens/stendhal/mill130large.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>Besides hanging out at Athor Beach and enjoying the fun of having summer the northern parts of Deniran have been opened up.
+Brave warriors can now start to explore the cool caves and seek some cool down in there. Some <a href="https://stendhalgame.org/creature/">creatures</a> and 
+<a href="https://stendhalgame.org/npc/">NPCs</a> gained a new shape and recovered from the curse.
+
+<p>Ados sent an army batallion to protect the trade route to Deniran.
+
+<p>Do you have an idea of a NPC or shop to fill the place? Found a map issue? Want to write a quest? Please let us know on 
+<a href="https://stendhalgame.org/chat/">#arianne chat</a>
+or open a <a href="https://sourceforge.net/p/arianne/bugs/new/">ticket</a>.
+
+<p>There were lots of smaller graphical improvements. Fences were fixed and interior decorations were improved.]]>
+      </content>
+  </item>
 
   <item>
     <title>Stendhal 1.29: Big city casts its shadows</title>
