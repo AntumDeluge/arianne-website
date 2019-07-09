@@ -50,7 +50,25 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
-<h3 id="v1.29">Stendhal 1.29: Big city casts it shadows</h3!
+<h3 id="v1.30">Stendhal 1.30: Cool Caves</h3>
+<b>world</b><ul>
+<li> added Deniran Caves
+<li> continued on Deniran city and region
+<li> lots of map improvements like fixed fences, iterior decorations and furniture, tower chalet
+<li> moving wind mill blades
+<li> new NPC sprites for bandit, scarletarmynpc, Erodel Bmud, librarianconstantinenpc, man_001_npc, woman_005_npc, woman_007_npc, woman_008_npc, 
+                      elfybuyernpc, elfmayornpc, gamesupervisornpc
+<li> new creatures sprites for fallen_high_priest, madaram_healer, soldier_elite_archer, beaver, deniran_stormtrooper, armored soldiers or various ranks 
+<li> Ados army batallione protects trade route to Denrian
+</ul>
+
+<b>fixes</b><ul>
+<li> fixed position for hey cart
+</ul>
+
+
+  
+<h3 id="v1.29">Stendhal 1.29: Big city casts it shadows</h3>
 
 <b>world</b><ul>
 <li> started to work on Deniran city
