@@ -15,9 +15,10 @@
   </item>
 -->
   <item>
-    <title>Stendhal 1.31: TODO</title>
+    <title>Stendhal 1.31: Populating Deniran</title>
     <date>2019-09-26</date>
     <images>
+      <image url="screens/stendhal/library131.png" large="screens/stendhal/library131large.png"/>
       <image url="screens/stendhal/potionshop131.png" large="screens/stendhal/potionshop131large.png"/>
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
