@@ -15,6 +15,21 @@
   </item>
 -->
   <item>
+    <title>Stendhal 1.31: TODO</title>
+    <date>2019-09-26</date>
+    <images>
+      <image url="screens/stendhal/potionshop131.png" large="screens/stendhal/potionshop131large.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+
+<p>See the complete <a href="/game/stendhal.html#changes">change log</a> for this release.]]>
+      </content>
+  </item>
+
+
+  <item>
     <title>Stendhal 1.30: Cool Caves</title>
     <date>2019-07-09</date>
     <images>

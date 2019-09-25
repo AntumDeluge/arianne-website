@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2019-02-01"/>
-  <version id="1.29"/>
+  <updated date="2019-09-26"/>
+  <version id="1.31"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,7 +50,29 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+
+<h3 id="v1.31">Stendhal 1.31: TODO</h3>
+
+<b>world</b><ul>
+
+<li> update world map: <a href="https://stendhalgame.org/world/atlas.html">https://stendhalgame.org/world/atlas.html</a>
+<li> new quest: Eggs for Marianne
+<li> new Deniran NPCs: Byron Mcgalister, Christina, D J Smith, Ermenegilda, Fiete, Julia, King Edward of Deniran, Patrick, Marianne
+<li> new Deniran interior maps: potions shop, weapons shop, dress shop, grocery store, tiny house, bakery, library
+<li> new Fado NPCs: Olmo (meat & fish smoker)
+<li>  new items: habanero pepper, magic cloak, pinto beans, tripe
+
+  
+</ul><b>graphics</b><ul>
+<li> new graphics: potions, cauldron icon, magic cloak, sand edges...
+<li> reworked NPC sprites: Javier X, Terry, Diehelm Brui, Xaruhwaiyz, Ortiv Milquetoast, Stichard Rallman, Eheneumniranin, Katerina, 
+<li> reworked enemy sprites: cavalryman gnome, lamia, madaram hero, piglet
+<li> reworked items sprites: chain boots, drow sword, studded boots, xeno equipment
+</ul>
+    
+  
 <h3 id="v1.30">Stendhal 1.30: Cool Caves</h3>
+
 <b>world</b><ul>
 <li> added Deniran Caves
 <li> continued on Deniran city and region
