@@ -20,12 +20,13 @@
     <images>
       <image url="screens/stendhal/library131.png" large="screens/stendhal/library131large.png"/>
       <image url="screens/stendhal/potionshop131.png" large="screens/stendhal/potionshop131large.png"/>
+      <image url="screens/stendhal/olmo131.png" large="screens/stendhal/olmo131large.png"/>
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[
 
-<p>See the complete <a href="/game/stendhal.html#changes">change log</a> for this release.]]>
+<p>See the complete <a href="/game/stendhal.html#changes">change log</a> for this release. Do you have ideas for new NPCs, quests? Want to create graphics? Or found a bug? Please let us know at our <a href="https://github.com/arianne/stendhal/issues">GitHub issue tracker</a>.]]>
       </content>
   </item>
 
