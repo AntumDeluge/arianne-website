@@ -15,6 +15,24 @@
   </item>
 -->
   <item>
+    <title>Mine Town Revival Weeks in 2019</title>
+    <date>2019-10-18</date>
+    <images>
+      <image url="screens/stendhal/minetown131.png" large="screens/stendhal/minetown131large.png"/>
+      <image url="screens/stendhal/potionshop131.png" large="screens/stendhal/potionshop131large.png"/>
+      <image url="screens/stendhal/olmo131.png" large="screens/stendhal/olmo131large.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+
+<p>Each year, the citizens of Semos region celebrate the Mine Town Revival Weeks. It is a fair to remember the old and now deserted Mine Town north of Semos city.
+
+<p>Joint the party, have a drink or something to eat. Play a game or two! Or just hang out to chat. What ever you do, have fun. ]]>
+      </content>
+  </item>
+
+  <item>
     <title>Stendhal 1.31: Populating Deniran</title>
     <date>2019-09-26</date>
     <images>
