@@ -37,8 +37,6 @@
     <date>2019-09-26</date>
     <images>
       <image url="screens/stendhal/library131.png" large="screens/stendhal/library131large.png"/>
-      <image url="screens/stendhal/potionshop131.png" large="screens/stendhal/potionshop131large.png"/>
-      <image url="screens/stendhal/olmo131.png" large="screens/stendhal/olmo131large.png"/>
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
