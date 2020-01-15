@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2019-09-26"/>
-  <version id="1.31"/>
+  <updated date="2020-01-16"/>
+  <version id="1.32"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,62 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+  
+<h3 id="v1.32">Stendhal 1.32: New Faces</h3>
+
+<b>world</b><ul>
+  
+<li>new quests: Antivenom Ring, Meal for Groongo
+<li>new enemies: amethyst mermaid, emerald mermaid, ruby mermaid, sapphire mermaid, cannibal warrior, legendary ice elemental, turtle
+<li>new NPCs: Jameson (Apothecary Lab), Wanda (Denrian Potions Shop), Zoey (Ados Pet Sanctuary)
+<li>new food items: corn, habanero pepper, lemon, olive oil, pinto beans, potato, vinegar
+<li>other new items: antivenom ring (resists poison effect), cobra venom (ingredient for Antivenom Ring quest), decent meal (item for Meal for Groongo quest),  turtle shell ring (gives +1 defense), vial (ingredient for Antivenom Ring quest)
+<li>special outfits: jester hat rented from Liliana is now full jester outfit, Magic Boutique outfit lenders no longer rent out glasses
+<li>commerce: McPegleg now buys blue legs, D J Smith now buys ugmash and magic cloak, Alexander now buys all blue equipment
+<li>new enemy drops: banana: monkey; carrot: cannibal woman and elder cannibal; lemon: monkey; olive oil: kalavan wisewoman; pinto beans: ogre, elder ogre, ogre soldier and superogre; potato: boar, cannibal woman, elder cannibal, kalavan housewife, kavalavan peasant and kalavan wisewoman; vinegar: kalavan wisewoman; sedative: imperial priest and imperial high priest; turtle shell ring: gashadokuro; ugmash: amazoness giant, cave troll, elder giant, giant, giant kobold  and master giant
+
+</ul><b>graphics</b><ul>
+<li> new corpses for cobras
+<li> many sprites reworked, replaced, or cleaned scaling artifacts from sprites: outfits, NPCs, enemies, items
+<li> many replaced or reworked tilesets
+<li> new outfit layers that players can select: mouth, eyes, mask, hat
+<li> Conual, in Semos prison, now wears an inmate jumpsuit
+
+</ul><b>graphics</b><ul>
+<li> new melee/attack/block sound effects
+<li> many new enemy/creature sound effects
+<li> many new NPC sound effects
+<li> added map ambiance sounds: water sloshing in Ados City, Athor Island, Athor Ship and Fado City; river in Nalwor Forest, Ados Snake Pit, Semos Mountain and Semos Road; birds in Ados Wall, Ados City, Semos Mountain, Semos Village, Semos City and Semos Road; new wind ambiance to Ados Mountain/Rock and Kikareukin maps
+<li> new eat sound for pets
+<li> new coins sound for buyer/seller NPCs
+<li>  new liquid fill sound for water spring source
+<li>  new music added to maps: Fado City, Kirdneh City, Kalavan Castle interiors, Kalavan City, Kalavan City Gardens, Ados market
+
+</ul><b>classic client</b><ul>
+<li> option to draw shadows under certain entities
+
+</ul><b>web client</b><ul>
+<li> basic travel/progress log
+<li> single click looting from corpse windows
+<li> right click on items in inventory window
+<li> support instantianted zones (vault, maze, adventure island) by reading map information from server
+<li> automatically open and close corpse inventory based on content
+<li> mouse curson icons depending on possible interactions
+<li> play sound effects for fighting and creatures
+<li> added mute toggle
+<li> fixed teleclickmode
+<li> draw black background on small zones
+<li> improved readability of item amount
+<li> improved handling of mobile keyboard
+<li> improved direction changes with arrow keys
+<li> added support for more slash commands
+<li> fixed randomly missing outfit layers
+
+</ul><b>fixes</b><ul>
+<li> fix repeatable marker in Guess Kills and Find Rat Children
+<li> NPCs that turn around on collision will now stop if they have nowhere to go
+</ul>
+
 
 <h3 id="v1.31">Stendhal 1.31: Populating Deniran</h3>
 
