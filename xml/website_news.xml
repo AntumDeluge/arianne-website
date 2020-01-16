@@ -14,6 +14,28 @@
       </content>
   </item>
 -->
+
+  <item>
+    <title>Stendhal 1.32: New Faces</title>
+    <date>2020-01-18</date>
+    <images>
+      <image url="screens/stendhal/apothecary132.png" large="screens/stendhal/apothecary132large.png"/>
+      <image url="screens/stendhal/faces132.gif"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+
+<p>Enjoy a treatment of your face.You can now pick your eyes and mouth as well as several types of masks and glasses. Don’t like the color of a feature? No problem, tint it. The photo on the right side shows only a very small selection of the new possibilities
+
+<p>Clean your eyes and ears. There are many new sounds and improved graphics all over the world.
+
+<p>But perhaps don’t listen too carefully when in a hotel in Fado. A grumpy guest might demand a decent meal and make quite a scene about it. On the plus side, there are many new food and other items. 
+
+<p>See the complete <a href="/game/stendhal.html#changes">change log</a> for this release.]]>
+      </content>
+  </item>
+
   <item>
     <title>Mine Town Revival Weeks in 2019</title>
     <date>2019-10-18</date>
