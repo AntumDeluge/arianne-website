@@ -15,6 +15,37 @@
   </item>
 -->
 
+1st image is the new tannery that just open up in deniran
+2nd image is the city of atlantis, 
+3rd image is wooly mammoths kicking my butt
+3 new levels added to deniran caves
+
+
+the new tannery in deniran is now open for business.  3 new levels of caves to explore.  there is a lot of new achievements 
+  <item>
+    <title>Stendhal 1.33: So much to explore</title>
+    <date>2020-02-28</date>
+    <images>
+      <image url="screens/stendhal/tannery133.png" large="screens/stendhal/tannery133large.png"/>
+      <image url="screens/stendhal/woollymammoth133.png" large="screens/stendhal/woollymammoth133large.png"/>
+      <image url="screens/stendhal/atlantis133.png" large="screens/stendhal/atlantis133large.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+
+<p>
+
+<p>
+
+<p>
+
+
+<p>See the complete <a href="/game/stendhal.html#changes">change log</a> for this release.]]>
+      </content>
+  </item>
+
+
   <item>
     <title>Stendhal 1.32: New Faces</title>
     <date>2020-01-18</date>
@@ -26,7 +57,7 @@
     <content>
       <![CDATA[
 
-<p>Enjoy a treatment of your face.You can now pick your eyes and mouth as well as several types of masks and glasses. Don’t like the color of a feature? No problem, tint it. The photo on the right side shows only a very small selection of the new possibilities
+<p>Enjoy a treatment of your face. You can now pick your eyes and mouth as well as several types of masks and glasses. Don’t like the color of a feature? No problem, tint it. The photo on the right side shows only a very small selection of the new possibilities
 
 <p>Clean your eyes and ears. There are many new sounds and improved graphics all over the world.
 

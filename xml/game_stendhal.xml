@@ -51,6 +51,70 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
   
+<h3 id="v1.33">Stendhal 1.33</h3>
+  
+<b>web client</b><ul>
+  
+<li> long touching to simulate right mouse button
+<li> added online/offline icons on buddy list
+<li> added commands /drop and /adminlevel
+<li> added support for additional entities: rented signs, blackboards, blocks, house doors, doors
+
+</ul><b>world</b><ul>
+
+<li> players can enable a new pouch slot to carry money
+<li> new maps: Atlantis and Deniran Tannery
+<li> new NPCs: Skinner Rawhide, Zelan
+<li> NPC changes: Lupos buys elvish hat, Adena sells olive oil and vinegar
+<li> new items: pelt, leather thread, leather needle, imperial ring, placid ring, magic plate legs, magic plate boots, rotary cutter, unicorn horn
+<li> new royal armor item set
+<li> new enemies: bull elephant, musth elephant, giant bat, giant killer bat, poison shroom, polar bear, tiny scarab, water scarab, water demon, white unicorn, black unicorn, golden unicorn, baby pegasus, bronze pegasus, ivory pegasus, ebony pegasus, solar centaur, glacier centaur, centaur king, woolly mammoth, giant gnome, giant gnomess, neo kraken, rysin dragon
+<li> new quests: Unicorn Horns for Zelan
+<li> quest changes: items for Kirdneh Museum quest categorized for player level
+<li> shock resistance also alters duration of status
+
+</ul><b>achievements</b><ul>
+
+<li> Westerner: visit all outside zones in Deniran region
+<li> Spelunker: visit all underground zones in Deniran region
+<li> Cheese Wiz: loot 2,000 cheese
+<li> Ham Hocks: loot 2,500 ham
+<li> Goldshower: loot 10,000 money
+<li> Green Thumb: harvest 20 of each type of growable flower
+<li> David vs. Goliath: kill 20 of each type of giant solo
+<li> Heavenly Wrath: kill 100 of each type of angel
+<li> Silver Bullet: kill 500 werewolves
+<li> Herbal Practitioner: harvest 20 of each type of herb found growing in Faiumoni
+<li> It's Happy Hour Somewhere: purchase 100 bottles of beer & 100 glasses of wine
+<li> Serenade the Siren: kill 10,000 gem mermaids
+<li> Imperialist Lackey: finish Kill Blordroughs quest 5 times
+<li> Imperialist Soldier: finish Kill Blordoughs quest 25 times
+
+</ul>
+
+</ul><b>art work</b><ul>
+<li> made dark dagger image more distinct from night dagger
+<li> changed beer image to fit description better
+<li> restored old images: banana, grapes, pear, watermelon 
+<li> new item images: golden helmet, viking helmet, aventail, scroll eraser, studded boots, trophy helmet
+<li> new music in: Semos Yeti Cave, Semos Catacombs, Kikareukin Caves, Deniran City, Deniran Forest, Deniran Caves, Atlantis, Semos Village, Semos Plains, Semos Road, Nalwor River, taverns and inns in Ados, Fado and Kirdneh
+
+
+</ul><b>fixes</b><ul>
+<li> minimap recognizes Door entity as Portal
+<li> support for stairs portals in Tiled with continuous movement
+<li> fixed Door & LockedDoor entities not handling continuous movement
+<li> fixed cannot complete Traps for Klaas quest when Antivenom Ring quest activated
+<li> fixed cannot enter apothecary lab if Traps for Klaas quest restarted
+<li> enemy/creature shadow can be set with "shadow" value under "type" tag
+<li> removed multiple messages about no longer being shocked
+<li> fixed veil not being removed if renting from Timothy while wearing wedding gown
+<li> slash action "/removedetail" can be executed to manually remove the detail layer from a character
+<li> mithril cloak quest can be reset to an earlier state in case of lost items
+  
+</ul> 
+  
+  
 <h3 id="v1.32">Stendhal 1.32: New Faces</h3>
 
 <b>world</b><ul>
