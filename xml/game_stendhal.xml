@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2020-01-18"/>
-  <version id="1.32"/>
+  <updated date="2020-02-28"/>
+  <version id="1.33"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -51,7 +51,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
   
-<h3 id="v1.33">Stendhal 1.33</h3>
+<h3 id="v1.33">Stendhal 1.33: Finding the Lost City</h3>
   
 <b>web client</b><ul>
   
