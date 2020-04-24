@@ -21,8 +21,11 @@
     <date>2020-02-28</date>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
-      <![CDATA[Stendhal version 1.33.1 fixed an exploit around the drop and selling of kokuda.
-      <p> Some boss creatures have the ability to drop a certain item, which may be used in the quest. The original creature to make use of this feature was the green dragon guarding a key in the dungeon below Orril Castle. In order to prevent players from getting lots of useless keys, the drop only happens, if the player does not have the same key in his or her inventory already. Recently an NPC called Wanda was introcuded who bought such an item for a sizeable amount of money.   
+      <![CDATA[Stendhal version 1.33.1 fixed an exploit around the drop and selling of kokuda (<a href="https://github.com/arianne/stendhal/commit/9e571f2682776a46ac48460fb02fdeedf3360508">Patch</a>).
+      <p> Some boss creatures have the ability to drop a certain item, which may be used in the quest. 
+      The original creature to make use of this feature was the green dragon guarding a key in the dungeon below Orril Castle. 
+      In order to prevent players from getting lots of useless keys, the drop will only happen, if the player does not have the same key in his or her inventory already.
+      The same logic was used for the quest related item "kokuda" by the Minotaur King. Recently an NPC called Wanda was introcuded who bought such an item for a sizeable amount of money.   
 <p>This release also includes a tiny fix to the webclient buddy list.]]>
       </content>
   </item>
