@@ -15,28 +15,27 @@
   </item>
 -->
   <item>
-    <title>Stendhal 1.34: </title>
-    <date>2020-04-27</date>
+    <title>Stendhal 1.34: Dojo</title>
+    <date>2020-05-01</date>
     <images>
-      <image url="screens/stendhal/" large="screens/stendhal/"/>
+      <image url="screens/stendhal/dojo134.png" large="screens/stendhal/dojo134large.png"/>
+      <image url="screens/stendhal/rengard134.png" large="screens/stendhal/rengard134large.png"/>
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
     <content>
       <![CDATA[
-<p> Don't have a friend to train with? The assassins have built a hidden dojo to train their warriors. MEMBERS ONLY!
+<p>Don't have a friend to train with? The assassins have built a hidden dojo to train their warriors.
 
-<p> A wandering adventurer is seeking to compile information on the creatures found in the world of Faiumoni.
+<p> A wandering adventurer is seeking to compile information on all the creatures found in the world. If you hear whistling, be sure to investigate. That could be his cheerful tune.
 
 <p> Pawn some of your old items in Deniran. Sawyer has set up shop for business with the aid of his assistant.
-
-<p> Visit a psychic to get a reading on your combat history.
 
 <p> Tired of the same old outfits? Meet Pierre for some new flair to show off. Super heroes and cute and cuddly are his theme.
 
 <p> If you are curious about Atlantis, look for Ryla. She is tasked with introducing visitors to the hidden world.
-<p> Baby pegasi have grown shy due to the increasing number of poachers
-<p> A wandering adventurer is seeking to compile information on the creatures found in the world of Faiumoni. If you hear whistling, be sure to investigate. That could be his cheerful tune.
-<p> 
+
+<p> Baby pegasi have grown shy due to the increasing number of poachers.
+
 <p> See the complete <a href="/game/stendhal.html#changes">change log</a> for this release.]]>
       </content>
   </item>

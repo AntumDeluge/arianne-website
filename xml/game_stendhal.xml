@@ -50,6 +50,21 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+
+<h3 id="v1.34">Stendhal 1.43: Dojo</h3>
+
+<b>world</b><ul>
+  
+<li> new zones/maps: Dojo area, Deniran Pawn Shop, Deniran Psychic Parlor, Atlantis Potions Shop
+<li> new NPCs: Jimbo, Omura Sumitada, Akutagawa, Lovena, Rengard, Pierre, Ryla, Mirielle, Sawyer, Harley, Raven
+<li> new items: bestiary, training sword, auto crossbow, auto crossbow A, auto crossbow A+,  enhanced imperial ring
+<li> new achievements: Royally Endowed, Deep Sea Fisherman, Zombie Apocalypse, Chicken Nuggets, Pachyderm Mayhem, Imperialist Dominator, Imperialist Dictator,
+<li> achievement changes: David vs. Goliath, Heavenly Wrath, Legend &amp; Team Player, Westener fixed, Spelunker fixed
+<li> new enemies: fire demon
+<li> enemy drio changes: giant bat, giant killer bat, woolly mammoth, penguin, dodo
+<li> enemy behaviour changes: baby pegasus, blordrough general
+<li> new quests: Collect Enemy Data
+</ul>
   
 <h3 id="v1.33">Stendhal 1.33: Finding the Lost City</h3>
   
