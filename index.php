@@ -106,7 +106,6 @@ if ($page->writeHttpHeader()) {
 				<a href="/">News</a>
 				<a href="/about.html">About</a>
 				<a href="/game/stendhal.html">Stendhal MORPG</a>
-				<a href="/game/jmapacman.html">jMaPacman</a>
 				<a href="/tool/marboard.html">Marboard</a>
 				<a href="/engine/marauroa.html">Marauroa Engine</a>
 				<a href="/contact.html">Contact</a>

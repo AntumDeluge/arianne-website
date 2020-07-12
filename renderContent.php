@@ -99,7 +99,6 @@ function renderSideBarNavigationTopEntry($type, $name, $updated) {
 function renderSideBarNavigationTop() {
 	echo '<ul><li class="menu_title"><div id="game-menu-image">Games</div></li>';
 	renderSideBarNavigationTopEntry('game', 'stendhal', true);
-	renderSideBarNavigationTopEntry('game', 'jmapacman', false);
 	echo '</ul><ul><li class="menu_title"><div id="tool-menu-image">Tools</div></li>';
 	renderSideBarNavigationTopEntry('tool', 'marboard', false);
 	echo '</ul>';
