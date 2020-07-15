@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2020-05-02"/>
-  <version id="1.34"/>
+  <updated date="2020-07-15"/>
+  <version id="1.35"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,26 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.35">1.35: Appreciating Helpers</h3>
+
+<b>world</b><ul>
+  
+<li> new items: ice shield
+<li> new achievements: Bobbing for Apples, Deathmatch Helper, Deathmatch Companion, Deathmatch Convoy, Magic Supplies
+<li> NPC changes: King Edward sells Deniran City scrolls, Rengard visits Ados Mountain instead of Semos Mountain
+<li> small improvements to various maps
+
+</ul><b>webclient</b><ul>
+<li> show progress bar on login
+
+</ul><b>engine</b><ul>
+<li> massive improvements to the database queue
+<li> support for recent versions of Java
+
+</ul><b>other</b><ul>
+<li> started to work on a <a href="https://github.com/arianne/stendhal/blob/master/doc/contributors.md">list of all contributors</a>, please help to add to it.
+</ul>
+
 
 <h3 id="v1.34">Stendhal 1.34: Dojo</h3>
 
@@ -256,6 +276,12 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <b>sound</b><ul>
 <li> deleted sound files from sources which might have provided wrong license information
 </ul>
+
+
+
+]]>
+<!-- 
+<![CDATA[
   
 
 <h3 id="v1.28.1">Stendhal 1.28.1: </h3>
@@ -264,7 +290,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 </ul>
 
 <h3 id="v1.28">Stendhal 1.28: Let's play dress up!</h3>
-1.28
+
 <b>world</b><ul>
 <li> many new enemy & NPC sprites
 <li> some item sprites re-drawn
@@ -455,10 +481,6 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 </ul>
 
 
-
-]]>
-<!-- 
-<![CDATA[
 
 <h3 id="v1.23">Stendhal 1.23: Cursed</h3>
 <b>world</b><ul>
