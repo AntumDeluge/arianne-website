@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2020-07-15"/>
-  <version id="1.35"/>
+  <updated date="2020-10-10"/>
+  <version id="1.36"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,26 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.36">1.36: Construction</h3>
+
+<b>world</b><ul>
+<li> building Mine Town Revival Weeks as group quest
+<li> new item: lamp
+<li> new masks
+
+</ul><b>chat</b><ul>
+<li> New Discord Server: <a href="https://discord.gg/sw7kKgu">https://discord.gg/sw7kKgu</a>
+
+</ul><b>code</b><ul>
+<li> batched database operations to improve performance
+
+</ul><b>fixes</b><ul>
+<li> fixed Bobbing for Apples
+<li> map fixes
+<li> do not put money into disabled money pouch
+</ul>
+
+
 <h3 id="v1.35">1.35: Appreciating Helpers</h3>
 
 <b>world</b><ul>

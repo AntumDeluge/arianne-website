@@ -15,6 +15,25 @@
   </item>
 -->
   <item>
+    <title>Stendhal 1.36: Constuction</title>
+    <date>2020-10-10</date>
+    <images>
+      <image url="screens/stendhal/construction136.png" large="screens/stendhal/construction136large.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>Oh no, the construction of this years Mine Town Revival Weeks is running late.
+
+<p>But with a bit of combined help by players, the festival will still be able to take place.
+
+<p>We have a <a href="https://discord.gg/sw7kKgu">Discord server</a> now.
+
+<p>There are more changes, which you can find in the <a href="/game/stendhal.html#changes">change log</a> for this release.]]>
+      </content>
+  </item>
+
+  <item>
     <title>Stendhal 1.35: Appreciating Helpers</title>
     <date>2020-07-15</date>
     <images>
