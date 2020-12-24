@@ -15,6 +15,21 @@
   </item>
 -->
   <item>
+    <title>❄️ Happy Holidays ❄️</title>
+    <date>2020-12-24</date>
+    <images>
+      <image url="screens/stendhal/christmas136.gif" large="screens/stendhal/christmas136large.gif"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p>Happy holidays and a healthy new year from the Stendhal Community!
+
+<p>Keep your eyes open and you might meet Santa for a nice present and a pointy hat.]]>
+      </content>
+  </item>
+
+  <item>
     <title>Stendhal 1.36: Construction</title>
     <date>2020-10-10</date>
     <images>
