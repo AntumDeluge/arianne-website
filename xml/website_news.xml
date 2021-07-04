@@ -14,6 +14,44 @@
       </content>
   </item>
 -->
+
+  <item>
+    <title>Server Compromise 2021-07-02</title>
+    <date>2021-07-04</date>
+    <images>
+      <image url="screens/stendhal/compromise136.png" large="screens/stendhal/compromise136large.png"/>
+      <image url="screens/stendhal/traffic136.png" large="screens/stendhal/traffic136large.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[
+<p><span class="warning">Please have a look at the <a href="https://docs.google.com/document/d/12X_dIJmmBjqo-Twbp74sqYuf2ljyZzxn43pu5ozbKlM">information about server compromise</a>.</span>
+
+<p>When people of Faiumoni woke up on July, 4th they felt something was odd. The scientists of the 
+royal academy of astronomy later confirmed their feelings. From their regular observations 
+of the stars they derived that somehow several days had gone missing.
+
+<p>For what is known, people went to bed on July, 2nd only to wake up two days later with great
+thirst and hunger. So far there is nobody to be found who can tell what happened during that missing time.
+The reason for this incident is yet unknown.
+
+<p>Even the famous psychic Lovena is not able shed any light on things. 
+All she is able to tell is that she senses the letter "t".
+
+<p>People are concerned. All hope this is not an omen for even worse and stranger things to happen tonight. 
+]]>
+      </content>
+  </item>
+
+When people of Faiumoni woke up on July, Xth they felt something was odd. The scientists of the 
+royal academy of astronomy later confirmed their feelings. From their regular observations 
+of the stars they derived that somehow several days had gone missing. For what is known, 
+people went to bed on July, 2nd only to wake up days later with great thirst and hunger. So far 
+there is nobody to be found who can tell what happened during that missing time. The reason for 
+this incident is yet unknown. Even the famous psychic Lovena is not able shed any light on things. 
+All she is able to tell is that she senses the letter "t". People are concerned. All hope this 
+is not an omen for even worse and stranger things to happen. 
+
   <item>
     <title>❄️ Happy Holidays ❄️</title>
     <date>2020-12-24</date>
