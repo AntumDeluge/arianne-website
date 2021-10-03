@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2020-10-10"/>
-  <version id="1.36"/>
+  <updated date="2021-10-03"/>
+  <version id="1.37"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,19 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.37">1.37: So much space</h3>
+
+<b>world</b><ul>
+<li> added Deniran Space Museum
+<li> added Baelin NPC
+<li> various small improvements to maps
+
+</ul><b>fixes</b><ul>
+<li> fixed crash on startup with Java 16 because of an incompatible API change
+<li> fixed halloffame on newer versions of MySQL due to "rank" now being treated as a reserved word
+</ul>
+
+
 <h3 id="v1.36">1.36: Construction</h3>
 
 <b>world</b><ul>
