@@ -16,6 +16,29 @@
 -->
 
   <item>
+    <title>Stendhal: 1.38: Silence is golden</title>
+    <date>2022-01-08</date>
+    <images>
+      <image url="screens/stendhal/bosscorpse138.png" large="screens/stendhal/bosscorpse138large.png"/>
+      <image url="screens/stendhal/claude138.png" large="screens/stendhal/claude138large.png"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <content>
+      <![CDATA[<p> <p> Strong monsters wanted to fell really important, so they decided to carry more items around. Feeling all posh, lots of creatures have polished their appearance. And even some items got  cleaned up.
+
+<p> While all this was going on, some animals suddenly realized, that you cannot eat money. But fear not, they are other ways to make good use of animals.
+
+<p> The population in Deniran has increased. While some new citizens are not very talkative, an old man has stories to share
+
+<p> See the complete <a href="/game/stendhal.html#changes">change log</a> for this release.
+
+<p> Note for developers: After this release, an installation of Node.js will be required to build Stendhal from Source Code.
+]]>
+      </content>
+  </item>
+
+
+  <item>
     <title>Stendhal 1.37: So much space</title>
     <date>2021-10-03</date>
     <images>
