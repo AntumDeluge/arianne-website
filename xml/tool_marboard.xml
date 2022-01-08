@@ -102,10 +102,10 @@ While it is not ready for production use yet, it is a good proof that Marauroa i
 
 ]]>
   </changelog>
-  <navigation-image name="marboard_dot.png" />
+  <navigation-image name="marboard_dot.webp" />
   <screenshots>
-    <image name="marboard_dot.png"/>
-    <image name="marboard_uml.png"/>
+    <image name="marboard_dot.webp"/>
+    <image name="marboard_uml.webp"/>
   </screenshots>
   <files>
     <file type="binary" name="marboard-client-0.11.zip">

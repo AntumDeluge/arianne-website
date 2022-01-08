@@ -92,7 +92,7 @@ function renderSideBarNavigationTopEntry($type, $name, $updated) {
 		echo '<img src="/images/updated.gif" class="update_image" alt="Recently Updated">';
 	}
 	echo '</li><li>';
-	echo '<a href="/'.$type.'/'.$name.'.html"><img src="/images/navigation/'.$name.'.png" alt="Screenshot"></a>';
+	echo '<a href="/'.$type.'/'.$name.'.html"><img src="/images/navigation/'.$name.'.webp" alt="Screenshot"></a>';
 	echo '</li>';
 }
 

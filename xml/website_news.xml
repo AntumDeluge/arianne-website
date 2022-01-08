@@ -8,7 +8,7 @@
     <images>
       <image url="" large=""/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>]]>
       </content>
@@ -19,12 +19,12 @@
     <title>Stendhal: 1.38: Silence is golden</title>
     <date>2022-01-08</date>
     <images>
-      <image url="screens/stendhal/bosscorpse138.png" large="screens/stendhal/bosscorpse138large.png"/>
-      <image url="screens/stendhal/claude138.png" large="screens/stendhal/claude138large.png"/>
+      <image url="screens/stendhal/bosscorpse138.webp" large="screens/stendhal/bosscorpse138large.webp"/>
+      <image url="screens/stendhal/claude138.webp" large="screens/stendhal/claude138large.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
-      <![CDATA[<p> <p> Strong monsters wanted to fell really important, so they decided to carry more items around. Feeling all posh, lots of creatures have polished their appearance. And even some items got  cleaned up.
+      <![CDATA[<p> <p> Strong monsters wanted to feel really important, so they decided to carry more items around. Feeling all posh, lots of creatures have polished their appearance. And even some items got  cleaned up.
 
 <p> While all this was going on, some animals suddenly realized, that you cannot eat money. But fear not, they are other ways to make good use of animals.
 
@@ -42,9 +42,9 @@
     <title>Stendhal 1.37: So much space</title>
     <date>2021-10-03</date>
     <images>
-      <image url="screens/stendhal/spacemuseum137.png" large="screens/stendhal/spacemuseum137large.png"/>
+      <image url="screens/stendhal/spacemuseum137.webp" large="screens/stendhal/spacemuseum137large.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>So much space an the new Deniran Air And Space Museum. Too bad the museum has a no-refund policy. But if you want to admire space, it might be worth the trip anyway.
 
@@ -59,10 +59,10 @@
     <title>Server Compromise 2021-07-02</title>
     <date>2021-07-04</date>
     <images>
-      <image url="screens/stendhal/compromise136.png" large="screens/stendhal/compromise136large.png"/>
-      <image url="screens/stendhal/traffic136.png" large="screens/stendhal/traffic136large.png"/>
+      <image url="screens/stendhal/compromise136.webp" large="screens/stendhal/compromise136large.webp"/>
+      <image url="screens/stendhal/traffic136.webp" large="screens/stendhal/traffic136large.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p><span class="warning">Please have a look at the <a href="https://docs.google.com/document/d/12X_dIJmmBjqo-Twbp74sqYuf2ljyZzxn43pu5ozbKlM">information about server compromise</a>.</span>
@@ -98,7 +98,7 @@ is not an omen for even worse and stranger things to happen.
     <images>
       <image url="screens/stendhal/christmas136.gif" large="screens/stendhal/christmas136large.gif"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>Happy holidays and a healthy new year from the Stendhal Community!
@@ -111,9 +111,9 @@ is not an omen for even worse and stranger things to happen.
     <title>Stendhal 1.36: Construction</title>
     <date>2020-10-10</date>
     <images>
-      <image url="screens/stendhal/construction136.png" large="screens/stendhal/construction136large.png"/>
+      <image url="screens/stendhal/construction136.webp" large="screens/stendhal/construction136large.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>Oh no, the construction of this years Mine Town Revival Weeks is running late.
@@ -130,11 +130,11 @@ is not an omen for even worse and stranger things to happen.
     <title>Stendhal 1.35: Appreciating Helpers</title>
     <date>2020-07-15</date>
     <images>
-      <image url="screens/stendhal/deathmatch135.png" large="screens/stendhal/deathmatch135large.png"/>
-      <image url="screens/stendhal/contributors135.png" large="screens/stendhal/contributors135large.png"/>
-      <image url="screens/stendhal/login135.png" large="screens/stendhal/login135large.png"/>
+      <image url="screens/stendhal/deathmatch135.webp" large="screens/stendhal/deathmatch135large.webp"/>
+      <image url="screens/stendhal/contributors135.webp" large="screens/stendhal/contributors135large.webp"/>
+      <image url="screens/stendhal/login135.webp" large="screens/stendhal/login135large.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>When you are in the arena, fighting for life and death, help from a friend is very much appreciated. Starting with Stendhal 1.35 such heroic deeds will be rewarded with an achievement.
@@ -153,10 +153,10 @@ is not an omen for even worse and stranger things to happen.
     <title>Stendhal 1.34: Dojo</title>
     <date>2020-05-02</date>
     <images>
-      <image url="screens/stendhal/dojo134.png" large="screens/stendhal/dojo134large.png"/>
-      <image url="screens/stendhal/rengard134.png" large="screens/stendhal/rengard134large.png"/>
+      <image url="screens/stendhal/dojo134.webp" large="screens/stendhal/dojo134large.webp"/>
+      <image url="screens/stendhal/rengard134.webp" large="screens/stendhal/rengard134large.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>Don't have a friend to train with? The assassins have built a hidden dojo to train their warriors.
@@ -179,7 +179,7 @@ is not an omen for even worse and stranger things to happen.
   <item>
     <title>Stendhal 1.33.1: Exploit fix</title>
     <date>2020-04-24</date>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[Stendhal version 1.33.1 is a server only release. It fixes an exploit around the drop and selling of kokuda (<a href="https://github.com/arianne/stendhal/commit/9e571f2682776a46ac48460fb02fdeedf3360508">Patch</a>).
       <p> Some boss creatures have the ability to drop a certain item, which may be used in the quest. 
@@ -194,11 +194,11 @@ is not an omen for even worse and stranger things to happen.
     <title>Stendhal 1.33: Finding the Lost City</title>
     <date>2020-02-28</date>
     <images>
-      <image url="screens/stendhal/tannery133.png" large="screens/stendhal/tannery133large.png"/>
-      <image url="screens/stendhal/woollymammoth133.png" large="screens/stendhal/woollymammoth133large.png"/>
-      <image url="screens/stendhal/atlantis133.png" large="screens/stendhal/atlantis133large.png"/>
+      <image url="screens/stendhal/tannery133.webp" large="screens/stendhal/tannery133large.webp"/>
+      <image url="screens/stendhal/woollymammoth133.webp" large="screens/stendhal/woollymammoth133large.webp"/>
+      <image url="screens/stendhal/atlantis133.webp" large="screens/stendhal/atlantis133large.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p> Rumors about the lost city of Atlantis have surfaced. It’s time to go on an a search. You will encounter strange and beautiful places on your journey. Brush up your skills to complete the latest new achievements 
@@ -222,10 +222,10 @@ is not an omen for even worse and stranger things to happen.
     <title>Stendhal 1.32: New Faces</title>
     <date>2020-01-18</date>
     <images>
-      <image url="screens/stendhal/apothecary132.png" large="screens/stendhal/apothecary132large.png"/>
+      <image url="screens/stendhal/apothecary132.webp" large="screens/stendhal/apothecary132large.webp"/>
       <image url="screens/stendhal/faces132.gif"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 
@@ -244,9 +244,9 @@ is not an omen for even worse and stranger things to happen.
     <title>Mine Town Revival Weeks in 2019</title>
     <date>2019-10-18</date>
     <images>
-      <image url="screens/stendhal/minetown131.png" large="screens/stendhal/minetown131large.png"/>
+      <image url="screens/stendhal/minetown131.webp" large="screens/stendhal/minetown131large.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 
@@ -260,11 +260,11 @@ is not an omen for even worse and stranger things to happen.
     <title>Stendhal 1.31: Populating Deniran</title>
     <date>2019-09-26</date>
     <images>
-      <image url="screens/stendhal/library131.png" large="screens/stendhal/library131large.png"/>
-      <image url="screens/stendhal/potionshop131.png" large="screens/stendhal/potionshop131large.png"/>
-      <image url="screens/stendhal/olmo131.png" large="screens/stendhal/olmo131large.png"/>
+      <image url="screens/stendhal/library131.webp" large="screens/stendhal/library131large.webp"/>
+      <image url="screens/stendhal/potionshop131.webp" large="screens/stendhal/potionshop131large.webp"/>
+      <image url="screens/stendhal/olmo131.webp" large="screens/stendhal/olmo131large.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 
@@ -289,9 +289,9 @@ is not an omen for even worse and stranger things to happen.
     <title>Stendhal 1.30: Cool Caves</title>
     <date>2019-07-09</date>
     <images>
-      <image url="screens/stendhal/mill130.png" large="screens/stendhal/mill130large.png"/>
+      <image url="screens/stendhal/mill130.webp" large="screens/stendhal/mill130large.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>Besides hanging out at Athor Beach and enjoying the fun of having summer the northern parts of Deniran have been opened up.
@@ -314,10 +314,10 @@ or open a <a href="https://sourceforge.net/p/arianne/bugs/new/">ticket</a>.
     <title>Stendhal 1.29: Big city casts its shadows</title>
     <date>2019-02-01</date>
     <images>
-      <image url="screens/stendhal/deniran129.png" large="screens/stendhal/deniran129large.png" />
-      <image url="screens/stendhal/webclientmenu129.png" large="screens/stendhal/webclientmenu129large.png"/>
+      <image url="screens/stendhal/deniran129.webp" large="screens/stendhal/deniran129large.webp" />
+      <image url="screens/stendhal/webclientmenu129.webp" large="screens/stendhal/webclientmenu129large.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>The foundation of Deniran, the capital city, has been added to the world. It is still in early development, 
 but you can already explore it west of Orril castle by the river.
@@ -352,10 +352,10 @@ file to make starting Stendhal more convenient on Microsoft Windows.
     <title>Stendhal 1.28: Let's play dress up</title>
     <date>2018-10-10</date>
     <images>
-      <image url="screens/stendhal/dressup128.png" large="screens/stendhal/dressup128large.png"/>
-      <image url="screens/stendhal/webclient128.png" large="screens/stendhal/webclient128large.png"/>
+      <image url="screens/stendhal/dressup128.webp" large="screens/stendhal/dressup128large.webp"/>
+      <image url="screens/stendhal/webclient128.webp" large="screens/stendhal/webclient128large.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Mine Town Revival Weeks have just started! It’s the annual event to remember and celebrate the old miners' town north of Semos city.
 
@@ -375,11 +375,11 @@ Please let us know on <a href="https://github.com/arianne/stendhal/issues">Githu
     <title>Stendhal 1.27: The Curse and the Cure</title>
     <date>2018-06-05</date>
     <images>
-      <image url="screens/stendhal/giant127.png"/>
-      <image url="screens/stendhal/skincolor127.png"/>
-      <image url="screens/stendhal/tallerorcs127.png"/>>
+      <image url="screens/stendhal/giant127.webp"/>
+      <image url="screens/stendhal/skincolor127.webp"/>
+      <image url="screens/stendhal/tallerorcs127.webp"/>>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>Due to another hit by the curse of vanishing shapes, we decided on a full overhaul of shapes based
@@ -478,9 +478,9 @@ citizens if they like Hell that much? ;)
     <title>Stendhal 1.26: Hell Bells</title>
     <date>2017-09-19</date>
     <images>
-      <image url="screens/stendhal/hell-reaper-126.png"/>
+      <image url="screens/stendhal/hell-reaper-126.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p><span class="warning">This version includes an update to Marauroa 3.9.5 which fixes an item duplication bug on multiple logins. We like to thank pepsz for the report.</span></p>
@@ -515,10 +515,10 @@ citizens if they like Hell that much? ;)
     <title>Stendhal 1.25: Ados Advancements</title>
     <date>2017-06-14</date>
     <images>
-      <image url="screens/stendhal/ados-wall-guard-125.png" large="screens/stendhal/ados-wall-guard-125.png"/>
-      <image url="screens/stendhal/locust-tree-ram-125.png" large="screens/stendhal/locust-tree-ram-125.png"/>
+      <image url="screens/stendhal/ados-wall-guard-125.webp" large="screens/stendhal/ados-wall-guard-125.webp"/>
+      <image url="screens/stendhal/locust-tree-ram-125.webp" large="screens/stendhal/locust-tree-ram-125.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>Stendhal's inhabitants started to advance to new projects. Together they approach new perspectives for the whole world of Stendhal!</p>
@@ -535,7 +535,7 @@ citizens if they like Hell that much? ;)
     <title>Happy Easter</title>
     <date>2017-04-16</date>
     <images>
-      <image url="screens/stendhal/easter2017.png" large="screens/stendhal/easter2017large.png" />
+      <image url="screens/stendhal/easter2017.webp" large="screens/stendhal/easter2017large.webp" />
     </images>
     <content>
       <![CDATA[
@@ -550,10 +550,10 @@ citizens if they like Hell that much? ;)
     <title>Stendhal 1.24: Fighting the curse</title>
     <date>2017-03-10</date>
     <images>
-      <image url="screens/stendhal/greendragon124.png" large="screens/stendhal/greendragon124large.png" />
-      <image url="screens/stendhal/ghostslime124.png" large="screens/stendhal/ghostslime124large.png" />
+      <image url="screens/stendhal/greendragon124.webp" large="screens/stendhal/greendragon124large.webp" />
+      <image url="screens/stendhal/ghostslime124.webp" large="screens/stendhal/ghostslime124large.webp" />
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>Recently the world of Stendhal was hit by an evil curse: Despite a desperate battle, 
@@ -578,9 +578,9 @@ shapeless creatures, animals or people to get back into shape!
     <title>Stendhal 1.23: Cursed</title>
     <date>2017-02-05</date>
     <images>
-      <image url="screens/stendhal/cursed123.png" large="screens/stendhal/cursed123large.png" />
+      <image url="screens/stendhal/cursed123.webp" large="screens/stendhal/cursed123large.webp" />
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p><i>The world of Stendhal was hit by a form-destroying curse. While Stendhal is stable now, 
@@ -616,10 +616,10 @@ help of courages adventures. But the effects of the curse can only be undone by 
     <title>Stendhal 1.22: Joyful times</title>
     <date>2016-12-04</date>
     <images>
-      <image url="screens/stendhal/christmas122.png" large="screens/stendhal/christmas122large.png" />
-      <image url="screens/stendhal/tally122.png" />
+      <image url="screens/stendhal/christmas122.webp" large="screens/stendhal/christmas122large.webp" />
+      <image url="screens/stendhal/tally122.webp" />
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>The year is coming to an end and the people are just starting to celebrate this time of the year.
@@ -639,10 +639,10 @@ help of courages adventures. But the effects of the curse can only be undone by 
     <title>Stendhal 1.21: Get the party ready</title>
     <date>2016-09-13</date>
     <images>
-      <image url="screens/stendhal/pictures121.png" large="screens/stendhal/pictures121large.png" />
-      <image url="screens/stendhal/mizuno121.png" large="screens/stendhal/mizuno121large.png" />
+      <image url="screens/stendhal/pictures121.webp" large="screens/stendhal/pictures121large.webp" />
+      <image url="screens/stendhal/mizuno121.webp" large="screens/stendhal/mizuno121large.webp" />
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>It's almost time to party! The annual Minetown Revival Weeks will start in early October. According to rumors, Kirla will join the festival with her own booth. She is famous for her ability to create pictures from your memories.
@@ -661,11 +661,11 @@ help of courages adventures. But the effects of the curse can only be undone by 
     <title>Stendhal 1.20: Trust and Confidence</title>
     <date>2016-04-13</date>
     <images>
-      <image url="screens/stendhal/archer120.png" large="screens/stendhal/archer120large.png" />
-      <image url="screens/stendhal/prolongall120.png" large="screens/stendhal/prolongall120large.png" />
-      <image url="screens/stendhal/drown120.png" large="screens/stendhal/drown120large.png" />
+      <image url="screens/stendhal/archer120.webp" large="screens/stendhal/archer120large.webp" />
+      <image url="screens/stendhal/prolongall120.webp" large="screens/stendhal/prolongall120large.webp" />
+      <image url="screens/stendhal/drown120.webp" large="screens/stendhal/drown120large.webp" />
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p><span class="warning">Please <a href="https://arianne-project.org/download/stendhal.zip">download Stendhal</a> again as there will be no automatic update to version 1.20. We accidentally uploaded our private code signing key to an Open Source repository on GitHub.</span>
@@ -706,10 +706,10 @@ help of courages adventures. But the effects of the curse can only be undone by 
     <title>Stendhal 1.19: Deep Sea Mysteries</title>
     <date>2015-12-09</date>
     <images>
-      <image url="screens/stendhal/kraken119.png" large="screens/stendhal/kraken119large.png" />
-      <image url="screens/stendhal/milk119.png" large="screens/stendhal/milk119large.png" />
+      <image url="screens/stendhal/kraken119.webp" large="screens/stendhal/kraken119large.webp" />
+      <image url="screens/stendhal/milk119.webp" large="screens/stendhal/milk119large.webp" />
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>There are legends and rumors about mysteries hidden in deep sea: Sunken ships and dangerous creatures. Does the Kraken really exist? Or was it just made up by drunken sailors? Find out yourself by going on a quest to explore the unknown.
@@ -726,10 +726,10 @@ help of courages adventures. But the effects of the curse can only be undone by 
     <title>Stendhal 1.18: Voyages</title>
     <date>2015-08-18</date>
     <images>
-      <image url="screens/stendhal/halfelf118.png" large="screens/stendhal/halfelf118large.png" />
-      <image url="screens/stendhal/maplabel118.png"/>
+      <image url="screens/stendhal/halfelf118.webp" large="screens/stendhal/halfelf118large.webp" />
+      <image url="screens/stendhal/maplabel118.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>Aerianna is a half elf girl who has travelled very far. She has been to the forests in the south, climbed the mountains in the north and even spend some time in the great desert in the south east. At the moment you can meet her at Ados market while you restock your supplies.
@@ -747,8 +747,8 @@ help of courages adventures. But the effects of the curse can only be undone by 
     <title>Infrastructure improvements</title>
     <date>2015-08-16</date>
     <images>
-      <image url="screens/arianne/occtocat.jpeg" />
-      <image url="screens/arianne/arianne-project.png" large="screens/arianne/arianne-project-large.png" />
+      <image url="screens/arianne/occtocat.webp" />
+      <image url="screens/arianne/arianne-project.webp" large="screens/arianne/arianne-project-large.webp" />
     </images>
     <content>
       <![CDATA[<p><i>Summary: Arianne has moved to arianne-project.org. Stendhal is available on GitHub, too, in addition to SourceForge.</i>
@@ -791,11 +791,11 @@ help of courages adventures. But the effects of the curse can only be undone by 
     <title>Stendhal 1.17: Water from above and below</title>
     <date>2015-04-20</date>
     <images>
-      <image url="screens/stendhal/oceanfish117.png"/>
+      <image url="screens/stendhal/oceanfish117.webp"/>
       <image url="screens/stendhal/rain117.gif"/>
-      <image url="screens/stendhal/attacksprite117.png"/>
+      <image url="screens/stendhal/attacksprite117.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>Fish are jumping out of the water. Did they smell the rain?
@@ -819,9 +819,9 @@ help of courages adventures. But the effects of the curse can only be undone by 
     <title>Stendhal: Bunny spotted</title>
     <date>2015-04-05</date>
     <images>
-      <image url="screens/stendhal/bunny116.png"/>
+      <image url="screens/stendhal/bunny116.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>According to popular rumors a bunny is roaming the world. 
@@ -841,9 +841,9 @@ into their town.</p>
     <date>2014-12-13</date>
     <images>
       <image url="screens/stendhal/snowing116.gif" large="screens/stendhal/snowing116large.gif"/>
-      <image url="screens/stendhal/tree116.png"/>
+      <image url="screens/stendhal/tree116.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>Semos is decorated for Christmas and everyone is really excited.
@@ -875,7 +875,7 @@ the mountains. Let's hope, Santa won't get caught by surprise.
 <item>
     <title>Stendhal 1.15.1: Poisoned Death</title>
     <date>2014-10-26</date>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>Stendhal 1.15.1 is a server-only <b>security fix</b>. It fixes an issue resulting in multiple corpse from a single creature, 
@@ -895,10 +895,10 @@ if this creature was poisoned by a summon-scroll creature.</p>
     <title>Stendhal 1.15: Celebrating secrets</title>
     <date>2014-10-05</date>
     <images>
-      <image url="screens/stendhal/secrets115.png"/>
-      <image url="screens/stendhal/translucent115.png"/>
+      <image url="screens/stendhal/secrets115.webp"/>
+      <image url="screens/stendhal/translucent115.webp"/>
       </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>Yay, it's time to party! Today the yearly celebration of the Mine Town Revival weeks start at the dungeon entrance north of Semos city. We have fun games, food and drinks. The popular Sokoban game and paper chase are back as well.
@@ -916,10 +916,10 @@ if this creature was poisoned by a summon-scroll creature.</p>
     <title>Stendhal 1.14: Knowlege and Wisdom</title>
     <date>2014-06-02</date>
     <images>
-      <image url="screens/stendhal/fadogarden114.png"/>
-      <image url="screens/stendhal/website114.png" large="screens/stendhal/website114large.png" />
+      <image url="screens/stendhal/fadogarden114.webp"/>
+      <image url="screens/stendhal/website114.webp" large="screens/stendhal/website114large.webp" />
       </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>The librarians have been busy collecting information from all around the world to create an easily accessible encyclopaedia, including entries about creatures and items, quests and achievements, as well as guides about the world and for players. They even created a register of residents.</p>
@@ -940,10 +940,10 @@ if this creature was poisoned by a summon-scroll creature.</p>
     <title>Stendhal 1.13: Hellish repainting</title>
     <date>2014-02-09</date>
     <images>
-      <image url="screens/stendhal/hell113.png"/>
-      <image url="screens/stendhal/zonenames113.png"/>
+      <image url="screens/stendhal/hell113.webp"/>
+      <image url="screens/stendhal/zonenames113.webp"/>
       </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>There have been reports that rats are more aggressive towards weak people. Are they just hungry? Or is more going on? There are even rumors that hell itself has been repainted.</p> 
@@ -962,9 +962,9 @@ if this creature was poisoned by a summon-scroll creature.</p>
     <title>Stendhal 1.12: Good tidings we bring</title>
     <date>2013-12-12</date>
     <images>
-      <image url="screens/stendhal/christmas112.png"/>
+      <image url="screens/stendhal/christmas112.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
 <p>Good tidings we bring<br>
@@ -992,11 +992,11 @@ if this creature was poisoned by a summon-scroll creature.</p>
     <title>Stendhal 1.11: Let's party</title>
     <date>2013-10-15</date>
     <images>
-      <image url="screens/stendhal/table111.png"/>
-      <image url="screens/stendhal/sokoban111.png"/>
-      <image url="screens/stendhal/caroline111.png"/>
+      <image url="screens/stendhal/table111.webp"/>
+      <image url="screens/stendhal/sokoban111.webp"/>
+      <image url="screens/stendhal/caroline111.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Stendhal 1.11 was released with a big party. Join the festival at the abandoned mine town in the north. Celebrate with costumes and food, quests and puzzles. But don't forget, that kobolds and slime still lurk in the mines.
 
@@ -1017,11 +1017,11 @@ if this creature was poisoned by a summon-scroll creature.</p>
     <title>Stendhal 1.10: More than cosmetic change</title>
     <date>2013-09-09</date>
     <images>
-      <image url="screens/stendhal/seremela110.png"/>
+      <image url="screens/stendhal/seremela110.webp"/>
       <image url="screens/stendhal/shoplist110.gif"/>
-      <image url="screens/stendhal/harold110.png"/>
+      <image url="screens/stendhal/harold110.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>The creatures and elves in Faiumoni might be self conscious, as they have been making some cosmetic changes. Seremela in Nalwor flowershop started a trend by dyeing her hair a beautiful violet. Many creatures followed her example and improved their appearance as well; but not as drastically. And all the shop owners have improved the look of their signs, so that sparkly items also sparkle on the signs!
 <p>
@@ -1038,10 +1038,10 @@ for developers to add new content in the future. For example, the handling of st
     <title>Stendhal 1.09: Strong helpers needed</title>
     <date>2013-07-25</date>
     <images>
-      <image url="screens/stendhal/harvest109.png"/>
-      <image url="screens/stendhal/klaas109.png"/>
+      <image url="screens/stendhal/harvest109.webp"/>
+      <image url="screens/stendhal/klaas109.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Are you strong, and like to push things? Now you can test your muscles against heavy straw carts. Eheneumniranin, the half elf, will thank you for helping him.
 <p>You'll earn karma for doing this good deed, and it's now easier to see when your karma changes - whether earning it, consuming it or losing it - look for the blinking white indicator!
@@ -1055,11 +1055,11 @@ Look out for these new quests and lots of other changes including sprite fixes, 
     <title>Stendhal 1.08: Spend Summer outdoors</title>
     <date>2013-06-05</date>
     <images>
-      <image url="screens/stendhal/puppy108.png"/>
-      <image url="screens/stendhal/flowershop108.png"/>
-      <image url="screens/stendhal/balrog108.png"/>
+      <image url="screens/stendhal/puppy108.webp"/>
+      <image url="screens/stendhal/flowershop108.webp"/>
+      <image url="screens/stendhal/balrog108.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>With Summer approaching, it's a perfect time to be outside. Look out for beautiful butterflies, hopping rabbits, and even a friendly puppy wagging his tail. These are not pets, not foes, just natural creatures to admire. 
 <p>
@@ -1076,11 +1076,11 @@ To read about lots and lots of other changes including item name highlighting, s
     <title>Stendhal 1.07: Traps and Puzzles</title>
     <date>2013-04-18</date>
     <images>
-      <image url="screens/stendhal/blocks107.png"/>
-      <image url="screens/stendhal/cobras107.png"/>
-      <image url="screens/stendhal/emotioncrystals107.png"/>
+      <image url="screens/stendhal/blocks107.webp"/>
+      <image url="screens/stendhal/cobras107.webp"/>
+      <image url="screens/stendhal/emotioncrystals107.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>
 With stone blocks you can push around, you better be careful not to get trapped! You can puzzle over what kind of games you 
@@ -1100,11 +1100,11 @@ href="/game/stendhal.html#changes">full change log</a>.
     <title>Stendhal 1.06: A bit of toil but little trouble</title>
     <date>2013-02-12</date>
     <images>
-      <image url="screens/stendhal/newcorpses106.jpg"/>
-      <image url="screens/stendhal/bluebootsdrop106.jpg"/>
-      <image url="screens/stendhal/dwarvishlegs106.jpg"/>
+      <image url="screens/stendhal/newcorpses106.webp"/>
+      <image url="screens/stendhal/bluebootsdrop106.webp"/>
+      <image url="screens/stendhal/dwarvishlegs106.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p><br><i>hiss of snake and oink of pig, squeak of mouse and roar of lion...</i></p>
 <p>
@@ -1122,10 +1122,10 @@ bonus for mid level players. It's also rumoured that certain dwarves are being c
     <title>Stendhal 1.05: Ready to meet Rudolph?</title>
     <date>2012-12-15</date>
     <images>
-      <image url="screens/stendhal/xmas105.png"/>
+      <image url="screens/stendhal/xmas105.webp"/>
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" 
-image="images/playbutton.png" />   
+image="images/playbutton.webp" />   
     <content>
       <![CDATA[<p>Christmas is coming! Santa is out to deliver presents (if you have been 
 good!) and you can make friends with Rudolph the Red-Nosed Reindeer too! 
@@ -1147,9 +1147,9 @@ New Year from the whole team!]]>
     <title>Stendhal 1.04: Hallowe'en means Mine Town Revival Weeks!</title>
     <date>2012-10-22</date>
     <images>
-      <image url="screens/stendhal/halloween104.png"/>
+      <image url="screens/stendhal/halloween104.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Welcome to the 5th year of Semos Mine Town Revival Weeks! They've actually been running since <a 
 href="/news/stendhal-0-55-halloween-night-.html">2006</a>, but in that year Susi from Ados went missing. So, it was 
@@ -1170,10 +1170,10 @@ href="/game/stendhal.html#changes">full change log</a> ]]>
 <title>Stendhal 1.03: Records</title>
 <date>2012-09-12</date>
 <images>
-<image url="screens/stendhal/gardens103.jpg"/>
-<image url="screens/stendhal/email103.png"/>
+<image url="screens/stendhal/gardens103.webp"/>
+<image url="screens/stendhal/email103.webp"/>
 </images>
- <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+ <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
 <content>
 <![CDATA[<p>
 Why bother keeping records? Well, it can be informative or it can be 
@@ -1202,11 +1202,11 @@ href="/game/stendhal.html#changes">change log</a>.
     <title>Stendhal 1.02 released: Overcoming darkness</title>
     <date>2012-08-07</date>
     <images>
-      <image url="screens/stendhal/vampires102.png"/>
-      <image url="screens/stendhal/clock102.png"/>
-      <image url="screens/stendhal/tutorial102.jpg"/>
+      <image url="screens/stendhal/vampires102.webp"/>
+      <image url="screens/stendhal/clock102.webp"/>
+      <image url="screens/stendhal/tutorial102.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>A spooky atmosphere has settled, with casts of colour appearing over some deep tunnels and magical areas. Vampires hiding in the dim shadows in Semos Catacombs have even added to their disguise - looking normal and friendly right up until they attack you, transforming into their terrifying form.
 <p>
@@ -1223,9 +1223,9 @@ To find out about more improvements, including making the client more playable o
     <title>Stendhal 1.01.1 released: client bug fix for slow zone changes</title>
     <date>2012-07-05</date>
     <images>
-      <image url="screens/stendhal/will1011.jpg"/>
+      <image url="screens/stendhal/will1011.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>We've released a bug fix to the client, which solves the problem of a delay on zone change. Please help us continue to keep the client quality 
 high by 
@@ -1240,10 +1240,10 @@ href="http://arianne.cvs.sf.net/viewvc/arianne/stendhal/src/games/stendhal/clien
     <title>Stendhal 1.01 released: Community spirit</title>
     <date>2012-07-01</date>
     <images>
-      <image url="screens/stendhal/tabs101.jpg"/>
-      <image url="screens/stendhal/quests101.jpg"/>
+      <image url="screens/stendhal/tabs101.webp"/>
+      <image url="screens/stendhal/quests101.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p><small>We believe in the strength of the community spirit and that people are essentially good. We're helping that along with social functions, and also fixing problems where we can. We need <a href ="https://stendhalgame.org/wiki/Stendhal_Helper_Role">your help</a> in this too, but here's what we've been working on:</small>
 <p>
@@ -1270,7 +1270,7 @@ To read about even more changes, see the complete <a href="/game/stendhal.html#c
  <item>
     <title>Stendhal 1.00 released: The next era begins!</title>
     <date>2012-05-17</date>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Stendhal 1.00 is a fun friendly and completely free multiplayer online adventure game with an old school feel. We're happy to announce the first stable release of this open source game at <a href="https://stendhalgame.org">stendhalgame.org</a>.
 <p>
@@ -1280,7 +1280,7 @@ Your character awakes in the house of an experienced guard, start a conversation
 <p>
 Stepping outside you'll appreciate the beauty of the simple village around you, but once you're strong enough, venture further afield for cities, dungeons, forests, mines, mountains and even tropical islands.
 <p>
-   <div align="center"><a href="/screens/stendhal/world.png"><img src="/screens/stendhal/worldsmall.png" alt="Stendhal World Map" width="100%" height="100%"></a></div>
+   <div align="center"><a href="/screens/stendhal/world.webp"><img src="/screens/stendhal/worldsmall.webp" alt="Stendhal World Map" width="100%" height="100%"></a></div>
 <p>On your way you'll meet over 250 <a href="https://stendhalgame.org/npc/">NPCs</a> to chat to, and be tasked with over 100 complex and interesting quests. You may be asked to help protect land or people from danger, feed the hungry, heal the sick, make someone happy, solve a puzzle, play a game or simply lend a hand. You can keep track of your progress using a Travel Log.
 <p>
 Other <a href="https://stendhalgame.org/world/online.html">players</a> will help out and the often filled 'community chest' in the main city is a testament to the friendly groups we have here - though note that PVP is enabled, so if you're nervous, stay in protected areas!
@@ -1299,10 +1299,10 @@ See you soon at <a href ="https://stendhalgame.org">stendhalgame.org</a>.]]>
     <title>Stendhal 0.99: small change, big difference?</title>
     <date>2012-02-05</date>
     <images>
-      <image url="screens/stendhal/lights99.jpg"/>
-      <image url="screens/stendhal/mariehenri99.jpg"/>
+      <image url="screens/stendhal/lights99.webp"/>
+      <image url="screens/stendhal/mariehenri99.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>In Stendhal 0.99, small, effective changes include allowing players with items under them to be pushed (the item moves with the player so stays safe). This should mean less possibility of being blocked in by another player as now you can push them out the way even if they have an item underneath.
 Similarly, reports of new players being attacked by a low level character with very high attack and defence skills, showed us that a PVP check on level alone, wasn't enough. Now attack and defence are compared too when deciding if a player attack would be a fair fight. 
@@ -1337,11 +1337,11 @@ href="/game/stendhal.html#changes">change log</a>. If you find any bugs, old or 
     <title>Stendhal 0.98: Day turns into night</title>
     <date>2011-12-02</date>
     <images>
-      <image url="screens/stendhal/semos98.png"/>
-      <image url="screens/stendhal/zonedanger98.png"/>
-      <image url="screens/stendhal/guesskills98.png"/>
+      <image url="screens/stendhal/semos98.webp"/>
+      <image url="screens/stendhal/zonedanger98.webp"/>
+      <image url="screens/stendhal/guesskills98.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>
 <b>As the day turns into night, keep your worries out of sight.</b>
@@ -1382,10 +1382,10 @@ please see the full <a href = "/game/stendhal.html#changes">change log</a>.]]>
     <title>Stendhal 0.97: Wear a Rainbow</title>
     <date>2011-10-12</date>
     <images>
-      <image url="screens/stendhal/colours_97.png"/>
-      <image url="screens/stendhal/minetown_97.png"/>
+      <image url="screens/stendhal/colours_97.webp"/>
+      <image url="screens/stendhal/minetown_97.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Would you love to wear a rainbow every day, and tell the world that everything's okay? Now, you can. Choose a bright colour when you select your outfit, you can shade your hair and clothes. All the colour may help you get in the party mood for Semos Mine Town Revival Weeks. Check out Semos and the Mine Town, newly decorated for Hallowe'en and with games to play. 
 <p>
@@ -1399,10 +1399,10 @@ It's not just clothes that changed their look, but the ground around you too - t
     <title>Stendhal 0.96: Welcoming new adventurers</title>
     <date>2011-08-25</date>
     <images>
-      <image url="screens/stendhal/semos96.png"/>
-      <image url="screens/stendhal/atlas96.png"/>
+      <image url="screens/stendhal/semos96.webp"/>
+      <image url="screens/stendhal/atlas96.webp"/>
    </images>
-   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Those who first arrive on Faiumoni to experience adventure should be welcomed by all, and find the place easy to navigate. Semos has had a problem with wild creatures nearby and newcomers wandering easily into the forest instead of the city, so friendly citizens <a href ="https://stendhalgame.org/character/storyteller.html">storyteller</a> and <a href ="https://stendhalgame.org/character/kiheru.html">kiheru</a> have built a palisade wall for protection and guidance. Various animal pens, including the wolves in the park north of Semos, have working gates. For learning the way around, everyone now has easy access to a clever <a href ="https://stendhalgame.org/world/atlas.html">atlas</a> created by <a href ="https://stendhalgame.org/character/hendrik.html">hendrik</a> and <a href ="https://stendhalgame.org/character/monsterdhal.html">monsterdhal</a>, and a friendly <a href ="https://stendhalgame.org/wiki/BeginnersGuide">beginners guide</a>.
 <p>
@@ -1418,10 +1418,10 @@ If you'd like to find out about all the other changes please read the full <a hr
     <title>Stendhal 0.95: Fixing the updater</title>
     <date>2011-07-14</date>
     <images>
-      <image url="screens/stendhal/text_box95.png"/>
-      <image url="screens/stendhal/andy95.png"/>
+      <image url="screens/stendhal/text_box95.webp"/>
+      <image url="screens/stendhal/andy95.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
 	<![CDATA[<p>Stendhal's innovative client updates mean that our players don't have to do a new download for every new release. This requires that the packages are signed with a security certificate, and those expire once per year - requiring all players to download again! The updater has been rewritten to avoid this in the future while keeping secure, signed packages.</p>
 <p>Note: Webstart will automatically do a fresh download. The download-client will ask you to do a new <a href="/download/stendhal.zip">download</a>.
@@ -1437,11 +1437,11 @@ A full list of changes can be read at our <a href = "/game/stendhal.html#changes
     <title>Stendhal 0.94: Preparing for server migration</title>
     <date>2011-06-04</date>
     <images>
-      <image url="screens/stendhal/servermove94.jpg"/>
-      <image url="screens/stendhal/help94.png"/>
-      <image url="screens/stendhal/question94.png"/>
+      <image url="screens/stendhal/servermove94.webp"/>
+      <image url="screens/stendhal/help94.webp"/>
+      <image url="screens/stendhal/question94.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>
 <b>Update</b>: The server migration was successful and fast. Our case study document <b><a href = "https://stendhalgame.org/wiki/Moving_the_Stendhal_server_to_a_new_host">'Moving the Stendhal server to a new host'</a></b> explains the details and would act as a good introduction to some game engine and database concepts.<p>
@@ -1459,11 +1459,11 @@ Mostly this month has been behind the scenes work - to prepare for a server migr
     <title>Stendhal 0.93: Birth, life and death</title>
     <date>2011-04-12</date>
     <images>
-      <image url="screens/stendhal/easter93.png"/>
-      <image url="screens/stendhal/waterspring93.png"/>
-      <image url="screens/stendhal/corpses93.png"/>
+      <image url="screens/stendhal/easter93.webp"/>
+      <image url="screens/stendhal/waterspring93.webp"/>
+      <image url="screens/stendhal/corpses93.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Easter is coming, and we celebrate the cycle of birth, life and death. Flowers are flourishing and our favourite Easter Bunny will 
 be dropping small chocolate eggs as he roams the island. Did you know that eggs are a symbol of new life?
@@ -1490,11 +1490,11 @@ Please join us for this celebration at Easter time, and feel free to check out t
     <title>Stendhal 0.92: Achievements and Expedition Groups</title>
     <date>2011-02-26</date>
     <images>
-      <image url="screens/stendhal/achievement92.png"/>
-      <image url="screens/stendhal/jef92.png"/>
-      <image url="screens/stendhal/groups92.png"/>
+      <image url="screens/stendhal/achievement92.webp"/>
+      <image url="screens/stendhal/jef92.webp"/>
+      <image url="screens/stendhal/groups92.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>
 Being a true hero is about much more than just killing creatures, it's even more than completing quests and gaining experience. A true hero is alive to the opportunities offered to him, he explores the world's furthest reaches, samples everything he can try and collects rare items. Your challenge is to reach all <a href="https://stendhalgame.org/achievement.html">possible achievements</a>! Compare to your friends, too, here is <a href="https://stendhalgame.org/character/madmetzger.html#achievements">madmetzger</a>, who developed achievements, as an example.
@@ -1515,7 +1515,7 @@ Did you know how many people are in the world and what quests you have completed
 What tasks have you been asked to do that you've forgotten about ...? With <b>over 250 NPCs</b> to meet and <b>nearly 100 quests</b> to complete it can be easy to forget the details!
 <p>
 This progress log shows your quest history, with details on both open and completed quests, for every quest in the game. This is experimental - so we welcome your feedback* - perhaps we have put in too many details, or too few? Is anything unexpected? <a href ="https://stendhalgame.org/character/kymara.html">kymara</a> did the huge task of filling the possible logs that can be generated for each quest, with help from <a href = "https://stendhalgame.org/character/Bluelads4.html">Bluelads4</a> especially for testing. <a href ="https://stendhalgame.org/character/kiheru.html">kiheru</a> made the very nice dialog, which our beta <a href = "https://stendhalgame.org/wiki/Stendhal_Testing">testers</a> commented was better to have as a separate window so that it can be left open while playing without covering the game screen.
-   <div align="center"><a href="/screens/stendhal/questlog91.png"><img src="/screens/stendhal/questlog91.png" alt="Stendhal 0.91 Progress Log screenshot" width="100%" height="100%"/></a></div>
+   <div align="center"><a href="/screens/stendhal/questlog91.webp"><img src="/screens/stendhal/questlog91.webp" alt="Stendhal 0.91 Progress Log screenshot" width="100%" height="100%"/></a></div>
 <p>
 If you think you've done all the quests here's a least one new one for you: help Anastasia, who lives on Ados farm, to heal her son. To read about all the other changes please see our <a href = "/game/stendhal.html#changes">change log.</a>
 <p>
@@ -1529,11 +1529,11 @@ If you think you've done all the quests here's a least one new one for you: help
     <title>Stendhal 0.90: Seasons Greetings</title>
     <date>2010-12-10</date>
     <images>
-      <image url="screens/stendhal/santa90.png"/>
-      <image url="screens/stendhal/elisabeth90.png"/>
-      <image url="screens/stendhal/findbugs90.png"/>
+      <image url="screens/stendhal/santa90.webp"/>
+      <image url="screens/stendhal/elisabeth90.webp"/>
+      <image url="screens/stendhal/findbugs90.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Merry Christmas everyone! Semos is decorated for Christmas and soon Santa could be delivering presents on a street near you. There's plenty of treats available for Christmas, try crepes from a ratty chef, take chocolate to a hungry little girl, or to continue the theme of goodwill, help a scared man in the Kirdneh region. 
 <p>
@@ -1550,14 +1550,14 @@ Please see the <a href = "/game/stendhal.html#changes">change log</a>  for all c
     <title>Stendhal 0.89: Food, flowers and fights!</title>
     <date>2010-11-24</date>
     <images>
-      <image url="screens/stendhal/pies89.png"/>
-      <image url="screens/stendhal/torcibud89.png"/>
-      <image url="screens/stendhal/bobby89.png"/>
-      <image url="screens/stendhal/flowers89.png"/>
-      <image url="screens/stendhal/selector89.png"/>
-      <image url="screens/stendhal/orb89.png"/>
+      <image url="screens/stendhal/pies89.webp"/>
+      <image url="screens/stendhal/torcibud89.webp"/>
+      <image url="screens/stendhal/bobby89.webp"/>
+      <image url="screens/stendhal/flowers89.webp"/>
+      <image url="screens/stendhal/selector89.webp"/>
+      <image url="screens/stendhal/orb89.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Mmmm.... are you hungry? Faiumoni is having quite some food festival, with sisters Gertha and Martha baking pies packed with cherries and apples. There's new fish to angle for on Amazon island, and elsewhere you'll find garlic and artichokes growing. You can harvest sugar cane, and collect eggs from hen's nests. To wash down all this food you'll need a tasty drink, perhaps koboldish torcibud? For that you'd need fierywater, which is where sugar cane will come in handy. You can meet the distiller in Ados market. 
 <p>
@@ -1583,11 +1583,11 @@ There's a whole lot more changes to read about at the <a href = "/game/stendhal.
     <title>Stendhal 0.88: Newcomers and new trading</title>
     <date>2010-10-15</date>
     <images>
-      <image url="screens/stendhal/barbarus88.jpg"/>
-      <image url="screens/stendhal/florence88.png"/>
-      <image url="screens/stendhal/trade88.png"/>
+      <image url="screens/stendhal/barbarus88.webp"/>
+      <image url="screens/stendhal/florence88.webp"/>
+      <image url="screens/stendhal/trade88.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>
 Autumn, tis the season for migration. And Ados seems to be the city to migrate to, with many new dwellers arriving here. Undeterred by the food shortages, these entrepreneurs will cook for you if you bring them what they need. If you visit Ados market, to the north of the city, you can try a tasty fish soup or a perfectly grilled steak. Elsewhere in Ados you'll find other newcomers, so please be sure to stop for a chat and welcome them here.
@@ -1613,7 +1613,7 @@ You can learn more about these changes and read about all the rest at the <a hre
     <date>2010-09-13</date>
     <content>
       <![CDATA[<p>Thanks to a lot of hard work from <a href ="https://stendhalgame.org/character/kiheru.html">kiheru</a> we're happy to announce the fulfilment of our most frequently requested feature enhancement - floating windows off the main game screen. Your bag, keyrings, settings and character panel will no longer obscure the game view!
-   <div align="center"><a href="/screens/stendhal/client87.png"><img src="/screens/stendhal/client87.png" alt="Stendhal 0.87 client screenshot" width="100%" height="100%"/></a></div>
+   <div align="center"><a href="/screens/stendhal/client87.webp"><img src="/screens/stendhal/client87.webp" alt="Stendhal 0.87 client screenshot" width="100%" height="100%"/></a></div>
 <p>
 As you can see we're pictured above with postman. Sometimes it's nice to read messages you received a while ago, or even ones you sent. Now you can check your old postman messages and read new ones by checking online at  <a href="https://stendhalgame.org/account/messages/to-me.html">stendhalgame.org</a>. Postman will also now take messages for you when you are marked away in game, and when you return from being away he'll send you any messages left for you in that time. You can learn more about these changes and read about all the rest at the <a href = "/game/stendhal.html#changes">change log.</a>
 <p>
@@ -1625,12 +1625,12 @@ As you can see we're pictured above with postman. Sometimes it's nice to read me
     <title>Stendhal 0.86: The Wizards Circle</title>
     <date>2010-07-26</date>
     <images>
-      <image url="screens/stendhal/tower86.png"/>
-      <image url="screens/stendhal/circle86.png"/>
-      <image url="screens/stendhal/settings86.png"/>
-      <image url="screens/stendhal/park86.png"/>
+      <image url="screens/stendhal/tower86.webp"/>
+      <image url="screens/stendhal/circle86.webp"/>
+      <image url="screens/stendhal/settings86.webp"/>
+      <image url="screens/stendhal/park86.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Have you noticed the graceful round tower in Semos Mountains and wondered what goes on in that lofty spire? The guardian of the tower, Zekiel, has prepared a quest for you - complete the Wizards Circle and access will be granted. 
 <p>
@@ -1657,11 +1657,11 @@ changelog</a>.]]>
     <title>Stendhal 0.85: Wood, wood everywhere</title>
     <date>2010-06-27</date>
     <images>
-      <image url="screens/stendhal/producers85.png"/>
-      <image url="screens/stendhal/phalk85.png"/>
-      <image url="screens/stendhal/choose_character85.png"/>
+      <image url="screens/stendhal/producers85.webp"/>
+      <image url="screens/stendhal/phalk85.webp"/>
+      <image url="screens/stendhal/choose_character85.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Farmers like Karl have learnt a more efficient sowing technique. Each small patch of grain in the fields is planted closer together, so it will slow you down when you walk over that patch, but you can walk more easily between grain rows than before. After you harvested all your grain, you'd take it to Jenny to be milled. Do you sometimes forget that you left an order with her, or for how much? Well, now you can use /listproducers to be reminded of all your orders you placed with Jenny and other workers who cast, make and bake for you. You may use that to remember to collect some sandwiches you made with Leander, for Phalk. The dwarf guardian is hungry at his station in Semos mines and would appreciate some food and drink.
 <p>
@@ -1683,12 +1683,12 @@ changelog</a>.]]>
     <title>Stendhal 0.84: Don't deny the desperate Despot</title>
     <date>2010-06-02</date>
     <images>
-      <image url="screens/stendhal/army84.png"/>
-      <image url="screens/stendhal/heal84.png"/>
-      <image url="screens/stendhal/arrows84.png"/>
-      <image url="screens/stendhal/icons84.png"/>
+      <image url="screens/stendhal/army84.webp"/>
+      <image url="screens/stendhal/heal84.webp"/>
+      <image url="screens/stendhal/arrows84.webp"/>
+      <image url="screens/stendhal/icons84.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>       Are you an obsessive hoarder of rare items? Do you pay high sums for a durin axe (just because it is rare) or camp hours to win a nihonto? Balduin is just like you. If, and only if, you've completed every other quest to collect special items, he'll challenge you to find one more... but don't bother asking your friends what he challenged them with, your quest could well be different.
   <p>
@@ -1713,12 +1713,12 @@ changelog</a>.]]>
     <title>Stendhal 0.83: Dark or Light, Fire or Ice?</title>
     <date>2010-04-30</date>
     <images>
-      <image url="screens/stendhal/damage83.png"/>
-      <image url="screens/stendhal/careful83.png"/>
-      <image url="screens/stendhal/ratcity83.png"/>
-      <image url="screens/stendhal/cursor83.png"/>
+      <image url="screens/stendhal/damage83.webp"/>
+      <image url="screens/stendhal/careful83.webp"/>
+      <image url="screens/stendhal/ratcity83.webp"/>
+      <image url="screens/stendhal/cursor83.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>The forces of the elements have lain dormant in the world for a long time. 
 But now, fire, ice, dark and light magic is awakening. Those wielding a fire sword will find excellent results
@@ -1753,9 +1753,9 @@ There's much more news than can fit here, so to read about the many other change
     <date>2010-03-27</date>
     <content>
       <![CDATA[<p>We had a big party in Ados to celebrate Spring. Maria was on hand to sell party food and drinks, and there was a Tournament where players challenged each other to prove their strength. The party got a huge number of guests! 
-      <div align="center"><a href="/screens/stendhal/party20100327.jpg"><img src="/screens/stendhal/party20100327_small.jpg" alt="Spring Tournament" width="100%" height="100%"/></a></div>
+      <div align="center"><a href="/screens/stendhal/party20100327.webp"><img src="/screens/stendhal/party20100327_small.webp" alt="Spring Tournament" width="100%" height="100%"/></a></div>
 <p>bell13 and snakevip were chosen as first place winners, with killerm, love_puppet and emily  in second place. Well done all! You can read the full results from the Tournament, with details of every fight, at <a href="https://stendhalgame.org/wiki/Stendhal_Events/SpringFestival201003">our wiki</a>.
-      <div align="center"><img src="/screens/stendhal/winners20100327.jpg"></div>
+      <div align="center"><img src="/screens/stendhal/winners20100327.webp"></div>
 ]]>
       </content>
   </item>
@@ -1764,11 +1764,11 @@ There's much more news than can fit here, so to read about the many other change
     <title>Stendhal 0.82: Spring is coming!</title>
     <date>2010-03-26</date>
     <images>
-      <image url="screens/stendhal/orb82.png"/>
-      <image url="screens/stendhal/sound82.png"/>
-      <image url="screens/stendhal/rats82.png"/>
+      <image url="screens/stendhal/orb82.webp"/>
+      <image url="screens/stendhal/sound82.webp"/>
+      <image url="screens/stendhal/rats82.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Is that a giant soap bubble which has landed in Kalavan City? No, it's a magical orb, and provided that Ilisa has taught you the art of scrying, you can use this magical orb to take you ... erm ... who knows! Somewhere fun, that's for sure. While you're in the Kalavan area, if you can brave the castle, you'll find someone with a favour to ask you.
 <p>If you get around using automatic walking, you should notice smoother movement, and that you can start walking with only one click, not two. 
@@ -1806,11 +1806,11 @@ Thanks everyone for uploading your error log files and please continue to do so.
     <title>Stendhal 0.81: Music to your ears</title>
     <date>2010-02-20</date>
     <images>
-      <image url="screens/stendhal/music81.png"/>
-      <image url="screens/stendhal/ignore81.png"/>
-      <image url="screens/stendhal/statspanel81.png"/> 
+      <image url="screens/stendhal/music81.webp"/>
+      <image url="screens/stendhal/ignore81.webp"/>
+      <image url="screens/stendhal/statspanel81.webp"/> 
    </images>
-   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
    <content>
       <![CDATA[<p>
 Did you know that one of your friends from Semos is a composer of music? <a 
@@ -1863,7 +1863,7 @@ Semos tavern and was rewarded with ingredients for
 and a marked scroll to Wofol bakery where he could make the pizzas! A 
 wonderful reward and a really great event, many thanks to geomac for 
 organising this. 
-      <div align="center"><img src="/screens/stendhal/deenie.jpeg" alt="Deenie safe"/></div>
+      <div align="center"><img src="/screens/stendhal/deenie.webp" alt="Deenie safe"/></div>
 ]]>
       </content>
   </item>
@@ -1874,12 +1874,12 @@ organising this.
     <title>Stendhal 0.80: Harold's new job, Trade Manager!</title>
     <date>2010-01-08</date>
    <images>
-      <image url="screens/stendhal/trade80.png"/>
-      <image url="screens/stendhal/shopsign80.png"/>
-      <image url="screens/stendhal/maze80.png"/>   
-      <image url="screens/stendhal/ignore80.png"/>
+      <image url="screens/stendhal/trade80.webp"/>
+      <image url="screens/stendhal/shopsign80.webp"/>
+      <image url="screens/stendhal/maze80.webp"/>   
+      <image url="screens/stendhal/ignore80.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>
 Budding salesmen, there is help at hand for make your trading smooth! Harold will be your middle-man, you tell him what price you want to sell your item for, and he will take it from you. Anyone who comes to ask him what offers he has recorded has the chance to buy your item. Once your item is sold, Harold will give you the price that you asked for it. He's new to the job, so he's only accepting 3 offers per person, so that he doesn't overload himself with work. 
@@ -1909,9 +1909,9 @@ Marauroa 3.3 introduces new features: RPEvents can have RPSlots. This means that
     <content>
       <![CDATA[<p>
 Xhiphin Zohos, from Fado, called for help, because somehow many caged creatures had been let loose. The bandits who did this were in disguise. Luckily, there was a lot of help to kill the creatures, which had gone wild after being captive for so long. 
-      <div align="center"><img src="/screens/stendhal/raid060110.png" alt="Fado under siege!" width="100%" height="100%"/></div>
+      <div align="center"><img src="/screens/stendhal/raid060110.webp" alt="Fado under siege!" width="100%" height="100%"/></div>
 <p>Once Fado was safe and the creatures were dead, Xhiphin Zohos begged for anyone to help look for Harold, who had been the keeper of the animals. He had been kidnapped by the bandits! Every building in Fado was thoroughly searched and Harold was eventually found, safe, in the shepherd house. 
-      <div align="center"><img src="/screens/stendhal/harold.png" alt=Harold safe and sound" width="100%" height="100%"/></div>
+      <div align="center"><img src="/screens/stendhal/harold.webp" alt=Harold safe and sound" width="100%" height="100%"/></div>
 <p>Harold explained to his saviours what had happened, how he had been kidnapped, and he thanked them for saving him. He also told them that the whole experience had made him realise that his job was much too dangerous, and now he is going to look for a different job. Lets wish him luck in this!]]>
       </content>
   </item>
@@ -1927,14 +1927,14 @@ Semos was in danger this New Year, from creatures which threatened to invade.
 Legions of creatures started to appear in the Semos Mine Towns, and a cast of blackness fell over the island.
 Mayor Sakhs had been forewarned of the disaster, and he called warriors to help defend Semos. 
 He also begged them to find a number of ancient relics which may help protect against the evil.
-      <div align="center"><img src="/screens/stendhal/raid010110.png" alt="New Year Revolt" width="100%" height="100%"/></div>
+      <div align="center"><img src="/screens/stendhal/raid010110.webp" alt="New Year Revolt" width="100%" height="100%"/></div>
 <p>It was not easy for the brave warriors, they had to seek out the creatures, which were smart and tried to attack from many places.
 Although the revolt started in the Mine Town, it spread across the mountain ridges, through the plains, 
 and then south west around Semos Jail. Many of the creatures had enhanced strength and health, and the warriors worked as teams
 to destroy each and every one. Once all the creatures were killed and all ankhs had been found, the warriors journeyed back to the 
 townhall and presented the ankhs for the safety of Semos. 
 <p>Those intrepid warriors who found ankhs were: shadon, jesco, giovanote (2), kezman, kiyosh, moritzger and madmetzger.
-      <div align="center"><img src="/screens/stendhal/townhall010110.png" alt="Townhall" width="100%" height="100%"/></div>
+      <div align="center"><img src="/screens/stendhal/townhall010110.webp" alt="Townhall" width="100%" height="100%"/></div>
 <p>Thanks to all who help to defend Semos, whether from the New Year Revolt or the day by day threats. Happy New Year!]]>
       </content>
   </item>
@@ -1943,9 +1943,9 @@ townhall and presented the ankhs for the safety of Semos.
     <title>Stendhal 0.79: Back to reality</title>
     <date>2009-11-13</date>
     <images> 
-      <image url="screens/stendhal/stendhal79.png"/>
+      <image url="screens/stendhal/stendhal79.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>The Mine Town celebrations are over for another year; the outfits must be folded away and the games packed into boxes. But don't be sad, you can look forward to Christmas now! 
 <p>
@@ -1958,10 +1958,10 @@ While you are playing you may notice an improvement in your client's performance
     <title>Stendhal 0.78: Semos Mine Town Revival Weeks</title>
     <date>2009-10-22</date>
     <images>
-      <image url="screens/stendhal/tictactoegame78.png"/>
-      <image url="screens/stendhal/outfits78.png"/>
+      <image url="screens/stendhal/tictactoegame78.webp"/>
+      <image url="screens/stendhal/outfits78.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
  <![CDATA[<p>Come join Susi this year at the Semos Mine Town Revival Weeks - you can  
 play tic tac toe, try a puzzle, play a treasure hunt game, hire a fun outfit and most importantly, make friends with Susi.
@@ -1977,10 +1977,10 @@ pirate attack. Mein_Dino, IschBing, Maja and Peka were heroes at that raid! This
     <title>Stendhal 0.77: Adventure Island Awaits</title>
     <date>2009-09-02 21:33:35</date>
     <images>
-      <image url="screens/stendhal/client77.png"/>
-      <image url="screens/stendhal/adventure77.png"/>
+      <image url="screens/stendhal/client77.webp"/>
+      <image url="screens/stendhal/adventure77.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>This is the beginning of a very great change - the game menus and windows are being moved off the main screen. Initially, the buddies list and minimap panel have both been moved off your world screen and onto their own side panel, attached to the screen. Also, the chat log is no longer a separate floating window, but a resizeable panel attached to the screen. It's a major step forward and something players have wanted for a long time, soon we hope to be able to move the Bag and Character panels out of the world screen too. It gives you plenty more space to see ...
 <p>
@@ -1995,10 +1995,10 @@ If you started the adventure called marriage, you'll notice a change in wedding 
     <title>Stendhal 0.76: Ported to Marauroa 3.0</title>
     <date>2009-08-02 23:16:00</date>
     <images> 
-      <image url="screens/stendhal/jdk76.png"/>
-     <image url="screens/stendhal/corpses76.png"/>
+      <image url="screens/stendhal/jdk76.webp"/>
+     <image url="screens/stendhal/corpses76.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Everything has changed but nothing is different. So, what's happened? The engine Marauroa which runs Stendhal and controls the database has had major refactoring; mainly to how it accesses the databases. Things are now possible which weren't before, but these all go on 'behind the scenes'. So, in the world of Stendhal, our NPCs, players, creatures, fighting, banks, items, farming, houses, zones and quests, are all unchanged. Stendhal has been ported to use the newly rewritten engine but everything should look exactly as before.*
 <p>
@@ -2023,10 +2023,10 @@ We're really happy to announce that the Stendhal client is now <b>compatible wit
     <title>Stendhal 0.75: Beauty and Balance</title>
     <date>2009-07-12 22:50:00</date>
     <images>
-      <image url="screens/stendhal/artwork75.png"/>
-      <image url="screens/stendhal/clone75.png"/>
+      <image url="screens/stendhal/artwork75.webp"/>
+      <image url="screens/stendhal/clone75.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>It's all about beauty at this time of year. You'll see it if you buy daisies seeds or lilia seeds from Jenny and watch them grow into fabulous flowers. Be sure you plant them on the patch of fertile ground in Semos Plains North. Anyone can pick your fully grown flower, so you're doing a public service by planting them for all to watch and for some lucky person to pick. Perhaps they're most beautiful left in the ground, though. 
 <p>
@@ -2039,10 +2039,10 @@ Do you ever see players who should not yet have mastered the black arts, but som
     <title>Stendhal 0.74: What goes around comes around</title>
     <date>2009-05-23 23:25:00</date>
     <images>
-     <image url="screens/stendhal/hell74.png"/>
-      <image url="screens/stendhal/arachne74.png"/>
+     <image url="screens/stendhal/hell74.webp"/>
+      <image url="screens/stendhal/arachne74.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Finding the 10%* death penalty hard? If you have good karma you could lose a lot less skills now - but if you have bad karma you 
 could lose up to 20%**. If you want to know more ways to get karma just go and ask Sarzina, the wizardess in fado hut, she will tell you.
@@ -2068,11 +2068,11 @@ Last but not least, another fearsome new creature to face in battle - arachne - 
     <title>Stendhal 0.73: Houses sweet houses</title>
     <date>2009-03-31 16:41:00</date>
     <images>
-      <image url="screens/stendhal/availablility73.png"/>
-      <image url="screens/stendhal/house73.png"/>
-      <image url="screens/stendhal/tax73.png"/>
+      <image url="screens/stendhal/availablility73.webp"/>
+      <image url="screens/stendhal/house73.webp"/>
+      <image url="screens/stendhal/tax73.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Player houses have just got even better! Each house comes with a storage chest, it's not like a player chest where each player sees 
 their own items - it's like the Semos community chest, but inside the house! Everyone with a key can access it, so if you're worried and can't 
@@ -2094,10 +2094,10 @@ more magic outfits, these we leave to you to explore! ]]>
     <title>Stendhal 0.72: New abilities</title>
     <date>2009-02-22 23:55:00</date>
     <images>
-      <image url="screens/stendhal/dm72.png"/>
-      <image url="screens/stendhal/vault72.png"/>
+      <image url="screens/stendhal/dm72.webp"/>
+      <image url="screens/stendhal/vault72.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>The Semos Mine Town Revival Weeks Party is over and Susi and her daddy are safe at home now in Ados City. Liliana the magic costume maker has opened a boutique in the magic city, her outfits now last for longer but cost a little more to buy. A new outfit is a great way to express yourself so it is well worth it! Another new way to express yourself is by using the /me command. Just try typing for example '/me loves Stendhal' or '/me thinks kymara is awesome' and you will get the idea!
 <p>
@@ -2117,9 +2117,9 @@ So, players have learnt a number of new abilities - what about creatures? Not to
     <title>Stendhal 0.71: Semos Mine Town Revival Weeks!</title>
     <date>2008-11-30 17:03:00</date>
     <images> 
-      <image url="screens/stendhal/outfit71.png"/>
+      <image url="screens/stendhal/outfit71.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>To celebrate the lost girl Susi being found safe and well, the tradition of celebrating Semos Mine Town Revival Weeks has returned! 
 For a short time only, visit the Semos Mine Town and get an exciting magic outfit, try a puzzle or chat with the centre of the party, Susi. 
@@ -2133,10 +2133,10 @@ Another piece of very good news is about Thanatos, the Death match Assistant. An
     <title>Stendhal 0.70: Rules of War</title>
     <date>2008-10-03 13:30:05</date>
     <images> 
-      <image url="screens/stendhal/damage70.png"/>
-      <image url="screens/stendhal/pk70.png"/>
+      <image url="screens/stendhal/damage70.webp"/>
+      <image url="screens/stendhal/pk70.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>
 <p>Warriors, take note! For the rules of combat have changed, and to be ignorant of them is to be in mortal danger!!
@@ -2160,10 +2160,10 @@ Another piece of very good news is about Thanatos, the Death match Assistant. An
     <title>Stendhal 0.69: Wrath of Angels</title>
     <date>2008-08-12 17:55:00</date>
     <images>
-      <image url="screens/stendhal/angel69.png"/>
-      <image url="screens/stendhal/choke69.png"/>
+      <image url="screens/stendhal/angel69.webp"/>
+      <image url="screens/stendhal/choke69.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>
 <p>The threats of Blordrough's dark legion forces cooperation between citizens. Believe it or not, scientists and magicians set aside their beliefs and differences. 
@@ -2180,9 +2180,9 @@ They combine efforts to make an awesome piece of equipment that can be used to <
     <title>Hide and Seek!</title>
     <date>2008-07-03 22:00:00</date>
     <images>
-      <image url="screens/stendhal/hideandseek.png"/>
+      <image url="screens/stendhal/hideandseek.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Grannie played a game of hide and seek with the players tonight. She shouted clues and waited hidden to see who would turn up. Those who solved the clues were rewarded with chocolate, pizza, licorice and more treats! 
 <p>Congratulations to ladymacbeth for solving every clue and going to the correct places. Thanks to all who took part!
@@ -2204,12 +2204,12 @@ They combine efforts to make an awesome piece of equipment that can be used to <
     <title>Stendhal 0.68.1: Fix it and tidy up</title>
     <date>2008-06-30 20:45:00</date>
     <images>
-      <image url="screens/stendhal/coast681.png"/>
-      <image url="screens/stendhal/honeymoon681.png"/>
-      <image url="screens/stendhal/balrog681.png"/>
-      <image url="screens/stendhal/house681.png"/>
+      <image url="screens/stendhal/coast681.webp"/>
+      <image url="screens/stendhal/honeymoon681.webp"/>
+      <image url="screens/stendhal/balrog681.webp"/>
+      <image url="screens/stendhal/house681.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>There's always work to do in Faiumoni. Recently we've been fixing leaks, patching up holes and oiling rusty mechanisms. With all these problems solved, you'll notice less bugs scuttling around. Another change you'll notice is that the number in brackets on your character panel after the ATK and DEF levels now shows the skills needed to level up to the next level. It will count down as you fight instead of counting up.
 
@@ -2225,11 +2225,11 @@ They combine efforts to make an awesome piece of equipment that can be used to <
     <title>Stendhal 0.68: Gnome Sweet Gnome</title>
     <date>2008-05-29 21:04:00</date>
     <images>
-      <image url="screens/stendhal/dragonlair68.png"/>
-      <image url="screens/stendhal/gnomevillage68.png"/>
-      <image url="screens/stendhal/liljohnnnny68.png"/>
+      <image url="screens/stendhal/dragonlair68.webp"/>
+      <image url="screens/stendhal/gnomevillage68.webp"/>
+      <image url="screens/stendhal/liljohnnnny68.webp"/>
       </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Gossip has been spreading about the precious nuggets of mithril found deep in ados mountains. Some say there is a man who can cast them into mithril bars, which are yet more precious. Some even say that a shield can be forged out of this amazing metal. It's up to you to discover if there is any truth in these rumours.
 <p>
@@ -2242,12 +2242,12 @@ Have you money to spend? The traders of you will be delighted to hear of the mea
     <title>Stendhal 0.67: Happy Valentines</title>
     <date>2008-02-14 11:59:00</date>
     <images>
-      <image url="screens/stendhal/yeti67.png"/>
-      <image url="screens/stendhal/keep67.png"/>
-      <image url="screens/stendhal/hayunn67.png"/>
-      <image url="screens/stendhal/heart67.png"/>
+      <image url="screens/stendhal/yeti67.webp"/>
+      <image url="screens/stendhal/keep67.webp"/>
+      <image url="screens/stendhal/hayunn67.webp"/>
+      <image url="screens/stendhal/heart67.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Mr and Mrs Yeti have a sweet little ice cave below Semos Mountain. Be like Mr Yeti, keep your loved one sweet, with a red rose from Fleur in Kirdneh. While you're there, why not visit the museum, drink in the inn, go to the bank or even buy a house!
 <p>
@@ -2263,10 +2263,10 @@ Enough of the blood and guts and back to a love story. Princess Esclara on Amazo
     <title>Stendhal 0.66: Embracing Marauroa 2.x</title>
     <date>2008-01-08 19:35:00</date>
     <images>
-      <image url="screens/stendhal/signs66.png"/>
-      <image url="screens/stendhal/map66.png"/>
+      <image url="screens/stendhal/signs66.webp"/>
+      <image url="screens/stendhal/map66.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Three months ago a major new version of our engine Marauroa was released. With it came potential for new, exciting features for Stendhal. In this release we are testing the possibilities.
 <p>New kinds of data storage are possible, using a zone for storage and not just the player. Examples now in game are signs which can be rented in Semos City. Also that admin can jail players who are offline, and they can be freed even if the server is restarted inbetween. Finally there is now a way to view an image from the game client, and the first image in game is a map of Semos, which Monogenes can show any player needing help with directions.
@@ -2277,10 +2277,10 @@ Enough of the blood and guts and back to a love story. Princess Esclara on Amazo
     <title>Stendhal 0.65: Christmas is coming!</title>
     <date>2007-12-03 21:30:00</date>
     <images>
-      <image url="screens/stendhal/xmas07.png"/>
-      <image url="screens/stendhal/dead_lich.png"/>
+      <image url="screens/stendhal/xmas07.webp"/>
+      <image url="screens/stendhal/dead_lich.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Semos is decorated for Christmas! Santa feels right at home when he drops in, on his travels around the island. Find him to get your Christmas gift. With such lovely rewards you shouldn't need our latest new feature, which is called 'grumpy' because it allows you to ignore messages from anyone but your buddies. Do /help to find out more.
 <p>
@@ -2296,10 +2296,10 @@ Merry Christmas!
     <title>Stendhal 0.64: *grr* Baby Dragons! *grr* </title>
     <date>2007-11-15 21:50:00</date>
     <images>
-      <image url="screens/stendhal/annie64.png"/>
-      <image url="screens/stendhal/dragon64.png"/>
+      <image url="screens/stendhal/annie64.webp"/>
+      <image url="screens/stendhal/dragon64.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>Do you yearn for a faithful companion, a little beast who can stand up for himself? And just needs the occasional bit of meat to keep him happy? Then get your very own baby dragon and watch him grow wings. Of course, you'll need to find an egg from someone first... perhaps someone who lives or works amongst magicians?
 <p>
@@ -2310,12 +2310,12 @@ Many houses have now been redecorated in Ados, ready to sell. Just make sure you
     <title>Stendhal 0.63: Huge, strange, sweet, wild, safe</title>
     <date>2007-10-18 19:51:00</date>
     <images>
-      <image url="screens/stendhal/kalavan63.png"/>
-      <image url="screens/stendhal/revi63.png"/>
-      <image url="screens/stendhal/wizard63.png"/>
-      <image url="screens/stendhal/amazon63.png"/>
+      <image url="screens/stendhal/kalavan63.webp"/>
+      <image url="screens/stendhal/revi63.webp"/>
+      <image url="screens/stendhal/wizard63.webp"/>
+      <image url="screens/stendhal/amazon63.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>There's something 'huge' been happening in the world ... huge Fado
 great caves were discovered, full of cave trolls, madarams, and dragons. Huge
@@ -2346,11 +2346,11 @@ you will have fought as much as him ...]]>
     <title>Stendhal 0.62: Sky towers and deep dungeons</title>
     <date>2007-08-13 20:15:00</date>
     <images>
-      <image url="screens/stendhal/20070813_elf.png"/>
-      <image url="screens/stendhal/20070813_angel.png"/>
-      <image url="screens/stendhal/20070813_fairies.png"/> 
+      <image url="screens/stendhal/20070813_elf.webp"/>
+      <image url="screens/stendhal/20070813_angel.webp"/>
+      <image url="screens/stendhal/20070813_fairies.webp"/> 
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>
 Prison breakout! Duergars swarmed the prison below the dwarven kingdom of Kanmararn. Will you join the dwarves or leave them to their fate?
@@ -2407,9 +2407,9 @@ We are working on a solution and will inform you when the issue is solved and th
     <title>Stendhal 0.61: Wofol opens its doors</title>
     <date>2007-06-22 18:53:09</date>
     <images>
-      <image url="screens/stendhal/THM_20070622_3_stendhal.jpg"/>
+      <image url="screens/stendhal/THM_20070622_3_stendhal.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
 
     <content>
       <![CDATA[<p>
@@ -2446,7 +2446,7 @@ Talking of ships, if you're on the Athor ferry, remember to fish for mackerel. Y
       <![CDATA[<p>
       Between many they were able to defeat our Balrog <small>( a weak version )</small>.
       Some people say there is one player that can defeat Balrog solo...<br/>
-      <div align="center"><img src="/images/articles/balrog_poster.jpg" alt="Balrog defeated"/></div>
+      <div align="center"><img src="/images/articles/balrog_poster.webp" alt="Balrog defeated"/></div>
       <p>
       If you want to share your screenshot with us, send a JPG with good quality to <a href="mailto:miguelangelblanchlardin_<FIXME>_hotmail_<FIXME>_com">me</a>
       ]]>
@@ -2457,10 +2457,10 @@ Talking of ships, if you're on the Athor ferry, remember to fish for mackerel. Y
     <title>Raid: Cities under attack!</title>
     <date>2007-05-27 21:58:03</date>
     <images>
-      <image url="images/articles/20070527_raid_1.jpg"/>
-      <image url="images/articles/20070527_raid_2.jpg"/>
+      <image url="images/articles/20070527_raid_1.webp"/>
+      <image url="images/articles/20070527_raid_2.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>
 Today, it has been a long day.
@@ -2483,11 +2483,11 @@ You can be our next hero! :)]]>
     <title>Stendhal 0.60: A Marriage of Beauty and Chaos</title>
     <date>2007-05-22 21:03:56</date>
     <images>
-      <image url="screens/stendhal/THM_20070522_stendhal.jpg"/>
-      <image url="screens/stendhal/THM_20070522_1_stendhal.jpg"/>
-      <image url="screens/stendhal/THM_20070522_2_stendhal.jpg"/>
+      <image url="screens/stendhal/THM_20070522_stendhal.webp"/>
+      <image url="screens/stendhal/THM_20070522_1_stendhal.webp"/>
+      <image url="screens/stendhal/THM_20070522_2_stendhal.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
 
     <content>
       <![CDATA[<p>
@@ -2520,10 +2520,10 @@ The bridge to Fado is open! Discover the delights of the city known across the l
     <title>Stendhal 0.59: Beach or Battle? Pizza or Perish? You decide ...</title>
     <date>2007-04-14 19:45:14</date>
     <images>
-      <image url="screens/stendhal/THM_stendhal_20070414.png"/>
-      <image url="screens/stendhal/THM_stendhal_20070414_1.jpg"/>
+      <image url="screens/stendhal/THM_stendhal_20070414.webp"/>
+      <image url="screens/stendhal/THM_stendhal_20070414_1.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
 
     <content>
       <![CDATA[<p>
@@ -2553,10 +2553,10 @@ High level players have had a boost recently. With the level cap of 99 removed, 
     <title>Stendhal 0.58: Vampires roam Semos Catacombs!</title>
     <date>2007-03-10 20:41:39</date>
     <images>
-      <image url="images/articles/THM_stendhal_058.png"/>
-      <image url="images/articles/THM_stendhal_058_1.png"/>
+      <image url="images/articles/THM_stendhal_058.webp"/>
+      <image url="images/articles/THM_stendhal_058_1.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
 
     <content>
     <!--<p><font color=red><b>NOTE:</b> We are having problems lately with DNS of our game server, so if it doesn't work for you, please try <b><a href="http://mblanch.homeip.net/ip.txt">IP here</a></b></font>-->
@@ -2571,10 +2571,10 @@ More than trouble lurks beneath the graveyard in Semos Plains North ... vampires
     <title>Pub Quiz in Semos tavern</title>
     <date>2007-03-04 18:49:12</date>
     <images>
-      <image url="images/articles/THM_quizgame_20070304.png"/>
-      <image url="images/articles/THM_quizgame_20070304_1.png"/>
+      <image url="images/articles/THM_quizgame_20070304.webp"/>
+      <image url="images/articles/THM_quizgame_20070304_1.webp"/>
     </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png" />
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p>
 The adventurers met for a pub quiz tonight in Semos Tavern. 16 people played, from level 10 up to level 91, led by quizmaster superkym. vesper is the brain box of the evening, he certainly had the fastest fingers, and Cutler deserves an honourable mention. Someone1234 impressed us by getting the final question right. We celebrated with a group photo and beers all round!
@@ -2603,7 +2603,7 @@ The adventurers met for a pub quiz tonight in Semos Tavern. 16 people played, fr
     <title>Stendhal 0.57: big changes for a little world!</title>
     <date>2007-01-30 22:53:21</date>
    <images>
-      <image url="screens/stendhal/THM_20070130_stendhal.jpg"/>
+      <image url="screens/stendhal/THM_20070130_stendhal.webp"/>
     </images>
     <content>
       <![CDATA[<p>The Mayor of Semos made a tour of Faumoni recently to discuss administrative issues. He has deemed that any rewards bestowed upon an adventurer should be used only by he who earned them. In the Mayor's tour he noticed some irregularities in the terrain: gardeners and architects have been employed to fix these. He also taught better use of language to many of his citizens.<p>
@@ -2756,7 +2756,7 @@ We still need your <b>help to add content to world as items, creatures, quests, 
     <title>Stendhal 0.46: getting there...</title>
     <date>2006-03-10 16:26:38</date>
       <images> 
-        <image url="screens/stendhal/THM_20060310_stendhal.jpg"/>
+        <image url="screens/stendhal/THM_20060310_stendhal.webp"/>
       </images>
     <content>
       <![CDATA[<p>Again,  on our weekly releases approach we present Stendhal 0.46. This version mostly fixs bugs and add a new interesting quest. We have fixed the sheep bug that made sheep to be transparent. All animations are now fixed, so if you see a strange area please report it as a bug.<p>
@@ -2827,7 +2827,7 @@ Have a try to Stendhal! If you like it you will really love helping us to create
     <title>Stendhal 0.42: Venom rats are bad!</title>
     <date>2006-01-06 14:30:51</date>
       <images> 
-        <image url="screens/stendhal/THM_20060115_stendhal.jpg"/>
+        <image url="screens/stendhal/THM_20060115_stendhal.webp"/>
       </images>
     <content>
       <![CDATA[<p>Thanks to all of you for the bugs reports.<br>
@@ -2931,7 +2931,7 @@ A complete game manual exists at <a href="https://stendhalgame.org/wiki/Stendhal
     <title>Stendhal 0.30 release: Items system and new RP Combat system</title>
     <date>2005-07-03 13:29:51</date>
       <images> 
-        <image url="screens/stendhal/THM_20050703_stendhal.jpg"/>
+        <image url="screens/stendhal/THM_20050703_stendhal.webp"/>
       </images>
     <content>
       <![CDATA[<p>Muahahaha! ok!, 0.30 is here! I know you have been waiting it. We have added finally the long awaited items system and you can wear them, by now only a club, a sword, a shield and a leather armor. We will add more on next releases.<br>
@@ -2944,7 +2944,7 @@ A complete game manual exists at <a href="https://stendhalgame.org/wiki/Stendhal
     <title>JMaPacman 0.3 released</title>
     <date>2005-07-02 15:26:14</date>
       <images> 
-        <image url="screens/jmapacman/THM_20050702_jmapacman.jpg"/>
+        <image url="screens/jmapacman/THM_20050702_jmapacman.webp"/>
       </images>
     <content>
       <![CDATA[<p>Version 0.3 of JMaPacman has been released. Now you can eat Powerpills
@@ -2963,7 +2963,7 @@ href="http://jmapacman.mpc-donkey.de/">our Public Server</a>]]>
     <title>JMaPacman 0.2 released</title>
     <date>2005-06-27 14:19:52</date>
       <images> 
-        <image url="screens/jmapacman/THM_20050623_jmapacman.jpg"/>
+        <image url="screens/jmapacman/THM_20050623_jmapacman.webp"/>
       </images>
     <content>
       <![CDATA[<p>Yes, it's Version 0.2 ;)<br> If you missed 0.1 : JMaPacman is a Java-Port of MaPacman which is a Multiplayer Pacman Game.<br>
@@ -3010,7 +3010,7 @@ A complete game manual exists at <a href="https://stendhalgame.org/wiki/Stendhal
     <title>Marauroa 1.00: First major milestone released</title>
     <date>2005-05-30 17:59:34</date>
       <images> 
-        <image url="images/articles/eventrelease.jpg"/>
+        <image url="images/articles/eventrelease.webp"/>
       </images>
     <content>
       <![CDATA[<p>This release is a very important milestone in the development of Arianne goals: creating a flexible open source multiplayer games middleware.<p/>
@@ -3180,7 +3180,7 @@ This milestone completes inmediate Marauroa goals, so now we will now center all
     <title>Stendhal gets a GUI</title>
     <date>2005-03-07 15:04:36</date>
       <images> 
-        <image url="images/articles/stendhal_gui.jpg"/>
+        <image url="images/articles/stendhal_gui.webp"/>
       </images>
     <content>
       <![CDATA[<p>After a full weekend of work, I have added a GUI to Stendhal. It is a bit basic but useful enough to make the game playable.<p/>
@@ -3269,7 +3269,7 @@ of Stendhal, which has already been started.<p/> Soon I will write more about it
     <title>mapacman 1.00 released</title>
     <date>2004-07-28 18:34:48</date>
       <images> 
-        <image url="images/articles/mapacman_gui.jpg"/>
+        <image url="images/articles/mapacman_gui.webp"/>
       </images>
     <content>
       <![CDATA[<p>Thanks to the HUGE amount of bugs report about mapacman I have been able to do this release. Mainly I have fixed the issue that many of you pointed about GUI and I have recoded the GUI from scratch to meet the requirements.<br>
@@ -3284,7 +3284,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>mapacman 0.90 released: final release of mapacman</title>
     <date>2004-07-13 17:23:25</date>
       <images> 
-        <image url="screens/mapacman/THM_20040712_mapacman.jpg"/>
+        <image url="screens/mapacman/THM_20040712_mapacman.webp"/>
       </images>
     <content>
       <![CDATA[<p>mapacman, our multiplayer online pacman clone, reaches its 0.90 version.
@@ -3324,7 +3324,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>mapacman 0.10 released</title>
     <date>2004-07-06 12:56:53</date>
       <images>
-        <image url="screens/mapacman/THM_20040705_mapacman.jpg"/>
+        <image url="screens/mapacman/THM_20040705_mapacman.webp"/>
       </images>
     <content>
       <![CDATA[<p>This version of mapacman features the new walls done by 
@@ -3366,7 +3366,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>mapacman 0.02 released</title>
     <date>2004-06-08 20:11:02</date>
       <images> 
-        <image url="screens/mapacman/THM_20040608_mapacman.jpg"/>
+        <image url="screens/mapacman/THM_20040608_mapacman.webp"/>
       </images>
     <content>
       <![CDATA[<p>The bug about background clearing and the bug about TAB on the
@@ -3403,7 +3403,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>mapacman is running on linux</title>
     <date>2004-06-03 16:03:24</date>
       <images> 
-        <image url="screens/mapacman/THM_20040603_mapacman.jpg"/>
+        <image url="screens/mapacman/THM_20040603_mapacman.webp"/>
       </images>
     <content>
       <![CDATA[<p>
@@ -3420,7 +3420,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>mapacman is near 0.01</title>
     <date>2004-06-01 01:05:41</date>
       <images> 
-        <image url="screens/mapacman/THM_20040601_mapacman.jpg"/>
+        <image url="screens/mapacman/THM_20040601_mapacman.webp"/>
       </images>
     <content>
       <![CDATA[<p>mapacman continues evolving.<br>Now it is able to render the original
@@ -3450,7 +3450,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>mapacman is progressing</title>
     <date>2004-05-18 17:53:54</date>
       <images> 
-        <image url="screens/mapacman/THM_20040517_mapacman.jpg"/>
+        <image url="screens/mapacman/THM_20040517_mapacman.webp"/>
       </images>
     <content>
       <![CDATA[<p>
@@ -3476,7 +3476,7 @@ that may be added on the next release of marauroa: no promises.]]>
     <title>Marauroa speeded up</title>
     <date>2004-05-14 21:19:54</date>
       <images> 
-        <image url="images/articles/THM_Marauroa_100Clients.png"/>
+        <image url="images/articles/THM_Marauroa_100Clients.webp"/>
       </images>
     <content>
       <![CDATA[<p>
@@ -3594,7 +3594,7 @@ Backtracking detected --> Rotating
     <title>MrPacman to come into Arianne :)</title>
     <date>2004-04-20 20:56:02</date>
       <images> 
-        <image url="images/articles/real_pacman.jpg"/>
+        <image url="images/articles/real_pacman.webp"/>
       </images>
     <content>
       <![CDATA[<p>
@@ -3689,7 +3689,7 @@ Backtracking detected --> Rotating
     <title>Gladiators 0.05 released</title>
     <date>2004-02-26 19:40:26</date>
       <images> 
-        <image url="screens/gladiators/THM_20040226_Gladiators.jpg"/>
+        <image url="screens/gladiators/THM_20040226_Gladiators.webp"/>
       </images>
     <content>
       <![CDATA[<p>
@@ -3706,7 +3706,7 @@ Backtracking detected --> Rotating
     <title>Gladiators 0.04 released</title>
     <date>2004-02-22 20:28:32</date>
       <images> 
-        <image url="screens/gladiators/THM_20040220_Gladiators.jpg"/>
+        <image url="screens/gladiators/THM_20040220_Gladiators.webp"/>
       </images>
     <content>
       <![CDATA[<p>
@@ -3729,7 +3729,7 @@ Backtracking detected --> Rotating
     <title>Gladiators 0.03 released</title>
     <date>2004-02-11 18:12:48</date>
       <images> 
-        <image url="screens/gladiators/THM_20040210_2_Gladiators.jpg"/>
+        <image url="screens/gladiators/THM_20040210_2_Gladiators.webp"/>
       </images>
     <content>
       <![CDATA[<p>
@@ -3743,7 +3743,7 @@ Backtracking detected --> Rotating
     <title>Gladiators 0.02 and ariannexp 0.02: Arianne 0.4.2 released</title>
     <date>2004-02-06 20:18:48</date>
       <images> 
-        <image url="screens/gladiators/THM_20040206_Gladiators.jpg"/>
+        <image url="screens/gladiators/THM_20040206_Gladiators.webp"/>
       </images>
     <content>
       <![CDATA[<p>
@@ -3755,7 +3755,7 @@ Backtracking detected --> Rotating
     <title>Gladiators 0.01 released</title>
     <date>2004-02-01 01:53:29</date>
       <images> 
-        <image url="screens/gladiators/THM_20040126_Gladiators.jpg"/>
+        <image url="screens/gladiators/THM_20040126_Gladiators.webp"/>
       </images>
     <content>
       <![CDATA[<p>

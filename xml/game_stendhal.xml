@@ -4,7 +4,7 @@
   <version id="1.38"/>
   <status value="stable"/>
   <type value="game"/>
-  <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
+  <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp"/>
   <keywords>Stendhal, game, online game, online games, multiplayer game, adventure game, multiplayer online games, MMORGP, RPG, role playing game, arianne</keywords>
   <short-description>Stendhal is a fun friendly and completely free multiplayer online adventure game with an old school feel.</short-description>
 <!--
@@ -14,7 +14,7 @@
       <a href="http://happypenguin.org/show?stendhal"><img src="http://happypenguin.org/rateomatic?stendhal"></a>]]>    
     </entry>
     <entry>
-      <![CDATA[<a href="http://freecode.com/projects/stendhal/"><img src="/images/fm_logo.png"></a>]]>    
+      <![CDATA[<a href="http://freecode.com/projects/stendhal/"><img src="/images/fm_logo.webp"></a>]]>    
     </entry>
     <entry>
       <![CDATA[<a href="http://www.gamesites200.com/mpog/vote.php?id=1850"><img src="http://www.gamesites200.com/mpog/vote.gif" ALT="Paid and Free
@@ -1790,26 +1790,26 @@ your error log files and please continue to do so.
 <p><b>See <a href="http://arianne.cvs.sourceforge.net/viewvc/*checkout*/arianne/stendhal/doc/CHANGES.txt">all past changes</a></b>]]>
 -->
   </changelog>
-  <navigation-image name="raid65.png"/>
+  <navigation-image name="raid65.webp"/>
   <screenshots>
-    <image name="MagicTower98.jpg"/>
-    <image name="Stendhal98.jpg"/>
-    <image name="Achievement_Stendhal98.jpg"/>
-    <image name="raid20110105.jpg"/>
-    <image name="raid65.png"/>
-    <image name="20070522_stendhal.jpg"/>
-    <image name="20070522_1_stendhal.jpg"/>
-    <image name="20070522_2_stendhal.jpg"/>
-    <image name="20070522_stendhal.jpg"/>
-    <image name="20070414_stendhal.jpg"/>
-    <image name="20070130_stendhal.jpg"/>
-    <image name="20060903_stendhal.jpg"/>
-    <image name="20060324_stendhal.jpg"/>
-    <image name="20060303_stendhal.jpg"/>
-    <image name="20060310_stendhal.jpg"/>
-    <image name="20060304_stendhal.jpg"/>
-    <image name="20051220_stendhal.jpg"/>
-    <image name="20051023_stendhal.jpg"/>
+    <image name="MagicTower98.webp"/>
+    <image name="Stendhal98.webp"/>
+    <image name="Achievement_Stendhal98.webp"/>
+    <image name="raid20110105.webp"/>
+    <image name="raid65.webp"/>
+    <image name="20070522_stendhal.webp"/>
+    <image name="20070522_1_stendhal.webp"/>
+    <image name="20070522_2_stendhal.webp"/>
+    <image name="20070522_stendhal.webp"/>
+    <image name="20070414_stendhal.webp"/>
+    <image name="20070130_stendhal.webp"/>
+    <image name="20060903_stendhal.webp"/>
+    <image name="20060324_stendhal.webp"/>
+    <image name="20060303_stendhal.webp"/>
+    <image name="20060310_stendhal.webp"/>
+    <image name="20060304_stendhal.webp"/>
+    <image name="20051220_stendhal.webp"/>
+    <image name="20051023_stendhal.webp"/>
   </screenshots>
   <files>
     <file type="client" name="stendhal-XXX.zip" suggest="true">

@@ -128,7 +128,7 @@ class DetailPage extends Page {
 			foreach ($game['page'][0]['servers'][0]['server'] as $key=>$server) {
 				if (is_array($server)) {
 					echo '<a href="'.$server['url'].'" class="gameserver">';
-					echo '<img src="/images/buttons/Game_server_button.png" title="'.$server['url'].'"></a>';
+					echo '<img src="/images/buttons/Game_server_button.webp" title="'.$server['url'].'"></a>';
 				}
 			}
 			echo '<p>'.ucfirst($game['page']['0 attr']['name']).' is a online game, so you need to connect to a server in order to be able to play:</p>';
@@ -194,7 +194,7 @@ class DetailPage extends Page {
 			echo '<div class="releaseinfo">('.$file['type'].') released on '.$game['page'][0]['updated']['0 attr']['date'].'</div>';
 			echo '<div class="link"><a href="https://prdownloads.sourceforge.net/arianne/'.$filename.'?download" class="download_file">'.$filename.'</a>';
 			if ($file['suggest']) {
-				echo '&nbsp; <img class="borderless" src="/images/star.png" title="Suggested download">';
+				echo '&nbsp; <img class="borderless" src="/images/star.webp" title="Suggested download">';
 			}
 			echo '</div>';
 			echo '<div class="filedesc">'.$file['description'][0].'</div>';

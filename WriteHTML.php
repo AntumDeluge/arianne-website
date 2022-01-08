@@ -8,7 +8,7 @@ function GameUpdateTime($game) {
 /**
  * gets a nice url
  *
- * @return nice url
+ * @return string nice url
  */
 function getNiceURL($title) {
 	$res = strtolower($title);

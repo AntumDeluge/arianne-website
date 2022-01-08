@@ -54,7 +54,7 @@ game. </p>
   <tbody>
     <tr>
       <td style="vertical-align: top;"><img alt="Create account"
- src="/docs/gladiators/gladiators_manual_createaccount.png"
+ src="/docs/gladiators/gladiators_manual_createaccount.webp"
  style="width: 250px; height: 172px;"><br>
       </td>
       <td style="vertical-align: top;">
@@ -89,7 +89,7 @@ simply for verification! </li>
       </ul>
       </td>
       <td style="vertical-align: top;"><img alt="Webpage"
- src="/docs/gladiators/gladiators_manual_createaccount_webpage.png"
+ src="/docs/gladiators/gladiators_manual_createaccount_webpage.webp"
  style="width: 250px; height: 143px;"><br>
       </td>
     </tr>
@@ -122,7 +122,7 @@ Menu</li>
       </ol>
       </td>
       <td style="vertical-align: top;"><img alt="installation"
- src="/docs/gladiators/gladiators_manual_install.png"
+ src="/docs/gladiators/gladiators_manual_install.webp"
  style="width: 250px; height: 193px;"><br>
       </td>
     </tr>
@@ -176,9 +176,9 @@ username again, and press enter to confirm.</b></li>
       </ul>
       </td>
       <td style="vertical-align: top;"><img alt=""
- src="/docs/gladiators/gladiators_manual_loginToServer.png"
+ src="/docs/gladiators/gladiators_manual_loginToServer.webp"
  style="width: 250px; height: 175px;"><br>
-      <img alt="" src="/docs/gladiators/gladiators_manual_logged.png"
+      <img alt="" src="/docs/gladiators/gladiators_manual_logged.webp"
  style="width: 250px; height: 180px;"><br>
       </td>
     </tr>
@@ -202,7 +202,7 @@ running in full screen mode.</li>
   <tbody>
     <tr>
       <td style="vertical-align: top;"><img alt=""
- src="/docs/gladiators/gladiators_manual_fight.png" style="width: 250px; height: 188px;"><br>
+ src="/docs/gladiators/gladiators_manual_fight.webp" style="width: 250px; height: 188px;"><br>
       </td>
       <td style="vertical-align: top;">
       <p>To send your gladiator into the arena to fight you must put
@@ -227,7 +227,7 @@ screen.</p>
   <tbody>
     <tr>
       <td style="vertical-align: top;"><img alt=""
- src="/docs/gladiators/gladiators_manual_fighting.png"
+ src="/docs/gladiators/gladiators_manual_fighting.webp"
  style="width: 251px; height: 188px;"><br>
       </td>
       <td style="vertical-align: top;">The fight system is currently
