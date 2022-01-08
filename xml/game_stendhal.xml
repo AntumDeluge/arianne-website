@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2021-10-03"/>
-  <version id="1.37"/>
+  <updated date="2022-01-08"/>
+  <version id="1.38"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.png"/>
@@ -50,6 +50,29 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+
+<h3 id="v1.38">1.38: Silence is golden</h3>
+
+<b>world</b><ul>
+<li> new achievements: Moving up in the World for looting 100,000 money
+<li> requirement for doing Money Pouch lowered to loot 100,000 money
+<li> new NPCs: Claude Conteur, fish in Semos Temple, citizens in Denrian City
+<li> new items: charcoal
+<li> removed money drops from many creatures
+<li> boss creatures may drop up to six items
+
+</ul><b>graphics</b><ul>
+<li> new cursor theme
+<li> touched up many sprites with scaling artifacts
+<li> replaced many item sprites
+<li> replaced some NPC sprites
+
+</ul><b>development</b><ul>
+<li> starting with the next version after this release, an installation of Node.js will be required for developers
+<li> "min_level" is now required attribute for equipment
+</ul>
+
+
 <h3 id="v1.37">1.37: So much space</h3>
 
 <b>world</b><ul>
