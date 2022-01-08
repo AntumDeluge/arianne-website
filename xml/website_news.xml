@@ -24,7 +24,7 @@
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
-      <![CDATA[<p> <p> Strong monsters wanted to feel really important, so they decided to carry more items around. Feeling all posh, lots of creatures have polished their appearance. And even some items got  cleaned up.
+      <![CDATA[<p> Strong monsters wanted to feel really important, so they decided to carry more items around. Feeling all posh, lots of creatures have polished their appearance. And even some items got  cleaned up.
 
 <p> While all this was going on, some animals suddenly realized, that you cannot eat money. But fear not, they are other ways to make good use of animals.
 
@@ -37,6 +37,18 @@
       </content>
   </item>
 
+  <item>
+    <title>Marauroa 3.9.7 released</title>
+    <date></date>
+    <content>
+      <![CDATA[<p>Our engine Marauroa adds support for compilation on Java 17 with release 3.9.7. Therefore support for Java version 6 and 7 has been dropped.
+
+<p> Database commands can now be prioritized in order to prefer operations that are required by user interactions over statistics.
+
+<p> KeepALive messages are now support during login phase in order to allow players to stay in the queue when the database is extremely busy.
+]]>
+    </content>
+  </item>
 
   <item>
     <title>Stendhal 1.37: So much space</title>

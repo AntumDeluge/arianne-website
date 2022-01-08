@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <page name="marauroa">
-  <updated date="2018-10-17"/>
-  <version id="3.9.6"/>  
+  <updated date="2022-01-08"/>
+  <version id="3.9.7"/>  
   <status value="complete"/>
   <keywords>online game development, game framework, game engine, network communication, asynchronous database access, mysql, h2, java, perceptions and actions</keywords>
   <short-description>Marauroa is Arianne's Multiplayer Online Engine, which you can use to build your own online games. Marauroa handles object management, asynchronous database persistence and perception based client-server communication.</short-description>
@@ -72,10 +72,23 @@ you want.<p/>
 ]]>
 	</extended>
 <changelog><![CDATA[
+<b>3.9.7</b>
+<ul>
+<li> added support for Java 17, dropped support for Java 6 and Java 7
+<li> DBCommandQueue supports low priority database commands, that are not critical for the next log in
+<li> updated log4j to log4j-lts-1.2.18.jar
+<li> fixed log4j compatibility issue on Android
+<li> retry transactions on detected deadlock
+<li> supported KeepALive during login phase
+<li> deprecated DAO methods without transaction parameter
+<li> use timestamp of when a command was added to the queue in all database operations
+<li> fixed concurrency issue between perceptions and content transfer in WebSocketChannel 
+</ul>
+
 <b>3.9.6</b>
 <ul>
-<li>Security update (thanks to pepzs for the report)
-<li>Marauroa failed to verify username on client transfer
+<li>Security update (thanks to pepzs for the report): <br>
+Marauroa failed to verify username on client transfer
 </ul>
 
 <b>3.9.5</b>
