@@ -152,27 +152,32 @@ class DetailPage extends Page {
 		}
 
 		// authors
-		echo '<div class="game_authors"><a name="authors"></a><h2>Authors</h2><p>'.ucfirst($game['page']['0 attr']['name']).' has been developed by:</p><p>';
-		$first = true;
-		foreach ($game['page'][0]['authors'][0]['entry'] as $author) {
-			if (is_array($author)) {
-				if ($first) {
-					$first = false;
-				} else {
-					echo ', ';
+		if (isset($game['page'][0]['authors'])) {
+			echo '<div class="game_authors"><a name="authors"></a><h2>Authors</h2><p>'.ucfirst($game['page']['0 attr']['name']).' has been developed by:</p><p>';
+			$first = true;
+			foreach ($game['page'][0]['authors'][0]['entry'] as $author) {
+				if (is_array($author)) {
+					if ($first) {
+						$first = false;
+					} else {
+						echo ', ';
+					}
+					echo '<a href="'.$author['url'].'">'.$author['name'].'</a>';
 				}
-				echo '<a href="'.$author['url'].'">'.$author['name'].'</a>';
 			}
 		}
-		echo '</p>&copy; 2005-2014. Released under <a href="/docs/gpl-2.0.html">GNU General Public License</a>.</p></div>';
+		echo '</p>&copy; 2005-2021. Released under <a href="/docs/gpl-2.0.html">GNU General Public License</a>.</p></div>';
 	}
 	
 	
 	
 	function writeDownloadSection($game) {
-	
+		if (!isset($game['page'][0]['files'])) {
+			return;
+		}
+
 		echo '<h2>Download</h2><div class="download"><a name="downloadsection"></a>';
-	
+
 		echo '<ul>';
 		foreach (array_keys($game['page'][0]['files'][0]['file']) as $key) {
 			if (strpos($key,"attr")!=FALSE) {
