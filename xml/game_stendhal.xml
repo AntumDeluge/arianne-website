@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2022-01-08"/>
-  <version id="1.38"/>
+  <updated date="2022-03-03"/>
+  <version id="1.39"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp"/>
@@ -50,6 +50,46 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.39">1.39: TODO</h3>
+
+<b>world</b><ul>
+
+<li> new NPCs: Ari, Emeric and Emma
+<li> new items: shovel, metal detector
+<li> new quest: Lost Engagement Ring
+<li> new achievements: <ul>
+<li> Community Supporter: Spend money around the world (medium difficulty)
+<li> Determination: Increase trophy helmet to max defense (hard difficulty)
+</ul>
+<li> Balduin sells replacement l/r hand swords after Ultimate Collector quest
+
+</ul><b>changes</b><ul>
+<li> larger keyring as quest reward
+<li> Thanatos announces when a deathmatch begins and deathmatch area is now PVP protected
+<li> knocking on house doors can be heard on second floors
+
+</ul><b>graphics and sounds</b><ul>
+<li> touched up some entity, outfit, item, & corpse sprites
+<li> replaced some entity & item sprites
+<li> some changes to client cursor theme
+<li> new vampirette hiss and metal detector sounds
+
+</ul><b>Experimental Web Client</b><ul>
+<li> ported to TypeScript to make maintenance and writing new features easier
+<li> started to work on a UI toolkit based on the concept of Components
+<li> floaters for xp & hp changes enabled
+<li> smooth movement
+<li> speed up drawing of the background landscape significantly
+<li> arrow keys don't scroll page
+
+
+</ul><b>Class Client</b><ul>
+<li> updated Win32 executable (no longer requires registry configuration)
+<li> new icon
+<li> channel tab blinking can be disabled in settings
+<li> audio notification for personal messages can be enabled
+</ul>
+
 
 <h3 id="v1.38">1.38: Silence is golden</h3>
 
