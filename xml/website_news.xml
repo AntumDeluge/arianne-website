@@ -16,6 +16,33 @@
 -->
 
   <item>
+    <title>Stendhal: 1.39: Love and Trade</title>
+    <date>2022-03-06</date>
+    <images>
+      <image url="screens/stendhal/ari139.webp" large="screens/stendhal/ari139large.webp"/>
+      <image url="screens/stendhal/keyring139.webp"/>
+<!--      <image url="screens/stendhal/balduin139.webp" large="screens/stendhal/balduin139large.webp"/> -->
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
+    <content>
+      <![CDATA[<p> Are you looking for a larger keyring? Ari can help. Unfortunately he is in big trouble: He has lost his engagement ring at the beach. Can you fix the situation? Or will the marriage be doomed?
+
+<p> Thanatos has started an advertisement campaign for the Ados Deathmatch to draw more heroes into the fights.
+
+<p> If you prefer fighting animals for food instead, keep the remaining bits. Emeric is interested in them. Last but not least, Balduin will provide you with a replacement l/r hand sword. For a price.
+
+<p> Speaking of Deathmatch and trading: There are new achievements.
+
+<p> The experimental web-client uses the same optimized algorithms for drawing the world and smooth movement as the classic client does. Therefore it is significantly more responsive.
+
+<p> Furthermore it shows floaters for damage, health gains and awarded XP. All of this was possible by rewriting old-style JavaScript (pre-dating es2015) to TypeScript.
+
+<p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
+]]>
+      </content>
+  </item>
+
+  <item>
     <title>Stendhal: 1.38: Silence is golden</title>
     <date>2022-01-08</date>
     <images>

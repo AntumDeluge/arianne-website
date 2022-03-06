@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2022-03-03"/>
+  <updated date="2022-03-06"/>
   <version id="1.39"/>
   <status value="stable"/>
   <type value="game"/>
@@ -50,7 +50,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
-<h3 id="v1.39">1.39: TODO</h3>
+<h3 id="v1.39">1.39: Love and Trade</h3>
 
 <b>world</b><ul>
 
