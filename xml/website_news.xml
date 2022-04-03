@@ -16,6 +16,27 @@
 -->
 
   <item>
+    <title>Stendhal 1.40: Sticky Conversations</title>
+    <date>2022-04-07</date>
+    <images>
+      <image url="screens/stendhal/johnsmith140.webp" large="screens/stendhal/johnsmith140large.webp"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
+    <content>
+      <![CDATA[<p> 
+<p> A mysterious person showed up in Deniran City and claims to be an inspector of fences or something. The king has started to by royal equipment.
+
+<p> Marking of empty scrolls requires less effort now and conversations became sticky.
+
+<p> While we still recommand to use the classic downloadable client written in Java, we have continued to work on the experimental webclient.
+
+<p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
+]]>
+      </content>
+  </item>
+
+
+  <item>
     <title>Stendhal 1.39: For Love or Greed</title>
     <date>2022-03-07</date>
     <images>

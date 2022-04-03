@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2022-03-07"/>
-  <version id="1.39"/>
+  <updated date="2022-04-07"/>
+  <version id="1.40"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp"/>
@@ -50,6 +50,42 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+<h3 id="v1.40">1.40: Sticky Conversations</h3>
+
+<b>world</b><ul>
+
+<li> New NPC John Smith
+<li> King Edward buys royal equipment
+
+</ul><b>changes</b><ul>
+<li> training swords now autobind and have min level 20
+<li> Deniran bank zone added as requirement for "Safe Deposit" achievement
+
+</ul><b>graphics</b><ul>
+<li> added some missing shadows for entities
+<li> added polka dots to red cloak to match description
+<li> touched up blordrough sprites
+<li> added outlines to many item sprites
+
+</ul><b>classic client</b><ul>
+<li> "Mark all" option for empty scrolls
+<li> speech bubbles follow owning entity
+<li> floaters are drawn above roof layers
+
+</ul><b>experimental web client</b><ul>
+<li> contained marked scrolls display a tooltip with destination info
+<li> shadows of creatures are drawn
+<li> emoji support
+<li> settings dialog
+<li> user interface themes
+<li> walking away automatically closes corpse and chest windows
+<li> windows for shop lists and bestiary
+<li> items with animations are displayed
+<li> screenshot support
+
+
+</ul>
+
 <h3 id="v1.39">1.39: For Love or Greed</h3>
 
 <b>world</b><ul>
@@ -60,7 +96,6 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> new achievements: <ul>
 <li> Community Supporter: Spend money around the world (medium difficulty)
 <li> Determination: Increase trophy helmet to max defense (hard difficulty)
-</ul>
 <li> Balduin sells replacement l/r hand swords after Ultimate Collector quest
 
 </ul><b>changes</b><ul>
@@ -74,7 +109,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> some changes to client cursor theme
 <li> new vampirette hiss and metal detector sounds
 
-</ul><b>Experimental Web Client</b><ul>
+</ul><b>experimental web client</b><ul>
 <li> ported to TypeScript to make maintenance and writing new features easier
 <li> started to work on a UI toolkit based on the concept of Components
 <li> floaters for xp & hp changes enabled
@@ -82,8 +117,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> speed up drawing of the background landscape significantly
 <li> arrow keys don't scroll page
 
-
-</ul><b>Class Client</b><ul>
+</ul><b>classic client</b><ul>
 <li> updated Win32 executable (no longer requires registry configuration)
 <li> new icon
 <li> channel tab blinking can be disabled in settings
