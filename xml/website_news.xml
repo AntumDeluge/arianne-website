@@ -24,11 +24,11 @@
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p> 
-<p> A mysterious person showed up in Deniran City and claims to be an inspector of fences or something. The king has started to buy royal equipment.
+<p> A mysterious person showed up in Deniran City and claims to be an inspector of fences, or something. The king has started to buy royal equipment.
 
 <p> Marking of empty scrolls requires less effort now and conversations became sticky.
 
-<p> While we still recommand to use the classic downloadable client written in Java, we have continued to work on the experimental webclient.
+<p> We still recommand to use the classic downloadable client written in Java, but experimental webclient saw significant improvements in this release.
 
 <p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
 ]]>
