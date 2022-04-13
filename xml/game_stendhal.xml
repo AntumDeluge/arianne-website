@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2022-04-07"/>
+  <updated date="2022-04-13"/>
   <version id="1.40"/>
   <status value="stable"/>
   <type value="game"/>
