@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2022-04-13"/>
-  <version id="1.40"/>
+  <updated date="2022-04-29"/>
+  <version id="1.41"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp"/>
@@ -50,6 +50,41 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
+
+<h3 id="v1.40">1.41: Ignored Gems</h3>
+
+<b>combat changes</b><ul>
+<li> added mimimum level to many items, in order to make different equipment useful over time
+<li> faster healing from eating food
+<li> ATK XP rewarded for successful or blocked hits regardless of having recently taken damage
+<li> missed hits never reward ATK XP
+<li> player hit chance is increased by 50% during combat
+<li> player hit damage is decreased by 50% to compensate for increased hit chance
+<li> summon scrolls can be used inside deathmatch arena
+<li> adventure island guarantees spawn for daily monster quest (just like deathmatch)
+
+</ul><b>world</b><ul>
+<li> new rare creature: golden orc
+<li> changes to  Ultimate Collector and Kirdneh Museum quest
+<li> find Jef's mom quest added to Private Detective achievement
+
+</ul><b>graphics</b><ul>
+<li> another set of eyes for outfits
+<li> item and entity sprites touch ups
+<li> replaced item sprites: l/r hand swords, elvish shield, elvish legs, elvish boots
+
+</ul><b>misc</b><ul>
+<li> marked scroll tooltips now show custom labels
+<li> deathmatch announcements not repeated until after 10 minutes
+
+</ul><b>webclient</b><ul>
+<li> own/leave options for pets
+<li> fixed dragging items and corpses under other entities
+<li> players represented with blue + on minimap
+<li> enabled re-ordering items in inventory
+<li> started to work on touch support
+</ul>
+
 <h3 id="v1.40">1.40: Sticky Conversations</h3>
 
 <b>world</b><ul>
@@ -82,8 +117,6 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> windows for shop lists and bestiary
 <li> items with animations are displayed
 <li> screenshot support
-
-
 </ul>
 
 <h3 id="v1.39">1.39: For Love or Greed</h3>
@@ -97,6 +130,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> Community Supporter: Spend money around the world (medium difficulty)
 <li> Determination: Increase trophy helmet to max defense (hard difficulty)
 <li> Balduin sells replacement l/r hand swords after Ultimate Collector quest
+</ul>
 
 </ul><b>changes</b><ul>
 <li> larger keyring as quest reward
