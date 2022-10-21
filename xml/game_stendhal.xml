@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2022-04-29"/>
+  <updated date="2022-10-22"/>
   <version id="1.41"/>
   <status value="stable"/>
   <type value="game"/>
@@ -51,12 +51,12 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
   <changelog><![CDATA[
 
-<h3 id="v1.40">1.41: Ignored Gems</h3>
+<h3 id="v1.40">1.41: Encouraging Exploration</h3>
 
 <b>combat changes</b><ul>
 <li> added mimimum level to many items, in order to make different equipment useful over time
 <li> faster healing from eating food
-<li> ATK XP rewarded for successful or blocked hits regardless of having recently taken damage
+<li> ATK XP rewarded for successful or blocked hits by creatures regardless of having recently taken damage
 <li> missed hits never reward ATK XP
 <li> player hit chance is increased by 50% during combat
 <li> player hit damage is decreased by 50% to compensate for increased hit chance

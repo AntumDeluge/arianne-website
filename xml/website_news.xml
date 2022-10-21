@@ -16,6 +16,23 @@
 -->
 
   <item>
+    <title>Stendhal 1.41: Encouraging Exploration</title>
+    <date>2022-10-22</date>
+    <images>
+      <image url="screens/stendhal/minetown141.webp" large="screens/stendhal/minetown141large.webp"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
+    <content>
+      <![CDATA[<p> 
+<p> Stendhal has a rich and diverse world with many places to explore, different types of monsters to fight and items to discover. It is now more beneficial to use weapons and armor that is appropriate for your level instead of aiming for the best weapon in the game at a low level.
+
+<p> Furthermore you can now gain attack-experiences for every hit you land against a creature, even if another player protects you from getting hurt.
+<p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
+]]>
+      </content>
+  </item>
+
+  <item>
     <title>Stendhal 1.40: Sticky Conversations</title>
     <date>2022-04-13</date>
     <images>
