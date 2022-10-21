@@ -64,7 +64,7 @@ class XML{
 	var $stack;    #a stack of the most recent parent at each nesting level
 	var $last_opened_tag; #keeps track of the last tag opened.
 
-	function XML(){
+	function __construct(){
  		$this->parser = xml_parser_create();
 		xml_parser_set_option($this->parser, XML_OPTION_CASE_FOLDING, false);
 		xml_set_object($this->parser, $this);
