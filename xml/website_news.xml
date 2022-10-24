@@ -28,7 +28,7 @@
 
 <p> We reverted the changes to the combat system as a quick temporary solution. We will take our time to develop a proper solution in one of the next releases.
 
-<p> PS: You still gain attack-experiences for every hit you land against a creature, when another player protects you from getting hurt. We did not revert that change.
+<p> PS: You still gain attack-experiences for every hit, you land against creatures. This is true even when an another player protects you from getting hurt. We did not revert that change.
 
 
 <p> Did you know? We have a public <a href="https://stendhalgame.org/chat/">development chat</a>.
