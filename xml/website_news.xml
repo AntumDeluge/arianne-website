@@ -24,7 +24,7 @@
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p> 
-<p> The intention of the recent release "Encouraging Exploration" was to make it more interesting to explore all areas of the world. Among other changes, we modified the combat system to support teaming up of stronger and weaker players. In reality, however, this change had the opposite effect because players got significantly stronger on their own: For example, a Deathmatch can now be completed easily by a lone hero.
+<p> The intention of the recent release <a href="http://localhost/news/stendhal-1-41-encouraging-exploration.html">Encouraging Exploration</a> was to make it more interesting to explore all areas of the world. Among other changes, we modified the combat system to support teaming up of stronger and weaker players. In reality, however, this change had the opposite effect because players got significantly stronger on their own: For example, a Deathmatch can now be completed easily by a lone hero.
 
 <p> We reverted the changes to the combat system as a quick temporary solution. We will take our time to develop a proper solution in one of the next releases.
 
