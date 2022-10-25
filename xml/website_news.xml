@@ -23,10 +23,9 @@
       <![CDATA[<p> 
 <p> We released a server-only Bugfix to restore proper defense of creatures. 
 
-<p> Background: Because of the bug, the logic to increase player def_xp was applied to creatures as well. 
+<p> Background: Because of this bug, the logic to increase  def_xp of players was applied to creatures as well. 
 
-<p> The def-value of creatures, however, is statically assigned, they don’t have any def_xp. But the broken code incremented the non existing def_xp value from 0 to 1. This in turn triggered a calculation of the def_value and overwrote the real def_value with 10 (the value for def_xp=1).
-]]>
+<p> The def_level of creatures, however, is statically assigned, they don’t have any def_xp. But the broken code incremented the non existing def_xp from 0 to 1. This in turn triggered a calculation of the def_level and overwrote it with 10 (the def_level for def_xp=1).]]>
       </content>
   </item>
 
