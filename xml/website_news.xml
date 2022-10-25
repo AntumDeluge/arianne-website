@@ -21,7 +21,11 @@
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[<p> 
-<p> We released a server-only bugfix: The logic to increase player def-xp was applied to creatues as well. This reseted creature def-level to 10 on first hit.
+<p> We released a server-only Bugfix to restore proper defense of creatures. 
+
+<p> Background: Because of the bug, the logic to increase player def_xp was applied to creatures as well. 
+
+<p> The def-value of creatures, however, is statically assigned, they don’t have any def_xp. But the broken code incremented the non existing def_xp value from 0 to 1. This in turn triggered a calculation of the def_value and overwrote the real def_value with 10 (the value for def_xp=1).
 ]]>
       </content>
   </item>
