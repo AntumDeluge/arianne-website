@@ -16,6 +16,17 @@
 -->
 
   <item>
+    <title>Stendhal 1.41.2: Fixing defense</title>
+    <date>2022-10-25</date>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
+    <content>
+      <![CDATA[<p> 
+<p> We released a server-only bugfix: The logic to increase player def-xp was applied to creatues as well. This reseted creature def-level to 10 on first hit.
+]]>
+      </content>
+  </item>
+
+  <item>
     <title>Stendhal 1.41.1: Reverting unintended consequences</title>
     <date>2022-10-24</date>
     <images>
@@ -23,7 +34,10 @@
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
-      <![CDATA[<p> 
+      <![CDATA[<p>
+
+<p class="warning">This announcement is outdated. It turned out that we introduced a simple bug which has been <a href="/news/stendhal-1-41-2-fixing-defense.html">fixed</a> in the mean time.
+ 
 <p> The intention of the recent release <a href="http://localhost/news/stendhal-1-41-encouraging-exploration.html">Encouraging Exploration</a> was to make it more interesting to explore all areas of the world. Among other changes, we modified the combat system to support teaming up of stronger and weaker players. In reality, however, this change had the opposite effect because players got significantly stronger on their own: For example, a Deathmatch can now be completed easily by a lone hero.
 
 <p> We reverted the changes to the combat system as a quick temporary solution. We will take our time to develop a proper solution in one of the next releases.
