@@ -2,6 +2,7 @@ RewriteEngine On
 
 RewriteRule ^googlebac.* - [L]
 RewriteRule ^postsai/.* - [L]
+RewriteRule ^postsai.beta/.* - [L]
 
 RewriteRule ^stendhal/updates/.* - [L]
 RewriteRule ^stendhal/greeting/.* - [L]
