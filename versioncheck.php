@@ -3,7 +3,7 @@
 // gamename:   allow version check for other games
 // server:     allow different versions for other servers
 // port:       allow different versions for testserver
-// version:    the version of the client, so that we can do the decision later 
+// version:    the version of the client, so that we can do the decision later
 //             instead of early at the client release time
 if ($_REQUEST['gamename'] == 'stendhal') {
 	$version = trim(file_get_contents(dirname(__FILE__).'/stendhal.version'));

@@ -20,7 +20,7 @@ function sortByDate($files) {
 	return array_values($result);
 }
 
-/** 
+/**
  * This function renders the Download section related to games
  * $type should be "game_","server_" or "client_"
  */

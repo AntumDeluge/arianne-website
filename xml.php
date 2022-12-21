@@ -84,9 +84,9 @@ class XML{
 	function open($parser, $tag, $attributes){
 		$this->data = ''; #stores temporary cdata
 		$this->last_opened_tag = $tag;
-        
+
 		$key = count_numeric_items($this->parent[$tag]);
-        
+
         if($attributes) $this->parent[$tag]["$key attr"] = $attributes;
         $this->parent[$tag][$key]=array();
 		$this->parent  = &$this->parent[$tag][$key];

@@ -13,13 +13,13 @@ class Contact extends Page {
 <p>You may wish to chat live with the team on IRC. You can get an IRC client and connect to:</p>
 
 <p><b>irc.libera.chat</b> (see <a href="https://libera.chat">https://libera.chat</a> for more information) then</p>
-<ul> 
+<ul>
 <li> <b>#arianne</b> which is for technical discussion, getting help and planning.</li>
 <li><b>#arianne-chat</b> which is for friendly chatter </li>
 </ul>
 <p>
 Alternatively, you can simply use Libera's webchat service, below. </p>
-<ul> 
+<ul>
 <li>
 <a href="https://web.libera.chat/#arianne">#arianne</a></li>
 <li>
@@ -29,9 +29,9 @@ Alternatively, you can simply use Libera's webchat service, below. </p>
 <p>There are also a number of Forums on our Sourceforge project page. <a href="https://sourceforge.net/p/arianne/discussion/">The forums are located here.</a></p>
 
 <h2>Join/Help Arianne</h2>
-<p>Yep, Arianne is open source and we welcome everyone willing to fight side 
+<p>Yep, Arianne is open source and we welcome everyone willing to fight side
 by side with us in our brave effort :-)</p>
-<p>Take a look to Sourceforge Bugs Trackers, create a new exciting game, help 
+<p>Take a look to Sourceforge Bugs Trackers, create a new exciting game, help
 fix this website or promote Arianne all around the world are a few of the many options. Please remember to contact us if you wish to participate.</p>
 
 <h2>Mailing Lists</h2>

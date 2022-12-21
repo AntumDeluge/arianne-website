@@ -11,7 +11,7 @@ $filesLong = array(
 	'jmapacman-(version).zip', 'jmapacman-server-(version).zip', 'jmapacman-(version)-src.tar.gz', 'jmapacman-(version)-changes.txt',
 	'marauroa-(version).zip', 'marauroa-(version)-src.tar.gz', 'marauroa-(version)-docs.zip', 'marauroa-(version)-changes.txt',
 	'marboard-client-(version).zip', 'marboard-server-(version).zip', 'marboard-src-(version).zip', 'marboard-(version)-changes.txt',
-	'stendhal-(version).zip', 'stendhal-(version).zip', 'stendhal-server-(version).zip', 'stendhal-(version)-src.tar.gz', 'stendhal-(version)-changes.txt'); 
+	'stendhal-(version).zip', 'stendhal-(version).zip', 'stendhal-server-(version).zip', 'stendhal-(version)-src.tar.gz', 'stendhal-(version)-changes.txt');
 
 
 $file = $_REQUEST['file'];

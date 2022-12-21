@@ -6,10 +6,10 @@ if ($_REQUEST['product'] != 'stendhal') {
 	return;
 }
 
-?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<!-- <meta http-equiv="refresh" content="30; url=https://arianne-project.org"> --> 
+<!-- <meta http-equiv="refresh" content="30; url=https://arianne-project.org"> -->
 <title>Stendhal</title>
 <style type="text/css">
 body {

@@ -4,7 +4,7 @@
   <version id="0.12"/>
   <type value="tool"/>
   <status value="beta"/>
-  <description><![CDATA[ 
+  <description><![CDATA[
 <p>Marboard is an early prototype of an easy to use vector graphics program allowing live collaboration over the Internet.
 While it is not ready for production use yet, it is a good proof that Marauroa is suitable for serious applications, too.</p>
 
@@ -60,7 +60,7 @@ While it is not ready for production use yet, it is a good proof that Marauroa i
 <li>completely rewrote the drawing code to use Swing JComponent instead of AWT Canvas</li>
 <li>fixed drop-down menu behind window </li>
 <li>fixed flicker on update </li>
-<li>fixed crash of X-Windows (!) on resize</li> 
+<li>fixed crash of X-Windows (!) on resize</li>
 </ul>
 
 <p><b>Marboard 0.05</b></p>

@@ -3,23 +3,23 @@ class Documentation extends Page {
 
 	public function writeHtmlHeader() {
 		echo '<title>Documentation'.ARIANNE_TITLE.'</title>';
-		
+
 	}
 
 	public function writeContent() {
 ?>
 <div class="section"><h1>Documentation</h1>
-<p>Documentation for Arianne is mainly in project packages as text docs and 
-javadocs comments but we also keep other online live documentation on our 
+<p>Documentation for Arianne is mainly in project packages as text docs and
+javadocs comments but we also keep other online live documentation on our
 Wiki.</p>
 
 <h2>Wiki</h2>
-<p>A Wiki is an editable website for creating documentation. <a href="https://stendhalgame.org/wiki/Marauroa" class="navi"><b>Framework documentation.</b></a>. 
+<p>A Wiki is an editable website for creating documentation. <a href="https://stendhalgame.org/wiki/Marauroa" class="navi"><b>Framework documentation.</b></a>.
 </p>
 
 <h2>Reporting bugs</h2>
-<p>Bugs are a fact of life and are always lurking somewhere in programs. To help 
-us eliminate them please report any erroneous execution by submitting Bug 
+<p>Bugs are a fact of life and are always lurking somewhere in programs. To help
+us eliminate them please report any erroneous execution by submitting Bug
 Reports on our Sourceforge pages.</p>
 
 <h3>Before you submit:</h3>
@@ -30,7 +30,7 @@ Reports on our Sourceforge pages.</p>
   <li>Any output log files generated</li>
   <li>The basic spec of your PC (processor, RAM, Graphics Card, Operating System)</li>
 </ul>
-<p><a href="https://sourceforge.net/p/arianne/bugs/">Click 
+<p><a href="https://sourceforge.net/p/arianne/bugs/">Click
 here to submit a Bug</a></p>
 
 <h2>Source code</h2>

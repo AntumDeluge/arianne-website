@@ -70,7 +70,7 @@ class DetailPage extends Page {
 		}
 	}
 
-	
+
 	function writeDetails($game, $base) {
 		echo '<h1>'.ucfirst($game['page']['0 attr']['name']).'</h1>';
 
@@ -80,7 +80,7 @@ class DetailPage extends Page {
 			echo '<a href="'.$game['page'][0]['playnow']['0 attr']['url'].'" class="playnow">';
 			echo '<img class="playnow news_image" src="/'.$game['page'][0]['playnow']['0 attr']['image'].'"></a>'."\r\n";
 		}
-		
+
 		if (isset($game['page'][0]['short-description'])) {
 			echo '<p>'.$game['page'][0]['short-description'][0].'</p>';
 		}
@@ -171,9 +171,9 @@ class DetailPage extends Page {
 		}
 		echo '</p>&copy; 2005-2021. Released under <a href="/docs/gpl-2.0.html">GNU General Public License</a>.</p></div>';
 	}
-	
-	
-	
+
+
+
 	function writeDownloadSection($game) {
 		if (!isset($game['page'][0]['files'])) {
 			return;
@@ -186,19 +186,19 @@ class DetailPage extends Page {
 			if (strpos($key,"attr")!=FALSE) {
 				continue;
 			}
-	
+
 			$file=$game['page'][0]['files'][0]['file'][$key];
 			foreach ($game['page'][0]['files'][0]['file'][$key.' attr'] as $akey=>$avalue) {
 				$file[$akey]=$avalue;
 			}
-	
+
 			$filename=str_replace("XXX",$game['page'][0]['version']['0 attr']['id'],$file['name']);
 			if ($section === false) {
 				echo '<li>';
 			} else {
 				echo '<li class="gamepage">';
 			}
-	
+
 			echo '<div class="releaseinfo">('.$file['type'].') released on '.$game['page'][0]['updated']['0 attr']['date'].'</div>';
 			echo '<div class="link"><a href="https://prdownloads.sourceforge.net/arianne/'.$filename.'?download" class="download_file">'.$filename.'</a>';
 			if (isset($file['suggest'])) {
@@ -206,13 +206,13 @@ class DetailPage extends Page {
 			}
 			echo '</div>';
 			echo '<div class="filedesc">'.$file['description'][0].'</div>';
-			
+
 			echo '</li>';
 		}
 		echo '</ul>';
-	
+
 		echo '</div>';
 	}
-	
+
 }
 $page = new DetailPage();

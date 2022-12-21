@@ -2,9 +2,9 @@
 class GladiatorsManual extends Page {
 	public function writeHtmlHeader() {
 		echo '<title>Gladiators Manual'.ARIANNE_TITLE.'</title>';
-		
+
 	}
-	
+
 	public function writeContent() {
 ?>
 <span style="font-weight: bold;">Gladiators</span>

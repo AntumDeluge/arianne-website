@@ -1,7 +1,7 @@
 <?php
 /**
  * Function to provide a button for posting a tweet about a news item
- * 
+ *
  * @param $url the URL to mention in the tweet
  * @param $toMention the twitter accounts to mention in the post
  */
@@ -16,7 +16,7 @@ function buildTweetButton($url, $toMention) {
 
 /**
  * Function to provide a button for sharing a news item on facebook
- * 
+ *
  * @param $title title of the news item
  * @param $url the url to link to
  */

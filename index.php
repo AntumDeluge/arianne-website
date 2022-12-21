@@ -129,9 +129,9 @@ if ($page->writeHttpHeader()) {
 					<li><a href="http://sourceforge.net/projects/arianne/reviews/"><IMG SRC="https://sourceforge.net/sflogo.php?group_id=1111&amp;type=1" ALT="SourceForge Logo"></a></li>
 					<!-- <li><a href="http://happypenguin.org/show?Stendhal"><img src="http://happypenguin.org/rateomatic?Stendhal" alt="Happy Penguin Rate"></a></li>-->
 				</ul>
-			
+
 			</div>
-			
+
 			<?php
 			echo '<div id="pagecontent">';
 			$page->writeContent();

@@ -9,24 +9,24 @@
   <short-description>Stendhal is a fun friendly and completely free multiplayer online adventure game with an old school feel.</short-description>
 <!--
   <rated>
-   
+
     <entry><![CDATA[
-      <a href="http://happypenguin.org/show?stendhal"><img src="http://happypenguin.org/rateomatic?stendhal"></a>]]>    
+      <a href="http://happypenguin.org/show?stendhal"><img src="http://happypenguin.org/rateomatic?stendhal"></a>]]>
     </entry>
     <entry>
-      <![CDATA[<a href="http://freecode.com/projects/stendhal/"><img src="/images/fm_logo.webp"></a>]]>    
+      <![CDATA[<a href="http://freecode.com/projects/stendhal/"><img src="/images/fm_logo.webp"></a>]]>
     </entry>
     <entry>
       <![CDATA[<a href="http://www.gamesites200.com/mpog/vote.php?id=1850"><img src="http://www.gamesites200.com/mpog/vote.gif" ALT="Paid and Free
-MMORPG & MPOG" border="0"></a>]]>    
+MMORPG & MPOG" border="0"></a>]]>
     </entry>
   <entry>
       <![CDATA[&nbsp;&nbsp; <script type="text/javascript" src="http://www.ohloh.net/projects/3711/widgets/project_users"></script>]]>
     </entry>
   </rated>
   -->
-  
-  <description><![CDATA[ 
+
+  <description><![CDATA[
 <p>Stendhal has a huge and rich world. You can explore cities, forest, mountains, mines, plains, caves and dungeons.</p>
 <p>
 You could meet over 250 NPCs, many will give you tasks and quests for valuable experience, shiny gold, but mainly a warm fuzzy feeling. You may be asked to help protect land or people from danger, feed the hungry, heal the sick, make someone happy, solve a puzzle, play a game or simply lend a hand. You can keep track of your progress using a Travel Log.</p>
@@ -48,7 +48,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   <p>Stendhal is part of the Arianne project and framework for developing games. It's a great project to get involved in, if you are interested in learning to develop Java for example. If you don't want to code you can help with graphics, history, dialogue, quest ideas, music and more. Join a team of developers from all over the world who create the game just for fun, and of course for free, in our spare time. We would really love to get your help <a href="https://stendhalgame.org/development.html">contributing</a>.</p>
   ]]>
   </extended>
-  <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>  
+  <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>
   <changelog><![CDATA[
 
 <h3 id="v1.40">1.41: Encouraging Exploration</h3>
@@ -217,7 +217,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <h3 id="v1.35">1.35: Appreciating Helpers</h3>
 
 <b>world</b><ul>
-  
+
 <li> new items: ice shield
 <li> new achievements: Bobbing for Apples, Deathmatch Helper, Deathmatch Companion, Deathmatch Convoy, Magic Supplies
 <li> NPC changes: King Edward sells Deniran City scrolls, Rengard visits Ados Mountain instead of Semos Mountain
@@ -238,7 +238,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <h3 id="v1.34">Stendhal 1.34: Dojo</h3>
 
 <b>world</b><ul>
-  
+
 <li> new zones/maps: Dojo area, Deniran Pawn Shop, Deniran Psychic Parlor, Atlantis Potions Shop
 <li> new NPCs: Jimbo, Omura Sumitada, Akutagawa, Lovena, Rengard, Pierre, Ryla, Mirielle, Sawyer, Harley, Raven
 <li> new items: bestiary, training sword, auto crossbow, auto crossbow A, auto crossbow A+,  enhanced imperial ring
@@ -249,11 +249,11 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> enemy behaviour changes: baby pegasus, blordrough general
 <li> new quests: Collect Enemy Data
 </ul>
-  
+
 <h3 id="v1.33">Stendhal 1.33: Finding the Lost City</h3>
-  
+
 <b>web client</b><ul>
-  
+
 <li> long touching to simulate right mouse button
 <li> added online/offline icons on buddy list
 <li> added commands /drop and /adminlevel
@@ -294,7 +294,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 </ul><b>art work</b><ul>
 <li> made dark dagger image more distinct from night dagger
 <li> changed beer image to fit description better
-<li> restored old images: banana, grapes, pear, watermelon 
+<li> restored old images: banana, grapes, pear, watermelon
 <li> new item images: golden helmet, viking helmet, aventail, scroll eraser, studded boots, trophy helmet
 <li> new music in: Semos Yeti Cave, Semos Catacombs, Kikareukin Caves, Deniran City, Deniran Forest, Deniran Caves, Atlantis, Semos Village, Semos Plains, Semos Road, Nalwor River, taverns and inns in Ados, Fado and Kirdneh
 
@@ -310,14 +310,14 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> fixed veil not being removed if renting from Timothy while wearing wedding gown
 <li> slash action "/removedetail" can be executed to manually remove the detail layer from a character
 <li> mithril cloak quest can be reset to an earlier state in case of lost items
-  
-</ul> 
-  
-  
+
+</ul>
+
+
 <h3 id="v1.32">Stendhal 1.32: New Faces</h3>
 
 <b>world</b><ul>
-  
+
 <li>new quests: Antivenom Ring, Meal for Groongo
 <li>new enemies: amethyst mermaid, emerald mermaid, ruby mermaid, sapphire mermaid, cannibal warrior, legendary ice elemental, turtle
 <li>new NPCs: Jameson (Apothecary Lab), Wanda (Denrian Potions Shop), Zoey (Ados Pet Sanctuary)
@@ -381,15 +381,15 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> new Fado NPCs: Olmo (meat & fish smoker)
 <li>  new items: habanero pepper, magic cloak, pinto beans, tripe
 
-  
+
 </ul><b>graphics</b><ul>
 <li> new graphics: potions, cauldron icon, magic cloak, sand edges...
-<li> reworked NPC sprites: Javier X, Terry, Diehelm Brui, Xaruhwaiyz, Ortiv Milquetoast, Stichard Rallman, Eheneumniranin, Katerina, 
+<li> reworked NPC sprites: Javier X, Terry, Diehelm Brui, Xaruhwaiyz, Ortiv Milquetoast, Stichard Rallman, Eheneumniranin, Katerina,
 <li> reworked enemy sprites: cavalryman gnome, lamia, madaram hero, piglet
 <li> reworked items sprites: chain boots, drow sword, studded boots, xeno equipment
 </ul>
-    
-  
+
+
 <h3 id="v1.30">Stendhal 1.30: Cool Caves</h3>
 
 <b>world</b><ul>
@@ -397,9 +397,9 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> continued on Deniran city and region
 <li> lots of map improvements like fixed fences, iterior decorations and furniture, tower chalet
 <li> moving wind mill blades
-<li> new NPC sprites for bandit, scarletarmynpc, Erodel Bmud, librarianconstantinenpc, man_001_npc, woman_005_npc, woman_007_npc, woman_008_npc, 
+<li> new NPC sprites for bandit, scarletarmynpc, Erodel Bmud, librarianconstantinenpc, man_001_npc, woman_005_npc, woman_007_npc, woman_008_npc,
                       elfybuyernpc, elfmayornpc, gamesupervisornpc
-<li> new creatures sprites for fallen_high_priest, madaram_healer, soldier_elite_archer, beaver, deniran_stormtrooper, armored soldiers or various ranks 
+<li> new creatures sprites for fallen_high_priest, madaram_healer, soldier_elite_archer, beaver, deniran_stormtrooper, armored soldiers or various ranks
 <li> Ados army batallione protects trade route to Denrian
 </ul>
 
@@ -408,7 +408,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 </ul>
 
 
-  
+
 <h3 id="v1.29">Stendhal 1.29: Big city casts it shadows</h3>
 
 <b>world</b><ul>
@@ -425,7 +425,7 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> stendhal-1.29.zip now contains a stendhal-starter.exe file to make it more convenient for MS Windows users.
   It will prompt the user to install Java, if it is missing. Then it invokes stendhal-starter.jar as usual
 </ul>
-  
+
 <b>server</b><ul>
 <li> continue movement through portals
 <li> dedicated Archaeologist achievement
@@ -444,9 +444,9 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 
 
 ]]>
-<!-- 
+<!--
 <![CDATA[
-  
+
 
 <h3 id="v1.28.1">Stendhal 1.28.1: </h3>
 <ul><li> server only security update of Marauroa
@@ -508,59 +508,59 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 
 <b>sprites</b><ul>
 <li>We like to give a special thanks to members of the OpenGameArt community who made their work available
-for games like Stendhal: <br><small> 
-<a href="https://opengameart.org/users/cabbit">Svetlana Kushnariova (Cabbit)</a>, 
-<a href="https://opengameart.org/users/diamonddmgirl">diamonddmgirl</a>, 
-<a href="https://opengameart.org/users/amaranthia">amaranthia</a>, 
-<a href="https://opengameart.org/users/angry-amish">Angry Amish</a>, 
-<a href="https://opengameart.org/users/artisticdude">artisticdude</a>, 
-<a href="https://opengameart.org/users/bagzie">bagzie</a>, 
-Barbara Rivera, 
-<a href="https://opengameart.org/users/bluecarrot16">bluecarrot16</a>, 
-<a href="https://opengameart.org/users/cnilsson">Casper Nilsson</a>, 
-<a href="https://opengameart.org/users/charlesgabriel">Charles Gabriel (Antifarea)</a>, 
-<a href="https://opengameart.org/users/bluevortexgames">Cobra Hubbard (BlueVortexGames)</a>, 
-<a href="https://opengameart.org/users/crisisworks">Crisisworks</a>, 
-<a href="https://opengameart.org/users/curt">Curt</a>, 
-<a href="https://opengameart.org/users/daneeklu">Daniel Eddeland (daneeklu)</a>, 
-<a href="https://opengameart.org/users/danielmahon">danielmahon</a>, 
-<a href="https://opengameart.org/users/dkucook">DkuCook</a>, 
-<a href="https://opengameart.org/users/ienze">Dominik Gmiterko (ienze)</a>, 
-<a href="https://opengameart.org/users/fabzy">Fabzy</a>, 
-<a href="https://opengameart.org/users/grumpydiamond">GrumpyDiamond</a>, 
-<a href="https://opengameart.org/users/hyptosis">Hyptosis</a>, 
-<a href="https://opengameart.org/users/isaiah658">isaiah658</a>, 
-<a href="https://opengameart.org/users/jetrel">Jetrel</a>, 
-<a href="https://opengameart.org/users/johann-c">Johann C</a>, 
-<a href="https://opengameart.org/users/kemono">Kemono</a>, 
-<a href="https://opengameart.org/users/tkz-productions">Kevin Smith (TKZ Productions)</a>, 
-<a href="https://opengameart.org/users/sharm">Lanea Zimmerman (Sharm)</a>, 
-<a href="https://opengameart.org/users/lawnjelly">lawnjelly</a>, 
-<a href="https://opengameart.org/users/leonard-pabin">Leonard Pabin</a>, 
-<a href="https://opengameart.org/users/lordneo">LordNeo</a>, 
-<a href="https://opengameart.org/users/jastiv">Lori Angela Nagel (Jastiv)</a>, 
-<a href="https://opengameart.org/users/bizmasterstudios">Michael Williams (BizmasterStudios)</a>, 
-<a href="https://opengameart.org/users/mold">mold</a>, 
-<a href="https://opengameart.org/users/nila122">Nila122</a>, 
-<a href="https://opengameart.org/users/nologogames">NoLogoGames</a>, 
-<a href="https://opengameart.org/users/rayaneflx">Rayane Félix (RayaneFLX)</a>, 
-<a href="https://opengameart.org/users/redvoxel">RedVoxel</a>, 
-<a href="https://opengameart.org/users/shepardskin">Shepardskin</a>, 
-<a href="https://opengameart.org/users/sollision">Sollision</a>, 
-<a href="https://opengameart.org/users/redshrike">Stephen Challener (Redshrike)</a>, 
-<a href="https://opengameart.org/users/reemax">Tuomo Untinen (Reemax)</a>, 
-<a href="https://opengameart.org/users/williamthompsonj">William Thompson</a>, 
-<a href="https://opengameart.org/users/therahedwig">Wolthera van Hövell tot Westerflier (TheraHedwig)</a>, 
-<a href="https://opengameart.org/users/wulax">wulax</a>, 
-<a href="https://opengameart.org/users/xenodora">Xenodora</a>, 
-<a href="https://opengameart.org/users/yamilian">Yamilian</a>, 
-<a href="https://opengameart.org/users/yar">Yar</a>, 
-<a href="https://opengameart.org/users/yolkati">yolkati</a>, 
-<a href="https://opengameart.org/users/zabin">Zachariah Husiar (Zabin)</a>, 
-<a href="https://opengameart.org/users/zapaper">ZaPaper</a>, 
+for games like Stendhal: <br><small>
+<a href="https://opengameart.org/users/cabbit">Svetlana Kushnariova (Cabbit)</a>,
+<a href="https://opengameart.org/users/diamonddmgirl">diamonddmgirl</a>,
+<a href="https://opengameart.org/users/amaranthia">amaranthia</a>,
+<a href="https://opengameart.org/users/angry-amish">Angry Amish</a>,
+<a href="https://opengameart.org/users/artisticdude">artisticdude</a>,
+<a href="https://opengameart.org/users/bagzie">bagzie</a>,
+Barbara Rivera,
+<a href="https://opengameart.org/users/bluecarrot16">bluecarrot16</a>,
+<a href="https://opengameart.org/users/cnilsson">Casper Nilsson</a>,
+<a href="https://opengameart.org/users/charlesgabriel">Charles Gabriel (Antifarea)</a>,
+<a href="https://opengameart.org/users/bluevortexgames">Cobra Hubbard (BlueVortexGames)</a>,
+<a href="https://opengameart.org/users/crisisworks">Crisisworks</a>,
+<a href="https://opengameart.org/users/curt">Curt</a>,
+<a href="https://opengameart.org/users/daneeklu">Daniel Eddeland (daneeklu)</a>,
+<a href="https://opengameart.org/users/danielmahon">danielmahon</a>,
+<a href="https://opengameart.org/users/dkucook">DkuCook</a>,
+<a href="https://opengameart.org/users/ienze">Dominik Gmiterko (ienze)</a>,
+<a href="https://opengameart.org/users/fabzy">Fabzy</a>,
+<a href="https://opengameart.org/users/grumpydiamond">GrumpyDiamond</a>,
+<a href="https://opengameart.org/users/hyptosis">Hyptosis</a>,
+<a href="https://opengameart.org/users/isaiah658">isaiah658</a>,
+<a href="https://opengameart.org/users/jetrel">Jetrel</a>,
+<a href="https://opengameart.org/users/johann-c">Johann C</a>,
+<a href="https://opengameart.org/users/kemono">Kemono</a>,
+<a href="https://opengameart.org/users/tkz-productions">Kevin Smith (TKZ Productions)</a>,
+<a href="https://opengameart.org/users/sharm">Lanea Zimmerman (Sharm)</a>,
+<a href="https://opengameart.org/users/lawnjelly">lawnjelly</a>,
+<a href="https://opengameart.org/users/leonard-pabin">Leonard Pabin</a>,
+<a href="https://opengameart.org/users/lordneo">LordNeo</a>,
+<a href="https://opengameart.org/users/jastiv">Lori Angela Nagel (Jastiv)</a>,
+<a href="https://opengameart.org/users/bizmasterstudios">Michael Williams (BizmasterStudios)</a>,
+<a href="https://opengameart.org/users/mold">mold</a>,
+<a href="https://opengameart.org/users/nila122">Nila122</a>,
+<a href="https://opengameart.org/users/nologogames">NoLogoGames</a>,
+<a href="https://opengameart.org/users/rayaneflx">Rayane Félix (RayaneFLX)</a>,
+<a href="https://opengameart.org/users/redvoxel">RedVoxel</a>,
+<a href="https://opengameart.org/users/shepardskin">Shepardskin</a>,
+<a href="https://opengameart.org/users/sollision">Sollision</a>,
+<a href="https://opengameart.org/users/redshrike">Stephen Challener (Redshrike)</a>,
+<a href="https://opengameart.org/users/reemax">Tuomo Untinen (Reemax)</a>,
+<a href="https://opengameart.org/users/williamthompsonj">William Thompson</a>,
+<a href="https://opengameart.org/users/therahedwig">Wolthera van Hövell tot Westerflier (TheraHedwig)</a>,
+<a href="https://opengameart.org/users/wulax">wulax</a>,
+<a href="https://opengameart.org/users/xenodora">Xenodora</a>,
+<a href="https://opengameart.org/users/yamilian">Yamilian</a>,
+<a href="https://opengameart.org/users/yar">Yar</a>,
+<a href="https://opengameart.org/users/yolkati">yolkati</a>,
+<a href="https://opengameart.org/users/zabin">Zachariah Husiar (Zabin)</a>,
+<a href="https://opengameart.org/users/zapaper">ZaPaper</a>,
 <a href="https://opengameart.org/users/ztn">ztn</a>, and other communities:
-<a href="http://www.lostgarden.com/">Daniel Cook</a>, 
-<a href="https://openclipart.org/user-detail/Firkin">Firkin</a>, 
+<a href="http://www.lostgarden.com/">Daniel Cook</a>,
+<a href="https://openclipart.org/user-detail/Firkin">Firkin</a>,
 <a href="http://www.neorice.com/">Guido Bos</a>,
 <a href="https://openclipart.org/user-detail/leangoro">leangoro</a>,
 <a href="https://openclipart.org/user-detail/johnny_automatic">johnny_automatic</a>,
@@ -568,12 +568,12 @@ Barbara Rivera,
 <a href="https://openclipart.org/user-detail/liftarn">liftarn</a></small>
 
 
-<li>The Arianne project would like to give special thanks to 
+<li>The Arianne project would like to give special thanks to
 <a href="https://opengameart.org/users/cabbit">Svetlana Kushnariova (Cabbit)</a>
 who created the base template sprites that are used throughout
 this release, and <a href="https://opengameart.org/users/diamonddmgirl">diamonddmgirl</a>
-for her additions to the set. And finally, thank you to the Stendhal project members 
-Kimmo Rundelin (kiheru), olonu, & Jordan Irwin (AntumDeluge) who put in extra hours of 
+for her additions to the set. And finally, thank you to the Stendhal project members
+Kimmo Rundelin (kiheru), olonu, & Jordan Irwin (AntumDeluge) who put in extra hours of
 work to take on the huge task of creating & replacing sprite & tileset images.
 </ul>
 
@@ -597,7 +597,7 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 <li> display zone name
 <li> implemented gate, walk blocker and PassiveNPC
 </ul>
- 
+
 <b>bugfixes</b><ul>
 <li> fixed a double login bug resulting in item duplication (thanks to pepsz for the report)
 <li> fixed a NullPointerException on quit dialog
@@ -607,7 +607,7 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 
 <h3 id="v1.25">Stendhal 1.25: Ados Advancements</h3>
 <b>world</b><ul>
-<li> made new images for rams, lions 
+<li> made new images for rams, lions
 <li> made new images for pine, locust trees, new old ents
 <li> made new ship tiles
 <li> added soldiers to Ados wall
@@ -630,11 +630,11 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 
 <h3 id="v1.24">Stendhal 1.24: Fighting the curse</h3>
 <b>world</b><ul>
-<li> Mermaids linger around near the outer edge of grotto 
+<li> Mermaids linger around near the outer edge of grotto
 <li> New images for farm animals: cow and bull
 <li> New images for dragons: green and red as well as green and red dragon riders
 <li> New images for ghost, death, black death and golden death
-<li> New images for brown, green and black slimes 
+<li> New images for brown, green and black slimes
 </ul>
 
 <b>changes to the experimental client</b><ul>
@@ -648,16 +648,16 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 
 <h3 id="v1.23">Stendhal 1.23: Cursed</h3>
 <b>world</b><ul>
-<li> Mizuno sells ice, fire, and light arrows. 
+<li> Mizuno sells ice, fire, and light arrows.
 <li> Because of a bad curse, many creatures, animals and people have lost their appearance
-<li> Please join us at https://stendhalgame.org/chat/ if you want to help 
+<li> Please join us at https://stendhalgame.org/chat/ if you want to help
 </ul>
 
 <h3 id="v1.22">Stendhal 1.22: Joyful times</h3>
 <b>world</b><ul>
 <li> Winter has started and the weather shows it
 <li> Semos is decorated for Christmas
-<li> New Christmas song: "O how joyfully"  
+<li> New Christmas song: "O how joyfully"
 <li> KillMonks quest history shows tally marks
 </ul>
 
@@ -700,8 +700,8 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 
 <b>code</b><ul>
 <li> Support Postgres databases in addition to H2 (recommended) and MySQL
-<li> Setup Travis for continuous integration tests and fixed some order dependent tests 
-<li> Migrated test coverage analysis from Cobertura to Jacoco 
+<li> Setup Travis for continuous integration tests and fixed some order dependent tests
+<li> Migrated test coverage analysis from Cobertura to Jacoco
 <li> Git repository is mirrored instantaneously between Github and Sourceforge in both directions
 <li> Yearly special event quests now pick up the current year as part of their quest slot automatically
 <li> Backend for puzzles
@@ -713,8 +713,8 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 <li> Database index are now created automatically
 </ul>
 
-  
-  
+
+
 <h3 id="v1.19">Stendhal 1.19: Deep Sea</h2>
 <b>world</b><ul>
 <li> new interesting under water zone
@@ -739,26 +739,26 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 <li> a half elf girl and an distillery customer share their stories at Ados market
 <li> Improving dialogue of Lil Johnnny
 <li> Saskia sells umbrellas
-</ul> 
+</ul>
 
 <b>website</b><ul>
 <li> zone names labels on world map
 <li> http://arianne.sourceforge.net is moving to https://arianne-project.org
-</ul> 
+</ul>
 
 <b>fixes</b><ul>
 <li> fixed status resistance items being forgetting their status value
 <li> fixed turning left and right of character on character creation web page
 <li> fixed map in Orril Dungeon -3
 <li> fixed kill enemy quests getting stuck
-</ul> 
+</ul>
 
 <b>code</b><ul>
 <li> Webstart starter will be able to check both arianne-project.org and arianne.sourceforge.net for additional files.
   So if SourceForge goes down again for a week, webstart will still be able to download Stendhal
 <li> code quality improvements
-</ul> 
-  
+</ul>
+
 <h3 id="v1.17">Stendhal 1.17: Water from above and below</h3>
 <b>world</b><ul>
 <li> Varying weather at outside zones
@@ -772,7 +772,7 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 <li> Mainio boots reward instead of steel boots from Kanmararn Soldiers quest
 <li> Corpse descriptions state the creature name, instead of just the creature class
 <li> Animated flame tiles replaced in int_semos_wizards_tower_1
-</ul> 
+</ul>
 
 <b>chat</b><ul>
 <li> More visible new chat message indication
@@ -808,8 +808,8 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 <h3 id="v1.16">Stendhal 1.16: Lil' Snowflake</h3>
 
 <b>world</b><ul>
-<li> Semos city is decorated for Christmas 
-<li> Falling snow 
+<li> Semos city is decorated for Christmas
+<li> Falling snow
 <li> Leaderhosen outfit
 </ul>
 <b>code</b><ul>
@@ -867,7 +867,7 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 <li> wedding ring supports double click
 <li> message on shocked
 <li> code cleanup and documentation improvements
-<li> excessly high atk and def level are capped for fighters with little experience 
+<li> excessly high atk and def level are capped for fighters with little experience
   (average players should not notice much of a difference)
 </ul>
 
@@ -1080,10 +1080,10 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 <br>- Snake pit beneath Ados caves
 <br>- New dropped items: elvish hat
 <br>- New quest items: stone legs
-<br>- More lights on Ados market, around Athor island and more light effects 
-<br>- New look for mountain orc 
+<br>- More lights on Ados market, around Athor island and more light effects
+<br>- New look for mountain orc
 <br>- Dwarves rebuilt rails in Semos Mine
-<br>- New creatures: Mimics, cobra, king cobra, and lamia 
+<br>- New creatures: Mimics, cobra, king cobra, and lamia
 <br>- More sounds and descriptions for creatures
 <br>- Creatures added to the mountains
 <br>- Pdiddi warns first customers about the risk of his pills
@@ -1091,8 +1091,8 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 <br>- Toilets and sinks have running water sound effects
 <br>- Athor's ferry has "creaking" sound effects
 <br>- Jef feels better but still wants to hear from his mom
-<br>- Pushable stone blocks 
-<br>- Background music in hell 
+<br>- Pushable stone blocks
+<br>- Background music in hell
 <br>- Growing cherry trees on Orril Mountain
 
 <br><b>*client*</b>
@@ -1112,7 +1112,7 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 <br>- more creature descriptions added
 <br>- new sprite shown when blood and corpses setting is turned off
 <br>- new sound effects for multiple creatures
-<br>- Leander explains his task better 
+<br>- Leander explains his task better
 <br>- new corpses for slimes, ents and stone golems
 <br>- dwarvish legs now available
 <br><b>*fixes*</b>
@@ -1130,7 +1130,7 @@ work to take on the huge task of creating & replacing sprite & tileset images.
 
 <br><b>*client*</b>
 <br>- A lot of redrawn images
-<br>- The game screen can be scaled. The scaling can be turned off in settings to get the old 
+<br>- The game screen can be scaled. The scaling can be turned off in settings to get the old
 behaviour
 <br>- Karma bar fits to the width of the left panel
 <br>- Travel log updates to font preference change immediately
@@ -1153,7 +1153,7 @@ behaviour
 <br>- jail exit is straight to outside the cell
 
 <br><b>*client*</b>
-<br>- replaced the separate menu buttons with one large menu 
+<br>- replaced the separate menu buttons with one large menu
 <br>- HP bar of ignored players is drawn in full color to make them visible at night
 <br>- chat spam filter takes the length of the messages into account
 
@@ -1168,11 +1168,11 @@ behaviour
 <b>1.03</b>
 <br><b>*world*</b>
 <br>- Ados Botanical Gardens
-<br>- new lamps 
+<br>- new lamps
 <br>- map layering and collisions fixes
 <br>- new blend mode for enabling lighting in any zone
 <br>- Monogenes informs players about public chest
-<br>- 3 achievements activated 
+<br>- 3 achievements activated
 <br><b>*fixes*</b>
 <br>- don't accidently pick the first item on click spam on an item which was used up
 <br>- fixed return from adventure island into the wall
@@ -1229,8 +1229,8 @@ behaviour
 <b>1.01</b>
 <br><b>*world*</b>
 <br>- Venethiel teaches players about Haizen's maze
-<br>- Will warns players leaving Semos city 
-<br>- reworked Fado hotel restaurant 
+<br>- Will warns players leaving Semos city
+<br>- reworked Fado hotel restaurant
 <br>- more creature descriptions added
 <br>- moved Semos city wall into the city
 <br>- Monogenes is now next to the bird station in Semos city
@@ -1238,7 +1238,7 @@ behaviour
 <br>- Player bound items do not move under pushed player, unless they belong to the said player
 <br>- Mixed creature fighting profiles. Used mainly for dragons, who will attack at a distance if they can't get close to player
 <br>- killer bees are a new creature in fado forest
-<br>- Zinnia, Calla, Lobelia and Periwinkle hint which nearby quests you still need to start (that fit your level) 
+<br>- Zinnia, Calla, Lobelia and Periwinkle hint which nearby quests you still need to start (that fit your level)
 
 <br><b>*other*</b>
 <br>- added /profile <name> to open the webprofile of a character
@@ -1266,7 +1266,7 @@ behaviour
 <br>- lots of testing
 <br>- nice descriptions for many NPCs
 <br>- fixed map bugs
-<br>- added social buttons to website 
+<br>- added social buttons to website
 
 <p>
 <b>0.99</b>
@@ -1321,14 +1321,14 @@ behaviour
 <br><b>*fixes*</b>
 <br>- Farmer achievement can be reached due to garlic grower implementation
 <br>- Stop player vs player attack if either player move into a protection zone
-<br>- Fixed descriptions for items that can be picked 
+<br>- Fixed descriptions for items that can be picked
 
 <p><b>0.97</b>
 
 <br><b>* Revival Weeks*</b>
 <br>- Faiumonis inhabitans are excited for the Mine Town Revival Weeks already and decorated Semos City and the Mine Town area
 <br>- Caroline finally found her way to the Mine Town for selling snacks and drinks
-<br>- NPCs and games have been moved in relation to the former years 
+<br>- NPCs and games have been moved in relation to the former years
 
 <br><b>*world*</b>
 <br>- More Semos NPCs help players now if they need some advise of what to do next
@@ -1406,7 +1406,7 @@ behaviour
 
 <br><b>*client*</b>
 <br>- text boxes are now attached to the bottom of the screen
-<br>- renamed the stendhal-FULL-0.xx.zip to stendhal-0.xx.zip. 
+<br>- renamed the stendhal-FULL-0.xx.zip to stendhal-0.xx.zip.
   the extra client without sound made sense a long time ago
   when the full client had twice the size of the soundless client.
 
@@ -1452,7 +1452,7 @@ behaviour
 <br>- deathmatch creature spawn time dependent on player level and (inversely) on number of players in ring
 <br>- get fresh water at some hidden new springs
 <br>- Kill Enemy Army quest history with more detail and records number of completions
-<br>- Xhiphin Zohos is thirsty and asks for water 
+<br>- Xhiphin Zohos is thirsty and asks for water
 <br>- decorated Semos for Easter
 <br>- Easter Bunny drops small easter eggs as he walks
 
@@ -1494,7 +1494,7 @@ behaviour
 <br><b>*world*</b>
 <br>- sheep growing quest from Nishiya
 <br>- Help Jef by finding his mom, Amber, in a new quest
-<br>- Caroline moved into her refurbished house in Ados 
+<br>- Caroline moved into her refurbished house in Ados
 <br>- the required item to collect (if chosen from a list) is displayed in more quest histories
 <br>- message about where you died, on death
 <br>- sound on level up
@@ -1576,7 +1576,7 @@ behaviour
 <br>- Wrviliza, a kobold barmaid in Wo'fol bar, she also provide new drinks (mild and strong koboldish torcibud)
 <br>- Kormic, a kobold regular in Wo'fol bar
 <br>- Uncle Dag in Ados market, he runs a distillery stand there and produces fierywater
-<br>- Gaston, a Rat chef in Rat City bakery 
+<br>- Gaston, a Rat chef in Rat City bakery
 <br>- quest in Wo'fol (the reward is V.S.O.P. koboldish torcibud)
 <br>- artichoke, garlic, mandragora (a magical herb) and zantedeschia (a flower) and cane fields are growing in Faiumoni
 <br>- hen nests spawn eggs
@@ -1610,7 +1610,7 @@ behaviour
 <br>- new NPC Florence Boullabaisse on Ados market who will make a tasty Fish Soup for you
 <br>- new NPC Fritz on Ados market
 <br>- new NPC Barbarus in Semos Mine
-<br>- new NPC Ortiv Milquetoast in Kirdneh River House 
+<br>- new NPC Ortiv Milquetoast in Kirdneh River House
 <br>- new music in Orril Castle
 <br>- new items fish soup, garlic, grilled steak, coal, pick, red lionfish
 <br>- coal sources for extracting coal
@@ -1620,7 +1620,7 @@ behaviour
 
 <br><b>*website*</b>
 <br>- animated/large NPCs like tomi and vulcanus now have an image
-<br>- display ranks on character page 
+<br>- display ranks on character page
 
 <p><b>0.87.1</b>
 <br>- fixed issue making client unresponsive for Windows users
@@ -1668,7 +1668,7 @@ behaviour
 <br>-Diogenes tells you about postman, he recently remembered that used to be his job
 <br>-a sign at the flowers field which shows the meaning of these flowers
 <br>-marked path from semos to ados city and to the athor ferry pier on ados coast
-<br>-new npc added to ados market, who buys blue shield 
+<br>-new npc added to ados market, who buys blue shield
 <br>-Simon in Ados church offers helpful guidance
 <br>-blackjack max stake raised to 400
 <br>-bakers want more button mushrooms
@@ -1688,7 +1688,7 @@ behaviour
 <br>-getting an amulet when killing thing
 
 <br><b>*code*</b>
-<br>-portals can do actions 
+<br>-portals can do actions
 <br>-Messages from NPCs to offline players for postman can be stored in a table (without postman online)
 <br>-SBoxLayout supports alignment and padding
 <br>-support messages will get sent using postman if the player was offline
@@ -1718,7 +1718,7 @@ behaviour
 <br>- a script for calculating item drop rarities
 <br>- quests history refactored to not use xml
 <br>- many semos npcs reverted to not use xml for configuration
-  
+
 <br><b>*bugfixes*</b>
 <br>- upper part of grain is not counted as grain (can move between grain fields)
 <br>- raid creatures no longer have attack weakest profile even if the creature normally would
@@ -1757,13 +1757,13 @@ behaviour
 <br>- npc conditions and actions for randomised item collection quests
 <br>- fixed bug with xp display after death
 <br>- ranged attack bug fixes on using up last missile and throwing from 1 tile away
-<br>- email address field may be left completely empty on account creation 
+<br>- email address field may be left completely empty on account creation
 <br>- /inspect command output improved for viewing quests, karma, and coordinates
 
 <br><b>*website*</b>
 <br>- performance optimisation
 <br>- bugfixes including player display on firefox
-<br>- spouse of a married player is displayed 
+<br>- spouse of a married player is displayed
 
 <p><b>0.83</b>
 <br><b>*features*</b>
@@ -1846,12 +1846,12 @@ behaviour
 
 <p><b>Stendhal 0.81.2</b>
 <br><b>*bug fixes*</b>
-<br>- fixed a crash on Linux using alsa (non pulse) audio drivers and Sun Java (not OpenJDK) 
+<br>- fixed a crash on Linux using alsa (non pulse) audio drivers and Sun Java (not OpenJDK)
   if all channels are in use by another application
-<br>- fixed rare InvalidVersionExceptions in the network code on high latency connections 
+<br>- fixed rare InvalidVersionExceptions in the network code on high latency connections
   (for example for people living outside Europe to an server in Europe)
 <br>- handle failure to load sprite images more gracefully
-<br>- improved logging of uncaught exceptions 
+<br>- improved logging of uncaught exceptions
 <p>
 0.81.2 contains the first results of the Client Quality Weeks. Thanks everyone for providing
 your error log files and please continue to do so.
@@ -1870,7 +1870,7 @@ your error log files and please continue to do so.
 <br>- a dragbar for making the game screen smaller (handy for netbooks)
 <br>- new quest from Ouchit with new NPC in ados forest
 <br>- having multiple correct answers for a riddle now possible
-<br>- athor labyrinth redrawn 
+<br>- athor labyrinth redrawn
 <br>- h2 database support
 <br>- ignored players are drawn as black forms
 
@@ -1886,7 +1886,7 @@ your error log files and please continue to do so.
 <br>- fixed leander stealing all the pizzas of a player who has failed the quest previously
 
 <br><b>*code*</b>
-<br>- sound system rewritten and using oggs 
+<br>- sound system rewritten and using oggs
 <br>- more client refactoring
 
 <br><b>*website*</b>

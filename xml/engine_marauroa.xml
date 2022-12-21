@@ -1,28 +1,28 @@
 <?xml version='1.0'?>
 <page name="marauroa">
   <updated date="2022-01-08"/>
-  <version id="3.9.7"/>  
+  <version id="3.9.7"/>
   <status value="complete"/>
   <keywords>online game development, game framework, game engine, network communication, asynchronous database access, mysql, h2, java, perceptions and actions</keywords>
   <short-description>Marauroa is Arianne's Multiplayer Online Engine, which you can use to build your own online games. Marauroa handles object management, asynchronous database persistence and perception based client-server communication.</short-description>
-  <!-- 
+  <!--
   <rated>
    <entry>
       <![CDATA[<script type="text/javascript" src="https://www.openhub.net/projects/4434/widgets/project_users?style=gray"></script>]]>
     </entry>
   </rated>
  -->
- <description><![CDATA[ 
+ <description><![CDATA[
 Marauroa is completely written in Java using a multithreaded server architecture
-with a TCP oriented network protocol, a MySQL or H2 based persistence engine and a 
-flexible game system based on open systems totally expandible and modifiable 
+with a TCP oriented network protocol, a MySQL or H2 based persistence engine and a
+flexible game system based on open systems totally expandible and modifiable
 by developers. Game rules can be written in Java, and Python scripts could be supported with a little work.<p/>
- 
-Marauroa is based on a philosophy we call Action/Perception, on each turn a 
-perception is sent to clients explaining them what they percieve and clients 
+
+Marauroa is based on a philosophy we call Action/Perception, on each turn a
+perception is sent to clients explaining them what they percieve and clients
 can ask server to do any action in their names using actions.
-Marauroa is totally game agnostic and makes very little assumptions about what 
-are you trying to do, allowing a great freedom to create whatever type of game 
+Marauroa is totally game agnostic and makes very little assumptions about what
+are you trying to do, allowing a great freedom to create whatever type of game
 you want.<p/>
 
 ]]>
@@ -55,7 +55,7 @@ you want.<p/>
 
 
 	Remember that Marauroa is programming framework and so you need a game to do anything with Marauroa.
-	
+
 	<p><h2>Marauroa is based on very simple principles:</h2>
 	<ul>
 	<li>Clients communicate with the server, and vice-versa, using a TCP portable network protocol with reliability in mind to allow a stabler experience when online game lag occurs. </li>
@@ -82,7 +82,7 @@ you want.<p/>
 <li> supported KeepALive during login phase
 <li> deprecated DAO methods without transaction parameter
 <li> use timestamp of when a command was added to the queue in all database operations
-<li> fixed concurrency issue between perceptions and content transfer in WebSocketChannel 
+<li> fixed concurrency issue between perceptions and content transfer in WebSocketChannel
 </ul>
 
 <b>3.9.6</b>
@@ -132,13 +132,13 @@ Marauroa failed to verify username on client transfer
 <b>3.9.2</b>
 <ul>
 <li> workaround for IllegalArgumentException in proxy check (see <a href="http://icedtea.classpath.org/bugzilla/show_bug.cgi?id=1055">http://icedtea.classpath.org/bugzilla/show_bug.cgi?id=1055</a> )
-</ul> 
+</ul>
 
 <b>3.9.1</b>
 <ul>
 <li> added support for Sha512Crypt with salt and pepper
 <li> fixed cacheable flag being ignored (e.g. map content may be cached)
-</ul> 
+</ul>
 
 <b>3.9</b>
 <ul>
@@ -154,54 +154,54 @@ Marauroa failed to verify username on client transfer
 <li> RPRuleProcessorImpl provides a default implementation for IRPRuleProcessor
 <li> new server.ini variable server_abuseContact to add a sentence with contact information to the ban dialog.
 <li> use ENGINE instead of TYPE on table creation to be compatible with MySQL 5.5
-</ul> 
+</ul>
 
 See also <a href ="https://stendhalgame.org/wiki/Marauroa_3.9">the change document</a>.
 
 <div class="unimportant">
 <b>3.8.7</b>
-<ul> 
+<ul>
 <li> performance improvement by not deep copying all player objects every turn.
 <li> performance improvement by skipping RPObject.id validation during cloning of RPSlots
 <li> performance improvement by removing redundant calls to Attribute.has() and RPObject.getID()
 <li> increased client side timeout while the server is processing the login (may do slow database queries)
 <li> defined better indices for loginEvent designed to answer the number of recently failed logins question fast
-</ul> 
+</ul>
 
 
 <b>3.8.6</b>
-<ul> 
+<ul>
 <li> performance optimization in RPObject.getDifference() by drastically reducing the number of RPobject instantiations
 <li> performance optimization in RPObject to create internal list/map objects only on demand
 <li> build script now creates an additional minized jar file for clients: marauroa-client-only.jar
 <li> improved messages on errors in server.ini
-</ul> 
+</ul>
 
 <b>3.8.5</b>
-<ul> 
+<ul>
 <li> fixed an issue on account renaming
 <li> fixed an issue with special characters in character names
 <li> zones are now stored asynchronously to the database
 <li> fixed a co-modification issue in Attributes.clone() and Statistics.clone()
-</ul> 
+</ul>
 
 
 <b>3.8.4</b>
-<ul> 
+<ul>
 <li> fixed "Replacing content to transfer"
 <li> added configurations parameters allow_account_creation and allow_character_creation
 <li> added new Result.FAILED_CREATE_ON_MAIN_INSTEAD of account/character if it was disabled
 <li> fixed bogus error message about accessing available transactions on closing the TransactionPool
-</ul> 
+</ul>
 
 <b>3.8.3</b>
-<ul> 
+<ul>
 <li> security fix preventing multiple logins of the same character on MySQL
 <li> increased visibility of RPSlot.getOwner() to protected
-</ul> 
+</ul>
 
 <b>3.8.2</b>
-<ul> 
+<ul>
 <li> always call rewriteSql
 <li> speed up first connection time on servers with low entropy
 <li> increased visibility of RPSlot.add(RPObject object, boolean assignId) to protected
@@ -213,26 +213,26 @@ See also <a href ="https://stendhalgame.org/wiki/Marauroa_3.9">the change docume
 <li> added new method DBCommandQueue.getOneResult
 <li> database: added id and status to characters table
 <li> fixed an issue if a client with version 32 and a client with version 32 are in the same zone
-</ul> 
+</ul>
 
 <br><b>3.8</b>
-<ul> 
+<ul>
 <li> attributes of type map
-<li> multi protocol version support for client server communication (from 
+<li> multi protocol version support for client server communication (from
 version 31 to 40)
 <li> multi protocol version support for database storage
 <li> added ability to RPClass.bake() the RPClass to speed up performance.
 <li> logins are now processed asynchronously to speed up performance
-<li> only count clients that are in game in the statistics (not the ones 
+<li> only count clients that are in game in the statistics (not the ones
 waiting to connect or waiting to logout)
-</ul> 
+</ul>
 
-<b>Please see <a href = "https://stendhalgame.org/wiki/Marauroa_3.8">http://stendhalgame.org/wiki/Marauroa_3.8</a> for details on 
+<b>Please see <a href = "https://stendhalgame.org/wiki/Marauroa_3.8">http://stendhalgame.org/wiki/Marauroa_3.8</a> for details on
 those features</b>
 </div>
 
 ]]>
-<!-- 
+<!--
 <![CDATA[
 
 <br><b>3.7.9</b>
@@ -240,7 +240,7 @@ those features</b>
 
 
 <br><b>3.7</b>
-<br>- Note: Make sure that you place the player into the world in RPRuleProcessor.onInit() and not in 
+<br>- Note: Make sure that you place the player into the world in RPRuleProcessor.onInit() and not in
 RPObjectFactory.transform
 <br>- character list now includes the RPObject to provide details if the network protocol version is >= 32
 <br>- improved performance by processing client message outside the PlayerEntryContainer lock
@@ -267,10 +267,10 @@ RPObjectFactory.transform
 <br><b>3.3</b>
 <br>- games can now check the structure of the database using doesTableExist and doesColumnExist in order to update it automatically
 <br>- RPEvents can now have RPSlots
-<br>- RPObject.getContainer() and RPObject.getContainerBase() continue to return an RPObject, 
+<br>- RPObject.getContainer() and RPObject.getContainerBase() continue to return an RPObject,
   use the new getContainerOwner() and getContainerOwnerBase() method to get a SlotOwner object
 <br>- properly free transactions in case of exceptions
-<br>- fixed a problem which caused parts of messages to be dropped when the size field was split across two tcp-packets 
+<br>- fixed a problem which caused parts of messages to be dropped when the size field was split across two tcp-packets
 
 
 <br><b>3.2.1</b>
@@ -297,7 +297,7 @@ RPObjectFactory.transform
 <br>- split JDBCDatabase into several small ...DAO classes
 <br>- added a new package marauroa.server.db for low level database stuff
 <br>- started to work on supporting other database systems beside mysql
-<br>- for help on how to port your application see <a 
+<br>- for help on how to port your application see <a
 href="https://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Marauroa">Refactoring database access in Marauroa</a>
 <br>- fixed some compiler and javadoc warnings
 
@@ -324,7 +324,7 @@ href="https://stendhalgame.org/wiki/index.php/Refactoring_Database_Access_in_Mar
 <br><b>Older</b>
 <br>- Fixed problem with bogus network message.
 <br/>- Added additional results to enum Result (for account/character creation)
-<br/>- Added UnicodeSupportingInputStream and -Reader which automatically detect unicode type (and even support UTF-8Y) 
+<br/>- Added UnicodeSupportingInputStream and -Reader which automatically detect unicode type (and even support UTF-8Y)
 <b>-</b> Fixed MySQL 4.0 incompatibility.
 <br/><b>-</b> Fixed bug at IRPZone.ID
 <br/><b>-</b> Fixed problem with RPObject.hashCode.
