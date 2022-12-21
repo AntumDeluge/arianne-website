@@ -69,9 +69,11 @@ function WriteNewsItemHtml($item) {
 
 	if (isset($item['images']) || isset($item['playnow'])) {
 		if (isset($item['images'])) {
-			foreach ($item['images'][0]['image'] as $key=>$image) {
-				if (is_array($image)) {
-					echo '<img class="news_image" src="/'.$image['url'].'" alt="Game screenshot">'."\r\n";
+			if (is_array($item['images'][0])) {
+				foreach ($item['images'][0]['image'] as $key=>$image) {
+					if (is_array($image)) {
+						echo '<img class="news_image" src="/'.$image['url'].'" alt="Game screenshot">'."\r\n";
+					}
 				}
 			}
 		}
