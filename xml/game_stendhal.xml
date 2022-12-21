@@ -1898,15 +1898,16 @@ your error log files and please continue to do so.
 <p><b>See <a href="http://arianne.cvs.sourceforge.net/viewvc/*checkout*/arianne/stendhal/doc/CHANGES.txt">all past changes</a></b>]]>
 -->
   </changelog>
-  <navigation-image name="raid65.webp"/>
+  <navigation-image name="2020_AthorCocktailBar.webp"/>
   <screenshots>
+    <image name="20210704_RaidDragons.webp"/>
     <image name="MagicTower98.webp"/>
-    <image name="Stendhal98.webp"/>
     <image name="Achievement_Stendhal98.webp"/>
+    <image name="20070522_1_stendhal.webp"/>
+    <image name="Stendhal98.webp"/>
     <image name="raid20110105.webp"/>
     <image name="raid65.webp"/>
     <image name="20070522_stendhal.webp"/>
-    <image name="20070522_1_stendhal.webp"/>
     <image name="20070522_2_stendhal.webp"/>
     <image name="20070522_stendhal.webp"/>
     <image name="20070414_stendhal.webp"/>
