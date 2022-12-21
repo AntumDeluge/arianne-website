@@ -18,22 +18,22 @@ define('ARIANNE_TITLE', ' &ndash; The Arianne Project');
  * @param string $filename
  */
 function checkFilenameParameter($filename) {
-	if(strpos($url,"/")===0) {
+	if(strpos($filename,"/")===0) {
 		return false;
 	}
-	if(strpos($url,"\0")!==false) {
-		return false;
-	}
-
-	if(strpos($url,".")!==false) {
+	if(strpos($filename,"\0")!==false) {
 		return false;
 	}
 
-	if(strpos($url,"//")!==false) {
+	if(strpos($filename,".")!==false) {
 		return false;
 	}
 
-	if(strpos($url,":")!==false) {
+	if(strpos($filename,"//")!==false) {
+		return false;
+	}
+
+	if(strpos($filename,":")!==false) {
 		// http://, https://, ftp://
 		return false;
 	}
