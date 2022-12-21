@@ -12,7 +12,7 @@ class Contact extends Page {
 <h2>IRC</h2>
 <p>You may wish to chat live with the team on IRC. You can get an IRC client and connect to:</p>
 
-<p><b>irc.libera.chat</b> (see <a href="https://libera.chatt">https://libera.chat</a> for more information) then</p>
+<p><b>irc.libera.chat</b> (see <a href="https://libera.chat">https://libera.chat</a> for more information) then</p>
 <ul> 
 <li> <b>#arianne</b> which is for technical discussion, getting help and planning.</li>
 <li><b>#arianne-chat</b> which is for friendly chatter </li>
