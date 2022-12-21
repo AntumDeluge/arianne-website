@@ -193,7 +193,8 @@ class DetailPage extends Page {
 			}
 
 			$filename=str_replace("XXX",$game['page'][0]['version']['0 attr']['id'],$file['name']);
-			if ($section === false) {
+			// FIXME: $section does not appear to be set anywhere
+			if (isset($section) && $section === false) {
 				echo '<li>';
 			} else {
 				echo '<li class="gamepage">';
