@@ -101,7 +101,9 @@ class News extends Page {
 
 	public function __construct() {
 		$this->all = isset($_REQUEST['all']) || (isset($_REQUEST['title']) && $_REQUEST['title'] == 'all');
-		$this->title = $_REQUEST['title'];
+		if (isset($_REQUEST['title'])) {
+			$this->title = $_REQUEST['title'];
+		}
 		$content = implode("",file('xml/website_news.xml'));
 		$this->xml = XML_unserialize($content);
 	}
