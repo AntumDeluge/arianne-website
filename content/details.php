@@ -43,6 +43,9 @@ class DetailPage extends Page {
 	}
 
 	public function writeHtmlHeader() {
+		if (!isset($this->xml['page'])) {
+			return;
+		}
 		echo '<title>'.ucfirst($this->xml['page']['0 attr']['name']).ARIANNE_TITLE.'</title>';
 		if (isset($this->xml['page']) && isset($this->xml['page'][0]['cssdoc']) && ($this->xml['page'][0]['cssdoc']['0 attr']['url'] != "")) {
 			echo '<link rel="stylesheet" type="text/css" href="/'.$this->xml['page'][0]['cssdoc']['0 attr']['url'].'">';
