@@ -16,6 +16,27 @@
 -->
 
   <item>
+    <title>Stendhal 1.42: A bag as gift</title>
+    <date>2022-12-25</date>
+    <images>
+      <image url="screens/stendhal/backpackreward142.webp" large="screens/stendhal/backpackreward142large.webp"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
+    <content>
+      <![CDATA[<p> Elias Breland’s is getting more and more worried about his grandson, who has gone missing. If you have some time to spare and some detective skills, please try to solve this mystery.
+
+<p> It’s the end of the year. And that means Christmas in some regions of the world. But even if you do not celebrate Christmas, a larger bag might come in handy.
+
+<p> Speaking of handy items, Giles is happy to braid ropes for you.
+
+<p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
+]]>
+      </content>
+  </item>
+
+
+
+  <item>
     <title>Stendhal 1.41.2: Fixing defense</title>
     <date>2022-10-25</date>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
