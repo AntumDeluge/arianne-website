@@ -165,7 +165,11 @@ class DetailPage extends Page {
 					} else {
 						echo ', ';
 					}
-					echo '<a href="'.$author['url'].'">'.$author['name'].'</a>';
+					if (isset($author['url']) && $author['url'] !== "") {
+						echo '<a href="'.$author['url'].'">'.$author['name'].'</a>';
+					} else {
+						echo $author['name'];
+					}
 				}
 			}
 		}
