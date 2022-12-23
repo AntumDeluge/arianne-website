@@ -26,7 +26,7 @@ Marauroa is totally <i>game agnostic</i>.</p>
 has been <i>KISS</i>: Keep it simple, stupid! </p>
 <p><b>Arianne example game screenshots:</b></p>
 <ul class="screenshots">
-<li><a href="/game/jamapacman.html"><img src="/screens/mapacman/example.webp" alt="Screenshot of MaPacman"></a></li>
+<!--<li><a href="/game/jamapacman.html"><img src="/screens/mapacman/example.webp" alt="Screenshot of MaPacman"></a></li>-->
 <li><a href="/game/stendhal.html"><img src="/screens/stendhal/20210704_RaidDragons.webp" alt="Screenshot of Stendhal"></a></li>
 <li><a href="/tool/marboard.html"><img src="/screens/marboard/THM_marboard_dot.webp" alt="Screenshot of Marboard"></a></li>
 </ul>
