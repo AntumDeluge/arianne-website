@@ -173,7 +173,7 @@ class DetailPage extends Page {
 				}
 			}
 		}
-		echo '</p>&copy; 2005-2022. Released under <a href="/docs/gpl-2.0.html">GNU General Public License</a>.</p></div>';
+		echo '</p>&copy; 2005-2023. Released under <a href="/docs/gpl-2.0.html">GNU General Public License</a>.</p></div>';
 	}
 
 
