@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2022-12-25"/>
-  <version id="1.42"/>
+  <updated date="2023-03-10"/>
+  <version id="1.43"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp"/>
@@ -52,8 +52,37 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   <changelog><![CDATA[
 
 
-<h3 id="v1.42">1.42: A bag as a gift</h3>
+<h3 id="v1.43">1.43: Fashion and Competition</h3>
 
+<b>world</b><ul>
+<li> new achievements: Fairgoer, Patiently Waiting on Grumpy, Floral Fondness, Challenge Accepted, Traveling Peddler
+<li> new items: amethyst
+<li> new NPCs: Gwen: sells accessories
+
+- Unicorn Horns for Zelan quest is now repeatable
+
+</ul><b>combat changes</b><ul>
+<li> melee weapons can have longer range
+<li> descreased damage penalty compensating for player hit chance handicap
+
+</ul><b>graphics</b><ul>
+<li> new and improved graphics (e. g. trees)
+<li> producer NPCs now have an icon
+<li> support "rear" layers for player outfits
+<li> new and improved background images
+
+</ul><b>web client</b><ul>
+<li> fixed movement with direction key stopping unexpectedly
+<li> weather effects
+<li> added HP bar and karma bar to stats panel
+<li> added trade dialog
+<li> added simple group panel
+
+
+</ul>
+
+
+<h3 id="v1.42">1.42: A bag as a gift</h3>
 
 <b>world</b><ul>
 <li> new quest: A Grandfather's Wish
