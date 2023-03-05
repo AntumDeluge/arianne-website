@@ -16,6 +16,27 @@
 -->
 
   <item>
+    <title>Stendhal 1.43: Fashion and Competition</title>
+    <date>2023-03-10</date>
+    <images>
+      <image url="screens/stendhal/accessory143.webp" large="screens/stendhal/accessory143large.webp"/>
+      <image url="screens/stendhal/flowershop143.webp" large="screens/stendhal/flowershop143large.webp"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
+    <content>
+      <![CDATA[<p> Would you like to show off a powerful weapon or a strong shield? Or do you like to have a fancy umbrella? Talk to Gwen at the new Accessory Shop in Deniran City.
+
+<p> An old and well known shop in Nalwor offers beautiful flowers. But restocking has become an issue. Perhaps you can help? But be careful, the elves might not be friendly to you.
+
+<p> Speaking of dangers, there are some minor changes to the fighting rules which you can explore at the Deathmatch arena in Ados. You can even unlock one of the new achievements there.
+
+<p> In other news: The <a href="https://stendhalgame.org/account/mycharacters.html">webclient</a> saw significant improvements such as a new trade dialog, a simple group panel and weather.
+
+<p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
+]]>
+      </content>
+  </item>
+  <item>
     <title>Stendhal 1.42: A bag as a gift</title>
     <date>2022-12-25</date>
     <images>
