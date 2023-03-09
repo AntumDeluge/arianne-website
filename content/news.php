@@ -37,7 +37,12 @@ function WriteNewsHTMLHeaderForFirstItem($website, $title) {
 			if (isset($item['images'])) {
 				foreach ($item['images'][0]['image'] as $key=>$image) {
 					if (is_array($image)) {
-						echo '<link rel="image_src" href="/'.$image['url'].'">';
+						$url = $image['url'];
+						if (isset($image['large'])) {
+							$url = $image['large'];
+						}
+						echo '<link rel="image_src" href="/'.$url.'">';
+						echo '<meta property="og:image" content="/'.$url.'">';
 						return;
 					}
 				}
