@@ -38,9 +38,11 @@ function WriteNewsHTMLHeaderForFirstItem($website, $title) {
 				foreach ($item['images'][0]['image'] as $key=>$image) {
 					if (is_array($image)) {
 						$url = $image['url'];
+						/*
+						// large images are hard to see on discord
 						if (isset($image['large'])) {
 							$url = $image['large'];
-						}
+						}*/
 						echo '<link rel="image_src" href="/'.$url.'">';
 						echo '<meta property="og:image" content="/'.$url.'">';
 						return;
