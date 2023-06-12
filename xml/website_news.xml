@@ -16,6 +16,16 @@
 -->
 
   <item>
+    <title>Stendhal 1.43.1: Internal resolution</title>
+    <date>2023-06-12</date>
+    <content>
+      <![CDATA[<p>We just published an update to the Java client, to work around the issue with stendhalgame.org not responding to DNS queries. The Java client 1.43.1 will resolve the name "stendhalgame.org" internally. Therefore you can play normally despite the outage.
+
+<p> There are no news on the root issue. The website and webclient are still offline.]]>
+      </content>
+  </item>
+
+  <item>
     <title>stendhalgame.org is offline</title>
     <date>2023-06-12</date>
     <content>
