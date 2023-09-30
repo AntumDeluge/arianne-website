@@ -16,10 +16,31 @@
 -->
 
   <item>
+    <title>Stendhal 1.44: Memories</title>
+    <date>2023-10-03</date>
+    <images>
+      <image url="screens/stendhal/pictures144.webp"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
+    <content>
+      <![CDATA[
+<p> Kirla is famous for being able to create pictures from your. memories. She will have a booth at the upcoming Semos Mine Town Revival Weeks. Due to popular demand, she has decided to offer copies of her memory-pictures to take home.
+
+<p> Speaking of memories. Do you have trouble to remember which person sells or buys which item? You can now check the <a href="https://stendhalgame.org/item/">website</a>.
+
+<p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
+]]>
+      </content>
+  </item>
+
+  <item>
     <title>Stendhal 1.43.1: Internal resolution</title>
     <date>2023-06-12</date>
     <content>
-      <![CDATA[<p>We just published an update to the Java client, to work around the issue with stendhalgame.org not responding to DNS queries. The Java client 1.43.1 will resolve the name "stendhalgame.org" internally. Therefore you can play normally despite the outage.
+      <![CDATA[
+<p><b>Update:</b> The issues have been fixed.
+
+<p>We just published an update to the Java client, to work around the issue with stendhalgame.org not responding to DNS queries. The Java client 1.43.1 will resolve the name "stendhalgame.org" internally. Therefore you can play normally despite the outage.
 
 <p> There are no news on the root issue. The website and webclient are still offline.]]>
       </content>
