@@ -84,6 +84,7 @@ if ($page->writeHttpHeader()) {
 <?php
 	echo '<link rel="stylesheet" type="text/css" href="/css/cssdef.css?1">';
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1" />';
+	echo '<link rel="me" href="https://mastodon.social/@stendhalgame">';
 	$page->writeHtmlHeader();
 ?>
 
