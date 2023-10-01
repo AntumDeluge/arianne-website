@@ -15,6 +15,7 @@
   </item>
 -->
 
+<!--
   <item>
     <title>Stendhal 1.44: Memories</title>
     <date>2023-10-03</date>
@@ -32,6 +33,7 @@
 ]]>
       </content>
   </item>
+-->
 
   <item>
     <title>Stendhal 1.43.1: Internal resolution</title>
@@ -50,7 +52,10 @@
     <title>stendhalgame.org is offline</title>
     <date>2023-06-12</date>
     <content>
-      <![CDATA[Our domain stendhalgame.org is unresolvable at the moment. While we investigate the issue, you can use the Java client to connect to "arianne-project.org" to access the same server. 
+      <![CDATA[
+<p><b>Update:</b> The issues have been fixed.
+
+<p>Our domain stendhalgame.org is unresolvable at the moment. While we investigate the issue, you can use the Java client to connect to "arianne-project.org" to access the same server. 
 ]]>
       </content>
   </item>
