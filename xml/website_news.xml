@@ -15,25 +15,25 @@
   </item>
 -->
 
-<!--
   <item>
     <title>Stendhal 1.44: Memories</title>
-    <date>2023-10-03</date>
+    <date>2023-10-06</date>
     <images>
       <image url="screens/stendhal/pictures144.webp"/>
     </images>
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
-<p> Kirla is famous for being able to create pictures from your. memories. She will have a booth at the upcoming Semos Mine Town Revival Weeks. Due to popular demand, she has decided to offer copies of her memory-pictures to take home.
+<p> Kirla is famous for being able to create pictures from your memories. She will have a booth at the upcoming Semos Mine Town Revival Weeks. Due to popular demand, she has decided to offer copies of her memory-pictures to take home.
 
 <p> Speaking of memories. Do you have trouble to remember which person sells or buys which item? You can now check the <a href="https://stendhalgame.org/item/">website</a>.
+
+<p> There are also two new achievements Fruit Salad and Sowing Seeds: Do you know how many different plants you sowed or harvested?
 
 <p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
 ]]>
       </content>
   </item>
--->
 
   <item>
     <title>Stendhal 1.43.1: Internal resolution</title>

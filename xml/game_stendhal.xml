@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2023-03-09"/>
-  <version id="1.43"/>
+  <updated date="2023-10-06"/>
+  <version id="1.44"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp"/>
@@ -50,6 +50,34 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>
   <changelog><![CDATA[
+<h3 id="v1.44">1.44: Memories</h3>
+
+
+<b>world</b><ul>
+<li> new achievements Fruit Salad: Harvest 3 of all fruit that grow in Faiumoni
+<li> new achievements Sowing Seeds of Joy: Sow 1000 of each type of sowable flower seed
+<li> Kirla sells copies for her memory pictures
+<li> quests now shown in travel log: Adventure Island and Help Tomi
+<li> chicken & mother hen drop eggs
+<li> seeds aren't wasted if attempting to plant them failed
+<li> added fertile ground to more maps: Deniran City W, Kalavan City, Kalavan City Gardens, Semos Plains N (more), Semos Plains NE
+
+</ul><b>website</b><ul>
+<li> item page list sellers and buyers
+
+</ul><b>java client</b><ul>
+<li> rendering mode can be changed in settings
+
+</ul><b>developers</b><ul>
+<li> replaced infostring with itemdata to overcome limit to 255 characters
+<li> items support states (generalized from ring of life)
+<li> Quest Manifest for deliver-item quests
+
+</ul><b>bugfixes</b><ul>
+<li>  fixed Jimbo's shop sign
+<li>  fixed Lobelia's path
+<li>  fixed status effects inflicted by player weapons
+</ul>
 
 
 <h3 id="v1.43">1.43: Fashion and Competition</h3>
