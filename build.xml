@@ -15,6 +15,14 @@
   <property name="dir_logs" value="${dir_build}/logs"/>
 
 
+  <target name="init" description="Update resource info.">
+    <replaceregexp file="content/details.php"
+        match="echo '&lt;/p&gt;&amp;copy; 2005-.*?\."
+        replace="echo '&lt;/p&gt;&amp;copy; 2005-${year}."
+        byline="true"/>
+  </target>
+
+
   <target name="clean" description="Delete all build files and directories.">
     <delete dir="${dir_build}"/>
   </target>
