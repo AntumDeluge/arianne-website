@@ -41,6 +41,13 @@
   </target>
 
 
-  <target name="build" description="Execute main build jobs." depends="clean,phpdoc,phpcpd"/>
+  <target name="pdepend" description="Check PHP design quality metrics." depends="prepare">
+    <exec dir="${basedir}" executable="pdepend" failonerror="true">
+      <arg line="--jdepend-xml=build/logs/jdepend.xml ."/>
+    </exec>
+  </target>
+
+
+  <target name="build" description="Execute main build jobs." depends="clean,phpdoc,phpcpd,pdepend"/>
 
 </project>
