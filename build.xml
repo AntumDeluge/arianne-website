@@ -12,6 +12,7 @@
 
   <property name="dir_build" value="${basedir}/build"/>
   <property name="dir_docs" value="${dir_build}/docs"/>
+  <property name="dir_logs" value="${dir_build}/logs"/>
 
 
   <target name="clean" description="Delete all build files and directories.">
@@ -22,6 +23,7 @@
   <target name="prepare" description="Prepare directories for build.">
     <mkdir dir="${dir_build}"/>
     <mkdir dir="${dir_docs}"/>
+    <mkdir dir="${dir_logs}"/>
   </target>
 
 
@@ -32,6 +34,13 @@
   </target>
 
 
-  <target name="build" description="Execute main build jobs." depends="clean,phpdoc"/>
+  <target name="phpcpd" description="Check code for duplicate lines." depends="prepare">
+    <exec dir="${basedir}" executable="phpcpd" failonerror="true">
+      <arg line="--log-pmd ${dir_logs}/pmd.xml ."/>
+    </exec>
+  </target>
+
+
+  <target name="build" description="Execute main build jobs." depends="clean,phpdoc,phpcpd"/>
 
 </project>
