@@ -14,6 +14,31 @@
       </content>
   </item>
 -->
+  <item>
+    <title>Stendhal 1.45: Branching Out</title>
+    <date>2023-12-25</date>
+    <images>
+      <image url="screens/stendhal/kirdnehbank145.webp"/>
+      <image url="screens/stendhal/seeds145.webp"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
+    <content>
+      <![CDATA[
+<p> After long and hard discussions, the Kirdneh City community has opted to put its hat in the ring and endorse Faiumoni's banking system. 
+	They have installed two city-owned chests accessible to all patrons. In support of the effort, Fado City has renovated their branch building, 
+	adding an entire floor dedicated to the access of accounts held at Kirdneh. But it doesn't stop there. A spokesperson for Fado City tells 
+	that an emissary has recently returned from Magic City reporting successfull negotiations with Wizard's Bank management which has pledged to 
+	honor transactions pertaining to the new branch. Government representatives from the two cities have expressed excitement for the new deal 
+	and believe the expansion will not only prosper local citizens, but benefit travellers from both near and distant regions as far as Athor.
+<p> 
+Having felt the outpour of support from adventurers willing to fight for Semos, Mayor Sakhs has proclaimed he wants to "honor the best of the best". 
+Those that have the patience, endurance, and strength will receive a recognition of achievement higher than any awarded before. Not to be outdone, 
+after hearing the news, Mayor Chalmers immediately ordered a decree be sent to all corners of Faiumoni that Ados too has a new reward for those that 
+
+<p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
+]]>
+      </content>
+  </item>
 
   <item>
     <title>Stendhal 1.44: Memories</title>
