@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2023-10-06"/>
-  <version id="1.44"/>
+  <updated date="2023-12-25"/>
+  <version id="1.45"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp"/>
@@ -50,8 +50,26 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>
   <changelog><![CDATA[
-<h3 id="v1.44">1.44: Memories</h3>
+<h3 id="v1.45">1.45: Branching Out</h3>
 
+<b>world</b><ul>
+<li> new achievements: Ados's Lifeblood, Commander in Chief, Hyperbolist Historian, Nation Crusher, Semos's Ruler
+<li> seeds & bulbs items have unique images
+<li> added Kirdneh City chests to Kirdneh, Fado, & wizard's banks
+<li> added Magic City chest to wizard's bank
+
+</ul><b>web client</b><ul>
+<li> improved touch support
+<li> added optional, experimental on-screen joystick
+<li> added experimental chat options dialog
+<li> added emoji dialog
+<li> displays character name in browser title/tab & stats panel
+<li> displays status effects in stats panel
+<li> weapon style attack sprites rotate with entity
+</ul>
+
+
+<h3 id="v1.44">1.44: Memories</h3>
 
 <b>world</b><ul>
 <li> new achievements Fruit Salad: Harvest 3 of all fruit that grow in Faiumoni
