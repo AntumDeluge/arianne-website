@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2023-12-25"/>
-  <version id="1.45"/>
+  <updated date="2024-03-27"/>
+  <version id="1.46"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp"/>
@@ -50,6 +50,68 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>
   <changelog><![CDATA[
+  
+  
+<h3 id="v1.46">1.46: Getting with the Times</h3>
+
+<b>world</b><ul>
+<li> look-action and website now show the effective def attribute (the hidden factors have been made transparent)
+<li> seeds can be used from inventory
+<li> renamed items: "courgette" to "zucchini", "iron" to "iron bar", "salad" to "lettuce"
+<li> fixed many NPCs not responding to certain chat options
+<li> foghorn sounds plays when ferry arrives at mainland & island
+
+</ul><b>graphics</b><ul>
+<li> redrawn placeholder tiles in Oni Palace
+<li> fixed some outfit errors
+
+</ul><b>web client</b><ul>
+<li> improved movement handling with on-screen joystick & direction pad
+<li> alternate "floating" menu style
+<li> alternate "floating" chat panel style
+<li> software keyboard is automatically hidden after sending chat message
+<li> optional activity indicator for corpses & some signs
+<li> immediate configuration changes affect only the active client/browser tab
+<li> application menu dialog doesn't close when clicking on background
+<li> correct NPC title is displayed in chat options dialog
+<li> disabled highlighting joystick/d-pad button on mouse double-click & drag
+<li> joystick/d-pad isn't shown until user interface is ready
+<li> character name in stats panel uses default font size
+<li> fixed chest default open/close behavior (clicking on open chest opens inventory window instead of closing)
+<li> doesn't attempt to open corpse/chest inventory windows when character not in range
+<li> fixed chat history duplicates
+<li> chat options dialog remains open until NPC is no longer attending or player closes
+<li> fixed continuous movement state not always updated at startup
+<li> supports displaying members' HP status in group panel
+<li> fixed group panel not always showing membership after login
+<li> added support for touch drag-and-drop
+<li> fixed weather drawing to not appear to move with player
+<li> fixed subsequent single clicks on items to not count as double after double click
+<li> fixed deathmatch scrying orbs
+<li> fixed portal default action when on a collision tile
+<li> added autocomplete support
+<li> fixed positioning of door sprites (-2_orril_lich_palace 84 108)
+<li> optional click/touch indicator
+<li> fixed difficult to move small floating windows
+<li> supports chat commands tab completion
+<li> supports text highlighting in speech bubbles
+<li> fixed opening chat log context menu with touch
+
+</ul><b>Android</b><ul>
+<li> added option to clear WebView cache
+<li> added option to lock orientation
+<li> fixes for using the correct software keyboard
+<li> app ID changed to conform with F-Droid standards
+
+</ul><b>backend/build</b><ul>
+<li> Android build no longer depends on Marauroa
+<li> updated & fixed `runserver` scripts
+<li> update converter can handle quest slot sections delimited by commas
+</ul>
+
+
+
+  
 <h3 id="v1.45">1.45: Branching Out</h3>
 
 <b>world</b><ul>
@@ -229,6 +291,13 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 <li> screenshot support
 </ul>
 
+
+]]>
+<!--
+<![CDATA[
+
+
+
 <h3 id="v1.39">1.39: For Love or Greed</h3>
 
 <b>world</b><ul>
@@ -345,11 +414,6 @@ Start playing, get hooked... and if you like, get the source code, and add your 
 </ul>
 
 
-
-
-]]>
-<!--
-<![CDATA[
 
 
 <h3 id="v1.34">Stendhal 1.34: Dojo</h3>
