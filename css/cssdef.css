@@ -641,6 +641,10 @@ a.rss {
 	float:right; z-index:1000
 }
 
+img.fullwidth {
+	width:100%;
+}
+
 /************************************/
 /* download.php page render tags    */
 
