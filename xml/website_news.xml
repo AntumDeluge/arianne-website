@@ -14,6 +14,43 @@
       </content>
   </item>
 -->
+
+
+
+  <item>
+    <title>Stendhal 1.46: Getting with the Times</title>
+    <date>2024-03-27</date>
+    <images>
+      <!--<image url="screens/stendhal/android146.webp" large="screens/stendhal/android146large.webp"/>-->
+      <image url="screens/stendhal/chatoptions146.webp" large="screens/stendhal/chatoptions146large.webp"/>
+      <image url="screens/stendhal/indicator146.webp" large="screens/stendhal/indicator146large.webp"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
+    <content>
+      <![CDATA[
+<p> 
+
+<p> In this release we focused on the user interface:
+
+<p> In the past different types of items had different defense multiplies. But this was confusing, 
+so all items show their real defense level now.
+
+<p> In addition to the clasic Java based client, Stendhal is now fully playable in all 
+major web browsers on both desktop and mobile devices. 
+
+<p> A new chat options dialog simplifies interactions with NPCs.
+Interactive objects are highlighted by an action indicator icon.
+
+<p> There are massive improvements to touch-support including drag &amp; drop fixes and an optional on-screen joystick and d-pad.
+
+<!--<img src="screens/stendhal/android146large.webp" class="fullwidth">-->
+<p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
+]]>
+      </content>
+  </item>
+
+
+
   <item>
     <title>Stendhal 1.45: Branching Out</title>
     <date>2023-12-25</date>
