@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<project name="Arianne Website Jobs" default="build">
+
+  <!-- time & date -->
+  <tstamp>
+    <format property="year" pattern="yyyy"/>
+    <format property="date" pattern="yyyy-MM-dd"/>
+    <format property="time" pattern="HH:mm:ss"/>
+  </tstamp>
+  <property name="datetime" value="${date} ${time}"/>
+
+  <property name="dir_build" value="${basedir}/build"/>
+  <property name="dir_docs" value="${dir_build}/docs"/>
+  <property name="dir_logs" value="${dir_build}/logs"/>
+
+
+  <target name="init" description="Update resource info.">
+    <replaceregexp file="content/details.php"
+        match="echo '&lt;/p&gt;&amp;copy; 2005-.*?\."
+        replace="echo '&lt;/p&gt;&amp;copy; 2005-${year}."
+        byline="true"/>
+  </target>
+
+
+  <target name="clean" description="Delete all build files and directories.">
+    <delete dir="${dir_build}"/>
+  </target>
+
+
+  <target name="prepare" description="Prepare directories for build.">
+    <mkdir dir="${dir_build}"/>
+    <mkdir dir="${dir_docs}"/>
+    <mkdir dir="${dir_logs}"/>
+  </target>
+
+
+  <target name="phpdoc" description="Generate HTML documentation." depends="prepare">
+    <exec executable="phpdoc" dir="${basedir}" failonerror="true">
+      <arg line="run -d . -t ${dir_docs} --title 'Arianne Website PHP Documentation' --parseprivate"/>
+    </exec>
+  </target>
+
+
+  <target name="phpcpd" description="Check code for duplicate lines." depends="prepare">
+    <exec dir="${basedir}" executable="phpcpd" failonerror="true">
+      <arg line="--log-pmd ${dir_logs}/pmd.xml ."/>
+    </exec>
+  </target>
+
+
+  <target name="pdepend" description="Check PHP design quality metrics." depends="prepare">
+    <exec dir="${basedir}" executable="pdepend" failonerror="true">
+      <arg line="--jdepend-xml=build/logs/jdepend.xml ."/>
+    </exec>
+  </target>
+
+
+  <target name="phpcs" description="Check code and docstrings styling." depends="prepare">
+    <!-- parse top-level & nested PHP sources -->
+    <pathconvert property="filelist" pathsep=" ">
+      <fileset dir="${basedir}" includes="**/*.php"/>
+    </pathconvert>
+
+    <exec dir="${basedir}" executable="phpcs" output="${basedir}/build/logs/checkstyle.xml" failonerror="false">
+      <arg line="${filelist}"/>
+    </exec>
+  </target>
+
+
+  <target name="build" description="Execute main build jobs." depends="clean,phpdoc,phpcpd,pdepend,phpcs"/>
+
+</project>

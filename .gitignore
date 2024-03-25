@@ -1,3 +1,7 @@
+/build/
 /counter.data
 /googlebac*
 /jws
+
+# phpDocumentor
+/.phpdoc/
