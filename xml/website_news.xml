@@ -15,36 +15,6 @@
   </item>
 -->
 
-  <item>
-    <title>Stendhal 1.46: Getting with the Times</title>
-    <date>2024-03-27</date>
-    <images>
-      <!--<image url="screens/stendhal/android146.webp" large="screens/stendhal/android146large.webp"/>-->
-      <image url="screens/stendhal/chatoptions146.webp" large="screens/stendhal/chatoptions146large.webp"/>
-      <image url="screens/stendhal/indicator146.webp" large="screens/stendhal/indicator146large.webp"/>
-    </images>
-    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
-    <content>
-      <![CDATA[
-<p>We're breaking the fourth wall in this release announcment and pulling back the curtain a tad to give you the details of a much updated and contemporary release. You won't find a lot of changes to the Stendhal world as we have been working to "get with the times". Instead you will be greeted with a modern and much improved client interface built for use on a variety of platforms.
-
-<p>Much effort has been put in to adding touch input support to expand gameplay to mobile devices. The client now has a configurable on-screen joystick or direction pad to handle character movement while continuing to support pathfinding using clicks or touches to the ground. Object drag-and-drop was another important focus. In previous releases it was only possible using mouse input but now has been expanded to support touch enabled devices. The main menu button and chat log panel have also been made configurable to employ an optional floating style that makes better use of screen real estate for compact devices with low resolutions.
-
-<p><img src="screens/stendhal/android146large.webp" class="fullwidth">
-
-<p>To aid in convenience for players using touch devices, we have added a "chat options" dialog window. It contains keywords to interact with NPCs instead of requiring to type everything out. Of course, being that Stendhal is heavily dependent on chat interactions with NPCs, some typing will still be required. Another new feature is object indicators. Similar in application to the changing of the displayed cursor over certain objects for mouse enabled devices, it is used to indicate to the player that an action is available. For example, to show that a corpse contains items or that there is a readable note on a table.
-
-<p>If you feel concerned that perhaps development is moving toward mobile platforms only, put your mind at ease. Stendhal will always be available for desktop systems. The web client is now our central interface and thanks to the versatility of JavaScript and web applications, not only is it playable in all major web browsers, it also serves as the cornerstone of our new Android client and future dedicated desktop clients. So the choice is yours of how you want to play, whether installed as a downloadable app or directly in your desktop or mobile browser.
-
-
-
-<p>Getting back to the world of Stendhal, we want to mention that the ferry service has received a small upgrade. Captain Brownbeard invested in a fog horn. Listen for its low blare announcing its arrival to port. 
-<p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
-]]>
-      </content>
-  </item>
-
-
 
   <item>
     <title>Stendhal 1.46: Getting with the Times</title>
@@ -57,8 +27,6 @@
     <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
     <content>
       <![CDATA[
-<p> 
-
 <p> In this release we focused on the user interface:
 
 <p> In the past different types of items had different defense multiplies. But this was confusing, 
@@ -72,7 +40,6 @@ Interactive objects are highlighted by an action indicator icon.
 
 <p> There are massive improvements to touch-support including drag &amp; drop fixes and an optional on-screen joystick and d-pad.
 
-<!--<img src="screens/stendhal/android146large.webp" class="fullwidth">-->
 <p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
 ]]>
       </content>

@@ -2111,10 +2111,11 @@ your error log files and please continue to do so.
     <server name="Game server" url="https://stendhalgame.org/"/>
   </servers>
   <authors>
-    <entry name="kymara" url="https://www.openhub.net/accounts/kymara"/>
     <entry name="Hendrik" url="https://www.openhub.net/accounts/nhnb"/>
+    <entry name="AntumDeluge" url="https://openhub.net/p/3711/contributors/15940771992763"/>
     <entry name="kiheru" url="https://www.openhub.net/accounts/kiheru"/>
     <entry name="madmetzger" url="https://www.openhub.net/accounts/madmetzger"/>
+    <entry name="kymara" url="https://www.openhub.net/accounts/kymara"/>
     <entry name="yoriy" url="https://www.openhub.net/accounts/yoriy"/>
     <entry name="bluelads" url="https://www.openhub.net/accounts/Bluelads99"/>
     <entry name="storyteller" url="https://www.openhub.net/accounts/Storyteller"/>
