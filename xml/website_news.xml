@@ -29,8 +29,8 @@
       <![CDATA[
 <p> In this release we focused on the user interface:
 
-<p> In the past different types of items had different defense multiplies. But this was confusing, 
-so all items show their real defense level now.
+<p> In the past different types of items (e. g. shields and armor) had different implied defense multiplies. But this was confusing, 
+so all items show their real defense level directly now.
 
 <p> In addition to the clasic Java based client, Stendhal is now fully playable in all 
 major web browsers on both desktop and mobile devices. 
@@ -38,7 +38,7 @@ major web browsers on both desktop and mobile devices.
 <p> A new chat options dialog simplifies interactions with NPCs.
 Interactive objects are highlighted by an action indicator icon.
 
-<p> There are massive improvements to touch-support including drag &amp; drop fixes and an optional on-screen joystick and d-pad.
+<p> There are massive improvements to touch-support including drag &amp; drop fixes and an optional on&#8209;screen joystick and d&#8209;pad.
 
 <p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
 ]]>
