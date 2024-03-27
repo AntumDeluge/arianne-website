@@ -29,7 +29,7 @@
       <![CDATA[
 <p> In this release we focused on the user interface:
 
-<p> In the past different types of items had different defense multiplies. But this was confusing, 
+<p> In the past different types of items had different defense multipliers. But this was confusing, 
 so all items show their real defense level now.
 
 <p> In addition to the clasic Java based client, Stendhal is now fully playable in all 
