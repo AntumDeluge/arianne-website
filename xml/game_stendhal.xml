@@ -2100,6 +2100,9 @@ your error log files and please continue to do so.
     <file type="client" name="stendhal-XXX.zip" suggest="true">
       <description>This file contains the stendhal client. Download this to play online.</description>
     </file>
+    <file type="client" name="org.stendhalgame.client-XXX.apk" suggest="true">
+      <description>This file contains the stendhal client for Android. Download this to play online using mobile devices.</description>
+    </file>
     <file type="server" name="stendhal-server-XXX.zip">
       <description><![CDATA[This file contains the stendhal server files.<br>See <a href="https://stendhalgame.org/wiki/Host_a_Stendhal_Server">hosting information</a>.]]></description>
     </file>
