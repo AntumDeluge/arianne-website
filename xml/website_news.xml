@@ -14,7 +14,27 @@
       </content>
   </item>
 -->
+  <item>
+    <title>Stendhal 1.47: Pizza in Demand!</title>
+    <date>2024-05-31</date>
+    <images>
+      <image url="screens/stendhal/darkangelsword147large.webp" large="screens/stendhal/darkangelsword147large.webp"/>
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
+    <content>
+      <![CDATA[
+<p> Pizza is a popular meal of choice for the residents of Faiumoni. With growing demand, Leander is looking to hire reliable workers to transport his hot and delicious cuisine to patrons. Couriers with reputations of on-time deliveries are being recognized for their work ethic. Talk with Leander in Semos City's bakery if you want to help out.
 
+<p> In other culinary news, Chef Patrick, having caught wind that someone else has been using his name, requested a legal name change from the King of Deniran City. The request was granted and you will now find Chef Preston laboring in the bakery.
+
+<p> Some adventurers may be distressed and feel that their quest for the title of "Ultimate Collector" is in vain. Well fret no more, as Balduin is offering a ray of hope. Requests to bring him a different item for the Ultimate Collector quest are now accepted. Though changing won't be immediate. Seekers that want to look for a new item will have to wait until he determines they have already put in some effort.
+
+<p> Also, you may notice that some creatures have once again taken up arms. Such like the angel and dark angel which have new swords. 
+
+<p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
+]]>
+      </content>
+  </item>
 
   <item>
     <title>Stendhal 1.46: Getting with the Times</title>
