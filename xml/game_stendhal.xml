@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2024-03-27"/>
-  <version id="1.46"/>
+  <updated date="2025-05-31"/>
+  <version id="1.47"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp"/>
@@ -50,8 +50,27 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>
   <changelog><![CDATA[
-  
-  
+<h3 id="v1.47">1.47: Pizza in Demand!</h3>
+
+<b>world</b><ul>
+<li> New achievements: 30 Minutes or Less
+<li> Balduin allows requesting different item for Ultimate Collector quest
+<li> renamed chef Patrick to Preston
+
+</ul><b>web client</b><ul>
+<li> fixed text extending past edge of notification bubbles
+<li> added support for saving chat log to file
+<li> bigger buttons for small touch enabled devices
+<li> travel log displays while waiting for response from server
+<li> supports optional tab placement above panel contents
+<li> travel log tabs match theme
+<li> added basic lighting effects support
+
+</ul><b>fixes</b><ul>
+<li> fixed Seven Cherubs not showing up as completed
+</ul>
+
+
 <h3 id="v1.46">1.46: Getting with the Times</h3>
 
 <b>world</b><ul>
