@@ -14,6 +14,29 @@
       </content>
   </item>
 -->
+
+  <item>
+    <title>Stendhal 1.48: Aesthetically Pleasing</title>
+    <date>2024-12-20</date>
+    <images>
+      <image url="screens/stendhal/parallax_scrolling148.webp" />
+      <image url="screens/stendhal/four-leaf_clover148large.webp" large="screens/stendhal/four-leaf_clover148large.webp" />
+    </images>
+    <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp" />
+    <content>
+      <![CDATA[
+<p> The world has just gotten a little fancier. You may notice that the clouds have cleared in Kikareukin, revealing a beautiful view of Semos below.
+
+<p> If luck has it, you may find a rare four-leaf clover. Keep your eyes peeled, they pop up in random locations that receive sunshine. Clover hunters will reward generously for such valuable trinkets.
+
+<p >Jef is still eager to hear from his mother, Amber. But don't expect to find her on her usual route as she has taken to wandering off the beaten path. Speaking of wandering, some creatures have become more unpredictable in their behavior. Be careful, as you may encounter them in unexpected places.
+
+<p> Please see the complete <a href="/game/stendhal.html#changes">change log</a> for further details.
+]]>
+      </content>
+  </item>
+
+
   <item>
     <title>Stendhal 1.47: Pizza in Demand!</title>
     <date>2024-05-31</date>
