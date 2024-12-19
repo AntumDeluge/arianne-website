@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page name="stendhal" shortdescription="A multiplayer online adventures game">
-  <updated date="2025-05-31"/>
-  <version id="1.47"/>
+  <updated date="2024-12-20"/>
+  <version id="1.48"/>
   <status value="stable"/>
   <type value="game"/>
   <playnow url="https://stendhalgame.org/account/mycharacters.html" image="images/playbutton.webp"/>
@@ -50,6 +50,41 @@ Start playing, get hooked... and if you like, get the source code, and add your 
   </extended>
   <manual url="https://stendhalgame.org/wiki/Stendhal_Manual/Controls_and_Game_Settings"/>
   <changelog><![CDATA[
+<h3 id="v1.48">1.48: Aesthetically Pleasing</h3>
+
+<b>world</b><ul>
+<li> new NPC: Maple, a clover hunter
+<li> new achievement: Luck O' the Irish: Find the lucky four-leaf clover
+<li> new quest: Lucky Four-Leaf Clover
+<li> new items: four-leaf clover and ring of clarity
+<li> House Buying displays under open quests when taxes owed
+<li> added music to Athor Island
+<li> Mayor Chalmers won't accept experimental sandwiches for Daily Item Quest
+<li> touched up and added equipment to many entity sprites
+<li> Amber wanders randomly instead of using set path
+<li> changed turtle behavior to wander
+<li> added wander behavior to crab in addition to patrol
+
+</ul><b>web client</b><ul>
+<li> added support for parallax scrolling backgrounds
+<li> added visuals tab to settings dialog
+<li> animated fog, animated clouds in Kika Clouds
+<li> added parallax backgrounds to Kika Islands & Kika Clouds maps
+<li> added parallax backgrounds to Wizards Tower
+<li> added quick menu button to toggle pathfinding via ground
+<li> added support for animated entity overlay effects
+<li> added transformation effect to vampires
+<li> cleaned up bestiary window layout
+<li> performance optimization: sound events too far away to be heard are not loaded
+<li> outfit dialog preview can be rotated
+
+</ul><b>bug fixes</b><ul>
+<li> fixed multiple issues with Akutagawa's repair shop
+
+</ul><b>experimental features</b><ul>
+<li> built-in support added for capturing video of web client viewport
+</ul>
+
 <h3 id="v1.47">1.47: Pizza in Demand!</h3>
 
 <b>world</b><ul>
